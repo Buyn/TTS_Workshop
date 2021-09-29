@@ -1,0 +1,1554 @@
+{
+  "SaveName": "Mansions of Madness First Edition Map Tiles",
+  "GameMode": "Checkers",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "8/28/2016 6:26:51 PM",
+  "Table": "Table_RPG",
+  "Sky": "Sky_Forest",
+  "Note": "\n",
+  "Rules": "",
+  "XmlUI": "",
+  "LuaScript": "--[[ Lua code. See documentation: http://berserk-games.com/knowledgebase/scripting/ --]]\n\n--[[ The OnLoad function. This is called after everything in the game save finishes loading.\nMost of your script code goes here. --]]\nfunction onload()\n    --[[ print('Onload!') --]]\nend\n\n--[[ The Update function. This is called once per frame. --]]\nfunction update ()\n    --[[ print('Update loop!') --]]\nend",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -15.1107731,
+          "posY": 4.81034231,
+          "posZ": -20.1076221,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 11.771986,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -30.2150211,
+          "posY": 4.81034231,
+          "posZ": 10.17524,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6554251,
+          "scaleY": 9.174497,
+          "scaleZ": 4.919951
+        }
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 30.2511711,
+          "posY": 4.81034231,
+          "posZ": 9.59069252,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6554193,
+          "scaleY": 9.174497,
+          "scaleZ": 4.919951
+        }
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 15.4749184,
+          "posY": 4.81034231,
+          "posZ": 19.8365288,
+          "rotX": 0.0,
+          "rotY": 179.8,
+          "rotZ": 0.0,
+          "scaleX": 11.7719727,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87123775
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 15.1961212,
+          "posY": 4.81034231,
+          "posZ": -20.1400986,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 11.7719679,
+          "scaleY": 9.17449951,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": -15.1927719,
+          "posY": 4.81034231,
+          "posZ": 19.787817,
+          "rotX": 0.0,
+          "rotY": 180.000031,
+          "rotZ": 0.0,
+          "scaleX": 11.7719679,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 30.1035728,
+          "posY": 4.81034231,
+          "posZ": -8.449126,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6554174,
+          "scaleY": 9.174497,
+          "scaleZ": 4.919951
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -30.247818,
+          "posY": 4.81034231,
+          "posZ": -8.822588,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 11.65543,
+          "scaleY": 9.174497,
+          "scaleZ": 4.919951
+        }
+      }
+    ]
+  },
+  "VectorLines": [
+    {
+      "points3": [
+        {
+          "x": -25.61,
+          "y": 6.69,
+          "z": -102.45
+        },
+        {
+          "x": -25.37,
+          "y": 6.69,
+          "z": -102.45
+        }
+      ],
+      "color": {
+        "r": 0.117647059,
+        "g": 0.5294118,
+        "b": 1.0
+      },
+      "thickness": 0.1
+    },
+    {
+      "points3": [
+        {
+          "x": -10.03,
+          "y": 6.6,
+          "z": -102.48
+        },
+        {
+          "x": -9.79,
+          "y": 6.6,
+          "z": -102.48
+        }
+      ],
+      "color": {
+        "r": 0.117647059,
+        "g": 0.5294118,
+        "b": 1.0
+      },
+      "thickness": 0.1
+    }
+  ],
+  "ObjectStates": [
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 3.34669614,
+        "posY": 0.774965763,
+        "posZ": 1.9865607,
+        "rotX": 4.33358025E-08,
+        "rotY": 0.00361639168,
+        "rotZ": 6.3032644E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Forbidden Alchemy",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.7058823,
+        "g": 0.366520882,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Bag",
+          "Transform": {
+            "posX": -17.2555943,
+            "posY": 2.84849739,
+            "posZ": -12.6723289,
+            "rotX": 0.059681695,
+            "rotY": 0.0341579728,
+            "rotZ": 0.0470400341,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "medium",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.7058823,
+            "g": 0.366520882,
+            "b": 0.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [
+            {
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -6.03161049,
+                "posY": 3.03498936,
+                "posZ": -26.3723946,
+                "rotX": 359.981628,
+                "rotY": -0.0007878886,
+                "rotZ": 0.00335116615,
+                "scaleX": 4.37573433,
+                "scaleY": 1.0,
+                "scaleZ": 4.37573433
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://www.dropbox.com/s/dn1c0x02xyzukig/famedium1a.png?dl=1",
+                "ImageSecondaryURL": "https://www.dropbox.com/s/jd5eyl7vxtxrdvg/famedium1b.png?dl=1",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 0,
+                  "Thickness": 0.1,
+                  "Stackable": true,
+                  "Stretch": true
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "002ece"
+            },
+            {
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -7.01259756,
+                "posY": 3.13266349,
+                "posZ": -24.26305,
+                "rotX": 0.0586263277,
+                "rotY": 0.0346679054,
+                "rotZ": 180.034958,
+                "scaleX": 4.37573433,
+                "scaleY": 1.0,
+                "scaleZ": 4.37573433
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://www.dropbox.com/s/cjnkdz30y36a6xt/famedium2a.png?dl=1",
+                "ImageSecondaryURL": "https://www.dropbox.com/s/7sq1qawutnwj301/famedium2b.png?dl=1",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 0,
+                  "Thickness": 0.1,
+                  "Stackable": true,
+                  "Stretch": true
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "1d5d0f"
+            },
+            {
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -5.08643675,
+                "posY": 3.131505,
+                "posZ": -23.1654873,
+                "rotX": 0.0581218749,
+                "rotY": 345.016327,
+                "rotZ": 179.963074,
+                "scaleX": 4.37573433,
+                "scaleY": 1.0,
+                "scaleZ": 4.37573433
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://www.dropbox.com/s/92pwbhb3f4cfwvp/famedium3a.png?dl=1",
+                "ImageSecondaryURL": "https://www.dropbox.com/s/su0n658xoe17two/famedium3b.png?dl=1",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 0,
+                  "Thickness": 0.1,
+                  "Stackable": true,
+                  "Stretch": true
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "55223a"
+            }
+          ],
+          "GUID": "f242bc"
+        },
+        {
+          "Name": "Bag",
+          "Transform": {
+            "posX": -16.8499641,
+            "posY": 2.84882927,
+            "posZ": -12.590004,
+            "rotX": 0.1009433,
+            "rotY": 359.986145,
+            "rotZ": 0.09771369,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "small",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.7058823,
+            "g": 0.366520882,
+            "b": 0.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [
+            {
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -10.6185942,
+                "posY": 3.03240228,
+                "posZ": -7.52882671,
+                "rotX": 359.915863,
+                "rotY": 180.006073,
+                "rotZ": 0.04274232,
+                "scaleX": 2.17745757,
+                "scaleY": 1.0,
+                "scaleZ": 2.17745757
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://www.dropbox.com/s/vjm7dpy6hgabvzt/fasmall1a.png?dl=1",
+                "ImageSecondaryURL": "https://www.dropbox.com/s/3ww46ye87pzt1xk/fasmall1b.png?dl=1",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 0,
+                  "Thickness": 0.1,
+                  "Stackable": true,
+                  "Stretch": true
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "eb0972"
+            },
+            {
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -12.17948,
+                "posY": 3.03225327,
+                "posZ": -7.32548046,
+                "rotX": 359.884979,
+                "rotY": 179.998947,
+                "rotZ": 359.977081,
+                "scaleX": 2.17745757,
+                "scaleY": 1.0,
+                "scaleZ": 2.17745757
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://www.dropbox.com/s/f79y2k0bsbxor78/fasmall2a.png?dl=1",
+                "ImageSecondaryURL": "https://www.dropbox.com/s/a1c61bkocs8pgpz/fasmall2b.png?dl=1",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 0,
+                  "Thickness": 0.1,
+                  "Stackable": true,
+                  "Stretch": true
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "c67f55"
+            },
+            {
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -10.89406,
+                "posY": 3.03321719,
+                "posZ": -8.280517,
+                "rotX": 0.0487468056,
+                "rotY": 180.000229,
+                "rotZ": 0.0345284,
+                "scaleX": 2.17745757,
+                "scaleY": 1.0,
+                "scaleZ": 2.17745757
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://www.dropbox.com/s/3hg1mf76nyhfkjb/fasmall3a.png?dl=1",
+                "ImageSecondaryURL": "https://www.dropbox.com/s/naefpx0bkn7vpj9/fasmall3b.png?dl=1",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 0,
+                  "Thickness": 0.1,
+                  "Stackable": true,
+                  "Stretch": true
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "d340bf"
+            }
+          ],
+          "GUID": "c4140b"
+        }
+      ],
+      "GUID": "9771ee"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": -3.33884525,
+        "posY": 0.77496624,
+        "posZ": 2.03333235,
+        "rotX": 3.738324E-07,
+        "rotY": 0.009494283,
+        "rotZ": -3.6985432E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Mansions of Madness 1st edition",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.7058823,
+        "g": 0.366520882,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Bag",
+          "Transform": {
+            "posX": -33.38775,
+            "posY": 2.847346,
+            "posZ": -1.82075453,
+            "rotX": 0.02780079,
+            "rotY": 359.9803,
+            "rotZ": 359.909943,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "small",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.7058823,
+            "g": 0.366520882,
+            "b": 0.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [
+            {
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -19.6843433,
+                "posY": 3.03367376,
+                "posZ": -9.68292,
+                "rotX": 0.00175732,
+                "rotY": 180.0,
+                "rotZ": 359.974945,
+                "scaleX": 2.17745757,
+                "scaleY": 1.0,
+                "scaleZ": 2.17745757
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://www.dropbox.com/s/lwfr08zueypjaqo/small1a.png?dl=1",
+                "ImageSecondaryURL": "https://www.dropbox.com/s/jiu5aew91fh5tyq/small1b.png?dl=1",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 0,
+                  "Thickness": 0.1,
+                  "Stackable": true,
+                  "Stretch": true
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "172bd7"
+            },
+            {
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -18.3278389,
+                "posY": 3.00556755,
+                "posZ": -9.859605,
+                "rotX": 359.763275,
+                "rotY": 195.008392,
+                "rotZ": 1.02295792,
+                "scaleX": 2.17745757,
+                "scaleY": 1.0,
+                "scaleZ": 2.17745757
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://www.dropbox.com/s/sjic8jqvgix39hu/small3a.png?dl=1",
+                "ImageSecondaryURL": "https://www.dropbox.com/s/12cq0hjcn25yyhd/small3b.png?dl=1",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 0,
+                  "Thickness": 0.1,
+                  "Stackable": true,
+                  "Stretch": true
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "4eef4d"
+            },
+            {
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -18.5602837,
+                "posY": 2.72726226,
+                "posZ": -9.807813,
+                "rotX": 0.182581827,
+                "rotY": 179.9994,
+                "rotZ": 359.9566,
+                "scaleX": 2.17745757,
+                "scaleY": 1.0,
+                "scaleZ": 2.17745757
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://www.dropbox.com/s/ggii2htvem1kpnh/small2a.png?dl=1",
+                "ImageSecondaryURL": "https://www.dropbox.com/s/7fxgt0zcjtm25ym/small2b.png?dl=1",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 0,
+                  "Thickness": 0.1,
+                  "Stackable": true,
+                  "Stretch": true
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "a4d64e"
+            },
+            {
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -19.9017086,
+                "posY": 3.03292084,
+                "posZ": -9.259303,
+                "rotX": 359.9211,
+                "rotY": 180.001,
+                "rotZ": 359.9677,
+                "scaleX": 2.17745757,
+                "scaleY": 1.0,
+                "scaleZ": 2.17745757
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://www.dropbox.com/s/s6zhmkm6u4b56jv/small4a.png?dl=1",
+                "ImageSecondaryURL": "https://www.dropbox.com/s/522mn7we4v3zm4c/small4b.png?dl=1",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 0,
+                  "Thickness": 0.1,
+                  "Stackable": true,
+                  "Stretch": true
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "cb7325"
+            },
+            {
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -21.1511135,
+                "posY": 3.03113341,
+                "posZ": -10.2729654,
+                "rotX": 0.07366252,
+                "rotY": 179.9956,
+                "rotZ": 359.9415,
+                "scaleX": 2.17745757,
+                "scaleY": 1.0,
+                "scaleZ": 2.17745757
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://www.dropbox.com/s/xxvl6id2pvlr1v0/small5a.png?dl=1",
+                "ImageSecondaryURL": "https://www.dropbox.com/s/97mlsbg7gp14mim/small5b.png?dl=1",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 0,
+                  "Thickness": 0.1,
+                  "Stackable": true,
+                  "Stretch": true
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "af6678"
+            },
+            {
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -20.72249,
+                "posY": 3.1316576,
+                "posZ": -10.2403889,
+                "rotX": 0.08110284,
+                "rotY": 180.000717,
+                "rotZ": 179.945877,
+                "scaleX": 2.17745757,
+                "scaleY": 1.0,
+                "scaleZ": 2.17745757
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://www.dropbox.com/s/5w1on789wqwi5kt/small7a.png?dl=1",
+                "ImageSecondaryURL": "https://www.dropbox.com/s/6twjs335vuvh9ui/small7b.png?dl=1",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 0,
+                  "Thickness": 0.1,
+                  "Stackable": true,
+                  "Stretch": true
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "bb6fe3"
+            },
+            {
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -20.2201862,
+                "posY": 3.03169155,
+                "posZ": -4.58395338,
+                "rotX": 359.9871,
+                "rotY": 180.001846,
+                "rotZ": 0.06640671,
+                "scaleX": 2.17745757,
+                "scaleY": 1.0,
+                "scaleZ": 2.17745757
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://www.dropbox.com/s/xs02dqvupqjwbfq/small6a.png?dl=1",
+                "ImageSecondaryURL": "https://www.dropbox.com/s/3oy05rnmyfhapdj/small6b.png?dl=1",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 0,
+                  "Thickness": 0.1,
+                  "Stackable": true,
+                  "Stretch": true
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "2367d1"
+            }
+          ],
+          "GUID": "f01f48"
+        },
+        {
+          "Name": "Bag",
+          "Transform": {
+            "posX": -33.6893539,
+            "posY": 2.825327,
+            "posZ": -3.04232454,
+            "rotX": 359.82785,
+            "rotY": 0.0478335321,
+            "rotZ": 359.9619,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "medium",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.7058823,
+            "g": 0.366520882,
+            "b": 0.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [
+            {
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -23.9067268,
+                "posY": 3.033475,
+                "posZ": -14.5427275,
+                "rotX": 359.9669,
+                "rotY": 2.974981E-06,
+                "rotZ": 0.009804459,
+                "scaleX": 4.37573433,
+                "scaleY": 1.0,
+                "scaleZ": 4.37573433
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://www.dropbox.com/s/iid3x1iti9c3d7m/medium1a.png?dl=1",
+                "ImageSecondaryURL": "https://www.dropbox.com/s/qaqltid2paaf82e/medium1b.png?dl=1",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 0,
+                  "Thickness": 0.1,
+                  "Stackable": true,
+                  "Stretch": true
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "549855"
+            },
+            {
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -27.9961262,
+                "posY": 3.03361535,
+                "posZ": -14.26538,
+                "rotX": 359.978882,
+                "rotY": 284.997742,
+                "rotZ": 0.0185604971,
+                "scaleX": 4.37573433,
+                "scaleY": 1.0,
+                "scaleZ": 4.37573433
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://www.dropbox.com/s/juwet2hzzh1w1g9/medium5a.png?dl=1",
+                "ImageSecondaryURL": "https://www.dropbox.com/s/k405rbwkqlvls41/medium5b.png?dl=1",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 0,
+                  "Thickness": 0.1,
+                  "Stackable": true,
+                  "Stretch": true
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "b7451f"
+            },
+            {
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -28.175951,
+                "posY": 3.02459359,
+                "posZ": -14.8611488,
+                "rotX": 359.269226,
+                "rotY": 0.0195153542,
+                "rotZ": 1.10555041,
+                "scaleX": 4.37573433,
+                "scaleY": 1.0,
+                "scaleZ": 4.37573433
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://www.dropbox.com/s/ho9uf45rl6hfgoe/medium2a.png?dl=1",
+                "ImageSecondaryURL": "https://www.dropbox.com/s/1mten7kruanm0e1/medium2b.png?dl=1",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 0,
+                  "Thickness": 0.1,
+                  "Stackable": true,
+                  "Stretch": true
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "0387d6"
+            },
+            {
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -27.4208069,
+                "posY": 3.13251019,
+                "posZ": -12.7905788,
+                "rotX": 0.04515216,
+                "rotY": 359.9811,
+                "rotZ": 179.962631,
+                "scaleX": 4.37573433,
+                "scaleY": 1.0,
+                "scaleZ": 4.37573433
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://www.dropbox.com/s/lcpwx794cis7rme/medium7a.png?dl=1",
+                "ImageSecondaryURL": "https://www.dropbox.com/s/88ifdgnj6hwpj2a/medium7b.png?dl=1",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 0,
+                  "Thickness": 0.1,
+                  "Stackable": true,
+                  "Stretch": true
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "826fbb"
+            },
+            {
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -27.3291836,
+                "posY": 3.045782,
+                "posZ": -13.5707073,
+                "rotX": 359.968079,
+                "rotY": 180.039124,
+                "rotZ": 359.270569,
+                "scaleX": 4.37573433,
+                "scaleY": 1.0,
+                "scaleZ": 4.37573433
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://www.dropbox.com/s/pgzxs12s7k387uv/medium3a.png?dl=1",
+                "ImageSecondaryURL": "https://www.dropbox.com/s/rbpds61l4m5gxip/medium3b.png?dl=1",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 0,
+                  "Thickness": 0.1,
+                  "Stackable": true,
+                  "Stretch": true
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "1c1a77"
+            },
+            {
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -26.2618923,
+                "posY": 3.03115058,
+                "posZ": -12.75636,
+                "rotX": 359.937927,
+                "rotY": 270.010925,
+                "rotZ": 359.968658,
+                "scaleX": 4.37573433,
+                "scaleY": 1.0,
+                "scaleZ": 4.37573433
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://www.dropbox.com/s/b1xebpj2h65f1rq/medium6a.png?dl=1",
+                "ImageSecondaryURL": "https://www.dropbox.com/s/9il2b3212hs32nx/medium6b.png?dl=1",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 0,
+                  "Thickness": 0.1,
+                  "Stackable": true,
+                  "Stretch": true
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "e778d0"
+            },
+            {
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -26.0055752,
+                "posY": 3.13148618,
+                "posZ": -13.61301,
+                "rotX": 359.984924,
+                "rotY": 179.997375,
+                "rotZ": 180.062439,
+                "scaleX": 4.37573433,
+                "scaleY": 1.0,
+                "scaleZ": 4.37573433
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://www.dropbox.com/s/81l6jbo1ji52w22/medium4a.png?dl=1",
+                "ImageSecondaryURL": "https://www.dropbox.com/s/h1ij6nws28r7not/medium4b.png?dl=1",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 0,
+                  "Thickness": 0.1,
+                  "Stackable": true,
+                  "Stretch": true
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "bfdd28"
+            }
+          ],
+          "GUID": "eac7c1"
+        },
+        {
+          "Name": "Bag",
+          "Transform": {
+            "posX": -2.99639082,
+            "posY": 2.84671831,
+            "posZ": 1.40585268,
+            "rotX": 359.873169,
+            "rotY": -0.0004416216,
+            "rotZ": 359.924347,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "large",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.7058823,
+            "g": 0.366520882,
+            "b": 0.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [
+            {
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -2.83262134,
+                "posY": 3.03286934,
+                "posZ": -9.976906,
+                "rotX": 0.0452357121,
+                "rotY": 179.997391,
+                "rotZ": 359.9835,
+                "scaleX": 4.37430668,
+                "scaleY": 1.0,
+                "scaleZ": 4.37430668
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://www.dropbox.com/s/zhgktg41glvyj85/big1a.png?dl=1",
+                "ImageSecondaryURL": "https://www.dropbox.com/s/qkje6p998kqkgcb/big1b.png?dl=1",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 0,
+                  "Thickness": 0.1,
+                  "Stackable": true,
+                  "Stretch": true
+                }
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "cc70b9"
+            }
+          ],
+          "GUID": "11669d"
+        }
+      ],
+      "GUID": "bc5267"
+    }
+  ],
+  "TabStates": {
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": ""
+}

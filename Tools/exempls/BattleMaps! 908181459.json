@@ -1,0 +1,484 @@
+{
+  "SaveName": "BattleMaps!",
+  "GameMode": "BattleMaps",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "9/29/2017 3:28:16 PM",
+  "Table": "Table_Custom",
+  "TableURL": "https://sites.google.com/site/rolesystemssky/table_wood.jpg",
+  "Sky": "Sky_Cathedral",
+  "SkyURL": "https://sites.google.com/site/rolesystemssky/sea360.jpg?attredirects=0",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "",
+  "LuaScript": "--[[ Global ]]\r\n",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 0.5,
+    "ySize": 0.5,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 23.6700039,
+          "posY": 3.29337883,
+          "posZ": 34.4527626,
+          "rotX": 0.0,
+          "rotY": 179.8,
+          "rotZ": 0.0,
+          "scaleX": 15.3270731,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35024357
+        }
+      },
+      {
+        "Color": "Brown",
+        "Transform": {
+          "posX": 0.0,
+          "posY": 3.29337883,
+          "posZ": -34.42515,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 15.3268919,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014534
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": -23.6700039,
+          "posY": 3.29337883,
+          "posZ": 34.43159,
+          "rotX": 0.0,
+          "rotY": 180.000458,
+          "rotZ": 0.0,
+          "scaleX": 15.3268747,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014534
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -51.6596222,
+          "posY": 3.29337883,
+          "posZ": -11.7324,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 15.1941938,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.40577364
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 51.64263,
+          "posY": 3.29337883,
+          "posZ": -11.7324,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 15.19417,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.40577364
+        }
+      },
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -23.6700039,
+          "posY": 3.29337883,
+          "posZ": -34.42515,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 15.3268948,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014534
+        }
+      },
+      {
+        "Color": "Teal",
+        "Transform": {
+          "posX": 0.0,
+          "posY": 3.29337883,
+          "posZ": 34.4527626,
+          "rotX": 0.0,
+          "rotY": 179.800049,
+          "rotZ": 0.0,
+          "scaleX": 15.327076,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35024357
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 23.6700039,
+          "posY": 3.29337883,
+          "posZ": -34.2558136,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 15.3268747,
+          "scaleY": 11.8970547,
+          "scaleZ": 6.705048
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -51.6596222,
+          "posY": 3.29337883,
+          "posZ": 11.7324,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 15.1941843,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.40577364
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true
+  },
+  "VectorLines": [],
+  "ObjectStates": [
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 48.7637939,
+        "posY": 1.01121724,
+        "posZ": 2.48396373,
+        "rotX": -4.71436465E-07,
+        "rotY": 90.0000153,
+        "rotZ": -2.36543425E-08,
+        "scaleX": 2.480608,
+        "scaleY": 1.0,
+        "scaleZ": 2.480608
+      },
+      "Nickname": "BattleMats!",
+      "Description": "v.170420a",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://sites.google.com/site/rolesystemssky/battlemaps.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 25.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "--[[iFtIeCW@Kxtgl5J@QWTUGhF@Iu4Yj5L@lBQ5rPa@MUOspF5@FCGgbhl@2AdgCyh@QNzSmo8@J886Ao1@vnlSpDg@D6Rr5pJ@\r\nHY7bpco@Sc29wpI@kK5JASR@gawZh1f@ZdGWKAl@A1jdqsd@U5fk8Xx@7u0I7K5@RbZLh8T@q1eLKiL@wwoH99S@1DUlI5C@\r\ni2R1CXc@rvWNRjO@mwbme0V@OKa5W9m@136Skso@FwoOInf@tcMp4tW@4x3rf6y@VfN36bO@zgWC4lC@69N9C3L@B8lPpqC@\r\nDB4Y7aw@lB3iiKx@q6JQPsr@Q8yyTHj@ZDeqOMm@S3Cbu15@RI5fVVf@LXsW4eW@U2eDgV7@iYK2Iwd@2p0zkzx@Mo9aTzW@\r\n88RmW0J@3MVGHf9@nTNSybB@feqit91@rxLdsyw@qkTxMQ8@FNBY72r@zYL3zEy@fCites6@oFLCpAg@SGCNMpe@HlmfEmA@\r\n4sEWmTC@lYA1TyZ@tS9nN8t@kqDp87R@YveUEiY@lZd06tc@ELboN3M@A1vfo1G@wtqxQvN@xsO6GEe@aQmtmhU@kNEol1J@ --EnD]]\r\n\r\nrz = \"\"  art = \"\"\r\n\r\nfunction onLoad()\r\n  onDestroy()\r\n  local btn = {}  btn.function_owner = self  btn.width = 280  btn.height = 20\r\n  btn.click_function = \"btnClr\"  btn.position = {-0.28, -0.05, -1.27}  self.createButton(btn)\r\n  btn.click_function = \"btnRez\"  btn.position = {0.5, -0.05, -1.27}  self.createButton(btn)\r\n  btn.click_function = \"btnLong\"  btn.position = {1.25, -0.05, -1.27}  self.createButton(btn)\r\n  btn.click_function = \"btnShort\"  btn.position = {2, -0.05, -1.27}  self.createButton(btn)\r\n  btn.click_function = \"btnArt\"  btn.position = {0, -0.05, 0.033}  btn.width = 2270  btn.height = 1116  self.createButton(btn)\r\nend\r\n\r\nfunction btnClr()  onDestroy()  end\r\n\r\nfunction btnLong()\r\n  if getObjectFromGUID(Global.getVar(\"bmR4meTT\")) then\r\n    local r = getObjectFromGUID(Global.getVar(\"bmR4meTT\")).getRotation()\r\n    getObjectFromGUID(Global.getVar(\"bmR4meTT\")).setRotation({r[1], r[2], r[3]+180})\r\n  end\r\nend\r\n\r\nfunction btnShort()\r\n  if getObjectFromGUID(Global.getVar(\"bmR4meTT\")) then\r\n    local r = getObjectFromGUID(Global.getVar(\"bmR4meTT\")).getRotation()\r\n    getObjectFromGUID(Global.getVar(\"bmR4meTT\")).setRotation({r[1]+180, r[2], r[3]})\r\n  end\r\nend\r\n\r\nfunction btnRez()  local g = \"Use HiRez Art.\"\r\n  if rz == \"\" then  rz = \"r\"  g = \"Use LowRez Art.\"  else  rz = \"\"  end  broadcastToAll(g, {0.943, 0.745, 0.14})  doArt()\r\nend\r\n\r\nfunction btnArt(d, c)  local i = self.getScale().x\r\n  if i < 1 then self.setScale({1, 1, 1}) elseif i > 3 then self.setScale({3, 1, 3}) end\r\n  if i != self.getScale().x then do return end  end\r\n  local x = Player[c].getPointerPosition().x - self.getPosition().x\r\n  local z = Player[c].getPointerPosition().z - self.getPosition().z\r\n  local n = math.sqrt(x^2 + z^2)  local d = math.deg(math.atan(x/z))\r\n  if z < 0 then d = 180+d elseif x < 0 then d = 360+d end\r\n  d = d + 90 - self.getRotation().y  x = math.sin(math.rad(d)) * n  z = x / math.tan(math.rad(d))\r\n  x = math.modf(3+(x/i/0.398)) z = math.modf(6+(z/(i/0.5854)/0.23))\r\n  local s = self.getLuaScript()  s = string.sub(s, 5, string.find(s, \"-EnD\")-3)\r\n  n = x*(8*12+2) + z*8 + 1  art = string.sub(s, n, n+6)  doArt()\r\nend\r\n\r\nfunction doArt()\r\n  if not makeView() then\r\n    if string.find(art, string.char(13)) or string.find(art, string.char(10)) or\r\n      string.len(art) < 7 or string.find(art, \"@\") then  do return end  end\r\n    local w = {}  w.image = \"http://i.imgur.com/\"..art..rz..\".jpg\"\r\n    getObjectFromGUID(Global.getVar(\"bmR4meTT\")).setCustomObject(w)\r\n    getObjectFromGUID(Global.getVar(\"bmR4meTT\")).reload()\r\n  end\r\nend\r\n\r\nfunction makeView()\r\n  if not getObjectFromGUID(Global.getVar(\"bmR4meTT\")) then\r\n    local p = {}  local i = {}  p.type = \"Custom_Token\"  p.position = {0, 0.91, 0}  p.rotation = {0, 0, 0}\r\n    p.callback = \"cbMView\"  p.callback_owner = self  local o = spawnObject(p)\r\n    i.thickness = 0.1  i.image = \"https://sites.google.com/site/rolesystemssky/bm_wood.jpg\"\r\n    o.setCustomObject(i)  return true\r\n  end\r\nend\r\n\r\nfunction cbMView(a)  Global.setVar(\"bmR4meTT\", a.guid)\r\n  local s = \"function onLoad()  if not Global.getVar('bmR4meTT') then self.destruct() end  end\"\r\n  a.setLuaScript(s)  a.lock()  a.interactable = false  a.setScale({18.57, 1, 17.6})\r\n  broadcastToAll(\"Ready: Version \"..self.getDescription(), {0.943, 0.745, 0.14})\r\nend\r\n\r\nfunction onDestroy()\r\n  if getObjectFromGUID(Global.getVar(\"bmR4meTT\")) then\r\n    getObjectFromGUID(Global.getVar(\"bmR4meTT\")).destruct()\r\n  end\r\nend\r\n\r\n\r\n--tt\r\n",
+      "LuaScriptState": "",
+      "GUID": "437d34"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 48.8563538,
+        "posY": 1.11677313,
+        "posZ": -7.716429,
+        "rotX": -7.044136E-07,
+        "rotY": 90.0,
+        "rotZ": 180.0,
+        "scaleX": 0.649891436,
+        "scaleY": 1.0,
+        "scaleZ": 0.649891436
+      },
+      "Nickname": "FlipMe",
+      "Description": "Flip near the edges, click in the center. This will cast Hexes or Squares down onto your terrain.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.3757215,
+        "g": 0.3757215,
+        "b": 0.3757215
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://sites.google.com/site/rolesystemssky/btn_sq_hx.png",
+        "ImageSecondaryURL": "https://sites.google.com/site/rolesystemssky/btn_hx_sq.png",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 3,
+          "Thickness": 0.155555487,
+          "Stackable": false,
+          "Stretch": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "id = nil  gd = 20\r\n\r\nfunction onLoad()\r\n  isSky()  local btn = {}  btn.function_owner = self\r\n  btn.click_function = \"btnStep\"  btn.position = {0, 0.09, 0}  btn.width = 500  btn.height = 500  self.createButton(btn)\r\n  btn.rotation = {180, 0, 0}  btn.position = {0, 0.08, 0}  self.createButton(btn)\r\nend\r\n\r\nfunction isSky()\r\n  local aoj = {}  aoj = getAllObjects()  local g = aoj[1]  local n = 1\r\n  while g do\r\n    if g.getName() == \"_OW_sGriD\" then\r\n      if id then g.destruct() else id = g.guid end\r\n    end  n = n+1  g = aoj[n]\r\n  end\r\n  if id then  getObjectFromGUID(id).setRotation({90, 0, 0})  cbIsSky(getObjectFromGUID(id))  do return end  end\r\n  local o = {}  local i = {}\r\n  i.mesh = \"https://sites.google.com/site/rolesystemssky/skyhex.obj\"\r\n  i.diffuse = \"https://sites.google.com/site/rolesystemssky/hex40.png\"\r\n  i.thickness = 0.1  o.type = \"Custom_Model\"  o.position = {0, 176, 0}  o.rotation = {90, 0, 0}\r\n  o.callback_owner = self  o.callback = \"cbIsSky\"  local v = spawnObject(o)  v.setCustomObject(i)\r\nend\r\nfunction cbIsSky(a)\r\n  id = a.guid  a.interactable = false  a.lock()  a.setPosition({0, 176, 0})  a.setScale({11, 1, 11})  a.setName(\"_OW_sGriD\")\r\nend\r\n\r\nfunction btnStep()\r\n  local r = self.getRotation()  local g = \"sqr\"  if r[3] > 150 then g = \"hex\" end\r\n  local n = 0  gd = gd+20  if gd == 120 then  gd = 20  n = 90  end  getObjectFromGUID(id).setRotation({n, 0, 0})\r\n  local i = {}  i.diffuse = \"https://sites.google.com/site/rolesystemssky/\"..g..gd..\".png\"\r\n  if gd != 20 then  getObjectFromGUID(id).setCustomObject(i)  getObjectFromGUID(id).reload()  end\r\nend\r\n\r\nfunction onDestroy()\r\n  if id then getObjectFromGUID(id).destruct() end\r\nend\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n--tt",
+      "LuaScriptState": "",
+      "GUID": "8c7c34"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 176.0,
+        "posZ": 0.0,
+        "rotX": 90.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 11.0,
+        "scaleY": 1.0,
+        "scaleZ": 11.0
+      },
+      "Nickname": "_OW_sGriD",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://sites.google.com/site/rolesystemssky/skyhex.obj",
+        "DiffuseURL": "https://sites.google.com/site/rolesystemssky/hex40.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "421beb"
+    }
+  ],
+  "DecalPallet": [],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": "v9.8.1"
+}

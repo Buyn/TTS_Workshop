@@ -1,0 +1,991 @@
+{
+  "SaveName": "Custom Table Image/Background Changer",
+  "GameMode": "Change Image",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "7/15/2016 8:12:31 PM",
+  "Table": "Table_Custom",
+  "TableURL": "http://i.imgur.com/AeAuRwx.png",
+  "Sky": "Sky_Museum",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "",
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 0.5,
+    "ySize": 0.5,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 23.6700039,
+          "posY": 3.29337883,
+          "posZ": 34.4527626,
+          "rotX": 0.0,
+          "rotY": 179.8,
+          "rotZ": 0.0,
+          "scaleX": 15.3268776,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014629
+        }
+      },
+      {
+        "Color": "Brown",
+        "Transform": {
+          "posX": 0.0,
+          "posY": 3.29337883,
+          "posZ": -34.42515,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 15.3268919,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014534
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": -23.6700039,
+          "posY": 3.29337883,
+          "posZ": 34.43159,
+          "rotX": 0.0,
+          "rotY": 180.000015,
+          "rotZ": 0.0,
+          "scaleX": 15.3268747,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014534
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -51.6596222,
+          "posY": 3.29337883,
+          "posZ": -11.7324,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 15.1940165,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.40567875
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 51.64263,
+          "posY": 3.29337883,
+          "posZ": -11.7324,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 15.1939974,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.40567875
+        }
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 51.5785675,
+          "posY": 3.29337883,
+          "posZ": 11.7324,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 15.1940022,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.40567875
+        }
+      },
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -23.6700039,
+          "posY": 3.29337883,
+          "posZ": -34.42515,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 15.3268948,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014534
+        }
+      },
+      {
+        "Color": "Teal",
+        "Transform": {
+          "posX": 0.0,
+          "posY": 3.29337883,
+          "posZ": 34.4527626,
+          "rotX": 0.0,
+          "rotY": 179.800049,
+          "rotZ": 0.0,
+          "scaleX": 15.3268814,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014629
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 23.6700039,
+          "posY": 3.29337883,
+          "posZ": -34.2558136,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 15.3268747,
+          "scaleY": 11.8970547,
+          "scaleZ": 6.705048
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -51.6596222,
+          "posY": 3.29337883,
+          "posZ": 11.7324,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 15.1940126,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.40567875
+        }
+      }
+    ]
+  },
+  "VectorLines": [],
+  "ObjectStates": [
+    {
+      "Name": "Notecard",
+      "Transform": {
+        "posX": 1.65525162,
+        "posY": 1.128283,
+        "posZ": 8.268258E-05,
+        "rotX": -0.00309483451,
+        "rotY": -0.000119670221,
+        "rotZ": 0.000106139669,
+        "scaleX": 2.399999,
+        "scaleY": 2.399999,
+        "scaleZ": 2.399999
+      },
+      "Nickname": "Background Image Changer",
+      "Description": "To add new backgrounds open the Notebook\nand edit the tab \"Backgrounds\" with the format:\n\n[Title](URL)\n\nAnd click the reload button on the top right of this notecard.\n\nRed = Error | Green = Ready | Blue = Current",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "function onLoad(save_state)\r\n    -- Set Description if loading from Save different than workshop\r\n    self.setDescription('To add new backgrounds open the Notebook\\nand edit the tab \\\"Backgrounds\\\" with the format:\\n\\n[Title](URL)\\n\\nAnd click the reload button on the top right of this notecard.\\n\\nRed = Error | Green = Ready | Blue = Current')\r\n    -- clearURLs if coming from a Save different than workshop\r\n    clearURLs()\r\n\r\n    -- Create Scanner to find table object\r\n    local scanner = spawnObject({\r\n      ['type'] = 'Metal Ball',\r\n      ['position'] = {0,-30,0}\r\n    })\r\n    --scanner.lock() -- Debug position of the scanner spawn\r\n    -- The scanner will collide with the table and set a variable with the object I can access then self-destruct\r\n    scanner.setLuaScript(\r\n    [[function onCollisionEnter(collision_info)\r\n        if collision_info['collision_object'].name == 'Table_Custom' then\r\n            getObjectFromGUID('ImageChanger').setVar('nativeTable',collision_info['collision_object'])\r\n            --print(\"Table Scan Complete\") -- Debug for success\r\n        else\r\n            print(\"ERROR when scanning Table, retry!\")\r\n        end\r\n        self.destruct()\r\n      end\r\n    ]])\r\n\r\n  unicode = '↻' -- This is the reload Unicode Character. Will turn into '?' if seen. He's shy. Also I'm a quantum physicist\r\n  if unicode == '?' then\r\n    addButton({'URL1',700,700,500,'@','reloadURLs',self,{0.5,0,1.7},{0,180,0}})\r\n  else\r\n    addButton({'URL1',700,700,500,unicode,'reloadURLs',self,{0.5,0,1.7},{0,0,0}})\r\n  end\r\n  -- current variable allows us to check what URL was the previous and change the color abck to green\r\n  current = nil\r\nend\r\n\r\n-- Creates a button with a table of params: GUID, Width, Height, Font Size, Label, Function, Function Owner, pos?, rot?\r\nfunction addButton(paramsTable)\r\n    object = getObjectFromGUID(paramsTable[1])\r\n\r\n    position = object.getTable('pos') or paramsTable[8] or {0,0,0}\r\n    rotation = object.getTable('rot') or paramsTable[9] or {0,0,0}\r\n    object.createButton({\r\n        ['position'] = position,\r\n        ['rotation'] = rotation,\r\n        ['width'] = paramsTable[2],\r\n        ['height'] = paramsTable[3],\r\n        ['font_size'] = paramsTable[4],\r\n        ['label'] = paramsTable[5],\r\n        ['click_function'] = paramsTable[6],\r\n        ['function_owner'] = paramsTable[7]\r\n    })\r\nend\r\n\r\n-- Resets eveything to first state\r\nfunction clearURLs()\r\n  for i=1,10 do\r\n    local indicator = getObjectFromGUID(\"URL\"..i)\r\n    indicator.setColorTint({0,0,0})\r\n    -- Since the first indicator has 2 buttons, in that case remove index 2.\r\n    if i == 1 then indicator.removeButton(1) else indicator.clearButtons() end\r\n  end\r\nend\r\n\r\n-- Checks Notebook, parses it and creates buttons accordingly\r\nfunction reloadURLs(obj,player)\r\n  self.setDescription(\"\")\r\n  clearURLs()\r\n  local notebookTable = getNotebookTabs()\r\n  for _,value in pairs(notebookTable) do\r\n    if value['title'] == 'Backgrounds' then\r\n      NotebookString = value['body'] -- Find the first notebook tab with name Backgrounds\r\n      break -- Disregard all others\r\n    end\r\n    if value['index'] == #notebookTable-1 then -- if we get to the last item means \"Backgrounds\" doesn't exit.\r\n      print(\"Error Notebook Tab \\\"Backgrounds\\\" not found. Creating default.\")\r\n      NotebookString = [=[[Gravel](http://2.bp.blogspot.com/-6lIml62O9IM/U9CK_P9zjDI/AAAAAAAAFqs/-8m-7oi9nmU/s1600/Concrete+ground+floor+walkway+pathway+texture+ver+1.jpg)\r\n[Wood](http://bgfons.com/upload/wood_texture3847.jpg)\r\n[Water](https://phenomenex.files.wordpress.com/2016/01/water.jpg)\r\n[Grass](http://www.myfreetextures.com/wp-content/uploads/2015/01/lots-of-grass-background.jpg)\r\n[Blank](http://i.imgur.com/ove85gM.png)]=]\r\n      addNotebookTab({\r\n          ['title'] = 'Backgrounds',\r\n          ['color'] = 'White',\r\n          ['body'] = NotebookString\r\n      })\r\n    end\r\n  end\r\n  local k = 0\r\n  for count=1,10 do\r\n    local statusIndicator = getObjectFromGUID('URL'..count)\r\n    i,k,title,address = string.find(NotebookString, \"(%[.-%])(%(.-%))\",k+1) -- Find the format\r\n    if i == nil then -- if it was the last url\r\n      if string.len(NotebookString) ~= lastCount then -- valida for errors\r\n        statusIndicator.setColorTint({1,0,0})\r\n      end\r\n      break -- stop coloring\r\n    else statusIndicator.setColorTint({0,0.8,0}) end -- if it wasn't color green\r\n    -- Set this button's address and create it's button\r\n    statusIndicator.setVar('address', string.sub(address,2,-2))\r\n    addButton({'URL'..count,10000,500,500,string.sub(title,2,-2),'changeImage',self,{12,0,0},{0,180,0}})\r\n    -- Count the amount of chars to validate for errors\r\n    lastCount = k\r\n  end\r\nend\r\n\r\n-- This is the magic function.\r\nfunction changeImage(obj,player)\r\n  -- if its the first change, sets the previous to current. If not does nothing.\r\n  current = current or obj.getGUID()\r\n  -- Tints previous to green and current to blue\r\n  getObjectFromGUID(current).setColorTint({0,0.8,0})\r\n  obj.setColorTint({0,0,0.8})\r\n\r\n  -- Magic! copy the Custom table, destroy it then paste it with the new URL\r\n  copy({nativeTable})\r\n  nativeTable.destruct()\r\n  nativeTable = paste({\r\n      ['position'] = {0,0,0} -- Paste it exactly where you found it.\r\n  })[1]\r\n  nativeTable.setCustomObject({\r\n      ['image'] = obj.getVar('address') -- the URL is given by the indicator's variable\r\n  })\r\n  current = obj.getGUID() -- set current as previous\r\nend\r\n",
+      "LuaScriptState": "",
+      "GUID": "ImageChanger"
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 9.454617,
+        "posY": 1.27417839,
+        "posZ": 2.96690631,
+        "rotX": 359.9788,
+        "rotY": 359.989624,
+        "rotZ": 359.81842,
+        "scaleX": 0.675,
+        "scaleY": 0.675,
+        "scaleZ": 0.675
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "ImageChanger",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.470763117,
+          "y": 3.12210178,
+          "z": 0.299291849
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "URL1"
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 9.454805,
+        "posY": 1.2747587,
+        "posZ": 2.131897,
+        "rotX": 359.955719,
+        "rotY": 359.989655,
+        "rotZ": 359.840118,
+        "scaleX": 0.675,
+        "scaleY": 0.675,
+        "scaleZ": 0.675
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "ImageChanger",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.470774859,
+          "y": 3.12287617,
+          "z": 0.215057313
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "URL2"
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 9.454994,
+        "posY": 1.275228,
+        "posZ": 1.29689169,
+        "rotX": 359.939484,
+        "rotY": 359.989716,
+        "rotZ": 359.8615,
+        "scaleX": 0.675,
+        "scaleY": 0.675,
+        "scaleZ": 0.675
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "ImageChanger",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.4707866,
+          "y": 3.12365031,
+          "z": 0.130822986
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "URL3"
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 9.455182,
+        "posY": 1.27562964,
+        "posZ": 0.4618871,
+        "rotX": 359.925079,
+        "rotY": 359.989136,
+        "rotZ": 359.8756,
+        "scaleX": 0.675,
+        "scaleY": 0.675,
+        "scaleZ": 0.675
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "ImageChanger",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.470798343,
+          "y": 3.12442446,
+          "z": 0.04658846
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "URL4"
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 9.455371,
+        "posY": 1.27600479,
+        "posZ": -0.373112947,
+        "rotX": 359.921143,
+        "rotY": 359.989136,
+        "rotZ": 359.8999,
+        "scaleX": 0.675,
+        "scaleY": 0.675,
+        "scaleZ": 0.675
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "ImageChanger",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.4708101,
+          "y": 3.125199,
+          "z": -0.03764587
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "URL5"
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 9.455559,
+        "posY": 1.27639008,
+        "posZ": -1.20811021,
+        "rotX": 359.924255,
+        "rotY": 359.989075,
+        "rotZ": 359.923584,
+        "scaleX": 0.675,
+        "scaleY": 0.675,
+        "scaleZ": 0.675
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "ImageChanger",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.4708218,
+          "y": 3.12597322,
+          "z": -0.1218802
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "URL6"
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 9.455748,
+        "posY": 1.27681088,
+        "posZ": -2.04310632,
+        "rotX": 359.934143,
+        "rotY": 359.989044,
+        "rotZ": 359.946381,
+        "scaleX": 0.675,
+        "scaleY": 0.675,
+        "scaleZ": 0.675
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "ImageChanger",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.47083354,
+          "y": 3.12674761,
+          "z": -0.206114739
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "URL7"
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 9.455937,
+        "posY": 1.2772696,
+        "posZ": -2.87809825,
+        "rotX": 359.9494,
+        "rotY": 359.989,
+        "rotZ": 359.967133,
+        "scaleX": 0.675,
+        "scaleY": 0.675,
+        "scaleZ": 0.675
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "ImageChanger",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.470845282,
+          "y": 3.12752175,
+          "z": -0.290349066
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "URL8"
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 9.456128,
+        "posY": 1.27772653,
+        "posZ": -3.71309137,
+        "rotX": 359.9708,
+        "rotY": 359.989471,
+        "rotZ": 359.9849,
+        "scaleX": 0.675,
+        "scaleY": 0.675,
+        "scaleZ": 0.675
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "ImageChanger",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.470857024,
+          "y": 3.12829614,
+          "z": -0.374583572
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "URL9"
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 9.456322,
+        "posY": 1.27808583,
+        "posZ": -4.54808569,
+        "rotX": 359.9856,
+        "rotY": 359.989471,
+        "rotZ": -0.003892406,
+        "scaleX": 0.675,
+        "scaleY": 0.675,
+        "scaleZ": 0.675
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "ImageChanger",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.470868766,
+          "y": 3.12907028,
+          "z": -0.458817929
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "URL10"
+    },
+    {
+      "Name": "3DText",
+      "Transform": {
+        "posX": -23.68818,
+        "posY": 0.9611351,
+        "posZ": 19.2948952,
+        "rotX": 90.0,
+        "rotY": 341.489227,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Text": {
+        "Text": "Thank you for downloading this Mod!",
+        "colorstate": {
+          "r": 0.0,
+          "g": 0.0127025,
+          "b": 0.356862754
+        },
+        "fontSize": 150
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "21ec99"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 23.7976513,
+        "posY": 1.06000018,
+        "posZ": -20.964777,
+        "rotX": 2.06698886E-07,
+        "rotY": 180.043747,
+        "rotZ": 9.51141E-08,
+        "scaleX": 2.79609156,
+        "scaleY": 1.0,
+        "scaleZ": 2.79609156
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/Vv2oaNU.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 5.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "91379e"
+    }
+  ],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "Backgrounds",
+      "body": "[Mod Information](http://i.imgur.com/UOGEhnJ.png)\n[Gravel](http://2.bp.blogspot.com/-6lIml62O9IM/U9CK_P9zjDI/AAAAAAAAFqs/-8m-7oi9nmU/s1600/Concrete+ground+floor+walkway+pathway+texture+ver+1.jpg)\n[Wood](http://bgfons.com/upload/wood_texture3847.jpg)\n[Water](https://phenomenex.files.wordpress.com/2016/01/water.jpg)\n[Grass](http://www.myfreetextures.com/wp-content/uploads/2015/01/lots-of-grass-background.jpg)\n[Blank](http://i.imgur.com/ove85gM.png)",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "White",
+      "body": "",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Brown",
+      "body": "",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Red",
+      "body": "",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Orange",
+      "body": "",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Yellow",
+      "body": "",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Green",
+      "body": "",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Blue",
+      "body": "",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Teal",
+      "body": "",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Purple",
+      "body": "",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Pink",
+      "body": "",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 11
+    },
+    "12": {
+      "title": "Black",
+      "body": "",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 12
+    }
+  },
+  "VersionNumber": ""
+}

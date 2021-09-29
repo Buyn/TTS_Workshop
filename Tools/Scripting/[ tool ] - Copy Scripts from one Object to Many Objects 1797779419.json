@@ -1,0 +1,2452 @@
+{
+  "SaveName": "[ tool ] - Copy Scripts from one Object to Many Objects",
+  "GameMode": "Copy Scripts 2 Objects",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "7/12/2019 12:18:24 PM",
+  "Table": "Table_RPG",
+  "Sky": "Sky_Museum",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
+  "LuaScript": "--[[ Lua code. See documentation: http://berserk-games.com/knowledgebase/scripting/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate ()\n    --[[ print('onUpdate loop!') --]]\nend",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 0.2642661,
+          "posY": 4.680063,
+          "posZ": -37.7095566,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 39.4976273,
+          "scaleY": 7.0,
+          "scaleZ": 4.75701952
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "ObjectStates": [
+    {
+      "Name": "Custom_Board",
+      "Transform": {
+        "posX": -13.88,
+        "posY": 0.9835336,
+        "posZ": -9.39,
+        "rotX": -2.2215645E-05,
+        "rotY": 179.991028,
+        "rotZ": 2.4284094E-07,
+        "scaleX": 0.400000453,
+        "scaleY": 0.400000453,
+        "scaleZ": 0.400000453
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.7867647,
+        "g": 0.7867647,
+        "b": 0.7867647
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://drive.google.com/uc?export=download&id=1MDOLmai0_JrgkfdLd7OMwpedokC-qWWE",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 1.5
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "27da79",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 1.13311569E-06,
+            "y": 0.5922454,
+            "z": 2.16546539E-07
+          },
+          "Rotation": {
+            "x": 1.26549348E-05,
+            "y": -0.0034366562,
+            "z": -3.52047465E-07
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Board",
+      "Transform": {
+        "posX": 13.88,
+        "posY": 0.983533859,
+        "posZ": -9.39,
+        "rotX": -2.10287017E-05,
+        "rotY": 179.990738,
+        "rotZ": -4.72296051E-07,
+        "scaleX": 0.400000453,
+        "scaleY": 0.400000453,
+        "scaleZ": 0.400000453
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.7867647,
+        "g": 0.7867647,
+        "b": 0.7867647
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://drive.google.com/uc?export=download&id=1MDOLmai0_JrgkfdLd7OMwpedokC-qWWE",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 1.5
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "d43001",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 1.13311569E-06,
+            "y": 0.5922454,
+            "z": 2.16546539E-07
+          },
+          "Rotation": {
+            "x": 1.26549348E-05,
+            "y": -0.0034366562,
+            "z": -3.52047465E-07
+          }
+        }
+      ]
+    },
+    {
+      "Name": "3DText",
+      "Transform": {
+        "posX": -13.8800163,
+        "posY": 0.9611366,
+        "posZ": -2.12000251,
+        "rotX": 90.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "Text": {
+        "Text": "Source",
+        "colorstate": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "fontSize": 150
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "011b2d"
+    },
+    {
+      "Name": "3DText",
+      "Transform": {
+        "posX": 13.8800163,
+        "posY": 0.9611351,
+        "posZ": -2.12000251,
+        "rotX": 90.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "Text": {
+        "Text": "Copy To....",
+        "colorstate": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "fontSize": 150
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "29e952"
+    },
+    {
+      "Name": "Custom_Board",
+      "Transform": {
+        "posX": 5.393015E-05,
+        "posY": 0.9800005,
+        "posZ": 8.58,
+        "rotX": -1.757192E-05,
+        "rotY": 179.990738,
+        "rotZ": -4.774302E-08,
+        "scaleX": 0.400000453,
+        "scaleY": 0.400000453,
+        "scaleZ": 0.400000453
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.7867647,
+        "g": 0.7867647,
+        "b": 0.7867647
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://drive.google.com/uc?export=download&id=1MDOLmai0_JrgkfdLd7OMwpedokC-qWWE",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 1.5
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "7aec17",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 1.13311569E-06,
+            "y": 0.5922454,
+            "z": 2.16546539E-07
+          },
+          "Rotation": {
+            "x": 1.26549348E-05,
+            "y": -0.0034366562,
+            "z": -3.52047465E-07
+          }
+        }
+      ]
+    },
+    {
+      "Name": "3DText",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 0.9611351,
+        "posZ": 3.39967942,
+        "rotX": 90.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "Text": {
+        "Text": "Result",
+        "colorstate": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "fontSize": 150
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "cf7f22"
+    },
+    {
+      "Name": "go_game_piece_black",
+      "Transform": {
+        "posX": -5.944311E-05,
+        "posY": 1.37174582,
+        "posZ": -5.15835333,
+        "rotX": -2.74137761E-08,
+        "rotY": -0.00216953154,
+        "rotZ": -2.01104911E-07,
+        "scaleX": 2.249999,
+        "scaleY": 2.249999,
+        "scaleZ": 2.249999
+      },
+      "Nickname": "CopyDatShit",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "--\r\n-- Global variables\r\nisBag = false\r\nisObj = false\r\n\r\npos = {x={0.00}, y={2}, z={8.58}}\r\n--posDrop = {0,2,8.58}\r\nzoneObj = '997592'\r\nzoneBag = '82818a'\r\nzoneResult = 'ecd040'\r\nbagDespenser = 'ce7e45'\r\n\r\n\r\nfunction f_copyScript()\r\n    testPads()\r\n\r\n    if isBag and isObj then\r\n        process()\r\n        broadcastToAll(\"****** COPY COMPLETE ******\", \"Yellow\")\r\n    else\r\n        broadcastToAll(\"****** ERROR ******\", \"Red\")\r\n    end\r\n\r\n    isBag = false\r\n    isObj = false\r\nend\r\n\r\nfunction getScript()\r\n    return testZoneObj()[1].script_code\r\nend\r\n\r\nfunction process()\r\n    local script = getScript()\r\n    local copyBag = getCopy()\r\n\r\n    prams = {position = {0.00, 1.13, 8.57}, rotation = {0,180,0}}\r\n    local b = getObjectFromGUID(bagDespenser).takeObject({})\r\n    b.setRotation(prams.rotation)\r\n    b.setPosition(prams.position)\r\n\r\n    pos = {x=0.00, y=1.13, z=8.57}\r\n    local Y = 6\r\n    local cloneBag = copyBag.clone({})\r\n    local objList = cloneBag.getObjects();\r\n    for _, obj in pairs (objList) do\r\n        local c = cloneBag.takeObject({})\r\n        local rot = c.getRotation()\r\n        --c.setPosition({pos.x, Y, pos.z})\r\n        c.setRotation(rot)\r\n        c.script_code = script\r\n        b.putObject(c)\r\n        Y = Y + c.getBounds().size.y + 0.5\r\n    end\r\n    cloneBag.destruct()\r\n\r\nend\r\n\r\nfunction testPads()\r\n    --BAG test\r\n    --print(tostring(#testZoneObj()))\r\n\r\n    if #testZoneObj() == 1 then isObj = true\r\n    else broadcastToAll('Only have 1 object on source to copy scripts from', 'Orange') end\r\n    if #testZoneBag() == 1 then isBag = true\r\n    else broadcastToAll('You need to have a single bag of objects you wish to copy the script to!', 'Orange') end\r\nend\r\n\r\nfunction testZoneObj()\r\n    local zoneContents = getObjectFromGUID(zoneObj).getObjects()\r\n    local sourceList = {}\r\n\r\n    for _, obj in pairs(zoneContents) do\r\n        if obj.guid != '27da79' then\r\n            table.insert(sourceList, obj)\r\n        end\r\n    end\r\n\r\n    return sourceList\r\nend\r\n\r\nfunction testZoneBag()\r\n    local zoneContents = getObjectFromGUID(zoneBag).getObjects()\r\n    local sourceList = {}\r\n    for _, obj in pairs(zoneContents) do\r\n        if obj.tag == 'Bag' then\r\n            table.insert(sourceList, obj)\r\n        end\r\n    end\r\n    return sourceList\r\nend\r\n\r\n--[[function process(script, copyBag)\r\n    prams = {position = {0.00, 1.13, 8.57}, rotation = {0,180,0}}\r\n    local b = getObjectFromGUID(bagDespenser).takeObject({})\r\n    b.setRotation(prams.rotation)\r\n    b.setPosition(prams.position)\r\n\r\n    pos = {x=0.00, y=1.13, z=8.57}\r\n    local Y = 6\r\n    local cloneBag = copyBag.clone({})\r\n    local objList = cloneBag.getObjects();\r\n    for _, obj in pairs (objList) do\r\n        local c = cloneBag.takeObject({})\r\n        local rot = c.getRotation()\r\n        --c.setPosition({pos.x, Y, pos.z})\r\n        c.setRotation(rot)\r\n        c.script_code = script\r\n        b.putObject(c)\r\n        Y = Y + c.getBounds().size.y + 0.5\r\n    end\r\n    cloneBag.destruct()\r\nend]]\r\n\r\nfunction getCopy()\r\n    local zoneContents = getObjectFromGUID(zoneBag).getObjects()\r\n    sourceList = {}\r\n\r\n    for _, obj in pairs(zoneContents) do\r\n        if obj.tag == 'Bag' then\r\n            table.insert(sourceList, obj)\r\n        end\r\n    end\r\n\r\n    if #sourceList == 1 then\r\n        run = true\r\n        return sourceList[1]\r\n    else broadcastToAll('You need to have a single bag of objects you wish to copy the script to!', 'Orange') return false end\r\n\r\n    return false\r\nend\r\n\r\nfunction getSource()\r\n    local zoneContents = getObjectFromGUID(zoneObj).getObjects()\r\n    sourceList = {}\r\n\r\n    for _, obj in pairs(zoneContents) do\r\n        if obj.guid != '27da79' then\r\n            table.insert(sourceList, obj)\r\n        end\r\n    end\r\n\r\n    if #sourceList == 1 then\r\n        run = true\r\n        return sourceList[1]\r\n    else broadcastToAll('Only have 1 object on source to copy scripts from', 'Orange') return false end\r\n\r\n    return false\r\nend\r\n\r\nfunction GET(loc)\r\n    local zoneContents\r\n    if     loc == 'source' then zoneContents = getObjectFromGUID(zoneSource).getObjects()\r\n    elseif loc == 'target' then zoneContents = getObjectFromGUID(zoneTarget).getObjects()\r\n    elseif loc == 'result' then zoneContents = getObjectFromGUID(zoneResult).getObjects() end\r\n\r\n\r\nend\r\n\r\n---------------------- MAKE BUTTON CODE -----------------------------\r\n\r\nfunction makeButtons(set)\r\n    local buttons = {}\r\n\r\n -- DEFAULT START BUTTONS\r\n    if set == nil then\r\n        local button = {\r\n                click_function = 'f_copyScript',\r\n                function_owner = self,\r\n                label = 'Copy Scripts',\r\n                position = {0, 0.5, 0.5},\r\n                rotation = {0, 180, 0},\r\n                width = 2500,\r\n                height = 350,\r\n                font_size = 200}\r\n        table.insert(buttons, button)\r\n    end\r\n -- Create Buttons\r\n    for _, button in ipairs(buttons) do\r\n        self.createButton(button)\r\n    end\r\nend\r\n\r\n\r\n\r\nfunction onload()\r\n    makeButtons()\r\nend",
+      "LuaScriptState": "",
+      "GUID": "5e8be9"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": -13.8705368,
+        "posY": 2.31,
+        "posZ": -9.421455,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 13.8923836,
+        "scaleY": 2.7,
+        "scaleZ": 9.357779
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "997592"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 13.8263807,
+        "posY": 2.31,
+        "posZ": -9.399409,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 13.8645725,
+        "scaleY": 2.7,
+        "scaleZ": 9.268837
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "82818a"
+    },
+    {
+      "Name": "Notecard",
+      "Transform": {
+        "posX": -0.0661175251,
+        "posY": 1.03,
+        "posZ": -8.821632,
+        "rotX": -1.69049983E-07,
+        "rotY": 3.97318727E-05,
+        "rotZ": -3.4617338E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Instructions",
+      "Description": "\n• Place [b]OBJECT[/b] to copy the scripts from on the [b]SOURCE[/b]\n\n• Place all the objects you want to copy the script to in a [b]single[/b] bag and place that bag on [b]COPY TO[/b]\n\n• Press the button to copy data",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "7cd692"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 2.31,
+        "posZ": 8.58,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 15.83,
+        "scaleY": 2.7,
+        "scaleZ": 11.52
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "ecd040"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -13.8800011,
+        "posY": 1.41519,
+        "posZ": -9.39,
+        "rotX": 9.096528E-06,
+        "rotY": 180.0001,
+        "rotZ": 180.0,
+        "scaleX": 0.9,
+        "scaleY": 1.0,
+        "scaleZ": 0.9
+      },
+      "Nickname": "City Garrison",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/938341811903686870/98B4CAF3CB274D4316D09E44E24475A49AC595C7/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/938341811900365272/43E35F8C172318A70B5F499F607A377C4BABA947/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 2,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "data = {}\r\n    data[1]={n = 'City Garrison', d = ''}\r\n    data[2]={n = 'Ice Catapult', d = 'Attack : 9 (Ice / Cumbersome)\\nDefence : 6 (Fortified)\\nFame : 7\\n\\n(Lost Legion)'}\r\n    --data[3]={n='', d=''}\r\n    --data[4]={n='', d=''}\r\n    --etc\r\n\r\nfunction onCollisionEnter()\r\n    local face = self.getValue()\r\n    self.setName(data[face].n)\r\n    self.setDescription(data[face].d)\r\nend",
+      "LuaScriptState": "",
+      "GUID": "eae753",
+      "RotationValues": [
+        {
+          "Value": "",
+          "Rotation": {
+            "x": 0.0,
+            "y": 180.0,
+            "z": 180.0
+          }
+        },
+        {
+          "Value": "",
+          "Rotation": {
+            "x": 0.0,
+            "y": 180.0,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 13.8856659,
+        "posY": 1.130156,
+        "posZ": -9.403167,
+        "rotX": -5.549499E-06,
+        "rotY": 179.98732,
+        "rotZ": 2.724211E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 0.0572418869,
+        "b": 0.0572418869
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 14.8272352,
+            "posY": 3.29867315,
+            "posZ": -8.97285,
+            "rotX": -4.401618E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 0.9,
+            "scaleY": 1.0,
+            "scaleZ": 0.9
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "http://cloud-3.steamusercontent.com/ugc/938341811903686870/98B4CAF3CB274D4316D09E44E24475A49AC595C7/",
+            "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/938341811900365272/43E35F8C172318A70B5F499F607A377C4BABA947/",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "7c08a5",
+          "RotationValues": [
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 180.0
+              }
+            },
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 14.8272352,
+            "posY": 3.29867315,
+            "posZ": -8.97285,
+            "rotX": -4.401618E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 0.9,
+            "scaleY": 1.0,
+            "scaleZ": 0.9
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "http://cloud-3.steamusercontent.com/ugc/938341811903686870/98B4CAF3CB274D4316D09E44E24475A49AC595C7/",
+            "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/938341811900365272/43E35F8C172318A70B5F499F607A377C4BABA947/",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "7c08a5",
+          "RotationValues": [
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 180.0
+              }
+            },
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 14.8272352,
+            "posY": 3.29867315,
+            "posZ": -8.97285,
+            "rotX": -4.401618E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 0.9,
+            "scaleY": 1.0,
+            "scaleZ": 0.9
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "http://cloud-3.steamusercontent.com/ugc/938341811903686870/98B4CAF3CB274D4316D09E44E24475A49AC595C7/",
+            "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/938341811900365272/43E35F8C172318A70B5F499F607A377C4BABA947/",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "7c08a5",
+          "RotationValues": [
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 180.0
+              }
+            },
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 14.8272352,
+            "posY": 3.29867315,
+            "posZ": -8.97285,
+            "rotX": -4.401618E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 0.9,
+            "scaleY": 1.0,
+            "scaleZ": 0.9
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "http://cloud-3.steamusercontent.com/ugc/938341811903686870/98B4CAF3CB274D4316D09E44E24475A49AC595C7/",
+            "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/938341811900365272/43E35F8C172318A70B5F499F607A377C4BABA947/",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "7c08a5",
+          "RotationValues": [
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 180.0
+              }
+            },
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 14.8272352,
+            "posY": 3.29867315,
+            "posZ": -8.97285,
+            "rotX": -4.401618E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 0.9,
+            "scaleY": 1.0,
+            "scaleZ": 0.9
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "http://cloud-3.steamusercontent.com/ugc/938341811903686870/98B4CAF3CB274D4316D09E44E24475A49AC595C7/",
+            "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/938341811900365272/43E35F8C172318A70B5F499F607A377C4BABA947/",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "7c08a5",
+          "RotationValues": [
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 180.0
+              }
+            },
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 14.8272352,
+            "posY": 3.29867315,
+            "posZ": -8.97285,
+            "rotX": -4.401618E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 0.9,
+            "scaleY": 1.0,
+            "scaleZ": 0.9
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "http://cloud-3.steamusercontent.com/ugc/938341811903686870/98B4CAF3CB274D4316D09E44E24475A49AC595C7/",
+            "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/938341811900365272/43E35F8C172318A70B5F499F607A377C4BABA947/",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "7c08a5",
+          "RotationValues": [
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 180.0
+              }
+            },
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 14.8272352,
+            "posY": 3.29867315,
+            "posZ": -8.97285,
+            "rotX": -4.401618E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 0.9,
+            "scaleY": 1.0,
+            "scaleZ": 0.9
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "http://cloud-3.steamusercontent.com/ugc/938341811903686870/98B4CAF3CB274D4316D09E44E24475A49AC595C7/",
+            "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/938341811900365272/43E35F8C172318A70B5F499F607A377C4BABA947/",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "7c08a5",
+          "RotationValues": [
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 180.0
+              }
+            },
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 14.8272352,
+            "posY": 3.29867315,
+            "posZ": -8.97285,
+            "rotX": -4.401618E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 0.9,
+            "scaleY": 1.0,
+            "scaleZ": 0.9
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "http://cloud-3.steamusercontent.com/ugc/938341811903686870/98B4CAF3CB274D4316D09E44E24475A49AC595C7/",
+            "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/938341811900365272/43E35F8C172318A70B5F499F607A377C4BABA947/",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "7c08a5",
+          "RotationValues": [
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 180.0
+              }
+            },
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 14.8272352,
+            "posY": 3.29867315,
+            "posZ": -8.97285,
+            "rotX": -4.401618E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 0.9,
+            "scaleY": 1.0,
+            "scaleZ": 0.9
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "http://cloud-3.steamusercontent.com/ugc/938341811903686870/98B4CAF3CB274D4316D09E44E24475A49AC595C7/",
+            "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/938341811900365272/43E35F8C172318A70B5F499F607A377C4BABA947/",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "7c08a5",
+          "RotationValues": [
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 180.0
+              }
+            },
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 14.8272352,
+            "posY": 3.29867315,
+            "posZ": -8.97285,
+            "rotX": -4.401618E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 0.9,
+            "scaleY": 1.0,
+            "scaleZ": 0.9
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "http://cloud-3.steamusercontent.com/ugc/938341811903686870/98B4CAF3CB274D4316D09E44E24475A49AC595C7/",
+            "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/938341811900365272/43E35F8C172318A70B5F499F607A377C4BABA947/",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "7c08a5",
+          "RotationValues": [
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 180.0
+              }
+            },
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 14.8272352,
+            "posY": 3.29867315,
+            "posZ": -8.97285,
+            "rotX": -4.401618E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 0.9,
+            "scaleY": 1.0,
+            "scaleZ": 0.9
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "http://cloud-3.steamusercontent.com/ugc/938341811903686870/98B4CAF3CB274D4316D09E44E24475A49AC595C7/",
+            "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/938341811900365272/43E35F8C172318A70B5F499F607A377C4BABA947/",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "7c08a5",
+          "RotationValues": [
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 180.0
+              }
+            },
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 14.8272352,
+            "posY": 3.29867315,
+            "posZ": -8.97285,
+            "rotX": -4.401618E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 0.9,
+            "scaleY": 1.0,
+            "scaleZ": 0.9
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "http://cloud-3.steamusercontent.com/ugc/938341811903686870/98B4CAF3CB274D4316D09E44E24475A49AC595C7/",
+            "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/938341811900365272/43E35F8C172318A70B5F499F607A377C4BABA947/",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "7c08a5",
+          "RotationValues": [
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 180.0
+              }
+            },
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 14.8272352,
+            "posY": 3.29867315,
+            "posZ": -8.97285,
+            "rotX": -4.401618E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 0.9,
+            "scaleY": 1.0,
+            "scaleZ": 0.9
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "http://cloud-3.steamusercontent.com/ugc/938341811903686870/98B4CAF3CB274D4316D09E44E24475A49AC595C7/",
+            "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/938341811900365272/43E35F8C172318A70B5F499F607A377C4BABA947/",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "7c08a5",
+          "RotationValues": [
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 180.0
+              }
+            },
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 14.8272352,
+            "posY": 3.29867315,
+            "posZ": -8.97285,
+            "rotX": -4.401618E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 0.9,
+            "scaleY": 1.0,
+            "scaleZ": 0.9
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "http://cloud-3.steamusercontent.com/ugc/938341811903686870/98B4CAF3CB274D4316D09E44E24475A49AC595C7/",
+            "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/938341811900365272/43E35F8C172318A70B5F499F607A377C4BABA947/",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "7c08a5",
+          "RotationValues": [
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 180.0
+              }
+            },
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 14.8272352,
+            "posY": 3.29867315,
+            "posZ": -8.97285,
+            "rotX": -4.401618E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 0.9,
+            "scaleY": 1.0,
+            "scaleZ": 0.9
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "http://cloud-3.steamusercontent.com/ugc/938341811903686870/98B4CAF3CB274D4316D09E44E24475A49AC595C7/",
+            "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/938341811900365272/43E35F8C172318A70B5F499F607A377C4BABA947/",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "7c08a5",
+          "RotationValues": [
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 180.0
+              }
+            },
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 14.8272352,
+            "posY": 3.29867315,
+            "posZ": -8.97285,
+            "rotX": -4.401618E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 0.9,
+            "scaleY": 1.0,
+            "scaleZ": 0.9
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "http://cloud-3.steamusercontent.com/ugc/938341811903686870/98B4CAF3CB274D4316D09E44E24475A49AC595C7/",
+            "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/938341811900365272/43E35F8C172318A70B5F499F607A377C4BABA947/",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "7c08a5",
+          "RotationValues": [
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 180.0
+              }
+            },
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 14.8272352,
+            "posY": 3.29867315,
+            "posZ": -8.97285,
+            "rotX": -4.401618E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 0.9,
+            "scaleY": 1.0,
+            "scaleZ": 0.9
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "http://cloud-3.steamusercontent.com/ugc/938341811903686870/98B4CAF3CB274D4316D09E44E24475A49AC595C7/",
+            "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/938341811900365272/43E35F8C172318A70B5F499F607A377C4BABA947/",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "7c08a5",
+          "RotationValues": [
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 180.0
+              }
+            },
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 14.8272352,
+            "posY": 3.29867315,
+            "posZ": -8.97285,
+            "rotX": -4.401618E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 0.9,
+            "scaleY": 1.0,
+            "scaleZ": 0.9
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "http://cloud-3.steamusercontent.com/ugc/938341811903686870/98B4CAF3CB274D4316D09E44E24475A49AC595C7/",
+            "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/938341811900365272/43E35F8C172318A70B5F499F607A377C4BABA947/",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "7c08a5",
+          "RotationValues": [
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 180.0
+              }
+            },
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 14.8272352,
+            "posY": 3.29867315,
+            "posZ": -8.97285,
+            "rotX": -4.401618E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 0.9,
+            "scaleY": 1.0,
+            "scaleZ": 0.9
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "http://cloud-3.steamusercontent.com/ugc/938341811903686870/98B4CAF3CB274D4316D09E44E24475A49AC595C7/",
+            "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/938341811900365272/43E35F8C172318A70B5F499F607A377C4BABA947/",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "7c08a5",
+          "RotationValues": [
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 180.0
+              }
+            },
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 14.7015181,
+            "posY": 3.29867315,
+            "posZ": -9.2458725,
+            "rotX": -4.81073039E-06,
+            "rotY": 179.999969,
+            "rotZ": 180.0,
+            "scaleX": 0.9,
+            "scaleY": 1.0,
+            "scaleZ": 0.9
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "http://cloud-3.steamusercontent.com/ugc/938341811903686870/98B4CAF3CB274D4316D09E44E24475A49AC595C7/",
+            "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/938341811900365272/43E35F8C172318A70B5F499F607A377C4BABA947/",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "7c08a5",
+          "RotationValues": [
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 180.0
+              }
+            },
+            {
+              "Value": "",
+              "Rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+              }
+            }
+          ]
+        }
+      ],
+      "GUID": "70c4be"
+    },
+    {
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": -27.06949,
+        "posY": 0.942999959,
+        "posZ": 16.8198948,
+        "rotX": 8.472903E-08,
+        "rotY": -3.494261E-09,
+        "rotZ": 3.942126E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.3058885,
+        "g": 0.372555166,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Bag",
+          "Transform": {
+            "posX": -26.2124348,
+            "posY": 2.64591074,
+            "posZ": 15.3139772,
+            "rotX": 359.598633,
+            "rotY": 359.254272,
+            "rotZ": 359.0796,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.129001021,
+            "g": 0.7019608,
+            "b": 0.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "Number": 0,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "920353"
+        }
+      ],
+      "GUID": "ce7e45"
+    },
+    {
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": 22.5238934,
+        "posY": 0.9514998,
+        "posZ": -3.614818,
+        "rotX": -5.71613828E-06,
+        "rotY": 6.77155367E-06,
+        "rotZ": 2.53576786E-06,
+        "scaleX": 0.5000005,
+        "scaleY": 0.5000005,
+        "scaleZ": 0.5000005
+      },
+      "Nickname": "Empty Bags",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.3058885,
+        "g": 0.372555166,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Bag",
+          "Transform": {
+            "posX": 11.8662949,
+            "posY": 2.852691,
+            "posZ": -0.0964156538,
+            "rotX": 0.07809626,
+            "rotY": 180.029129,
+            "rotZ": 358.742249,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 0.0572422147,
+            "b": 0.0572422147
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "Number": 0,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "d2867f"
+        }
+      ],
+      "GUID": "c8d43b"
+    },
+    {
+      "Name": "Custom_Board",
+      "Transform": {
+        "posX": 20.03,
+        "posY": 0.9747083,
+        "posZ": 13.5099535,
+        "rotX": 2.365355E-06,
+        "rotY": 179.990738,
+        "rotZ": 4.36722928E-07,
+        "scaleX": 0.250000417,
+        "scaleY": 0.250000417,
+        "scaleZ": 0.250000417
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.7867647,
+        "g": 0.7867647,
+        "b": 0.7867647
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://drive.google.com/uc?export=download&id=1MDOLmai0_JrgkfdLd7OMwpedokC-qWWE",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 1.5
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "86f133",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 1.13311569E-06,
+            "y": 0.5922454,
+            "z": 2.16546539E-07
+          },
+          "Rotation": {
+            "x": 1.26549348E-05,
+            "y": -0.0034366562,
+            "z": -3.52047465E-07
+          }
+        }
+      ]
+    },
+    {
+      "Name": "go_game_piece_black",
+      "Transform": {
+        "posX": 20.0299168,
+        "posY": -0.0348054171,
+        "posZ": 8.523109,
+        "rotX": 1.37194277E-07,
+        "rotY": -0.00217071036,
+        "rotZ": -6.286191E-07,
+        "scaleX": 2.249999,
+        "scaleY": 2.249999,
+        "scaleZ": 2.249999
+      },
+      "Nickname": "RemoveDatShit",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "-- Remove Name? (EDIT THIS TO TRUE IF YOU WANT)\r\nRemoveName = false\r\nRemoveDescription = false\r\n\r\n-- Global variables\r\nisBag = false\r\nzoneBag = 'aca898'\r\nzoneResult = 'ecd040'\r\nbagDespenser = 'ce7e45'\r\n\r\n\r\nfunction f_copyScript()\r\n    testPad()\r\n\r\n    if isBag then\r\n        process()\r\n        broadcastToAll(\"****** SCRIPT REMOVAL COMPLETE ******\", \"Yellow\")\r\n    else\r\n        broadcastToAll(\"****** ERROR ******\", \"Red\")\r\n    end\r\n\r\n    isBag = false\r\nend\r\n\r\n\r\nfunction process()\r\n    local copyBag = getCopy()\r\n    local Y = 6\r\n    --Get New Bag\r\n    prams = {position = {0.00, 1.13, 8.57}, rotation = {0,180,0}}\r\n    local b = getObjectFromGUID(bagDespenser).takeObject({})\r\n    b.setRotation(prams.rotation)\r\n    b.setPosition(prams.position)\r\n\r\n    local cloneBag = copyBag.clone({})\r\n    local objList = cloneBag.getObjects();\r\n\r\n    for _, obj in pairs (objList) do\r\n        local c = cloneBag.takeObject({})\r\n        local rot = c.getRotation()\r\n        c.setRotation(rot)\r\n        c.script_code = ''\r\n        if RemoveName then c.setName('') end\r\n        if RemoveDescription then c.setDescription('') end\r\n        b.putObject(c)\r\n        Y = Y + c.getBounds().size.y + 0.5\r\n    end\r\n    cloneBag.destruct()\r\nend\r\n    --[[\r\n    prams = {position = {0.00, 1.13, 8.57}, rotation = {0,180,0}}\r\n    local b = getObjectFromGUID(bagDespenser).takeObject({})\r\n    b.setRotation(prams.rotation)\r\n    b.setPosition(prams.position)\r\n\r\n    pos = {x=0.00, y=1.13, z=8.57}\r\n    local Y = 6\r\n    local cloneBag = copyBag.clone({})\r\n    local objList = cloneBag.getObjects();\r\n    for _, obj in pairs (objList) do\r\n        local c = cloneBag.takeObject({})\r\n        local rot = c.getRotation()\r\n        --c.setPosition({pos.x, Y, pos.z})\r\n        c.setRotation(rot)\r\n        c.script_code = script\r\n        b.putObject(c)\r\n        Y = Y + c.getBounds().size.y + 0.5\r\n    end\r\n    cloneBag.destruct()\r\n\r\nend]]\r\n\r\nfunction getCopy()\r\n    local zoneContents = getObjectFromGUID(zoneBag).getObjects()\r\n    sourceList = {}\r\n\r\n    for _, obj in pairs(zoneContents) do\r\n        if obj.tag == 'Bag' then\r\n            table.insert(sourceList, obj)\r\n        end\r\n    end\r\n\r\n    return sourceList[1]\r\nend\r\n\r\nfunction testPad()\r\n    if #testZoneBag() == 1 then isBag = true\r\n    else broadcastToAll('You need to have a single bag of objects you wish to copy the script to!', 'Orange') end\r\nend\r\n\r\nfunction testZoneBag()\r\n    local zoneContents = getObjectFromGUID(zoneBag).getObjects()\r\n    local sourceList = {}\r\n    for _, obj in pairs(zoneContents) do\r\n        if obj.tag == 'Bag' then\r\n            table.insert(sourceList, obj)\r\n        end\r\n    end\r\n    return sourceList\r\nend\r\n\r\n---------------------- MAKE BUTTON CODE -----------------------------\r\n\r\nfunction makeButtons(set)\r\n    local buttons = {}\r\n\r\n -- DEFAULT START BUTTONS\r\n    if set == nil then\r\n        local button = {\r\n                click_function = 'f_copyScript',\r\n                function_owner = self,\r\n                label = 'Remove Scripts',\r\n                position = {0, 0.5, 0.5},\r\n                rotation = {0, 180, 0},\r\n                width = 2500,\r\n                height = 350,\r\n                font_size = 200}\r\n        table.insert(buttons, button)\r\n    end\r\n -- Create Buttons\r\n    for _, button in ipairs(buttons) do\r\n        self.createButton(button)\r\n    end\r\nend\r\n\r\n\r\n\r\nfunction onload()\r\n    makeButtons()\r\nend\r\n",
+      "LuaScriptState": "",
+      "GUID": "638611"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 20.0345917,
+        "posY": 2.16020823,
+        "posZ": 13.5006027,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 8.604727,
+        "scaleY": 1.95642734,
+        "scaleZ": 5.812557
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "aca898"
+    }
+  ],
+  "DecalPallet": [],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "CameraStates": [
+    {
+      "Position": {
+        "x": -0.858595848,
+        "y": -2.5,
+        "z": -1.49305153
+      },
+      "Rotation": {
+        "x": 65.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Distance": 32.89741,
+      "Zoomed": false
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "VersionNumber": "v12.0.4"
+}

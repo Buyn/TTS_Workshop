@@ -1,0 +1,1041 @@
+{
+  "SaveName": "Roll Calculator",
+  "GameMode": "Custom",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "1/20/2017 3:20:20 PM",
+  "Table": "Table_Octagon",
+  "Sky": "Sky_Museum",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "",
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -12.3078947,
+          "posY": 3.66349649,
+          "posZ": -12.4467278,
+          "rotX": 0.0,
+          "rotY": 44.9999962,
+          "rotZ": 0.0,
+          "scaleX": 9.413998,
+          "scaleY": 8.961139,
+          "scaleZ": 5.46584654
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -12.3997469,
+          "posY": 3.66349745,
+          "posZ": 12.1996889,
+          "rotX": 0.0,
+          "rotY": 135.0,
+          "rotZ": 0.0,
+          "scaleX": 9.413466,
+          "scaleY": 8.961139,
+          "scaleZ": 5.46579456
+        }
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 17.39027,
+          "posY": 3.66457176,
+          "posZ": 0.04493646,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 9.414072,
+          "scaleY": 8.961139,
+          "scaleZ": 5.46589375
+        }
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 12.3691387,
+          "posY": 3.664034,
+          "posZ": 12.2303019,
+          "rotX": 0.0,
+          "rotY": 225.000443,
+          "rotZ": 0.0,
+          "scaleX": 9.413568,
+          "scaleY": 8.961139,
+          "scaleZ": 5.465739
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 2.558877E-06,
+          "posY": 3.664033,
+          "posZ": -17.3454037,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 9.413987,
+          "scaleY": 8.961141,
+          "scaleZ": 5.46584
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": 5.503735E-05,
+          "posY": 3.664034,
+          "posZ": 17.19874,
+          "rotX": 0.0,
+          "rotY": 179.8,
+          "rotZ": 0.0,
+          "scaleX": 9.413986,
+          "scaleY": 8.961139,
+          "scaleZ": 5.46647644
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 12.3691263,
+          "posY": 3.6645174,
+          "posZ": -12.1405792,
+          "rotX": 0.0,
+          "rotY": 315.000031,
+          "rotZ": 0.0,
+          "scaleX": 9.413979,
+          "scaleY": 8.961139,
+          "scaleZ": 5.46583843
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -17.4208832,
+          "posY": 3.663497,
+          "posZ": -0.169387043,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 9.414083,
+          "scaleY": 8.961139,
+          "scaleZ": 5.465899
+        }
+      }
+    ]
+  },
+  "VectorLines": [],
+  "ObjectStates": [
+    {
+      "Name": "Die_6",
+      "Transform": {
+        "posX": -2.67433047,
+        "posY": 1.29019988,
+        "posZ": 1.101598,
+        "rotX": 90.0,
+        "rotY": 2.832153,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "MaterialIndex": 0,
+      "XmlUI": "",
+      "LuaScript": "spawnTime = 0\r\n\r\nfunction onLoad()\r\n\r\n    color = self.held_by_color\r\n    if color != nil then\r\n        colorRGB = stringColorToRGB(color)\r\n        self.setColorTint(colorRGB)\r\n    end\r\n\r\n    notecard = getObjectFromGUID('d8fbc5')\r\n    d6die = getObjectFromGUID(self.guid)\r\n    itHasApparentlyRolled = false\r\n\r\n    oldRotation = self.getRotation()\r\n\r\n    notTheFirstDrop = false\r\n    spawnTime = os.clock()\r\n\r\nend\r\n\r\nfunction resetTimer()\r\n    theTime = os.clock()\r\nend\r\n\r\nresetTimer()\r\n\r\nfunction onCollisionStay(collision_info)\r\n\r\n    currentRotation = self.getRotation()\r\n\r\n    if collision_info.collision_object.tag ~= 'Dice' and notTheFirstDrop and self.resting and os.clock() - theTime > 1 and math.floor(currentRotation[1] + currentRotation[2] + currentRotation[3]) ~= math.floor(oldRotation[1] + oldRotation[2] + oldRotation[3]) then\r\n\r\n        itHasApparentlyRolled = true\r\n\r\n        currentRoll = self.getValue()\r\n\r\n        notecard.call(\"reportRoll\", { currentRoll })\r\n\r\n        if itHasApparentlyRolled then\r\n            itHasApparentlyRolled = false\r\n            oldRotation = self.getRotation()\r\n        end\r\n\r\n        resetTimer()\r\n\r\n    end\r\n\r\n   if os.clock() - spawnTime > 3 and notTheFirstDrop == false then\r\n        notTheFirstDrop = true\r\n   end\r\n\r\nend\r\n",
+      "LuaScriptState": "",
+      "GUID": "ebaab4"
+    },
+    {
+      "Name": "Notecard",
+      "Transform": {
+        "posX": 0.05621553,
+        "posY": 1.02999973,
+        "posZ": 7.03363562,
+        "rotX": 1.91013237E-06,
+        "rotY": 0.009781512,
+        "rotZ": -4.590259E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Roll Calculator",
+      "Description": "0",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "rollValues = {}\r\noldLines = {}\r\ncurrentDescription = ''\r\ncurrentLine = 0\r\nisThisThingOn = true\r\n\r\nfunction onLoad()\r\n\r\n    notecard = getObjectFromGUID(self.guid)\r\n    theZone = getObjectFromGUID('6c388d')\r\n    self.setDescription('0')\r\n\r\nend\r\n\r\nfunction reportRoll(currentRoll)\r\n\r\n    if isThisThingOn then\r\n\r\n        local rollDisplay = \"\"\r\n        local rollSum = 0\r\n        local rollLine = \"\"\r\n\r\n        notecard.SetDescription('')\r\n        rollValues[#rollValues + 1] = currentRoll[1]\r\n\r\n        for i,v in ipairs(rollValues) do\r\n            rollSum = rollSum + rollValues[i]\r\n        end\r\n\r\n        for i,v in ipairs(rollValues) do\r\n\r\n            rollLine = rollLine .. \" + \" .. rollValues[i]\r\n\r\n            if #rollValues > 1 then\r\n                currentLine = rollLine .. ' = ' .. rollSum\r\n            else\r\n                currentLine = rollLine\r\n            end\r\n\r\n            currentLine = string.sub(currentLine, 4)\r\n            notecard.setDescription(currentDescription .. currentLine)\r\n\r\n        end\r\n\r\n    end\r\n\r\nend\r\n\r\nfunction reportMultiplier(currentRoll)\r\n\r\n    if isThisThingOn then\r\n\r\n        local rollDisplay = \"\"\r\n        local rollSum = 0\r\n        local rollLine = \"\"\r\n        local rollMultiplied = 0\r\n\r\n        notecard.SetDescription('')\r\n        -- rollValues[#rollValues + 1] = currentRoll[1]\r\n\r\n        for i,v in ipairs(rollValues) do\r\n            rollSum = rollSum + rollValues[i]\r\n        end\r\n\r\n        for i,v in ipairs(rollValues) do\r\n\r\n            rollLine = rollLine .. \" + \" .. rollValues[i]\r\n\r\n            if currentRoll[1] >= 0 then\r\n                currentLine = rollLine .. ') \\u{00D7} ' .. currentRoll[1] .. ' = ' .. rollSum * currentRoll[1]\r\n            end\r\n            if currentRoll[1] < 0 then\r\n                currentLine = rollLine .. ') \\u{2215} ' .. math.abs(currentRoll[1]) .. ' = ' .. rollSum / math.abs(currentRoll[1])\r\n            end\r\n\r\n            currentLine = string.sub(currentLine, 4)\r\n            currentLine = '(' .. currentLine\r\n\r\n            notecard.setDescription(currentDescription .. currentLine)\r\n\r\n        end\r\n\r\n    end\r\n\r\nend\r\n\r\nfunction clearTheCard()\r\n    self.setDescription('0')\r\n    rollValues = {}\r\n    currentDescription = ''\r\n    oldLines = {}\r\nend\r\n\r\n\r\nfunction carriageReturn()\r\n    oldLines[#oldLines + 1] = currentLine\r\n    currentDescription = ''\r\n\r\n    if #oldLines > 9 then\r\n        table.remove(oldLines,1)\r\n    end\r\n\r\n    for i,v in ipairs(oldLines) do\r\n        currentDescription = currentDescription .. oldLines[i] .. '\\n'\r\n    end\r\n\r\n    currentLine = 0\r\n    currentRoll = 0\r\n    rollValues = {}\r\n\r\n    notecard.setDescription(currentDescription .. currentLine)\r\n\r\nend\r\n\r\nfunction onOff()\r\n    if isThisThingOn then\r\n        isThisThingOn = false\r\n    else\r\n        isThisThingOn = true\r\n    end\r\nend\r\n",
+      "LuaScriptState": "",
+      "GUID": "d8fbc5"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 0.0531683862,
+        "posY": 0.9599995,
+        "posZ": 4.619186,
+        "rotX": -6.964527E-06,
+        "rotY": 180.032135,
+        "rotZ": 5.0646E-06,
+        "scaleX": 0.344747335,
+        "scaleY": 1.0,
+        "scaleZ": 0.344747335
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomImage": {
+        "ImageURL": "http://imgur.com/download/Xpqq3er",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.115,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "m1 = 0\r\nm2 = 0\r\nm3 = 0\r\n\r\nfunction onLoad ()\r\n\r\n    buttonSpawn (0, 'm1', -7.8, 0.2, 0)\r\n    buttonSpawn (3, 'm2', -3.5, 0.2, 0)\r\n    buttonSpawn (6, 'm3', 1.4, 0.2, 0) -- 0.8 for flush left\r\n\r\n    clearButtonSpawn (9, 'C', 7.1, 0.2, 0)\r\n    returnButtonSpawn (10, 'Enter', 8.9, 0.2, 0)\r\n    onOffButtonSpawn (11, 'onOffButton', 5.3, 0.2, 0)\r\n\r\n    notecard = getObjectFromGUID('d8fbc5')\r\n    -- self.interactable = false\r\n\r\nend\r\n\r\nfunction buttonSpawn (index, name, x, y, z)\r\n\r\n    local scale = 7\r\n    local fontScale = 4\r\n\r\n    local name = {}\r\n    name.click_function = 'report_func'..index\r\n\r\n    if index == 6 then\r\n        name.label = '\\u{00D7}'\r\n        name.font_size = 120 * 7\r\n    else\r\n        name.label = '0'\r\n        name.font_size = 120 * 4\r\n    end\r\n\r\n    name.function_owner = self\r\n    name.position = {x, y, z}\r\n    name.rotation = {0, 0, 0}\r\n    name.width = 110 * scale\r\n    name.height = 110 * scale\r\n    self.createButton(name)\r\n\r\n    local plus = {}\r\n    plus.click_function = 'plus_func'..index\r\n    plus.label = '+'\r\n    plus.function_owner = self\r\n    plus.position = {x+0.2 * scale, y, z}\r\n    plus.rotation = {0, 0, 0}\r\n    plus.width = 60 * scale\r\n    plus.height = 60 * scale\r\n    plus.font_size = 100 * scale\r\n    self.createButton(plus)\r\n\r\n    local minus = {}\r\n    minus.click_function = 'minus_func'..index\r\n    minus.label = '\\u{2212}'\r\n    minus.function_owner = self\r\n    minus.position = {x-0.2 * scale, y, z}\r\n    minus.rotation = {0, 0, 0}\r\n    minus.width = 60 * scale\r\n    minus.height = 60 * scale\r\n    minus.font_size = 100 * scale\r\n    self.createButton(minus)\r\n\r\nend\r\n\r\nfunction clearButtonSpawn (index, name, x, y, z)\r\n    local scale = 7\r\n    local fontScale = 4\r\n    local name = {}\r\n    name.click_function = 'clearTheCard'\r\n    name.label = 'C'\r\n    name.function_owner = self\r\n    name.position = {x, y, z}\r\n    name.rotation = {0, 0, 0}\r\n    name.width = 110 * scale\r\n    name.height = 110 * scale\r\n    name.font_size = 120 * fontScale\r\n    self.createButton(name)\r\nend\r\n\r\nfunction returnButtonSpawn (index, name, x, y, z)\r\n    local scale = 7\r\n    local fontScale = 7\r\n    local name = {}\r\n    name.click_function = 'carriageReturn'\r\n    name.label = '\\u{21B5}'\r\n    name.function_owner = self\r\n    name.position = {x, y, z}\r\n    name.rotation = {0, 0, 0}\r\n    name.width = 110 * scale\r\n    name.height = 110 * scale\r\n    name.font_size = 120 * fontScale\r\n    self.createButton(name)\r\nend\r\n\r\nfunction onOffButtonSpawn (index, name, x, y, z)\r\n    local scale = 7\r\n    local fontScale = 7\r\n    local name = {}\r\n    name.click_function = 'onOff_func'\r\n    name.label = '\\u{2611}'\r\n    name.function_owner = self\r\n    name.position = {x, y, z}\r\n    name.rotation = {0, 0, 0}\r\n    name.width = 110 * scale\r\n    name.height = 110 * scale\r\n    name.font_size = 120 * fontScale\r\n    self.createButton(name)\r\nend\r\n\r\n\r\nfunction plus_func0 ()\r\n    m1 = m1 + 1\r\n    local button = {}\r\n    button.index = 0\r\n    button.label = m1\r\n    self.editButton(button)\r\nend\r\n\r\nfunction minus_func0 ()\r\n    m1 = m1 - 1\r\n    local button = {}\r\n    button.index = 0\r\n    button.label = m1\r\n    self.editButton(button)\r\nend\r\n\r\nfunction report_func0 ()\r\n    notecard.call(\"reportRoll\", { m1 })\r\nend\r\n\r\nfunction plus_func3 ()\r\n    m2 = m2 + 1\r\n    local button = {}\r\n    button.index = 3\r\n    button.label = m2\r\n    self.editButton(button)\r\nend\r\n\r\nfunction minus_func3 ()\r\n    m2 = m2 - 1\r\n    local button = {}\r\n    button.index = 3\r\n    button.label = m2\r\n    self.editButton(button)\r\nend\r\n\r\nfunction report_func3 ()\r\n    notecard.call(\"reportRoll\", { m2 })\r\nend\r\n\r\n\r\n\r\nfunction plus_func6 ()\r\n    m3 = m3 + 1\r\n    local button = {}\r\n    button.index = 6\r\n    button.label = m3\r\n\r\n    if m3 == 0 then\r\n        button.font_size = 120 * 7\r\n        button.label = '\\u{00D7}'\r\n    elseif m3 > 0 then\r\n        button.font_size = 120 * 4\r\n        button.label = '\\u{00D7}' .. m3\r\n    elseif m3 < 0 then\r\n        button.font_size = 120 * 4\r\n        button.label = '\\u{00F7}' .. math.abs(m3)\r\n    end\r\n\r\n    self.editButton(button)\r\nend\r\n\r\nfunction minus_func6 ()\r\n    m3 = m3 - 1\r\n    local button = {}\r\n    button.index = 6\r\n\r\n    if m3 == 0 then\r\n        button.font_size = 120 * 7\r\n        button.label = '\\u{00D7}'\r\n    elseif m3 > 0 then\r\n        button.font_size = 120 * 4\r\n        button.label = '\\u{00D7}' .. m3\r\n    elseif m3 < 0 then\r\n        button.font_size = 120 * 4\r\n        button.label = '\\u{00F7}' .. math.abs(m3)\r\n    end\r\n\r\n    self.editButton(button)\r\nend\r\n\r\nfunction report_func6 ()\r\n    notecard.call(\"reportMultiplier\", { m3 })\r\nend\r\n\r\n\r\nfunction clearTheCard()\r\n    notecard.call(\"clearTheCard\")\r\nend\r\n\r\nfunction carriageReturn()\r\n    notecard.call(\"carriageReturn\")\r\nend\r\n\r\nfunction onOff_func()\r\n\r\n    local isThisThingOn = notecard.getVar(\"isThisThingOn\")\r\n    local button = {}\r\n    button.index = 11\r\n\r\n    if isThisThingOn then\r\n        button.label = '\\u{2610}'\r\n    else\r\n        button.label = '\\u{2611}'\r\n    end\r\n\r\n    self.editButton(button)\r\n\r\n    notecard.call(\"onOff\")\r\n\r\nend\r\n",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "d8fbc5",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": -0.000381042424,
+          "y": -3.49999523,
+          "z": -0.5845639
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "771dc0"
+    },
+    {
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": -5.51119,
+        "posY": 0.978072166,
+        "posZ": 13.5886974,
+        "rotX": -0.00188897422,
+        "rotY": 314.995453,
+        "rotZ": 2.2228148,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "d8",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.3058885,
+        "g": 0.372555166,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Die_8",
+          "Transform": {
+            "posX": -5.55116,
+            "posY": 3.62770867,
+            "posZ": 13.5150557,
+            "rotX": 54.6936264,
+            "rotY": 324.593079,
+            "rotZ": 253.174576,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.5647112,
+            "g": 0.08235738,
+            "b": 0.08235738
+          },
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "MaterialIndex": 0,
+          "XmlUI": "",
+          "LuaScript": "spawnTime = 0\r\n\r\nfunction onLoad()\r\n\r\n    color = self.held_by_color\r\n    if color != nil then\r\n        colorRGB = stringColorToRGB(color)\r\n        self.setColorTint(colorRGB)\r\n    end\r\n\r\n    notecard = getObjectFromGUID('d8fbc5')\r\n    d6die = getObjectFromGUID(self.guid)\r\n    itHasApparentlyRolled = false\r\n\r\n    oldRotation = self.getRotation()\r\n\r\n    notTheFirstDrop = false\r\n    spawnTime = os.clock()\r\n\r\nend\r\n\r\nfunction resetTimer()\r\n    theTime = os.clock()\r\nend\r\n\r\nresetTimer()\r\n\r\nfunction onCollisionStay(collision_info)\r\n\r\n    currentRotation = self.getRotation()\r\n\r\n    if collision_info.collision_object.tag ~= 'Dice' and notTheFirstDrop and self.resting and os.clock() - theTime > 1 and math.floor(currentRotation[1] + currentRotation[2] + currentRotation[3]) ~= math.floor(oldRotation[1] + oldRotation[2] + oldRotation[3]) then\r\n\r\n        itHasApparentlyRolled = true\r\n\r\n        currentRoll = self.getValue()\r\n\r\n        notecard.call(\"reportRoll\", { currentRoll })\r\n\r\n        if itHasApparentlyRolled then\r\n            itHasApparentlyRolled = false\r\n            oldRotation = self.getRotation()\r\n        end\r\n\r\n        resetTimer()\r\n\r\n    end\r\n\r\n   if os.clock() - spawnTime > 3 and notTheFirstDrop == false then\r\n        notTheFirstDrop = true\r\n   end\r\n\r\nend\r\n",
+          "LuaScriptState": "",
+          "GUID": "be6a84"
+        }
+      ],
+      "GUID": "6f3328"
+    },
+    {
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": 5.570264,
+        "posY": 0.9715649,
+        "posZ": 13.544116,
+        "rotX": 358.290131,
+        "rotY": 45.051918,
+        "rotZ": -0.00390786072,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "d10",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.3058885,
+        "g": 0.372555166,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Die_10",
+          "Transform": {
+            "posX": 5.796919,
+            "posY": 3.3904202,
+            "posZ": 13.5412817,
+            "rotX": 28.6720314,
+            "rotY": 258.2204,
+            "rotZ": 165.0018,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.07451412,
+            "g": 0.415692329,
+            "b": 0.172554567
+          },
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "MaterialIndex": 0,
+          "XmlUI": "",
+          "LuaScript": "spawnTime = 0\r\n\r\nfunction onLoad()\r\n\r\n    color = self.held_by_color\r\n    if color != nil then\r\n        colorRGB = stringColorToRGB(color)\r\n        self.setColorTint(colorRGB)\r\n    end\r\n\r\n    notecard = getObjectFromGUID('d8fbc5')\r\n    d6die = getObjectFromGUID(self.guid)\r\n    itHasApparentlyRolled = false\r\n\r\n    oldRotation = self.getRotation()\r\n\r\n    notTheFirstDrop = false\r\n    spawnTime = os.clock()\r\n\r\nend\r\n\r\nfunction resetTimer()\r\n    theTime = os.clock()\r\nend\r\n\r\nresetTimer()\r\n\r\nfunction onCollisionStay(collision_info)\r\n\r\n    currentRotation = self.getRotation()\r\n\r\n    if collision_info.collision_object.tag ~= 'Dice' and notTheFirstDrop and self.resting and os.clock() - theTime > 1 and math.floor(currentRotation[1] + currentRotation[2] + currentRotation[3]) ~= math.floor(oldRotation[1] + oldRotation[2] + oldRotation[3]) then\r\n\r\n        itHasApparentlyRolled = true\r\n\r\n        currentRoll = self.getValue()\r\n\r\n        notecard.call(\"reportRoll\", { currentRoll })\r\n\r\n        if itHasApparentlyRolled then\r\n            itHasApparentlyRolled = false\r\n            oldRotation = self.getRotation()\r\n        end\r\n\r\n        resetTimer()\r\n\r\n    end\r\n\r\n   if os.clock() - spawnTime > 3 and notTheFirstDrop == false then\r\n        notTheFirstDrop = true\r\n   end\r\n\r\nend\r\n",
+          "LuaScriptState": "",
+          "GUID": "5a5593"
+        }
+      ],
+      "GUID": "3c23f2"
+    },
+    {
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": 7.79512739,
+        "posY": 0.942999065,
+        "posZ": 11.2509241,
+        "rotX": -1.99273018E-05,
+        "rotY": 44.9954338,
+        "rotZ": 3.85890235E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "d12",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.3058885,
+        "g": 0.372555166,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Die_12",
+          "Transform": {
+            "posX": 8.039193,
+            "posY": 3.37113547,
+            "posZ": 10.7130747,
+            "rotX": 15.6658382,
+            "rotY": 24.6816654,
+            "rotZ": 250.990952,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.8156889,
+            "g": 0.5098095,
+            "b": 0.117652006
+          },
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "MaterialIndex": 0,
+          "XmlUI": "",
+          "LuaScript": "spawnTime = 0\r\n\r\nfunction onLoad()\r\n\r\n    color = self.held_by_color\r\n    if color != nil then\r\n        colorRGB = stringColorToRGB(color)\r\n        self.setColorTint(colorRGB)\r\n    end\r\n\r\n    notecard = getObjectFromGUID('d8fbc5')\r\n    d6die = getObjectFromGUID(self.guid)\r\n    itHasApparentlyRolled = false\r\n\r\n    oldRotation = self.getRotation()\r\n\r\n    notTheFirstDrop = false\r\n    spawnTime = os.clock()\r\n\r\nend\r\n\r\nfunction resetTimer()\r\n    theTime = os.clock()\r\nend\r\n\r\nresetTimer()\r\n\r\nfunction onCollisionStay(collision_info)\r\n\r\n    currentRotation = self.getRotation()\r\n\r\n    if collision_info.collision_object.tag ~= 'Dice' and notTheFirstDrop and self.resting and os.clock() - theTime > 1 and math.floor(currentRotation[1] + currentRotation[2] + currentRotation[3]) ~= math.floor(oldRotation[1] + oldRotation[2] + oldRotation[3]) then\r\n\r\n        itHasApparentlyRolled = true\r\n\r\n        currentRoll = self.getValue()\r\n\r\n        notecard.call(\"reportRoll\", { currentRoll })\r\n\r\n        if itHasApparentlyRolled then\r\n            itHasApparentlyRolled = false\r\n            oldRotation = self.getRotation()\r\n        end\r\n\r\n        resetTimer()\r\n\r\n    end\r\n\r\n   if os.clock() - spawnTime > 3 and notTheFirstDrop == false then\r\n        notTheFirstDrop = true\r\n   end\r\n\r\nend\r\n",
+          "LuaScriptState": "",
+          "GUID": "22989d"
+        }
+      ],
+      "GUID": "e7c8e2"
+    },
+    {
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": -7.79344,
+        "posY": 0.9429991,
+        "posZ": 11.3674145,
+        "rotX": -1.14376471E-05,
+        "rotY": 315.045624,
+        "rotZ": -1.28973807E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "d6",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.3058885,
+        "g": 0.372555166,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Die_6",
+          "Transform": {
+            "posX": -7.78653765,
+            "posY": 3.36227274,
+            "posZ": 11.0316916,
+            "rotX": 45.0312347,
+            "rotY": 272.834,
+            "rotZ": 270.004669,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "MaterialIndex": 0,
+          "XmlUI": "",
+          "LuaScript": "spawnTime = 0\r\n\r\nfunction onLoad()\r\n\r\n    color = self.held_by_color\r\n    if color != nil then\r\n        colorRGB = stringColorToRGB(color)\r\n        self.setColorTint(colorRGB)\r\n    end\r\n\r\n    notecard = getObjectFromGUID('d8fbc5')\r\n    d6die = getObjectFromGUID(self.guid)\r\n    itHasApparentlyRolled = false\r\n\r\n    oldRotation = self.getRotation()\r\n\r\n    notTheFirstDrop = false\r\n    spawnTime = os.clock()\r\n\r\nend\r\n\r\nfunction resetTimer()\r\n    theTime = os.clock()\r\nend\r\n\r\nresetTimer()\r\n\r\nfunction onCollisionStay(collision_info)\r\n\r\n    currentRotation = self.getRotation()\r\n\r\n    if collision_info.collision_object.tag ~= 'Dice' and notTheFirstDrop and self.resting and os.clock() - theTime > 1 and math.floor(currentRotation[1] + currentRotation[2] + currentRotation[3]) ~= math.floor(oldRotation[1] + oldRotation[2] + oldRotation[3]) then\r\n\r\n        itHasApparentlyRolled = true\r\n\r\n        currentRoll = self.getValue()\r\n\r\n        notecard.call(\"reportRoll\", { currentRoll })\r\n\r\n        if itHasApparentlyRolled then\r\n            itHasApparentlyRolled = false\r\n            oldRotation = self.getRotation()\r\n        end\r\n\r\n        resetTimer()\r\n\r\n    end\r\n\r\n   if os.clock() - spawnTime > 3 and notTheFirstDrop == false then\r\n        notTheFirstDrop = true\r\n   end\r\n\r\nend\r\n",
+          "LuaScriptState": "",
+          "GUID": "afa395"
+        }
+      ],
+      "GUID": "a2d22a"
+    },
+    {
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": 9.96895,
+        "posY": 0.9429991,
+        "posZ": 8.922461,
+        "rotX": -2.717136E-06,
+        "rotY": 45.0729942,
+        "rotZ": -1.63732943E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "d20",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.3058885,
+        "g": 0.372555166,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Die_20",
+          "Transform": {
+            "posX": 9.852626,
+            "posY": 3.44425416,
+            "posZ": 8.85065651,
+            "rotX": 20.6911945,
+            "rotY": 317.5249,
+            "rotZ": 185.921387,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.5176527,
+            "g": 0.105887152,
+            "b": 0.6196126
+          },
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "MaterialIndex": 0,
+          "XmlUI": "",
+          "LuaScript": "spawnTime = 0\r\n\r\nfunction onLoad()\r\n\r\n    color = self.held_by_color\r\n    if color != nil then\r\n        colorRGB = stringColorToRGB(color)\r\n        self.setColorTint(colorRGB)\r\n    end\r\n\r\n    notecard = getObjectFromGUID('d8fbc5')\r\n    d6die = getObjectFromGUID(self.guid)\r\n    itHasApparentlyRolled = false\r\n\r\n    oldRotation = self.getRotation()\r\n\r\n    notTheFirstDrop = false\r\n    spawnTime = os.clock()\r\n\r\nend\r\n\r\nfunction resetTimer()\r\n    theTime = os.clock()\r\nend\r\n\r\nresetTimer()\r\n\r\nfunction onCollisionStay(collision_info)\r\n\r\n    currentRotation = self.getRotation()\r\n\r\n    if collision_info.collision_object.tag ~= 'Dice' and notTheFirstDrop and self.resting and os.clock() - theTime > 1 and math.floor(currentRotation[1] + currentRotation[2] + currentRotation[3]) ~= math.floor(oldRotation[1] + oldRotation[2] + oldRotation[3]) then\r\n\r\n        itHasApparentlyRolled = true\r\n\r\n        currentRoll = self.getValue()\r\n\r\n        notecard.call(\"reportRoll\", { currentRoll })\r\n\r\n        if itHasApparentlyRolled then\r\n            itHasApparentlyRolled = false\r\n            oldRotation = self.getRotation()\r\n        end\r\n\r\n        resetTimer()\r\n\r\n    end\r\n\r\n   if os.clock() - spawnTime > 3 and notTheFirstDrop == false then\r\n        notTheFirstDrop = true\r\n   end\r\n\r\nend\r\n",
+          "LuaScriptState": "",
+          "GUID": "7afd39"
+        }
+      ],
+      "GUID": "1ae1ce"
+    },
+    {
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": -10.006959,
+        "posY": 0.9429993,
+        "posZ": 9.139399,
+        "rotX": -2.627235E-06,
+        "rotY": 314.99234,
+        "rotZ": 1.424441E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "d4",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.3058885,
+        "g": 0.372555166,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Die_4",
+          "Transform": {
+            "posX": -9.85873,
+            "posY": 3.06312633,
+            "posZ": 8.816339,
+            "rotX": 49.27352,
+            "rotY": 32.7220535,
+            "rotZ": 134.265488,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.149030268,
+            "g": 0.3019731,
+            "b": 0.4431491
+          },
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "MaterialIndex": 0,
+          "XmlUI": "",
+          "LuaScript": "spawnTime = 0\r\n\r\nfunction onLoad()\r\n\r\n    color = self.held_by_color\r\n    if color != nil then\r\n        colorRGB = stringColorToRGB(color)\r\n        self.setColorTint(colorRGB)\r\n    end\r\n\r\n    notecard = getObjectFromGUID('d8fbc5')\r\n    d6die = getObjectFromGUID(self.guid)\r\n    itHasApparentlyRolled = false\r\n\r\n    oldRotation = self.getRotation()\r\n\r\n    notTheFirstDrop = false\r\n    spawnTime = os.clock()\r\n\r\nend\r\n\r\nfunction resetTimer()\r\n    theTime = os.clock()\r\nend\r\n\r\nresetTimer()\r\n\r\nfunction onCollisionStay(collision_info)\r\n\r\n    currentRotation = self.getRotation()\r\n\r\n    if collision_info.collision_object.tag ~= 'Dice' and notTheFirstDrop and self.resting and os.clock() - theTime > 1 and math.floor(currentRotation[1] + currentRotation[2] + currentRotation[3]) ~= math.floor(oldRotation[1] + oldRotation[2] + oldRotation[3]) then\r\n\r\n        itHasApparentlyRolled = true\r\n\r\n        currentRoll = self.getValue()\r\n\r\n        notecard.call(\"reportRoll\", { currentRoll })\r\n\r\n        if itHasApparentlyRolled then\r\n            itHasApparentlyRolled = false\r\n            oldRotation = self.getRotation()\r\n        end\r\n\r\n        resetTimer()\r\n\r\n    end\r\n\r\n   if os.clock() - spawnTime > 3 and notTheFirstDrop == false then\r\n        notTheFirstDrop = true\r\n   end\r\n\r\nend\r\n",
+          "LuaScriptState": "",
+          "GUID": "e4196e"
+        }
+      ],
+      "GUID": "db9bae"
+    },
+    {
+      "Name": "Die_4",
+      "Transform": {
+        "posX": -4.54827738,
+        "posY": 1.04259181,
+        "posZ": 1.23503721,
+        "rotX": 18.6126289,
+        "rotY": 2.83238864,
+        "rotZ": 119.96032,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.149030268,
+        "g": 0.3019731,
+        "b": 0.4431491
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "MaterialIndex": 0,
+      "XmlUI": "",
+      "LuaScript": "spawnTime = 0\r\n\r\nfunction onLoad()\r\n\r\n    color = self.held_by_color\r\n    if color != nil then\r\n        colorRGB = stringColorToRGB(color)\r\n        self.setColorTint(colorRGB)\r\n    end\r\n\r\n    notecard = getObjectFromGUID('d8fbc5')\r\n    d6die = getObjectFromGUID(self.guid)\r\n    itHasApparentlyRolled = false\r\n\r\n    oldRotation = self.getRotation()\r\n\r\n    notTheFirstDrop = false\r\n    spawnTime = os.clock()\r\n\r\nend\r\n\r\nfunction resetTimer()\r\n    theTime = os.clock()\r\nend\r\n\r\nresetTimer()\r\n\r\nfunction onCollisionStay(collision_info)\r\n\r\n    currentRotation = self.getRotation()\r\n\r\n    if collision_info.collision_object.tag ~= 'Dice' and notTheFirstDrop and self.resting and os.clock() - theTime > 1 and math.floor(currentRotation[1] + currentRotation[2] + currentRotation[3]) ~= math.floor(oldRotation[1] + oldRotation[2] + oldRotation[3]) then\r\n\r\n        itHasApparentlyRolled = true\r\n\r\n        currentRoll = self.getValue()\r\n\r\n        notecard.call(\"reportRoll\", { currentRoll })\r\n\r\n        if itHasApparentlyRolled then\r\n            itHasApparentlyRolled = false\r\n            oldRotation = self.getRotation()\r\n        end\r\n\r\n        resetTimer()\r\n\r\n    end\r\n\r\n   if os.clock() - spawnTime > 3 and notTheFirstDrop == false then\r\n        notTheFirstDrop = true\r\n   end\r\n\r\nend\r\n",
+      "LuaScriptState": "",
+      "GUID": "90bda8"
+    },
+    {
+      "Name": "Die_8",
+      "Transform": {
+        "posX": -0.800677,
+        "posY": 1.298695,
+        "posZ": 1.10957539,
+        "rotX": 326.2638,
+        "rotY": 2.82992983,
+        "rotZ": 270.000031,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.5647112,
+        "g": 0.08235738,
+        "b": 0.08235738
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "MaterialIndex": 0,
+      "XmlUI": "",
+      "LuaScript": "spawnTime = 0\r\n\r\nfunction onLoad()\r\n\r\n    color = self.held_by_color\r\n    if color != nil then\r\n        colorRGB = stringColorToRGB(color)\r\n        self.setColorTint(colorRGB)\r\n    end\r\n\r\n    notecard = getObjectFromGUID('d8fbc5')\r\n    d6die = getObjectFromGUID(self.guid)\r\n    itHasApparentlyRolled = false\r\n\r\n    oldRotation = self.getRotation()\r\n\r\n    notTheFirstDrop = false\r\n    spawnTime = os.clock()\r\n\r\nend\r\n\r\nfunction resetTimer()\r\n    theTime = os.clock()\r\nend\r\n\r\nresetTimer()\r\n\r\nfunction onCollisionStay(collision_info)\r\n\r\n    currentRotation = self.getRotation()\r\n\r\n    if collision_info.collision_object.tag ~= 'Dice' and notTheFirstDrop and self.resting and os.clock() - theTime > 1 and math.floor(currentRotation[1] + currentRotation[2] + currentRotation[3]) ~= math.floor(oldRotation[1] + oldRotation[2] + oldRotation[3]) then\r\n\r\n        itHasApparentlyRolled = true\r\n\r\n        currentRoll = self.getValue()\r\n\r\n        notecard.call(\"reportRoll\", { currentRoll })\r\n\r\n        if itHasApparentlyRolled then\r\n            itHasApparentlyRolled = false\r\n            oldRotation = self.getRotation()\r\n        end\r\n\r\n        resetTimer()\r\n\r\n    end\r\n\r\n   if os.clock() - spawnTime > 3 and notTheFirstDrop == false then\r\n        notTheFirstDrop = true\r\n   end\r\n\r\nend\r\n",
+      "LuaScriptState": "",
+      "GUID": "42c44e"
+    },
+    {
+      "Name": "Die_10",
+      "Transform": {
+        "posX": 0.829683959,
+        "posY": 1.32240617,
+        "posZ": 1.072426,
+        "rotX": 38.651165,
+        "rotY": 180.928223,
+        "rotZ": 271.4869,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.07451412,
+        "g": 0.415692329,
+        "b": 0.172554567
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "MaterialIndex": 0,
+      "XmlUI": "",
+      "LuaScript": "spawnTime = 0\r\n\r\nfunction onLoad()\r\n\r\n    color = self.held_by_color\r\n    if color != nil then\r\n        colorRGB = stringColorToRGB(color)\r\n        self.setColorTint(colorRGB)\r\n    end\r\n\r\n    notecard = getObjectFromGUID('d8fbc5')\r\n    d6die = getObjectFromGUID(self.guid)\r\n    itHasApparentlyRolled = false\r\n\r\n    oldRotation = self.getRotation()\r\n\r\n    notTheFirstDrop = false\r\n    spawnTime = os.clock()\r\n\r\nend\r\n\r\nfunction resetTimer()\r\n    theTime = os.clock()\r\nend\r\n\r\nresetTimer()\r\n\r\nfunction onCollisionStay(collision_info)\r\n\r\n    currentRotation = self.getRotation()\r\n\r\n    if collision_info.collision_object.tag ~= 'Dice' and notTheFirstDrop and self.resting and os.clock() - theTime > 1 and math.floor(currentRotation[1] + currentRotation[2] + currentRotation[3]) ~= math.floor(oldRotation[1] + oldRotation[2] + oldRotation[3]) then\r\n\r\n        itHasApparentlyRolled = true\r\n\r\n        currentRoll = self.getValue()\r\n\r\n        notecard.call(\"reportRoll\", { currentRoll })\r\n\r\n        if itHasApparentlyRolled then\r\n            itHasApparentlyRolled = false\r\n            oldRotation = self.getRotation()\r\n        end\r\n\r\n        resetTimer()\r\n\r\n    end\r\n\r\n   if os.clock() - spawnTime > 3 and notTheFirstDrop == false then\r\n        notTheFirstDrop = true\r\n   end\r\n\r\nend\r\n",
+      "LuaScriptState": "",
+      "GUID": "72c27b"
+    },
+    {
+      "Name": "Die_12",
+      "Transform": {
+        "posX": 2.71486044,
+        "posY": 1.35876739,
+        "posZ": 1.10993934,
+        "rotX": 333.434967,
+        "rotY": 38.8415871,
+        "rotZ": 252.000137,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.8156889,
+        "g": 0.5098095,
+        "b": 0.117652006
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "MaterialIndex": 0,
+      "XmlUI": "",
+      "LuaScript": "spawnTime = 0\r\n\r\nfunction onLoad()\r\n\r\n    color = self.held_by_color\r\n    if color != nil then\r\n        colorRGB = stringColorToRGB(color)\r\n        self.setColorTint(colorRGB)\r\n    end\r\n\r\n    notecard = getObjectFromGUID('d8fbc5')\r\n    d6die = getObjectFromGUID(self.guid)\r\n    itHasApparentlyRolled = false\r\n\r\n    oldRotation = self.getRotation()\r\n\r\n    notTheFirstDrop = false\r\n    spawnTime = os.clock()\r\n\r\nend\r\n\r\nfunction resetTimer()\r\n    theTime = os.clock()\r\nend\r\n\r\nresetTimer()\r\n\r\nfunction onCollisionStay(collision_info)\r\n\r\n    currentRotation = self.getRotation()\r\n\r\n    if collision_info.collision_object.tag ~= 'Dice' and notTheFirstDrop and self.resting and os.clock() - theTime > 1 and math.floor(currentRotation[1] + currentRotation[2] + currentRotation[3]) ~= math.floor(oldRotation[1] + oldRotation[2] + oldRotation[3]) then\r\n\r\n        itHasApparentlyRolled = true\r\n\r\n        currentRoll = self.getValue()\r\n\r\n        notecard.call(\"reportRoll\", { currentRoll })\r\n\r\n        if itHasApparentlyRolled then\r\n            itHasApparentlyRolled = false\r\n            oldRotation = self.getRotation()\r\n        end\r\n\r\n        resetTimer()\r\n\r\n    end\r\n\r\n   if os.clock() - spawnTime > 3 and notTheFirstDrop == false then\r\n        notTheFirstDrop = true\r\n   end\r\n\r\nend\r\n",
+      "LuaScriptState": "",
+      "GUID": "6e3d5f"
+    },
+    {
+      "Name": "Die_20",
+      "Transform": {
+        "posX": 4.50655365,
+        "posY": 1.37810552,
+        "posZ": 1.03310764,
+        "rotX": 10.81231,
+        "rotY": 3.00992775,
+        "rotZ": 197.999985,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.5176527,
+        "g": 0.105887152,
+        "b": 0.6196126
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "MaterialIndex": 0,
+      "XmlUI": "",
+      "LuaScript": "spawnTime = 0\r\n\r\nfunction onLoad()\r\n\r\n    color = self.held_by_color\r\n    if color != nil then\r\n        colorRGB = stringColorToRGB(color)\r\n        self.setColorTint(colorRGB)\r\n    end\r\n\r\n    notecard = getObjectFromGUID('d8fbc5')\r\n    d6die = getObjectFromGUID(self.guid)\r\n    itHasApparentlyRolled = false\r\n\r\n    oldRotation = self.getRotation()\r\n\r\n    notTheFirstDrop = false\r\n    spawnTime = os.clock()\r\n\r\nend\r\n\r\nfunction resetTimer()\r\n    theTime = os.clock()\r\nend\r\n\r\nresetTimer()\r\n\r\nfunction onCollisionStay(collision_info)\r\n\r\n    currentRotation = self.getRotation()\r\n\r\n    if collision_info.collision_object.tag ~= 'Dice' and notTheFirstDrop and self.resting and os.clock() - theTime > 1 and math.floor(currentRotation[1] + currentRotation[2] + currentRotation[3]) ~= math.floor(oldRotation[1] + oldRotation[2] + oldRotation[3]) then\r\n\r\n        itHasApparentlyRolled = true\r\n\r\n        currentRoll = self.getValue()\r\n\r\n        notecard.call(\"reportRoll\", { currentRoll })\r\n\r\n        if itHasApparentlyRolled then\r\n            itHasApparentlyRolled = false\r\n            oldRotation = self.getRotation()\r\n        end\r\n\r\n        resetTimer()\r\n\r\n    end\r\n\r\n   if os.clock() - spawnTime > 3 and notTheFirstDrop == false then\r\n        notTheFirstDrop = true\r\n   end\r\n\r\nend\r\n",
+      "LuaScriptState": "",
+      "GUID": "3d5b47"
+    }
+  ],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": ""
+}

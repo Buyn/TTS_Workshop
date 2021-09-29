@@ -1,0 +1,1572 @@
+{
+  "SaveName": "Battletech TCG - WotC, 1996",
+  "GameMode": "Custom",
+  "Date": "7/2/2015 4:32:40 PM",
+  "Table": "Table_RPG",
+  "Sky": "Sky_Cathedral",
+  "SkyURL": "http://media.moddb.com/images/mods/1/9/8528/panorama_clearcut_sa-version_03.jpg",
+  "Note": "",
+  "Rules": "",
+  "PlayerTurn": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Snapping": false,
+    "Offset": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "yPosition": 0.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hidding": 0
+  },
+  "DrawImage": "iVBORw0KGgoAAAANSUhEUgAAAWAAAADQCAYAAAA53LuNAAAFFElEQVR4Ae3QgQAAAADDoPlTH+SFUGHAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgy8DQx5DAABHyNK3wAAAABJRU5ErkJggg==",
+  "ObjectStates": [
+    {
+      "Name": "Custom_Board",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 0.9220247,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 180.000046,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7867738,
+        "g": 0.7867738,
+        "b": 0.7867738
+      },
+      "Grid": true,
+      "Locked": true,
+      "CustomImage": {
+        "ImageURL": "http://www.streamlinergames.com/battlecards/BT_mat.jpg",
+        "WidthScale": 1.99662161
+      },
+      "GUID": "215991"
+    },
+    {
+      "Name": "DeckCustom",
+      "Transform": {
+        "posX": 16.3703022,
+        "posY": 2.09110284,
+        "posZ": -5.417452,
+        "rotX": -4.30795026E-08,
+        "rotY": 179.9676,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Marik Deck",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713246942,
+        "g": 0.713246942,
+        "b": 0.713246942
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        116,
+        145,
+        119,
+        147,
+        154,
+        129,
+        156,
+        115,
+        106,
+        103,
+        148,
+        105,
+        104,
+        130,
+        131,
+        113,
+        109,
+        122,
+        107,
+        118,
+        117,
+        155,
+        158,
+        128,
+        125,
+        123,
+        146,
+        100,
+        127,
+        150,
+        138,
+        124,
+        142,
+        159,
+        133,
+        120,
+        144,
+        151,
+        135,
+        102,
+        149,
+        136,
+        111,
+        132,
+        140,
+        114,
+        112,
+        157,
+        134,
+        143,
+        153,
+        121,
+        110,
+        137,
+        139,
+        101,
+        126,
+        152,
+        108,
+        141
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "http://www.streamlinergames.com/battlecards/BT_Marik.jpg",
+          "BackURL": "http://www.streamlinergames.com/battlecards/BT_cardback.jpg"
+        }
+      },
+      "GUID": "b098a5"
+    },
+    {
+      "Name": "DeckCustom",
+      "Transform": {
+        "posX": -16.52805,
+        "posY": 2.09110355,
+        "posZ": 5.411805,
+        "rotX": 7.385674E-07,
+        "rotY": 180.108643,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Steel Viper Deck",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713246942,
+        "g": 0.713246942,
+        "b": 0.713246942
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        215,
+        232,
+        239,
+        259,
+        203,
+        251,
+        207,
+        250,
+        227,
+        248,
+        201,
+        208,
+        224,
+        211,
+        256,
+        200,
+        217,
+        247,
+        253,
+        246,
+        209,
+        212,
+        241,
+        238,
+        206,
+        213,
+        220,
+        242,
+        223,
+        235,
+        225,
+        219,
+        205,
+        226,
+        202,
+        210,
+        229,
+        258,
+        255,
+        237,
+        230,
+        257,
+        233,
+        249,
+        218,
+        234,
+        252,
+        243,
+        254,
+        216,
+        204,
+        240,
+        244,
+        222,
+        214,
+        228,
+        245,
+        236,
+        231,
+        221
+      ],
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "http://www.streamlinergames.com/battlecards/BT_SteelViper.jpg",
+          "BackURL": "http://www.streamlinergames.com/battlecards/BT_cardback.jpg"
+        }
+      },
+      "GUID": "07293e"
+    },
+    {
+      "Name": "Die_8",
+      "Transform": {
+        "posX": -20.3522968,
+        "posY": 2.154752,
+        "posZ": 9.84224,
+        "rotX": 317.949951,
+        "rotY": 244.811661,
+        "rotZ": 116.832733,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.564727,
+        "g": 0.0823708,
+        "b": 0.0823708
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "996511"
+    },
+    {
+      "Name": "Die_8",
+      "Transform": {
+        "posX": -21.0412369,
+        "posY": 2.086918,
+        "posZ": 10.33969,
+        "rotX": 326.494049,
+        "rotY": 347.625,
+        "rotZ": 0.2925058,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.564727,
+        "g": 0.0823708,
+        "b": 0.0823708
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "83a598"
+    },
+    {
+      "Name": "Die_8",
+      "Transform": {
+        "posX": -21.4317322,
+        "posY": 2.08686018,
+        "posZ": 11.058177,
+        "rotX": 326.2638,
+        "rotY": 339.632477,
+        "rotZ": 5.64662832E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.564727,
+        "g": 0.0823708,
+        "b": 0.0823708
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "b913ae"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -16.7097015,
+        "posY": 2.09816551,
+        "posZ": 9.885766,
+        "rotX": -1.34557422E-05,
+        "rotY": 0.118266635,
+        "rotZ": -1.66707116E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.058876045,
+        "g": 0.0541170351,
+        "b": 0.0541170351
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "a58a43"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -16.7715569,
+        "posY": 2.09816527,
+        "posZ": 8.978861,
+        "rotX": 270.0,
+        "rotY": 357.681824,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.058876045,
+        "g": 0.0541170351,
+        "b": 0.0541170351
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "1ef096"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -15.8611965,
+        "posY": 2.09816527,
+        "posZ": 9.440237,
+        "rotX": -1.38279311E-05,
+        "rotY": 0.0609442778,
+        "rotZ": 6.389956E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.058876045,
+        "g": 0.0541170351,
+        "b": 0.0541170351
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "5780fe"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 16.7892876,
+        "posY": 2.09816456,
+        "posZ": -9.847964,
+        "rotX": 270.0,
+        "rotY": 357.708618,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.058880087,
+        "g": 0.0541209839,
+        "b": 0.0541209839
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "f97b89"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 16.8511486,
+        "posY": 2.098164,
+        "posZ": -8.941029,
+        "rotX": -4.993494E-06,
+        "rotY": 0.146578029,
+        "rotZ": -7.339507E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.058880087,
+        "g": 0.0541209839,
+        "b": 0.0541209839
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "218c5d"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 17.6996536,
+        "posY": 2.09816384,
+        "posZ": -9.386558,
+        "rotX": 2.06992263E-06,
+        "rotY": 0.0890995041,
+        "rotZ": -2.28904742E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.058880087,
+        "g": 0.0541209839,
+        "b": 0.0541209839
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "f2ad40"
+    },
+    {
+      "Name": "Die_8",
+      "Transform": {
+        "posX": 20.7585735,
+        "posY": 2.08686,
+        "posZ": -9.904748,
+        "rotX": 326.2638,
+        "rotY": 263.0644,
+        "rotZ": 89.99995,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.5647322,
+        "g": 0.0823752657,
+        "b": 0.0823752657
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "567bd7"
+    },
+    {
+      "Name": "Die_8",
+      "Transform": {
+        "posX": 19.95634,
+        "posY": 2.086859,
+        "posZ": -9.621117,
+        "rotX": 326.263824,
+        "rotY": 348.30368,
+        "rotZ": -5.13329837E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.5647322,
+        "g": 0.0823752657,
+        "b": 0.0823752657
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "4fc67e"
+    },
+    {
+      "Name": "Die_8",
+      "Transform": {
+        "posX": 19.6697712,
+        "posY": 2.086859,
+        "posZ": -8.901938,
+        "rotX": 326.263824,
+        "rotY": 342.992554,
+        "rotZ": 4.10663824E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.5647322,
+        "g": 0.0823752657,
+        "b": 0.0823752657
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "0c17c2"
+    },
+    {
+      "Name": "Die_12",
+      "Transform": {
+        "posX": 17.1730251,
+        "posY": 2.14693141,
+        "posZ": -11.207551,
+        "rotX": 270.0,
+        "rotY": 9.092313E-05,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.815696836,
+        "g": 0.5098263,
+        "b": 0.11766699
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "7da692"
+    },
+    {
+      "Name": "Die_12",
+      "Transform": {
+        "posX": 19.6759224,
+        "posY": 2.14693165,
+        "posZ": -10.4972353,
+        "rotX": 270.0,
+        "rotY": -0.0009648101,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.815699458,
+        "g": 0.5098319,
+        "b": 0.117671974
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "85601e"
+    },
+    {
+      "Name": "Die_12",
+      "Transform": {
+        "posX": 18.8208389,
+        "posY": 2.14693165,
+        "posZ": -11.0617561,
+        "rotX": 270.0,
+        "rotY": -0.0009185722,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.815699458,
+        "g": 0.5098319,
+        "b": 0.117671974
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "f51942"
+    },
+    {
+      "Name": "Die_12",
+      "Transform": {
+        "posX": -19.1242981,
+        "posY": 2.14693284,
+        "posZ": 10.9584341,
+        "rotX": 270.0,
+        "rotY": 358.476868,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.815699458,
+        "g": 0.5098319,
+        "b": 0.117671974
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "9df353"
+    },
+    {
+      "Name": "Die_12",
+      "Transform": {
+        "posX": -19.0647316,
+        "posY": 2.14693284,
+        "posZ": 9.658029,
+        "rotX": 333.435,
+        "rotY": 186.920273,
+        "rotZ": 179.999847,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.815699458,
+        "g": 0.5098319,
+        "b": 0.117671974
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "49e6dd"
+    },
+    {
+      "Name": "Die_12",
+      "Transform": {
+        "posX": -18.0761,
+        "posY": 2.14693284,
+        "posZ": 9.931254,
+        "rotX": 270.0,
+        "rotY": -0.0009515622,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.815699458,
+        "g": 0.5098319,
+        "b": 0.117671974
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "d3b6c9"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 17.4680862,
+        "posY": 0.948242664,
+        "posZ": 14.7301588,
+        "rotX": -2.81743869E-05,
+        "rotY": 180.011749,
+        "rotZ": -1.36671633E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921616,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=HMgFU3DH",
+        "DiffuseURL": "http://i.imgur.com/TTD5sVj.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=CM0N5Qzp",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.05,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        }
+      },
+      "GUID": "38b143"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 19.7172832,
+        "posY": 0.948242664,
+        "posZ": 14.7324629,
+        "rotX": -3.71393944E-05,
+        "rotY": 180.011551,
+        "rotZ": 2.420217E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921616,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=HMgFU3DH",
+        "DiffuseURL": "http://i.imgur.com/f6i89Kb.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=CM0N5Qzp",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.05,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        }
+      },
+      "GUID": "355c28"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 21.9677448,
+        "posY": 0.948242664,
+        "posZ": 14.7328634,
+        "rotX": -3.71393944E-05,
+        "rotY": 180.011551,
+        "rotZ": 2.420217E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921616,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=HMgFU3DH",
+        "DiffuseURL": "http://i.imgur.com/Zdo0XJF.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=CM0N5Qzp",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.05,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        }
+      },
+      "GUID": "3d2f03"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 24.218935,
+        "posY": 0.948242664,
+        "posZ": 14.7321653,
+        "rotX": -6.824862E-06,
+        "rotY": 180.011612,
+        "rotZ": -5.26974582E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921616,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=HMgFU3DH",
+        "DiffuseURL": "http://i.imgur.com/qu3euKS.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=CM0N5Qzp",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.05,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        }
+      },
+      "GUID": "7d9000"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 15.2160921,
+        "posY": 0.9482428,
+        "posZ": 14.732996,
+        "rotX": -9.816972E-06,
+        "rotY": 180.011551,
+        "rotZ": -1.41491182E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921616,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=HMgFU3DH",
+        "DiffuseURL": "http://i.imgur.com/elEaylF.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=CM0N5Qzp",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.05,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        }
+      },
+      "GUID": "9a092a"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 12.9681263,
+        "posY": 0.948242664,
+        "posZ": 14.7303905,
+        "rotX": 6.40328562E-06,
+        "rotY": 180.011612,
+        "rotZ": 1.56145589E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921616,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=HMgFU3DH",
+        "DiffuseURL": "http://i.imgur.com/z4z16gs.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=CM0N5Qzp",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.05,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        }
+      },
+      "GUID": "b32b09"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 10.7164831,
+        "posY": 0.948242545,
+        "posZ": 14.731719,
+        "rotX": 4.22609955E-05,
+        "rotY": 180.0118,
+        "rotZ": 7.743962E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921616,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=HMgFU3DH",
+        "DiffuseURL": "http://i.imgur.com/tuFxN2Z.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=CM0N5Qzp",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.05,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        }
+      },
+      "GUID": "846ee0"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 8.466863,
+        "posY": 0.948242545,
+        "posZ": 14.7300978,
+        "rotX": 1.83615921E-05,
+        "rotY": 180.011612,
+        "rotZ": -5.393991E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921616,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=HMgFU3DH",
+        "DiffuseURL": "http://i.imgur.com/mV2z5u5.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=CM0N5Qzp",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.05,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        }
+      },
+      "GUID": "c9b94b"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 21.1221027,
+        "posY": 1.56313074,
+        "posZ": 9.195443,
+        "rotX": -3.42874046E-05,
+        "rotY": 0.00669180043,
+        "rotZ": 2.41403541E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Unlimited set",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705886245,
+        "g": 0.366527081,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "DeckCustom",
+          "Transform": {
+            "posX": 1.58931613,
+            "posY": 4.93463755,
+            "posZ": -1.35548043,
+            "rotX": 1.82986021,
+            "rotY": 180.112442,
+            "rotZ": 181.025925,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713239133,
+            "g": 0.713239133,
+            "b": 0.713239133
+          },
+          "Grid": true,
+          "Locked": false,
+          "SidewaysCard": false,
+          "DeckIDs": [
+            700,
+            701,
+            702,
+            703,
+            713,
+            717,
+            716,
+            715,
+            714,
+            712,
+            711,
+            710,
+            709,
+            708,
+            707,
+            706,
+            705,
+            704,
+            632,
+            624,
+            600,
+            601,
+            602,
+            603,
+            604,
+            605,
+            606,
+            607,
+            608,
+            609,
+            610,
+            611,
+            612,
+            613,
+            614,
+            615,
+            616,
+            617,
+            618,
+            619,
+            620,
+            621,
+            622,
+            623,
+            625,
+            626,
+            627,
+            628,
+            629,
+            630,
+            631,
+            648,
+            649,
+            650,
+            651,
+            652,
+            653,
+            654,
+            655,
+            656,
+            657,
+            658,
+            659,
+            660,
+            661,
+            662,
+            663,
+            664,
+            665,
+            666,
+            667,
+            668,
+            300,
+            301,
+            302,
+            303,
+            304,
+            305,
+            306,
+            307,
+            308,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314,
+            315,
+            316,
+            317,
+            318,
+            319,
+            320,
+            321,
+            322,
+            323,
+            324,
+            325,
+            326,
+            327,
+            328,
+            329,
+            330,
+            331,
+            332,
+            333,
+            334,
+            335,
+            336,
+            337,
+            338,
+            339,
+            340,
+            341,
+            342,
+            343,
+            344,
+            345,
+            346,
+            347,
+            348,
+            349,
+            350,
+            351,
+            352,
+            353,
+            354,
+            355,
+            356,
+            357,
+            358,
+            359,
+            360,
+            361,
+            362,
+            363,
+            364,
+            365,
+            366,
+            367,
+            368,
+            400,
+            401,
+            402,
+            403,
+            404,
+            405,
+            406,
+            407,
+            408,
+            409,
+            410,
+            411,
+            412,
+            413,
+            414,
+            415,
+            416,
+            417,
+            418,
+            419,
+            420,
+            421,
+            422,
+            423,
+            424,
+            425,
+            426,
+            427,
+            428,
+            429,
+            430,
+            431,
+            432,
+            433,
+            434,
+            435,
+            436,
+            437,
+            438,
+            439,
+            440,
+            441,
+            442,
+            443,
+            444,
+            445,
+            446,
+            447,
+            448,
+            449,
+            450,
+            451,
+            452,
+            453,
+            454,
+            455,
+            456,
+            457,
+            458,
+            459,
+            460,
+            461,
+            462,
+            463,
+            464,
+            465,
+            466,
+            467,
+            468,
+            500,
+            501,
+            502,
+            503,
+            504,
+            505,
+            506,
+            507,
+            508,
+            509,
+            510,
+            511,
+            512,
+            513,
+            514,
+            515,
+            516,
+            517,
+            518,
+            519,
+            520,
+            521,
+            522,
+            523,
+            524,
+            525,
+            526,
+            527,
+            528,
+            529,
+            530,
+            531,
+            532,
+            533,
+            534,
+            535,
+            536,
+            537,
+            538,
+            539,
+            540,
+            541,
+            542,
+            543,
+            544,
+            545,
+            546,
+            547,
+            548,
+            549,
+            550,
+            551,
+            552,
+            553,
+            554,
+            555,
+            556,
+            557,
+            558,
+            559,
+            560,
+            561,
+            562,
+            563,
+            564,
+            565,
+            566,
+            567,
+            568
+          ],
+          "CustomDeck": {
+            "7": {
+              "FaceURL": "http://www.streamlinergames.com/BT/BT_unlimited5.jpg",
+              "BackURL": "http://www.streamlinergames.com/BT/BT_cardback.jpg"
+            },
+            "6": {
+              "FaceURL": "http://www.streamlinergames.com/BT/BT_unlimited4.jpg",
+              "BackURL": "http://www.streamlinergames.com/BT/BT_cardback.jpg"
+            },
+            "3": {
+              "FaceURL": "http://www.streamlinergames.com/BT/BT_unlimited1.jpg",
+              "BackURL": "http://www.streamlinergames.com/BT/BT_cardback.jpg"
+            },
+            "4": {
+              "FaceURL": "http://www.streamlinergames.com/BT/BT_unlimited2.jpg",
+              "BackURL": "http://www.streamlinergames.com/BT/BT_cardback.jpg"
+            },
+            "5": {
+              "FaceURL": "http://www.streamlinergames.com/BT/BT_unlimited3.jpg",
+              "BackURL": "http://www.streamlinergames.com/BT/BT_cardback.jpg"
+            }
+          },
+          "GUID": "1a341d"
+        },
+        {
+          "Name": "Deck",
+          "Transform": {
+            "posX": 1.36775267,
+            "posY": 3.87087631,
+            "posZ": -1.098888,
+            "rotX": 2.11233282,
+            "rotY": 180.019974,
+            "rotZ": 0.412664652,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713262558,
+            "g": 0.713262558,
+            "b": 0.713262558
+          },
+          "Grid": true,
+          "Locked": false,
+          "SidewaysCard": false,
+          "DeckIDs": [
+            641,
+            640,
+            639
+          ],
+          "CustomDeck": {
+            "6": {
+              "FaceURL": "http://www.streamlinergames.com/BT/BT_unlimited4.jpg",
+              "BackURL": "http://www.streamlinergames.com/BT/BT_cardback.jpg"
+            }
+          },
+          "GUID": "9fc703"
+        },
+        {
+          "Name": "Deck",
+          "Transform": {
+            "posX": 0.896659,
+            "posY": 3.85300016,
+            "posZ": -0.813914239,
+            "rotX": 0.46540916,
+            "rotY": 179.989258,
+            "rotZ": 355.923828,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.71325475,
+            "g": 0.71325475,
+            "b": 0.71325475
+          },
+          "Grid": true,
+          "Locked": false,
+          "SidewaysCard": false,
+          "DeckIDs": [
+            644,
+            643,
+            642
+          ],
+          "CustomDeck": {
+            "6": {
+              "FaceURL": "http://www.streamlinergames.com/BT/BT_unlimited4.jpg",
+              "BackURL": "http://www.streamlinergames.com/BT/BT_cardback.jpg"
+            }
+          },
+          "GUID": "21aff2"
+        },
+        {
+          "Name": "Deck",
+          "Transform": {
+            "posX": 1.15192819,
+            "posY": 3.87848735,
+            "posZ": -0.8543563,
+            "rotX": 0.793082654,
+            "rotY": 179.993057,
+            "rotZ": 357.922119,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.71325475,
+            "g": 0.71325475,
+            "b": 0.71325475
+          },
+          "Grid": true,
+          "Locked": false,
+          "SidewaysCard": false,
+          "DeckIDs": [
+            633,
+            634,
+            635
+          ],
+          "CustomDeck": {
+            "6": {
+              "FaceURL": "http://www.streamlinergames.com/BT/BT_unlimited4.jpg",
+              "BackURL": "http://www.streamlinergames.com/BT/BT_cardback.jpg"
+            }
+          },
+          "GUID": "eb7029"
+        },
+        {
+          "Name": "Deck",
+          "Transform": {
+            "posX": 1.66130149,
+            "posY": 3.86047482,
+            "posZ": -0.4268636,
+            "rotX": 358.693542,
+            "rotY": 179.96875,
+            "rotZ": 3.26820469,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.71325475,
+            "g": 0.71325475,
+            "b": 0.71325475
+          },
+          "Grid": true,
+          "Locked": false,
+          "SidewaysCard": false,
+          "DeckIDs": [
+            637,
+            638,
+            636
+          ],
+          "CustomDeck": {
+            "6": {
+              "FaceURL": "http://www.streamlinergames.com/BT/BT_unlimited4.jpg",
+              "BackURL": "http://www.streamlinergames.com/BT/BT_cardback.jpg"
+            }
+          },
+          "GUID": "d074e6"
+        },
+        {
+          "Name": "Deck",
+          "Transform": {
+            "posX": 1.383887,
+            "posY": 3.87923455,
+            "posZ": -0.4438376,
+            "rotX": 358.518768,
+            "rotY": 180.003082,
+            "rotZ": 0.619976461,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.71325475,
+            "g": 0.71325475,
+            "b": 0.71325475
+          },
+          "Grid": true,
+          "Locked": false,
+          "SidewaysCard": false,
+          "DeckIDs": [
+            647,
+            646,
+            645
+          ],
+          "CustomDeck": {
+            "6": {
+              "FaceURL": "http://www.streamlinergames.com/BT/BT_unlimited4.jpg",
+              "BackURL": "http://www.streamlinergames.com/BT/BT_cardback.jpg"
+            }
+          },
+          "GUID": "411454"
+        }
+      ],
+      "GUID": "a2ee8f"
+    }
+  ]
+}

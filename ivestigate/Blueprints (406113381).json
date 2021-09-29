@@ -1,0 +1,1253 @@
+{
+  "SaveName": "Blueprints",
+  "GameMode": "None",
+  "Date": "3/11/2015 7:43:09 PM",
+  "Table": "Table_RPG",
+  "Sky": "Sky_Forest",
+  "Note": "2 players: 8 dice, silver awards\n3 players: 9 dice, gold and silver awards\n4 players: 7 dice, all awards",
+  "Rules": "Credit goes to Yves Tourigny. If you like it, buy the game!\n\nStart by shuffling blueprints and dealing one to each player. Place these face up in your hidden area and lock them. Pull two dice from the bag at random and place them on the right hand side of the scoreboard These are the in-demand materials. Note that they must be different colours.\n\nColour breakdown:\nRed(orange) is wood. More points for ones adjacent to each other\nGreen is recycled material. The more you use, the more points you get.\nBlack is stone. Point are awarded for having these higher in the structure.\nWhite is glass. These are worth the amount initally rolled on them.\n\nTake out the specified number of dice and roll them. For safety and ease of play, name each one the number that they landed on. Take turns selecting a die from the pool and stacking it on your blueprint card. It can then be locked to avoid knocking it over. Do this for six rounds.\n\nNote that it is not necessary to follow the blueprint exactly, though this will accrue extra points. Build on any of the spaces with numbers on them, but not on the white spaces. Dice may be placed on any dice with an equal or lower value, for instance a four on a three but not a four on a five.\n\nThere are four different architectural prizes to be handed out at the end of each round: Skyscraper for building a 5 dice or higher tower, Structural Integrity for 4 dice with the same tower, Geometer's for including one die of each value 1 through 6, and Materials for 5 or more dice of the same colour.\n\nOnly one of each prize may be handed out each round, so if more than one player has achieved it, the prize goes to the one who has used the most of the first in demand material. If they are still tied, move on to the second in demand material.\n\nAlso at the end of the round, remove hidden areas and count up players' scores: 6 for successfully building to the blueprints specifications, and extra as above. Then hand out awards: the 'best' one to the player with the most points, the second best for the second best and so on. Ties are handled as above. The number of awards given depending on the number of players is shown on the right.\n\nWhen that is complete, reset the game by returning all dice but the in demand materials to the pouch, and resetting scores to zero. Also make new hidden areas. When three rounds have been played, the player with the highest score wins!",
+  "PlayerTurn": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": true,
+    "Snapping": true,
+    "Offset": true,
+    "xSize": 1.16,
+    "ySize": 1.16
+  },
+  "DrawImage": "iVBORw0KGgoAAAANSUhEUgAAAWAAAADQCAYAAAA53LuNAAAFFElEQVR4Ae3QgQAAAADDoPlTH+SFUGHAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgy8DQx5DAABHyNK3wAAAABJRU5ErkJggg==",
+  "ObjectStates": [
+    {
+      "Name": "Custom_Board",
+      "Transform": {
+        "posX": -22.6199,
+        "posY": 0.9703057,
+        "posZ": 6.380027,
+        "rotX": -1.50694241E-05,
+        "rotY": 90.0201,
+        "rotZ": 4.07056359E-06,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Score Board",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.786803961,
+        "g": 0.786803961,
+        "b": 0.786803961
+      },
+      "Grid": true,
+      "Locked": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/zkiSjsb.jpg",
+        "WidthScale": 1.95532644
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -25.0068016,
+        "posY": 0.950077,
+        "posZ": -4.103185,
+        "rotX": -2.7982569E-05,
+        "rotY": 164.427643,
+        "rotZ": -2.85824663E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.6985777,
+        "b": 0.00481740525
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 4,
+      "GUID": ""
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -26.41937,
+        "posY": 0.950078964,
+        "posZ": -4.034088,
+        "rotX": -4.10586945E-05,
+        "rotY": 150.479492,
+        "rotZ": -4.022565E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860318959,
+        "g": 0.860318959,
+        "b": 0.860318959
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": ""
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": 24.93973,
+        "posY": 1.12249267,
+        "posZ": -8.700282,
+        "rotX": -9.774478E-07,
+        "rotY": 179.966446,
+        "rotZ": 180.0,
+        "scaleX": 2.0,
+        "scaleY": 2.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "Architectural Prizes",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713282049,
+        "g": 0.713282049,
+        "b": 0.713282049
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        103,
+        103,
+        103,
+        100,
+        100,
+        100,
+        102,
+        102,
+        102,
+        101,
+        101,
+        101
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "http://i.imgur.com/cixrb8e.jpg",
+          "BackURL": "http://i.imgur.com/3zetBeW.jpg"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "DeckCustom",
+      "Transform": {
+        "posX": 25.08422,
+        "posY": 1.25039947,
+        "posZ": 0.6171756,
+        "rotX": -1.65404379E-06,
+        "rotY": 179.5595,
+        "rotZ": 180.0,
+        "scaleX": 2.0,
+        "scaleY": 2.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "Blueprints",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713262558,
+        "g": 0.713262558,
+        "b": 0.713262558
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223
+      ],
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "http://i.imgur.com/7GVG0QI.jpg",
+          "BackURL": "http://i.imgur.com/rGxfk3M.jpg"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 2.90085316,
+        "posY": 0.624431849,
+        "posZ": -0.5790962,
+        "rotX": -1.62269771E-07,
+        "rotY": 105.052788,
+        "rotZ": -5.824951E-06,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.941181,
+        "g": 0.488717973,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Die_6_Rounded",
+          "Transform": {
+            "posX": -21.3107262,
+            "posY": 4.695,
+            "posZ": -3.9876647,
+            "rotX": 341.13443,
+            "rotY": 6.40295172,
+            "rotZ": 255.285477,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9960786,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": 1,
+          "GUID": ""
+        },
+        {
+          "Name": "Die_6_Rounded",
+          "Transform": {
+            "posX": -21.3125839,
+            "posY": 4.4356637,
+            "posZ": -5.401258,
+            "rotX": 3.638327,
+            "rotY": 66.76821,
+            "rotZ": 69.05013,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.423541456,
+            "b": 0.996078551
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": 3,
+          "GUID": ""
+        },
+        {
+          "Name": "Die_6_Rounded",
+          "Transform": {
+            "posX": -23.759201,
+            "posY": 1.75961411,
+            "posZ": -6.43349075,
+            "rotX": 335.882019,
+            "rotY": 232.379654,
+            "rotZ": 355.2728,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9960786,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": 1,
+          "GUID": ""
+        },
+        {
+          "Name": "Die_6_Rounded",
+          "Transform": {
+            "posX": -13.2040462,
+            "posY": 4.892688,
+            "posZ": -13.0813026,
+            "rotX": 355.433228,
+            "rotY": 178.050964,
+            "rotZ": 3.436132,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.058876045,
+            "g": 0.0541170351,
+            "b": 0.0541170351
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": 0,
+          "GUID": ""
+        },
+        {
+          "Name": "Die_6_Rounded",
+          "Transform": {
+            "posX": -22.5758228,
+            "posY": 2.5324223,
+            "posZ": -6.20301151,
+            "rotX": 11.3356352,
+            "rotY": 356.96167,
+            "rotZ": 263.684021,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.058880087,
+            "g": 0.0541209839,
+            "b": 0.0541209839
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": 0,
+          "GUID": ""
+        },
+        {
+          "Name": "Die_6_Rounded",
+          "Transform": {
+            "posX": 0.574906766,
+            "posY": 4.735842,
+            "posZ": -1.762592,
+            "rotX": 68.29839,
+            "rotY": 339.43808,
+            "rotZ": 40.86904,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.058880087,
+            "g": 0.0541209839,
+            "b": 0.0541209839
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": 0,
+          "GUID": ""
+        },
+        {
+          "Name": "Die_6_Rounded",
+          "Transform": {
+            "posX": 2.9799273,
+            "posY": 4.94948339,
+            "posZ": -0.7415169,
+            "rotX": 280.6751,
+            "rotY": 18.6467915,
+            "rotZ": 4.698373,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.423553526,
+            "b": 0.99607867
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": 3,
+          "GUID": ""
+        },
+        {
+          "Name": "Die_6_Rounded",
+          "Transform": {
+            "posX": 0.5840005,
+            "posY": 5.138305,
+            "posZ": -0.5868233,
+            "rotX": 305.896576,
+            "rotY": 9.890125,
+            "rotZ": 292.012329,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.058880087,
+            "g": 0.0541209839,
+            "b": 0.0541209839
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": 0,
+          "GUID": ""
+        },
+        {
+          "Name": "Die_6_Rounded",
+          "Transform": {
+            "posX": -21.4519882,
+            "posY": 2.925304,
+            "posZ": -6.29923248,
+            "rotX": 310.8134,
+            "rotY": 185.080383,
+            "rotZ": 176.648621,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0552491322,
+            "g": 0.779421151,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": 2,
+          "GUID": ""
+        },
+        {
+          "Name": "Die_6_Rounded",
+          "Transform": {
+            "posX": -21.38868,
+            "posY": 2.49980569,
+            "posZ": -6.393728,
+            "rotX": 68.84172,
+            "rotY": 54.4882545,
+            "rotZ": 320.7335,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.423541456,
+            "b": 0.996078551
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": 3,
+          "GUID": ""
+        },
+        {
+          "Name": "Die_6_Rounded",
+          "Transform": {
+            "posX": 0.5718384,
+            "posY": 4.911136,
+            "posZ": -1.76646864,
+            "rotX": 351.509247,
+            "rotY": 154.4771,
+            "rotZ": 271.382141,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.99607867,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": 1,
+          "GUID": ""
+        },
+        {
+          "Name": "Die_6_Rounded",
+          "Transform": {
+            "posX": -13.3127766,
+            "posY": 5.60969448,
+            "posZ": -13.4041367,
+            "rotX": 67.2211151,
+            "rotY": 148.321671,
+            "rotZ": 288.176331,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0552491322,
+            "g": 0.779421151,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": 2,
+          "GUID": ""
+        },
+        {
+          "Name": "Die_6_Rounded",
+          "Transform": {
+            "posX": -20.293644,
+            "posY": 2.31508684,
+            "posZ": -6.388741,
+            "rotX": 352.72348,
+            "rotY": 1.33270216,
+            "rotZ": 3.39488363,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.058876045,
+            "g": 0.0541170351,
+            "b": 0.0541170351
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": 0,
+          "GUID": ""
+        },
+        {
+          "Name": "Die_6_Rounded",
+          "Transform": {
+            "posX": -12.0122328,
+            "posY": 4.421706,
+            "posZ": -13.3648214,
+            "rotX": 32.8573837,
+            "rotY": 15.6902151,
+            "rotZ": 165.386826,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9960786,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": 1,
+          "GUID": ""
+        },
+        {
+          "Name": "Die_6_Rounded",
+          "Transform": {
+            "posX": 0.5684535,
+            "posY": 5.122637,
+            "posZ": -0.5784652,
+            "rotX": 295.028168,
+            "rotY": 39.1084633,
+            "rotZ": 266.384521,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0552531034,
+            "g": 0.77942425,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": 2,
+          "GUID": ""
+        },
+        {
+          "Name": "Die_6_Rounded",
+          "Transform": {
+            "posX": -18.0450211,
+            "posY": 4.44672537,
+            "posZ": -13.3440914,
+            "rotX": 21.7492619,
+            "rotY": 91.89863,
+            "rotZ": 98.66386,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9960786,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": 1,
+          "GUID": ""
+        },
+        {
+          "Name": "Die_6_Rounded",
+          "Transform": {
+            "posX": 0.5749222,
+            "posY": 5.20808649,
+            "posZ": -0.570652246,
+            "rotX": 342.4548,
+            "rotY": 291.56192,
+            "rotZ": 296.027344,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.99607867,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": 1,
+          "GUID": ""
+        },
+        {
+          "Name": "Die_6_Rounded",
+          "Transform": {
+            "posX": -15.6291285,
+            "posY": 3.94665527,
+            "posZ": -12.15847,
+            "rotX": 0.5858902,
+            "rotY": 101.656876,
+            "rotZ": 329.933838,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.058876045,
+            "g": 0.0541170351,
+            "b": 0.0541170351
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": 0,
+          "GUID": ""
+        },
+        {
+          "Name": "Die_6_Rounded",
+          "Transform": {
+            "posX": -22.7399731,
+            "posY": 5.05929041,
+            "posZ": -4.144664,
+            "rotX": 4.58630276,
+            "rotY": 164.785553,
+            "rotZ": 49.562645,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.423541456,
+            "b": 0.996078551
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": 3,
+          "GUID": ""
+        },
+        {
+          "Name": "Die_6_Rounded",
+          "Transform": {
+            "posX": -13.0793934,
+            "posY": 4.751195,
+            "posZ": -13.4815655,
+            "rotX": 90.0,
+            "rotY": 52.89629,
+            "rotZ": 0.0,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9960786,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": 1,
+          "GUID": ""
+        },
+        {
+          "Name": "Die_6_Rounded",
+          "Transform": {
+            "posX": -22.667511,
+            "posY": 4.39150763,
+            "posZ": -5.27163029,
+            "rotX": 63.4389763,
+            "rotY": 13.5035963,
+            "rotZ": 283.0195,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0552491322,
+            "g": 0.779421151,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": 2,
+          "GUID": ""
+        },
+        {
+          "Name": "Die_6_Rounded",
+          "Transform": {
+            "posX": 0.587361,
+            "posY": 4.928914,
+            "posZ": -1.75385487,
+            "rotX": 287.9358,
+            "rotY": 2.626631,
+            "rotZ": 197.689728,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.423553526,
+            "b": 0.99607867
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": 3,
+          "GUID": ""
+        },
+        {
+          "Name": "Die_6_Rounded",
+          "Transform": {
+            "posX": 3.09393764,
+            "posY": 4.973194,
+            "posZ": -0.7642978,
+            "rotX": 353.253662,
+            "rotY": 168.335876,
+            "rotZ": 180.846542,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.99607867,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": 1,
+          "GUID": ""
+        },
+        {
+          "Name": "Die_6_Rounded",
+          "Transform": {
+            "posX": 0.57821995,
+            "posY": 4.8046875,
+            "posZ": -1.756589,
+            "rotX": 79.12862,
+            "rotY": 357.713348,
+            "rotZ": 214.108322,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.058880087,
+            "g": 0.0541209839,
+            "b": 0.0541209839
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": 0,
+          "GUID": ""
+        },
+        {
+          "Name": "Die_6_Rounded",
+          "Transform": {
+            "posX": 2.957644,
+            "posY": 4.85958529,
+            "posZ": -1.86204112,
+            "rotX": 10.7369528,
+            "rotY": 343.7401,
+            "rotZ": 3.49464464,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.423559576,
+            "b": 0.9960787
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": 3,
+          "GUID": ""
+        },
+        {
+          "Name": "Die_6_Rounded",
+          "Transform": {
+            "posX": 0.577922046,
+            "posY": 4.8491416,
+            "posZ": 0.604155064,
+            "rotX": 14.5721149,
+            "rotY": 23.525074,
+            "rotZ": 76.50527,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0552531034,
+            "g": 0.77942425,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": 2,
+          "GUID": ""
+        },
+        {
+          "Name": "Die_6_Rounded",
+          "Transform": {
+            "posX": -22.6931553,
+            "posY": 4.46966457,
+            "posZ": -5.29927969,
+            "rotX": 290.380524,
+            "rotY": 217.756531,
+            "rotZ": 52.51597,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.423541456,
+            "b": 0.996078551
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": 3,
+          "GUID": ""
+        },
+        {
+          "Name": "Die_6_Rounded",
+          "Transform": {
+            "posX": -13.4152918,
+            "posY": 4.98433,
+            "posZ": -13.3004494,
+            "rotX": 358.836517,
+            "rotY": 112.324287,
+            "rotZ": 93.959816,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0552491322,
+            "g": 0.779421151,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": 2,
+          "GUID": ""
+        },
+        {
+          "Name": "Die_6_Rounded",
+          "Transform": {
+            "posX": 0.588227,
+            "posY": 5.09977674,
+            "posZ": -0.5721896,
+            "rotX": 356.8771,
+            "rotY": 144.455322,
+            "rotZ": 336.187,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.05525707,
+            "g": 0.77942735,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": 2,
+          "GUID": ""
+        },
+        {
+          "Name": "Die_6_Rounded",
+          "Transform": {
+            "posX": -22.4626751,
+            "posY": 2.53119516,
+            "posZ": -6.3628273,
+            "rotX": 12.5817881,
+            "rotY": 1.460482,
+            "rotZ": 270.2083,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.423541456,
+            "b": 0.996078551
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": 3,
+          "GUID": ""
+        },
+        {
+          "Name": "Die_6_Rounded",
+          "Transform": {
+            "posX": 0.5603321,
+            "posY": 4.942312,
+            "posZ": -0.57723397,
+            "rotX": 357.375183,
+            "rotY": 31.060358,
+            "rotZ": 276.12735,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.055261042,
+            "g": 0.7794305,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": 2,
+          "GUID": ""
+        },
+        {
+          "Name": "Die_6_Rounded",
+          "Transform": {
+            "posX": -21.6090355,
+            "posY": 3.218683,
+            "posZ": -6.368973,
+            "rotX": 353.440033,
+            "rotY": 270.665161,
+            "rotZ": 195.883148,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.058880087,
+            "g": 0.0541209839,
+            "b": 0.0541209839
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": 0,
+          "GUID": ""
+        }
+      ],
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Board",
+      "Transform": {
+        "posX": -22.61999,
+        "posY": 0.9703056,
+        "posZ": -11.0199709,
+        "rotX": -3.35711156E-05,
+        "rotY": 89.98007,
+        "rotZ": -1.42128965E-05,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Scoring System",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7867738,
+        "g": 0.7867738,
+        "b": 0.7867738
+      },
+      "Grid": true,
+      "Locked": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/riQ7BXh.jpg",
+        "WidthScale": 1.17081845
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": 24.9396152,
+        "posY": 1.09051573,
+        "posZ": 11.0195875,
+        "rotX": -2.3111626E-07,
+        "rotY": 179.985229,
+        "rotZ": 180.0,
+        "scaleX": 2.0,
+        "scaleY": 2.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "Awards",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713297665,
+        "g": 0.713297665,
+        "b": 0.713297665
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        104,
+        104,
+        104,
+        105,
+        105,
+        105,
+        106,
+        106,
+        106
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "http://i.imgur.com/cixrb8e.jpg",
+          "BackURL": "http://i.imgur.com/3zetBeW.jpg"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -22.55418,
+        "posY": 0.9500757,
+        "posZ": -4.0800395,
+        "rotX": -1.29249088E-06,
+        "rotY": 89.90088,
+        "rotZ": 1.16019282E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382424,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": ""
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -23.7798729,
+        "posY": 0.9500842,
+        "posZ": -4.059992,
+        "rotX": -1.33059011E-05,
+        "rotY": 345.000061,
+        "rotZ": 1.50955066E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.17243053,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 5,
+      "GUID": ""
+    },
+    {
+      "Name": "FogOfWarTrigger",
+      "Transform": {
+        "posX": 13.5266867,
+        "posY": 2.701243,
+        "posZ": -13.7725735,
+        "rotX": 0.0,
+        "rotY": 359.828217,
+        "rotZ": 0.0,
+        "scaleX": 12.8315067,
+        "scaleY": 3.5,
+        "scaleZ": 6.862063
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": true,
+      "FogColor": "White",
+      "FogHidePointers": false,
+      "GUID": ""
+    },
+    {
+      "Name": "FogOfWarTrigger",
+      "Transform": {
+        "posX": -9.249553,
+        "posY": 2.701243,
+        "posZ": 12.4381466,
+        "rotX": 0.0,
+        "rotY": 180.795914,
+        "rotZ": 0.0,
+        "scaleX": 14.165822,
+        "scaleY": 3.5,
+        "scaleZ": 7.176092
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.192005709,
+        "g": 0.701003969,
+        "b": 0.168005511
+      },
+      "Grid": true,
+      "Locked": true,
+      "FogColor": "Green",
+      "FogHidePointers": false,
+      "GUID": ""
+    },
+    {
+      "Name": "FogOfWarTrigger",
+      "Transform": {
+        "posX": 14.0067911,
+        "posY": 2.701243,
+        "posZ": 12.4904976,
+        "rotX": 0.0,
+        "rotY": 181.429626,
+        "rotZ": 0.0,
+        "scaleX": 13.3587294,
+        "scaleY": 3.5,
+        "scaleZ": 7.2402935
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.118004985,
+        "g": 0.530005455,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": true,
+      "FogColor": "Blue",
+      "FogHidePointers": false,
+      "GUID": ""
+    },
+    {
+      "Name": "FogOfWarTrigger",
+      "Transform": {
+        "posX": -8.780018,
+        "posY": 2.701243,
+        "posZ": -12.4877577,
+        "rotX": 0.0,
+        "rotY": 358.748383,
+        "rotZ": 0.0,
+        "scaleX": 14.4310265,
+        "scaleY": 3.5,
+        "scaleZ": 8.948952
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.856002152,
+        "g": 0.10000474,
+        "b": 0.09400465
+      },
+      "Grid": true,
+      "Locked": true,
+      "FogColor": "Red",
+      "FogHidePointers": false,
+      "GUID": ""
+    }
+  ]
+}

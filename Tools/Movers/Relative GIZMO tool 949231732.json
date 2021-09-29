@@ -1,0 +1,651 @@
+{
+  "SaveName": "Relative GIZMO tool",
+  "GameMode": "Relative GUZMO tool",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "6/17/2017 11:55:50 PM",
+  "Table": "Table_Octagon",
+  "Sky": "Sky_Museum",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "",
+  "LuaScript": "--[[ Lua code. See documentation: http://berserk-games.com/knowledgebase/scripting/ --]]\n\n--[[ The OnLoad function. This is called after everything in the game save finishes loading.\nMost of your script code goes here. --]]\nfunction onload()\n    --[[ print('Onload!') --]]\nend\n\n--[[ The Update function. This is called once per frame. --]]\nfunction update ()\n    --[[ print('Update loop!') --]]\nend",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -12.3078947,
+          "posY": 3.66349673,
+          "posZ": -12.4467239,
+          "rotX": 3.26725058E-07,
+          "rotY": 45.0000038,
+          "rotZ": -7.88784E-07,
+          "scaleX": 9.413995,
+          "scaleY": 8.961139,
+          "scaleZ": 5.465846
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -12.3997488,
+          "posY": 3.66349673,
+          "posZ": 12.199688,
+          "rotX": -3.94392E-07,
+          "rotY": 135.0,
+          "rotZ": 1.63362529E-07,
+          "scaleX": 9.413994,
+          "scaleY": 8.961139,
+          "scaleZ": 5.46584225
+        }
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 17.3902721,
+          "posY": 3.66349673,
+          "posZ": 0.0449399948,
+          "rotX": -3.01854584E-07,
+          "rotY": 270.0,
+          "rotZ": -3.01854556E-07,
+          "scaleX": 9.413988,
+          "scaleY": 8.961139,
+          "scaleZ": 5.46583843
+        }
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 12.3691387,
+          "posY": 3.66349673,
+          "posZ": 12.2303019,
+          "rotX": 7.88784E-07,
+          "rotY": 225.000031,
+          "rotZ": 3.26725115E-07,
+          "scaleX": 9.413986,
+          "scaleY": 8.961139,
+          "scaleZ": 5.46584129
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 3.33786E-06,
+          "posY": 3.66349673,
+          "posZ": -17.3453941,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 9.413987,
+          "scaleY": 8.961141,
+          "scaleZ": 5.46584
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": 0.0,
+          "posY": 3.66349673,
+          "posZ": 17.1985073,
+          "rotX": 6.403293E-07,
+          "rotY": 179.8,
+          "rotZ": -1.11756726E-09,
+          "scaleX": 9.41399,
+          "scaleY": 8.961139,
+          "scaleZ": 5.465843
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 12.3691416,
+          "posY": 3.66349673,
+          "posZ": -12.140564,
+          "rotX": 0.0,
+          "rotY": 315.000031,
+          "rotZ": 0.0,
+          "scaleX": 9.413965,
+          "scaleY": 8.961139,
+          "scaleZ": 5.46583652
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -17.420887,
+          "posY": 3.66349673,
+          "posZ": -0.169381142,
+          "rotX": -9.05563752E-07,
+          "rotY": 90.0,
+          "rotZ": 1.50927281E-06,
+          "scaleX": 9.413998,
+          "scaleY": 8.961139,
+          "scaleZ": 5.46584463
+        }
+      }
+    ]
+  },
+  "VectorLines": [],
+  "ObjectStates": [
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -2.60983467,
+        "posY": 1.06000006,
+        "posZ": 1.68086648,
+        "rotX": -3.890129E-06,
+        "rotY": 180.000031,
+        "rotZ": 180.0,
+        "scaleX": 3.1163137,
+        "scaleY": 1.0,
+        "scaleZ": 3.1163137
+      },
+      "Nickname": "Relative GIZMO tool",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/850466580335691044/1275F3903FF8694C8CD3FB5C03E002F354D05751/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/850466580335159905/84EA4B42524B5D408D214386BB4FEC067D9AEF51/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "\r\n-- PrintFormat determents the amount of decimal places to be printed\r\nlocal UpdateFreq = 0.5;\r\nlocal OutputFormat = \"%.5g\"\r\n-------------------------------------------------------------------------------- Helper Functions\r\nlocal function MergeTable (Default, NewTable)\r\n    for k,v in pairs(NewTable) do\r\n        Default[k] = v\r\n    end\r\n    return Default\r\nend\r\n\r\nlocal function DirtyCopy(Table)\r\n    return MergeTable({}, Table)\r\nend\r\n\r\n-------------------------------------------------------------------------------- Set up Default\r\nlocal Def = {}\r\n\r\nDef.Button = {}\r\nDef.Button.click_function = 'NoFunction'\r\nDef.Button.function_owner = self\r\nDef.Button.label = '?'\r\nDef.Button.scale = {0.25,0.25,0.25}\r\nDef.Button.font_size = 140\r\n--DefaultButtonParms.color = Color ???Optional\r\n--DefaultButtonParms.font_color = Color ???Optional\r\n\r\n\r\nDef.AddSub = DirtyCopy(Def.Button)\r\nDef.AddSub.width  = 210\r\nDef.AddSub.height = 210\r\n\r\n\r\nDef.TextButton = DirtyCopy(Def.Button)\r\nDef.TextButton.width = 0\r\nDef.TextButton.height = 0\r\nDef.TextButton.click_function = 'none'\r\n\r\n-------------------------------------------------------------------------------- Declaring Buttons\r\nlocal Setup = {}\r\n\r\nSetup.Buttons = {\r\n    {label = 'Scan',         click_function = 'ExtractInfoFromToutchObject', position = {0.33,   0.1, -0.6775}, width = 930,  height = 370},\r\n    {label = 'Scan',         click_function = 'GetRelative',                 position = {0.2375, 0.1, -0.395},  width = 570,  height = 370},\r\n    {label = 'Self',         click_function = 'UseSelf',                     position = {0.4803, 0.1, -0.395},  width = 370,  height = 370},\r\n    {label = 'Force Update', click_function = 'Force_Update',                position = {-0.286, 0.1, -0.1279}, width = 1105, height = 260},\r\n    {label = 'Nudge Target', click_function = 'TargetNudge',                 position = {0.286,  0.1, -0.1279}, width = 1105, height = 260}\r\n}\r\n\r\nlocal Exp = 0.418\r\nSetup.AddSub = {\r\n    {label = '+', Type = 'Scale', Change =  1, position = {0.383, 0.1, 0.0902}},\r\n    {label = '-', Type = 'Scale', Change = -1, position = {0.5,   0.1, 0.0902}},\r\n\r\n    {label = '+', Type = 'x', Change = -1, position = {0.383, 0.1, 0.292 }},\r\n    {label = '-', Type = 'x', Change =  1, position = {0.5,   0.1, 0.292 }},\r\n    {label = '+', Type = 'y', Change =  1, position = {0.383, 0.1, 0.3955}},\r\n    {label = '-', Type = 'y', Change = -1, position = {0.5,   0.1, 0.3955}},\r\n    {label = '+', Type = 'z', Change =  1, position = {0.383, 0.1, 0.499 }},\r\n    {label = '-', Type = 'z', Change = -1, position = {0.5,   0.1, 0.499 }},\r\n\r\n    {label = '+', Type = 'Rx', Change =  1, position = {0.383, 0.1, 0.71  }},\r\n    {label = '-', Type = 'Rx', Change = -1, position = {0.5,   0.1, 0.71  }},\r\n    {label = '+', Type = 'Ry', Change =  1, position = {0.383, 0.1, 0.8135}},\r\n    {label = '-', Type = 'Ry', Change = -1, position = {0.5,   0.1, 0.8135}},\r\n    {label = '+', Type = 'Rz', Change =  1, position = {0.383, 0.1, 0.917 }},\r\n    {label = '-', Type = 'Rz', Change = -1, position = {0.5,   0.1, 0.917 }}\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nTextFealdIndex = {}\r\nSetup.TextButtons = {\r\n    {label = '', VarName = 'Scanner_Name',  position = {-0.2457,  0.1, -0.72016}},\r\n    {label = '', VarName = 'Scanner_GUID',  position = {-0.2457,  0.1, -0.6328 }},\r\n    {label = '', VarName = 'Relative_Name', position = { -0.2457,  0.1, -0.43716}},\r\n    {label = '', VarName = 'Relative_GUID', position = { -0.2457,  0.1, -0.3498 }},\r\n\r\n    {label = 1, VarName = 'Scale', position = {-0.08,  0.1, 0.0902}},\r\n\r\n    {label = 0,  VarName = 'x',    position = {-0.08,  0.1, 0.292 }},\r\n    {label = 0,  VarName = 'y',    position = {-0.08,  0.1, 0.3955}},\r\n    {label = 0,  VarName = 'z',    position = {-0.08,  0.1, 0.499 }},\r\n\r\n    {label = 0,  VarName = 'Rx',    position = {-0.08,  0.1, 0.71  }},\r\n    {label = 0,  VarName = 'Ry',    position = {-0.08,  0.1, 0.8135}},\r\n    {label = 0,  VarName = 'Rz',    position = {-0.08,  0.1, 0.917 }}\r\n}\r\n\r\n-------------------------------------------------------------------------------- Function for buttons\r\n\r\n-- Setting up Global Behavior for tool --\r\nlocal Objects     = nil\r\nlocal Target_GUID = nil\r\nlocal RelTarget   = nil\r\nlocal Scale       = 1\r\n\r\n\r\n-- Used during development. Shod be depricated later\r\nlocal function NoFunction ()\r\n    print('This button is missing a function')\r\nend\r\n\r\n\r\nfunction onCollisionEnter(collision_info)\r\n    if not (collision_info.collision_object.getGUID() == nil) then\r\n        Object = collision_info.collision_object\r\n    end\r\nend\r\n\r\nfunction onCollisionExit(collision_info)\r\n    if not (collision_info.collision_object.getGUID() == nil) then\r\n        Object = nil\r\n    end\r\nend\r\n\r\nlocal function ReturnValidGUID (GUID)\r\n    if getObjectFromGUID(GUID) == nil then\r\n        return nil\r\n    else\r\n        return GUID\r\n    end\r\nend\r\n\r\n-- Setting up buttons functions --\r\nfunction Force_Update(objectButtonClicked, playerColorClicked)\r\n    local Pos = {0, 0, 0}\r\n    local Rot = {0, 0, 0}\r\n    local Target   = {Name = '', GUID = ''}\r\n    local Relative = {Name = '', GUID = ''}\r\n\r\n\r\n    Target_GUID = ReturnValidGUID(Target_GUID)\r\n    RelTarget   = ReturnValidGUID(RelTarget)\r\n\r\n    local Obj = {Target = getObjectFromGUID(Target_GUID), Relative = getObjectFromGUID(RelTarget)}\r\n\r\n    if Obj.Target ~= nil then\r\n        Rot         = Obj.Target.getRotation()\r\n        Pos         = Obj.Target.getPosition()\r\n        Target.Name = Obj.Target.getName()\r\n        Target.GUID = Target_GUID\r\n    else\r\n        self.setVar('update', nil)\r\n    end\r\n\r\n    if  Obj.Relative ~= nil then\r\n        Relative.Name = Obj.Relative.getName()\r\n        Relative.GUID = RelTarget\r\n\r\n        if Obj.Target ~= nil then\r\n            -- Scale and translate to local cordinate system\r\n            Pos = Obj.Relative.positionToLocal(Obj.Target.getPosition())\r\n            local RelRot = Obj.Relative.getRotation()\r\n            for i=1,3 do\r\n                Rot[i] = Rot[i] - RelRot[i]\r\n            end\r\n        end\r\n    end\r\n\r\n    if Target_GUID ~= nil and playerColorClicked ~= nil then\r\n        --print('XYZ: { ' .. -Pos[1] .. ',  ' .. Pos[2] .. ',  ' .. Pos[3] .. ' }')\r\n        broadcastToColor( 'Forced Update Compleate\\nXYZ: {'.. -Pos[1] .. ',  ' .. Pos[2] .. ',  ' .. Pos[3] .. ' }', playerColorClicked, {0.5, 1, 0.5} )\r\n    end\r\n\r\n\r\n    local Temp = {\r\n        {index = TextFealdIndex['Scale'], label = Scale},\r\n\r\n        {index = TextFealdIndex['x'],  label = string.format(OutputFormat, -Pos[1])},\r\n        {index = TextFealdIndex['y'],  label = string.format(OutputFormat,  Pos[2])},\r\n        {index = TextFealdIndex['z'],  label = string.format(OutputFormat,  Pos[3])},\r\n        {index = TextFealdIndex['Rx'], label = string.format(OutputFormat, Rot[1])},\r\n        {index = TextFealdIndex['Ry'], label = string.format(OutputFormat, Rot[2])},\r\n        {index = TextFealdIndex['Rz'], label = string.format(OutputFormat, Rot[3])},\r\n\r\n        {index = TextFealdIndex['Scanner_GUID'],  label = Target.Name},\r\n        {index = TextFealdIndex['Scanner_Name'],  label = Target.GUID},\r\n        {index = TextFealdIndex['Relative_Name'], label = Relative.Name},\r\n        {index = TextFealdIndex['Relative_GUID'], label = Relative.GUID}\r\n    }\r\n\r\n    for k,v in pairs(Temp) do\r\n        self.editButton(v)\r\n    end\r\nend\r\n\r\nlocal function MoveRotateTarget(Type, Direction)\r\n    Target_GUID = ReturnValidGUID(Target_GUID)\r\n    RelTarget   = ReturnValidGUID(RelTarget)\r\n\r\n    local Typ = {Scale = 0, x = 1, y = 2, z = 3, Rx = 4, Ry = 5, Rz = 6}\r\n    Typ = Typ[Type]\r\n\r\n    if Typ == 0 then\r\n        local ScaleChange = {['-1'] = 0.1, ['1'] = 10}\r\n        Scale = Scale * ScaleChange[tostring(Direction)]\r\n    elseif Typ > 3 then\r\n        local Obj = {Target = getObjectFromGUID(Target_GUID)}\r\n        local Rot = Obj.Target.getRotation()\r\n        Rot = {Rot[1], Rot[2], Rot[3]} -- Buggfixer as this is stupid\r\n\r\n        Rot[Typ-3] = Rot[Typ-3] + Scale * Direction\r\n        Obj.Target.setRotation(Rot)\r\n\r\n    elseif Target_GUID ~= nil then\r\n        local Obj = {Target = getObjectFromGUID(Target_GUID)}\r\n        local Pos = Obj.Target.getPosition()\r\n        Pos = {Pos[1], Pos[2], Pos[3]} -- Buggfixer as this is stupid\r\n\r\n        if RelTarget == nil then\r\n            Pos[Typ] = Pos[Typ] + Scale * Direction\r\n        else\r\n            Obj.Relative = getObjectFromGUID(RelTarget)\r\n            local RelTarget_Pos = Obj.Relative.getPosition()\r\n\r\n            local ChangePos = {0, 0, 0}\r\n            ChangePos[Typ] = Scale * Direction\r\n\r\n            ChangePos = Obj.Relative.positionToWorld(ChangePos)\r\n\r\n            for i=1,3 do\r\n                Pos[i] = Pos[i] + ChangePos[i] - RelTarget_Pos[i]\r\n            end\r\n        end\r\n        Obj.Target.setPosition(Pos)\r\n    end\r\n    Force_Update()\r\nend\r\n\r\n\r\nlocal time = 0\r\nlocal MyUpdate = function()\r\n   if UpdateFreq == nil then\r\n       return\r\n   elseif os.time() > time then\r\n       Force_Update()\r\n       time = os.time() + UpdateFreq\r\n   end\r\nend\r\n\r\nfunction GetRelative( Temp, playerColorClicked)\r\n    if Object == nil then\r\n        RelTarget = nil\r\n        broadcastToColor('Scanning unsucsessfull.\\nPlease place an object on the tool and try agen.', playerColorClicked, {1, 0.5, 0.5})\r\n        --print('Scanning unsucsessfull.\\nPlease place an object on the tool and try agen.')\r\n    else\r\n        RelTarget = Object.getGUID()\r\n    end\r\n    Force_Update()\r\nend\r\n\r\nfunction UseSelf()\r\n    if RelTarget == self.getGUID() then\r\n        RelTarget = nil\r\n    else\r\n        RelTarget = self.getGUID()\r\n    end\r\n    Force_Update()\r\nend\r\n\r\n\r\nfunction ExtractInfoFromToutchObject( Temp, playerColorClicked)\r\n    if Object == nil then\r\n        broadcastToColor('Scanning unsucsessfull.\\nPlease place an object on the tool and try agen.', playerColorClicked, {1, 0.5, 0.5})\r\n        Target_GUID = nil\r\n        Force_Update()\r\n    else\r\n        Target_GUID = Object.getGUID()\r\n        Force_Update()\r\n        self.setVar('update', MyUpdate)\r\n    end\r\nend\r\n\r\nfunction TargetNudge()\r\n    local Temp = getObjectFromGUID(Target_GUID)\r\n    if Temp == nil then\r\n        Target_GUID = nil\r\n    elseif Temp.resting == true then\r\n        Temp.setVelocity( {x = 0, y = 1, z = 0})\r\n    end\r\n    Force_Update()\r\nend\r\n\r\n-------------------------------------------------------------------------------- Rendering Buttons\r\n\r\n-------------------------\r\n-- AddSub Buttons Init --\r\n-------------------------\r\n\r\nfor i=1,#Setup.AddSub do\r\n    local button_param = MergeTable(DirtyCopy(Def.AddSub), Setup.AddSub[i])\r\n    button_param.click_function = \"MoveRotateTarget_\" .. i\r\n\r\n    local func = function()\r\n        MoveRotateTarget(Setup.AddSub[i].Type, Setup.AddSub[i].Change)\r\n    end\r\n\r\n\r\n    self.setVar(button_param.click_function, func)\r\n    self.createButton(button_param)\r\nend\r\n\r\n-------------------------\r\n-- Normal Buttons Init --\r\n-------------------------\r\n\r\nfor i=1, #Setup.Buttons do\r\n    local button_param = MergeTable(DirtyCopy(Def.Button), Setup.Buttons[i])\r\n    self.createButton(button_param)\r\nend\r\n\r\n-----------------------\r\n-- TextButtons Setup --\r\n-----------------------\r\n\r\nfor i=1,#Setup.TextButtons do\r\n    local button_param = MergeTable(DirtyCopy(Def.TextButton), Setup.TextButtons[i])\r\n    self.createButton(button_param)\r\n    TextFealdIndex[button_param.VarName] = #(self.getButtons()) -1\r\nend\r\n\r\n-------------------------------------------------------------------------------- Cleanupp\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n--------------------------------------------------------------------------------\r\n\r\n\r\n\r\n-- Graveyard\r\n\r\n--         positionToWorld\r\n--\r\n--         if RelTarget == nil or Typ == 2 then\r\n--             Pos[Typ] = Pos[Typ] + Scale * Direction\r\n--         else\r\n--             local TempPos = {0, 0, 0}\r\n--             local TempScale = getObjectFromGUID(RelTarget).getScale()\r\n--             local R       = math.rad(360-getObjectFromGUID(RelTarget).getRotation()[2])\r\n--             local sinR    = math.sin(R)\r\n--             local cosR    = math.cos(R)\r\n--\r\n--             TempPos[Typ] = Scale * Direction\r\n--             TempPos[1], TempPos[3] = ( TempPos[1]*cosR - TempPos[3]*sinR ), ( TempPos[1]*sinR + TempPos[3]*cosR )\r\n--\r\n--             for i=1,3 do\r\n--                 Pos[i] = Pos[i] + TempPos[i] * TempScale[i]\r\n--             end\r\n--         end\r\n--         Target.setPosition(Pos)\r\n--     end\r\n--\r\n--     Force_Update('Supress')\r\n-- end\r\n\r\n--local Def.TextTools ={}\r\n--Def.TextTools.label = '0'\r\n--Def.TextTools.type = '3DText'\r\n--Def.TextTools.position = {0, 0.2, 0}\r\n--Def.TextTools.scale = {0.5, 0.5, 0.5}\r\n--Def.TextTools.FontSize = 70\r\n--Def.TextTools.callback_owner = self\r\n\r\n--ButtonTextObjects = {}\r\n--local TextButtons = {\r\n--    {label = '0', VarName = 'Scale', position = {0.453,0.1,-0.495}}\r\n--}\r\n\r\n\r\n--MyTextObjects = {} -- Where all textobjects is saved\r\n--local TextTools = {\r\n--    {VarName = 'X', position = {0, 3, 0}}\r\n--}\r\n\r\n\r\n----------------------\r\n-- Set up TextTools --\r\n----------------------\r\n\r\n\r\n--for i=1,#TextTools do\r\n--    local TextParms = MergeTable(TextToolsDefault, TextTools[i])\r\n--    TextParms.callback = \"TexttoolCallback_\" .. i\r\n--    local Obj = spawnObject(TextParms)\r\n--    MyTextObjects[TextParms.VarName] = Obj\r\n--\r\n--    local func = function (Table)\r\n--        Obj.TextTool.setFontSize(TextParms.FontSize)\r\n--        Obj.TextTool.setValue(TextParms.label)\r\n--        print('Called!')\r\n--    end\r\n--\r\n--    self.setVar(TextParms.callback, func)\r\n--end\r\n\r\n\r\n\r\n-- local RO = getObjectFromGUID(RelTarget) -- RO = Relative Object\r\n-- local ROPos = RO.getPosition()\r\n-- local ROSca = RO.getScale()\r\n-- local RORot = math.rad(RO.getRotation()[2])\r\n-- local sinR  = math.sin(RORot)\r\n-- local cosR  = math.cos(RORot)\r\n-- print(RO.getRotation()[1] .. '   ' .. RO.getRotation()[2] .. '   ' .. RO.getRotation()[3])\r\n--\r\n-- for i=1,3 do\r\n--     Pos[i] = ( Pos[i] - ROPos[i] ) / ROSca[i]\r\n-- end\r\n--\r\n-- Pos[1], Pos[3] = ( Pos[1]*cosR - Pos[3]*sinR ), ( Pos[1]*sinR + Pos[3]*cosR )\r\n",
+      "LuaScriptState": "",
+      "GUID": "96ba0d"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 2.464742,
+        "posY": 0.959999859,
+        "posZ": 1.68074751,
+        "rotX": -6.0053444E-06,
+        "rotY": 180.000031,
+        "rotZ": -4.396066E-06,
+        "scaleX": 3.1163137,
+        "scaleY": 1.0,
+        "scaleZ": 3.1163137
+      },
+      "Nickname": "Relative GIZMO tool",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/850466580335691044/1275F3903FF8694C8CD3FB5C03E002F354D05751/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/850466580335159905/84EA4B42524B5D408D214386BB4FEC067D9AEF51/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "\r\n-- PrintFormat determents the amount of decimal places to be printed\r\nlocal UpdateFreq = 0.5;\r\nlocal OutputFormat = \"%.5g\"\r\n-------------------------------------------------------------------------------- Helper Functions\r\nlocal function MergeTable (Default, NewTable)\r\n    for k,v in pairs(NewTable) do\r\n        Default[k] = v\r\n    end\r\n    return Default\r\nend\r\n\r\nlocal function DirtyCopy(Table)\r\n    return MergeTable({}, Table)\r\nend\r\n\r\n-------------------------------------------------------------------------------- Set up Default\r\nlocal Def = {}\r\n\r\nDef.Button = {}\r\nDef.Button.click_function = 'NoFunction'\r\nDef.Button.function_owner = self\r\nDef.Button.label = '?'\r\nDef.Button.scale = {0.25,0.25,0.25}\r\nDef.Button.font_size = 140\r\n--DefaultButtonParms.color = Color ???Optional\r\n--DefaultButtonParms.font_color = Color ???Optional\r\n\r\n\r\nDef.AddSub = DirtyCopy(Def.Button)\r\nDef.AddSub.width  = 210\r\nDef.AddSub.height = 210\r\n\r\n\r\nDef.TextButton = DirtyCopy(Def.Button)\r\nDef.TextButton.width = 0\r\nDef.TextButton.height = 0\r\nDef.TextButton.click_function = 'none'\r\n\r\n-------------------------------------------------------------------------------- Declaring Buttons\r\nlocal Setup = {}\r\n\r\nSetup.Buttons = {\r\n    {label = 'Scan',         click_function = 'ExtractInfoFromToutchObject', position = {0.33,   0.1, -0.6775}, width = 930,  height = 370},\r\n    {label = 'Scan',         click_function = 'GetRelative',                 position = {0.2375, 0.1, -0.395},  width = 570,  height = 370},\r\n    {label = 'Self',         click_function = 'UseSelf',                     position = {0.4803, 0.1, -0.395},  width = 370,  height = 370},\r\n    {label = 'Force Update', click_function = 'Force_Update',                position = {-0.286, 0.1, -0.1279}, width = 1105, height = 260},\r\n    {label = 'Nudge Target', click_function = 'TargetNudge',                 position = {0.286,  0.1, -0.1279}, width = 1105, height = 260}\r\n}\r\n\r\nlocal Exp = 0.418\r\nSetup.AddSub = {\r\n    {label = '+', Type = 'Scale', Change =  1, position = {0.383, 0.1, 0.0902}},\r\n    {label = '-', Type = 'Scale', Change = -1, position = {0.5,   0.1, 0.0902}},\r\n\r\n    {label = '+', Type = 'x', Change = -1, position = {0.383, 0.1, 0.292 }},\r\n    {label = '-', Type = 'x', Change =  1, position = {0.5,   0.1, 0.292 }},\r\n    {label = '+', Type = 'y', Change =  1, position = {0.383, 0.1, 0.3955}},\r\n    {label = '-', Type = 'y', Change = -1, position = {0.5,   0.1, 0.3955}},\r\n    {label = '+', Type = 'z', Change =  1, position = {0.383, 0.1, 0.499 }},\r\n    {label = '-', Type = 'z', Change = -1, position = {0.5,   0.1, 0.499 }},\r\n\r\n    {label = '+', Type = 'Rx', Change =  1, position = {0.383, 0.1, 0.71  }},\r\n    {label = '-', Type = 'Rx', Change = -1, position = {0.5,   0.1, 0.71  }},\r\n    {label = '+', Type = 'Ry', Change =  1, position = {0.383, 0.1, 0.8135}},\r\n    {label = '-', Type = 'Ry', Change = -1, position = {0.5,   0.1, 0.8135}},\r\n    {label = '+', Type = 'Rz', Change =  1, position = {0.383, 0.1, 0.917 }},\r\n    {label = '-', Type = 'Rz', Change = -1, position = {0.5,   0.1, 0.917 }}\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nTextFealdIndex = {}\r\nSetup.TextButtons = {\r\n    {label = '', VarName = 'Scanner_Name',  position = {-0.2457,  0.1, -0.72016}},\r\n    {label = '', VarName = 'Scanner_GUID',  position = {-0.2457,  0.1, -0.6328 }},\r\n    {label = '', VarName = 'Relative_Name', position = { -0.2457,  0.1, -0.43716}},\r\n    {label = '', VarName = 'Relative_GUID', position = { -0.2457,  0.1, -0.3498 }},\r\n\r\n    {label = 1, VarName = 'Scale', position = {-0.08,  0.1, 0.0902}},\r\n\r\n    {label = 0,  VarName = 'x',    position = {-0.08,  0.1, 0.292 }},\r\n    {label = 0,  VarName = 'y',    position = {-0.08,  0.1, 0.3955}},\r\n    {label = 0,  VarName = 'z',    position = {-0.08,  0.1, 0.499 }},\r\n\r\n    {label = 0,  VarName = 'Rx',    position = {-0.08,  0.1, 0.71  }},\r\n    {label = 0,  VarName = 'Ry',    position = {-0.08,  0.1, 0.8135}},\r\n    {label = 0,  VarName = 'Rz',    position = {-0.08,  0.1, 0.917 }}\r\n}\r\n\r\n-------------------------------------------------------------------------------- Function for buttons\r\n\r\n-- Setting up Global Behavior for tool --\r\nlocal Objects     = nil\r\nlocal Target_GUID = nil\r\nlocal RelTarget   = nil\r\nlocal Scale       = 1\r\n\r\n\r\n-- Used during development. Shod be depricated later\r\nlocal function NoFunction ()\r\n    print('This button is missing a function')\r\nend\r\n\r\n\r\nfunction onCollisionEnter(collision_info)\r\n    if not (collision_info.collision_object.getGUID() == nil) then\r\n        Object = collision_info.collision_object\r\n    end\r\nend\r\n\r\nfunction onCollisionExit(collision_info)\r\n    if not (collision_info.collision_object.getGUID() == nil) then\r\n        Object = nil\r\n    end\r\nend\r\n\r\nlocal function ReturnValidGUID (GUID)\r\n    if getObjectFromGUID(GUID) == nil then\r\n        return nil\r\n    else\r\n        return GUID\r\n    end\r\nend\r\n\r\n-- Setting up buttons functions --\r\nfunction Force_Update(objectButtonClicked, playerColorClicked)\r\n    local Pos = {0, 0, 0}\r\n    local Rot = {0, 0, 0}\r\n    local Target   = {Name = '', GUID = ''}\r\n    local Relative = {Name = '', GUID = ''}\r\n\r\n\r\n    Target_GUID = ReturnValidGUID(Target_GUID)\r\n    RelTarget   = ReturnValidGUID(RelTarget)\r\n\r\n    local Obj = {Target = getObjectFromGUID(Target_GUID), Relative = getObjectFromGUID(RelTarget)}\r\n\r\n    if Obj.Target ~= nil then\r\n        Rot         = Obj.Target.getRotation()\r\n        Pos         = Obj.Target.getPosition()\r\n        Target.Name = Obj.Target.getName()\r\n        Target.GUID = Target_GUID\r\n    else\r\n        self.setVar('update', nil)\r\n    end\r\n\r\n    if  Obj.Relative ~= nil then\r\n        Relative.Name = Obj.Relative.getName()\r\n        Relative.GUID = RelTarget\r\n\r\n        if Obj.Target ~= nil then\r\n            -- Scale and translate to local cordinate system\r\n            Pos = Obj.Relative.positionToLocal(Obj.Target.getPosition())\r\n            local RelRot = Obj.Relative.getRotation()\r\n            for i=1,3 do\r\n                Rot[i] = Rot[i] - RelRot[i]\r\n            end\r\n        end\r\n    end\r\n\r\n    if Target_GUID ~= nil and playerColorClicked ~= nil then\r\n        --print('XYZ: { ' .. -Pos[1] .. ',  ' .. Pos[2] .. ',  ' .. Pos[3] .. ' }')\r\n        broadcastToColor( 'Forced Update Compleate\\nXYZ: {'.. -Pos[1] .. ',  ' .. Pos[2] .. ',  ' .. Pos[3] .. ' }', playerColorClicked, {0.5, 1, 0.5} )\r\n    end\r\n\r\n\r\n    local Temp = {\r\n        {index = TextFealdIndex['Scale'], label = Scale},\r\n\r\n        {index = TextFealdIndex['x'],  label = string.format(OutputFormat, -Pos[1])},\r\n        {index = TextFealdIndex['y'],  label = string.format(OutputFormat,  Pos[2])},\r\n        {index = TextFealdIndex['z'],  label = string.format(OutputFormat,  Pos[3])},\r\n        {index = TextFealdIndex['Rx'], label = string.format(OutputFormat, Rot[1])},\r\n        {index = TextFealdIndex['Ry'], label = string.format(OutputFormat, Rot[2])},\r\n        {index = TextFealdIndex['Rz'], label = string.format(OutputFormat, Rot[3])},\r\n\r\n        {index = TextFealdIndex['Scanner_GUID'],  label = Target.Name},\r\n        {index = TextFealdIndex['Scanner_Name'],  label = Target.GUID},\r\n        {index = TextFealdIndex['Relative_Name'], label = Relative.Name},\r\n        {index = TextFealdIndex['Relative_GUID'], label = Relative.GUID}\r\n    }\r\n\r\n    for k,v in pairs(Temp) do\r\n        self.editButton(v)\r\n    end\r\nend\r\n\r\nlocal function MoveRotateTarget(Type, Direction)\r\n    Target_GUID = ReturnValidGUID(Target_GUID)\r\n    RelTarget   = ReturnValidGUID(RelTarget)\r\n\r\n    local Typ = {Scale = 0, x = 1, y = 2, z = 3, Rx = 4, Ry = 5, Rz = 6}\r\n    Typ = Typ[Type]\r\n\r\n    if Typ == 0 then\r\n        local ScaleChange = {['-1'] = 0.1, ['1'] = 10}\r\n        Scale = Scale * ScaleChange[tostring(Direction)]\r\n    elseif Typ > 3 then\r\n        local Obj = {Target = getObjectFromGUID(Target_GUID)}\r\n        local Rot = Obj.Target.getRotation()\r\n        Rot = {Rot[1], Rot[2], Rot[3]} -- Buggfixer as this is stupid\r\n\r\n        Rot[Typ-3] = Rot[Typ-3] + Scale * Direction\r\n        Obj.Target.setRotation(Rot)\r\n\r\n    elseif Target_GUID ~= nil then\r\n        local Obj = {Target = getObjectFromGUID(Target_GUID)}\r\n        local Pos = Obj.Target.getPosition()\r\n        Pos = {Pos[1], Pos[2], Pos[3]} -- Buggfixer as this is stupid\r\n\r\n        if RelTarget == nil then\r\n            Pos[Typ] = Pos[Typ] + Scale * Direction\r\n        else\r\n            Obj.Relative = getObjectFromGUID(RelTarget)\r\n            local RelTarget_Pos = Obj.Relative.getPosition()\r\n\r\n            local ChangePos = {0, 0, 0}\r\n            ChangePos[Typ] = Scale * Direction\r\n\r\n            ChangePos = Obj.Relative.positionToWorld(ChangePos)\r\n\r\n            for i=1,3 do\r\n                Pos[i] = Pos[i] + ChangePos[i] - RelTarget_Pos[i]\r\n            end\r\n        end\r\n        Obj.Target.setPosition(Pos)\r\n    end\r\n    Force_Update()\r\nend\r\n\r\n\r\nlocal time = 0\r\nlocal MyUpdate = function()\r\n   if UpdateFreq == nil then\r\n       return\r\n   elseif os.time() > time then\r\n       Force_Update()\r\n       time = os.time() + UpdateFreq\r\n   end\r\nend\r\n\r\nfunction GetRelative( Temp, playerColorClicked)\r\n    if Object == nil then\r\n        RelTarget = nil\r\n        broadcastToColor('Scanning unsucsessfull.\\nPlease place an object on the tool and try agen.', playerColorClicked, {1, 0.5, 0.5})\r\n        --print('Scanning unsucsessfull.\\nPlease place an object on the tool and try agen.')\r\n    else\r\n        RelTarget = Object.getGUID()\r\n    end\r\n    Force_Update()\r\nend\r\n\r\nfunction UseSelf()\r\n    if RelTarget == self.getGUID() then\r\n        RelTarget = nil\r\n    else\r\n        RelTarget = self.getGUID()\r\n    end\r\n    Force_Update()\r\nend\r\n\r\n\r\nfunction ExtractInfoFromToutchObject( Temp, playerColorClicked)\r\n    if Object == nil then\r\n        broadcastToColor('Scanning unsucsessfull.\\nPlease place an object on the tool and try agen.', playerColorClicked, {1, 0.5, 0.5})\r\n        Target_GUID = nil\r\n        Force_Update()\r\n    else\r\n        Target_GUID = Object.getGUID()\r\n        Force_Update()\r\n        self.setVar('update', MyUpdate)\r\n    end\r\nend\r\n\r\nfunction TargetNudge()\r\n    local Temp = getObjectFromGUID(Target_GUID)\r\n    if Temp == nil then\r\n        Target_GUID = nil\r\n    elseif Temp.resting == true then\r\n        Temp.setVelocity( {x = 0, y = 1, z = 0})\r\n    end\r\n    Force_Update()\r\nend\r\n\r\n-------------------------------------------------------------------------------- Rendering Buttons\r\n\r\n-------------------------\r\n-- AddSub Buttons Init --\r\n-------------------------\r\n\r\nfor i=1,#Setup.AddSub do\r\n    local button_param = MergeTable(DirtyCopy(Def.AddSub), Setup.AddSub[i])\r\n    button_param.click_function = \"MoveRotateTarget_\" .. i\r\n\r\n    local func = function()\r\n        MoveRotateTarget(Setup.AddSub[i].Type, Setup.AddSub[i].Change)\r\n    end\r\n\r\n\r\n    self.setVar(button_param.click_function, func)\r\n    self.createButton(button_param)\r\nend\r\n\r\n-------------------------\r\n-- Normal Buttons Init --\r\n-------------------------\r\n\r\nfor i=1, #Setup.Buttons do\r\n    local button_param = MergeTable(DirtyCopy(Def.Button), Setup.Buttons[i])\r\n    self.createButton(button_param)\r\nend\r\n\r\n-----------------------\r\n-- TextButtons Setup --\r\n-----------------------\r\n\r\nfor i=1,#Setup.TextButtons do\r\n    local button_param = MergeTable(DirtyCopy(Def.TextButton), Setup.TextButtons[i])\r\n    self.createButton(button_param)\r\n    TextFealdIndex[button_param.VarName] = #(self.getButtons()) -1\r\nend\r\n\r\n-------------------------------------------------------------------------------- Cleanupp\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n--------------------------------------------------------------------------------\r\n\r\n\r\n\r\n-- Graveyard\r\n\r\n--         positionToWorld\r\n--\r\n--         if RelTarget == nil or Typ == 2 then\r\n--             Pos[Typ] = Pos[Typ] + Scale * Direction\r\n--         else\r\n--             local TempPos = {0, 0, 0}\r\n--             local TempScale = getObjectFromGUID(RelTarget).getScale()\r\n--             local R       = math.rad(360-getObjectFromGUID(RelTarget).getRotation()[2])\r\n--             local sinR    = math.sin(R)\r\n--             local cosR    = math.cos(R)\r\n--\r\n--             TempPos[Typ] = Scale * Direction\r\n--             TempPos[1], TempPos[3] = ( TempPos[1]*cosR - TempPos[3]*sinR ), ( TempPos[1]*sinR + TempPos[3]*cosR )\r\n--\r\n--             for i=1,3 do\r\n--                 Pos[i] = Pos[i] + TempPos[i] * TempScale[i]\r\n--             end\r\n--         end\r\n--         Target.setPosition(Pos)\r\n--     end\r\n--\r\n--     Force_Update('Supress')\r\n-- end\r\n\r\n--local Def.TextTools ={}\r\n--Def.TextTools.label = '0'\r\n--Def.TextTools.type = '3DText'\r\n--Def.TextTools.position = {0, 0.2, 0}\r\n--Def.TextTools.scale = {0.5, 0.5, 0.5}\r\n--Def.TextTools.FontSize = 70\r\n--Def.TextTools.callback_owner = self\r\n\r\n--ButtonTextObjects = {}\r\n--local TextButtons = {\r\n--    {label = '0', VarName = 'Scale', position = {0.453,0.1,-0.495}}\r\n--}\r\n\r\n\r\n--MyTextObjects = {} -- Where all textobjects is saved\r\n--local TextTools = {\r\n--    {VarName = 'X', position = {0, 3, 0}}\r\n--}\r\n\r\n\r\n----------------------\r\n-- Set up TextTools --\r\n----------------------\r\n\r\n\r\n--for i=1,#TextTools do\r\n--    local TextParms = MergeTable(TextToolsDefault, TextTools[i])\r\n--    TextParms.callback = \"TexttoolCallback_\" .. i\r\n--    local Obj = spawnObject(TextParms)\r\n--    MyTextObjects[TextParms.VarName] = Obj\r\n--\r\n--    local func = function (Table)\r\n--        Obj.TextTool.setFontSize(TextParms.FontSize)\r\n--        Obj.TextTool.setValue(TextParms.label)\r\n--        print('Called!')\r\n--    end\r\n--\r\n--    self.setVar(TextParms.callback, func)\r\n--end\r\n\r\n\r\n\r\n-- local RO = getObjectFromGUID(RelTarget) -- RO = Relative Object\r\n-- local ROPos = RO.getPosition()\r\n-- local ROSca = RO.getScale()\r\n-- local RORot = math.rad(RO.getRotation()[2])\r\n-- local sinR  = math.sin(RORot)\r\n-- local cosR  = math.cos(RORot)\r\n-- print(RO.getRotation()[1] .. '   ' .. RO.getRotation()[2] .. '   ' .. RO.getRotation()[3])\r\n--\r\n-- for i=1,3 do\r\n--     Pos[i] = ( Pos[i] - ROPos[i] ) / ROSca[i]\r\n-- end\r\n--\r\n-- Pos[1], Pos[3] = ( Pos[1]*cosR - Pos[3]*sinR ), ( Pos[1]*sinR + Pos[3]*cosR )\r\n",
+      "LuaScriptState": "",
+      "GUID": "cabfcd"
+    },
+    {
+      "Name": "Notecard",
+      "Transform": {
+        "posX": -0.131795272,
+        "posY": 1.03037834,
+        "posZ": -4.757392,
+        "rotX": 359.993378,
+        "rotY": 359.983734,
+        "rotZ": -0.00214953348,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "Right Click Tool -> Save Object\r\nThen spawn when needed.\r\n\r\nBe careful not to move important objects out of bound resulting (that can lead to object despawn).\r\n\nInstructions printed on the back of the tool.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "f05d4d"
+    },
+    {
+      "Name": "Checker_black",
+      "Transform": {
+        "posX": 5.53061533,
+        "posY": 1.21048331,
+        "posZ": -4.77050829,
+        "rotX": 1.97819754E-05,
+        "rotY": 145.797653,
+        "rotZ": 180.000015,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "559470"
+    },
+    {
+      "Name": "Checker_white",
+      "Transform": {
+        "posX": 2.18648362,
+        "posY": 1.25461173,
+        "posZ": -7.49954128,
+        "rotX": -0.002945826,
+        "rotY": 0.5306788,
+        "rotZ": 26.01342,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "888c11"
+    },
+    {
+      "Name": "Checker_white",
+      "Transform": {
+        "posX": 3.73591113,
+        "posY": 1.55055153,
+        "posZ": -5.49847269,
+        "rotX": 5.3201313,
+        "rotY": 43.5225639,
+        "rotZ": 174.640472,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "c8644b"
+    },
+    {
+      "Name": "Checker_black",
+      "Transform": {
+        "posX": 3.49057841,
+        "posY": 1.3296088,
+        "posZ": -4.860398,
+        "rotX": 356.117126,
+        "rotY": 329.2631,
+        "rotZ": 173.498169,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "e7e522"
+    },
+    {
+      "Name": "Checker_red",
+      "Transform": {
+        "posX": 3.26491427,
+        "posY": 1.35950541,
+        "posZ": -6.76755142,
+        "rotX": 0.1801451,
+        "rotY": 1.58699691,
+        "rotZ": 172.74649,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "788c3c"
+    },
+    {
+      "Name": "Checker_red",
+      "Transform": {
+        "posX": 4.313926,
+        "posY": 1.613579,
+        "posZ": -6.257636,
+        "rotX": 354.84317,
+        "rotY": 29.0703411,
+        "rotZ": 144.227539,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "059016"
+    }
+  ],
+  "DecalPallet": [],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": ""
+}

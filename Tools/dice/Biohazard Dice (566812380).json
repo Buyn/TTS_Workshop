@@ -1,0 +1,466 @@
+{
+  "SaveName": "Biohazard Dice",
+  "GameMode": "Biohazard Dice",
+  "Date": "12/1/2015 10:43:07 PM",
+  "Table": "Table_Hexagon",
+  "Sky": "Sky_Cathedral",
+  "SkyURL": "http://f.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2014/05/3030709-poster-shutterstock77928217.jpg",
+  "Note": "",
+  "Rules": "",
+  "PlayerTurn": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 0.5,
+    "ySize": 0.5,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hidding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -13.642745,
+          "posY": 3.57056117,
+          "posZ": -7.488997,
+          "rotX": -1.21815974E-05,
+          "rotY": 60.00003,
+          "rotZ": -2.18467558E-05,
+          "scaleX": 10.2680607,
+          "scaleY": 6.63386965,
+          "scaleZ": 4.89325
+        },
+        "GameMaster": false
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -13.3163757,
+          "posY": 3.57056451,
+          "posZ": 8.302423,
+          "rotX": 8.788942E-06,
+          "rotY": 120.000015,
+          "rotZ": -2.78007319E-05,
+          "scaleX": 10.2680655,
+          "scaleY": 6.63386965,
+          "scaleZ": 4.893231
+        },
+        "GameMaster": false
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 13.57306,
+          "posY": 3.571335,
+          "posZ": 7.74994135,
+          "rotX": 1.68467068E-05,
+          "rotY": 240.000015,
+          "rotZ": 2.30967617E-05,
+          "scaleX": 10.2680626,
+          "scaleY": 6.63386965,
+          "scaleZ": 4.89323044
+        },
+        "GameMaster": false
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": -0.0005012239,
+          "posY": 3.57121062,
+          "posZ": -15.5344553,
+          "rotX": -2.89281415E-05,
+          "rotY": 3.49882839E-06,
+          "rotZ": 4.00124054E-06,
+          "scaleX": 10.2680616,
+          "scaleY": 6.6338706,
+          "scaleZ": 4.89322853
+        },
+        "GameMaster": false
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": 0.00203016354,
+          "posY": 3.57101464,
+          "posZ": 15.5958681,
+          "rotX": 2.89281415E-05,
+          "rotY": 180.000046,
+          "rotZ": -4.00122963E-06,
+          "scaleX": 10.2680616,
+          "scaleY": 6.63386965,
+          "scaleZ": 4.89322758
+        },
+        "GameMaster": false
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 13.6819468,
+          "posY": 3.57132888,
+          "posZ": -7.408004,
+          "rotX": -7.081388E-06,
+          "rotY": 300.0,
+          "rotZ": 2.60931865E-05,
+          "scaleX": 10.2680655,
+          "scaleY": 6.63386965,
+          "scaleZ": 4.893226
+        },
+        "GameMaster": false
+      }
+    ]
+  },
+  "DrawImage": "iVBORw0KGgoAAAANSUhEUgAAAWAAAADQCAYAAAA53LuNAAAFFElEQVR4Ae3QgQAAAADDoPlTH+SFUGHAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgy8DQx5DAABHyNK3wAAAABJRU5ErkJggg==",
+  "VectorLines": [],
+  "ObjectStates": [
+    {
+      "Name": "Custom_Dice",
+      "Transform": {
+        "posX": 5.0546627,
+        "posY": 1.590496,
+        "posZ": 0.103279121,
+        "rotX": 333.435,
+        "rotY": 36.1929169,
+        "rotZ": 252.000031,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.607867658,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/EvAmnLx.jpg",
+        "WidthScale": 0.0,
+        "CustomDice": {
+          "Type": 4
+        }
+      },
+      "GUID": "f7744f"
+    },
+    {
+      "Name": "Custom_Dice",
+      "Transform": {
+        "posX": -4.89677048,
+        "posY": 1.08754468,
+        "posZ": 0.195224434,
+        "rotX": 18.6126251,
+        "rotY": 0.477815241,
+        "rotZ": 119.960419,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9294171,
+        "g": 0.4167875,
+        "b": 0.0392156877
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/BtLd78J.jpg",
+        "WidthScale": 0.0,
+        "CustomDice": {
+          "Type": 0
+        }
+      },
+      "GUID": "117fcd"
+    },
+    {
+      "Name": "Custom_Dice",
+      "Transform": {
+        "posX": 2.53161955,
+        "posY": 1.49978411,
+        "posZ": 4.153364,
+        "rotX": 326.263763,
+        "rotY": 359.844574,
+        "rotZ": 270.000031,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9294171,
+        "g": 0.4167875,
+        "b": 0.0392156877
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/lSL4Z9X.jpg",
+        "WidthScale": 0.0,
+        "CustomDice": {
+          "Type": 2
+        }
+      },
+      "GUID": "059a06"
+    },
+    {
+      "Name": "Custom_Dice",
+      "Transform": {
+        "posX": -2.57046556,
+        "posY": 1.45230043,
+        "posZ": 4.357628,
+        "rotX": 90.0,
+        "rotY": 359.8311,
+        "rotZ": 0.0,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.5279566,
+        "g": 0.7882413,
+        "b": 0.0392156877
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/5O3Rmsi.jpg",
+        "WidthScale": 0.0,
+        "CustomDice": {
+          "Type": 1
+        }
+      },
+      "GUID": "e8caf7"
+    },
+    {
+      "Name": "Custom_Dice",
+      "Transform": {
+        "posX": 0.0485405549,
+        "posY": 1.62189019,
+        "posZ": -0.201127216,
+        "rotX": 10.8123083,
+        "rotY": 359.847321,
+        "rotZ": 198.000031,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9058896,
+        "g": 0.7317606,
+        "b": 0.0392156877
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/YtGxcPe.jpg",
+        "WidthScale": 0.0,
+        "CustomDice": {
+          "Type": 5
+        }
+      },
+      "GUID": "fbb837"
+    },
+    {
+      "Name": "Custom_Dice",
+      "Transform": {
+        "posX": -2.21918917,
+        "posY": 1.62188947,
+        "posZ": -4.327646,
+        "rotX": 349.187683,
+        "rotY": 59.6432533,
+        "rotZ": 17.9999943,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9058896,
+        "g": 0.7317606,
+        "b": 0.0392156877
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/m1osXOF.jpg",
+        "WidthScale": 0.0,
+        "CustomDice": {
+          "Type": 5
+        }
+      },
+      "GUID": "3580c2"
+    },
+    {
+      "Name": "Custom_Dice",
+      "Transform": {
+        "posX": 2.62456155,
+        "posY": 1.4552964,
+        "posZ": -4.32070351,
+        "rotX": 38.6514473,
+        "rotY": 180.292862,
+        "rotZ": 270.45105,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.527962148,
+        "g": 0.788244367,
+        "b": 0.0392156877
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/6A1x8eS.jpg",
+        "WidthScale": 0.0,
+        "CustomDice": {
+          "Type": 3
+        }
+      },
+      "GUID": "7ea615"
+    }
+  ],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Red",
+      "body": "",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Orange",
+      "body": "",
+      "visibleColor": {
+        "r": 0.882,
+        "g": 0.517,
+        "b": 0.219
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Yellow",
+      "body": "",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Green",
+      "body": "",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Blue",
+      "body": "",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Purple",
+      "body": "",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Pink",
+      "body": "",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Black",
+      "body": "",
+      "visibleColor": {
+        "r": 0.1,
+        "g": 0.1,
+        "b": 0.1
+      },
+      "id": 9
+    }
+  }
+}

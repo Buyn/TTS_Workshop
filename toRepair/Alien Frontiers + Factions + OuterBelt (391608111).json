@@ -1,0 +1,4819 @@
+{
+  "SaveName": "Alien Frontiers + Factions + OuterBelt",
+  "GameMode": "None",
+  "Date": "2/15/2015 4:52:39 AM",
+  "Table": "Table_RPG",
+  "Sky": "Sky_Museum",
+  "Note": "",
+  "Rules": "",
+  "PlayerTurn": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": true,
+    "Snapping": true,
+    "Offset": false,
+    "xSize": 1.0,
+    "ySize": 1.0
+  },
+  "DrawImage": "iVBORw0KGgoAAAANSUhEUgAAAWAAAADQCAYAAAA53LuNAAAFFElEQVR4Ae3QgQAAAADDoPlTH+SFUGHAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgy8DQx5DAABHyNK3wAAAABJRU5ErkJggg==",
+  "ObjectStates": [
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -1.00012994,
+        "posY": 1.05411446,
+        "posZ": -15.6372528,
+        "rotX": -9.07416052E-07,
+        "rotY": 179.981644,
+        "rotZ": -6.20313E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713558853,
+        "g": 0.713558853,
+        "b": 0.713558853
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        402,
+        405,
+        404,
+        403,
+        401
+      ],
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "https://drive.google.com/uc?export=download&id=0Bwrik6FjuETWMWg4NlBCU2RiQlk",
+          "BackURL": "https://drive.google.com/uc?export=download&id=0Bwrik6FjuETWMUJfVHNNMXNkZlU"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 11.21138,
+        "posY": 1.81987774,
+        "posZ": -10.3529043,
+        "rotX": 1.27098147E-05,
+        "rotY": 179.963776,
+        "rotZ": 6.992589E-07,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713558853,
+        "g": 0.713558853,
+        "b": 0.713558853
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 508,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "5": {
+          "FaceURL": "https://drive.google.com/uc?export=download&id=0Bwrik6FjuETWT3FESUV5NnUxNG8",
+          "BackURL": "https://drive.google.com/uc?export=download&id=0Bwrik6FjuETWSzJ5cHZMNm0wM1E"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Board",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 0.922024667,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 180.000778,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.000276609062
+      },
+      "Grid": true,
+      "Locked": true,
+      "CustomImage": {
+        "ImageURL": "https://drive.google.com/uc?export=download&id=0Bwrik6FjuETWOVQ4bmNROWd2eTA",
+        "WidthScale": 1.18458664
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 6.709068,
+        "posY": 1.56313026,
+        "posZ": -9.765558,
+        "rotX": -1.070572E-05,
+        "rotY": 0.03465583,
+        "rotZ": -7.244431E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "BlockSquare",
+          "Transform": {
+            "posX": 7.215994,
+            "posY": 3.72481227,
+            "posZ": -8.985481,
+            "rotX": 276.862946,
+            "rotY": 41.8978767,
+            "rotZ": 346.429077,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "scaleZ": 0.5
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.8078515,
+            "g": 0.8588298,
+            "b": 0.99999994
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "BlockSquare",
+          "Transform": {
+            "posX": 7.21599436,
+            "posY": 3.72481227,
+            "posZ": -8.985481,
+            "rotX": 276.8629,
+            "rotY": 41.89797,
+            "rotZ": 346.429016,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "scaleZ": 0.5
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.8078515,
+            "g": 0.8588298,
+            "b": 0.99999994
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "BlockSquare",
+          "Transform": {
+            "posX": 7.21599436,
+            "posY": 3.72481251,
+            "posZ": -8.985481,
+            "rotX": 276.8629,
+            "rotY": 41.8979645,
+            "rotZ": 346.429016,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "scaleZ": 0.5
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.8078515,
+            "g": 0.8588298,
+            "b": 0.99999994
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "BlockSquare",
+          "Transform": {
+            "posX": 7.21599436,
+            "posY": 3.72481251,
+            "posZ": -8.985481,
+            "rotX": 276.8629,
+            "rotY": 41.89796,
+            "rotZ": 346.429016,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "scaleZ": 0.5
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.8078515,
+            "g": 0.8588298,
+            "b": 0.99999994
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "BlockSquare",
+          "Transform": {
+            "posX": 7.21599436,
+            "posY": 3.72481275,
+            "posZ": -8.985481,
+            "rotX": 276.8629,
+            "rotY": 41.8980522,
+            "rotZ": 346.428955,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "scaleZ": 0.5
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.8078515,
+            "g": 0.8588298,
+            "b": 0.99999994
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "BlockSquare",
+          "Transform": {
+            "posX": 7.21599436,
+            "posY": 3.724813,
+            "posZ": -8.985481,
+            "rotX": 276.862976,
+            "rotY": 41.8980675,
+            "rotZ": 346.428925,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "scaleZ": 0.5
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.8078515,
+            "g": 0.8588298,
+            "b": 0.99999994
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "BlockSquare",
+          "Transform": {
+            "posX": 7.22134066,
+            "posY": 3.70416546,
+            "posZ": -8.978819,
+            "rotX": 276.773682,
+            "rotY": 43.5691757,
+            "rotZ": 344.950684,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "scaleZ": 0.5
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.8078515,
+            "g": 0.8588298,
+            "b": 0.99999994
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "BlockSquare",
+          "Transform": {
+            "posX": 7.21817636,
+            "posY": 3.71664119,
+            "posZ": -8.982765,
+            "rotX": 276.8347,
+            "rotY": 42.5672951,
+            "rotZ": 345.837524,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "scaleZ": 0.5
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.8078515,
+            "g": 0.8588298,
+            "b": 0.99999994
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "BlockSquare",
+          "Transform": {
+            "posX": 7.223998,
+            "posY": 3.69418764,
+            "posZ": -8.975615,
+            "rotX": 276.983063,
+            "rotY": 44.1305351,
+            "rotZ": 344.459625,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "scaleZ": 0.5
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.8078515,
+            "g": 0.8588298,
+            "b": 0.99999994
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "BlockSquare",
+          "Transform": {
+            "posX": 7.21573639,
+            "posY": 3.72576213,
+            "posZ": -8.985802,
+            "rotX": 276.86557,
+            "rotY": 41.8198128,
+            "rotZ": 346.498047,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "scaleZ": 0.5
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.8078515,
+            "g": 0.8588298,
+            "b": 0.99999994
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "BlockSquare",
+          "Transform": {
+            "posX": 7.21599531,
+            "posY": 3.724814,
+            "posZ": -8.98548,
+            "rotX": 276.862946,
+            "rotY": 41.8982124,
+            "rotZ": 346.428772,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "scaleZ": 0.5
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.8078515,
+            "g": 0.8588298,
+            "b": 0.99999994
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "BlockSquare",
+          "Transform": {
+            "posX": 7.21599531,
+            "posY": 3.724814,
+            "posZ": -8.98548,
+            "rotX": 276.862946,
+            "rotY": 41.89826,
+            "rotZ": 346.428741,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "scaleZ": 0.5
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.8078515,
+            "g": 0.8588298,
+            "b": 0.99999994
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "BlockSquare",
+          "Transform": {
+            "posX": 7.217444,
+            "posY": 3.719423,
+            "posZ": -8.983678,
+            "rotX": 276.845337,
+            "rotY": 42.3409653,
+            "rotZ": 346.0376,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "scaleZ": 0.5
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.8078515,
+            "g": 0.8588298,
+            "b": 0.99999994
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "BlockSquare",
+          "Transform": {
+            "posX": 7.22051764,
+            "posY": 3.70749283,
+            "posZ": -8.979847,
+            "rotX": 276.792,
+            "rotY": 43.30452,
+            "rotZ": 345.18515,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "scaleZ": 0.5
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.8078515,
+            "g": 0.8588298,
+            "b": 0.99999994
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "BlockSquare",
+          "Transform": {
+            "posX": 7.225214,
+            "posY": 3.6888752,
+            "posZ": -8.974092,
+            "rotX": 276.94632,
+            "rotY": 44.5270576,
+            "rotZ": 344.108765,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "scaleZ": 0.5
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.8078515,
+            "g": 0.8588298,
+            "b": 0.99999994
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "BlockSquare",
+          "Transform": {
+            "posX": 7.22134161,
+            "posY": 3.70416713,
+            "posZ": -8.978818,
+            "rotX": 276.773743,
+            "rotY": 43.5695877,
+            "rotZ": 344.950256,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "scaleZ": 0.5
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.8078515,
+            "g": 0.8588298,
+            "b": 0.99999994
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "BlockSquare",
+          "Transform": {
+            "posX": 7.214125,
+            "posY": 3.731585,
+            "posZ": -8.987803,
+            "rotX": 276.8789,
+            "rotY": 41.3353424,
+            "rotZ": 346.925842,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "scaleZ": 0.5
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.8078515,
+            "g": 0.8588298,
+            "b": 0.99999994
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "BlockSquare",
+          "Transform": {
+            "posX": 5.97448254,
+            "posY": 3.8304584,
+            "posZ": -10.02297,
+            "rotX": 354.636841,
+            "rotY": 359.8572,
+            "rotZ": 6.1540494,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "scaleZ": 0.5
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.807873666,
+            "g": 0.858846366,
+            "b": 0.99999994
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "BlockSquare",
+          "Transform": {
+            "posX": 5.982141,
+            "posY": 3.62563515,
+            "posZ": -8.96951,
+            "rotX": 278.6196,
+            "rotY": 329.1325,
+            "rotZ": 135.2439,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "scaleZ": 0.5
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.807857037,
+            "g": 0.858833969,
+            "b": 0.99999994
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        }
+      ],
+      "GUID": ""
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": -12.5021057,
+        "posY": 1.60939181,
+        "posZ": 10.1954241,
+        "rotX": -1.7321212E-05,
+        "rotY": 359.974548,
+        "rotZ": 1.18424794E-06,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.5110917
+      },
+      "Grid": true,
+      "Locked": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "backgammon_piece_white",
+          "Transform": {
+            "posX": -13.22916,
+            "posY": 3.47378421,
+            "posZ": 10.4063072,
+            "rotX": 25.4171257,
+            "rotY": 12.5226822,
+            "rotZ": 12.9681349,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.99999994,
+            "g": 0.5814545,
+            "b": 0.19216831
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "backgammon_piece_white",
+          "Transform": {
+            "posX": -12.764082,
+            "posY": 3.55891776,
+            "posZ": 10.7783918,
+            "rotX": 51.4727058,
+            "rotY": 7.32046175,
+            "rotZ": 354.1678,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.99999994,
+            "g": 0.5814545,
+            "b": 0.19216831
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "backgammon_piece_white",
+          "Transform": {
+            "posX": -12.7793217,
+            "posY": 3.47580719,
+            "posZ": 11.3715372,
+            "rotX": 307.393982,
+            "rotY": 17.3158283,
+            "rotZ": 354.166351,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.99999994,
+            "g": 0.5814545,
+            "b": 0.19216831
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "backgammon_piece_white",
+          "Transform": {
+            "posX": -13.3472824,
+            "posY": 3.48205853,
+            "posZ": 10.3141851,
+            "rotX": 331.954865,
+            "rotY": 173.212021,
+            "rotZ": 178.50798,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.99999994,
+            "g": 0.5814545,
+            "b": 0.19216831
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "backgammon_piece_white",
+          "Transform": {
+            "posX": -13.7599382,
+            "posY": 2.96650243,
+            "posZ": 11.6511459,
+            "rotX": 6.494895,
+            "rotY": 0.2411327,
+            "rotZ": 6.630474,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.99999994,
+            "g": 0.5814545,
+            "b": 0.19216831
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "backgammon_piece_white",
+          "Transform": {
+            "posX": -13.4818525,
+            "posY": 2.919751,
+            "posZ": 9.775528,
+            "rotX": 350.187317,
+            "rotY": 358.112427,
+            "rotZ": 6.930105,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.99999994,
+            "g": 0.5814545,
+            "b": 0.19216831
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "backgammon_piece_white",
+          "Transform": {
+            "posX": -13.3543215,
+            "posY": 3.36188936,
+            "posZ": 10.119462,
+            "rotX": 14.7322807,
+            "rotY": 25.7086334,
+            "rotZ": 15.783164,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.99999994,
+            "g": 0.5814545,
+            "b": 0.19216831
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "backgammon_piece_white",
+          "Transform": {
+            "posX": -13.3377247,
+            "posY": 3.44564748,
+            "posZ": 11.0974913,
+            "rotX": 339.6076,
+            "rotY": 4.101507,
+            "rotZ": 6.627861,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.99999994,
+            "g": 0.5814545,
+            "b": 0.19216831
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "backgammon_piece_white",
+          "Transform": {
+            "posX": -13.3973112,
+            "posY": 3.71924019,
+            "posZ": 10.6565313,
+            "rotX": 25.1125031,
+            "rotY": 35.12742,
+            "rotZ": 75.83478,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.99999994,
+            "g": 0.5814545,
+            "b": 0.19216831
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "backgammon_piece_white",
+          "Transform": {
+            "posX": -13.0392809,
+            "posY": 3.542375,
+            "posZ": 11.346096,
+            "rotX": 315.578064,
+            "rotY": 8.94283,
+            "rotZ": 0.04822678,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.99999994,
+            "g": 0.5814545,
+            "b": 0.19216831
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "backgammon_piece_white",
+          "Transform": {
+            "posX": -13.7142181,
+            "posY": 3.45656013,
+            "posZ": 11.069211,
+            "rotX": 336.7027,
+            "rotY": 354.093231,
+            "rotZ": 275.865967,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.99999994,
+            "g": 0.5814545,
+            "b": 0.19216831
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "backgammon_piece_white",
+          "Transform": {
+            "posX": -12.972887,
+            "posY": 3.25421143,
+            "posZ": 10.3457069,
+            "rotX": 341.95163,
+            "rotY": 309.147156,
+            "rotZ": 35.28194,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.99999994,
+            "g": 0.5814545,
+            "b": 0.19216831
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "backgammon_piece_white",
+          "Transform": {
+            "posX": -12.9699345,
+            "posY": 3.52854514,
+            "posZ": 10.6263437,
+            "rotX": 14.3838205,
+            "rotY": 351.57785,
+            "rotZ": 326.0425,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.99999994,
+            "g": 0.5814545,
+            "b": 0.19216831
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "backgammon_piece_white",
+          "Transform": {
+            "posX": -13.3194513,
+            "posY": 3.33217382,
+            "posZ": 11.4897919,
+            "rotX": 322.729584,
+            "rotY": 345.954773,
+            "rotZ": 22.4761047,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.99999994,
+            "g": 0.5814545,
+            "b": 0.19216831
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "backgammon_piece_white",
+          "Transform": {
+            "posX": -13.2163525,
+            "posY": 3.342406,
+            "posZ": 10.9110069,
+            "rotX": 21.8321133,
+            "rotY": 359.771118,
+            "rotZ": 3.11346841,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.99999994,
+            "g": 0.5814545,
+            "b": 0.19216831
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "backgammon_piece_white",
+          "Transform": {
+            "posX": -12.9241333,
+            "posY": 3.36837578,
+            "posZ": 10.6242619,
+            "rotX": 351.177856,
+            "rotY": 8.164851,
+            "rotZ": 353.973938,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.99999994,
+            "g": 0.5814545,
+            "b": 0.19216831
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "backgammon_piece_white",
+          "Transform": {
+            "posX": -12.68581,
+            "posY": 3.27493644,
+            "posZ": 10.1818628,
+            "rotX": 348.228516,
+            "rotY": 2.228292,
+            "rotZ": 353.447144,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.99999994,
+            "g": 0.5814545,
+            "b": 0.19216831
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "backgammon_piece_white",
+          "Transform": {
+            "posX": -12.8319712,
+            "posY": 3.32391834,
+            "posZ": 10.2799616,
+            "rotX": 345.7464,
+            "rotY": 1.8089782,
+            "rotZ": 6.273574,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.99999994,
+            "g": 0.5814545,
+            "b": 0.19216831
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "backgammon_piece_white",
+          "Transform": {
+            "posX": -13.1453667,
+            "posY": 3.30242753,
+            "posZ": 10.3749514,
+            "rotX": 349.807861,
+            "rotY": 359.479767,
+            "rotZ": 3.80864382,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.99999994,
+            "g": 0.5814545,
+            "b": 0.19216831
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "backgammon_piece_white",
+          "Transform": {
+            "posX": -13.39309,
+            "posY": 3.28178859,
+            "posZ": 11.3396893,
+            "rotX": 4.706055,
+            "rotY": 0.295123726,
+            "rotZ": 7.33837938,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.99999994,
+            "g": 0.5814545,
+            "b": 0.19216831
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "backgammon_piece_white",
+          "Transform": {
+            "posX": -12.5913658,
+            "posY": 3.22405481,
+            "posZ": 10.1054764,
+            "rotX": 353.109283,
+            "rotY": 0.383097529,
+            "rotZ": 354.445648,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.99999994,
+            "g": 0.5814545,
+            "b": 0.19216831
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "backgammon_piece_white",
+          "Transform": {
+            "posX": -13.0407581,
+            "posY": 3.18376279,
+            "posZ": 9.99348,
+            "rotX": 353.869629,
+            "rotY": 356.89325,
+            "rotZ": 357.077576,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.99999994,
+            "g": 0.5814545,
+            "b": 0.19216831
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "backgammon_piece_white",
+          "Transform": {
+            "posX": -12.0070276,
+            "posY": 2.97497225,
+            "posZ": 10.5665817,
+            "rotX": 355.589355,
+            "rotY": 1.03483772,
+            "rotZ": 350.558167,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.99999994,
+            "g": 0.5814545,
+            "b": 0.19216831
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "backgammon_piece_white",
+          "Transform": {
+            "posX": -13.0534945,
+            "posY": 3.07034755,
+            "posZ": 9.943407,
+            "rotX": 331.560059,
+            "rotY": 11.0401554,
+            "rotZ": 337.574036,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.99999994,
+            "g": 0.5814545,
+            "b": 0.19216831
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "backgammon_piece_white",
+          "Transform": {
+            "posX": -13.0126238,
+            "posY": 3.659801,
+            "posZ": 10.6878843,
+            "rotX": 291.413116,
+            "rotY": 351.8547,
+            "rotZ": 17.1843,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.99999994,
+            "g": 0.5814648,
+            "b": 0.192179739
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "backgammon_piece_white",
+          "Transform": {
+            "posX": -13.0742512,
+            "posY": 3.20720744,
+            "posZ": 11.2681246,
+            "rotX": 32.8082733,
+            "rotY": 348.086334,
+            "rotZ": 1.78834939,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.99999994,
+            "g": 0.5814545,
+            "b": 0.19216831
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "backgammon_piece_white",
+          "Transform": {
+            "posX": -13.0066442,
+            "posY": 3.18487453,
+            "posZ": 11.0063725,
+            "rotX": 4.30193233,
+            "rotY": 0.225051716,
+            "rotZ": 4.28000069,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.99999994,
+            "g": 0.5814648,
+            "b": 0.192179739
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "backgammon_piece_white",
+          "Transform": {
+            "posX": -13.0125351,
+            "posY": 3.14046288,
+            "posZ": 11.0138912,
+            "rotX": 4.880316,
+            "rotY": 359.919373,
+            "rotZ": 5.02492762,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.99999994,
+            "g": 0.5814648,
+            "b": 0.192179739
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        },
+        {
+          "Name": "backgammon_piece_white",
+          "Transform": {
+            "posX": -13.0214319,
+            "posY": 3.2653234,
+            "posZ": 9.990413,
+            "rotX": 354.8211,
+            "rotY": 359.4283,
+            "rotZ": 11.2101288,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.99999994,
+            "g": 0.581475139,
+            "b": 0.192191154
+          },
+          "Grid": true,
+          "Locked": false,
+          "GUID": ""
+        }
+      ],
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -18.438303,
+        "posY": 1.01824391,
+        "posZ": -7.99641562,
+        "rotX": 0.01810175,
+        "rotY": 180.013336,
+        "rotZ": 0.0768371448,
+        "scaleX": 3.0,
+        "scaleY": 3.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713566661,
+        "g": 0.713566661,
+        "b": 0.713566661
+      },
+      "Grid": true,
+      "Locked": true,
+      "CardID": 400,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "https://drive.google.com/uc?export=download&id=0Bwrik6FjuETWMWg4NlBCU2RiQlk",
+          "BackURL": "https://drive.google.com/uc?export=download&id=0Bwrik6FjuETWMUJfVHNNMXNkZlU"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6",
+      "Transform": {
+        "posX": 11.0066061,
+        "posY": 1.23716736,
+        "posZ": -14.0425739,
+        "rotX": 270.0,
+        "rotY": 359.986023,
+        "rotZ": 0.0,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.192442864
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6",
+      "Transform": {
+        "posX": 13.0301247,
+        "posY": 1.23716748,
+        "posZ": -13.9530993,
+        "rotX": 270.0,
+        "rotY": 0.7508642,
+        "rotZ": 0.0,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.192442864
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6",
+      "Transform": {
+        "posX": 12.0519133,
+        "posY": 1.23716748,
+        "posZ": -14.0026884,
+        "rotX": 270.0,
+        "rotY": 357.636139,
+        "rotZ": 0.0,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.192442864
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -13.0646906,
+        "posY": 1.25449264,
+        "posZ": -13.9831314,
+        "rotX": -2.32694265E-06,
+        "rotY": 359.290649,
+        "rotZ": -2.7380695E-06,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9402698,
+        "g": 0.0156862754,
+        "b": 0.164108381
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -11.9911451,
+        "posY": 1.25449276,
+        "posZ": -14.0178585,
+        "rotX": -2.9308927E-05,
+        "rotY": 0.492366,
+        "rotZ": -2.31266476E-05,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9402698,
+        "g": 0.0156862754,
+        "b": 0.164108381
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -11.0116253,
+        "posY": 1.25449264,
+        "posZ": -13.9664545,
+        "rotX": -1.1309819E-06,
+        "rotY": 0.0345562845,
+        "rotZ": -9.638095E-07,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9402698,
+        "g": 0.0156862754,
+        "b": 0.164108381
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -13.1325912,
+        "posY": 1.25449276,
+        "posZ": 14.12098,
+        "rotX": 90.0,
+        "rotY": 72.01453,
+        "rotZ": 0.0,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.6706664,
+        "b": 0.0392156877
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -12.0092039,
+        "posY": 1.25449264,
+        "posZ": 14.11466,
+        "rotX": -8.7653345E-05,
+        "rotY": 0.2442922,
+        "rotZ": -1.59879673E-05,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.6706664,
+        "b": 0.0392156877
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -13.9694624,
+        "posY": 1.25449264,
+        "posZ": 14.1008368,
+        "rotX": 3.83160077E-05,
+        "rotY": 0.27323848,
+        "rotZ": 4.198583E-05,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.6706664,
+        "b": 0.0392156877
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 12.9827042,
+        "posY": 1.25449252,
+        "posZ": 14.0486269,
+        "rotX": -4.70695284E-07,
+        "rotY": 0.293976068,
+        "rotZ": -6.956306E-07,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.1493617,
+        "g": 0.165057555,
+        "b": 0.9255626
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 13.9873705,
+        "posY": 1.25449252,
+        "posZ": 14.09794,
+        "rotX": -4.28855969E-07,
+        "rotY": 359.853241,
+        "rotZ": -2.54416113E-06,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.1493617,
+        "g": 0.165057555,
+        "b": 0.9255626
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 12.0114765,
+        "posY": 1.25449276,
+        "posZ": 14.1022062,
+        "rotX": 7.60853363E-05,
+        "rotY": 359.2168,
+        "rotZ": 4.76128662E-05,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.1493617,
+        "g": 0.165057555,
+        "b": 0.9255626
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6",
+      "Transform": {
+        "posX": -2.690866,
+        "posY": 2.07836437,
+        "posZ": 0.6565707,
+        "rotX": 270.0,
+        "rotY": 359.176849,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -2.60621786,
+        "posY": 1.81987822,
+        "posZ": -0.950530231,
+        "rotX": 1.61424282E-06,
+        "rotY": 180.002182,
+        "rotZ": -5.623935E-07,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.71359,
+        "g": 0.71359,
+        "b": 0.71359
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 505,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "5": {
+          "FaceURL": "https://drive.google.com/uc?export=download&id=0Bwrik6FjuETWT3FESUV5NnUxNG8",
+          "BackURL": "https://drive.google.com/uc?export=download&id=0Bwrik6FjuETWSzJ5cHZMNm0wM1E"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -4.221472,
+        "posY": 1.81987846,
+        "posZ": 4.461649,
+        "rotX": 6.755649E-06,
+        "rotY": 179.959732,
+        "rotZ": 7.51436744E-07,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.71359,
+        "g": 0.71359,
+        "b": 0.71359
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 502,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "5": {
+          "FaceURL": "https://drive.google.com/uc?export=download&id=0Bwrik6FjuETWT3FESUV5NnUxNG8",
+          "BackURL": "https://drive.google.com/uc?export=download&id=0Bwrik6FjuETWSzJ5cHZMNm0wM1E"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -6.349534,
+        "posY": 1.81987846,
+        "posZ": 1.17348731,
+        "rotX": 3.43963734E-06,
+        "rotY": 179.986267,
+        "rotZ": 4.09710168E-07,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.71359,
+        "g": 0.71359,
+        "b": 0.71359
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 500,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "5": {
+          "FaceURL": "https://drive.google.com/uc?export=download&id=0Bwrik6FjuETWT3FESUV5NnUxNG8",
+          "BackURL": "https://drive.google.com/uc?export=download&id=0Bwrik6FjuETWSzJ5cHZMNm0wM1E"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -5.13785362,
+        "posY": 1.81987822,
+        "posZ": -2.922462,
+        "rotX": 1.375479E-06,
+        "rotY": 179.973145,
+        "rotZ": -1.03558682E-06,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.71359,
+        "g": 0.71359,
+        "b": 0.71359
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 503,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "5": {
+          "FaceURL": "https://drive.google.com/uc?export=download&id=0Bwrik6FjuETWT3FESUV5NnUxNG8",
+          "BackURL": "https://drive.google.com/uc?export=download&id=0Bwrik6FjuETWSzJ5cHZMNm0wM1E"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 1.68608427,
+        "posY": 1.81987846,
+        "posZ": 2.21475458,
+        "rotX": 5.0166E-06,
+        "rotY": 179.955536,
+        "rotZ": -1.48278929E-07,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.71359,
+        "g": 0.71359,
+        "b": 0.71359
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 501,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "5": {
+          "FaceURL": "https://drive.google.com/uc?export=download&id=0Bwrik6FjuETWT3FESUV5NnUxNG8",
+          "BackURL": "https://drive.google.com/uc?export=download&id=0Bwrik6FjuETWSzJ5cHZMNm0wM1E"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -1.017278,
+        "posY": 1.8198787,
+        "posZ": 4.21768427,
+        "rotX": 5.6463773E-06,
+        "rotY": 179.951233,
+        "rotZ": 1.39192764E-06,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.71359,
+        "g": 0.71359,
+        "b": 0.71359
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 504,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "5": {
+          "FaceURL": "https://drive.google.com/uc?export=download&id=0Bwrik6FjuETWT3FESUV5NnUxNG8",
+          "BackURL": "https://drive.google.com/uc?export=download&id=0Bwrik6FjuETWSzJ5cHZMNm0wM1E"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -2.00004053,
+        "posY": 1.8198781,
+        "posZ": -3.99981,
+        "rotX": 7.641805E-06,
+        "rotY": 179.962448,
+        "rotZ": 5.89793729E-07,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.71359,
+        "g": 0.71359,
+        "b": 0.71359
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 506,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "5": {
+          "FaceURL": "https://drive.google.com/uc?export=download&id=0Bwrik6FjuETWT3FESUV5NnUxNG8",
+          "BackURL": "https://drive.google.com/uc?export=download&id=0Bwrik6FjuETWSzJ5cHZMNm0wM1E"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 30.91572,
+        "posY": 3.91600823,
+        "posZ": 18.9778233,
+        "rotX": 2.53995549E-05,
+        "rotY": 358.86615,
+        "rotZ": 5.66874E-05,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6850509,
+        "g": 0.0156862754,
+        "b": 0.912359059
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 29.84835,
+        "posY": 3.916008,
+        "posZ": 18.8423862,
+        "rotX": -3.310452E-05,
+        "rotY": 359.175262,
+        "rotZ": -8.1547536E-05,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6850509,
+        "g": 0.0156862754,
+        "b": 0.912359059
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 28.6593666,
+        "posY": 3.91600823,
+        "posZ": 18.8460751,
+        "rotX": 2.54076858E-05,
+        "rotY": 0.6933452,
+        "rotZ": 9.082351E-05,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6850509,
+        "g": 0.0156862754,
+        "b": 0.912359059
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -12.5041847,
+        "posY": 1.84901011,
+        "posZ": 8.228673,
+        "rotX": -1.52185248E-06,
+        "rotY": 359.8203,
+        "rotZ": 1.20255459E-06,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.581701636,
+        "b": 0.192442864
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": 4.56963873,
+        "posY": 1.9981643,
+        "posZ": -9.884128,
+        "rotX": 270.0,
+        "rotY": 269.831146,
+        "rotZ": 0.0,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.808006465,
+        "g": 0.858946,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Board",
+      "Transform": {
+        "posX": 35.99541,
+        "posY": 3.94863439,
+        "posZ": 0.411959231,
+        "rotX": 0.0,
+        "rotY": 180.000778,
+        "rotZ": 0.0,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.08280835
+      },
+      "Grid": true,
+      "Locked": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/wJ0erse.jpg",
+        "WidthScale": 0.417153984
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Board",
+      "Transform": {
+        "posX": 35.99541,
+        "posY": 3.94863439,
+        "posZ": 0.411959231,
+        "rotX": 0.0,
+        "rotY": 180.000778,
+        "rotZ": 0.0,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.08280835
+      },
+      "Grid": true,
+      "Locked": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/wJ0erse.jpg",
+        "WidthScale": 0.417153984
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6",
+      "Transform": {
+        "posX": -22.9918385,
+        "posY": 1.23716736,
+        "posZ": -12.08464,
+        "rotX": 270.0,
+        "rotY": 0.5656615,
+        "rotZ": 0.0,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.192454308
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6",
+      "Transform": {
+        "posX": -27.0287838,
+        "posY": 1.23716736,
+        "posZ": -12.1289587,
+        "rotX": 270.0,
+        "rotY": 359.93277,
+        "rotZ": 0.0,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.192454308
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6",
+      "Transform": {
+        "posX": -25.0815678,
+        "posY": 1.23716748,
+        "posZ": -12.10823,
+        "rotX": 270.0,
+        "rotY": 359.121033,
+        "rotZ": 0.0,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.192454308
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -27.0614815,
+        "posY": 1.25449264,
+        "posZ": -10.0481882,
+        "rotX": -6.305628E-05,
+        "rotY": 0.2586699,
+        "rotZ": -6.481491E-05,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9402716,
+        "g": 0.0156862754,
+        "b": 0.164119348
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -22.94577,
+        "posY": 1.25449264,
+        "posZ": -9.971515,
+        "rotX": -3.061973E-06,
+        "rotY": 0.722371638,
+        "rotZ": -6.756272E-05,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9402716,
+        "g": 0.0156862754,
+        "b": 0.164119348
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -24.94483,
+        "posY": 1.25449264,
+        "posZ": -10.06072,
+        "rotX": -1.24383757E-06,
+        "rotY": 0.845864534,
+        "rotZ": -2.17678439E-06,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9402716,
+        "g": 0.0156862754,
+        "b": 0.164119348
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -24.8598328,
+        "posY": 1.25449264,
+        "posZ": -7.943786,
+        "rotX": -2.5980255E-06,
+        "rotY": 359.945,
+        "rotZ": -2.53541612E-06,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.6706664,
+        "b": 0.0392156877
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -22.9305954,
+        "posY": 1.25449264,
+        "posZ": -8.009686,
+        "rotX": 1.169303E-05,
+        "rotY": 359.678955,
+        "rotZ": 6.12569E-05,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.6706664,
+        "b": 0.0392156877
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -27.0882587,
+        "posY": 1.25449264,
+        "posZ": -7.97839069,
+        "rotX": -8.11265238E-07,
+        "rotY": 359.3986,
+        "rotZ": -2.28010151E-07,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.6706664,
+        "b": 0.0392156877
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -25.173914,
+        "posY": 1.25449264,
+        "posZ": -5.97322035,
+        "rotX": -4.871176E-06,
+        "rotY": 0.0248433352,
+        "rotZ": -0.000116765041,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.149372384,
+        "g": 0.165068537,
+        "b": 0.9255649
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -22.9850655,
+        "posY": 1.25449252,
+        "posZ": -5.98716164,
+        "rotX": -3.027864E-05,
+        "rotY": 0.127864659,
+        "rotZ": 4.62656171E-05,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.149372384,
+        "g": 0.165068537,
+        "b": 0.9255649
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -27.1076,
+        "posY": 1.25449264,
+        "posZ": -5.94462729,
+        "rotX": -1.396529E-05,
+        "rotY": 359.942444,
+        "rotZ": 6.86237545E-05,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.149372384,
+        "g": 0.165068537,
+        "b": 0.9255649
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": ""
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": 16.92708,
+        "posY": 1.1237669,
+        "posZ": 4.13019,
+        "rotX": 2.100268E-06,
+        "rotY": 179.033508,
+        "rotZ": 180.0,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713621259,
+        "g": 0.713621259,
+        "b": 0.713621259
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        126,
+        123,
+        128,
+        128,
+        123,
+        129,
+        125,
+        134,
+        131,
+        135,
+        125,
+        132,
+        124,
+        133,
+        129,
+        132,
+        130,
+        130,
+        133,
+        134,
+        135,
+        131
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "https://drive.google.com/uc?export=download&id=0Bwrik6FjuETWRFRqSEh5VWprakE",
+          "BackURL": "https://drive.google.com/uc?export=download&id=0Bwrik6FjuETWY2lmX3VJVllubVU"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 22.000145,
+        "posY": 1.01995623,
+        "posZ": 15.9999161,
+        "rotX": -1.87462192E-07,
+        "rotY": 180.03186,
+        "rotZ": 2.549866E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713601768,
+        "g": 0.713601768,
+        "b": 0.713601768
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 406,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "https://drive.google.com/uc?export=download&id=0Bwrik6FjuETWMWg4NlBCU2RiQlk",
+          "BackURL": "https://drive.google.com/uc?export=download&id=0Bwrik6FjuETWMUJfVHNNMXNkZlU"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 25.9999752,
+        "posY": 1.01995623,
+        "posZ": 15.9999924,
+        "rotX": 1.26896862E-06,
+        "rotY": 180.032959,
+        "rotZ": -7.40617452E-08,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713601768,
+        "g": 0.713601768,
+        "b": 0.713601768
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 407,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "https://drive.google.com/uc?export=download&id=0Bwrik6FjuETWMWg4NlBCU2RiQlk",
+          "BackURL": "https://drive.google.com/uc?export=download&id=0Bwrik6FjuETWMUJfVHNNMXNkZlU"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -20.601366,
+        "posY": 1.13676476,
+        "posZ": -9.884116,
+        "rotX": 0.01814344,
+        "rotY": 179.991638,
+        "rotZ": 0.076887,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=00YWZ28Y",
+        "DiffuseURL": "http://i.imgur.com/EOmXWV5.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -20.59405,
+        "posY": 1.13764071,
+        "posZ": -7.08310652,
+        "rotX": 0.0181413572,
+        "rotY": 179.9958,
+        "rotZ": 0.07689808,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=00YWZ28Y",
+        "DiffuseURL": "http://i.imgur.com/5IjVy5B.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -20.5956383,
+        "posY": 1.13850975,
+        "posZ": -4.341762,
+        "rotX": 359.981842,
+        "rotY": 359.982483,
+        "rotZ": 359.923126,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992164254,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=00YWZ28Y",
+        "DiffuseURL": "http://i.imgur.com/wweoCT5.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": 20.9997978,
+        "posY": 1.05440569,
+        "posZ": 3.99981928,
+        "rotX": 6.974938E-07,
+        "rotY": 179.9537,
+        "rotZ": 180.000015,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7133717,
+        "g": 0.7133717,
+        "b": 0.7133717
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        1001,
+        1000
+      ],
+      "CustomDeck": {
+        "10": {
+          "FaceURL": "http://i.imgur.com/POIDZHk.jpg",
+          "BackURL": "http://i.imgur.com/DbgIciW.jpg{Unique}"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 19.4785671,
+        "posY": 1.36074257,
+        "posZ": 6.918353,
+        "rotX": -2.66804278E-07,
+        "rotY": 359.593933,
+        "rotZ": 270.0,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921637,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=3BDesdKP",
+        "DiffuseURL": "http://i.imgur.com/Ejz0F8w.jpg",
+        "NormalURL": "http://i.imgur.com/uPzLVuv.jpg",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 2
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": 16.99996,
+        "posY": 1.1237669,
+        "posZ": 8.999999,
+        "rotX": 2.06116326E-07,
+        "rotY": 179.999619,
+        "rotZ": 180.0,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7133717,
+        "g": 0.7133717,
+        "b": 0.7133717
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        1011,
+        1009,
+        1005,
+        1012,
+        1004,
+        1013,
+        1007,
+        1008,
+        1007,
+        1006,
+        1007,
+        1002,
+        1009,
+        1004,
+        1010,
+        1003,
+        1011,
+        1006,
+        1006,
+        1004,
+        1012,
+        1005
+      ],
+      "CustomDeck": {
+        "10": {
+          "FaceURL": "http://i.imgur.com/POIDZHk.jpg",
+          "BackURL": "http://i.imgur.com/DbgIciW.jpg{Unique}"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": 21.00012,
+        "posY": 1.05440569,
+        "posZ": -12.0001631,
+        "rotX": 2.97420638E-06,
+        "rotY": 89.96829,
+        "rotZ": 180.0,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7133717,
+        "g": 0.7133717,
+        "b": 0.7133717
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": true,
+      "DeckIDs": [
+        1101,
+        1100
+      ],
+      "CustomDeck": {
+        "11": {
+          "FaceURL": "http://i.imgur.com/fMArWa4.jpg",
+          "BackURL": "http://i.imgur.com/u1INKfb.jpg"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6",
+      "Transform": {
+        "posX": 27.4422379,
+        "posY": 3.898683,
+        "posZ": -20.73564,
+        "rotX": 270.0,
+        "rotY": 0.56038624,
+        "rotZ": 0.0,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9989909,
+        "g": 0.440913945,
+        "b": 0.189927727
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6",
+      "Transform": {
+        "posX": 25.3524876,
+        "posY": 3.89868283,
+        "posZ": -20.7592278,
+        "rotX": 270.0,
+        "rotY": 359.116943,
+        "rotZ": 0.0,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9989909,
+        "g": 0.440913945,
+        "b": 0.189927727
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6",
+      "Transform": {
+        "posX": 23.4046249,
+        "posY": 3.89868283,
+        "posZ": -20.7798252,
+        "rotX": 270.0,
+        "rotY": 359.956177,
+        "rotZ": 0.0,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9989909,
+        "g": 0.440913945,
+        "b": 0.189927727
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 1.63737822,
+        "posY": 1.81987822,
+        "posZ": -1.84935951,
+        "rotX": 2.08067081E-06,
+        "rotY": 180.653183,
+        "rotZ": 1.27087361E-07,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7134341,
+        "g": 0.7134341,
+        "b": 0.7134341
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 507,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "5": {
+          "FaceURL": "https://drive.google.com/uc?export=download&id=0Bwrik6FjuETWT3FESUV5NnUxNG8",
+          "BackURL": "https://drive.google.com/uc?export=download&id=0Bwrik6FjuETWSzJ5cHZMNm0wM1E"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 30.5868015,
+        "posY": 3.6842947,
+        "posZ": -19.4365425,
+        "rotX": 5.957177E-07,
+        "rotY": 180.0013,
+        "rotZ": 180.000015,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7133249,
+        "g": 0.7133249,
+        "b": 0.7133249
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 1308,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "13": {
+          "FaceURL": "http://i.imgur.com/l7PR3AM.jpg",
+          "BackURL": "http://i.imgur.com/kHDzYMw.jpg{Unique}"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": -13.0009022,
+        "posY": 1.13124084,
+        "posZ": -14.9995356,
+        "rotX": -2.518301E-07,
+        "rotY": 0.07585945,
+        "rotZ": -3.48957371E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.955307543,
+        "g": 0.0156862754,
+        "b": 0.183133662
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": -12.0,
+        "posY": 1.131241,
+        "posZ": -15.0,
+        "rotX": -2.01338044E-05,
+        "rotY": 0.07432742,
+        "rotZ": 1.778803E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.955309,
+        "g": 0.0156862754,
+        "b": 0.183144957
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": -11.0000076,
+        "posY": 1.131241,
+        "posZ": -15.0,
+        "rotX": -5.038691E-06,
+        "rotY": 0.07515098,
+        "rotZ": 3.77174E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.955309,
+        "g": 0.0156862754,
+        "b": 0.183144957
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": -10.0,
+        "posY": 1.131241,
+        "posZ": -15.0,
+        "rotX": -2.37049036E-07,
+        "rotY": 0.07558151,
+        "rotZ": -2.44303848E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.955309,
+        "g": 0.0156862754,
+        "b": 0.183144957
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": -12.9999895,
+        "posY": 1.131241,
+        "posZ": -16.0,
+        "rotX": -2.81299322E-07,
+        "rotY": 0.07584579,
+        "rotZ": -3.5046407E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.955309,
+        "g": 0.0156862754,
+        "b": 0.183144957
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": -11.9999971,
+        "posY": 1.131241,
+        "posZ": -15.999999,
+        "rotX": -5.94761332E-07,
+        "rotY": 0.07532484,
+        "rotZ": -4.49751155E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.955309,
+        "g": 0.0156862754,
+        "b": 0.183144957
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": -11.0000019,
+        "posY": 1.13124108,
+        "posZ": -16.0,
+        "rotX": -1.80914753E-06,
+        "rotY": 0.07591306,
+        "rotZ": -3.53615724E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.955309,
+        "g": 0.0156862754,
+        "b": 0.183144957
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": -10.0000029,
+        "posY": 1.131241,
+        "posZ": -15.9999895,
+        "rotX": 1.69553209E-06,
+        "rotY": 0.07652769,
+        "rotZ": 3.49213624E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.955309,
+        "g": 0.0156862754,
+        "b": 0.183144957
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": 12.9990616,
+        "posY": 1.131241,
+        "posZ": -15.9995356,
+        "rotX": -2.201269E-07,
+        "rotY": 0.096091,
+        "rotZ": -7.84176848E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8588651,
+        "g": 0.8784678,
+        "b": 0.0392156877
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": 11.9999924,
+        "posY": 1.131241,
+        "posZ": -16.0,
+        "rotX": 2.39373639E-05,
+        "rotY": 0.075262174,
+        "rotZ": -2.43180784E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8588651,
+        "g": 0.8784678,
+        "b": 0.0392156877
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": 11.99999,
+        "posY": 1.13124084,
+        "posZ": -14.9999981,
+        "rotX": -3.238918E-05,
+        "rotY": 0.0747533143,
+        "rotZ": -2.59006229E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8588651,
+        "g": 0.8784678,
+        "b": 0.0392156877
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": 11.000001,
+        "posY": 1.131241,
+        "posZ": -15.0000019,
+        "rotX": -5.491474E-05,
+        "rotY": 0.0748042762,
+        "rotZ": -9.848526E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8588651,
+        "g": 0.8784678,
+        "b": 0.0392156877
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": 12.9999838,
+        "posY": 1.131241,
+        "posZ": -15.0,
+        "rotX": 2.09799164E-05,
+        "rotY": 0.0753662363,
+        "rotZ": -2.44887669E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8588651,
+        "g": 0.8784678,
+        "b": 0.0392156877
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": 11.0000048,
+        "posY": 1.131241,
+        "posZ": -16.0,
+        "rotX": -3.67709532E-07,
+        "rotY": 0.0753763,
+        "rotZ": -1.94492856E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8588651,
+        "g": 0.8784678,
+        "b": 0.0392156877
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": 10.0,
+        "posY": 1.13124108,
+        "posZ": -15.0,
+        "rotX": -3.69791E-07,
+        "rotY": 0.07559776,
+        "rotZ": 3.17920382E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8588651,
+        "g": 0.8784678,
+        "b": 0.0392156877
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": 9.999999,
+        "posY": 1.131241,
+        "posZ": -16.0,
+        "rotX": 6.393061E-06,
+        "rotY": 0.07580889,
+        "rotZ": -3.653994E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8588651,
+        "g": 0.8784678,
+        "b": 0.0392156877
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": -12.000001,
+        "posY": 1.131241,
+        "posZ": 15.000001,
+        "rotX": 2.202929E-05,
+        "rotY": 0.07465495,
+        "rotZ": -1.39789572E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.6706664,
+        "b": 0.0392156877
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": -12.9999895,
+        "posY": 1.13124084,
+        "posZ": 15.0,
+        "rotX": -9.851777E-07,
+        "rotY": 0.07590152,
+        "rotZ": 2.576446E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.6706664,
+        "b": 0.0392156877
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": -12.9999895,
+        "posY": 1.13124108,
+        "posZ": 15.99999,
+        "rotX": 2.6695086E-06,
+        "rotY": 0.07642824,
+        "rotZ": 3.77934339E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.6706664,
+        "b": 0.0392156877
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": -13.9999933,
+        "posY": 1.131241,
+        "posZ": 15.99999,
+        "rotX": 2.20228285E-05,
+        "rotY": 0.07728254,
+        "rotZ": -1.37118714E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.6706664,
+        "b": 0.0392156877
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": -12.0000067,
+        "posY": 1.131241,
+        "posZ": 15.9999838,
+        "rotX": 2.14821066E-05,
+        "rotY": 0.07618123,
+        "rotZ": -1.34050943E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.6706664,
+        "b": 0.0392156877
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": -13.9999933,
+        "posY": 1.13124084,
+        "posZ": 15.0,
+        "rotX": -7.56847243E-08,
+        "rotY": 0.0759024,
+        "rotZ": -4.0549228E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.6706664,
+        "b": 0.0392156877
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": -14.9999914,
+        "posY": 1.131241,
+        "posZ": 15.9999895,
+        "rotX": -1.41570683E-06,
+        "rotY": 0.07654635,
+        "rotZ": 2.232391E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.6706664,
+        "b": 0.0392156877
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": -14.9999924,
+        "posY": 1.131241,
+        "posZ": 15.0000086,
+        "rotX": 3.25695146E-05,
+        "rotY": 0.0749910846,
+        "rotZ": 3.211378E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.6706664,
+        "b": 0.0392156877
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": 13.9999971,
+        "posY": 1.13124084,
+        "posZ": 15.0,
+        "rotX": -7.95530752E-07,
+        "rotY": 0.07580104,
+        "rotZ": -4.039393E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.270787656,
+        "g": 0.163467526,
+        "b": 0.9804874
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": 12.9999876,
+        "posY": 1.131241,
+        "posZ": 15.0,
+        "rotX": -2.54767237E-05,
+        "rotY": 0.0756686851,
+        "rotZ": 4.46530248E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.270787656,
+        "g": 0.163467526,
+        "b": 0.9804874
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": 12.9999866,
+        "posY": 1.131241,
+        "posZ": 15.9999924,
+        "rotX": 2.18204077E-05,
+        "rotY": 0.07682447,
+        "rotZ": -1.38389114E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.270787656,
+        "g": 0.163467526,
+        "b": 0.9804874
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": 11.9999933,
+        "posY": 1.131241,
+        "posZ": 15.9999866,
+        "rotX": -2.03956261E-05,
+        "rotY": 0.07596926,
+        "rotZ": 1.25202541E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.270787656,
+        "g": 0.163467526,
+        "b": 0.9804874
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": 13.9999876,
+        "posY": 1.13124084,
+        "posZ": 15.9999752,
+        "rotX": -4.422603E-07,
+        "rotY": 0.07734472,
+        "rotZ": 6.231149E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.270787656,
+        "g": 0.163467526,
+        "b": 0.9804874
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": 11.9999933,
+        "posY": 1.131241,
+        "posZ": 15.0000019,
+        "rotX": 2.75276834E-05,
+        "rotY": 0.07511032,
+        "rotZ": -1.95193425E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.270787656,
+        "g": 0.163467526,
+        "b": 0.9804874
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": 11.0000076,
+        "posY": 1.131241,
+        "posZ": 15.9999914,
+        "rotX": -2.37275235E-05,
+        "rotY": 0.07629685,
+        "rotZ": -2.15771015E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.270787656,
+        "g": 0.163467526,
+        "b": 0.9804874
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": 11.0,
+        "posY": 1.131241,
+        "posZ": 15.0,
+        "rotX": 5.90721675E-06,
+        "rotY": 0.07572282,
+        "rotZ": -3.49743168E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.270787656,
+        "g": 0.163467526,
+        "b": 0.9804874
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": 27.00038,
+        "posY": 3.79275656,
+        "posZ": -19.9989967,
+        "rotX": 2.95533255E-06,
+        "rotY": 0.211607248,
+        "rotZ": 7.12620749E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.527609766,
+        "b": 0.1922598
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": 26.0003777,
+        "posY": 3.79275656,
+        "posZ": -19.9989948,
+        "rotX": -1.15918249E-06,
+        "rotY": 0.2116815,
+        "rotZ": 3.04628429E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.527609766,
+        "b": 0.1922598
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": 26.0003815,
+        "posY": 3.79275656,
+        "posZ": -18.9989929,
+        "rotX": 2.884449E-06,
+        "rotY": 0.211602822,
+        "rotZ": -7.901368E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.527609766,
+        "b": 0.1922598
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": 25.0003777,
+        "posY": 3.79275656,
+        "posZ": -18.9989929,
+        "rotX": -1.67655835E-05,
+        "rotY": 0.211302176,
+        "rotZ": 4.25570543E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.527609766,
+        "b": 0.1922598
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": 27.0003815,
+        "posY": 3.79275632,
+        "posZ": -18.9989929,
+        "rotX": -6.54298447E-06,
+        "rotY": 0.212317735,
+        "rotZ": -5.62201749E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.527609766,
+        "b": 0.1922598
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": 25.0003777,
+        "posY": 3.79275656,
+        "posZ": -19.9989929,
+        "rotX": 1.21049425E-06,
+        "rotY": 0.211632088,
+        "rotZ": 1.19573372E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.527609766,
+        "b": 0.1922598
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": 24.0003986,
+        "posY": 3.79275632,
+        "posZ": -18.99899,
+        "rotX": 6.82463142E-05,
+        "rotY": 0.209812567,
+        "rotZ": 0.000141934011,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.527609766,
+        "b": 0.1922598
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": 24.0003967,
+        "posY": 3.79275656,
+        "posZ": -19.9989948,
+        "rotX": 3.48840149E-05,
+        "rotY": 0.21076636,
+        "rotZ": -2.68181484E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.527609766,
+        "b": 0.1922598
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": 31.0001869,
+        "posY": 3.79275632,
+        "posZ": 20.0000381,
+        "rotX": 1.62992478E-07,
+        "rotY": 0.0801833943,
+        "rotZ": 7.387342E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.679600835,
+        "g": 0.0,
+        "b": 0.7765272
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": 30.000185,
+        "posY": 3.79275632,
+        "posZ": 20.0000381,
+        "rotX": 5.352711E-07,
+        "rotY": 0.08039525,
+        "rotZ": 4.758072E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.679600835,
+        "g": 0.0,
+        "b": 0.7765272
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": 30.000185,
+        "posY": 3.79275632,
+        "posZ": 21.0000381,
+        "rotX": -9.056845E-06,
+        "rotY": 0.0805098042,
+        "rotZ": -3.11926124E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.679600835,
+        "g": 0.0,
+        "b": 0.7765272
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": 29.000185,
+        "posY": 3.79275656,
+        "posZ": 21.0000362,
+        "rotX": -9.042912E-06,
+        "rotY": 0.08034303,
+        "rotZ": -3.0915493E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.679600835,
+        "g": 0.0,
+        "b": 0.7765272
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": 31.0001926,
+        "posY": 3.79275632,
+        "posZ": 21.0000458,
+        "rotX": 7.906034E-06,
+        "rotY": 0.0795892254,
+        "rotZ": -3.15739067E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.679600835,
+        "g": 0.0,
+        "b": 0.7765272
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": 29.000185,
+        "posY": 3.79275632,
+        "posZ": 20.0000362,
+        "rotX": -2.45296434E-07,
+        "rotY": 0.08001786,
+        "rotZ": -2.33092962E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.679600835,
+        "g": 0.0,
+        "b": 0.7765272
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": 27.9999371,
+        "posY": 3.79275656,
+        "posZ": 21.000124,
+        "rotX": 1.06561283E-05,
+        "rotY": 0.09176047,
+        "rotZ": 3.86282336E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.679600835,
+        "g": 0.0,
+        "b": 0.7765272
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": 27.9999371,
+        "posY": 3.79275656,
+        "posZ": 20.0001163,
+        "rotX": -2.9750754E-05,
+        "rotY": 0.09119911,
+        "rotZ": 1.8214163E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.679600835,
+        "g": 0.0,
+        "b": 0.7765272
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 24.5654831,
+        "posY": 3.916008,
+        "posZ": 20.2055359,
+        "rotX": -2.90216449E-05,
+        "rotY": 0.6510466,
+        "rotZ": 8.75504556E-05,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6850509,
+        "g": 0.0156862754,
+        "b": 0.912359059
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 25.7524338,
+        "posY": 3.91600823,
+        "posZ": 20.2012634,
+        "rotX": 1.16794865E-07,
+        "rotY": 359.086975,
+        "rotZ": -2.5774732E-06,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6850509,
+        "g": 0.0156862754,
+        "b": 0.912359059
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 23.55117,
+        "posY": 3.91600823,
+        "posZ": 20.29654,
+        "rotX": 90.0,
+        "rotY": 14.9133358,
+        "rotZ": 0.0,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6850509,
+        "g": 0.0156862754,
+        "b": 0.912359059
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6",
+      "Transform": {
+        "posX": 21.3407516,
+        "posY": 3.89868283,
+        "posZ": -20.940546,
+        "rotX": 270.0,
+        "rotY": 359.980621,
+        "rotZ": 0.0,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9989909,
+        "g": 0.440925866,
+        "b": 0.189939141
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6",
+      "Transform": {
+        "posX": 20.0667343,
+        "posY": 3.89868283,
+        "posZ": -20.3877182,
+        "rotX": 270.0,
+        "rotY": 359.112,
+        "rotZ": 0.0,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9989909,
+        "g": 0.440925866,
+        "b": 0.189939141
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6",
+      "Transform": {
+        "posX": 18.8211918,
+        "posY": 3.89868283,
+        "posZ": -20.5567627,
+        "rotX": 270.0,
+        "rotY": 0.609172463,
+        "rotZ": 0.0,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9989909,
+        "g": 0.440925866,
+        "b": 0.189939141
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 34.2650833,
+        "posY": 4.465246,
+        "posZ": -6.21337938,
+        "rotX": -1.659798E-05,
+        "rotY": 359.9526,
+        "rotZ": 2.643776E-06,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.849880755,
+        "g": 0.8814472,
+        "b": 0.0392156877
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=Aj4WR0KW",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 35.4059525,
+        "posY": 4.465247,
+        "posZ": -6.29697371,
+        "rotX": -7.090733E-06,
+        "rotY": 359.972931,
+        "rotZ": 2.37696941E-06,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.6693286,
+        "b": 0.121678665
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=Aj4WR0KW",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 36.5597649,
+        "posY": 4.46524668,
+        "posZ": -6.30239344,
+        "rotX": -1.01421329E-05,
+        "rotY": 359.954468,
+        "rotZ": 5.487727E-07,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.194884926,
+        "g": 0.1686548,
+        "b": 0.968634546
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=Aj4WR0KW",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 22.6751957,
+        "posY": 3.61115766,
+        "posZ": -19.8540611,
+        "rotX": 7.751095E-07,
+        "rotY": 0.04789998,
+        "rotZ": 2.41555176E-06,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9757707,
+        "g": 0.423657864,
+        "b": 0.13280718
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=Aj4WR0KW",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 27.0935726,
+        "posY": 3.611158,
+        "posZ": 19.32966,
+        "rotX": -9.566288E-07,
+        "rotY": 0.016044654,
+        "rotZ": 3.68099177E-06,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6508974,
+        "g": 0.0,
+        "b": 0.776508331
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=Aj4WR0KW",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 37.49526,
+        "posY": 4.465246,
+        "posZ": -6.399376,
+        "rotX": -1.06057059E-05,
+        "rotY": 359.971741,
+        "rotZ": 1.38747146E-06,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9460932,
+        "g": 0.0156862754,
+        "b": 0.30989027
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=Aj4WR0KW",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 29.9966755,
+        "posY": 3.81109858,
+        "posZ": -12.0048161,
+        "rotX": 0.00172817544,
+        "rotY": 270.480316,
+        "rotZ": -0.003184216,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=VfQpyGWU",
+        "DiffuseURL": "http://i.imgur.com/3WsGiTX.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 30.2893467,
+        "posY": 3.68147159,
+        "posZ": -15.4473124,
+        "rotX": 4.33201528E-08,
+        "rotY": 180.001312,
+        "rotZ": -5.65764964E-08,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7134497,
+        "g": 0.7134497,
+        "b": 0.7134497
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 518,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "5": {
+          "FaceURL": "https://drive.google.com/uc?export=download&id=0Bwrik6FjuETWT3FESUV5NnUxNG8",
+          "BackURL": "https://drive.google.com/uc?export=download&id=0Bwrik6FjuETWSzJ5cHZMNm0wM1E"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": 25.9999886,
+        "posY": 1.01508379,
+        "posZ": -15.9999981,
+        "rotX": -3.87216318E-07,
+        "rotY": 179.996216,
+        "rotZ": 3.897971E-06,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713457465,
+        "g": 0.713457465,
+        "b": 0.713457465
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        700,
+        702,
+        707,
+        703,
+        706,
+        704,
+        701,
+        705
+      ],
+      "CustomDeck": {
+        "7": {
+          "FaceURL": "http://i.imgur.com/GSmDRC1.jpg",
+          "BackURL": "http://i.imgur.com/hr0fUNi.jpg"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 30.4433384,
+        "posY": 3.60975862,
+        "posZ": 14.9843836,
+        "rotX": 1.41154516E-07,
+        "rotY": 90.00064,
+        "rotZ": 1.38510742E-07,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=qjXCp7Lw",
+        "DiffuseURL": "http://i.imgur.com/lHkBLKn.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 5
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model_Stack",
+      "Transform": {
+        "posX": 30.4462738,
+        "posY": 3.62475824,
+        "posZ": 15.814642,
+        "rotX": 1.88432224E-07,
+        "rotY": 269.974976,
+        "rotZ": 1.3696102E-07,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "Number": 3,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=t6XmcMVk",
+        "DiffuseURL": "http://i.imgur.com/lHkBLKn.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 5
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model_Stack",
+      "Transform": {
+        "posX": 30.4714661,
+        "posY": 3.62475824,
+        "posZ": 16.7714062,
+        "rotX": 9.49388948E-07,
+        "rotY": 0.0586789437,
+        "rotZ": 9.618845E-08,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "Number": 6,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=26unpnek",
+        "DiffuseURL": "http://i.imgur.com/lHkBLKn.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 5
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "DeckCustom",
+      "Transform": {
+        "posX": 21.0,
+        "posY": 1.1370908,
+        "posZ": -14.9999943,
+        "rotX": -4.808721E-06,
+        "rotY": 270.034,
+        "rotZ": 180.0,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.71325475,
+        "g": 0.71325475,
+        "b": 0.71325475
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": true,
+      "DeckIDs": [
+        1401,
+        1402,
+        1403,
+        1404,
+        1405,
+        1406,
+        1407,
+        1408,
+        1409,
+        1410,
+        1411,
+        1412,
+        1413,
+        1414,
+        1415,
+        1416,
+        1417,
+        1418,
+        1419,
+        1420,
+        1421,
+        1422,
+        1423,
+        1424
+      ],
+      "CustomDeck": {
+        "14": {
+          "FaceURL": "http://i.imgur.com/Q1r7fbt.jpg",
+          "BackURL": "http://i.imgur.com/a9QEuB7.jpg"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": 30.42262,
+        "posY": 3.70793271,
+        "posZ": -11.9599237,
+        "rotX": -0.00187603128,
+        "rotY": 90.01976,
+        "rotZ": 6.133632E-05,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713270366,
+        "g": 0.713270366,
+        "b": 0.713270366
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": true,
+      "DeckIDs": [
+        1426,
+        1425
+      ],
+      "CustomDeck": {
+        "14": {
+          "FaceURL": "http://i.imgur.com/Q1r7fbt.jpg",
+          "BackURL": "http://i.imgur.com/a9QEuB7.jpg"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": 25.9995575,
+        "posY": 1.0305016,
+        "posZ": -11.9999132,
+        "rotX": -1.087665E-06,
+        "rotY": 179.974182,
+        "rotZ": 180.0,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7133327,
+        "g": 0.7133327,
+        "b": 0.7133327
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        1205,
+        1200,
+        1207,
+        1201,
+        1202,
+        1203,
+        1204,
+        1206
+      ],
+      "CustomDeck": {
+        "12": {
+          "FaceURL": "http://i.imgur.com/l7PR3AM.jpg",
+          "BackURL": "http://i.imgur.com/kHDzYMw.jpg{Unique}"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "DeckCustom",
+      "Transform": {
+        "posX": 16.9999523,
+        "posY": 1.03050148,
+        "posZ": -14.0000916,
+        "rotX": 2.17004435E-06,
+        "rotY": 179.996246,
+        "rotZ": 180.0,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713239133,
+        "g": 0.713239133,
+        "b": 0.713239133
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        1500,
+        1501,
+        1502,
+        1503,
+        1504,
+        1505,
+        1506,
+        1507
+      ],
+      "CustomDeck": {
+        "15": {
+          "FaceURL": "http://i.imgur.com/mGlud16.jpg",
+          "BackURL": "http://i.imgur.com/Q6Vdu0F.jpg"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 30.2471066,
+        "posY": 3.68147159,
+        "posZ": -8.43592548,
+        "rotX": -2.34300316E-07,
+        "rotY": 179.989044,
+        "rotZ": -2.54435918E-07,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713246942,
+        "g": 0.713246942,
+        "b": 0.713246942
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 1508,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "15": {
+          "FaceURL": "http://i.imgur.com/mGlud16.jpg",
+          "BackURL": "http://i.imgur.com/Q6Vdu0F.jpg"
+        }
+      },
+      "GUID": ""
+    }
+  ]
+}

@@ -1,0 +1,1332 @@
+{
+  "SaveName": "Moving Marker",
+  "GameMode": "moving marker",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "9/20/2016 9:31:36 PM",
+  "Table": "Table_Hexagon",
+  "Sky": "Sky_Forest",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "",
+  "LuaScript": "--[[ Lua code. See documentation: http://berserk-games.com/knowledgebase/scripting/ --]]\n\n--[[ The OnLoad function. This is called after everything in the game save finishes loading.\nMost of your script code goes here. --]]\nfunction onload()\n    --[[ print('Onload!') --]]\nend\n\n--[[ The Update function. This is called once per frame. --]]\nfunction update ()\n    --[[ print('Update loop!') --]]\nend",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -13.6426258,
+          "posY": 3.57056212,
+          "posZ": -7.488234,
+          "rotX": 0.0,
+          "rotY": 60.0000076,
+          "rotZ": 0.0,
+          "scaleX": 10.268074,
+          "scaleY": 6.63386965,
+          "scaleZ": 4.89323664
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -13.3164635,
+          "posY": 3.5705626,
+          "posZ": 8.302236,
+          "rotX": 0.0,
+          "rotY": 119.999992,
+          "rotZ": 0.0,
+          "scaleX": 10.2680779,
+          "scaleY": 6.63386965,
+          "scaleZ": 4.89323139
+        }
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 13.5727758,
+          "posY": 3.57104039,
+          "posZ": 7.749192,
+          "rotX": 0.0,
+          "rotY": 240.000015,
+          "rotZ": 0.0,
+          "scaleX": 10.2680712,
+          "scaleY": 6.63386965,
+          "scaleZ": 4.89323044
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": -0.000214841581,
+          "posY": 3.57091355,
+          "posZ": -15.5335855,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 10.2680645,
+          "scaleY": 6.6338706,
+          "scaleZ": 4.89322853
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": 0.0015985599,
+          "posY": 3.5708015,
+          "posZ": 15.5950336,
+          "rotX": 0.0,
+          "rotY": 180.000046,
+          "rotZ": 0.0,
+          "scaleX": 10.2680645,
+          "scaleY": 6.63386965,
+          "scaleZ": 4.89322758
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 13.682024,
+          "posY": 3.5710423,
+          "posZ": -7.407869,
+          "rotX": 0.0,
+          "rotY": 300.0,
+          "rotZ": 0.0,
+          "scaleX": 10.2680635,
+          "scaleY": 6.63386965,
+          "scaleZ": 4.89322662
+        }
+      }
+    ]
+  },
+  "VectorLines": [],
+  "ObjectStates": [
+    {
+      "Name": "Chess_Pawn",
+      "Transform": {
+        "posX": -1.46277368,
+        "posY": 2.13081336,
+        "posZ": -0.06527634,
+        "rotX": 9.710305E-07,
+        "rotY": 60.0004539,
+        "rotZ": 2.22661365E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "MaterialIndex": 0,
+      "XmlUI": "",
+      "LuaScript": "--[[\r\n   moving marker\r\n   created by Rodney\r\n]]\r\n\r\n-- customize variables\r\nmarkerScale = 1\r\nmarkerColor = {1, 1, 1}\r\nmarkerRemainingTime = 1\r\n\r\nframeInterval = 0.01\r\nrotationDegreePerFrame = 1\r\n\r\n-- global variables\r\nmarkerObject = nil\r\nrotationTimerId = nil\r\nfadeOutTimerId = nil\r\n\r\nlastBottomLevel = 1.5\r\n\r\nmovingMarkerVersion = \"2016092000\"\r\n\r\n-- constants\r\nhidePosition = {0, -300, 0}\r\nhideScale = {0.1, 0.1, 0.1}\r\n\r\n-- events\r\nfunction onLoad()\r\n   initializeTimer()\r\n   createObjects()\r\nend\r\n\r\nfunction onDestroy()\r\n   removeTimers()\r\n   deleteObjects()\r\nend\r\n\r\nfunction onCollisionEnter(info)\r\n   updateBottomLevel(info.contact_points)\r\nend\r\n\r\nfunction onPickedUp(color)\r\n   removeTimers()\r\n   setMarker()\r\nend\r\n\r\nfunction onDropped()\r\n   fadeOutMarker()\r\nend\r\n\r\n-- internal functions\r\n\r\nfunction createObjects()\r\n   markerObject = spawnObject({\r\n         type = \"Custom_Model\",\r\n         position = hidePosition,\r\n         rotation = {0, 0, 0},\r\n         scale = hideScale\r\n   })\r\n\r\n   markerObject.setCustomObject({\r\n         type = \"Generic\",\r\n         mesh = \"http://pastebin.com/raw/RBUFj0HE\",\r\n         collider = \"http://pastebin.com/raw/bUwzJeWz\"\r\n   })\r\n   \r\n   markerObject.setColorTint(markerColor)\r\n   markerObject.interactable = false\r\n   markerObject.lock()\r\nend\r\n\r\nfunction deleteObjects()\r\n   markerObject.destruct()\r\nend\r\n\r\nfunction updateBottomLevel(points)\r\n   local updated = false\r\n   local currentBottomLevel = self.getPosition().y\r\n\r\n   for i, v in ipairs(points) do\r\n      if v[2] < currentBottomLevel then\r\n         updated = true\r\n         currentBottomLevel = v[2]\r\n      end\r\n   end\r\n\r\n   if updated then\r\n      lastBottomLevel = currentBottomLevel\r\n   end\r\nend   \r\n\r\nfunction setMarker()\r\n   local pos = self.getPosition()\r\n   local scale = self.getScale()\r\n\r\n   markerObject.setPosition({pos.x, lastBottomLevel + 0.2, pos.z})\r\n   markerObject.setScale({scale.x * markerScale, 10, scale.z * markerScale})\r\n   \r\n   if frameInterval <= 0 then\r\n      frameInterval = 0.1\r\n   end\r\n\r\n   Timer.create({\r\n         identifier = rotationTimerId,\r\n         function_name = \"rotateMarker\",\r\n         function_owner = self,\r\n         parameters = {\r\n            degree = rotationDegreePerFrame\r\n         },\r\n         delay = frameInterval,\r\n         repetitions = 0\r\n   })\r\nend\r\n\r\nfunction rotateMarker(param)\r\n   markerObject.setRotation({0, markerObject.getRotation().y + param.degree, 0})\r\nend\r\n\r\nfunction fadeOutMarker()\r\n   if markerRemainingTime <= 0 then\r\n      markerRemainingTime = 0.1\r\n   end\r\n\r\n   Timer.create({\r\n         identifier = fadeOutTimerId,\r\n         function_name = \"hideMarker\",\r\n         function_owner = self,\r\n         delay = markerRemainingTime,\r\n   })\r\nend\r\n\r\nfunction hideMarker()\r\n   Timer.destroy(rotationTimerId)\r\n   markerObject.setPosition(hidePosition)\r\n   markerObject.setScale(hideScale)\r\nend\r\n\r\nfunction initializeTimer()\r\n   -- workaround for guid/copy&paste bug.\r\n   -- join random id to guid.\r\n   rotationTimerId = self.guid .. \"_\" .. getUniqueID() ..  \"__fadeOut__\"\r\n   fadeOutTimerId = self.guid .. \"_\" .. getUniqueID() ..  \"__rotation__\"\r\n\r\n   removeTimers()\r\nend   \r\n\r\nfunction getUniqueID()\r\n   return string.format(\"%s-%s\", os.date(\"%Y%m%d%H%M%S\"), math.random(100))\r\nend\r\n\r\nfunction removeTimers()\r\n   Timer.destroy(rotationTimerId)\r\n   Timer.destroy(fadeOutTimerId)\r\nend\r\n\r\n",
+      "LuaScriptState": "",
+      "GUID": "7609e7"
+    },
+    {
+      "Name": "Figurine_Knil",
+      "Transform": {
+        "posX": 1.85851371,
+        "posY": 0.9776448,
+        "posZ": -0.392438233,
+        "rotX": -1.42402723E-05,
+        "rotY": 255.019211,
+        "rotZ": -9.31629E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.367647022,
+        "g": 0.367647022,
+        "b": 0.367647022
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "--[[\r\n   moving marker\r\n   created by Rodney\r\n]]\r\n\r\n-- customize variables\r\nmarkerScale = 1\r\nmarkerColor = {1, 1, 1}\r\nmarkerRemainingTime = 1\r\n\r\nframeInterval = 0.01\r\nrotationDegreePerFrame = 1\r\n\r\n-- global variables\r\nmarkerObject = nil\r\nrotationTimerId = nil\r\nfadeOutTimerId = nil\r\n\r\nlastBottomLevel = 1.5\r\n\r\nmovingMarkerVersion = \"2016092000\"\r\n\r\n-- constants\r\nhidePosition = {0, -300, 0}\r\nhideScale = {0.1, 0.1, 0.1}\r\n\r\n-- events\r\nfunction onLoad()\r\n   initializeTimer()\r\n   createObjects()\r\nend\r\n\r\nfunction onDestroy()\r\n   removeTimers()\r\n   deleteObjects()\r\nend\r\n\r\nfunction onCollisionEnter(info)\r\n   updateBottomLevel(info.contact_points)\r\nend\r\n\r\nfunction onPickedUp(color)\r\n   removeTimers()\r\n   setMarker()\r\nend\r\n\r\nfunction onDropped()\r\n   fadeOutMarker()\r\nend\r\n\r\n-- internal functions\r\n\r\nfunction createObjects()\r\n   markerObject = spawnObject({\r\n         type = \"Custom_Model\",\r\n         position = hidePosition,\r\n         rotation = {0, 0, 0},\r\n         scale = hideScale\r\n   })\r\n\r\n   markerObject.setCustomObject({\r\n         type = \"Generic\",\r\n         mesh = \"http://pastebin.com/raw/RBUFj0HE\",\r\n         collider = \"http://pastebin.com/raw/bUwzJeWz\"\r\n   })\r\n   \r\n   markerObject.setColorTint(markerColor)\r\n   markerObject.interactable = false\r\n   markerObject.lock()\r\nend\r\n\r\nfunction deleteObjects()\r\n   markerObject.destruct()\r\nend\r\n\r\nfunction updateBottomLevel(points)\r\n   local updated = false\r\n   local currentBottomLevel = self.getPosition().y\r\n\r\n   for i, v in ipairs(points) do\r\n      if v[2] < currentBottomLevel then\r\n         updated = true\r\n         currentBottomLevel = v[2]\r\n      end\r\n   end\r\n\r\n   if updated then\r\n      lastBottomLevel = currentBottomLevel\r\n   end\r\nend   \r\n\r\nfunction setMarker()\r\n   local pos = self.getPosition()\r\n   local scale = self.getScale()\r\n\r\n   markerObject.setPosition({pos.x, lastBottomLevel + 0.2, pos.z})\r\n   markerObject.setScale({scale.x * markerScale, 10, scale.z * markerScale})\r\n   \r\n   if frameInterval <= 0 then\r\n      frameInterval = 0.1\r\n   end\r\n\r\n   Timer.create({\r\n         identifier = rotationTimerId,\r\n         function_name = \"rotateMarker\",\r\n         function_owner = self,\r\n         parameters = {\r\n            degree = rotationDegreePerFrame\r\n         },\r\n         delay = frameInterval,\r\n         repetitions = 0\r\n   })\r\nend\r\n\r\nfunction rotateMarker(param)\r\n   markerObject.setRotation({0, markerObject.getRotation().y + param.degree, 0})\r\nend\r\n\r\nfunction fadeOutMarker()\r\n   if markerRemainingTime <= 0 then\r\n      markerRemainingTime = 0.1\r\n   end\r\n\r\n   Timer.create({\r\n         identifier = fadeOutTimerId,\r\n         function_name = \"hideMarker\",\r\n         function_owner = self,\r\n         delay = markerRemainingTime,\r\n   })\r\nend\r\n\r\nfunction hideMarker()\r\n   Timer.destroy(rotationTimerId)\r\n   markerObject.setPosition(hidePosition)\r\n   markerObject.setScale(hideScale)\r\nend\r\n\r\nfunction initializeTimer()\r\n   -- workaround for guid/copy&paste bug.\r\n   -- join random id to guid.\r\n   rotationTimerId = self.guid .. \"_\" .. getUniqueID() ..  \"__fadeOut__\"\r\n   fadeOutTimerId = self.guid .. \"_\" .. getUniqueID() ..  \"__rotation__\"\r\n\r\n   removeTimers()\r\nend   \r\n\r\nfunction getUniqueID()\r\n   return string.format(\"%s-%s\", os.date(\"%Y%m%d%H%M%S\"), math.random(100))\r\nend\r\n\r\nfunction removeTimers()\r\n   Timer.destroy(rotationTimerId)\r\n   Timer.destroy(fadeOutTimerId)\r\nend\r\n\r\n",
+      "LuaScriptState": "",
+      "GUID": "f8cef6"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -3.50938,
+        "posY": 1.46000087,
+        "posZ": -0.182192117,
+        "rotX": -2.33333758E-05,
+        "rotY": 225.014191,
+        "rotZ": 179.999985,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "--[[\r\n   moving marker\r\n   created by Rodney\r\n]]\r\n\r\n-- customize variables\r\nmarkerScale = 1\r\nmarkerColor = {1, 1, 1}\r\nmarkerRemainingTime = 1\r\n\r\nframeInterval = 0.01\r\nrotationDegreePerFrame = 1\r\n\r\n-- global variables\r\nmarkerObject = nil\r\nrotationTimerId = nil\r\nfadeOutTimerId = nil\r\n\r\nlastBottomLevel = 1.5\r\n\r\nmovingMarkerVersion = \"2016092000\"\r\n\r\n-- constants\r\nhidePosition = {0, -300, 0}\r\nhideScale = {0.1, 0.1, 0.1}\r\n\r\n-- events\r\nfunction onLoad()\r\n   initializeTimer()\r\n   createObjects()\r\nend\r\n\r\nfunction onDestroy()\r\n   removeTimers()\r\n   deleteObjects()\r\nend\r\n\r\nfunction onCollisionEnter(info)\r\n   updateBottomLevel(info.contact_points)\r\nend\r\n\r\nfunction onPickedUp(color)\r\n   removeTimers()\r\n   setMarker()\r\nend\r\n\r\nfunction onDropped()\r\n   fadeOutMarker()\r\nend\r\n\r\n-- internal functions\r\n\r\nfunction createObjects()\r\n   markerObject = spawnObject({\r\n         type = \"Custom_Model\",\r\n         position = hidePosition,\r\n         rotation = {0, 0, 0},\r\n         scale = hideScale\r\n   })\r\n\r\n   markerObject.setCustomObject({\r\n         type = \"Generic\",\r\n         mesh = \"http://pastebin.com/raw/RBUFj0HE\",\r\n         collider = \"http://pastebin.com/raw/bUwzJeWz\"\r\n   })\r\n   \r\n   markerObject.setColorTint(markerColor)\r\n   markerObject.interactable = false\r\n   markerObject.lock()\r\nend\r\n\r\nfunction deleteObjects()\r\n   markerObject.destruct()\r\nend\r\n\r\nfunction updateBottomLevel(points)\r\n   local updated = false\r\n   local currentBottomLevel = self.getPosition().y\r\n\r\n   for i, v in ipairs(points) do\r\n      if v[2] < currentBottomLevel then\r\n         updated = true\r\n         currentBottomLevel = v[2]\r\n      end\r\n   end\r\n\r\n   if updated then\r\n      lastBottomLevel = currentBottomLevel\r\n   end\r\nend   \r\n\r\nfunction setMarker()\r\n   local pos = self.getPosition()\r\n   local scale = self.getScale()\r\n\r\n   markerObject.setPosition({pos.x, lastBottomLevel + 0.2, pos.z})\r\n   markerObject.setScale({scale.x * markerScale, 10, scale.z * markerScale})\r\n   \r\n   if frameInterval <= 0 then\r\n      frameInterval = 0.1\r\n   end\r\n\r\n   Timer.create({\r\n         identifier = rotationTimerId,\r\n         function_name = \"rotateMarker\",\r\n         function_owner = self,\r\n         parameters = {\r\n            degree = rotationDegreePerFrame\r\n         },\r\n         delay = frameInterval,\r\n         repetitions = 0\r\n   })\r\nend\r\n\r\nfunction rotateMarker(param)\r\n   markerObject.setRotation({0, markerObject.getRotation().y + param.degree, 0})\r\nend\r\n\r\nfunction fadeOutMarker()\r\n   if markerRemainingTime <= 0 then\r\n      markerRemainingTime = 0.1\r\n   end\r\n\r\n   Timer.create({\r\n         identifier = fadeOutTimerId,\r\n         function_name = \"hideMarker\",\r\n         function_owner = self,\r\n         delay = markerRemainingTime,\r\n   })\r\nend\r\n\r\nfunction hideMarker()\r\n   Timer.destroy(rotationTimerId)\r\n   markerObject.setPosition(hidePosition)\r\n   markerObject.setScale(hideScale)\r\nend\r\n\r\nfunction initializeTimer()\r\n   -- workaround for guid/copy&paste bug.\r\n   -- join random id to guid.\r\n   rotationTimerId = self.guid .. \"_\" .. getUniqueID() ..  \"__fadeOut__\"\r\n   fadeOutTimerId = self.guid .. \"_\" .. getUniqueID() ..  \"__rotation__\"\r\n\r\n   removeTimers()\r\nend   \r\n\r\nfunction getUniqueID()\r\n   return string.format(\"%s-%s\", os.date(\"%Y%m%d%H%M%S\"), math.random(100))\r\nend\r\n\r\nfunction removeTimers()\r\n   Timer.destroy(rotationTimerId)\r\n   Timer.destroy(fadeOutTimerId)\r\nend\r\n\r\n",
+      "LuaScriptState": "",
+      "GUID": "047bc4"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 0.10397733,
+        "posY": 0.961833239,
+        "posZ": -0.0751426741,
+        "rotX": -1.1928335E-05,
+        "rotY": 209.99826,
+        "rotZ": -2.07732069E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.8602941,
+        "g": 0.8602941,
+        "b": 0.8602941
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "MaterialIndex": 0,
+      "XmlUI": "",
+      "LuaScript": "--[[\r\n   moving marker\r\n   created by Rodney\r\n]]\r\n\r\n-- customize variables\r\nmarkerScale = 0.4\r\nmarkerColor = {1, 1, 1}\r\nmarkerRemainingTime = 1\r\n\r\nframeInterval = 0.01\r\nrotationDegreePerFrame = 1\r\n\r\n-- global variables\r\nmarkerObject = nil\r\nrotationTimerId = nil\r\nfadeOutTimerId = nil\r\n\r\nlastBottomLevel = 1.5\r\n\r\nmovingMarkerVersion = \"2016092000\"\r\n\r\n-- constants\r\nhidePosition = {0, -300, 0}\r\nhideScale = {0.1, 0.1, 0.1}\r\n\r\n-- events\r\nfunction onLoad()\r\n   initializeTimer()\r\n   createObjects()\r\nend\r\n\r\nfunction onDestroy()\r\n   removeTimers()\r\n   deleteObjects()\r\nend\r\n\r\nfunction onCollisionEnter(info)\r\n   updateBottomLevel(info.contact_points)\r\nend\r\n\r\nfunction onPickedUp(color)\r\n   removeTimers()\r\n   setMarker()\r\nend\r\n\r\nfunction onDropped()\r\n   fadeOutMarker()\r\nend\r\n\r\n-- internal functions\r\n\r\nfunction createObjects()\r\n   markerObject = spawnObject({\r\n         type = \"Custom_Model\",\r\n         position = hidePosition,\r\n         rotation = {0, 0, 0},\r\n         scale = hideScale\r\n   })\r\n\r\n   markerObject.setCustomObject({\r\n         type = \"Generic\",\r\n         mesh = \"http://pastebin.com/raw/RBUFj0HE\",\r\n         collider = \"http://pastebin.com/raw/bUwzJeWz\"\r\n   })\r\n   \r\n   markerObject.setColorTint(markerColor)\r\n   markerObject.interactable = false\r\n   markerObject.lock()\r\nend\r\n\r\nfunction deleteObjects()\r\n   markerObject.destruct()\r\nend\r\n\r\nfunction updateBottomLevel(points)\r\n   local updated = false\r\n   local currentBottomLevel = self.getPosition().y\r\n\r\n   for i, v in ipairs(points) do\r\n      if v[2] < currentBottomLevel then\r\n         updated = true\r\n         currentBottomLevel = v[2]\r\n      end\r\n   end\r\n\r\n   if updated then\r\n      lastBottomLevel = currentBottomLevel\r\n   end\r\nend   \r\n\r\nfunction setMarker()\r\n   local pos = self.getPosition()\r\n   local scale = self.getScale()\r\n\r\n   markerObject.setPosition({pos.x, lastBottomLevel + 0.2, pos.z})\r\n   markerObject.setScale({scale.x * markerScale, 10, scale.z * markerScale})\r\n   \r\n   if frameInterval <= 0 then\r\n      frameInterval = 0.1\r\n   end\r\n\r\n   Timer.create({\r\n         identifier = rotationTimerId,\r\n         function_name = \"rotateMarker\",\r\n         function_owner = self,\r\n         parameters = {\r\n            degree = rotationDegreePerFrame\r\n         },\r\n         delay = frameInterval,\r\n         repetitions = 0\r\n   })\r\nend\r\n\r\nfunction rotateMarker(param)\r\n   markerObject.setRotation({0, markerObject.getRotation().y + param.degree, 0})\r\nend\r\n\r\nfunction fadeOutMarker()\r\n   if markerRemainingTime <= 0 then\r\n      markerRemainingTime = 0.1\r\n   end\r\n\r\n   Timer.create({\r\n         identifier = fadeOutTimerId,\r\n         function_name = \"hideMarker\",\r\n         function_owner = self,\r\n         delay = markerRemainingTime,\r\n   })\r\nend\r\n\r\nfunction hideMarker()\r\n   Timer.destroy(rotationTimerId)\r\n   markerObject.setPosition(hidePosition)\r\n   markerObject.setScale(hideScale)\r\nend\r\n\r\nfunction initializeTimer()\r\n   -- workaround for guid/copy&paste bug.\r\n   -- join random id to guid.\r\n   rotationTimerId = self.guid .. \"_\" .. getUniqueID() ..  \"__fadeOut__\"\r\n   fadeOutTimerId = self.guid .. \"_\" .. getUniqueID() ..  \"__rotation__\"\r\n\r\n   removeTimers()\r\nend   \r\n\r\nfunction getUniqueID()\r\n   return string.format(\"%s-%s\", os.date(\"%Y%m%d%H%M%S\"), math.random(100))\r\nend\r\n\r\nfunction removeTimers()\r\n   Timer.destroy(rotationTimerId)\r\n   Timer.destroy(fadeOutTimerId)\r\nend\r\n\r\n",
+      "LuaScriptState": "",
+      "GUID": "b28e1f"
+    },
+    {
+      "Name": "backgammon_piece_brown",
+      "Transform": {
+        "posX": 3.67781925,
+        "posY": 1.07525086,
+        "posZ": -0.428132385,
+        "rotX": 1.56571343E-06,
+        "rotY": -0.0008251155,
+        "rotZ": -3.57122735E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 0.5706223,
+        "b": 0.0149567118
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "--[[\r\n   moving marker\r\n   created by Rodney\r\n]]\r\n\r\n-- customize variables\r\nmarkerScale = 0.5\r\nmarkerColor = {1, 1, 1}\r\nmarkerRemainingTime = 1\r\n\r\nframeInterval = 0.01\r\nrotationDegreePerFrame = 1\r\n\r\n-- global variables\r\nmarkerObject = nil\r\nrotationTimerId = nil\r\nfadeOutTimerId = nil\r\n\r\nlastBottomLevel = 1.5\r\n\r\nmovingMarkerVersion = \"2016092000\"\r\n\r\n-- constants\r\nhidePosition = {0, -300, 0}\r\nhideScale = {0.1, 0.1, 0.1}\r\n\r\n-- events\r\nfunction onLoad()\r\n   initializeTimer()\r\n   createObjects()\r\nend\r\n\r\nfunction onDestroy()\r\n   removeTimers()\r\n   deleteObjects()\r\nend\r\n\r\nfunction onCollisionEnter(info)\r\n   updateBottomLevel(info.contact_points)\r\nend\r\n\r\nfunction onPickedUp(color)\r\n   removeTimers()\r\n   setMarker()\r\nend\r\n\r\nfunction onDropped()\r\n   fadeOutMarker()\r\nend\r\n\r\n-- internal functions\r\n\r\nfunction createObjects()\r\n   markerObject = spawnObject({\r\n         type = \"Custom_Model\",\r\n         position = hidePosition,\r\n         rotation = {0, 0, 0},\r\n         scale = hideScale\r\n   })\r\n\r\n   markerObject.setCustomObject({\r\n         type = \"Generic\",\r\n         mesh = \"http://pastebin.com/raw/RBUFj0HE\",\r\n         collider = \"http://pastebin.com/raw/bUwzJeWz\"\r\n   })\r\n   \r\n   markerObject.setColorTint(markerColor)\r\n   markerObject.interactable = false\r\n   markerObject.lock()\r\nend\r\n\r\nfunction deleteObjects()\r\n   markerObject.destruct()\r\nend\r\n\r\nfunction updateBottomLevel(points)\r\n   local updated = false\r\n   local currentBottomLevel = self.getPosition().y\r\n\r\n   for i, v in ipairs(points) do\r\n      if v[2] < currentBottomLevel then\r\n         updated = true\r\n         currentBottomLevel = v[2]\r\n      end\r\n   end\r\n\r\n   if updated then\r\n      lastBottomLevel = currentBottomLevel\r\n   end\r\nend   \r\n\r\nfunction setMarker()\r\n   local pos = self.getPosition()\r\n   local scale = self.getScale()\r\n\r\n   markerObject.setPosition({pos.x, lastBottomLevel + 0.2, pos.z})\r\n   markerObject.setScale({scale.x * markerScale, 10, scale.z * markerScale})\r\n   \r\n   if frameInterval <= 0 then\r\n      frameInterval = 0.1\r\n   end\r\n\r\n   Timer.create({\r\n         identifier = rotationTimerId,\r\n         function_name = \"rotateMarker\",\r\n         function_owner = self,\r\n         parameters = {\r\n            degree = rotationDegreePerFrame\r\n         },\r\n         delay = frameInterval,\r\n         repetitions = 0\r\n   })\r\nend\r\n\r\nfunction rotateMarker(param)\r\n   markerObject.setRotation({0, markerObject.getRotation().y + param.degree, 0})\r\nend\r\n\r\nfunction fadeOutMarker()\r\n   if markerRemainingTime <= 0 then\r\n      markerRemainingTime = 0.1\r\n   end\r\n\r\n   Timer.create({\r\n         identifier = fadeOutTimerId,\r\n         function_name = \"hideMarker\",\r\n         function_owner = self,\r\n         delay = markerRemainingTime,\r\n   })\r\nend\r\n\r\nfunction hideMarker()\r\n   Timer.destroy(rotationTimerId)\r\n   markerObject.setPosition(hidePosition)\r\n   markerObject.setScale(hideScale)\r\nend\r\n\r\nfunction initializeTimer()\r\n   -- workaround for guid/copy&paste bug.\r\n   -- join random id to guid.\r\n   rotationTimerId = self.guid .. \"_\" .. getUniqueID() ..  \"__fadeOut__\"\r\n   fadeOutTimerId = self.guid .. \"_\" .. getUniqueID() ..  \"__rotation__\"\r\n\r\n   removeTimers()\r\nend   \r\n\r\nfunction getUniqueID()\r\n   return string.format(\"%s-%s\", os.date(\"%Y%m%d%H%M%S\"), math.random(100))\r\nend\r\n\r\nfunction removeTimers()\r\n   Timer.destroy(rotationTimerId)\r\n   Timer.destroy(fadeOutTimerId)\r\nend\r\n\r\n",
+      "LuaScriptState": "",
+      "GUID": "fcda0e"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -300.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 214.0018,
+        "rotZ": 0.0,
+        "scaleX": 0.1,
+        "scaleY": 0.1,
+        "scaleZ": 0.1
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw/RBUFj0HE",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw/bUwzJeWz",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.5,
+          "SpecularSharpness": 7.0,
+          "FresnelStrength": 0.4
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "5e8d11"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -300.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 185.001373,
+        "rotZ": 0.0,
+        "scaleX": 0.1,
+        "scaleY": 0.1,
+        "scaleZ": 0.1
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw/RBUFj0HE",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw/bUwzJeWz",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.5,
+          "SpecularSharpness": 7.0,
+          "FresnelStrength": 0.4
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "b5f2d0"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -300.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 301.0034,
+        "rotZ": 0.0,
+        "scaleX": 0.1,
+        "scaleY": 0.1,
+        "scaleZ": 0.1
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw/RBUFj0HE",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw/bUwzJeWz",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.5,
+          "SpecularSharpness": 7.0,
+          "FresnelStrength": 0.4
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "495b45"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -300.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 243.010162,
+        "rotZ": 0.0,
+        "scaleX": 0.1,
+        "scaleY": 0.1,
+        "scaleZ": 0.1
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw/RBUFj0HE",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw/bUwzJeWz",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.5,
+          "SpecularSharpness": 7.0,
+          "FresnelStrength": 0.4
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "e2b4c2"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -300.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 291.002228,
+        "rotZ": 0.0,
+        "scaleX": 0.1,
+        "scaleY": 0.1,
+        "scaleZ": 0.1
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw/RBUFj0HE",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw/bUwzJeWz",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.5,
+          "SpecularSharpness": 7.0,
+          "FresnelStrength": 0.4
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "722b5f"
+    },
+    {
+      "Name": "3DText",
+      "Transform": {
+        "posX": -0.0201558713,
+        "posY": 0.961135,
+        "posZ": -1.257553,
+        "rotX": 90.0,
+        "rotY": 6.207823E-09,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Text": {
+        "Text": "Move them.",
+        "colorstate": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "fontSize": 64
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "d12532"
+    },
+    {
+      "Name": "3DText",
+      "Transform": {
+        "posX": -0.1522553,
+        "posY": 0.961135,
+        "posZ": -4.432884,
+        "rotX": 90.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Text": {
+        "Text": "If you want to use your own game,\n\ncopy item's script into yours.",
+        "colorstate": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "fontSize": 64
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "dd05eb"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -300.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.1,
+        "scaleY": 0.1,
+        "scaleZ": 0.1
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw/RBUFj0HE",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw/bUwzJeWz",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.5,
+          "SpecularSharpness": 7.0,
+          "FresnelStrength": 0.4
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "0dc2a6"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -300.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.1,
+        "scaleY": 0.1,
+        "scaleZ": 0.1
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw/RBUFj0HE",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw/bUwzJeWz",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.5,
+          "SpecularSharpness": 7.0,
+          "FresnelStrength": 0.4
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "9f7263"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -300.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.1,
+        "scaleY": 0.1,
+        "scaleZ": 0.1
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw/RBUFj0HE",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw/bUwzJeWz",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.5,
+          "SpecularSharpness": 7.0,
+          "FresnelStrength": 0.4
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "ae44ca"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -300.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.1,
+        "scaleY": 0.1,
+        "scaleZ": 0.1
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw/RBUFj0HE",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw/bUwzJeWz",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.5,
+          "SpecularSharpness": 7.0,
+          "FresnelStrength": 0.4
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "5f8b98"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -300.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.1,
+        "scaleY": 0.1,
+        "scaleZ": 0.1
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw/RBUFj0HE",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw/bUwzJeWz",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.5,
+          "SpecularSharpness": 7.0,
+          "FresnelStrength": 0.4
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "d4978c"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -300.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.1,
+        "scaleY": 0.1,
+        "scaleZ": 0.1
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw/RBUFj0HE",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw/bUwzJeWz",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.5,
+          "SpecularSharpness": 7.0,
+          "FresnelStrength": 0.4
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "f9d34c"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -300.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.1,
+        "scaleY": 0.1,
+        "scaleZ": 0.1
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw/RBUFj0HE",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw/bUwzJeWz",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.5,
+          "SpecularSharpness": 7.0,
+          "FresnelStrength": 0.4
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "f7d472"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -300.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.1,
+        "scaleY": 0.1,
+        "scaleZ": 0.1
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw/RBUFj0HE",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw/bUwzJeWz",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.5,
+          "SpecularSharpness": 7.0,
+          "FresnelStrength": 0.4
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "074960"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -300.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.1,
+        "scaleY": 0.1,
+        "scaleZ": 0.1
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw/RBUFj0HE",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw/bUwzJeWz",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.5,
+          "SpecularSharpness": 7.0,
+          "FresnelStrength": 0.4
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "a768bf"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -300.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.1,
+        "scaleY": 0.1,
+        "scaleZ": 0.1
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw/RBUFj0HE",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw/bUwzJeWz",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.5,
+          "SpecularSharpness": 7.0,
+          "FresnelStrength": 0.4
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "1fa937"
+    }
+  ],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": ""
+}

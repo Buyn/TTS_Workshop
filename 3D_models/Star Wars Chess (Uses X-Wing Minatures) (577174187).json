@@ -1,0 +1,1436 @@
+{
+  "SaveName": "Star Wars Chess (Uses X-Wing Minatures)",
+  "GameMode": "Chess",
+  "Date": "12/16/2015 9:03:17 PM",
+  "Table": "Table_RPG",
+  "Sky": "Sky_Downtown",
+  "Note": "",
+  "Rules": "",
+  "PlayerTurn": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hidding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -15.1107731,
+          "posY": 4.81034231,
+          "posZ": -20.1076221,
+          "rotX": 7.352425E-10,
+          "rotY": 1.4399516E-09,
+          "rotZ": -4.56778559E-10,
+          "scaleX": 11.771986,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87123871
+        },
+        "GameMaster": false
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -30.2150211,
+          "posY": 4.81034231,
+          "posZ": 10.17524,
+          "rotX": 4.56778448E-10,
+          "rotY": 90.00003,
+          "rotZ": 7.35242645E-10,
+          "scaleX": 11.6554251,
+          "scaleY": 9.174497,
+          "scaleZ": 4.91995
+        },
+        "GameMaster": false
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 30.2511711,
+          "posY": 4.81034231,
+          "posZ": 9.59069252,
+          "rotX": -4.56778754E-10,
+          "rotY": 270.0,
+          "rotZ": -7.35242645E-10,
+          "scaleX": 11.6554193,
+          "scaleY": 9.174497,
+          "scaleZ": 4.919951
+        },
+        "GameMaster": false
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 15.4749184,
+          "posY": 4.81034231,
+          "posZ": 19.8365288,
+          "rotX": -7.33643646E-10,
+          "rotY": 179.8,
+          "rotZ": 4.59342259E-10,
+          "scaleX": 11.7719727,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87123775
+        },
+        "GameMaster": false
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 15.1961212,
+          "posY": 4.81034231,
+          "posZ": -20.1400986,
+          "rotX": 7.352425E-10,
+          "rotY": 1.4399516E-09,
+          "rotZ": -4.56778559E-10,
+          "scaleX": 11.7719679,
+          "scaleY": 9.17449951,
+          "scaleZ": 4.87123871
+        },
+        "GameMaster": false
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": -15.1927719,
+          "posY": 4.81034231,
+          "posZ": 19.787817,
+          "rotX": -7.35242645E-10,
+          "rotY": 180.000046,
+          "rotZ": 4.56778337E-10,
+          "scaleX": 11.7719679,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87123871
+        },
+        "GameMaster": false
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 30.1035728,
+          "posY": 4.81034231,
+          "posZ": -8.449126,
+          "rotX": -4.56778754E-10,
+          "rotY": 270.0,
+          "rotZ": -7.35242645E-10,
+          "scaleX": 11.6554174,
+          "scaleY": 9.174497,
+          "scaleZ": 4.919951
+        },
+        "GameMaster": false
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -30.247818,
+          "posY": 4.81034231,
+          "posZ": -8.822588,
+          "rotX": 4.56778448E-10,
+          "rotY": 90.00003,
+          "rotZ": 7.35242645E-10,
+          "scaleX": 11.65543,
+          "scaleY": 9.174497,
+          "scaleZ": 4.91995
+        },
+        "GameMaster": false
+      }
+    ]
+  },
+  "DrawImage": "iVBORw0KGgoAAAANSUhEUgAAAWAAAADQCAYAAAA53LuNAAAFFElEQVR4Ae3QgQAAAADDoPlTH+SFUGHAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgy8DQx5DAABHyNK3wAAAABJRU5ErkJggg==",
+  "VectorLines": [],
+  "ObjectStates": [
+    {
+      "Name": "Chess_Board",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 1.6,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "GUID": "8d2964"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -5.97564173,
+        "posY": 1.6876601,
+        "posZ": 4.11746359,
+        "rotX": 2.33851842E-05,
+        "rotY": 359.955383,
+        "rotZ": 1.80405113E-05,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Academy Pilot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921719,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/Yz0kt",
+        "DiffuseURL": "http://www.fotos-hochladen.net/uploads/academytexvu7s0tawg6.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/gS1Nn",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "cf175b"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -4.27590942,
+        "posY": 1.6876601,
+        "posZ": 4.116533,
+        "rotX": 1.48014242E-05,
+        "rotY": 359.955444,
+        "rotZ": 1.29821165E-05,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Academy Pilot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921722,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/Yz0kt",
+        "DiffuseURL": "http://www.fotos-hochladen.net/uploads/academytexvu7s0tawg6.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/gS1Nn",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "23f7ec"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -2.57552624,
+        "posY": 1.6876601,
+        "posZ": 4.117396,
+        "rotX": 4.48117362E-06,
+        "rotY": 359.955383,
+        "rotZ": 1.03370367E-05,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Academy Pilot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921722,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/Yz0kt",
+        "DiffuseURL": "http://www.fotos-hochladen.net/uploads/academytexvu7s0tawg6.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/gS1Nn",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "efc9a8"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -0.875527,
+        "posY": 1.6876601,
+        "posZ": 4.117396,
+        "rotX": 1.19154829E-05,
+        "rotY": 359.955383,
+        "rotZ": 9.54266852E-06,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Academy Pilot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921722,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/Yz0kt",
+        "DiffuseURL": "http://www.fotos-hochladen.net/uploads/academytexvu7s0tawg6.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/gS1Nn",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "cb43c8"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.8244702,
+        "posY": 1.6876601,
+        "posZ": 4.117393,
+        "rotX": 2.186439E-05,
+        "rotY": 359.954956,
+        "rotZ": 1.62018951E-05,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Academy Pilot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921722,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/Yz0kt",
+        "DiffuseURL": "http://www.fotos-hochladen.net/uploads/academytexvu7s0tawg6.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/gS1Nn",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "cc736d"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 2.52447,
+        "posY": 1.6876601,
+        "posZ": 4.117393,
+        "rotX": 2.141382E-05,
+        "rotY": 359.954956,
+        "rotZ": 1.27829253E-05,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Academy Pilot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921722,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/Yz0kt",
+        "DiffuseURL": "http://www.fotos-hochladen.net/uploads/academytexvu7s0tawg6.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/gS1Nn",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "0c1dea"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 4.224469,
+        "posY": 1.6876601,
+        "posZ": 4.11739445,
+        "rotX": 3.73344847E-06,
+        "rotY": 359.954956,
+        "rotZ": 9.529198E-06,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Academy Pilot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921722,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/Yz0kt",
+        "DiffuseURL": "http://www.fotos-hochladen.net/uploads/academytexvu7s0tawg6.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/gS1Nn",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "0318c2"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 5.924467,
+        "posY": 1.6876601,
+        "posZ": 4.11739826,
+        "rotX": 5.94383073E-06,
+        "rotY": 359.955353,
+        "rotZ": 2.26129123E-05,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Academy Pilot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921722,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/Yz0kt",
+        "DiffuseURL": "http://www.fotos-hochladen.net/uploads/academytexvu7s0tawg6.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/gS1Nn",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "216c24"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.8499823,
+        "posY": 1.68766,
+        "posZ": 5.949981,
+        "rotX": -2.31746967E-07,
+        "rotY": 0.135769948,
+        "rotZ": 1.095886E-07,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Darth Vader",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921661,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/NeptF",
+        "DiffuseURL": "http://i.imgur.com/3lj7ikx.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/VAYqd",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "e273ac"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 2.54999614,
+        "posY": 1.68765962,
+        "posZ": 5.95000029,
+        "rotX": -4.27005546E-07,
+        "rotY": 359.980225,
+        "rotZ": 2.6515832E-07,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Soontir Fel",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921715,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/Ldyhu",
+        "DiffuseURL": "http://www.fotos-hochladen.net/uploads/soontirtexprzq0twfiv.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/A0DZB",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "0cb899"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -2.54990816,
+        "posY": 1.6876595,
+        "posZ": 5.949914,
+        "rotX": 1.45009972E-05,
+        "rotY": 359.973541,
+        "rotZ": -5.77346837E-05,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Soontir Fel",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992171764,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/Ldyhu",
+        "DiffuseURL": "http://www.fotos-hochladen.net/uploads/soontirtexprzq0twfiv.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/A0DZB",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "2ca476"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 5.949999,
+        "posY": 1.68765986,
+        "posZ": 5.949999,
+        "rotX": 6.40337248E-07,
+        "rotY": -0.000664982363,
+        "rotZ": 1.55446151E-06,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Scimitar Sq. Pilot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921719,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/5A0YG",
+        "DiffuseURL": "http://www.fotos-hochladen.net/uploads/scimitartex3p5kq9a8hr.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/y0iHE",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "e02fc6"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -5.950001,
+        "posY": 1.68765986,
+        "posZ": 5.949999,
+        "rotX": 2.34786567E-05,
+        "rotY": -0.000669268251,
+        "rotZ": -1.96715464E-05,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Scimitar Sq. Pilot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921722,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/5A0YG",
+        "DiffuseURL": "http://www.fotos-hochladen.net/uploads/scimitartex3p5kq9a8hr.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/y0iHE",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "e44155"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -0.8500004,
+        "posY": 1.68766,
+        "posZ": 5.949999,
+        "rotX": -2.729389E-07,
+        "rotY": -0.005540026,
+        "rotZ": -2.86981333E-07,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Delta Squadron Pilot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992168665,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/tIm5S",
+        "DiffuseURL": "http://i.imgur.com/0u5rtnX.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/6jn13",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "beb37a"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 4.249996,
+        "posY": 1.6876601,
+        "posZ": 5.949998,
+        "rotX": 8.54011944E-07,
+        "rotY": 359.981232,
+        "rotZ": 1.59239994E-06,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Sigma Sq. Pilot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992171168,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/JN16g",
+        "DiffuseURL": "http://i.imgur.com/4bXBvZZ.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/f5I0Y",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "9b321e"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -4.24993372,
+        "posY": 1.68765986,
+        "posZ": 5.94988632,
+        "rotX": 1.06647349E-05,
+        "rotY": 359.972351,
+        "rotZ": -3.092905E-05,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Sigma Sq. Pilot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921714,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/JN16g",
+        "DiffuseURL": "http://i.imgur.com/4bXBvZZ.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/f5I0Y",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "0228dc"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 5.949999,
+        "posY": 1.68766,
+        "posZ": -4.25,
+        "rotX": 3.8675293E-07,
+        "rotY": 180.00769,
+        "rotZ": -5.255188E-07,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Bandit Sq. Pilot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992170632,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/d91Hu",
+        "DiffuseURL": "http://i.imgur.com/hcCxX3n.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/iWuMv",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "099f34"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 4.250456,
+        "posY": 1.68766,
+        "posZ": -4.249768,
+        "rotX": -4.11975662E-07,
+        "rotY": 179.9911,
+        "rotZ": 7.848189E-07,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Bandit Sq. Pilot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.99217093,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/d91Hu",
+        "DiffuseURL": "http://i.imgur.com/hcCxX3n.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/iWuMv",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "997387"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 2.54999924,
+        "posY": 1.68766,
+        "posZ": -4.25,
+        "rotX": -1.05965917E-07,
+        "rotY": 180.0077,
+        "rotZ": 5.419954E-07,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Bandit Sq. Pilot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.99217093,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/d91Hu",
+        "DiffuseURL": "http://i.imgur.com/hcCxX3n.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/iWuMv",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "d989dc"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.8503514,
+        "posY": 1.68766,
+        "posZ": -4.249725,
+        "rotX": -6.465717E-07,
+        "rotY": 179.9895,
+        "rotZ": -6.886973E-08,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Bandit Sq. Pilot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.99217093,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/d91Hu",
+        "DiffuseURL": "http://i.imgur.com/hcCxX3n.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/iWuMv",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "411e71"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -0.8500004,
+        "posY": 1.68766,
+        "posZ": -4.25,
+        "rotX": -4.053631E-07,
+        "rotY": 180.0077,
+        "rotZ": 3.61858348E-08,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Bandit Sq. Pilot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.99217093,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/d91Hu",
+        "DiffuseURL": "http://i.imgur.com/hcCxX3n.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/iWuMv",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "f32898"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -2.55000019,
+        "posY": 1.68766,
+        "posZ": -4.25,
+        "rotX": -6.833613E-07,
+        "rotY": 180.0077,
+        "rotZ": -1.691379E-07,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Bandit Sq. Pilot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.99217093,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/d91Hu",
+        "DiffuseURL": "http://i.imgur.com/hcCxX3n.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/iWuMv",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "6d4404"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -4.25,
+        "posY": 1.68766,
+        "posZ": -4.25,
+        "rotX": -7.772482E-07,
+        "rotY": 180.0077,
+        "rotZ": -3.25633835E-07,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Bandit Sq. Pilot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.99217093,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/d91Hu",
+        "DiffuseURL": "http://i.imgur.com/hcCxX3n.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/iWuMv",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "f3a378"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -5.95000029,
+        "posY": 1.68766,
+        "posZ": -4.25,
+        "rotX": -1.71072543E-08,
+        "rotY": 180.00769,
+        "rotZ": -3.88448825E-07,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Bandit Sq. Pilot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.99217093,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/d91Hu",
+        "DiffuseURL": "http://i.imgur.com/hcCxX3n.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/iWuMv",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "610d2e"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -2.55000019,
+        "posY": 1.68766,
+        "posZ": -5.95000029,
+        "rotX": -2.39739535E-07,
+        "rotY": 180.01149,
+        "rotZ": -7.5272817E-07,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Prototype Pilot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921689,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/mow3U",
+        "DiffuseURL": "http://i.imgur.com/iS3L5eo.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/ikk5z",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "8814d7"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 2.54999924,
+        "posY": 1.68766,
+        "posZ": -5.95000029,
+        "rotX": -7.140216E-07,
+        "rotY": 180.0115,
+        "rotZ": -2.353033E-06,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Prototype Pilot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992169142,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/mow3U",
+        "DiffuseURL": "http://i.imgur.com/iS3L5eo.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/ikk5z",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "52434d"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -4.25,
+        "posY": 1.68766,
+        "posZ": -5.95000029,
+        "rotX": 3.549195E-11,
+        "rotY": 179.990967,
+        "rotZ": 4.50270363E-07,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Blue Sq. Pilot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992171645,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/8CtXr",
+        "DiffuseURL": "http://i.imgur.com/e3oyGKX.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/zEDty",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "70fe6e"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 4.24996567,
+        "posY": 1.6876601,
+        "posZ": -5.949867,
+        "rotX": 3.58564939E-05,
+        "rotY": 179.980316,
+        "rotZ": -1.16515721E-05,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Blue Sq. Pilot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921719,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/8CtXr",
+        "DiffuseURL": "http://i.imgur.com/e3oyGKX.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/zEDty",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "6e1255"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -5.95000029,
+        "posY": 1.68766,
+        "posZ": -5.95000029,
+        "rotX": 7.02279465E-07,
+        "rotY": 180.0213,
+        "rotZ": -6.383387E-07,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Gold Suqadron Pilot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992167354,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/MV6qP",
+        "DiffuseURL": "http://i.imgur.com/x5zYjn5.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/wtS1x",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "17c24f"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 5.949999,
+        "posY": 1.68766,
+        "posZ": -5.95000029,
+        "rotX": -8.289508E-08,
+        "rotY": 180.0213,
+        "rotZ": 2.67218052E-08,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Gold Suqadron Pilot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992167652,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/MV6qP",
+        "DiffuseURL": "http://i.imgur.com/x5zYjn5.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/wtS1x",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "f4ed6c"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.8499994,
+        "posY": 1.68766,
+        "posZ": -5.95000029,
+        "rotX": -2.690821E-06,
+        "rotY": 180.029648,
+        "rotZ": -5.983137E-07,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Luke Skywalker",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992169142,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/eAdkb",
+        "DiffuseURL": "http://i.imgur.com/UFcQdEu.png",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/6jn13",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "0e04c2"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -0.8500004,
+        "posY": 1.68766,
+        "posZ": -5.95000029,
+        "rotX": 4.379562E-09,
+        "rotY": 179.991531,
+        "rotZ": 7.651578E-08,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Knave Sq. Pilot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992167354,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/A57A8",
+        "DiffuseURL": "http://i.imgur.com/KeEZCuA.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/htLo3",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "e5054d"
+    }
+  ],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "[u][b]CHESS:[/b][/u]\n\n[b]GAME OBJECTIVE:[/b]\nChess is a game played between two opponents on opposite sides of a board containing 64 squares of alternating colors. Each player has 16 pieces: 1 king, 1 queen, 2 rooks, 2 bishops, 2 knights, and 8 pawns. The goal of the game is to checkmate the other king. Checkmate happens when the king is in a position to be captured (in check) and cannot escape from capture.\n\n[b]STARTUP:[/b]\nThe player with the white pieces always moves first. White then makes a move, followed by black, then white again, then black and so on until the end of the game.\n\n[b]BASIC MOVES:[/b]\nEach type of chess piece has its own method of movement. A piece moves to a vacant square except when capturing an opponent's piece.\nExcept for any move of the knight and castling, pieces cannot jump over other pieces. A piece is captured (or taken) when an attacking enemy piece replaces it on its square. The captured piece is thereby permanently removed from the game. The king can be put in check but cannot be captured .\n\nThe king moves exactly one square horizontally, vertically, or diagonally. A special move with the king known as castling is allowed only once per player, per game (see below).\nA rook moves any number of vacant squares in a horizontal or vertical direction. It also is moved when castling.\nA bishop moves any number of vacant squares in any diagonal direction.\nThe queen moves any number of vacant squares in a horizontal, vertical, or diagonal direction.\nA knight moves to the nearest square not on the same rank, file, or diagonal. (This can be thought of as moving two squares horizontally then one square vertically, or moving one square horizontally then two squares vertically—i.e. in an “L” pattern.) The knight is not blocked by other pieces: it jumps to the new location.\n\n[b]PAWNS:[/b]\nA pawn moves straight forward one square, if that square is vacant. If it has not yet moved, a pawn also has the option of moving two squares straight forward, provided both squares are vacant. Pawns cannot move backwards.\nPawns are the only pieces that capture differently from how they move. A pawn can capture an enemy piece on either of the two squares diagonally in front of the pawn (but cannot move to those squares if they are vacant).\n\n[b]CASTLING:[/b]\nCastling consists of moving the king two squares towards a rook, then placing the rook on the other side of the king, adjacent to it.[2] Castling is only permissible if all of the following conditions hold:\nThe king and rook involved in castling must not have previously moved;\nThere must be no pieces between the king and the rook;\nThe king may not currently be in check, nor may the king pass through or end up in a square that is under attack by an enemy piece (though the rook is permitted to be under attack and to pass over an attacked square);\nThe king and the rook must be on the same rank \n\n[b]PROMOTION:[/b]\nPawns have another special ability and that is that if a pawn reaches the other side of the board it can become any other chess piece (called promotion). A pawn may be promoted to any piece. A pawn is usually promoted to a queen. Only pawns may be promoted. \n\n[b]EN PASSANT:[/b]\nThe last rule about pawns is called “en passant,” which is French for “in passing”. If a pawn moves out two squares on its first move, and by doing so lands to the side of an opponent’s pawn (effectively jumping past the other pawn’s ability to capture it), that other pawn has the option of capturing the first pawn as it passes by. This special move must be done immediately after the first pawn has moved past, otherwise the option to capture it is no longer available. \n\n[b]CHECK & CHECK MATE:[/b]\nA king is in check when it is under attack by at least one enemy piece. A piece unable to move because it would place its own king in check (it is pinned against its own king) may still deliver check to the opposing player.\nA player may not make any move which places or leaves his king in check. The possible ways to get out of check are:\nMove the king to a square where it is not threatened.\nCapture the threatening piece (possibly with the king).\nBlock the check by placing a piece between the king and the opponent's threatening piece \nIf it is not possible to get out of check, the king is checkmated and the game is over (see the next section).\nIn informal games, it is customary to announce check when making a move that puts the opponent's king in check. However, in formal competitions check is rarely announced. \n\n[b]DRAWS:[/b]\nOccasionally chess games do not end with a winner, but with a draw. There are various reasons why a chess game may end in a draw:\nThe position reaches a stalemate where it is one player’s turn to move, but his king is NOT in check and yet he does not have another legal move\nThe players may simply agree to a draw and stop playing\nThere are not enough pieces on the board to force a checkmate (example: a king and a bishop vs.a king)\nA player declares a draw if the same exact position is repeated three times (though not necessarily three times in a row)\nFifty consecutive moves have been played where neither player has moved a pawn or captured a piece.\n\nPlease note that these Notepad are one in many out there, but this is a good starting point for one way to play the game. If you’d like to find other ways to play, you can search online. \n[b]Have fun![/b]\n",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Red",
+      "body": "",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Orange",
+      "body": "",
+      "visibleColor": {
+        "r": 0.882,
+        "g": 0.517,
+        "b": 0.219
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Yellow",
+      "body": "",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Green",
+      "body": "",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Blue",
+      "body": "",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Purple",
+      "body": "",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Pink",
+      "body": "",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Black",
+      "body": "",
+      "visibleColor": {
+        "r": 0.1,
+        "g": 0.1,
+        "b": 0.1
+      },
+      "id": 9
+    }
+  }
+}

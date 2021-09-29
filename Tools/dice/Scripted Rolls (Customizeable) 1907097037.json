@@ -1,0 +1,422 @@
+{
+  "SaveName": "Scripted Rolls (Customizeable)",
+  "GameMode": "Custom",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "11/7/2019 7:54:05 PM",
+  "Table": "Table_Square",
+  "Sky": "Sky_Field",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
+  "LuaScript": "function onLoad()\nend",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 14.3801212,
+          "posY": 6.680977,
+          "posZ": 0.141296387,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 9.463588,
+          "scaleY": 6.646532,
+          "scaleZ": 3.544007
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 0.03270387,
+          "posY": 6.67984,
+          "posZ": -14.4004478,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 9.392744,
+          "scaleY": 6.646532,
+          "scaleZ": 3.52900434
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": 0.03270387,
+          "posY": 6.67602539,
+          "posZ": 14.3010387,
+          "rotX": 0.0,
+          "rotY": 180.0,
+          "rotZ": 0.0,
+          "scaleX": 9.430501,
+          "scaleY": 6.646532,
+          "scaleZ": 3.542163
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -14.2912292,
+          "posY": 6.680977,
+          "posZ": -0.05830002,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 9.463588,
+          "scaleY": 6.646532,
+          "scaleZ": 3.544007
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "ObjectStates": [
+    {
+      "Name": "go_game_piece_black",
+      "Transform": {
+        "posX": -0.148867577,
+        "posY": 1.14299071,
+        "posZ": -0.08309509,
+        "rotX": 5.070571E-05,
+        "rotY": -0.000158435272,
+        "rotZ": 6.420749E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.249997467,
+        "g": 0.249997467,
+        "b": 0.249997467
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "-- Written by Barbedpilot\r\n\r\n-- Basic button properties, modify to match your button base\r\nrolls = 3 -- Number of dice rolls to do at once\r\nsides = 12 -- Number of sides on the dice\r\n\r\ncooldown = false -- Determines if there is a cooldown on how fast you can roll, can be toggeled on and off via (True/False)\r\nwaitTime = 0 -- Dont touch\r\ntimer = 120 -- How long the player must wait before rolling again if cooldown is set to true (IN TICKS / 60 ticks is 1 second)\r\ncooldownTimer = timer -- Dont touch\r\nseconds = 0 -- Dont touch\r\nticks = 0 -- Dont touch\r\n\r\nbroadcastAll = false --Determines whether or not the dice output will broadcast to all players\r\nbroadcastColor = {0.192, 0.701, 0.168} --The color of the dice roll output that will be broadcasted\r\n\r\neffects = false -- Special effects, can be turned on and off via (True/False) (COMING SOON)\r\n\r\npayMatching = false --Pays out an item if all numbers are matching (ONLY WORKS WITH 2-4 ROLLS)\r\npullBagGUID = \"f24a23\"  -- GUID of the bag that will be used for pulling out the reward\r\n\r\ncolored = false --Introduces the player color button, allowing only one color to use the roll button\r\nselectedColor = \"White\" -- Dont touch\r\ncolorCycle = 0 -- Dont touch\r\n\r\nrequireTurns = false -- Determines whether or not it requires turns to roll\r\nturns = 0 --Default starting number of turns\r\n\r\n\r\nfunction onLoad()\r\n  if payMatching then\r\n    pullBag = getObjectFromGUID(pullBagGUID)\r\n  end\r\n  pos = self.getPosition()\r\n  pos.y = pos.y + 0.2\r\n  pos.z = pos.z + 1.5\r\n    colorParams = {\r\n      click_function = \"colorChange\",\r\n      index = 2,\r\n      function_owner = self,\r\n      label = \"\",\r\n      position = {-0.78,0.2,0},\r\n      rotation = {0,180,0},\r\n      width = 200,\r\n      height = 200,\r\n      font_size = 0,\r\n      color = {1,1,1},\r\n      font_color = {1,1,1},\r\n      tooltip = \"\"\r\n    }\r\n  output = \"\" -- Dont touch\r\n  rollParams = {\r\n    click_function = \"press\",\r\n    index = 0,\r\n    function_owner = self,\r\n    label = \"Roll\",\r\n    position = {0,0.2,0},\r\n    rotation = {0,180,0},\r\n    width = 600,\r\n    height = 400,\r\n    font_size = 250,\r\n    color = {0.5,0.5,0.5},\r\n    font_color = {1,1,1},\r\n    press_color = {0.192, 0.701, 0.168}, --Makes the button green on click, can be removed or changed\r\n    tooltip = \"\"\r\n  }\r\n\r\n  upParams = {\r\n    click_function = \"increase\",\r\n    index = 5,\r\n    function_owner = self,\r\n    label = \"/\\\\\",\r\n    position = {0.75,0.2,0.5},\r\n    rotation = {0,180,0},\r\n    width = 200,\r\n    hieght = 200,\r\n    font_size = 100,\r\n    color = {0,0,0},\r\n    font_color = {1,1,1},\r\n    tooltip = \"Increase rolls\"\r\n  }\r\n\r\n  downParams = {\r\n    click_function = \"decrease\",\r\n    index = 4,\r\n    function_owner = self,\r\n    label = \"\\\\/\",\r\n    position = {-0.75,0.2,0.5},\r\n    rotation = {0,180,0},\r\n    width = 200,\r\n    hieght = 200,\r\n    font_size = 100,\r\n    color = {0,0,0},\r\n    font_color = {1,1,1},\r\n    tooltip = \"Decrease rolls\"\r\n  }\r\n\r\n  counterParams = {\r\n    click_function = \"counterClick\",\r\n    index = 3,\r\n    function_owner = self,\r\n    label = tostring(turns),\r\n    position = {0,0.2,0.5},\r\n    rotation = {0,180,0},\r\n    width = 600,\r\n    hieght = 500,\r\n    font_size = 150,\r\n    color = {0.25,0.25,0.25},\r\n    font_color = {1,1,1},\r\n    tooltip = \"Turns Left\"\r\n  }\r\n\r\n  settingParams = {\r\n    click_function = \"runSettings\",\r\n    index = 1,\r\n    function_owner = self,\r\n    label = \"Settings\",\r\n    position = {0,0.2,-0.55},\r\n    rotation = {0,180,0},\r\n    width = 600,\r\n    hieght = 500,\r\n    font_size = 125,\r\n    color = {0.2,0.2,0.2},\r\n    font_color = {1,1,1},\r\n    tooltip = \"\"\r\n  }\r\n\r\n  settingsIndvParams = {\r\n    click_function = \"none\",\r\n    index = 6,\r\n    function_owner = self,\r\n    label = \"\",\r\n    position = {0.25,0.2,0.75},\r\n    rotation = {0,180,0},\r\n    width = 500,\r\n    hieght = 400,\r\n    font_size = 70,\r\n    color = {0.5,0.5,0.5},\r\n    font_color = {1,1,1},\r\n    tooltip = \"\"\r\n  }\r\n\r\n  createMain()\r\nend\r\n\r\n--Main buttons, actual function buttons\r\nfunction createMain()\r\n  if payMatching then\r\n    pullBag = getObjectFromGUID(pullBagGUID)\r\n  end\r\n  self.clearButtons()\r\n  self.createButton(rollParams)\r\n  self.createButton(settingParams)\r\n  if colored then\r\n    self.createButton(colorParams)\r\n  else\r\n    rollParams.index = 0\r\n    settingParams.index = 1\r\n    colorParams.index = 5\r\n    downParams.index = 4\r\n    upParams.index = 3\r\n    counterParams.index = 2\r\n  end\r\n  if requireTurns then\r\n    self.createButton(counterParams)\r\n    self.createButton(downParams)\r\n    self.createButton(upParams)\r\n  else\r\n    rollParams.index = 0\r\n    settingParams.index = 1\r\n    colorParams.index = 2\r\n    downParams.index = 4\r\n    upParams.index = 5\r\n    counterParams.index = 3\r\n  end\r\nend\r\n\r\nfunction runSettings(objectButtonClicked, playerColorClicked)\r\n  if string.find(playerColorClicked, \"Black\") then\r\n    createSettings()\r\n  else\r\n    broadcastToColor(\"Only the player color black can modify the settings!\", playerColorClicked, stringColorToRGB(playerColorClicked))\r\n  end\r\nend\r\n\r\nfunction createSettings()\r\n    self.clearButtons()\r\n    settingsIndvParams.click_function = \"toggleCooldown\"\r\n    option = \"\"\r\n    if cooldown then option = \"On\" end\r\n    if not cooldown then option = \"Off\" end\r\n    settingsIndvParams.label = \"Cooldown: \"..option\r\n    settingsIndvParams.index = 6\r\n    settingsIndvParams.position = {0.25,0.2,0.75}\r\n    settingsIndvParams.color = {0.5,0.5,0.5}\r\n    settingsIndvParams.tooltip = \"Changes whether or not there is a set cooldown in-between dice rolls\"\r\n    self.createButton(settingsIndvParams)\r\n\r\n    if rolls == 1 then\r\n      settingsIndvParams.label = tostring(rolls)..\" Die\"\r\n    else\r\n      settingsIndvParams.label = tostring(rolls)..\" Dice\"\r\n    end\r\n    settingsIndvParams.click_function = \"changeDice\"\r\n    settingsIndvParams.width = 250\r\n    settingsIndvParams.hieght = 250\r\n    settingsIndvParams.position = {0.5,0.2,1.05}\r\n    settingsIndvParams.index = 7\r\n    settingsIndvParams.tooltip = \"Changes the number of dice (left & right click)\"\r\n    self.createButton(settingsIndvParams)\r\n\r\n    settingsIndvParams.click_function = \"changeSides\"\r\n    settingsIndvParams.label = tostring(sides)..\" Sides\"\r\n    settingsIndvParams.width = 325\r\n    settingsIndvParams.position = {-0.4, 0.2, 1.05}\r\n    settingsIndvParams.index = 8\r\n    settingsIndvParams.tooltip = \"Changes the number of sides (left & right click)\"\r\n    self.createButton(settingsIndvParams)\r\n\r\n    settingsIndvParams.click_function = \"changeTicks\"\r\n    settingsIndvParams.label = tostring(timer)\r\n    settingsIndvParams.width = 200\r\n    settingsIndvParams.position = {-0.55,0.2,0.75}\r\n    settingsIndvParams.index = 9\r\n    settingsIndvParams.tooltip = \"Changes the number of ticks for the cooldown (left & right click)\"\r\n    self.createButton(settingsIndvParams)\r\n\r\n    settingsIndvParams.click_function = \"toggleBroadcast\"\r\n    if broadcastAll then option = \"On\" end\r\n    if not broadcastAll then option = \"Off\" end\r\n    settingsIndvParams.label = \"Broadcast to All: \"..option\r\n    settingsIndvParams.width = 750\r\n    settingsIndvParams.hieght = 400\r\n    settingsIndvParams.position = {0,0.2,0.45}\r\n    settingsIndvParams.index = 10\r\n    settingsIndvParams.tooltip = \"Changes whether or not the rolls broadcast to everyone, or just the roller\"\r\n    self.createButton(settingsIndvParams)\r\n\r\n    settingsIndvParams.click_function = \"toggleMatching\"\r\n    if payMatching then option = \"On\" end\r\n    if not payMatching then option = \"Off\" end\r\n    settingsIndvParams.label = \"Pay Matching #s: \"..option\r\n    settingsIndvParams.position = {0,0.2,0.15}\r\n    settingsIndvParams.index = 11\r\n    settingsIndvParams.tooltip = \"Changes whether or not players are paid for matching numbers\\n(ONLY WORKS WITH 2-5 DICE)\\n(Paid object bag must be changed through script!)\"\r\n    self.createButton(settingsIndvParams)\r\n\r\n    settingsIndvParams.click_function = \"toggleColor\"\r\n    if colored then option = \"On\" end\r\n    if not colored then option = \"Off\" end\r\n    settingsIndvParams.label = \"Color Requirement: \"..option\r\n    settingsIndvParams.position = {0,0.2,-0.15}\r\n    settingsIndvParams.index = 12\r\n    settingsIndvParams.tooltip = \"Changes whether or not you must be a certain color to roll the dice. Selectable by player color black\"\r\n    self.createButton(settingsIndvParams)\r\n\r\n    settingsIndvParams.click_function = \"toggleTurns\"\r\n    if requireTurns then option = \"On\" end\r\n    if not requireTurns then option = \"Off\" end\r\n    settingsIndvParams.label = \"Turn Requirement: \"..option\r\n    settingsIndvParams.position = {0,0.2,-0.45}\r\n    settingsIndvParams.index = 13\r\n    settingsIndvParams.tooltip = \"Changes whether or not turns are required to roll the dice. Modified by player color black\"\r\n    self.createButton(settingsIndvParams)\r\n\r\n    settingsIndvParams.click_function = \"createMain\"\r\n    settingsIndvParams.label = \"Close Settings\"\r\n    settingsIndvParams.position = {0,0.2,-0.75}\r\n    settingsIndvParams.color = {0.25,0.25,0.25}\r\n    settingsIndvParams.width = 500\r\n    settingsIndvParams.index = 14\r\n    settingsIndvParams.tooltip = \"\"\r\n    self.createButton(settingsIndvParams)\r\nend\r\n\r\nfunction toggleCooldown(objectButtonClicked, playerColorClicked)\r\n  if string.find(playerColorClicked, \"Black\") then\r\n    if cooldown then\r\n      cooldown = false\r\n      createSettings()\r\n    else\r\n      cooldown = true\r\n      createSettings()\r\n    end\r\n  else\r\n    broadcastToColor(\"Only the player color black can modify the settings!\", playerColorClicked, stringColorToRGB(playerColorClicked))\r\n  end\r\nend\r\n\r\nfunction changeTicks(objectButtonClicked, playerColorClicked, clickMethod)\r\n  if string.find(playerColorClicked, \"Black\") then\r\n    if not clickMethod then\r\n      timer = timer + 10\r\n      createSettings()\r\n    end\r\n    if clickMethod then\r\n      if timer > 9 then\r\n        timer = timer - 10\r\n        createSettings()\r\n      else\r\n        broadcastToColor(\"The timer cannot go below 0!\", playerColorClicked, {0.567,0.2,0.3})\r\n      end\r\n    end\r\n  else\r\n    broadcastToColor(\"Only the player color black can modify the settings!\", playerColorClicked, stringColorToRGB(playerColorClicked))\r\n  end\r\nend\r\n\r\nfunction changeSides(objectButtonClicked, playerColorClicked, clickMethod)\r\n  if string.find(playerColorClicked, \"Black\") then\r\n    if not clickMethod then\r\n      sides = sides + 1\r\n      createSettings()\r\n    end\r\n    if clickMethod then\r\n      if sides > 1 then\r\n        sides = sides - 1\r\n        createSettings()\r\n      else\r\n        broadcastToColor(\"The number of sides cannot go below 1!\", playerColorClicked, {0.567,0.2,0.3})\r\n      end\r\n    end\r\n  else\r\n    broadcastToColor(\"Only the player color black can modify the settings!\", playerColorClicked, stringColorToRGB(playerColorClicked))\r\n  end\r\nend\r\n\r\nfunction changeDice(objectButtonClicked, playerColorClicked, clickMethod)\r\n  if string.find(playerColorClicked, \"Black\") then\r\n    if not clickMethod then\r\n      rolls = rolls + 1\r\n      createSettings()\r\n    end\r\n    if clickMethod then\r\n      if rolls > 1 then\r\n        rolls = rolls - 1\r\n        createSettings()\r\n      else\r\n        broadcastToColor(\"The number of dice cannot go below 1!\", playerColorClicked, {0.567,0.2,0.3})\r\n      end\r\n    end\r\n  else\r\n    broadcastToColor(\"Only the player color black can modify the settings!\", playerColorClicked, stringColorToRGB(playerColorClicked))\r\n  end\r\nend\r\n\r\nfunction toggleMatching(objectButtonClicked, playerColorClicked)\r\n  if string.find(playerColorClicked, \"Black\") then\r\n    if payMatching then\r\n      payMatching = false\r\n      createSettings()\r\n    else\r\n      payMatching = true\r\n      createSettings()\r\n    end\r\n  else\r\n    broadcastToColor(\"Only the player color black can modify the settings!\", playerColorClicked, stringColorToRGB(playerColorClicked))\r\n  end\r\nend\r\n\r\nfunction toggleBroadcast(objectButtonClicked, playerColorClicked)\r\n  if string.find(playerColorClicked, \"Black\") then\r\n    if broadcastAll then\r\n      broadcastAll = false\r\n      createSettings()\r\n    else\r\n      broadcastAll = true\r\n      createSettings()\r\n    end\r\n  else\r\n    broadcastToColor(\"Only the player color black can modify the settings!\", playerColorClicked, stringColorToRGB(playerColorClicked))\r\n  end\r\nend\r\n\r\nfunction toggleColor(objectButtonClicked, playerColorClicked)\r\n  if string.find(playerColorClicked, \"Black\") then\r\n    if colored then\r\n      colored = false\r\n      createSettings()\r\n    else\r\n      colored = true\r\n      createSettings()\r\n    end\r\n  else\r\n    broadcastToColor(\"Only the player color black can modify the settings!\", playerColorClicked, stringColorToRGB(playerColorClicked))\r\n  end\r\nend\r\n\r\nfunction toggleTurns(objectButtonClicked, playerColorClicked)\r\n  if string.find(playerColorClicked, \"Black\") then\r\n    if requireTurns then\r\n      requireTurns = false\r\n      turns = 0\r\n      createSettings()\r\n    else\r\n      requireTurns = true\r\n      turns = 0\r\n      createSettings()\r\n    end\r\n  else\r\n    broadcastToColor(\"Only the player color black can modify the settings!\", playerColorClicked, stringColorToRGB(playerColorClicked))\r\n  end\r\nend\r\n\r\n--Empty function, triggers when turn counter is clicked\r\nfunction counterClick()\r\nend\r\n\r\n--Runs code every tick\r\nfunction onUpdate ()\r\n  if cooldown then\r\n    if cooldownTimer != waitTime then\r\n      cooldownTimer = cooldownTimer - 1\r\n    end\r\n  end\r\nend\r\n\r\n--Checks for cooldown\r\nfunction press(objectButtonClicked, playerColorClicked)\r\n  if colored then\r\n    if string.find(playerColorClicked, selectedColor) then\r\n      if not cooldown then\r\n        if not requireTurns then\r\n          if broadcastAll then\r\n            broadcastToAll(playerColorClicked..\", \"..roll(), broadcastColor)\r\n          else\r\n            broadcastToColor(roll(), playerColorClicked, broadcastColor)\r\n          end\r\n          if payMatching then\r\n            if rolls == 2 then\r\n              if x == y then\r\n                broadcastToColor(\"Your numbers matched!\", playerColorClicked, broadcastColor)\r\n                clonedBag = pullBag.clone({position = pos})\r\n                clonedBag.shuffle()\r\n                clonedBag.takeObject({position = pos})\r\n                clonedBag.shuffle()\r\n                clonedBag.destruct()\r\n              end\r\n            end\r\n            if rolls == 3 then\r\n              if x == y and x == z then\r\n                broadcastToColor(\"Your numbers matched!\", playerColorClicked, broadcastColor)\r\n                clonedBag = pullBag.clone({position = pos})\r\n                clonedBag.shuffle()\r\n                clonedBag.takeObject({position = pos})\r\n                clonedBag.shuffle()\r\n                clonedBag.destruct()\r\n              end\r\n            end\r\n            if rolls == 4 then\r\n              if x == y and x == z and x == a then\r\n                broadcastToColor(\"Your numbers matched!\", playerColorClicked, broadcastColor)\r\n                clonedBag = pullBag.clone({position = pos})\r\n                clonedBag.shuffle()\r\n                clonedBag.takeObject({position = pos})\r\n                clonedBag.shuffle()\r\n                clonedBag.destruct()\r\n              end\r\n            end\r\n          end\r\n        end\r\n      end\r\n      if cooldown then\r\n        if cooldownTimer != waitTime then\r\n          ticks = cooldownTimer\r\n          while ticks >= 60 do\r\n            seconds = seconds + 1\r\n            ticks = ticks - 60\r\n          end\r\n          broadcastToColor(\"Please wait \"..seconds..\" more second(s)!\", playerColorClicked, {0.567,0.2,0.3})\r\n          seconds = 0\r\n          ticks = cooldownTimer\r\n        end\r\n        if cooldownTimer == waitTime then\r\n          if requireTurns then\r\n            if turns >= 1 then\r\n              if broadcastAll then\r\n                broadcastToAll(playerColorClicked..\", \"..roll(), broadcastColor)\r\n              else\r\n                broadcastToColor(roll(), playerColorClicked, broadcastColor)\r\n              end\r\n              if payMatching then\r\n                if rolls == 2 then\r\n                  if x == y then\r\n                    broadcastToColor(\"Your numbers matched!\", playerColorClicked, broadcastColor)\r\n                    clonedBag = pullBag.clone({position = pos})\r\n                    clonedBag.shuffle()\r\n                    clonedBag.takeObject({position = pos})\r\n                    clonedBag.shuffle()\r\n                    clonedBag.destruct()\r\n                  end\r\n                end\r\n                if rolls == 3 then\r\n                  if x == y and x == z then\r\n                    broadcastToColor(\"Your numbers matched!\", playerColorClicked, broadcastColor)\r\n                    clonedBag = pullBag.clone({position = pos})\r\n                    clonedBag.shuffle()\r\n                    clonedBag.takeObject({position = pos})\r\n                    clonedBag.shuffle()\r\n                    clonedBag.destruct()\r\n                  end\r\n                end\r\n                if rolls == 4 then\r\n                  if x == y and x == z and x == a then\r\n                    broadcastToColor(\"Your numbers matched!\", playerColorClicked, broadcastColor)\r\n                    clonedBag = pullBag.clone({position = pos})\r\n                    clonedBag.shuffle()\r\n                    clonedBag.takeObject({position = pos})\r\n                    clonedBag.shuffle()\r\n                    clonedBag.destruct()\r\n                  end\r\n                end\r\n              end\r\n              updateCounter()\r\n              cooldownTimer = timer\r\n            else\r\n              broadcastToColor(\"There are no more turns left!\", playerColorClicked, stringColorToRGB(playerColorClicked))\r\n            end\r\n          else\r\n            if broadcastAll then\r\n              broadcastToAll(playerColorClicked..\", \"..roll(), broadcastColor)\r\n            else\r\n              broadcastToColor(roll(), playerColorClicked, broadcastColor)\r\n            end\r\n            if payMatching then\r\n              if rolls == 2 then\r\n                if x == y then\r\n                  broadcastToColor(\"Your numbers matched!\", playerColorClicked, broadcastColor)\r\n                  clonedBag = pullBag.clone({position = pos})\r\n                  clonedBag.shuffle()\r\n                  clonedBag.takeObject({position = pos})\r\n                  clonedBag.shuffle()\r\n                  clonedBag.destruct()\r\n                end\r\n              end\r\n              if rolls == 3 then\r\n                if x == y and x == z then\r\n                  broadcastToColor(\"Your numbers matched!\", playerColorClicked, broadcastColor)\r\n                  clonedBag = pullBag.clone({position = pos})\r\n                  clonedBag.shuffle()\r\n                  clonedBag.takeObject({position = pos})\r\n                  clonedBag.shuffle()\r\n                  clonedBag.destruct()\r\n                end\r\n              end\r\n              if rolls == 4 then\r\n                if x == y and x == z and x == a then\r\n                  broadcastToColor(\"Your numbers matched!\", playerColorClicked, broadcastColor)\r\n                  clonedBag = pullBag.clone({position = pos})\r\n                  clonedBag.shuffle()\r\n                  clonedBag.takeObject({position = pos})\r\n                  clonedBag.shuffle()\r\n                  clonedBag.destruct()\r\n                end\r\n              end\r\n            end\r\n            cooldownTimer = timer\r\n          end\r\n        end\r\n      end\r\n      if not cooldown then\r\n        if requireTurns then\r\n          if turns >= 1 then\r\n            if broadcastAll then\r\n              broadcastToAll(playerColorClicked..\", \"..roll(), broadcastColor)\r\n            else\r\n              broadcastToColor(roll(), playerColorClicked, broadcastColor)\r\n            end\r\n            if payMatching then\r\n              if rolls == 2 then\r\n                if x == y then\r\n                  broadcastToColor(\"Your numbers matched!\", playerColorClicked, broadcastColor)\r\n                  clonedBag = pullBag.clone({position = pos})\r\n                  clonedBag.shuffle()\r\n                  clonedBag.takeObject({position = pos})\r\n                  clonedBag.shuffle()\r\n                  clonedBag.destruct()\r\n                end\r\n              end\r\n              if rolls == 3 then\r\n                if x == y and x == z then\r\n                  broadcastToColor(\"Your numbers matched!\", playerColorClicked, broadcastColor)\r\n                  clonedBag = pullBag.clone({position = pos})\r\n                  clonedBag.shuffle()\r\n                  clonedBag.takeObject({position = pos})\r\n                  clonedBag.shuffle()\r\n                  clonedBag.destruct()\r\n                end\r\n              end\r\n              if rolls == 4 then\r\n                if x == y and x == z and x == a then\r\n                  broadcastToColor(\"Your numbers matched!\", playerColorClicked, broadcastColor)\r\n                  clonedBag = pullBag.clone({position = pos})\r\n                  clonedBag.shuffle()\r\n                  clonedBag.takeObject({position = pos})\r\n                  clonedBag.shuffle()\r\n                  clonedBag.destruct()\r\n                end\r\n              end\r\n            end\r\n            updateCounter()\r\n          else\r\n            broadcastToColor(\"There are no more turns left!\", playerColorClicked, stringColorToRGB(playerColorClicked))\r\n          end\r\n        end\r\n      end\r\n    else\r\n      broadcastToColor(\"You are not the right player color to roll!\", playerColorClicked, stringColorToRGB(playerColorClicked))\r\n    end\r\n  else\r\n    if not cooldown then\r\n      if not requireTurns then\r\n        if broadcastAll then\r\n          broadcastToAll(playerColorClicked..\", \"..roll(), broadcastColor)\r\n        else\r\n          broadcastToColor(roll(), playerColorClicked, broadcastColor)\r\n        end\r\n        if payMatching then\r\n          if rolls == 2 then\r\n            if x == y then\r\n              broadcastToColor(\"Your numbers matched!\", playerColorClicked, broadcastColor)\r\n              clonedBag = pullBag.clone({position = pos})\r\n              clonedBag.shuffle()\r\n              clonedBag.takeObject({position = pos})\r\n              clonedBag.shuffle()\r\n              clonedBag.destruct()\r\n            end\r\n          end\r\n          if rolls == 3 then\r\n            if x == y and x == z then\r\n              broadcastToColor(\"Your numbers matched!\", playerColorClicked, broadcastColor)\r\n              clonedBag = pullBag.clone({position = pos})\r\n              clonedBag.shuffle()\r\n              clonedBag.takeObject({position = pos})\r\n              clonedBag.shuffle()\r\n              clonedBag.destruct()\r\n            end\r\n          end\r\n          if rolls == 4 then\r\n            if x == y and x == z and x == a then\r\n              broadcastToColor(\"Your numbers matched!\", playerColorClicked, broadcastColor)\r\n              clonedBag = pullBag.clone({position = pos})\r\n              clonedBag.shuffle()\r\n              clonedBag.takeObject({position = pos})\r\n              clonedBag.shuffle()\r\n              clonedBag.destruct()\r\n            end\r\n          end\r\n          if rolls == 5 then\r\n            if x == y and x == z and x == a and x == b then\r\n              broadcastToColor(\"Your numbers matched!\", playerColorClicked, broadcastColor)\r\n              clonedBag = pullBag.clone({position = pos})\r\n              clonedBag.shuffle()\r\n              clonedBag.takeObject({position = pos})\r\n              clonedBag.shuffle()\r\n              clonedBag.destruct()\r\n            end\r\n          end\r\n        end\r\n      end\r\n    end\r\n    if cooldown then\r\n      if cooldownTimer != waitTime then\r\n        ticks = cooldownTimer\r\n        while ticks >= 60 do\r\n          seconds = seconds + 1\r\n          ticks = ticks - 60\r\n        end\r\n        broadcastToColor(\"Please wait \"..seconds..\" more second(s)!\", playerColorClicked, {0.567,0.2,0.3})\r\n        seconds = 0\r\n        ticks = cooldownTimer\r\n      end\r\n      if cooldownTimer == waitTime then\r\n        if requireTurns then\r\n          if turns >= 1 then\r\n            if broadcastAll then\r\n              broadcastToAll(playerColorClicked..\", \"..roll(), broadcastColor)\r\n            else\r\n              broadcastToColor(roll(), playerColorClicked, broadcastColor)\r\n            end\r\n            if payMatching then\r\n              if rolls == 2 then\r\n                if x == y then\r\n                  broadcastToColor(\"Your numbers matched!\", playerColorClicked, broadcastColor)\r\n                  clonedBag = pullBag.clone({position = pos})\r\n                  clonedBag.shuffle()\r\n                  clonedBag.takeObject({position = pos})\r\n                  clonedBag.shuffle()\r\n                  clonedBag.destruct()\r\n                end\r\n              end\r\n              if rolls == 3 then\r\n                if x == y and x == z then\r\n                  broadcastToColor(\"Your numbers matched!\", playerColorClicked, broadcastColor)\r\n                  clonedBag = pullBag.clone({position = pos})\r\n                  clonedBag.shuffle()\r\n                  clonedBag.takeObject({position = pos})\r\n                  clonedBag.shuffle()\r\n                  clonedBag.destruct()\r\n                end\r\n              end\r\n              if rolls == 4 then\r\n                if x == y and x == z and x == a then\r\n                  broadcastToColor(\"Your numbers matched!\", playerColorClicked, broadcastColor)\r\n                  clonedBag = pullBag.clone({position = pos})\r\n                  clonedBag.shuffle()\r\n                  clonedBag.takeObject({position = pos})\r\n                  clonedBag.shuffle()\r\n                  clonedBag.destruct()\r\n                end\r\n              end\r\n            end\r\n            updateCounter()\r\n            cooldownTimer = timer\r\n          else\r\n            broadcastToColor(\"There are no more turns left!\", playerColorClicked, stringColorToRGB(playerColorClicked))\r\n          end\r\n        else\r\n          if broadcastAll then\r\n            broadcastToAll(playerColorClicked..\", \"..roll(), broadcastColor)\r\n          else\r\n            broadcastToColor(roll(), playerColorClicked, broadcastColor)\r\n          end\r\n          if payMatching then\r\n            if rolls == 2 then\r\n              if x == y then\r\n                broadcastToColor(\"Your numbers matched!\", playerColorClicked, broadcastColor)\r\n                clonedBag = pullBag.clone({position = pos})\r\n                clonedBag.shuffle()\r\n                clonedBag.takeObject({position = pos})\r\n                clonedBag.shuffle()\r\n                clonedBag.destruct()\r\n              end\r\n            end\r\n            if rolls == 3 then\r\n              if x == y and x == z then\r\n                broadcastToColor(\"Your numbers matched!\", playerColorClicked, broadcastColor)\r\n                clonedBag = pullBag.clone({position = pos})\r\n                clonedBag.shuffle()\r\n                clonedBag.takeObject({position = pos})\r\n                clonedBag.shuffle()\r\n                clonedBag.destruct()\r\n              end\r\n            end\r\n            if rolls == 4 then\r\n              if x == y and x == z and x == a then\r\n                broadcastToColor(\"Your numbers matched!\", playerColorClicked, broadcastColor)\r\n                clonedBag = pullBag.clone({position = pos})\r\n                clonedBag.shuffle()\r\n                clonedBag.takeObject({position = pos})\r\n                clonedBag.shuffle()\r\n                clonedBag.destruct()\r\n              end\r\n            end\r\n          end\r\n          cooldownTimer = timer\r\n        end\r\n      end\r\n    end\r\n    if not cooldown then\r\n      if requireTurns then\r\n        if turns >= 1 then\r\n          if broadcastAll then\r\n            broadcastToAll(playerColorClicked..\", \"..roll(), broadcastColor)\r\n          else\r\n            broadcastToColor(roll(), playerColorClicked, broadcastColor)\r\n          end\r\n          if payMatching then\r\n            if rolls == 2 then\r\n              if x == y then\r\n                broadcastToColor(\"Your numbers matched!\", playerColorClicked, broadcastColor)\r\n                clonedBag = pullBag.clone({position = pos})\r\n                clonedBag.shuffle()\r\n                clonedBag.takeObject({position = pos})\r\n                clonedBag.shuffle()\r\n                clonedBag.destruct()\r\n              end\r\n            end\r\n            if rolls == 3 then\r\n              if x == y and x == z then\r\n                broadcastToColor(\"Your numbers matched!\", playerColorClicked, broadcastColor)\r\n                clonedBag = pullBag.clone({position = pos})\r\n                clonedBag.shuffle()\r\n                clonedBag.takeObject({position = pos})\r\n                clonedBag.shuffle()\r\n                clonedBag.destruct()\r\n              end\r\n            end\r\n            if rolls == 4 then\r\n              if x == y and x == z and x == a then\r\n                broadcastToColor(\"Your numbers matched!\", playerColorClicked, broadcastColor)\r\n                clonedBag = pullBag.clone({position = pos})\r\n                clonedBag.shuffle()\r\n                clonedBag.takeObject({position = pos})\r\n                clonedBag.shuffle()\r\n                clonedBag.destruct()\r\n              end\r\n            end\r\n          end\r\n          updateCounter()\r\n        else\r\n          broadcastToColor(\"There are no more turns left!\", playerColorClicked, stringColorToRGB(playerColorClicked))\r\n        end\r\n      end\r\n    end\r\n  end\r\nend\r\n\r\n\r\n--Updates the turn counterParams\r\nfunction updateCounter()\r\n  counterParams.label = tostring(turns)\r\n  counterParams.click_function = \"counterClick\"\r\n  self.editButton(counterParams)\r\nend\r\n\r\n\r\n--Rolls the dice and returns the values\r\nfunction roll()\r\n  if payMatching then\r\n    output = \"Your numbers are:\\n\"\r\n    if rolls == 2 then\r\n      x = math.floor(math.random()*sides)+1\r\n      y = math.floor(math.random()*sides)+1\r\n      output = output..x..\"  \"..y\r\n    end\r\n    if rolls == 3 then\r\n      x = math.floor(math.random()*sides)+1\r\n      y = math.floor(math.random()*sides)+1\r\n      z = math.floor(math.random()*sides)+1\r\n      output = output..x..\"  \"..y..\"  \"..z\r\n    end\r\n    if rolls == 4 then\r\n      x = math.floor(math.random()*sides)+1\r\n      y = math.floor(math.random()*sides)+1\r\n      z = math.floor(math.random()*sides)+1\r\n      a = math.floor(math.random()*sides)+1\r\n      output = output..x..\"  \"..y..\"  \"..z..\"  \"..a\r\n    end\r\n    if rolls == 5 then\r\n      x = math.floor(math.random()*sides)+1\r\n      y = math.floor(math.random()*sides)+1\r\n      z = math.floor(math.random()*sides)+1\r\n      a = math.floor(math.random()*sides)+1\r\n      b = math.floor(math.random()*sides)+1\r\n      output = output..x..\"  \"..y..\"  \"..z..\"  \"..a.. \"  \"..b\r\n    end\r\n    if rolls >= 6 or rolls == 1 then\r\n      local counter = 0\r\n      if rolls == 1 then\r\n        output = \"Your number is:\\n\"\r\n      end\r\n      if rolls > 1 then\r\n        output = \"Your numbers are:\\n\"\r\n      end\r\n      while counter < rolls do\r\n        local x = math.floor(math.random()*sides)+1\r\n        counter = counter + 1\r\n        output = output..x..\"  \"\r\n      end\r\n    end\r\n    turns = turns - 1\r\n    return output\r\n  else\r\n    local counter = 0\r\n    if rolls == 1 then\r\n      output = \"Your number is:\\n\"\r\n    end\r\n    if rolls > 1 then\r\n      output = \"Your numbers are:\\n\"\r\n    end\r\n    while counter < rolls do\r\n      local x = math.floor(math.random()*sides)+1\r\n      counter = counter + 1\r\n      output = output..x..\"  \"\r\n    end\r\n  end\r\n  turns = turns - 1\r\n  return output\r\nend\r\n\r\n--Function for increasing the value of turns\r\nfunction increase(objectButtonClicked, playerColorClicked)\r\n  if string.find(playerColorClicked, \"Black\") then\r\n    turns = turns + 1\r\n    updateCounter()\r\n  else\r\n    broadcastToColor(\"Only the player color black change turn numbers!\", playerColorClicked, stringColorToRGB(playerColorClicked))\r\n  end\r\nend\r\n\r\n--Function for decreasing the value of turns\r\nfunction decrease(objectButtonClicked, playerColorClicked)\r\n  if string.find(playerColorClicked, \"Black\") then\r\n    if turns >= 1 then\r\n      turns = turns -1\r\n      updateCounter()\r\n    else\r\n      broadcastToColor(\"Number of turns cannot go below 0!\", playerColorClicked, {0.567,0.2,0.3})\r\n    end\r\n  else\r\n    broadcastToColor(\"Only the player color black can change turn numbers!\", playerColorClicked, stringColorToRGB(playerColorClicked))\r\n  end\r\nend\r\n\r\nfunction colorChange(objectButtonClicked, playerColorClicked, playerAltClick)\r\n  if string.find(playerColorClicked, \"Black\") then\r\n    if playerAltClick then\r\n      if colorCycle == 0 then\r\n        colorCycle = 10\r\n      else\r\n        colorCycle = colorCycle - 1\r\n      end\r\n    else\r\n      if colorCycle == 10 then\r\n        colorCycle = 0\r\n      else\r\n        colorCycle = colorCycle + 1\r\n      end\r\n    end\r\n\r\n    if colorCycle == 0 then\r\n      selectedColor = \"White\"\r\n      colorParams.color = {1, 1, 1}\r\n    end\r\n    if colorCycle == 1 then\r\n      selectedColor = \"Brown\"\r\n      colorParams.color = {0.443, 0.231, 0.09}\r\n    end\r\n    if colorCycle == 2 then\r\n      selectedColor = \"Red\"\r\n      colorParams.color = {0.856, 0.1, 0.094}\r\n    end\r\n    if colorCycle == 3 then\r\n      selectedColor = \"Orange\"\r\n      colorParams.color = {0.956, 0.392, 0.113}\r\n    end\r\n    if colorCycle == 4 then\r\n      selectedColor = \"Yellow\"\r\n      colorParams.color = {0.905, 0.898, 0.172}\r\n    end\r\n    if colorCycle == 5 then\r\n      selectedColor = \"Green\"\r\n      colorParams.color = {0.192, 0.701, 0.168}\r\n    end\r\n    if colorCycle == 6 then\r\n      selectedColor = \"Teal\"\r\n      colorParams.color = {0.129, 0.694, 0.607}\r\n    end\r\n    if colorCycle == 7 then\r\n      selectedColor = \"Blue\"\r\n      colorParams.color = {0.118, 0.53, 1}\r\n    end\r\n    if colorCycle == 8 then\r\n      selectedColor = \"Purple\"\r\n      colorParams.color = {0.627, 0.125, 0.941}\r\n    end\r\n    if colorCycle == 9 then\r\n      selectedColor = \"Pink\"\r\n      colorParams.color = {0.96, 0.439, 0.807}\r\n    end\r\n    if colorCycle == 10 then\r\n      selectedColor = \"Black\"\r\n      colorParams.color = {0,0,0}\r\n    end\r\n    broadcastToColor(selectedColor, playerColorClicked, colorParams.color)\r\n    self.editButton(colorParams)\r\n\r\n  else\r\n    broadcastToColor(\"Only the player color black can modify the selected player!\", playerColorClicked, stringColorToRGB(playerColorClicked))\r\n  end\r\nend",
+      "LuaScriptState": "",
+      "GUID": "487fef"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 6.46801567,
+        "posY": 0.913433731,
+        "posZ": 0.07296271,
+        "rotX": -7.37937E-05,
+        "rotY": 0.00512776431,
+        "rotZ": 8.909597E-05,
+        "scaleX": 0.250000447,
+        "scaleY": 0.250000447,
+        "scaleZ": 0.250000447
+      },
+      "Nickname": "Payout Bag",
+      "Description": "The item(s) that are spawned when payoutMatching is set to true and matching numbers are rolled. MUST BE A BAG!",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.7058823,
+        "g": 0.366520882,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Checker_red",
+          "Transform": {
+            "posX": 6.46808052,
+            "posY": 2.18872643,
+            "posZ": 0.07296367,
+            "rotX": 357.239075,
+            "rotY": 270.547363,
+            "rotZ": 164.762024,
+            "scaleX": 0.6750003,
+            "scaleY": 0.6750003,
+            "scaleZ": 0.6750003
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "cf8851"
+        }
+      ],
+      "GUID": "f24a23"
+    },
+    {
+      "Name": "Notecard",
+      "Transform": {
+        "posX": -0.0785616562,
+        "posY": 1.00024211,
+        "posZ": -2.28192782,
+        "rotX": 2.9246301E-05,
+        "rotY": -4.939884E-05,
+        "rotZ": -6.47004526E-06,
+        "scaleX": 0.5750004,
+        "scaleY": 0.5750004,
+        "scaleZ": 0.5750004
+      },
+      "Nickname": "[b]More info[/b]",
+      "Description": "Everything is set to false by default. You can temporarily change them until next load through the settings button, or set their default values in the script.\n\nRead the tooltips in the settings button for more info on what each option does.\n\nDefault dice rolls is 3 and sides 12.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "ee0df2"
+    }
+  ],
+  "DecalPallet": [],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": "v12.1.6"
+}

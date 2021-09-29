@@ -1,0 +1,1167 @@
+{
+  "SaveName": "Ascension: Chronicle of the Godslayer - Newbie Friendly Addendum",
+  "GameMode": "Ascension",
+  "Date": "6/15/2015 12:25:06 PM",
+  "Table": "Table_RPG",
+  "Sky": "Sky_Regal",
+  "Note": "Resources:                                                             \nRune - Silver Triangle - Buys Cards                   \nPower - Red Circle w/Sword - Fight Monsters   Honor - 10 & 50 Poker Chips                                \n>10, blue chip, is worth 1 honor point                  >50, green chip, is worth 5 honor points           \n\nBasic Cards:                                                         \nApprentice - +1 Rune (Start with 8)                  \nMilitia - +1 Power (Start with 2)                        \nMystic - +2 Runes                                                \nHeavy Infantry - +2 Power                                \nCultist - Immortal, attack for 1 honor               \n\nCenter Row Cards:                                               \nThe center row is where monsters, constructs, and  heroes reside.  You can fight monsters   for rewards or purchase constructs or heroes for your deck.\n\n                             ",
+  "Rules": "How To Play\n\nBasic How To Play: http://ascensiongame.com/game/how-to-play/\n\nFull Rule Book:\nhttp://ascensiongame.com/wp-content/blogs.dir/3/files/2013/04/CotG_Rulebook.pdf\n\nBasics, Concepts, Goals:\n\nEach player starts the game with a 10-card deck made up of eight Apprentices and two Militias. Apprentices provide Runes when played, which can be used to recruit Hero and Construct cards during the game. Militias provide another type of resource, Power, which is used to defeat Monsters. Honor is gained both by collecting Hero and Construct cards and defeating Monsters.\n\nThe game revolves around the Center Deck that contains Heroes, Constructs, and Monsters. Players take turn recruiting Heroes or Constructs for their decks, or defeating Monsters for the Honor and other bonuses. At the beginning of the game, six cards are placed in the Center Row face up. Whenever a card leaves the Center Row, it is immediately replaced with a card from the Center Deck. Players also have access to two Heroes, Mystics and Heavy Infantry, that they can recruit during their turn as well. Lastly, players may spend 2 Power at any time to defeat a Cultist, which will grant them 1 Honor.\n\nCard Types:\r\n\r\nHeroes and Constructs offer resources and special effects to aid you during the game. Constructs are different from Heroes in that they will stay in play turn after turn, meaning that you can keep getting the effect of a Construct every turn for as long as it is in play. Monsters need to be defeated to be removed from the Center Row, but grant you a reward when you kill them.\r\n\nBuilding Your Deck:\n\nAs the game progresses, you will recruit cards to your deck by placing them in your discard pile. Whenever your deck is empty and you need to draw a card, reshuffle your discard pile into your deck and continue to draw. As you recruit more cards and refresh your deck, you will gain access to the powerful cards the Center deck has to offer, and in doing so, be able to control what kind of strategy your deck will follow to win the game.\r\n\nWinning the Game:\n\r\nThe game ends when there are no more Honor Tokens remaining (the number you start the game with is determined by how many players there are). Players count the number of Honor Tokens they have, and add it to the total Honor value of the cards in their deck (denoted by the star in the lower left corner). The player with the highest Honor count is the winner!\n\nInformation for Hosts:\n\nNumber of Honor Tokens to Use\n2 Player = 60 Honor\n3 Players = 90 Honor\n4 Players = 120 Honor\n\nTotal Tokens w/4 players:\n25 Small honor tokens (25 Honor)\n25 Large honor tokens (125 Honor)\n\r\n",
+  "PlayerTurn": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": true,
+    "Snapping": true,
+    "Offset": true,
+    "xSize": 2.0,
+    "ySize": 2.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": true,
+    "Hidding": 0
+  },
+  "DrawImage": "iVBORw0KGgoAAAANSUhEUgAAAWAAAADQCAYAAAA53LuNAAAFFElEQVR4Ae3QgQAAAADDoPlTH+SFUGHAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgy8DQx5DAABHyNK3wAAAABJRU5ErkJggg==",
+  "ObjectStates": [
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -0.99878335,
+        "posY": 1.40012634,
+        "posZ": 7.00306368,
+        "rotX": 2.91737365E-06,
+        "rotY": 90.1227,
+        "rotZ": 7.584352E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713246942,
+        "g": 0.713246942,
+        "b": 0.713246942
+      },
+      "Grid": true,
+      "Locked": true,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        138,
+        133,
+        148,
+        126,
+        136,
+        150,
+        141,
+        133,
+        105,
+        132,
+        133,
+        147,
+        107,
+        125,
+        125,
+        113,
+        137,
+        111,
+        131,
+        116,
+        151,
+        146,
+        152,
+        113,
+        148,
+        132,
+        144,
+        121,
+        139,
+        149,
+        123,
+        131,
+        106,
+        149,
+        112,
+        146,
+        134,
+        136,
+        113,
+        115,
+        114,
+        140,
+        141,
+        143,
+        149,
+        127,
+        119,
+        123,
+        117,
+        124,
+        135,
+        108,
+        126,
+        127,
+        109,
+        113,
+        139,
+        115,
+        106,
+        133,
+        109,
+        106,
+        107,
+        123,
+        145,
+        118,
+        141,
+        147,
+        136,
+        152,
+        135,
+        135,
+        143,
+        150,
+        116,
+        125,
+        138,
+        110,
+        134,
+        144,
+        134,
+        129,
+        108,
+        126,
+        128,
+        122,
+        120,
+        127,
+        142,
+        130,
+        130,
+        114,
+        137,
+        144,
+        150,
+        146,
+        111
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "https://docs.google.com/uc?authuser=0&id=0B_o7z3GnhhKRUFJpSk5OdWg0cWc&export=download",
+          "BackURL": "https://docs.google.com/uc?authuser=0&id=0B_o7z3GnhhKRblEzTVlKY0FlVE0&export=download"
+        }
+      },
+      "GUID": "ed07bd"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -8.999798,
+        "posY": 1.01995623,
+        "posZ": -0.999713659,
+        "rotX": -2.218755E-06,
+        "rotY": 90.0314,
+        "rotZ": 2.33432E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713246942,
+        "g": 0.713246942,
+        "b": 0.713246942
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 104,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "https://docs.google.com/uc?authuser=0&id=0B_o7z3GnhhKRUFJpSk5OdWg0cWc&export=download",
+          "BackURL": "https://docs.google.com/uc?authuser=0&id=0B_o7z3GnhhKRblEzTVlKY0FlVE0&export=download"
+        }
+      },
+      "GUID": "1c6116"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": 7.0616374,
+        "posY": 1.01037669,
+        "posZ": 0.0547169223,
+        "rotX": -4.13510122E-07,
+        "rotY": 180.0335,
+        "rotZ": 2.74570965E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713246942,
+        "g": 0.713246942,
+        "b": 0.713246942
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        101,
+        100,
+        100,
+        100,
+        100,
+        100,
+        101,
+        100,
+        100,
+        100
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "https://docs.google.com/uc?authuser=0&id=0B_o7z3GnhhKRUFJpSk5OdWg0cWc&export=download",
+          "BackURL": "https://docs.google.com/uc?authuser=0&id=0B_o7z3GnhhKRblEzTVlKY0FlVE0&export=download"
+        }
+      },
+      "GUID": "d78fdf"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -8.999855,
+        "posY": 1.09698772,
+        "posZ": -6.999777,
+        "rotX": 4.230757E-06,
+        "rotY": 90.04017,
+        "rotZ": -5.42973737E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713246942,
+        "g": 0.713246942,
+        "b": 0.713246942
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        102,
+        102,
+        102,
+        102,
+        102,
+        102,
+        102,
+        102,
+        102,
+        102,
+        102,
+        102,
+        102,
+        102,
+        102,
+        102,
+        102,
+        102,
+        102,
+        102,
+        102,
+        102,
+        102,
+        102,
+        102,
+        102,
+        102,
+        102,
+        102,
+        102
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "https://docs.google.com/uc?authuser=0&id=0B_o7z3GnhhKRUFJpSk5OdWg0cWc&export=download",
+          "BackURL": "https://docs.google.com/uc?authuser=0&id=0B_o7z3GnhhKRblEzTVlKY0FlVE0&export=download"
+        }
+      },
+      "GUID": "4dacae"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -8.999856,
+        "posY": 1.09698772,
+        "posZ": 5.000222,
+        "rotX": 4.30785076E-06,
+        "rotY": 90.0372849,
+        "rotZ": 3.87647447E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713246942,
+        "g": 0.713246942,
+        "b": 0.713246942
+      },
+      "Grid": true,
+      "Locked": true,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        103,
+        103,
+        103,
+        103,
+        103,
+        103,
+        103,
+        103,
+        103,
+        103,
+        103,
+        103,
+        103,
+        103,
+        103,
+        103,
+        103,
+        103,
+        103,
+        103,
+        103,
+        103,
+        103,
+        103,
+        103,
+        103,
+        103,
+        103,
+        103
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "https://docs.google.com/uc?authuser=0&id=0B_o7z3GnhhKRUFJpSk5OdWg0cWc&export=download",
+          "BackURL": "https://docs.google.com/uc?authuser=0&id=0B_o7z3GnhhKRblEzTVlKY0FlVE0&export=download"
+        }
+      },
+      "GUID": "250df4"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": 22.6981239,
+        "posY": 1.07100439,
+        "posZ": -16.78241,
+        "rotX": 1.42745489E-06,
+        "rotY": 180.053741,
+        "rotZ": -3.936228E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713246942,
+        "g": 0.713246942,
+        "b": 0.713246942
+      },
+      "Grid": true,
+      "Locked": true,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        246,
+        237,
+        244,
+        240,
+        241,
+        248,
+        252,
+        243,
+        234,
+        249,
+        253,
+        245,
+        247,
+        239,
+        250,
+        232,
+        231,
+        238,
+        236,
+        254,
+        235,
+        233,
+        242,
+        251
+      ],
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "https://docs.google.com/uc?authuser=0&id=0B_o7z3GnhhKRQVhSTDJvNzFEZVU&export=download",
+          "BackURL": "https://docs.google.com/uc?authuser=0&id=0B_o7z3GnhhKRblEzTVlKY0FlVE0&export=download"
+        }
+      },
+      "GUID": "04b36a"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": 13.9032974,
+        "posY": 1.24855709,
+        "posZ": -16.79936,
+        "rotX": -1.97435861E-06,
+        "rotY": 180.067963,
+        "rotZ": -1.49587349E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713246942,
+        "g": 0.713246942,
+        "b": 0.713246942
+      },
+      "Grid": true,
+      "Locked": true,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        213,
+        212,
+        201,
+        225,
+        202,
+        213,
+        218,
+        205,
+        223,
+        204,
+        223,
+        229,
+        224,
+        217,
+        230,
+        218,
+        228,
+        212,
+        216,
+        210,
+        228,
+        209,
+        203,
+        207,
+        207,
+        219,
+        209,
+        230,
+        208,
+        227,
+        221,
+        202,
+        222,
+        229,
+        214,
+        226,
+        201,
+        227,
+        210,
+        204,
+        230,
+        220,
+        222,
+        217,
+        208,
+        228,
+        210,
+        215,
+        211,
+        214,
+        219,
+        204,
+        219,
+        228,
+        218,
+        203,
+        213,
+        206,
+        216,
+        217,
+        222,
+        202,
+        215,
+        216,
+        200
+      ],
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "https://docs.google.com/uc?authuser=0&id=0B_o7z3GnhhKRQVhSTDJvNzFEZVU&export=download",
+          "BackURL": "https://docs.google.com/uc?authuser=0&id=0B_o7z3GnhhKRblEzTVlKY0FlVE0&export=download"
+        }
+      },
+      "GUID": "1146b0"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": 16.4232388,
+        "posY": 1.0103699,
+        "posZ": -16.8013439,
+        "rotX": -0.00391811,
+        "rotY": 179.549515,
+        "rotZ": -0.0002429399,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713246942,
+        "g": 0.713246942,
+        "b": 0.713246942
+      },
+      "Grid": true,
+      "Locked": true,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        100,
+        101,
+        100,
+        100,
+        101,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "https://docs.google.com/uc?authuser=0&id=0B_o7z3GnhhKRUFJpSk5OdWg0cWc&export=download",
+          "BackURL": "https://docs.google.com/uc?authuser=0&id=0B_o7z3GnhhKRblEzTVlKY0FlVE0&export=download"
+        }
+      },
+      "GUID": "0e6763"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": 10.0542736,
+        "posY": 1.01037669,
+        "posZ": 0.0547913574,
+        "rotX": -5.223354E-07,
+        "rotY": 180.032455,
+        "rotZ": 2.59000376E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713246942,
+        "g": 0.713246942,
+        "b": 0.713246942
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        101,
+        100,
+        101
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "https://docs.google.com/uc?authuser=0&id=0B_o7z3GnhhKRUFJpSk5OdWg0cWc&export=download",
+          "BackURL": "https://docs.google.com/uc?authuser=0&id=0B_o7z3GnhhKRblEzTVlKY0FlVE0&export=download"
+        }
+      },
+      "GUID": "02784f"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": 19.7880249,
+        "posY": 1.0103749,
+        "posZ": -16.8057747,
+        "rotX": -1.77473737E-06,
+        "rotY": 179.951141,
+        "rotZ": 5.798727E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713246942,
+        "g": 0.713246942,
+        "b": 0.713246942
+      },
+      "Grid": true,
+      "Locked": true,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        101,
+        101,
+        100,
+        100
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "https://docs.google.com/uc?authuser=0&id=0B_o7z3GnhhKRUFJpSk5OdWg0cWc&export=download",
+          "BackURL": "https://docs.google.com/uc?authuser=0&id=0B_o7z3GnhhKRblEzTVlKY0FlVE0&export=download"
+        }
+      },
+      "GUID": "03981c"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": 10.0512333,
+        "posY": 1.01037669,
+        "posZ": 4.23397875,
+        "rotX": -9.09086353E-08,
+        "rotY": 180.001526,
+        "rotZ": -6.429726E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713246942,
+        "g": 0.713246942,
+        "b": 0.713246942
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        101,
+        100,
+        100,
+        100,
+        100,
+        100,
+        101,
+        100,
+        100,
+        100
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "https://docs.google.com/uc?authuser=0&id=0B_o7z3GnhhKRUFJpSk5OdWg0cWc&export=download",
+          "BackURL": "https://docs.google.com/uc?authuser=0&id=0B_o7z3GnhhKRblEzTVlKY0FlVE0&export=download"
+        }
+      },
+      "GUID": "a169bf"
+    },
+    {
+      "Name": "ChipStack",
+      "Transform": {
+        "posX": 8.947975,
+        "posY": 1.01574278,
+        "posZ": 9.069954,
+        "rotX": -1.16956733E-06,
+        "rotY": 270.135742,
+        "rotZ": 2.74259264E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": 10,
+      "Number": 5,
+      "GUID": "74d605"
+    },
+    {
+      "Name": "ChipStack",
+      "Transform": {
+        "posX": 7.00095272,
+        "posY": 1.01574254,
+        "posZ": 9.00828,
+        "rotX": -2.037491E-06,
+        "rotY": 359.9525,
+        "rotZ": -4.182324E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": 10,
+      "Number": 10,
+      "GUID": "53bf9d"
+    },
+    {
+      "Name": "ChipStack",
+      "Transform": {
+        "posX": -5.13865852,
+        "posY": 1.01574278,
+        "posZ": 9.197087,
+        "rotX": 1.787719E-05,
+        "rotY": 0.004629198,
+        "rotZ": -5.263057E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": 50,
+      "Number": 10,
+      "GUID": "21c536"
+    },
+    {
+      "Name": "ChipStack",
+      "Transform": {
+        "posX": 5.05657339,
+        "posY": 1.01574278,
+        "posZ": 9.0721,
+        "rotX": 6.632383E-07,
+        "rotY": 270.026978,
+        "rotZ": -4.68582471E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": 10,
+      "Number": 10,
+      "GUID": "09d784"
+    },
+    {
+      "Name": "ChipStack",
+      "Transform": {
+        "posX": -7.02903128,
+        "posY": 1.01574278,
+        "posZ": 9.07063,
+        "rotX": -8.915995E-06,
+        "rotY": 359.948547,
+        "rotZ": -1.63613015E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": 50,
+      "Number": 10,
+      "GUID": "70b04e"
+    },
+    {
+      "Name": "ChipStack",
+      "Transform": {
+        "posX": -9.178543,
+        "posY": 1.01574278,
+        "posZ": 9.070865,
+        "rotX": -3.60429544E-06,
+        "rotY": 0.0650215,
+        "rotZ": 2.38304583E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": 50,
+      "Number": 5,
+      "GUID": "b3dfb8"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": 7.051463,
+        "posY": 1.01037669,
+        "posZ": 4.2354064,
+        "rotX": 3.28810358E-07,
+        "rotY": 180.048325,
+        "rotZ": -9.977778E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713262558,
+        "g": 0.713262558,
+        "b": 0.713262558
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        100,
+        100,
+        100,
+        101,
+        100,
+        101,
+        100,
+        100,
+        100,
+        100
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "https://docs.google.com/uc?authuser=0&id=0B_o7z3GnhhKRUFJpSk5OdWg0cWc&export=download",
+          "BackURL": "https://docs.google.com/uc?authuser=0&id=0B_o7z3GnhhKRblEzTVlKY0FlVE0&export=download"
+        }
+      },
+      "GUID": "da489f"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 14.1525717,
+        "posY": 4.69863272,
+        "posZ": -74.3694458,
+        "rotX": -0.00102615939,
+        "rotY": 90.02594,
+        "rotZ": -0.0037693393,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921611,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": true,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=dzanhBEX",
+        "DiffuseURL": "http://i58.tinypic.com/2vb8kyv.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=dzanhBEX",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.5,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": false
+      },
+      "GUID": "0ceb24"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -0.996815264,
+        "posY": 2.008508,
+        "posZ": 6.995035,
+        "rotX": 3.3722406E-06,
+        "rotY": 89.82138,
+        "rotZ": 8.247892E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.71325475,
+        "g": 0.71325475,
+        "b": 0.71325475
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        105,
+        118,
+        127
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "https://docs.google.com/uc?authuser=0&id=0B_o7z3GnhhKRUFJpSk5OdWg0cWc&export=download",
+          "BackURL": "https://docs.google.com/uc?authuser=0&id=0B_o7z3GnhhKRblEzTVlKY0FlVE0&export=download"
+        }
+      },
+      "GUID": "e06017"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -9.000425,
+        "posY": 1.34342682,
+        "posZ": 5.00046968,
+        "rotX": 4.21899949E-06,
+        "rotY": 90.02003,
+        "rotZ": -1.87301183E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7132509,
+        "g": 0.7132509,
+        "b": 0.7132509
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 103,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "https://docs.google.com/uc?authuser=0&id=0B_o7z3GnhhKRUFJpSk5OdWg0cWc&export=download",
+          "BackURL": "https://docs.google.com/uc?authuser=0&id=0B_o7z3GnhhKRblEzTVlKY0FlVE0&export=download"
+        }
+      },
+      "GUID": "516685"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -3.39524841,
+        "posY": 4.70124626,
+        "posZ": -3.30667949,
+        "rotX": 0.000295978127,
+        "rotY": -0.000371036818,
+        "rotZ": 0.00708526839,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921611,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": true,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=dzanhBEX",
+        "DiffuseURL": "http://i58.tinypic.com/2vb8kyv.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=dzanhBEX",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.5,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": false
+      },
+      "GUID": "e66ade"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -15.3395548,
+        "posY": 4.701241,
+        "posZ": -7.30318069,
+        "rotX": 0.001985819,
+        "rotY": 89.9944839,
+        "rotZ": 359.97,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921611,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": true,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=dzanhBEX",
+        "DiffuseURL": "http://i58.tinypic.com/2vb8kyv.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=dzanhBEX",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.5,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": false
+      },
+      "GUID": "2960c9"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 3.58377838,
+        "posY": 4.70124435,
+        "posZ": 6.43764925,
+        "rotX": 359.994049,
+        "rotY": 180.001892,
+        "rotZ": 359.980835,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921611,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": true,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=dzanhBEX",
+        "DiffuseURL": "http://i58.tinypic.com/2vb8kyv.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=dzanhBEX",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.5,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": false
+      },
+      "GUID": "908567"
+    },
+    {
+      "Name": "Tablet",
+      "Transform": {
+        "posX": -0.9999586,
+        "posY": 1.47619975,
+        "posZ": -13.0002718,
+        "rotX": -2.74737886E-05,
+        "rotY": 179.994034,
+        "rotZ": -1.045832E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "Tablet": {
+        "PageURL": "http://ascensiongame.com/game/how-to-play/"
+      },
+      "GUID": "45c5bb"
+    }
+  ]
+}

@@ -1,0 +1,6511 @@
+{
+  "SaveName": "BattleTech Mech Pack 2 - Large IS Collection",
+  "GameMode": "MWO Models",
+  "Date": "12/3/2015 7:44:11 PM",
+  "Table": "Table_Custom",
+  "TableURL": "http://i.imgur.com/md8LtFX.jpg",
+  "Sky": "Sky_Museum",
+  "Note": "Mechs are alphabetized and also in bags to reduce load on the client.",
+  "Rules": "",
+  "PlayerTurn": "",
+  "Grid": {
+    "Type": 1,
+    "Lines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 1.5,
+    "ySize": 1.5,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hidding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -19.67393,
+          "posY": 3.29337788,
+          "posZ": -34.42515,
+          "rotX": -4.66083527E-09,
+          "rotY": -8.14222E-11,
+          "rotZ": 2.71085043E-10,
+          "scaleX": 15.32689,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014439
+        },
+        "GameMaster": false
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -51.6596222,
+          "posY": 3.29337788,
+          "posZ": 13.2644405,
+          "rotX": -2.7107927E-10,
+          "rotY": 90.00015,
+          "rotZ": -4.6608406E-09,
+          "scaleX": 15.1940126,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.40568161
+        },
+        "GameMaster": false
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 51.5785675,
+          "posY": 3.29337788,
+          "posZ": 12.5024261,
+          "rotX": 2.71084849E-10,
+          "rotY": 270.0,
+          "rotZ": 4.660842E-09,
+          "scaleX": 15.1939993,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.40568161
+        },
+        "GameMaster": false
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 20.148037,
+          "posY": 3.29337788,
+          "posZ": 34.4527626,
+          "rotX": 4.65986627E-09,
+          "rotY": 179.8,
+          "rotZ": -2.87352614E-10,
+          "scaleX": 15.3268766,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014963
+        },
+        "GameMaster": false
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 19.78505,
+          "posY": 3.29337788,
+          "posZ": -34.2558136,
+          "rotX": -4.66083527E-09,
+          "rotY": -8.14222E-11,
+          "rotZ": 2.71085043E-10,
+          "scaleX": 15.3268738,
+          "scaleY": 11.8970547,
+          "scaleZ": 6.70504856
+        },
+        "GameMaster": false
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": -19.78069,
+          "posY": 3.29337788,
+          "posZ": 34.43159,
+          "rotX": 4.660836E-09,
+          "rotY": 180.000244,
+          "rotZ": -2.71075828E-10,
+          "scaleX": 15.3268738,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014439
+        },
+        "GameMaster": false
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 51.64263,
+          "posY": 3.29337788,
+          "posZ": -11.0142794,
+          "rotX": 2.71084849E-10,
+          "rotY": 270.0,
+          "rotZ": 4.660842E-09,
+          "scaleX": 15.1939993,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.40568161
+        },
+        "GameMaster": false
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -51.6596222,
+          "posY": 3.29337788,
+          "posZ": -11.5011253,
+          "rotX": -2.7107927E-10,
+          "rotY": 90.00015,
+          "rotZ": -4.6608406E-09,
+          "scaleX": 15.1940165,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.40568161
+        },
+        "GameMaster": false
+      }
+    ]
+  },
+  "DrawImage": "iVBORw0KGgoAAAANSUhEUgAAAWAAAADQCAYAAAA53LuNAAAFFElEQVR4Ae3QgQAAAADDoPlTH+SFUGHAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgy8DQx5DAABHyNK3wAAAABJRU5ErkJggg==",
+  "VectorLines": [],
+  "ObjectStates": [
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": -2.250563,
+        "posY": 0.818225145,
+        "posZ": 2.59807587,
+        "rotX": -9.363104E-07,
+        "rotY": 0.0308367331,
+        "rotZ": -1.57147917E-06,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Highlander",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7059061,
+        "g": 0.3665579,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 5.38908644E-05,
+            "posY": 2.490241,
+            "posZ": 2.59941554,
+            "rotX": 0.0100102089,
+            "rotY": 180.02739,
+            "rotZ": -0.000131061024,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Highlander",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992162347,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=Bv7SJLHG",
+            "DiffuseURL": "http://i.imgur.com/b3TzDdz.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=eJf4z7K0",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "7dcdbe"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -0.0001701056,
+            "posY": 2.5048933,
+            "posZ": 2.5959084,
+            "rotX": 359.777,
+            "rotY": 179.9815,
+            "rotZ": 0.0175002031,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Highlander",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992162347,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=Bv7SJLHG",
+            "DiffuseURL": "http://i.imgur.com/1yBUfiD.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=eJf4z7K0",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "1907e9"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -0.000159735762,
+            "posY": 2.50650454,
+            "posZ": 2.59603882,
+            "rotX": 359.789276,
+            "rotY": 179.968079,
+            "rotZ": 0.016548926,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Highlander",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.99216187,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=Bv7SJLHG",
+            "DiffuseURL": "http://i.imgur.com/OPflKgu.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=eJf4z7K0",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "3615e8"
+        }
+      ],
+      "GUID": "67b71b"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": -4.501126,
+        "posY": 0.818224847,
+        "posZ": 2.598076,
+        "rotX": -1.28978274E-06,
+        "rotY": 0.0053586443,
+        "rotZ": 7.862329E-06,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Griffin",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.70591,
+        "g": 0.366564035,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -2.25031877,
+            "posY": 2.486658,
+            "posZ": 2.602301,
+            "rotX": 0.2926072,
+            "rotY": 180.035416,
+            "rotZ": 359.9734,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Griffin",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992162347,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=ngSVp1EB",
+            "DiffuseURL": "http://i.imgur.com/K0I33Xo.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=pQXUfLTp",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "79bd6b"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -2.25042939,
+            "posY": 2.50418568,
+            "posZ": 2.597095,
+            "rotX": 359.883636,
+            "rotY": 180.0313,
+            "rotZ": 359.984222,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Griffin",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992162347,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=ngSVp1EB",
+            "DiffuseURL": "http://i.imgur.com/ZKzyHzh.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=pQXUfLTp",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "5ffb59"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -2.25033259,
+            "posY": 2.48836017,
+            "posZ": 2.60205579,
+            "rotX": 0.2752502,
+            "rotY": 180.013336,
+            "rotZ": 359.9746,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Griffin",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.99216187,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=ngSVp1EB",
+            "DiffuseURL": "http://i.imgur.com/D27Zl5p.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=pQXUfLTp",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "5f6290"
+        }
+      ],
+      "GUID": "6f06cf"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": -6.75169,
+        "posY": 0.8182249,
+        "posZ": 2.59807515,
+        "rotX": -1.25481648E-07,
+        "rotY": 0.02102406,
+        "rotZ": 1.43606382E-09,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Grasshopper",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705914,
+        "g": 0.3665702,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -4.50114059,
+            "posY": 2.500342,
+            "posZ": 2.59875035,
+            "rotX": 359.965942,
+            "rotY": 180.013947,
+            "rotZ": 0.00171723845,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Grasshopper",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921626,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=aAECTyjK",
+            "DiffuseURL": "http://i.imgur.com/j0dWR4l.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=hTGMj3i5",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "ff1fe4"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -4.50113869,
+            "posY": 2.50467014,
+            "posZ": 2.59584045,
+            "rotX": 359.750916,
+            "rotY": 179.992279,
+            "rotZ": 0.00154759886,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Grasshopper",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921626,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=aAECTyjK",
+            "DiffuseURL": "http://i.imgur.com/4M5J7j1.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=hTGMj3i5",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "8ec702"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -4.501149,
+            "posY": 2.48769951,
+            "posZ": 2.59936571,
+            "rotX": 359.9807,
+            "rotY": 179.995316,
+            "rotZ": 0.002525146,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Grasshopper",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921621,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=aAECTyjK",
+            "DiffuseURL": "http://i.imgur.com/SHSEb9T.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=hTGMj3i5",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "6886f3"
+        }
+      ],
+      "GUID": "b09d38"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": -9.00225449,
+        "posY": 0.8182249,
+        "posZ": 2.59807587,
+        "rotX": -4.26354148E-07,
+        "rotY": 0.0417706743,
+        "rotZ": -3.17819286E-07,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Firestarter",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705914,
+        "g": 0.3665702,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -6.75193,
+            "posY": 2.48466682,
+            "posZ": 2.59174418,
+            "rotX": 358.9301,
+            "rotY": 180.030014,
+            "rotZ": 0.0403404571,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Firestarter",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921628,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=fhrYQbPP",
+            "DiffuseURL": "http://i.imgur.com/b4ESYdB.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=Mn1wXSXL",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "cddcb2"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -6.75181246,
+            "posY": 2.50302672,
+            "posZ": 2.594793,
+            "rotX": 359.384338,
+            "rotY": 180.031982,
+            "rotZ": 0.0230463259,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Firestarter",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921628,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=fhrYQbPP",
+            "DiffuseURL": "http://i.imgur.com/I8Zfp73.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=Mn1wXSXL",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "72744f"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -6.75190735,
+            "posY": 2.48777223,
+            "posZ": 2.5923264,
+            "rotX": 359.0119,
+            "rotY": 180.0113,
+            "rotZ": 0.0374925248,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Firestarter",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992162347,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=fhrYQbPP",
+            "DiffuseURL": "http://i.imgur.com/H7Yifm7.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=Mn1wXSXL",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "0d6de4"
+        }
+      ],
+      "GUID": "1aa8c7"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": -11.2528172,
+        "posY": 0.818224967,
+        "posZ": 2.598076,
+        "rotX": 5.46813048E-08,
+        "rotY": 0.0209002141,
+        "rotZ": -3.8268746E-07,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Enforcer",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705914,
+        "g": 0.3665702,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -9.002281,
+            "posY": 2.50762653,
+            "posZ": 2.59601784,
+            "rotX": 359.7066,
+            "rotY": 180.018784,
+            "rotZ": 0.004288823,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Enforcer",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921628,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=H4Pxv4Y1",
+            "DiffuseURL": "http://i.imgur.com/JDRwQJp.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=DuVZdHmD",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "1a6553"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -9.002318,
+            "posY": 2.485622,
+            "posZ": 2.59962869,
+            "rotX": -0.00102046563,
+            "rotY": 179.98317,
+            "rotZ": 0.00876567,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Enforcer",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921628,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=H4Pxv4Y1",
+            "DiffuseURL": "http://i.imgur.com/zhWkOj2.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=DuVZdHmD",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "b2c519"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -9.002312,
+            "posY": 2.4884584,
+            "posZ": 2.59943533,
+            "rotX": 359.989258,
+            "rotY": 180.022278,
+            "rotZ": 0.007954064,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Enforcer",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992162347,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=H4Pxv4Y1",
+            "DiffuseURL": "http://i.imgur.com/aw7zqcP.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=DuVZdHmD",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "864134"
+        }
+      ],
+      "GUID": "3f79b6"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": -13.50338,
+        "posY": 0.818225145,
+        "posZ": 2.59807587,
+        "rotX": -2.911972E-07,
+        "rotY": 359.9873,
+        "rotZ": -4.81175775E-08,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Dragon",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705914,
+        "g": 0.3665702,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -11.252532,
+            "posY": 2.48607564,
+            "posZ": 2.59287453,
+            "rotX": 359.4397,
+            "rotY": 179.971329,
+            "rotZ": 359.9701,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Dragon",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921631,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=YfTCQqjP",
+            "DiffuseURL": "http://i.imgur.com/yi7cvkO.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=g4iVqgPN",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "98c72b"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -11.2527189,
+            "posY": 2.48837757,
+            "posZ": 2.59338617,
+            "rotX": 359.490845,
+            "rotY": 179.977051,
+            "rotZ": 359.99,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Dragon",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921631,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=YfTCQqjP",
+            "DiffuseURL": "http://i.imgur.com/gtUu93U.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=g4iVqgPN",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "d46e7a"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -11.2530422,
+            "posY": 2.48683667,
+            "posZ": 2.59322739,
+            "rotX": 359.476379,
+            "rotY": 179.992722,
+            "rotZ": 0.024759477,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Dragon",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921626,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=YfTCQqjP",
+            "DiffuseURL": "http://i.imgur.com/QL1jpnu.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=g4iVqgPN",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "61ad13"
+        }
+      ],
+      "GUID": "a334d1"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": -15.7539425,
+        "posY": 0.818225,
+        "posZ": 2.59807539,
+        "rotX": 1.10545443E-06,
+        "rotY": 0.0209389515,
+        "rotZ": 1.77486754E-06,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Crab",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705914,
+        "g": 0.3665702,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -13.50004,
+            "posY": 2.484238,
+            "posZ": 2.588009,
+            "rotX": 358.580261,
+            "rotY": 180.017,
+            "rotZ": 359.654968,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Crab",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921631,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=HdLidfFH",
+            "DiffuseURL": "http://i.imgur.com/xLpnLKz.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=YxGDM1fs",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "3f1420"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -13.5004158,
+            "posY": 2.48767185,
+            "posZ": 2.588959,
+            "rotX": 358.6948,
+            "rotY": 180.0083,
+            "rotZ": 359.691925,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Crab",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921631,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=HdLidfFH",
+            "DiffuseURL": "http://i.imgur.com/3WBAxgO.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=YxGDM1fs",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "7a13e3"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -13.5003853,
+            "posY": 2.487382,
+            "posZ": 2.58888125,
+            "rotX": 358.685364,
+            "rotY": 180.012009,
+            "rotZ": 359.688782,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Crab",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921626,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=HdLidfFH",
+            "DiffuseURL": "http://i.imgur.com/kA7btoI.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=YxGDM1fs",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "290c41"
+        }
+      ],
+      "GUID": "16b345"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": -18.0045013,
+        "posY": 0.818225563,
+        "posZ": 2.59807539,
+        "rotX": -1.238316E-07,
+        "rotY": 0.0447475724,
+        "rotZ": 4.53917579E-08,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Commando",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705914,
+        "g": 0.3665702,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -15.7564507,
+            "posY": 2.50512981,
+            "posZ": 2.59991717,
+            "rotX": 0.337662965,
+            "rotY": 179.992966,
+            "rotZ": 0.458589584,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Commando",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.99216336,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=xr5aYf6Y",
+            "DiffuseURL": "http://i.imgur.com/gsasQop.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=9PdFEiDJ",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "3d7325"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -15.7586861,
+            "posY": 2.488553,
+            "posZ": 2.6081996,
+            "rotX": 1.45888293,
+            "rotY": 179.969543,
+            "rotZ": 0.7840538,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Commando",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.99216336,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=xr5aYf6Y",
+            "DiffuseURL": "http://i.imgur.com/OXCiAof.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=9PdFEiDJ",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "7c2465"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -15.7586918,
+            "posY": 2.48851061,
+            "posZ": 2.60821462,
+            "rotX": 1.46076989,
+            "rotY": 179.969574,
+            "rotZ": 0.7849763,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Commando",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921628,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=xr5aYf6Y",
+            "DiffuseURL": "http://i.imgur.com/tqs6J9y.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=9PdFEiDJ",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "9c03e9"
+        }
+      ],
+      "GUID": "19587e"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": -20.2550659,
+        "posY": 0.818225,
+        "posZ": 2.598076,
+        "rotX": 2.98806668E-07,
+        "rotY": 0.020996904,
+        "rotZ": 5.3220424E-07,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Cicada",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705914,
+        "g": 0.3665702,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -18.004858,
+            "posY": 2.48545647,
+            "posZ": 2.5980525,
+            "rotX": -0.00296574854,
+            "rotY": 180.0097,
+            "rotZ": 0.04482282,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Cicada",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921635,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=qJf9GCta",
+            "DiffuseURL": "http://i.imgur.com/CGYmmgI.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=2SCSTKmG",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "29d2cc"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -18.0048447,
+            "posY": 2.486616,
+            "posZ": 2.59805322,
+            "rotX": -0.00293254759,
+            "rotY": 180.010529,
+            "rotZ": 0.0435447544,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Cicada",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921635,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=qJf9GCta",
+            "DiffuseURL": "http://i.imgur.com/bevUowG.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=2SCSTKmG",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "b26bac"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -18.0048389,
+            "posY": 2.48736739,
+            "posZ": 2.59805346,
+            "rotX": -0.00287115388,
+            "rotY": 179.986938,
+            "rotZ": 0.0428601131,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Cicada",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992163,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=qJf9GCta",
+            "DiffuseURL": "http://i.imgur.com/fnhxYx4.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=2SCSTKmG",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "3999fa"
+        }
+      ],
+      "GUID": "57a799"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": -22.5056286,
+        "posY": 0.818224847,
+        "posZ": 2.598075,
+        "rotX": 1.30347985E-07,
+        "rotY": 0.0405140035,
+        "rotZ": 3.84619455E-07,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Centurion",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705914,
+        "g": 0.3665702,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -20.2522583,
+            "posY": 2.485345,
+            "posZ": 2.596017,
+            "rotX": 359.703979,
+            "rotY": 180.010178,
+            "rotZ": 359.7579,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Centurion",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921616,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=KYtgc1A6",
+            "DiffuseURL": "http://i.imgur.com/oayLqPM.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=93agS5mZ",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "1c8690"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -20.2525234,
+            "posY": 2.48831272,
+            "posZ": 2.59616041,
+            "rotX": 359.722229,
+            "rotY": 180.049713,
+            "rotZ": 359.779358,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Centurion",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921616,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=KYtgc1A6",
+            "DiffuseURL": "http://i.imgur.com/GEuF3lh.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=93agS5mZ",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "b9e4d2"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -20.25243,
+            "posY": 2.48726273,
+            "posZ": 2.59611154,
+            "rotX": 359.715851,
+            "rotY": 180.013229,
+            "rotZ": 359.772064,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Centurion",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921611,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=KYtgc1A6",
+            "DiffuseURL": "http://i.imgur.com/Q59NhD0.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=93agS5mZ",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "304ebf"
+        }
+      ],
+      "GUID": "b4c2b1"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": -24.7561932,
+        "posY": 0.818225,
+        "posZ": 2.59807563,
+        "rotX": 5.74944124E-06,
+        "rotY": 0.04049162,
+        "rotZ": -4.778577E-08,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Catapult",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705914,
+        "g": 0.3665702,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -22.50611,
+            "posY": 2.48566437,
+            "posZ": 2.59889054,
+            "rotX": 0.0909966156,
+            "rotY": 179.976074,
+            "rotZ": 0.0537239946,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Catapult",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.99216336,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=wbfQSPSL",
+            "DiffuseURL": "http://i.imgur.com/h7wfzZA.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=JBGUv1mj",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "561b72"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -22.5060863,
+            "posY": 2.48749256,
+            "posZ": 2.59884953,
+            "rotX": 0.08695404,
+            "rotY": 179.989151,
+            "rotZ": 0.051265642,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Catapult",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.99216336,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=wbfQSPSL",
+            "DiffuseURL": "http://i.imgur.com/sp0qzWV.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=JBGUv1mj",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "7ba1b1"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -22.5060844,
+            "posY": 2.487708,
+            "posZ": 2.598845,
+            "rotX": 0.08648043,
+            "rotY": 179.9666,
+            "rotZ": 0.05114585,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Catapult",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921628,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=wbfQSPSL",
+            "DiffuseURL": "http://i.imgur.com/PITK9LY.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=JBGUv1mj",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "f0c00b"
+        }
+      ],
+      "GUID": "6dfeea"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": -27.0067558,
+        "posY": 0.818224967,
+        "posZ": 2.59807539,
+        "rotX": 7.463667E-06,
+        "rotY": 0.0402654447,
+        "rotZ": 1.11507143E-06,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Cataphract",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705914,
+        "g": 0.3665702,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -24.7529984,
+            "posY": 2.483955,
+            "posZ": 2.59102917,
+            "rotX": 359.192871,
+            "rotY": 180.041046,
+            "rotZ": 359.740021,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Cataphract",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.99216336,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=GMNaMdtG",
+            "DiffuseURL": "http://i.imgur.com/n3DqpT8.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=B6MsJSsw",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "ca3479"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -24.755867,
+            "posY": 2.48620033,
+            "posZ": 2.589896,
+            "rotX": 359.111847,
+            "rotY": 179.98201,
+            "rotZ": 359.9652,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Cataphract",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.99216336,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=GMNaMdtG",
+            "DiffuseURL": "http://i.imgur.com/nIocbbe.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=B6MsJSsw",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "4f522a"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -24.7558765,
+            "posY": 2.48708153,
+            "posZ": 2.590095,
+            "rotX": 359.130829,
+            "rotY": 180.011932,
+            "rotZ": 359.965851,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Cataphract",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921628,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=GMNaMdtG",
+            "DiffuseURL": "http://i.imgur.com/7zXXBUD.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=B6MsJSsw",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "f3d937"
+        }
+      ],
+      "GUID": "6e94c9"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": -29.25732,
+        "posY": 0.818224847,
+        "posZ": 2.59807515,
+        "rotX": 1.82977647E-06,
+        "rotY": 0.0207992252,
+        "rotZ": -1.07902342E-05,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Blackjack",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705914,
+        "g": 0.3665702,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -27.0068989,
+            "posY": 2.486045,
+            "posZ": 2.59370279,
+            "rotX": 359.255859,
+            "rotY": 180.013,
+            "rotZ": 0.0186542571,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Blackjack",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921636,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=ju5vVkmM",
+            "DiffuseURL": "http://i.imgur.com/pj9AJd8.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=pMFPrd4Y",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "98aeb4"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -27.00691,
+            "posY": 2.48377037,
+            "posZ": 2.5934813,
+            "rotX": 359.222534,
+            "rotY": 180.012863,
+            "rotZ": 0.0197286922,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Blackjack",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921636,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=ju5vVkmM",
+            "DiffuseURL": "http://i.imgur.com/Ca9Nn73.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=pMFPrd4Y",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "c1b560"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -27.0068989,
+            "posY": 2.48650932,
+            "posZ": 2.593748,
+            "rotX": 359.262634,
+            "rotY": 179.968826,
+            "rotZ": 0.0186471567,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Blackjack",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921631,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=ju5vVkmM",
+            "DiffuseURL": "http://i.imgur.com/s5jcoON.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=pMFPrd4Y",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "b5bc39"
+        }
+      ],
+      "GUID": "3d6715"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": -31.5078831,
+        "posY": 0.8182248,
+        "posZ": 2.598074,
+        "rotX": 7.96241147E-06,
+        "rotY": 0.04634944,
+        "rotZ": 5.7276935E-05,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Black Knight",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705914,
+        "g": 0.3665702,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -29.2574844,
+            "posY": 2.48682666,
+            "posZ": 2.589286,
+            "rotX": 359.055084,
+            "rotY": 179.959442,
+            "rotZ": 0.0188314449,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Black Knight",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.99216187,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=3GsfHVEe",
+            "DiffuseURL": "http://i.imgur.com/34ulONP.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=DqcPqixq",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "ed996b"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -29.25748,
+            "posY": 2.4874568,
+            "posZ": 2.58943939,
+            "rotX": 359.06958,
+            "rotY": 179.964157,
+            "rotZ": 0.0185538083,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Black Knight",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.99216187,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=3GsfHVEe",
+            "DiffuseURL": "http://i.imgur.com/IMUgWpg.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=DqcPqixq",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "c4cf32"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -29.2574978,
+            "posY": 2.48503375,
+            "posZ": 2.58884144,
+            "rotX": 359.013367,
+            "rotY": 180.023132,
+            "rotZ": 0.0194491241,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Black Knight",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992161334,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=3GsfHVEe",
+            "DiffuseURL": "http://i.imgur.com/RrHwcLr.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=DqcPqixq",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "39c8db"
+        }
+      ],
+      "GUID": "907644"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": -33.75844,
+        "posY": 0.818224847,
+        "posZ": 2.59807587,
+        "rotX": 5.92000546E-08,
+        "rotY": 0.0206118114,
+        "rotZ": -1.58308566E-08,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "BattleMaster",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705914,
+        "g": 0.3665702,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -31.5056171,
+            "posY": 2.48686028,
+            "posZ": 2.59448862,
+            "rotX": 359.593719,
+            "rotY": 180.009918,
+            "rotZ": 359.8461,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "BattleMaster",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921616,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=3pxsxyv6",
+            "DiffuseURL": "http://i.imgur.com/ygVyqTt.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=6WVvG9h6",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "a5e0b1"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -31.50564,
+            "posY": 2.48717427,
+            "posZ": 2.59451628,
+            "rotX": 359.596527,
+            "rotY": 180.012222,
+            "rotZ": 359.847656,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "BattleMaster",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921616,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=3pxsxyv6",
+            "DiffuseURL": "http://i.imgur.com/KRPdj8m.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=6WVvG9h6",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "00643a"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -31.505703,
+            "posY": 2.48807073,
+            "posZ": 2.5946,
+            "rotX": 359.604828,
+            "rotY": 179.994568,
+            "rotZ": 359.851929,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "BattleMaster",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921611,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=3pxsxyv6",
+            "DiffuseURL": "http://i.imgur.com/IObp9gV.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=6WVvG9h6",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "73d098"
+        }
+      ],
+      "GUID": "d9fc33"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": -36.0090027,
+        "posY": 0.818225,
+        "posZ": 2.598076,
+        "rotX": 9.996919E-08,
+        "rotY": 0.02069862,
+        "rotZ": 4.562951E-07,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Banshee",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705914,
+        "g": 0.3665702,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -33.7571,
+            "posY": 2.498876,
+            "posZ": 2.59368181,
+            "rotX": 359.536865,
+            "rotY": 180.021118,
+            "rotZ": 359.9158,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Banshee",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921636,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=GBmY6FG7",
+            "DiffuseURL": "http://i.imgur.com/lHpOZfr.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=3b7pM0fY",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "219a04"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -33.7563362,
+            "posY": 2.48646021,
+            "posZ": 2.59168887,
+            "rotX": 359.3514,
+            "rotY": 179.994873,
+            "rotZ": 359.8683,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Banshee",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921636,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=GBmY6FG7",
+            "DiffuseURL": "http://i.imgur.com/gPIau1A.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=3b7pM0fY",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "d285f6"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -33.7562828,
+            "posY": 2.48576474,
+            "posZ": 2.59157467,
+            "rotX": 359.3411,
+            "rotY": 179.986816,
+            "rotZ": 359.865234,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Banshee",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921631,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=GBmY6FG7",
+            "DiffuseURL": "http://i.imgur.com/h8d2NZD.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=3b7pM0fY",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "459bb2"
+        }
+      ],
+      "GUID": "4fbb0f"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": -38.2595673,
+        "posY": 0.8182251,
+        "posZ": 2.598075,
+        "rotX": 1.5815246E-08,
+        "rotY": 0.02056341,
+        "rotZ": 1.46328318E-07,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Awesome",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705914,
+        "g": 0.3665702,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -36.0095139,
+            "posY": 2.48699856,
+            "posZ": 2.59219527,
+            "rotX": 359.3651,
+            "rotY": 179.975479,
+            "rotZ": 0.0340059735,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Awesome",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.99216187,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=cHGg6ew2",
+            "DiffuseURL": "http://i.imgur.com/5eJ0n7a.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=xwVm8SXp",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "fb12fb"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -36.0093079,
+            "posY": 2.49592233,
+            "posZ": 2.59360313,
+            "rotX": 359.5049,
+            "rotY": 180.007309,
+            "rotZ": 0.0222768746,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Awesome",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.99216187,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=cHGg6ew2",
+            "DiffuseURL": "http://i.imgur.com/pDw8oDJ.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=xwVm8SXp",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "ec3709"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -36.00949,
+            "posY": 2.48783231,
+            "posZ": 2.59232759,
+            "rotX": 359.377869,
+            "rotY": 179.978592,
+            "rotZ": 0.03276287,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Awesome",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992161334,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=cHGg6ew2",
+            "DiffuseURL": "http://i.imgur.com/My3TXfu.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=xwVm8SXp",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "9d696d"
+        }
+      ],
+      "GUID": "afef30"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": -40.51013,
+        "posY": 0.818225443,
+        "posZ": 2.59807563,
+        "rotX": -4.16281324E-07,
+        "rotY": 359.9856,
+        "rotZ": -1.98383319E-07,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Atlas",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705914,
+        "g": 0.3665702,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -38.2592735,
+            "posY": 2.50194216,
+            "posZ": 2.59394836,
+            "rotX": 359.600922,
+            "rotY": 180.0005,
+            "rotZ": 359.971436,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Atlas",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921656,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=vQE1dUv0",
+            "DiffuseURL": "http://i.imgur.com/TDTPonh.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=surcEGgj",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "705c30"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -38.2585869,
+            "posY": 2.48272562,
+            "posZ": 2.59274387,
+            "rotX": 359.355,
+            "rotY": 180.005142,
+            "rotZ": 359.917328,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Atlas",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921656,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=vQE1dUv0",
+            "DiffuseURL": "http://i.imgur.com/q4Zx9yd.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=surcEGgj",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "f5a81c"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -38.2588768,
+            "posY": 2.483645,
+            "posZ": 2.592777,
+            "rotX": 359.4006,
+            "rotY": 180.0066,
+            "rotZ": 359.9418,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Atlas",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921651,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=vQE1dUv0",
+            "DiffuseURL": "http://i.imgur.com/zhcGn32.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=surcEGgj",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "acf087"
+        }
+      ],
+      "GUID": "18398d"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": -8.009374E-08,
+        "posY": 0.818225,
+        "posZ": 2.59807587,
+        "rotX": -7.628027E-08,
+        "rotY": 359.9819,
+        "rotZ": -1.26188888E-06,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Hunchback",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705914,
+        "g": 0.3665702,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 2.25642347,
+            "posY": 2.48758578,
+            "posZ": 2.59310412,
+            "rotX": 359.378662,
+            "rotY": 179.996155,
+            "rotZ": 359.3859,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Hunchback",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992162347,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=0zb7w5MN",
+            "DiffuseURL": "http://i.imgur.com/FGgejrE.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=psMddA4w",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "70eb66"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 2.25710583,
+            "posY": 2.487245,
+            "posZ": 2.593957,
+            "rotX": 359.455017,
+            "rotY": 180.0503,
+            "rotZ": 359.354919,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Hunchback",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992162347,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=0zb7w5MN",
+            "DiffuseURL": "http://i.imgur.com/NSvUMIl.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=psMddA4w",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "2c9217"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 2.25747228,
+            "posY": 2.48800516,
+            "posZ": 2.5949192,
+            "rotX": 359.5446,
+            "rotY": 179.99707,
+            "rotZ": 359.352051,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Hunchback",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.99216187,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=0zb7w5MN",
+            "DiffuseURL": "http://i.imgur.com/Fw5U7RP.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=psMddA4w",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "cab155"
+        }
+      ],
+      "GUID": "ac3964"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 2.25056314,
+        "posY": 0.8182249,
+        "posZ": 2.59807587,
+        "rotX": 1.8895272E-06,
+        "rotY": 0.005404241,
+        "rotZ": -2.27736749E-07,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "JagerMech",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705914,
+        "g": 0.3665702,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 4.50058842,
+            "posY": 2.50689435,
+            "posZ": 2.593738,
+            "rotX": 359.472137,
+            "rotY": 179.981964,
+            "rotZ": 0.06481124,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "JagerMech",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992162347,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=SkbfK0AM",
+            "DiffuseURL": "http://i.imgur.com/2Plznla.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=hQt9TcrU",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "2d44d8"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 4.50018454,
+            "posY": 2.488163,
+            "posZ": 2.59472513,
+            "rotX": 359.476563,
+            "rotY": 180.010956,
+            "rotZ": 0.112076096,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "JagerMech",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992162347,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=SkbfK0AM",
+            "DiffuseURL": "http://i.imgur.com/F40jebu.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=hQt9TcrU",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "89f182"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 4.499812,
+            "posY": 2.48650885,
+            "posZ": 2.59456038,
+            "rotX": 359.456879,
+            "rotY": 179.982269,
+            "rotZ": 0.153808191,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "JagerMech",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.99216187,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=SkbfK0AM",
+            "DiffuseURL": "http://i.imgur.com/Pdr6lJP.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=hQt9TcrU",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "a28ccf"
+        }
+      ],
+      "GUID": "24a1ba"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 4.50112438,
+        "posY": 0.8182247,
+        "posZ": 2.59807587,
+        "rotX": -1.135892E-07,
+        "rotY": 0.00703108264,
+        "rotZ": 6.614029E-06,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Jenner",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705914,
+        "g": 0.3665702,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 6.751113,
+            "posY": 2.48469,
+            "posZ": 2.59541917,
+            "rotX": 359.548035,
+            "rotY": 180.034134,
+            "rotZ": 0.0576368049,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Jenner",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992162347,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=guZvxYXV",
+            "DiffuseURL": "http://i.imgur.com/tKZqxfl.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=RbxCt0YB",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "bae682"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 6.75052929,
+            "posY": 2.506461,
+            "posZ": 2.597181,
+            "rotX": 359.817719,
+            "rotY": 180.02417,
+            "rotZ": 0.180351,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Jenner",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992162347,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=guZvxYXV",
+            "DiffuseURL": "http://i.imgur.com/ySRlZdT.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=RbxCt0YB",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "ac86af"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 6.75058126,
+            "posY": 2.48804569,
+            "posZ": 2.59555387,
+            "rotX": 359.572754,
+            "rotY": 180.029053,
+            "rotZ": 0.164023563,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Jenner",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.99216187,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=guZvxYXV",
+            "DiffuseURL": "http://i.imgur.com/Y8FUgZF.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=RbxCt0YB",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "6831da"
+        }
+      ],
+      "GUID": "1b5cd2"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 6.751688,
+        "posY": 0.818225,
+        "posZ": 2.59807587,
+        "rotX": 4.96160567E-07,
+        "rotY": 359.974579,
+        "rotZ": 3.21514165E-07,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Kintaro",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705914,
+        "g": 0.3665702,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 9.004919,
+            "posY": 2.48343515,
+            "posZ": 2.5935905,
+            "rotX": 359.4618,
+            "rotY": 180.001282,
+            "rotZ": 359.78363,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Kintaro",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921621,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=nw5FGPgE",
+            "DiffuseURL": "http://i.imgur.com/8EVboLE.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=xwAdk0jZ",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "137ab5"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 9.004755,
+            "posY": 2.48805,
+            "posZ": 2.594781,
+            "rotX": 359.5788,
+            "rotY": 179.988663,
+            "rotZ": 359.813721,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Kintaro",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921621,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=nw5FGPgE",
+            "DiffuseURL": "http://i.imgur.com/9Sljbfe.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=xwAdk0jZ",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "8470cb"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 9.001637,
+            "posY": 2.50359845,
+            "posZ": 2.59498024,
+            "rotX": 359.631439,
+            "rotY": 179.962753,
+            "rotZ": 0.07302814,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Kintaro",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921616,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=nw5FGPgE",
+            "DiffuseURL": "http://i.imgur.com/Fj1oCLR.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=xwAdk0jZ",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "59646b"
+        }
+      ],
+      "GUID": "64a5c7"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 11.2523632,
+        "posY": 0.8182247,
+        "posZ": 2.59995079,
+        "rotX": 4.01630054E-08,
+        "rotY": 0.0377013348,
+        "rotZ": -4.32709953E-07,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Mauler",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705914,
+        "g": 0.3665702,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 11.2527418,
+            "posY": 2.49666572,
+            "posZ": 2.59229,
+            "rotX": 359.391663,
+            "rotY": 179.970749,
+            "rotZ": 0.007909487,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Mauler",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992162347,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=T7yz8Fqc",
+            "DiffuseURL": "http://i.imgur.com/CIhD79Y.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=VrsvUV9Y",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "4a92b6"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 11.2527666,
+            "posY": 2.50248432,
+            "posZ": 2.59353185,
+            "rotX": 359.512878,
+            "rotY": 179.9666,
+            "rotZ": 0.00530295167,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Mauler",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992162347,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=T7yz8Fqc",
+            "DiffuseURL": "http://i.imgur.com/d1Mdbr5.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=VrsvUV9Y",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "1d0839"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 11.2527742,
+            "posY": 2.507838,
+            "posZ": 2.59437752,
+            "rotX": 359.5962,
+            "rotY": 180.002991,
+            "rotZ": 0.00441100029,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Mauler",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.99216187,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=T7yz8Fqc",
+            "DiffuseURL": "http://i.imgur.com/3v9mwsb.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=VrsvUV9Y",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "6229c6"
+        }
+      ],
+      "GUID": "dd531a"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 13.5000544,
+        "posY": 0.818225,
+        "posZ": 2.59669876,
+        "rotX": 4.3082747E-07,
+        "rotY": 0.123071834,
+        "rotZ": -1.75461466E-07,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Panther",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705914,
+        "g": 0.3665702,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 13.5033007,
+            "posY": 2.50671268,
+            "posZ": 2.59529614,
+            "rotX": 359.454437,
+            "rotY": 180.03067,
+            "rotZ": 0.0143378116,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Panther",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921616,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=uSqMdPEG",
+            "DiffuseURL": "http://i.imgur.com/XgvWyJQ.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=8H192PE5",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "21e771"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 13.5033083,
+            "posY": 2.48618364,
+            "posZ": 2.598463,
+            "rotX": 359.8357,
+            "rotY": 180.032928,
+            "rotZ": 0.0215548817,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Panther",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921616,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=uSqMdPEG",
+            "DiffuseURL": "http://i.imgur.com/hNeWU6m.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=8H192PE5",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "666845"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 13.5025158,
+            "posY": 2.486008,
+            "posZ": 2.5987916,
+            "rotX": 359.8654,
+            "rotY": 179.998047,
+            "rotZ": 0.160014316,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Panther",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921611,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=uSqMdPEG",
+            "DiffuseURL": "http://i.imgur.com/dH0GtBh.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=8H192PE5",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "affb0c"
+        }
+      ],
+      "GUID": "da8105"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 15.7530146,
+        "posY": 0.8182249,
+        "posZ": 2.596991,
+        "rotX": -2.76963021E-08,
+        "rotY": 0.08877175,
+        "rotZ": -3.399732E-08,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Quickdraw",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705914,
+        "g": 0.3665702,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 15.7538567,
+            "posY": 2.50666332,
+            "posZ": 2.59721184,
+            "rotX": 359.9022,
+            "rotY": 179.98259,
+            "rotZ": 0.009295996,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Quickdraw",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921621,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=f6vhZNRe",
+            "DiffuseURL": "http://i.imgur.com/Lb8OdnK.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=5PNCVtc3",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "ec5f56"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 15.7538815,
+            "posY": 2.48798251,
+            "posZ": 2.601288,
+            "rotX": 0.207357451,
+            "rotY": 180.014175,
+            "rotZ": 0.0117725078,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Quickdraw",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921621,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=f6vhZNRe",
+            "DiffuseURL": "http://i.imgur.com/8WXV1aA.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=5PNCVtc3",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "c9639f"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 15.7537975,
+            "posY": 2.50523353,
+            "posZ": 2.59694052,
+            "rotX": 359.872131,
+            "rotY": 179.984421,
+            "rotZ": 0.01589856,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Quickdraw",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921616,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=f6vhZNRe",
+            "DiffuseURL": "http://i.imgur.com/2tXvgQf.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=5PNCVtc3",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "e14075"
+        }
+      ],
+      "GUID": "2689e9"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 18.0007458,
+        "posY": 0.818225145,
+        "posZ": 2.59648418,
+        "rotX": -1.77785509E-07,
+        "rotY": 0.105285116,
+        "rotZ": -1.59006373E-08,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Raven",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705914,
+        "g": 0.3665702,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 18.00437,
+            "posY": 2.48818016,
+            "posZ": 2.598205,
+            "rotX": 359.829285,
+            "rotY": 179.981689,
+            "rotZ": 0.0278495774,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Raven",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921621,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=fsjmP7cy",
+            "DiffuseURL": "http://i.imgur.com/cQ9hOfw.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=Eu3wvX6i",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "bea2fd"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 18.0038834,
+            "posY": 2.488394,
+            "posZ": 2.59842777,
+            "rotX": 359.847443,
+            "rotY": 179.99762,
+            "rotZ": 0.101669513,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Raven",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921621,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=fsjmP7cy",
+            "DiffuseURL": "http://i.imgur.com/ozCa78T.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=Eu3wvX6i",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "5f0ab7"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 18.0034847,
+            "posY": 2.48760438,
+            "posZ": 2.598666,
+            "rotX": 359.864655,
+            "rotY": 179.9809,
+            "rotZ": 0.1618487,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Raven",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921616,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=fsjmP7cy",
+            "DiffuseURL": "http://i.imgur.com/XdUI4vW.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=Eu3wvX6i",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "7796ce"
+        }
+      ],
+      "GUID": "365856"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 20.253624,
+        "posY": 0.818224847,
+        "posZ": 2.59770083,
+        "rotX": 1.48420128E-07,
+        "rotY": 0.07948657,
+        "rotZ": 2.857712E-07,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Shadow Hawk",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705914,
+        "g": 0.3665702,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 20.2546158,
+            "posY": 2.50833416,
+            "posZ": 2.59780359,
+            "rotX": 359.967529,
+            "rotY": 179.97023,
+            "rotZ": 0.0532913,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Shadow Hawk",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921621,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=Dp2dJDra",
+            "DiffuseURL": "http://i.imgur.com/pZrGM49.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=4q3ZBPYu",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "3aafe6"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 20.2544956,
+            "posY": 2.50229979,
+            "posZ": 2.597731,
+            "rotX": 359.9598,
+            "rotY": 179.970459,
+            "rotZ": 0.0659221262,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Shadow Hawk",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921621,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=Dp2dJDra",
+            "DiffuseURL": "http://i.imgur.com/fZ4J8IW.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=4q3ZBPYu",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "6c4006"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 20.256567,
+            "posY": 2.48758769,
+            "posZ": 2.59887743,
+            "rotX": 0.05121811,
+            "rotY": 180.016861,
+            "rotZ": 359.9042,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Shadow Hawk",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921616,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=Dp2dJDra",
+            "DiffuseURL": "http://i.imgur.com/TT35M6K.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=4q3ZBPYu",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "27b810"
+        }
+      ],
+      "GUID": "31ff1f"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 22.50081,
+        "posY": 0.818224847,
+        "posZ": 2.59781718,
+        "rotX": -7.663635E-08,
+        "rotY": 0.100848071,
+        "rotZ": 1.57409673E-07,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Spider",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705914,
+        "g": 0.3665702,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 22.5054741,
+            "posY": 2.48555136,
+            "posZ": 2.59649038,
+            "rotX": 359.470856,
+            "rotY": 180.008865,
+            "rotZ": 0.037635494,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Spider",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.99216187,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=PL33DM39",
+            "DiffuseURL": "http://i.imgur.com/E7dTmxC.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=saPyW2in",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "7fda1a"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 22.50503,
+            "posY": 2.50507879,
+            "posZ": 2.594032,
+            "rotX": 359.181427,
+            "rotY": 179.969742,
+            "rotZ": 0.12057668,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Spider",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.99216187,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=PL33DM39",
+            "DiffuseURL": "http://i.imgur.com/g0cKbgS.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=saPyW2in",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "fd038f"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 22.5045033,
+            "posY": 2.48639178,
+            "posZ": 2.59658146,
+            "rotX": 359.484222,
+            "rotY": 179.950836,
+            "rotZ": 0.213172361,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Spider",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992161334,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=PL33DM39",
+            "DiffuseURL": "http://i.imgur.com/YYYPVij.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=saPyW2in",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "7b8a69"
+        }
+      ],
+      "GUID": "db693d"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 24.7525387,
+        "posY": 0.818224669,
+        "posZ": 2.59879827,
+        "rotX": -2.096081E-07,
+        "rotY": 359.946,
+        "rotZ": -2.65454929E-07,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Stalker",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705914,
+        "g": 0.3665702,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 24.75615,
+            "posY": 2.5075686,
+            "posZ": 2.59393573,
+            "rotX": 359.553375,
+            "rotY": 180.001114,
+            "rotZ": 0.00431053247,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Stalker",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.99216187,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=sVQxEpUe",
+            "DiffuseURL": "http://i.imgur.com/g4intUj.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=JLmY0LB4",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "b7a0ca"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 24.7562122,
+            "posY": 2.48792458,
+            "posZ": 2.59483385,
+            "rotX": 359.543854,
+            "rotY": 180.024216,
+            "rotZ": 0.00292544859,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Stalker",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.99216187,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=sVQxEpUe",
+            "DiffuseURL": "http://i.imgur.com/yU4bflL.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=JLmY0LB4",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "e43735"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 24.7557735,
+            "posY": 2.48816919,
+            "posZ": 2.59482026,
+            "rotX": 359.544434,
+            "rotY": 179.992035,
+            "rotZ": 0.04725551,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Stalker",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992161334,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=sVQxEpUe",
+            "DiffuseURL": "http://i.imgur.com/d0vMWyd.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=JLmY0LB4",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "33795a"
+        }
+      ],
+      "GUID": "dc4112"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 27.0034428,
+        "posY": 0.818224669,
+        "posZ": 2.59993958,
+        "rotX": 3.76881275E-07,
+        "rotY": 359.898041,
+        "rotZ": 2.25931931E-08,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Thunderbolt",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705914,
+        "g": 0.3665702,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 27.00609,
+            "posY": 2.49460268,
+            "posZ": 2.59388828,
+            "rotX": 359.5197,
+            "rotY": 179.98645,
+            "rotZ": 0.0754962,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Thunderbolt",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.99216187,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=YrJJCNja",
+            "DiffuseURL": "http://i.imgur.com/asPXycA.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=QCcsCYVa",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "ad2476"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 27.00579,
+            "posY": 2.48501825,
+            "posZ": 2.592707,
+            "rotX": 359.4051,
+            "rotY": 179.986282,
+            "rotZ": 0.106182605,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Thunderbolt",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.99216187,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=YrJJCNja",
+            "DiffuseURL": "http://i.imgur.com/RdOXGh6.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=QCcsCYVa",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "f00332"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 27.0054817,
+            "posY": 2.48695636,
+            "posZ": 2.59297156,
+            "rotX": 359.4304,
+            "rotY": 180.038986,
+            "rotZ": 0.140597865,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Thunderbolt",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992161334,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=YrJJCNja",
+            "DiffuseURL": "http://i.imgur.com/GmSuIEy.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=QCcsCYVa",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "9e6894"
+        }
+      ],
+      "GUID": "5fa7ef"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 29.2533016,
+        "posY": 0.8182252,
+        "posZ": 2.59631586,
+        "rotX": 5.362861E-08,
+        "rotY": 0.231264412,
+        "rotZ": 3.837965E-07,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Trebuchet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705914,
+        "g": 0.3665702,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 29.2585258,
+            "posY": 2.48461,
+            "posZ": 2.5997436,
+            "rotX": 0.03299001,
+            "rotY": 180.0069,
+            "rotZ": 359.8657,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Trebuchet",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.99216187,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=WNcK8usT",
+            "DiffuseURL": "http://i.imgur.com/Qmu1t2z.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=36MWJ3RB",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "fa4b0b"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 29.2580833,
+            "posY": 2.48467565,
+            "posZ": 2.5999608,
+            "rotX": 0.0463916548,
+            "rotY": 180.003922,
+            "rotZ": 359.9176,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Trebuchet",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.99216187,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=WNcK8usT",
+            "DiffuseURL": "http://i.imgur.com/hWZwwAM.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=36MWJ3RB",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "b676e2"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 29.2577133,
+            "posY": 2.487946,
+            "posZ": 2.59992313,
+            "rotX": 0.0450605229,
+            "rotY": 179.999847,
+            "rotZ": 359.960175,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Trebuchet",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992161334,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=WNcK8usT",
+            "DiffuseURL": "http://i.imgur.com/zKqe7Mh.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=36MWJ3RB",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "de9d3c"
+        }
+      ],
+      "GUID": "22dd3a"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 31.5046825,
+        "posY": 0.818225563,
+        "posZ": 2.59570336,
+        "rotX": 4.26559973E-06,
+        "rotY": 0.181359,
+        "rotZ": -2.79595133E-05,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "UrbanMech",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705914,
+        "g": 0.3665702,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 31.5078583,
+            "posY": 2.48806763,
+            "posZ": 2.59876561,
+            "rotX": 359.888367,
+            "rotY": 180.026978,
+            "rotZ": 0.0140451454,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "UrbanMech",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.99216187,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=6SJHUCCn",
+            "DiffuseURL": "http://i.imgur.com/rCpFTQD.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=iF7ki8YV",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "f7de3e"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 31.507515,
+            "posY": 2.48755264,
+            "posZ": 2.59898639,
+            "rotX": 359.910126,
+            "rotY": 180.024338,
+            "rotZ": 0.0822265,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "UrbanMech",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.99216187,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=6SJHUCCn",
+            "DiffuseURL": "http://i.imgur.com/mUi9VIt.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=iF7ki8YV",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "9c0664"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 31.506794,
+            "posY": 2.48592734,
+            "posZ": 2.59946012,
+            "rotX": 359.956543,
+            "rotY": 180.016022,
+            "rotZ": 0.22324723,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "UrbanMech",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992161334,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=6SJHUCCn",
+            "DiffuseURL": "http://i.imgur.com/QatjMAn.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=iF7ki8YV",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "b67e57"
+        }
+      ],
+      "GUID": "a349f5"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 33.7567978,
+        "posY": 0.818225,
+        "posZ": 2.59887624,
+        "rotX": -1.6975369E-07,
+        "rotY": 359.9789,
+        "rotZ": -4.50201071E-07,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Victor",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705914,
+        "g": 0.3665702,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 33.7584038,
+            "posY": 2.503499,
+            "posZ": 2.59536219,
+            "rotX": 359.710022,
+            "rotY": 180.019989,
+            "rotZ": 0.00355064031,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Victor",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.99216187,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=TZGrU7g6",
+            "DiffuseURL": "http://i.imgur.com/sTkTTMM.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=wkGVZ96V",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "062201"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 33.7584,
+            "posY": 2.500451,
+            "posZ": 2.59504938,
+            "rotX": 359.679962,
+            "rotY": 180.01265,
+            "rotZ": 0.00390264951,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Victor",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.99216187,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=TZGrU7g6",
+            "DiffuseURL": "http://i.imgur.com/2BtgQwI.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=wkGVZ96V",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "0458e5"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 33.7583847,
+            "posY": 2.487801,
+            "posZ": 2.59352374,
+            "rotX": 359.538269,
+            "rotY": 179.994675,
+            "rotZ": 0.00557114836,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Victor",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992161334,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=TZGrU7g6",
+            "DiffuseURL": "http://i.imgur.com/WJ2gGI1.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=wkGVZ96V",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "59b4d6"
+        }
+      ],
+      "GUID": "255288"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 36.007412,
+        "posY": 0.8182251,
+        "posZ": 2.59848928,
+        "rotX": -8.364691E-06,
+        "rotY": 0.0216054376,
+        "rotZ": -1.32142463E-06,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Vindicator",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705914,
+        "g": 0.3665702,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 36.00862,
+            "posY": 2.50340748,
+            "posZ": 2.59360623,
+            "rotX": 359.405,
+            "rotY": 180.0087,
+            "rotZ": 0.05001473,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Vindicator",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.99216187,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=PHA3KAZK",
+            "DiffuseURL": "http://i.imgur.com/LURmWTZ.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=nmRBtYST",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "6ccb28"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 36.00868,
+            "posY": 2.50705957,
+            "posZ": 2.59421444,
+            "rotX": 359.477966,
+            "rotY": 179.992981,
+            "rotZ": 0.0438844971,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Vindicator",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.99216187,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=PHA3KAZK",
+            "DiffuseURL": "http://i.imgur.com/XSuHIj1.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=nmRBtYST",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "2080fe"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 36.0084534,
+            "posY": 2.48797464,
+            "posZ": 2.59558368,
+            "rotX": 359.531342,
+            "rotY": 180.0052,
+            "rotZ": 0.07513744,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Vindicator",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992161334,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=PHA3KAZK",
+            "DiffuseURL": "http://i.imgur.com/vFBxLBl.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=nmRBtYST",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "c5c76d"
+        }
+      ],
+      "GUID": "e02ece"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 38.2590561,
+        "posY": 0.818224669,
+        "posZ": 2.59628868,
+        "rotX": -2.38180019E-06,
+        "rotY": 0.0607984364,
+        "rotZ": -5.313826E-05,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Wolverine",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705914,
+        "g": 0.3665702,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 38.2597237,
+            "posY": 2.503724,
+            "posZ": 2.60218883,
+            "rotX": 0.416941822,
+            "rotY": 180.0178,
+            "rotZ": 359.9843,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Wolverine",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992161334,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=S5yBcVbz",
+            "DiffuseURL": "http://i.imgur.com/MuPiyt4.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=tN2EDBY2",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "917205"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 38.2597046,
+            "posY": 2.50668955,
+            "posZ": 2.601616,
+            "rotX": 0.3660725,
+            "rotY": 180.018036,
+            "rotZ": 359.98587,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Wolverine",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992161334,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=S5yBcVbz",
+            "DiffuseURL": "http://i.imgur.com/AKOPGnd.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=tN2EDBY2",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "8da60a"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 38.2598457,
+            "posY": 2.48735976,
+            "posZ": 2.6061902,
+            "rotX": 0.7592062,
+            "rotY": 180.024368,
+            "rotZ": 359.97406,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Wolverine",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992160857,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=S5yBcVbz",
+            "DiffuseURL": "http://i.imgur.com/pP4S3zC.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=tN2EDBY2",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "e82f08"
+        }
+      ],
+      "GUID": "6f4d0a"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 40.51013,
+        "posY": 0.818225,
+        "posZ": 2.59807682,
+        "rotX": 7.802164E-06,
+        "rotY": 0.009643701,
+        "rotZ": 2.30142678E-06,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Zeus",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705898166,
+        "g": 0.366545558,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 40.5098419,
+            "posY": 2.49725246,
+            "posZ": 2.59797168,
+            "rotX": 359.724518,
+            "rotY": 180.015732,
+            "rotZ": 0.0105235921,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Zeus",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921616,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=Q3BypuqV",
+            "DiffuseURL": "http://i.imgur.com/vbGUbOX.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=0aaZ1Bwx",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "5c1f82"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 40.509716,
+            "posY": 2.49339247,
+            "posZ": 2.59787917,
+            "rotX": 359.6726,
+            "rotY": 180.053192,
+            "rotZ": 0.0156945,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Zeus",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921616,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=Q3BypuqV",
+            "DiffuseURL": "http://i.imgur.com/EBDxpwe.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=0aaZ1Bwx",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "0ce51e"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 40.50982,
+            "posY": 2.49652719,
+            "posZ": 2.597951,
+            "rotX": 359.709259,
+            "rotY": 180.013458,
+            "rotZ": 0.0113914469,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Zeus",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921611,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=Q3BypuqV",
+            "DiffuseURL": "http://i.imgur.com/OIjruTx.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=0aaZ1Bwx",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "384728"
+        }
+      ],
+      "GUID": "f335f4"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 9.002251,
+        "posY": 0.818224847,
+        "posZ": 2.59807587,
+        "rotX": 5.70743532E-06,
+        "rotY": 0.009537129,
+        "rotZ": 1.09916664E-06,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Locust",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705890238,
+        "g": 0.36653325,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 1.30836288E-05,
+            "posY": 2.50434685,
+            "posZ": -3.89999938,
+            "rotX": 359.2285,
+            "rotY": 179.998611,
+            "rotZ": -0.002740851,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Locust",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921616,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=95C1nN93",
+            "DiffuseURL": "http://i.imgur.com/emyI0Jk.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=jpLa4WCe",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "9428f8"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 1.5857262E-05,
+            "posY": 2.500761,
+            "posZ": -3.90049767,
+            "rotX": 359.100922,
+            "rotY": 179.997849,
+            "rotZ": -0.00326793152,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Locust",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921616,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=95C1nN93",
+            "DiffuseURL": "http://i.imgur.com/oyqjoeh.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=jpLa4WCe",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "3edf3b"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 1.36444578E-05,
+            "posY": 2.50377917,
+            "posZ": -3.90007544,
+            "rotX": 359.2087,
+            "rotY": 179.991074,
+            "rotZ": -0.002794887,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Locust",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921611,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=95C1nN93",
+            "DiffuseURL": "http://i.imgur.com/EE9glM7.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://pastebin.com/raw.php?i=jpLa4WCe",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            }
+          },
+          "GUID": "871caf"
+        }
+      ],
+      "GUID": "7c6ff1"
+    }
+  ],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Red",
+      "body": "",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Orange",
+      "body": "",
+      "visibleColor": {
+        "r": 0.882,
+        "g": 0.517,
+        "b": 0.219
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Yellow",
+      "body": "",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Green",
+      "body": "",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Blue",
+      "body": "",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Purple",
+      "body": "",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Pink",
+      "body": "",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Black",
+      "body": "",
+      "visibleColor": {
+        "r": 0.1,
+        "g": 0.1,
+        "b": 0.1
+      },
+      "id": 9
+    }
+  }
+}

@@ -1,0 +1,3578 @@
+{
+  "SaveName": "[2DPaperCraft] World War II Miniatures Set",
+  "GameMode": "None",
+  "Date": "5/19/2015 12:24:16 AM",
+  "Table": "Table_Custom",
+  "TableURL": "http://i6.imageban.ru/out/2015/05/18/12ddedf25f73df63c0286825ae29f7a0.jpg",
+  "Sky": "Sky_Regal",
+  "Note": "Table pic:\nhttp://i6.imageban.ru/out/2015/05/18/12ddedf25f73df63c0286825ae29f7a0.jpg\n\nU-boat pic:\nhttp://i6.imageban.ru/out/2015/05/18/fbd8e99724c8ca2da934b042e6b3e8aa.jpg",
+  "Rules": "",
+  "PlayerTurn": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Snapping": false,
+    "Offset": false,
+    "xSize": 0.5,
+    "ySize": 0.5
+  },
+  "DrawImage": "iVBORw0KGgoAAAANSUhEUgAAAWAAAADQCAYAAAA53LuNAAAFFElEQVR4Ae3QgQAAAADDoPlTH+SFUGHAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgy8DQx5DAABHyNK3wAAAABJRU5ErkJggg==",
+  "ObjectStates": [
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -3.8517108,
+        "posY": 1.17887163,
+        "posZ": 22.0212116,
+        "rotX": -1.057152E-05,
+        "rotY": 359.818,
+        "rotZ": -1.48180243E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Russian soldier",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i4.imageban.ru/out/2015/05/18/80cfa29ef962a9e782610d193d2b37f1.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "536910"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 1.11799192,
+        "posY": 1.17887163,
+        "posZ": 20.13392,
+        "rotX": 1.00850315E-07,
+        "rotY": 359.9285,
+        "rotZ": -1.06972628E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Russian soldier",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i1.imageban.ru/out/2015/05/18/e5784452b992ecba6ca11ac5b49ffe94.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "53882c"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -4.452573,
+        "posY": 1.17887163,
+        "posZ": 10.574173,
+        "rotX": -7.38552035E-06,
+        "rotY": 359.94632,
+        "rotZ": 9.638347E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Russian soldier",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i6.imageban.ru/out/2015/05/18/667db6a24811e63bca1c2839f4d900c7.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "3c6478"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 0.540881,
+        "posY": 1.17887163,
+        "posZ": 10.3900776,
+        "rotX": 2.67586245E-07,
+        "rotY": 359.918884,
+        "rotZ": -4.27235477E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Russian soldier",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i1.imageban.ru/out/2015/05/18/2dd542bf55c801bb8897df5d76eaf239.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "ea428d"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 6.497513,
+        "posY": 1.17887187,
+        "posZ": 17.31933,
+        "rotX": -1.67891449E-05,
+        "rotY": 359.914185,
+        "rotZ": 1.486069E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Russian soldier",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i5.imageban.ru/out/2015/05/18/75760f47185af37c4b6cd0d233d1e1db.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "09a166"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -8.730344,
+        "posY": 1.17887163,
+        "posZ": 22.6833229,
+        "rotX": -1.48083045E-05,
+        "rotY": 359.947266,
+        "rotZ": 7.37049049E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Russian soldier",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i4.imageban.ru/out/2015/05/18/0421f1510e3b0f193ce091ad12e2aaa0.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "86931e"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 4.083879,
+        "posY": 1.17887163,
+        "posZ": 21.6994019,
+        "rotX": -2.10732051E-05,
+        "rotY": 359.853821,
+        "rotZ": -1.64083649E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Russian tank crew",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i4.imageban.ru/out/2015/05/18/7ad669f84d90ed22247faccbef19b48d.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "c48925"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 25.3624954,
+        "posY": 1.17887151,
+        "posZ": 14.8373413,
+        "rotX": -7.56666941E-06,
+        "rotY": 359.9043,
+        "rotZ": -3.079336E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Japanese artillery major",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i4.imageban.ru/out/2015/05/18/24bda0841eb5dbef8a0d451d87ea8442.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "5cb3ce"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 9.331608,
+        "posY": 1.17887163,
+        "posZ": 0.77725184,
+        "rotX": 6.579254E-07,
+        "rotY": 359.935272,
+        "rotZ": 1.32378619E-09,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Japanese infantry",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i4.imageban.ru/out/2015/05/18/21e0a653eef692d86e2624c92bb32d30.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "25e683"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 15.7446222,
+        "posY": 1.17887163,
+        "posZ": 9.114554,
+        "rotX": 1.04645255E-06,
+        "rotY": 359.95697,
+        "rotZ": 2.95614245E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Japanese infantry",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i5.imageban.ru/out/2015/05/18/f407a54b54a1dea6c2e62ce5a9c8fc86.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "735d9e"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 15.92886,
+        "posY": 1.17887151,
+        "posZ": 3.2072506,
+        "rotX": 8.449887E-08,
+        "rotY": 0.0864082649,
+        "rotZ": 3.735533E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Japanese infantry",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i6.imageban.ru/out/2015/05/18/231770aaf75c3b5a73c4bf988c916295.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "52af00"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 19.1117134,
+        "posY": 1.17887151,
+        "posZ": 15.466527,
+        "rotX": 7.559506E-06,
+        "rotY": 359.916779,
+        "rotZ": -1.569364E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Japanese infantry",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i6.imageban.ru/out/2015/05/18/26ab40c2aeaf1454c3ffd5840451ec2c.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "7614f1"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 10.4018555,
+        "posY": 1.17887163,
+        "posZ": 2.55626369,
+        "rotX": -1.52675273E-06,
+        "rotY": 359.93988,
+        "rotZ": 7.476772E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Japanese infantry",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i4.imageban.ru/out/2015/05/18/6d7f7d0b8f9f3f88302938da57a08a67.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "aae7d7"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 21.33651,
+        "posY": 1.17887163,
+        "posZ": 5.35808468,
+        "rotX": -7.791119E-07,
+        "rotY": 359.915131,
+        "rotZ": 1.0676282E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Japanese lieutenant",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i4.imageban.ru/out/2015/05/18/4d3caa3ef92e77bf50624d464338397b.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "9d7d80"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 24.3474655,
+        "posY": 1.17887163,
+        "posZ": 12.152153,
+        "rotX": -1.97469253E-05,
+        "rotY": 179.963577,
+        "rotZ": 5.555741E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Japanese major general",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i5.imageban.ru/out/2015/05/18/a1587b1ba871514484877fe5beaa1861.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "3a5218"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 25.70442,
+        "posY": 1.17887163,
+        "posZ": 9.305932,
+        "rotX": -5.577825E-06,
+        "rotY": 359.903748,
+        "rotZ": -9.216973E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Japanese major",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i1.imageban.ru/out/2015/05/18/8938803fe8d7f5cc6c46454a04ea4ac7.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "b1c21b"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 12.3370924,
+        "posY": 1.17887163,
+        "posZ": -0.729536831,
+        "rotX": 2.947114E-06,
+        "rotY": 359.93396,
+        "rotZ": 4.25038877E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Japanese officer",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i4.imageban.ru/out/2015/05/18/71024b794362a42424f049c6c17f634c.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "362ddc"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 11.5128088,
+        "posY": 1.17887175,
+        "posZ": -11.9997244,
+        "rotX": 1.127463E-07,
+        "rotY": 359.991455,
+        "rotZ": 2.09579866E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Japanese officer",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i2.imageban.ru/out/2015/05/18/4e334bf8662a610f574f02c662a6719d.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "3485a0"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 24.067646,
+        "posY": 1.17887163,
+        "posZ": -12.8984814,
+        "rotX": -1.5586121E-06,
+        "rotY": 359.905579,
+        "rotZ": 2.60493539E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Japanese officer",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i4.imageban.ru/out/2015/05/18/4188c90abb7aa584b24ff73446edf2c8.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "fa517d"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 17.0187359,
+        "posY": 1.17887163,
+        "posZ": -9.455901,
+        "rotX": -3.810885E-08,
+        "rotY": 359.8061,
+        "rotZ": 1.256952E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Japanese officer",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i6.imageban.ru/out/2015/05/18/38f22c3f65f9a7da263c717ca67c4e8a.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "67214e"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 19.2397518,
+        "posY": 1.17887175,
+        "posZ": 12.2855234,
+        "rotX": 1.12086036E-05,
+        "rotY": 359.990936,
+        "rotZ": 7.14945645E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Japanese officer",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i5.imageban.ru/out/2015/05/18/64d659f1de6c27e3a14b153c6376f714.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "a34fd3"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 18.8840523,
+        "posY": 1.17887163,
+        "posZ": -3.08081818,
+        "rotX": 1.959108E-07,
+        "rotY": 359.8401,
+        "rotZ": -5.34031E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Japanese officer",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i4.imageban.ru/out/2015/05/18/43f86cb17cbb81984da3f96586322b31.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "538986"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 24.2087135,
+        "posY": 1.17887163,
+        "posZ": -4.08490849,
+        "rotX": -2.25441809E-07,
+        "rotY": 359.88382,
+        "rotZ": -2.177112E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Japanese pilot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i5.imageban.ru/out/2015/05/18/370bfca2452054751e2ffa943fc90e0f.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "a7a3d8"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 25.5699158,
+        "posY": 1.17887175,
+        "posZ": -6.98443031,
+        "rotX": -3.01014751E-08,
+        "rotY": 0.0139574073,
+        "rotZ": 2.13452722E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Japanese sniper",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i6.imageban.ru/out/2015/05/18/720abf80f93426e21a39d9b7bdf6a411.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "dc6493"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 16.4826756,
+        "posY": 1.17887187,
+        "posZ": 5.827592,
+        "rotX": -1.11599966E-05,
+        "rotY": 359.980133,
+        "rotZ": 1.0994253E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Japanese tank commander",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i5.imageban.ru/out/2015/05/18/14160adf093000ae3e4b89e6b8203064.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "c08487"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 39.9704,
+        "posY": 1.17887187,
+        "posZ": 11.58014,
+        "rotX": -7.564965E-06,
+        "rotY": 0.0145241674,
+        "rotZ": 6.62732346E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "US tank crew",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i4.imageban.ru/out/2015/05/18/dae1daf31a4f02e99cdfb17ad7c2610d.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "b2acf5"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -40.01646,
+        "posY": 1.17887163,
+        "posZ": 11.4191971,
+        "rotX": 1.14809973E-05,
+        "rotY": 0.164576575,
+        "rotZ": 6.986268E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "US general",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i1.imageban.ru/out/2015/05/18/d5b1a077c981b91c04060642c9a8f526.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "94c9fd"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -40.8373222,
+        "posY": 1.17887163,
+        "posZ": 8.526658,
+        "rotX": 1.308976E-07,
+        "rotY": 359.9197,
+        "rotZ": -3.2683628E-10,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "US military police",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i2.imageban.ru/out/2015/05/18/1766297372df497c7cb04715e8ba448d.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "f34f4b"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -41.3412056,
+        "posY": 1.17887175,
+        "posZ": 10.4392109,
+        "rotX": -1.2921636E-05,
+        "rotY": 359.8969,
+        "rotZ": -7.29213343E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "US officer",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i4.imageban.ru/out/2015/05/18/9f6eee3cb0ba7fc01e15b9273e193110.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "c98685"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -31.7592621,
+        "posY": 1.17887175,
+        "posZ": 13.1583853,
+        "rotX": 2.9857827E-05,
+        "rotY": 359.740021,
+        "rotZ": 6.761534E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "US paratrooper",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i1.imageban.ru/out/2015/05/18/d3c74f5c2ca225f15f2f62192e70ab0e.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "f4226d"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -30.6615543,
+        "posY": 1.17887175,
+        "posZ": 16.713728,
+        "rotX": 2.733343E-05,
+        "rotY": 359.934753,
+        "rotZ": -2.26994925E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "US paratrooper",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i6.imageban.ru/out/2015/05/18/e59eb07225d798519f5f16499906a1bb.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "db54cc"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -34.14858,
+        "posY": 1.17887163,
+        "posZ": 8.05147648,
+        "rotX": 1.23343753E-07,
+        "rotY": 359.930328,
+        "rotZ": 3.199326E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "US paratrooper",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i5.imageban.ru/out/2015/05/18/1ee305e4479a3d7759e0d2a370dde01a.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "66dc86"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -32.822998,
+        "posY": 1.17887163,
+        "posZ": 10.1837378,
+        "rotX": -3.733125E-06,
+        "rotY": 359.8713,
+        "rotZ": 4.482709E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "US paratrooper",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i1.imageban.ru/out/2015/05/18/53711519143a622370fd079e390343a2.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "630502"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -36.1806,
+        "posY": 1.17887163,
+        "posZ": 5.68478,
+        "rotX": -1.99126653E-08,
+        "rotY": 359.887054,
+        "rotZ": -4.031852E-10,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "US paratrooper",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i6.imageban.ru/out/2015/05/18/38e2e6a56f5b2378115b835fd471ba47.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "6dc970"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 35.0730171,
+        "posY": 1.17887163,
+        "posZ": 1.3931613,
+        "rotX": 3.142276E-08,
+        "rotY": 359.9662,
+        "rotZ": -1.04853122E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "US pilot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i1.imageban.ru/out/2015/05/18/c32469d3bbcd25b80d1c09f6203d1152.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "61382e"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 41.1505966,
+        "posY": 1.17887139,
+        "posZ": 9.86652,
+        "rotX": -1.62423225E-06,
+        "rotY": 359.889343,
+        "rotZ": 2.13575345E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "US pilot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i5.imageban.ru/out/2015/05/18/44bd12ad8a15a51755e6794889e0ade6.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "26029b"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 33.01658,
+        "posY": 1.17887163,
+        "posZ": 1.02681828,
+        "rotX": -4.787818E-07,
+        "rotY": 359.95578,
+        "rotZ": 1.04288468E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "US ranger",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i1.imageban.ru/out/2015/05/18/9a831150d975684ae6a8cdbcd1c6b83f.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "277f02"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 42.75651,
+        "posY": 1.17887163,
+        "posZ": 6.34015036,
+        "rotX": -9.19721151E-06,
+        "rotY": 359.86676,
+        "rotZ": 4.269928E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "US ranger",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i2.imageban.ru/out/2015/05/18/6d78856caf5eb266d4c8b2a2dd47ddef.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "6dc286"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 34.2051353,
+        "posY": 1.17887163,
+        "posZ": 11.7963629,
+        "rotX": 2.66940077E-07,
+        "rotY": 0.147669777,
+        "rotZ": 1.07400005E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "US ranger",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i6.imageban.ru/out/2015/05/18/aa6536d15f645c18c56aa78fd01ccfcd.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "31a07b"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 37.8938637,
+        "posY": 1.17887163,
+        "posZ": 11.778739,
+        "rotX": 1.94372717E-07,
+        "rotY": 359.866058,
+        "rotZ": 1.5256191E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i1.imageban.ru/out/2015/05/18/f86e9f2acee1c80e027f573a04ba344c.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "a5e253"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -38.1769066,
+        "posY": 1.17887163,
+        "posZ": 6.58136225,
+        "rotX": 8.591057E-09,
+        "rotY": 359.942322,
+        "rotZ": -2.11680173E-10,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "US soldier",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i1.imageban.ru/out/2015/05/18/ac9b3c79b3a236da489473e2b6a3611f.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "638cef"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -36.96294,
+        "posY": 1.17887175,
+        "posZ": 9.054042,
+        "rotX": -1.12387688E-05,
+        "rotY": 179.947784,
+        "rotZ": -9.066296E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "US soldier",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i4.imageban.ru/out/2015/05/18/b912d08dbb09a6a1cc7cb3bc23b28991.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "f68e6e"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -33.6325836,
+        "posY": 1.17887163,
+        "posZ": 13.684823,
+        "rotX": -2.79201089E-08,
+        "rotY": 179.979172,
+        "rotZ": 2.13403169E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "US soldier",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i2.imageban.ru/out/2015/05/18/42ce5ca27ac2b7171d6255c93e608211.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "41528b"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -32.5288773,
+        "posY": 1.17887163,
+        "posZ": 16.49493,
+        "rotX": 2.142913E-07,
+        "rotY": 359.952667,
+        "rotZ": -1.06903052E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "US soldier",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i4.imageban.ru/out/2015/05/18/2788f57e524a0512ef0f5355a0738377.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "31623d"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -34.9969864,
+        "posY": 1.17887163,
+        "posZ": 11.4890633,
+        "rotX": 1.72561231E-05,
+        "rotY": 359.891968,
+        "rotZ": 6.707099E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "US soldier",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i1.imageban.ru/out/2015/05/18/f70531663dad11b9802e94e83f8a2894.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "593704"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -23.2422066,
+        "posY": 1.17887163,
+        "posZ": 20.8591652,
+        "rotX": 4.16376351E-05,
+        "rotY": 0.176711962,
+        "rotZ": 5.203826E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "British glider pilot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i6.imageban.ru/out/2015/05/18/aed0a8de03f8222eb79800afdeb345a5.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "49c6f4"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -21.9891624,
+        "posY": 1.17887151,
+        "posZ": -5.10319,
+        "rotX": -1.55145912E-07,
+        "rotY": 359.933136,
+        "rotZ": 1.50010226E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "British infantry colonel",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i1.imageban.ru/out/2015/05/18/9974f5e8f4430348fafd6778adbc91e2.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "eb7379"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -15.2276115,
+        "posY": 1.17887163,
+        "posZ": -6.19203043,
+        "rotX": 3.25664519E-06,
+        "rotY": 359.9105,
+        "rotZ": 1.3957635E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "British infantry sergeant",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i1.imageban.ru/out/2015/05/18/824c6943ce6e84460f6721e25eca075c.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "9c430e"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -26.089632,
+        "posY": 1.17887175,
+        "posZ": 18.1889229,
+        "rotX": 2.38437565E-07,
+        "rotY": 359.9824,
+        "rotZ": 1.97515789E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "British MP",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i1.imageban.ru/out/2015/05/18/2df8b24f98961276edc9880a1a598db4.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "803801"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -28.4843826,
+        "posY": 1.17887163,
+        "posZ": 14.0302849,
+        "rotX": 2.23560349E-07,
+        "rotY": 359.707062,
+        "rotZ": -2.14722348E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "British paratrooper",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i6.imageban.ru/out/2015/05/18/8d387b02cf57743726bc5d405e2deeda.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "5ef292"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -26.5318241,
+        "posY": 1.17887175,
+        "posZ": 14.81223,
+        "rotX": 1.89865219E-07,
+        "rotY": 0.0105724223,
+        "rotZ": 1.06749063E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "British paratrooper",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i5.imageban.ru/out/2015/05/18/b036e887e512278e614f26ffea33cffb.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "0f815b"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -24.6083488,
+        "posY": 1.17887163,
+        "posZ": 15.8110323,
+        "rotX": 2.6243535E-07,
+        "rotY": 359.928375,
+        "rotZ": 2.13138875E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "British paratrooper",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i1.imageban.ru/out/2015/05/18/e0e607043507204a206694a4fe721ebe.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "e6ea87"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -23.0334568,
+        "posY": 1.17887151,
+        "posZ": 16.98803,
+        "rotX": -4.075809E-08,
+        "rotY": 359.879669,
+        "rotZ": -6.896663E-11,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "British paratrooper",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i1.imageban.ru/out/2015/05/18/281ca7e3cba3406f501560ecb5748109.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "91ceef"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -20.208559,
+        "posY": 1.17887163,
+        "posZ": 19.55561,
+        "rotX": 2.639556E-07,
+        "rotY": 358.7796,
+        "rotZ": -7.795183E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "British paratrooper captain",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i6.imageban.ru/out/2015/05/18/5e9baa9d6e2af3bd4e886ebbd89eb4fd.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "a19334"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -21.54405,
+        "posY": 1.17887163,
+        "posZ": 18.3140755,
+        "rotX": 1.420123E-07,
+        "rotY": 357.21875,
+        "rotZ": -2.26957539E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "British paratrooper sergeant",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i2.imageban.ru/out/2015/05/18/f8e241b9bd88c0a916502a6bcf2ec04e.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "e6cad7"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -13.0415182,
+        "posY": 1.17887163,
+        "posZ": -2.47481918,
+        "rotX": 2.28632317E-07,
+        "rotY": 359.973267,
+        "rotZ": -1.05752261E-10,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "British pilot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i1.imageban.ru/out/2015/05/18/fbec3a380c713e9442b7e443c5caede4.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "78cd66"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 1.50996566,
+        "posY": 1.17887163,
+        "posZ": -8.087879,
+        "rotX": -1.77961283E-05,
+        "rotY": 359.958954,
+        "rotZ": -1.06093978E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "British pilot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i1.imageban.ru/out/2015/05/18/70aaa002bd30062515578fed93eed548.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "e2d62b"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -26.3549347,
+        "posY": 1.17887175,
+        "posZ": -4.76712751,
+        "rotX": 2.12390759E-07,
+        "rotY": 0.00910878647,
+        "rotZ": 2.673123E-11,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "British soldier",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i4.imageban.ru/out/2015/05/18/048afce1b9ed892c1e6e4d2203d86a4e.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "93042a"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -14.1832647,
+        "posY": 1.17887175,
+        "posZ": -4.295577,
+        "rotX": 2.756094E-07,
+        "rotY": 359.970917,
+        "rotZ": -1.27014121E-10,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "British soldier",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i5.imageban.ru/out/2015/05/18/45547252937b9c79d8661ab57e613e71.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "bc5aaf"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -8.799427,
+        "posY": 1.17887163,
+        "posZ": 0.621498644,
+        "rotX": 8.777505E-09,
+        "rotY": 359.921967,
+        "rotZ": 1.06527594E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "British soldier",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i2.imageban.ru/out/2015/05/18/80be295acd9d6fcb58c29d9c3aa090b5.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "fde971"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -20.0524464,
+        "posY": 1.17887175,
+        "posZ": -7.795165,
+        "rotX": 1.198753E-05,
+        "rotY": 359.968567,
+        "rotZ": 1.18427924E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "British soldier",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i6.imageban.ru/out/2015/05/18/c4170fa39744a17204230cc4038332ab.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "aea724"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 3.34918284,
+        "posY": 1.17887163,
+        "posZ": 0.6537069,
+        "rotX": 4.677465E-06,
+        "rotY": 359.866241,
+        "rotZ": -3.0967492E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "British soldier",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i6.imageban.ru/out/2015/05/18/4b44a224c9ca9a057e59d1158279276a.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "79e3f3"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -2.11176324,
+        "posY": 1.17887163,
+        "posZ": 2.82738161,
+        "rotX": -1.45858181E-07,
+        "rotY": 359.8779,
+        "rotZ": 1.507775E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "British soldier",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i6.imageban.ru/out/2015/05/18/1859a41db8de6cc9a5879d26b31964bb.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "9c707a"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -24.5530663,
+        "posY": 1.17887163,
+        "posZ": 22.2041664,
+        "rotX": 9.565465E-08,
+        "rotY": 0.9322826,
+        "rotZ": 1.23082046E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "British staff officer",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i6.imageban.ru/out/2015/05/18/913442c38ddc44171e91b57fd143b273.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "0d607a"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -15.0461578,
+        "posY": 1.17887163,
+        "posZ": -0.840107739,
+        "rotX": 2.66973984E-07,
+        "rotY": 359.906647,
+        "rotZ": 1.063211E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "British tank commander",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i1.imageban.ru/out/2015/05/18/359df89ac13a70d84dcd2078c8e25bc4.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "f4d2d1"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -13.2675838,
+        "posY": 1.17887163,
+        "posZ": -0.342640221,
+        "rotX": -1.6562002E-06,
+        "rotY": 359.9232,
+        "rotZ": 1.07681217E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "British tank crewman",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i6.imageban.ru/out/2015/05/18/e1e8fac2efaa7d10291c30b8706b61a7.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "266eef"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 27.19736,
+        "posY": 1.17887163,
+        "posZ": -21.5550842,
+        "rotX": 1.98205882E-07,
+        "rotY": 359.906921,
+        "rotZ": -3.43588158E-10,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Anzac soldier",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i4.imageban.ru/out/2015/05/18/d2bdaf3868d84ab3ea7f619f03fb12a3.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "8ece28"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -28.3110352,
+        "posY": 1.17887163,
+        "posZ": 16.229002,
+        "rotX": -2.516627E-05,
+        "rotY": 359.941284,
+        "rotZ": -1.1513177E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "British commando",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i2.imageban.ru/out/2015/05/18/6b53f02b8a033b4de0d7aa8718221ed5.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "b5a796"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -23.9553776,
+        "posY": 1.17887151,
+        "posZ": 18.671339,
+        "rotX": -2.38928151E-05,
+        "rotY": 359.950958,
+        "rotZ": -4.67965256E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "British commando",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i6.imageban.ru/out/2015/05/18/a4e0feb346e8ec8a0f65facb93c72e4d.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "d2b789"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -25.55878,
+        "posY": 1.17887163,
+        "posZ": 20.6262512,
+        "rotX": 1.97405612E-07,
+        "rotY": 359.965881,
+        "rotZ": -1.06812159E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "British commando captain",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i4.imageban.ru/out/2015/05/18/85af034f7697b95da6f65e0667ced0ec.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "c55ff5"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -28.2893028,
+        "posY": 1.17887163,
+        "posZ": 18.4846134,
+        "rotX": 2.40623734E-07,
+        "rotY": 0.0137145342,
+        "rotZ": 4.155403E-11,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "British commando captain",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i1.imageban.ru/out/2015/05/18/0837e02b8bdaf9f8bb08725d56129831.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "748d63"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -26.4164238,
+        "posY": 1.17887175,
+        "posZ": 16.49936,
+        "rotX": 8.564825E-08,
+        "rotY": 359.972717,
+        "rotZ": -7.3927E-11,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "British commando sergeant",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i5.imageban.ru/out/2015/05/18/aca1b8c8de0666c2c8f9398c4577583d.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "7cf2c9"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 3.6435163,
+        "posY": 1.17887139,
+        "posZ": -7.72609758,
+        "rotX": 8.579249E-08,
+        "rotY": 359.8759,
+        "rotZ": 1.06329544E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "British co-pilot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i5.imageban.ru/out/2015/05/18/44cada06a7f58ba05f67510f690d37ff.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "ee1fec"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -23.9670734,
+        "posY": 1.17887163,
+        "posZ": 23.7169285,
+        "rotX": -1.73446E-05,
+        "rotY": 359.934784,
+        "rotZ": -1.41842438E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "British emergency crewman",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i2.imageban.ru/out/2015/05/18/93fa449214aebe8902e41992e31d9a2d.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "88cf9d"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -26.3796768,
+        "posY": 1.17887175,
+        "posZ": 23.2657986,
+        "rotX": 1.81370282E-07,
+        "rotY": 359.9356,
+        "rotZ": -1.64956589E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "British general",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i4.imageban.ru/out/2015/05/18/13924ca880481e7f40250734492dc363.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "2d16c1"
+    },
+    {
+      "Name": "Custom_Board",
+      "Transform": {
+        "posX": -15.8132124,
+        "posY": 1.03826118,
+        "posZ": 32.93563,
+        "rotX": -5.17270637E-05,
+        "rotY": 180.000946,
+        "rotZ": 2.26854559E-06,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7867798,
+        "g": 0.7867798,
+        "b": 0.7867798
+      },
+      "Grid": true,
+      "Locked": true,
+      "CustomImage": {
+        "ImageURL": "http://i6.imageban.ru/out/2015/05/18/fbd8e99724c8ca2da934b042e6b3e8aa.jpg",
+        "WidthScale": 1.47601473
+      },
+      "GUID": "6c4618"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -13.7410736,
+        "posY": 1.55765426,
+        "posZ": 30.18059,
+        "rotX": 3.54566473E-05,
+        "rotY": 0.0611236244,
+        "rotZ": 3.11389977E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "U-Boat wackofficer",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i1.imageban.ru/out/2015/05/18/42366b3ebb21ffa8e567c30b38372702.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "3f60df"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -11.6060839,
+        "posY": 1.55765378,
+        "posZ": 31.1058922,
+        "rotX": 1.46558023E-05,
+        "rotY": 0.05915781,
+        "rotZ": -1.63207242E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "U-Boat wackofficer",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i6.imageban.ru/out/2015/05/18/5d4af5a9fed4de5e1645731e18ec21bb.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "4a04b7"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -22.0214977,
+        "posY": 1.55765212,
+        "posZ": 34.09425,
+        "rotX": 3.41247869E-05,
+        "rotY": 0.03187327,
+        "rotZ": 3.29702971E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "U-Boat cook",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i2.imageban.ru/out/2015/05/18/484cc2822c561c75c365c20caf1eb5d1.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "b5fd2b"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -9.6807,
+        "posY": 1.55765271,
+        "posZ": 32.5007935,
+        "rotX": 3.43572028E-05,
+        "rotY": 0.06558374,
+        "rotZ": 1.30398439E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "U-Boat engineer",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i6.imageban.ru/out/2015/05/18/7b0434efdffd01567c4eab4ba6656c78.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "d12926"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -15.1035786,
+        "posY": 1.557652,
+        "posZ": 34.04584,
+        "rotX": 3.55525044E-05,
+        "rotY": 0.0484860837,
+        "rotZ": 3.23604581E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "U-Boat kommandant",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i5.imageban.ru/out/2015/05/18/27996a0617ada182fc8c4d7c0b9b9996.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "03839c"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -15.9300089,
+        "posY": 1.55765474,
+        "posZ": 29.5527668,
+        "rotX": 3.571199E-05,
+        "rotY": 0.108723663,
+        "rotZ": 3.449193E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "U-Boat navigator",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i5.imageban.ru/out/2015/05/18/91a114062931f17bd2b7adbd49dec982.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "0f86c5"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -18.08008,
+        "posY": 1.55765426,
+        "posZ": 30.8657169,
+        "rotX": 3.77090328E-05,
+        "rotY": 0.0113351652,
+        "rotZ": 1.066568E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "U-Boat seaman",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i1.imageban.ru/out/2015/05/18/115c5ced23b2117a5a1d54ff0f8750cd.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "80d3fc"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -20.01393,
+        "posY": 1.55765307,
+        "posZ": 32.70574,
+        "rotX": 3.518162E-05,
+        "rotY": 0.06259571,
+        "rotZ": 1.61343214E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "U-Boat torpedo mechanic",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i6.imageban.ru/out/2015/05/18/035044fab167c7f12e3f4df9c7357a50.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "8a6019"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -11.6857615,
+        "posY": 1.17887163,
+        "posZ": 15.4474411,
+        "rotX": 4.31669359E-05,
+        "rotY": 0.0338230319,
+        "rotZ": -2.19718786E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "German field commander",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i2.imageban.ru/out/2015/05/18/301209aca97777e73b3109e383fe4aac.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "6b03b0"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -20.1491489,
+        "posY": 1.17887175,
+        "posZ": 7.5849185,
+        "rotX": 4.07681071E-08,
+        "rotY": 359.914764,
+        "rotZ": -1.92863876E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "German guard",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i2.imageban.ru/out/2015/05/18/2303b0ee290a5c75ba180fd25ca5d96d.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "e07926"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -7.77328634,
+        "posY": 1.17887163,
+        "posZ": 12.5694275,
+        "rotX": -2.99813055E-05,
+        "rotY": 359.500153,
+        "rotZ": -4.1561907E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "German infantry",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i2.imageban.ru/out/2015/05/18/71e0f04e1492ad772d333e8532923343.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "abe406"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -20.9258728,
+        "posY": 1.17887151,
+        "posZ": 15.8847361,
+        "rotX": 2.040158E-06,
+        "rotY": 359.957367,
+        "rotZ": -2.36055166E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "German infantry",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i5.imageban.ru/out/2015/05/18/8bc3da3f944c5501d7dd337d0ca6042f.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "9946d2"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -2.420541,
+        "posY": 1.17887151,
+        "posZ": 17.0773811,
+        "rotX": 2.428649E-07,
+        "rotY": 1.4424752,
+        "rotZ": -8.28492659E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "German infantry",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i1.imageban.ru/out/2015/05/18/2be577215ea2842ebb04b709a039605a.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "5600d4"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -25.3424435,
+        "posY": 1.17887175,
+        "posZ": 12.7584763,
+        "rotX": -9.717058E-07,
+        "rotY": 0.00172368158,
+        "rotZ": 3.20163826E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "German infantry",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i1.imageban.ru/out/2015/05/18/1fef87360e91cbedccb018ca4b9c300c.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "2f5b34"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -25.3454018,
+        "posY": 1.17887175,
+        "posZ": 9.211275,
+        "rotX": 1.43076377E-05,
+        "rotY": 359.972748,
+        "rotZ": 2.08072779E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "German infantry",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i4.imageban.ru/out/2015/05/18/6b2c5a0c5a84d7870b10e198d37fb061.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "dcac97"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -8.429244,
+        "posY": 1.17887163,
+        "posZ": 15.1881161,
+        "rotX": 1.15081107E-07,
+        "rotY": 359.929321,
+        "rotZ": -1.069525E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "German paratrooper captain",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i2.imageban.ru/out/2015/05/18/cacd0d678fdeac76c00f51ab1959db7c.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "7b2d94"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -21.51567,
+        "posY": 1.17887163,
+        "posZ": 11.617548,
+        "rotX": 1.535118E-05,
+        "rotY": 359.89566,
+        "rotZ": -1.48485387E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "German field commander",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i1.imageban.ru/out/2015/05/18/f2ed59decb3888b10e7875f9c8122b3f.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "043fe3"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -15.8604612,
+        "posY": 1.17887175,
+        "posZ": 7.854328,
+        "rotX": -1.00942268E-08,
+        "rotY": 359.933228,
+        "rotZ": -2.135886E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "German major",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i6.imageban.ru/out/2015/05/18/4ad2e0434fa77ab0c0edc140111e470b.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "9ee5bf"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -22.75421,
+        "posY": 1.17887163,
+        "posZ": 13.3861189,
+        "rotX": 1.39116082E-05,
+        "rotY": 359.9369,
+        "rotZ": -4.63117829E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "German officer",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i6.imageban.ru/out/2015/05/18/f7c39864e4a0b85a60dfa3bf82e0f280.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "53946f"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -9.703107,
+        "posY": 1.17887163,
+        "posZ": 13.5010176,
+        "rotX": -6.375905E-08,
+        "rotY": 359.94696,
+        "rotZ": 1.06596005E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "German officer",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i1.imageban.ru/out/2015/05/18/fe4c657a339cb3dad11bd4118e647b04.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "7890d3"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -23.45303,
+        "posY": 1.17887163,
+        "posZ": 10.6988792,
+        "rotX": -6.993075E-08,
+        "rotY": 359.732178,
+        "rotZ": 1.06279536E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "German officer",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i5.imageban.ru/out/2015/05/18/f0576bf69fdc69f5ce196ef76aa5b09f.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "358663"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -13.9595,
+        "posY": 1.17887163,
+        "posZ": 16.8417187,
+        "rotX": 2.397565E-07,
+        "rotY": 359.656433,
+        "rotZ": -1.39313583E-09,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "German officer",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i5.imageban.ru/out/2015/05/18/ca744afae6bd7cce1e670d3bca2eedd3.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "9c5d74"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -9.97418,
+        "posY": 1.17887163,
+        "posZ": 17.7090683,
+        "rotX": -3.29970644E-05,
+        "rotY": 359.8564,
+        "rotZ": -1.78656028E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "German officer",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i6.imageban.ru/out/2015/05/18/5c69b52f4e57b84643a5b418670398a9.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "a585d7"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -8.905821,
+        "posY": 1.17887151,
+        "posZ": 9.865219,
+        "rotX": 2.29576415E-07,
+        "rotY": 359.927,
+        "rotZ": -2.89502283E-10,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "German cavalry officer",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i6.imageban.ru/out/2015/05/18/750940d98e4fc5f5cde6b39291f47777.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "57ee51"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -19.9158859,
+        "posY": 1.17887163,
+        "posZ": 12.8536406,
+        "rotX": -3.09911137E-08,
+        "rotY": 359.783783,
+        "rotZ": 2.037119E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "SA enforcer",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i6.imageban.ru/out/2015/05/18/ee7cb79b93261b777562726562d36c72.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "17b46a"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -15.927824,
+        "posY": 1.17887163,
+        "posZ": 14.6074429,
+        "rotX": -6.729314E-08,
+        "rotY": 359.930847,
+        "rotZ": -9.956393E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "SS guard",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i5.imageban.ru/out/2015/05/18/e4039fe67865318f5870eb7b2a48b27f.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "19f346"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -19.042469,
+        "posY": 1.17887163,
+        "posZ": 15.43748,
+        "rotX": -2.5120984E-05,
+        "rotY": 359.862671,
+        "rotZ": 1.47903768E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "SS mess waiter",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i4.imageban.ru/out/2015/05/18/a512ce149bb91d58e971390c66250a5d.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "a302f0"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -19.045414,
+        "posY": 1.17887175,
+        "posZ": 11.15359,
+        "rotX": 3.922977E-08,
+        "rotY": 359.862366,
+        "rotZ": 2.57605137E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "SS Obergruppenführer",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i1.imageban.ru/out/2015/05/18/90f1f0cf5b9eeaadb51ca9ccf74e37de.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "df5a17"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -17.0959949,
+        "posY": 1.17887187,
+        "posZ": 16.3918133,
+        "rotX": -5.77033425E-08,
+        "rotY": 359.942657,
+        "rotZ": 2.36404157E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "SS officer",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i1.imageban.ru/out/2015/05/18/ce273f5ec8166db08ba00ecb36b072ca.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "970586"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -17.5971146,
+        "posY": 1.17887163,
+        "posZ": 13.6597319,
+        "rotX": 2.21942372E-07,
+        "rotY": 359.9791,
+        "rotZ": 2.13380275E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Führer",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i2.imageban.ru/out/2015/05/18/6f99e1f3a7557c670dbd3dda00b70765.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "8ebcfc"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -12.3729029,
+        "posY": 1.17887151,
+        "posZ": 18.60402,
+        "rotX": -1.5015693E-05,
+        "rotY": 359.7857,
+        "rotZ": -1.6087346E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "German panzer grenadier",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i2.imageban.ru/out/2015/05/18/d887e0bf15b0506362f2199aa36d1058.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "77fb5d"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -7.507588,
+        "posY": 1.17887163,
+        "posZ": 17.0461178,
+        "rotX": -3.5954632E-05,
+        "rotY": 359.911255,
+        "rotZ": -1.01280455E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "German panzer grenadier",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i5.imageban.ru/out/2015/05/18/02488fc5e740124abc2f98b55704523a.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "f21d0a"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -7.822554,
+        "posY": 1.17887163,
+        "posZ": 6.834106,
+        "rotX": 1.00909729E-05,
+        "rotY": 359.796417,
+        "rotZ": -1.42579083E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "German panzer grenadier",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i6.imageban.ru/out/2015/05/18/f0bbaf802459d3824d843f51033f856c.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "25c373"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -17.8901272,
+        "posY": 1.17887163,
+        "posZ": 5.28784227,
+        "rotX": -7.804139E-08,
+        "rotY": 359.886719,
+        "rotZ": 1.81401538E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "German panzer grenadier",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i1.imageban.ru/out/2015/05/18/67a09a5421c159729c6c623c199fd761.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "8f7386"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -13.1211643,
+        "posY": 1.17887163,
+        "posZ": 13.1691828,
+        "rotX": 6.044767E-08,
+        "rotY": 359.8112,
+        "rotZ": 2.12917016E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "German panzer grenadier",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i6.imageban.ru/out/2015/05/18/001af7cf6afe442e50585fa491f49edf.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "4d1233"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -12.1292038,
+        "posY": 1.17887163,
+        "posZ": 5.63456154,
+        "rotX": 3.46636682E-07,
+        "rotY": 359.8033,
+        "rotZ": 2.12462751E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "German panzer grenadier",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i4.imageban.ru/out/2015/05/18/3c1fbab0eca439097676c4debdb96bea.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "2d2ccf"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -15.1148233,
+        "posY": 1.17887163,
+        "posZ": 5.32588625,
+        "rotX": -7.41253743E-08,
+        "rotY": 359.896851,
+        "rotZ": 1.0655517E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "German panzer grenadier",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i1.imageban.ru/out/2015/05/18/22b9461091d26f63962fec684c279a01.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "1c5f81"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -23.14387,
+        "posY": 1.17887163,
+        "posZ": 7.798399,
+        "rotX": 1.83507461E-06,
+        "rotY": 180.075333,
+        "rotZ": -1.17255252E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Falschirm-jaeger",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i6.imageban.ru/out/2015/05/18/efb00855ed21b3bbece97d8c382671cc.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "daef8a"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -17.8115959,
+        "posY": 1.17887175,
+        "posZ": -0.508115649,
+        "rotX": 9.182547E-08,
+        "rotY": 359.7214,
+        "rotZ": 3.15296123E-09,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "German Africa corps",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i5.imageban.ru/out/2015/05/18/41991da9348434acdc3c592ecae5c3ac.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "de82e4"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -6.670779,
+        "posY": 1.17887163,
+        "posZ": 9.97604,
+        "rotX": -2.08203339E-08,
+        "rotY": 359.8975,
+        "rotZ": 5.7627617E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "German paratrooper (winter)",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i2.imageban.ru/out/2015/05/18/08c3c349e177334489d2fe3ec6b4e4cf.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "8213f9"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -3.30616522,
+        "posY": 1.17887139,
+        "posZ": 15.165597,
+        "rotX": 2.653393E-07,
+        "rotY": 359.792572,
+        "rotZ": 3.19278257E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "German soldier (winter)",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i4.imageban.ru/out/2015/05/18/807de62901dc7e5098e74a4d8f6e17ce.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "fd98d8"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -25.0648727,
+        "posY": 1.17887163,
+        "posZ": 1.00976968,
+        "rotX": -2.758312E-06,
+        "rotY": 359.891357,
+        "rotZ": -6.37928053E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Falschirm-jaeger (tropical)",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i4.imageban.ru/out/2015/05/18/d7b58e88cd271975aab7a6073c4f0a1c.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "782fe1"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -3.99449658,
+        "posY": 1.17887163,
+        "posZ": 18.5507965,
+        "rotX": -2.61587829E-05,
+        "rotY": 1.40179,
+        "rotZ": -2.77204572E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Falschirm-jaeger (winter)",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i2.imageban.ru/out/2015/05/18/168266fc747030d0ac16e323ef591153.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "421d4a"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -17.3196945,
+        "posY": 1.17887163,
+        "posZ": 10.4409943,
+        "rotX": -1.81146242E-09,
+        "rotY": 359.800232,
+        "rotZ": -4.48806825E-10,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "German radio operator",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i6.imageban.ru/out/2015/05/18/ab0badc108597b175b00c7fd74ed77a0.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "074f8a"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -5.04793,
+        "posY": 1.17887163,
+        "posZ": 16.84681,
+        "rotX": 3.52692268E-07,
+        "rotY": 359.975677,
+        "rotZ": -5.3143076E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "German tank commander",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i5.imageban.ru/out/2015/05/18/ddc426e8aca14351436fc6c8ae9d9bee.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "a6712c"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -19.9924049,
+        "posY": 1.17887163,
+        "posZ": 0.2087099,
+        "rotX": 1.03554711E-07,
+        "rotY": 359.949463,
+        "rotZ": 3.19664821E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "German tank crew (desert)",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i6.imageban.ru/out/2015/05/18/a239b3cc8ed030956cc6bce5ebe616fd.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "55b612"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -5.214586,
+        "posY": 1.17887163,
+        "posZ": 14.499794,
+        "rotX": 4.43351276E-08,
+        "rotY": 359.944763,
+        "rotZ": -1.06851438E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "German tank crew",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i2.imageban.ru/out/2015/05/18/59c5ffed95dd4675a4e1370ff0f50ef1.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "b7a43e"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -15.4523573,
+        "posY": 1.17887175,
+        "posZ": 12.234024,
+        "rotX": 1.51944732E-06,
+        "rotY": 359.851685,
+        "rotZ": -1.20618879E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Volkssturm officer",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i6.imageban.ru/out/2015/05/18/b25b6c46cef08fa7b9e8a082aa46527f.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "3c51fa"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -15.4441719,
+        "posY": 1.17887163,
+        "posZ": 10.0123663,
+        "rotX": 1.02083526E-07,
+        "rotY": 359.916718,
+        "rotZ": -2.13681147E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Volkssturm soldier",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i5.imageban.ru/out/2015/05/18/594cc07f809cffa673332df67fa4c37b.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "38453a"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -18.2336063,
+        "posY": 1.17887187,
+        "posZ": 8.517936,
+        "rotX": 1.02137818E-07,
+        "rotY": 0.00519804,
+        "rotZ": 2.13452878E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "German ordery",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i5.imageban.ru/out/2015/05/18/33dd0417479fd0b17270d5c5b6598120.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "764e3a"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -12.9962521,
+        "posY": 1.17887187,
+        "posZ": 8.682317,
+        "rotX": 3.60209924E-07,
+        "rotY": 0.0999607146,
+        "rotZ": 2.13998987E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "German soldier",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i6.imageban.ru/out/2015/05/18/11d9fe261bead84a9bc23c90fb5f1dde.jpg",
+        "WidthScale": 0.0
+      },
+      "GUID": "fd3314"
+    }
+  ]
+}

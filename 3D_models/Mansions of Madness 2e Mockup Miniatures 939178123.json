@@ -1,0 +1,2760 @@
+{
+  "SaveName": "Mansions of Madness 2e Mockup Miniatures",
+  "GameMode": "Dice",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "6/4/2017 1:18:43 AM",
+  "Table": "Table_RPG",
+  "Sky": "Sky_Regal",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "",
+  "LuaScript": "--[[ Lua code. See documentation: http://berserk-games.com/knowledgebase/scripting/ --]]\n\n--[[ The OnLoad function. This is called after everything in the game save finishes loading.\nMost of your script code goes here. --]]\nfunction onload()\n    --[[ print('Onload!') --]]\nend\n\n--[[ The Update function. This is called once per frame. --]]\nfunction update ()\n    --[[ print('Update loop!') --]]\nend",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -15.1107731,
+          "posY": 4.81034231,
+          "posZ": -20.1076221,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 11.771986,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -30.2150211,
+          "posY": 4.81034231,
+          "posZ": 10.17524,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6554251,
+          "scaleY": 9.174497,
+          "scaleZ": 4.919951
+        }
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 30.2511711,
+          "posY": 4.81034231,
+          "posZ": 9.59069252,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6554193,
+          "scaleY": 9.174497,
+          "scaleZ": 4.919951
+        }
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 15.4749184,
+          "posY": 4.81034231,
+          "posZ": 19.8365288,
+          "rotX": 0.0,
+          "rotY": 179.8,
+          "rotZ": 0.0,
+          "scaleX": 11.7719727,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87124
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 15.1961212,
+          "posY": 4.81034231,
+          "posZ": -20.1400986,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 11.7719679,
+          "scaleY": 9.17449951,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": -15.1927719,
+          "posY": 4.81034231,
+          "posZ": 19.787817,
+          "rotX": 0.0,
+          "rotY": 180.000092,
+          "rotZ": 0.0,
+          "scaleX": 11.7719679,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 30.1035728,
+          "posY": 4.81034231,
+          "posZ": -8.449126,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6554174,
+          "scaleY": 9.174497,
+          "scaleZ": 4.919951
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -30.247818,
+          "posY": 4.81034231,
+          "posZ": -8.822588,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 11.65543,
+          "scaleY": 9.174497,
+          "scaleZ": 4.919951
+        }
+      }
+    ]
+  },
+  "VectorLines": [],
+  "ObjectStates": [
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -4.01194572,
+        "posY": 0.9791916,
+        "posZ": 6.95534229,
+        "rotX": -2.37072345E-06,
+        "rotY": 180.000839,
+        "rotZ": -8.5373307E-07,
+        "scaleX": 0.4250005,
+        "scaleY": 0.4250005,
+        "scaleZ": 0.4250005
+      },
+      "Nickname": "Millionaire",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://dl.dropboxusercontent.com/u/67758571/DNDMODELS/Game_Master_Blender.txt",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "f18b7a"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -2.28851223,
+        "posY": 0.9999376,
+        "posZ": 6.90266752,
+        "rotX": 1.08018858E-05,
+        "rotY": 180.000031,
+        "rotZ": -2.096655E-06,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Gravedigger",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "http://infinitebucket.com/tts/dotd/russianmafialeader.obj",
+        "DiffuseURL": "",
+        "NormalURL": "http://infinitebucket.com/tts/dotd/russianmafialeader_n.jpg",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "220b03"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 2.7157104,
+        "posY": 1.09144747,
+        "posZ": 6.802843,
+        "rotX": -6.431987E-06,
+        "rotY": 179.966125,
+        "rotZ": 1.25685419E-05,
+        "scaleX": 0.625000536,
+        "scaleY": 0.625000536,
+        "scaleZ": 0.625000536
+      },
+      "Nickname": "Priest",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://drive.google.com/uc?id=0B7EP11HQpqe6c1FCY1BUZF9SWEE",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "c947e9"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -0.8343031,
+        "posY": 1.73077,
+        "posZ": 6.26065159,
+        "rotX": 2.60043885E-06,
+        "rotY": 2.44370549E-05,
+        "rotZ": 3.28321744E-06,
+        "scaleX": 0.700000048,
+        "scaleY": 0.700000048,
+        "scaleZ": 0.700000048
+      },
+      "Nickname": "Urchin",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=JWKpZNkf",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "a24bd2"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.325226635,
+        "posY": 1.00024986,
+        "posZ": 6.902794,
+        "rotX": -4.421854E-06,
+        "rotY": 180.000031,
+        "rotZ": 1.013489E-06,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Butler",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "http://infinitebucket.com/tts/dotd/orcarcartagena.obj",
+        "DiffuseURL": "",
+        "NormalURL": "http://infinitebucket.com/tts/dotd/orcarcartagena_n.jpg",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "1238bd"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 1.6087532,
+        "posY": 1.0064044,
+        "posZ": 6.870267,
+        "rotX": 359.067047,
+        "rotY": 180.025192,
+        "rotZ": 359.6318,
+        "scaleX": 1.05000138,
+        "scaleY": 1.05000138,
+        "scaleZ": 1.05000138
+      },
+      "Nickname": "Athlete",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=ZekqtKge",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "b265d0",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": -0.014348641,
+          "y": 0.0583357662,
+          "z": -0.07519819
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "b529d3"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 1.60267806,
+        "posY": 0.9816444,
+        "posZ": 6.83827257,
+        "rotX": 0.0112048322,
+        "rotY": 179.996567,
+        "rotZ": 0.00132627739,
+        "scaleX": 0.425000459,
+        "scaleY": 0.425000459,
+        "scaleZ": 0.425000459
+      },
+      "Nickname": "Athlete",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/HueaF",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "b265d0"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 4.264976,
+        "posY": 0.9578272,
+        "posZ": 7.293443,
+        "rotX": 359.512543,
+        "rotY": 179.99324,
+        "rotZ": 0.0269365069,
+        "scaleX": 0.25000006,
+        "scaleY": 0.25000006,
+        "scaleZ": 0.25000006
+      },
+      "Nickname": "Parapsychologist",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=kUrRjszh",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "9e06c8",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": -0.135724559,
+          "y": -0.0557438359,
+          "z": -0.60657537
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "76f415"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 4.207421,
+        "posY": 0.9816078,
+        "posZ": 7.035616,
+        "rotX": 0.00572561659,
+        "rotY": 179.972137,
+        "rotZ": 0.00100988313,
+        "scaleX": 0.425000459,
+        "scaleY": 0.425000459,
+        "scaleZ": 0.425000459
+      },
+      "Nickname": "Parapsychologist",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/HueaF",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "9e06c8"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 5.034432,
+        "posY": 1.01707041,
+        "posZ": 6.961243,
+        "rotX": 0.146403179,
+        "rotY": 89.98196,
+        "rotZ": 0.697210252,
+        "scaleX": 0.9000001,
+        "scaleY": 0.9000001,
+        "scaleZ": 0.9000001
+      },
+      "Nickname": "Secretary",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/l66bu",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "4906aa",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 1.55034161,
+          "y": 0.08323848,
+          "z": -0.08789592
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "f1051f"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 5.69334364,
+        "posY": 0.9816188,
+        "posZ": 6.924198,
+        "rotX": 0.00747229438,
+        "rotY": 179.969482,
+        "rotZ": 0.00142726931,
+        "scaleX": 0.425000459,
+        "scaleY": 0.425000459,
+        "scaleZ": 0.425000459
+      },
+      "Nickname": "Secretary",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/HueaF",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "4906aa"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 10.2843113,
+        "posY": 1.00441575,
+        "posZ": 0.3835384,
+        "rotX": 0.000232392529,
+        "rotY": 179.991882,
+        "rotZ": 2.5354218E-06,
+        "scaleX": 0.8750002,
+        "scaleY": 0.8750002,
+        "scaleZ": 0.8750002
+      },
+      "Nickname": "Deep One",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/HueaF",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "2e2216"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 7.950195,
+        "posY": 1.01865518,
+        "posZ": 0.575746,
+        "rotX": -3.77141282E-06,
+        "rotY": 270.000061,
+        "rotZ": -7.302951E-07,
+        "scaleX": 1.05000007,
+        "scaleY": 1.05000007,
+        "scaleZ": 1.05000007
+      },
+      "Nickname": "Deep One Hybrid",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://drive.google.com/uc?id=0B7EP11HQpqe6NGRFRFhralBTTlE",
+        "DiffuseURL": "https://www.dropbox.com/s/d8vpj0zblwrgdw0/HellKnightBLANK.jpg?dl=1",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "09a2f8"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 10.21872,
+        "posY": 1.05996323,
+        "posZ": 0.439032435,
+        "rotX": 0.00710459659,
+        "rotY": 270.0289,
+        "rotZ": 359.991669,
+        "scaleX": 0.8750021,
+        "scaleY": 0.8750021,
+        "scaleZ": 0.8750021
+      },
+      "Nickname": "Deep One",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://drive.google.com/uc?id=0B7EP11HQpqe6eW04WXlPNEdhT2M",
+        "DiffuseURL": "http://i.imgur.com/zpf4jeP.png",
+        "NormalURL": "https://drive.google.com/uc?id=0B7EP11HQpqe6S3Jld0FrTmpTTkE",
+        "ColliderURL": "https://drive.google.com/uc?export=download&id=0ByeYDToAJ0L5V0Nwb3NlYlNxZlE",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "2e2216",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.0749486238,
+          "y": 0.06348605,
+          "z": -0.06342834
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "944829"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 14.9889355,
+        "posY": 1.14664268,
+        "posZ": 0.894796848,
+        "rotX": 359.884918,
+        "rotY": 179.505157,
+        "rotZ": 359.9104,
+        "scaleX": 0.775000155,
+        "scaleY": 0.775000155,
+        "scaleZ": 0.775000155
+      },
+      "Nickname": "Riot",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992161334,
+        "b": 0.9999998
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/lRcXS",
+        "DiffuseURL": "https://drive.google.com/uc?id=0B7EP11HQpqe6RjV0SHdXdnRJWEE",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "cb064e",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": -0.415109634,
+          "y": 0.1359477,
+          "z": -0.132077456
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "7ef06e"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 14.0902834,
+        "posY": 1.06165433,
+        "posZ": 1.26045823,
+        "rotX": 359.949036,
+        "rotY": 179.942429,
+        "rotZ": 359.898529,
+        "scaleX": 0.775000155,
+        "scaleY": 0.775000155,
+        "scaleZ": 0.775000155
+      },
+      "Nickname": "Riot",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992161334,
+        "b": 0.9999998
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/y2yJL",
+        "DiffuseURL": "https://drive.google.com/uc?id=0B7EP11HQpqe6RjV0SHdXdnRJWEE",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "cb064e",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.483874917,
+          "y": 0.0512021221,
+          "z": -0.497012883
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "2447c1"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 5.729235,
+        "posY": 1.03809214,
+        "posZ": 0.463616967,
+        "rotX": 0.153618068,
+        "rotY": 270.0386,
+        "rotZ": 359.66037,
+        "scaleX": 1.25000179,
+        "scaleY": 1.25000179,
+        "scaleZ": 1.25000179
+      },
+      "Nickname": "Priest of Dagon",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://drive.google.com/uc?export=download&id=0ByeYDToAJ0L5ZDRuY0xPMUlvekk",
+        "DiffuseURL": "http://i.imgur.com/BbwppHs.png",
+        "NormalURL": "",
+        "ColliderURL": "https://drive.google.com/uc?export=download&id=0ByeYDToAJ0L5V0Nwb3NlYlNxZlE",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "1dac19",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.06560012,
+          "y": 0.0741533339,
+          "z": -0.00460270327
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "d34878"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 5.77025,
+        "posY": 0.991758347,
+        "posZ": 0.460729331,
+        "rotX": 0.00363582629,
+        "rotY": 179.985764,
+        "rotZ": 0.000373782736,
+        "scaleX": 0.625000358,
+        "scaleY": 0.625000358,
+        "scaleZ": 0.625000358
+      },
+      "Nickname": "Priest of Dagon",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/HueaF",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "1dac19"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 12.2683239,
+        "posY": 0.9904769,
+        "posZ": 0.520213,
+        "rotX": 0.002500795,
+        "rotY": -0.00116938818,
+        "rotZ": 0.000337374542,
+        "scaleX": 0.6000004,
+        "scaleY": 0.6000004,
+        "scaleZ": 0.6000004
+      },
+      "Nickname": "Ghost",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/HueaF",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "53f17b"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 14.57377,
+        "posY": 1.01075363,
+        "posZ": 0.7630263,
+        "rotX": -0.00104469142,
+        "rotY": 180.049133,
+        "rotZ": -0.000956358737,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Riot",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/HueaF",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "cb064e"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 12.2589073,
+        "posY": 0.9818402,
+        "posZ": 0.6062844,
+        "rotX": 0.0566715673,
+        "rotY": 180.016037,
+        "rotZ": 0.01804463,
+        "scaleX": 0.275000423,
+        "scaleY": 0.275000423,
+        "scaleZ": 0.275000423
+      },
+      "Nickname": "Ghost",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921616,
+        "b": 0.9999998
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://dl.dropboxusercontent.com/s/qy26053qq2gzl6d/1dragonpriest.obj?dl=0",
+        "DiffuseURL": "https://drive.google.com/uc?id=0B7EP11HQpqe6TEJsMTNocm14c0k",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "53f17b",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": -0.0156988315,
+          "y": -0.0144158863,
+          "z": 0.143464625
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "a17ff2"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 14.3328342,
+        "posY": 1.06206977,
+        "posZ": 0.222709745,
+        "rotX": 359.9913,
+        "rotY": 179.97876,
+        "rotZ": 359.973328,
+        "scaleX": 0.775000155,
+        "scaleY": 0.775000155,
+        "scaleZ": 0.775000155
+      },
+      "Nickname": "Riot",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://drive.google.com/uc?id=0B7EP11HQpqe6cVBacUJPcmZpTjA",
+        "DiffuseURL": "https://drive.google.com/uc?id=0B7EP11HQpqe6RjV0SHdXdnRJWEE",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "cb064e",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.2404715,
+          "y": 0.0513529554,
+          "z": 0.5405057
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "f3aadd"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 4.00438166,
+        "posY": 1.044375,
+        "posZ": 0.481944442,
+        "rotX": -3.0343773E-07,
+        "rotY": -8.43342661E-07,
+        "rotZ": 1.60166564E-06,
+        "scaleX": 0.450000376,
+        "scaleY": 0.450000376,
+        "scaleZ": 0.450000376
+      },
+      "Nickname": "Cultist",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://drive.google.com/uc?id=0B7EP11HQpqe6alEzdUJjXzZUUUk",
+        "DiffuseURL": "https://drive.google.com/uc?id=0B7EP11HQpqe6V3RjVWk4Z2pfVWM",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw/bZ60qPPP",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "4c94d5"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 1.54205525,
+        "posY": 1.05775833,
+        "posZ": 0.6715402,
+        "rotX": -4.294425E-06,
+        "rotY": 270.0,
+        "rotZ": 1.61190724E-06,
+        "scaleX": 1.74999976,
+        "scaleY": 1.74999976,
+        "scaleZ": 1.74999976
+      },
+      "Nickname": "Child of Dagon",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/w7u5bp9ycnroi6r/Zombie.obj?dl=1",
+        "DiffuseURL": "https://www.dropbox.com/s/ag35njvq1gtg11u/ZombieBLANK.jpg?dl=1",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "10e9ef"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -2.49561024,
+        "posY": 1.04129267,
+        "posZ": 0.4618766,
+        "rotX": 0.0032781004,
+        "rotY": 179.990265,
+        "rotZ": 0.000422073848,
+        "scaleX": 1.59999967,
+        "scaleY": 1.59999967,
+        "scaleZ": 1.59999967
+      },
+      "Nickname": "Star Spawn",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/HueaF",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "2fd7d4"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -2.59489,
+        "posY": 1.15897441,
+        "posZ": 1.47042811,
+        "rotX": 0.0509521924,
+        "rotY": 270.009247,
+        "rotZ": 359.6505,
+        "scaleX": 2.89999843,
+        "scaleY": 2.89999843,
+        "scaleZ": 2.89999843
+      },
+      "Nickname": "Star Spawn",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://drive.google.com/uc?id=0B7EP11HQpqe6YjVrak9rSEtOTk0",
+        "DiffuseURL": "http://i.imgur.com/0JLzqKb.jpg",
+        "NormalURL": "http://i.imgur.com/SU9ihf5.jpg",
+        "ColliderURL": "https://drive.google.com/uc?export=download&id=0ByeYDToAJ0L5V0Nwb3NlYlNxZlE",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "2fd7d4",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.0619348921,
+          "y": 0.07373075,
+          "z": -0.630318
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "cb930c"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -6.838154,
+        "posY": 1.00443,
+        "posZ": 0.3455943,
+        "rotX": 0.00134576485,
+        "rotY": 179.998428,
+        "rotZ": 0.0002432229,
+        "scaleX": 0.8750003,
+        "scaleY": 0.8750003,
+        "scaleZ": 0.8750003
+      },
+      "Nickname": "Hunting Horror",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/HueaF",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "278101"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -6.82771873,
+        "posY": 1.0684222,
+        "posZ": 0.4384866,
+        "rotX": -0.0009292359,
+        "rotY": 270.032349,
+        "rotZ": 359.964233,
+        "scaleX": 0.250001073,
+        "scaleY": 0.250001073,
+        "scaleZ": 0.250001073
+      },
+      "Nickname": "Hunting Horror",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://drive.google.com/uc?export=download&id=0ByeYDToAJ0L5eDk1WjNtTmE5UGs",
+        "DiffuseURL": "https://drive.google.com/uc?id=0B7EP11HQpqe6eTdaY1VrN255R00",
+        "NormalURL": "",
+        "ColliderURL": "https://drive.google.com/uc?export=download&id=0ByeYDToAJ0L5VTNVTTlDSDNrUHc",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "278101",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": -0.0119303763,
+          "y": 0.0731382146,
+          "z": -0.106146663
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "79d4f9"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -10.6507864,
+        "posY": 1.990803,
+        "posZ": 0.138024375,
+        "rotX": 1.73030841E-07,
+        "rotY": 1.06286919E-07,
+        "rotZ": 1.53751569E-06,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Cthonian",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.299337447,
+        "g": 0.31880793,
+        "b": 0.201984823
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw/fdcfh3A5",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "05539b"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -7.227629,
+        "posY": 1.06842232,
+        "posZ": -5.256991,
+        "rotX": -0.003892464,
+        "rotY": 270.007721,
+        "rotZ": 359.905731,
+        "scaleX": 0.250001073,
+        "scaleY": 0.250001073,
+        "scaleZ": 0.250001073
+      },
+      "Nickname": "Hunting Horror",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://drive.google.com/uc?export=download&id=0ByeYDToAJ0L5eDk1WjNtTmE5UGs",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "https://drive.google.com/uc?export=download&id=0ByeYDToAJ0L5VTNVTTlDSDNrUHc",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "15ec2c",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": -0.0118996538,
+          "y": 0.0731383562,
+          "z": -0.105925776
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "811c4e"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -7.23800468,
+        "posY": 1.00443017,
+        "posZ": -5.349694,
+        "rotX": 0.00134555483,
+        "rotY": 179.977875,
+        "rotZ": 0.00024384573,
+        "scaleX": 0.8750003,
+        "scaleY": 0.8750003,
+        "scaleZ": 0.8750003
+      },
+      "Nickname": "Hunting Horror",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/HueaF",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "15ec2c"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -10.9526119,
+        "posY": 1.99080288,
+        "posZ": -5.26849461,
+        "rotX": -2.40489E-07,
+        "rotY": 359.981781,
+        "rotZ": 5.13410043E-07,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Cthonian",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw/fdcfh3A5",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "647e86"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -2.44626427,
+        "posY": 1.15887022,
+        "posZ": -3.92685747,
+        "rotX": 0.05326617,
+        "rotY": 270.0429,
+        "rotZ": 359.641541,
+        "scaleX": 2.89999843,
+        "scaleY": 2.89999843,
+        "scaleZ": 2.89999843
+      },
+      "Nickname": "Star Spawn",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://drive.google.com/uc?id=0B7EP11HQpqe6YjVrak9rSEtOTk0",
+        "DiffuseURL": "",
+        "NormalURL": "http://i.imgur.com/SU9ihf5.jpg",
+        "ColliderURL": "https://drive.google.com/uc?export=download&id=0ByeYDToAJ0L5V0Nwb3NlYlNxZlE",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "592d63",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.06883939,
+          "y": 0.0736928955,
+          "z": -0.6885374
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "a22774"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -2.336116,
+        "posY": 1.04129791,
+        "posZ": -5.028581,
+        "rotX": 0.00347542064,
+        "rotY": 180.000412,
+        "rotZ": 0.000445276528,
+        "scaleX": 1.59999967,
+        "scaleY": 1.59999967,
+        "scaleZ": 1.59999967
+      },
+      "Nickname": "Star Spawn",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/HueaF",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "592d63"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 1.72158349,
+        "posY": 0.9600001,
+        "posZ": -5.622611,
+        "rotX": -1.57069894E-06,
+        "rotY": 180.00061,
+        "rotZ": -1.18094867E-08,
+        "scaleX": 1.250001,
+        "scaleY": 1.250001,
+        "scaleZ": 1.250001
+      },
+      "Nickname": "Child of Dagon",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/keojg642pn30s25/Toxic_Fatty.obj?dl=1",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "86638b"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 3.74917984,
+        "posY": 0.950605869,
+        "posZ": -5.57005024,
+        "rotX": 1.02893546E-06,
+        "rotY": 180.000778,
+        "rotZ": 3.23877856E-07,
+        "scaleX": 1.70000017,
+        "scaleY": 1.70000017,
+        "scaleZ": 1.70000017
+      },
+      "Nickname": "Cultist",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=7nTfkQUR",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "647176"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 5.394975,
+        "posY": 0.9904924,
+        "posZ": -5.24261236,
+        "rotX": 0.004152955,
+        "rotY": 179.991913,
+        "rotZ": 0.000472446874,
+        "scaleX": 0.6000004,
+        "scaleY": 0.6000004,
+        "scaleZ": 0.6000004
+      },
+      "Nickname": "Priest of Dagon",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/HueaF",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "bd7680"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 5.36532259,
+        "posY": 1.03683662,
+        "posZ": -5.225497,
+        "rotX": 0.0430111326,
+        "rotY": 270.263916,
+        "rotZ": 359.90744,
+        "scaleX": 1.25000179,
+        "scaleY": 1.25000179,
+        "scaleZ": 1.25000179
+      },
+      "Nickname": "Priest of Dagon",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://drive.google.com/uc?export=download&id=0ByeYDToAJ0L5ZDRuY0xPMUlvekk",
+        "DiffuseURL": "",
+        "NormalURL": "https://drive.google.com/uc?id=0B7EP11HQpqe6WW40QTQweWYxZE0",
+        "ColliderURL": "https://drive.google.com/uc?export=download&id=0ByeYDToAJ0L5V0Nwb3NlYlNxZlE",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "bd7680",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.0493944362,
+          "y": 0.07726513,
+          "z": -0.0284941327
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "99b558"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 7.53479576,
+        "posY": 1.02144814,
+        "posZ": -5.11673069,
+        "rotX": 2.88103479E-06,
+        "rotY": 270.000061,
+        "rotZ": -3.94804465E-06,
+        "scaleX": 1.1,
+        "scaleY": 1.1,
+        "scaleZ": 1.1
+      },
+      "Nickname": "Deep One Hybrid",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://drive.google.com/uc?id=0B7EP11HQpqe6NGRFRFhralBTTlE",
+        "DiffuseURL": "",
+        "NormalURL": "https://drive.google.com/uc?id=0B7EP11HQpqe6OEd5cWxxbVFZZEU",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "a8fe66"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 10.1082468,
+        "posY": 1.004416,
+        "posZ": -5.412754,
+        "rotX": 0.000241376882,
+        "rotY": 179.982712,
+        "rotZ": 9.422928E-06,
+        "scaleX": 0.8750002,
+        "scaleY": 0.8750002,
+        "scaleZ": 0.8750002
+      },
+      "Nickname": "Deep One",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/HueaF",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "c41ca2"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 10.05066,
+        "posY": 1.0599637,
+        "posZ": -5.34055662,
+        "rotX": 0.005464773,
+        "rotY": 270.055542,
+        "rotZ": 359.993683,
+        "scaleX": 0.8750021,
+        "scaleY": 0.8750021,
+        "scaleZ": 0.8750021
+      },
+      "Nickname": "Deep One",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://drive.google.com/uc?id=0B7EP11HQpqe6eW04WXlPNEdhT2M",
+        "DiffuseURL": "",
+        "NormalURL": "https://drive.google.com/uc?id=0B7EP11HQpqe6S3Jld0FrTmpTTkE",
+        "ColliderURL": "https://drive.google.com/uc?export=download&id=0ByeYDToAJ0L5V0Nwb3NlYlNxZlE",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "c41ca2",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.06578548,
+          "y": 0.06348664,
+          "z": -0.08252666
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "1c2efd"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 12.014637,
+        "posY": 0.9904685,
+        "posZ": -5.745424,
+        "rotX": 0.00150513055,
+        "rotY": 180.014755,
+        "rotZ": 6.96151E-05,
+        "scaleX": 0.6000004,
+        "scaleY": 0.6000004,
+        "scaleZ": 0.6000004
+      },
+      "Nickname": "Ghost",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/HueaF",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "216fa8"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 11.9744749,
+        "posY": 0.9818884,
+        "posZ": -5.931598,
+        "rotX": 0.031670332,
+        "rotY": 1.3597728,
+        "rotZ": 0.0186493713,
+        "scaleX": 0.275000423,
+        "scaleY": 0.275000423,
+        "scaleZ": 0.275000423
+      },
+      "Nickname": "Ghost",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921616,
+        "b": 0.9999998
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://dl.dropboxusercontent.com/s/qy26053qq2gzl6d/1dragonpriest.obj?dl=0",
+        "DiffuseURL": "",
+        "NormalURL": "https://drive.google.com/uc?id=0B7EP11HQpqe6cW9tZG5Vb0FsZzA",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "216fa8",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.0668460652,
+          "y": -0.01431322,
+          "z": 0.310313
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "211fb5"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 14.5208473,
+        "posY": 1.01075387,
+        "posZ": -5.49428844,
+        "rotX": -0.0009967812,
+        "rotY": 180.018509,
+        "rotZ": -0.0007488006,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Riot",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/HueaF",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "675491"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 14.0383816,
+        "posY": 1.061666,
+        "posZ": -4.99380875,
+        "rotX": 359.960358,
+        "rotY": 182.181046,
+        "rotZ": 359.9292,
+        "scaleX": 0.775000155,
+        "scaleY": 0.775000155,
+        "scaleZ": 0.775000155
+      },
+      "Nickname": "Riot",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992161334,
+        "b": 0.9999998
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/y2yJL",
+        "DiffuseURL": "",
+        "NormalURL": "https://drive.google.com/uc?id=0B7EP11HQpqe6cU5pNE1za1duTEU",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "675491",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.482605964,
+          "y": 0.051249072,
+          "z": -0.5002959
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "1ba1c2"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 14.2920866,
+        "posY": 1.06208587,
+        "posZ": -6.00100851,
+        "rotX": 359.982544,
+        "rotY": 182.183319,
+        "rotZ": 359.980743,
+        "scaleX": 0.775000155,
+        "scaleY": 0.775000155,
+        "scaleZ": 0.775000155
+      },
+      "Nickname": "Riot",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://drive.google.com/uc?id=0B7EP11HQpqe6cVBacUJPcmZpTjA",
+        "DiffuseURL": "",
+        "NormalURL": "https://drive.google.com/uc?id=0B7EP11HQpqe6cU5pNE1za1duTEU",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "675491",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.228606477,
+          "y": 0.05133708,
+          "z": 0.506801844
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "eece7e"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 14.9264412,
+        "posY": 1.1466136,
+        "posZ": -5.376094,
+        "rotX": 359.929718,
+        "rotY": 182.146484,
+        "rotZ": 359.940735,
+        "scaleX": 0.775000155,
+        "scaleY": 0.775000155,
+        "scaleZ": 0.775000155
+      },
+      "Nickname": "Riot",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992161334,
+        "b": 0.9999998
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/lRcXS",
+        "DiffuseURL": "",
+        "NormalURL": "https://drive.google.com/uc?id=0B7EP11HQpqe6cU5pNE1za1duTEU",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "675491",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": -0.405536115,
+          "y": 0.135921955,
+          "z": -0.118307084
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "f47677"
+    }
+  ],
+  "DecalPallet": [],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": ""
+}

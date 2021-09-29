@@ -1,0 +1,643 @@
+{
+  "SaveName": "Basic Scatter Dice",
+  "GameMode": "None",
+  "Date": "7/5/2015 12:51:36 PM",
+  "Table": "Table_Square",
+  "Sky": "Sky_Tunnel",
+  "Note": "",
+  "Rules": "",
+  "PlayerTurn": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": true,
+    "Snapping": true,
+    "Offset": false,
+    "xSize": 1.34,
+    "ySize": 1.34,
+    "yPosition": 0.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hidding": 0
+  },
+  "DrawImage": "iVBORw0KGgoAAAANSUhEUgAAAWAAAADQCAYAAAA53LuNAAAFFElEQVR4Ae3QgQAAAADDoPlTH+SFUGHAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgy8DQx5DAABHyNK3wAAAABJRU5ErkJggg==",
+  "ObjectStates": [
+    {
+      "Name": "Custom_Dice",
+      "Transform": {
+        "posX": 0.00112513825,
+        "posY": 1.27519882,
+        "posZ": 1.34035492,
+        "rotX": 270.0,
+        "rotY": 358.5393,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.6196222,
+        "b": 0.223547116
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/UMA3kua.png",
+        "WidthScale": 0.0,
+        "CustomDice": {
+          "Type": 1
+        }
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.6,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "GUID": "06a2de"
+    },
+    {
+      "Name": "Custom_Dice",
+      "Transform": {
+        "posX": 0.0008298388,
+        "posY": 1.27519846,
+        "posZ": -4.01977873,
+        "rotX": 270.0,
+        "rotY": 359.6242,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/UMA3kua.png",
+        "WidthScale": 0.0,
+        "CustomDice": {
+          "Type": 1
+        }
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.6,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "GUID": "9942ca"
+    },
+    {
+      "Name": "Custom_Dice",
+      "Transform": {
+        "posX": 0.001136917,
+        "posY": 1.27519691,
+        "posZ": 2.680359,
+        "rotX": 270.0,
+        "rotY": 358.5756,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.149035648,
+        "g": 0.215192974,
+        "b": 0.9372577
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/UMA3kua.png",
+        "WidthScale": 0.0,
+        "CustomDice": {
+          "Type": 1
+        }
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.6,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "GUID": "55980e"
+    },
+    {
+      "Name": "Custom_Dice",
+      "Transform": {
+        "posX": 0.0011427796,
+        "posY": 1.275198,
+        "posZ": -2.67964387,
+        "rotX": 270.0,
+        "rotY": 358.614471,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.945100546,
+        "g": 0.0156862754,
+        "b": 0.12942715
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/UMA3kua.png",
+        "WidthScale": 0.0,
+        "CustomDice": {
+          "Type": 1
+        }
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.6,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "GUID": "9e47c3"
+    },
+    {
+      "Name": "Custom_Dice",
+      "Transform": {
+        "posX": 0.00113309943,
+        "posY": 1.27519679,
+        "posZ": 0.000365005952,
+        "rotX": 270.0,
+        "rotY": 358.6128,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.341195017
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/UMA3kua.png",
+        "WidthScale": 0.0,
+        "CustomDice": {
+          "Type": 1
+        }
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.6,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "GUID": "343035"
+    },
+    {
+      "Name": "Custom_Dice",
+      "Transform": {
+        "posX": 0.000167442558,
+        "posY": 1.27519691,
+        "posZ": 4.02014256,
+        "rotX": 270.0,
+        "rotY": 358.642639,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8392228,
+        "g": 0.172565728,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/UMA3kua.png",
+        "WidthScale": 0.0,
+        "CustomDice": {
+          "Type": 1
+        }
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.6,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "GUID": "8eb8d3"
+    },
+    {
+      "Name": "Custom_Dice",
+      "Transform": {
+        "posX": 0.0005377359,
+        "posY": 1.27519858,
+        "posZ": -1.33981311,
+        "rotX": 270.0,
+        "rotY": 359.121643,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9372577,
+        "g": 0.337273479,
+        "b": 0.0392156877
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/UMA3kua.png",
+        "WidthScale": 0.0,
+        "CustomDice": {
+          "Type": 1
+        }
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.6,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "GUID": "6cd9ce"
+    },
+    {
+      "Name": "Custom_Dice",
+      "Transform": {
+        "posX": 1.34102988,
+        "posY": 1.27519751,
+        "posZ": -4.02052975,
+        "rotX": 90.0,
+        "rotY": 86.4101639,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/OwMQ4iT.png",
+        "WidthScale": 0.0,
+        "CustomDice": {
+          "Type": 1
+        }
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.6,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "GUID": "5b6dec"
+    },
+    {
+      "Name": "Custom_Dice",
+      "Transform": {
+        "posX": 1.34042919,
+        "posY": 1.275199,
+        "posZ": -2.68022633,
+        "rotX": 90.0,
+        "rotY": 86.44571,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.956864059,
+        "g": 0.0156862754,
+        "b": 0.208079055
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/OwMQ4iT.png",
+        "WidthScale": 0.0,
+        "CustomDice": {
+          "Type": 1
+        }
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.6,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "GUID": "f563c1"
+    },
+    {
+      "Name": "Custom_Dice",
+      "Transform": {
+        "posX": 1.34041929,
+        "posY": 1.27519941,
+        "posZ": -1.340234,
+        "rotX": 90.0,
+        "rotY": 86.44673,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9352543,
+        "g": 0.362715542,
+        "b": 0.0327076651
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/OwMQ4iT.png",
+        "WidthScale": 0.0,
+        "CustomDice": {
+          "Type": 1
+        }
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.6,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "GUID": "6e30a4"
+    },
+    {
+      "Name": "Custom_Dice",
+      "Transform": {
+        "posX": 1.34042919,
+        "posY": 1.27519941,
+        "posZ": -0.000224284158,
+        "rotX": 90.0,
+        "rotY": 86.44592,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.341188878
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/OwMQ4iT.png",
+        "WidthScale": 0.0,
+        "CustomDice": {
+          "Type": 1
+        }
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.6,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "GUID": "94f4f3"
+    },
+    {
+      "Name": "Custom_Dice",
+      "Transform": {
+        "posX": 1.34042835,
+        "posY": 1.27519882,
+        "posZ": 1.33977616,
+        "rotX": 90.0,
+        "rotY": 86.44614,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.160749629,
+        "g": 0.8587973,
+        "b": 0.2587445
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/OwMQ4iT.png",
+        "WidthScale": 0.0,
+        "CustomDice": {
+          "Type": 1
+        }
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.6,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "GUID": "f72002"
+    },
+    {
+      "Name": "Custom_Dice",
+      "Transform": {
+        "posX": 1.34042573,
+        "posY": 1.27519894,
+        "posZ": 2.67977929,
+        "rotX": 90.0,
+        "rotY": 86.4217453,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.148077592,
+        "g": 0.164399311,
+        "b": 0.9363042
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/OwMQ4iT.png",
+        "WidthScale": 0.0,
+        "CustomDice": {
+          "Type": 1
+        }
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.6,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "GUID": "dc095f"
+    },
+    {
+      "Name": "Custom_Dice",
+      "Transform": {
+        "posX": 1.340427,
+        "posY": 1.27519667,
+        "posZ": 4.019776,
+        "rotX": 90.0,
+        "rotY": 86.44582,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.937256753,
+        "g": 0.1568736,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/OwMQ4iT.png",
+        "WidthScale": 0.0,
+        "CustomDice": {
+          "Type": 1
+        }
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.6,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "GUID": "4326ea"
+    }
+  ]
+}

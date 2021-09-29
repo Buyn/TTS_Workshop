@@ -1,0 +1,385 @@
+{
+  "SaveName": "Shadowrun Dice Roller",
+  "GameMode": "Shadowrun Dice Roller",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "5/17/2019 9:36:59 AM",
+  "Table": "Table_Hexagon",
+  "Sky": "Sky_Regal",
+  "Note": "Credit for the bulk of this work goes to -- Universal Counter Tokens -- coded \nby: MrStump\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=759179574\n",
+  "Rules": "",
+  "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
+  "LuaScript": "--[[ Lua code. See documentation: https://api.tabletopsimulator.com/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate()\n    --[[ print('onUpdate loop!') --]]\nend",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -13.642868,
+          "posY": 3.558937,
+          "posZ": -7.488758,
+          "rotX": 0.0,
+          "rotY": 60.0000038,
+          "rotZ": 0.0,
+          "scaleX": 10.269208,
+          "scaleY": 6.634596,
+          "scaleZ": 4.89385653
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -13.316556,
+          "posY": 3.55897,
+          "posZ": 8.30234051,
+          "rotX": 0.0,
+          "rotY": 119.999992,
+          "rotZ": 0.0,
+          "scaleX": 10.2733641,
+          "scaleY": 6.634596,
+          "scaleZ": 4.8951745
+        }
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 13.57316,
+          "posY": 3.55976677,
+          "posZ": 7.74971771,
+          "rotX": -3.76864373E-05,
+          "rotY": 240.0,
+          "rotZ": -3.02707031E-06,
+          "scaleX": 10.27165,
+          "scaleY": 6.634596,
+          "scaleZ": 4.894845
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": -0.00034236908,
+          "posY": 3.55935383,
+          "posZ": -15.5344391,
+          "rotX": 2.5444431E-14,
+          "rotY": 1.70754709E-06,
+          "rotZ": -1.70754709E-06,
+          "scaleX": 10.2680635,
+          "scaleY": 6.634596,
+          "scaleZ": 4.893823
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": 0.00184059143,
+          "posY": 3.55931568,
+          "posZ": 15.5958195,
+          "rotX": 0.0,
+          "rotY": 180.0,
+          "rotZ": 0.0,
+          "scaleX": 10.2703257,
+          "scaleY": 6.634596,
+          "scaleZ": 4.89488554
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 13.6821394,
+          "posY": 3.55979633,
+          "posZ": -7.40811825,
+          "rotX": 0.0,
+          "rotY": 299.999969,
+          "rotZ": 0.0,
+          "scaleX": 10.269043,
+          "scaleY": 6.634596,
+          "scaleZ": 4.893212
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "ObjectStates": [
+    {
+      "Name": "Notecard",
+      "Transform": {
+        "posX": -0.0576359369,
+        "posY": 1.03000116,
+        "posZ": -5.7581,
+        "rotX": 1.1254584E-05,
+        "rotY": -3.37882739E-05,
+        "rotZ": -1.77850179E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Shadowrun Dice Roller",
+      "Description": "\nCredit for the bulk of this work goes to Scripted Roller - Simulated Dice by MrStump\n\nPlus or Minus to adjust dice total. Click middle button to roll and reset. Print sends your roll results to the chat window.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "767883"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -0.00046829824,
+        "posY": 1.0600009,
+        "posZ": 0.03000543,
+        "rotX": -3.47458536E-06,
+        "rotY": 180.01886,
+        "rotZ": -5.91034268E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/812248978403271657/B41DE0C17D7F316DF32DBA41A33315E7024AC56E/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "------------------------------------------------\r\n--[[    Scripted Dice Roller by: MrStump    ]]--\r\n------------------------------------------------\r\n----[[INITIALIZATION, runs once at startup]]----\r\ndice = {\r\n    string.char(9312), string.char(9313), string.char(9314), string.char(9315),\r\n    string.char(9316), string.char(9317), string.char(9318), string.char(9319),\r\n    string.char(9320), string.char(9321), string.char(9322), string.char(9323),\r\n    string.char(9324), string.char(9325), string.char(9326), string.char(9327),\r\n    string.char(9328), string.char(9329), string.char(9330), string.char(9331),\r\n}\r\n\r\ndistanceFromCenter = 1.4\n\r\n--Save function, preserves # of dice, # of sides and if print mode is on/off\r\nfunction onSave()\r\n    local data_for_roller = {[\"dc\"]=diceCount, [\"pm\"]=printMode}\r\n    saved_data = JSON.encode(data_for_roller)\r\n    return saved_data\r\nend\r\n--21\r\n--Load function, uses default values if no saved data is available (rare)\r\nfunction onload(saved_data)\r\n    if saved_data ~= nil and saved_data ~= \"\" then\r\n        loaded_data = JSON.decode(saved_data)\r\n        diceCount = loaded_data.dc\r\r\n        printMode = loaded_data.pm\r\n    else\r\n        diceCount = 1\r\r\n        printMode = true\r\n    end\r\n    createMainDisplay()\r\n    createModButtons()\r\n    rollTotal = 0\n    success = 0\n    fail = 0\n    i=1\n    if diceCount > 14 then\n        size = (diceCount-14)*0.095 + 1\n        distanceFromCenter = 1.4 *\r size\n        updateMainDisplay()\n    else\n        size = 1\n    end\r\nend\r\n\r\n-------------------------------------------------------\r\n----[[ROLL FUNCTION: Roll logic and display logic]]----\r\n\r\n--Rolls the numbers, passes them to createRollButtons\r\n--Also acts as a reset button if pressed after the roll\r\nfunction roll(o,c) --o,c passes object and color. Only color is passed on, for printing\r\n    if rollTotal == 0 then\r\n        destroyModButtons()\r\n        math.randomseed(os.time())\r\n        rollResults = {}\r\n        for i=1, diceCount do\r\n            table.insert(rollResults, math.random(1, 6))\r\n        end\r\n        createRollButtons(c)\r\n    else\r\n        rollTotal = 0\r\n        destroyRollButtons()\r\n        createModButtons()\r\n        updateMainDisplay()\n        success = 0\n        fail = 0\r\n    end\r\nend\r\n\r\n--Prints results to chat, enabled/disabled by a button\r\nfunction printResults(c)\r\n    printToAll(Player[c].steam_name..\" rolls:\", stringColorToRGB(c))\r\n    local stringForPrint = \"\"\r\n    for i, v in pairs(rollResults) do\r\n        stringForPrint = stringForPrint .. v\r\n        if i < #rollResults then\r\n            stringForPrint = stringForPrint .. \" + \"\r\n        end\r\n    end\r\n    if #rollResults > 1 then\r\n        stringForPrint = stringForPrint .. \" = \" .. rollTotal\r\n    end\r\n    printToAll(stringForPrint, {1,1,1})\r\nend\r\n\r\n--------------------------------------------------------------------------------------\r\n----[[EDIT FUNCTIONS: Used during the \"edit\" phased to change how the tool works]]----\r\n\r\n--Toggles printMode, which indicates if roll results are printed. Edits button.\r\nfunction printToggle()\r\n    if printMode == true then\r\n        printMode = false\r\n        pLabel = \"OFF\"\r\n    else\r\n        printMode = true\r\n        pLabel = \"ON\"\r\n    end\r\n    self.editButton({index=2, label=\"Print: \"..pLabel})\r\nend\r\n--Next 4 functions: Add and subtract click functions for # of dice and # of faces\r\nfunction addDice()\r\n    if diceCount > 14 and diceCount < 30 then\n        size = size + 0.095\r\n        diceCount = diceCount + 1\r\r\n    elseif diceCount <=14 then\n        diceCount = diceCount + 1\n    end  \n    updateMainDisplay()\r\nend\r\nfunction subDice()\r\n    if diceCount > 14 then\r\n        diceCount = diceCount - 1\n        size = size - 0.095\r\r\n    elseif diceCount > 1 and diceCount <= 14 then\n        diceCount = diceCount - 1\n    end\n    updateMainDisplay()\r\r\nend\nfunction addDice5()\r\n    if diceCount > 14 and diceCount <= 25 then\n        size = size + 0.475\n        diceCount = diceCount + 5\n    elseif diceCount <=14 then\n        diceCount = diceCount + 5\n        size = (diceCount-14)*0.095 + 1\n    end\n    if size < 1 then\n        size = 1\n    end\n    if size > 2.52 then\n        size = 2.52\n    end\n    updateMainDisplay()\r\nend\r\nfunction subDice5()\r\n    if diceCount > 14 then\n        size = size - 0.475\r\n        diceCount = diceCount - 5\r\r\n    elseif diceCount > 5 and diceCount <= 14 then\n        diceCount = diceCount - 5\n    end\n    if size < 1 then\n        size = 1\n    end\n    updateMainDisplay()\r\r\nend\n--------------------------------------------------------\r\n--Updated display\n\n\r\nfunction updateMainDisplay()\r\n    if rollTotal == 0 then\r\n        self.editButton({index=0, label=diceCount..\"D6\"})\n\n    elseif success == 0\r and diceCount/fail <= 2 then\n        self.editButton({index=0, label=\"CRITICAL GLITCH\"})\n\n    elseif success >=1 and diceCount/fail <= 2 then\n        self.editButton({index=0, label=\"GLITCH\"})\n\n    else\r\n        self.editButton({index=0, label=success..\" hits and \"..fail..\" x 1s\"})\n    end\n        distanceFromCenter = 1.4 *\r size\r\nend\r\n\r\n--------------------------------------------------------\r\n----[[BUTTON CREATION: Used to create all buttons.]]----\r\n\r\n--Main display, created and never destroyed\r\nfunction createMainDisplay()\r\n    self.createButton({\r\n        label=diceCount..\"D6\", click_function='roll', function_owner=self,\r\n        position={0,0.28,0}, height=470, width=470, font_size=150\r\n    })\r\nend\r\n\r\n--Edit buttons, created when tool first spawns and upon reset.\r\nfunction createModButtons()\r\n    self.createButton({\r\n        label=\"# of Dice\", click_function='null', function_owner=self,\r\n        position={0,0.28,-0.6}, height=100, width=470, font_size=80\r\n    })\r\n \r\n    if printMode == true then pLabel=\"ON\" else pLabel=\"OFF\"end\r\n    self.createButton({\r\n        label=\"Print: \"..pLabel, click_function='printToggle', function_owner=self,\r\n        position={0,0.28,0.6}, height=100, width=470, font_size=80\r\n    })\r\n    self.createButton({\r\n        label=\"+\", click_function='addDice', function_owner=self,\r\n        position={0.6,0.28,-0.6}, height=100, width=100, font_size=80\r\n    })\r\r\n    self.createButton({\r\n        label=\"-\", click_function='subDice', function_owner=self,\r\n        position={-0.6,0.28,-0.6}, height=100, width=100, font_size=80\r\n    })\n    self.createButton({\r\n        label=\"+5\", click_function='addDice5', function_owner=self,\r\n        position={0.8,0.28,-0.6}, height=100, width=100, font_size=80\r\n    })\r\r\n    self.createButton({\r\n        label=\"-5\", click_function='subDice5', function_owner=self,\r\n        position={-0.8,0.28,-0.6}, height=100, width=100, font_size=80\r\n    })\r\r\nend\r\n\r\nfunction createRollButtons(c)\r\n    local spokes = 360/#rollResults\r\n    for i, v in pairs(rollResults) do\r\n        local xp = math.sin( ((spokes*i))*0.0174532 ) * distanceFromCenter\r\n        local yp = 0.28\r\n        local zp = math.cos( ((spokes*i))*0.0174532 ) * distanceFromCenter\r\n         \n    if tonumber(v) >= 5 then\n        self.createButton({            \n            label=dice[v], color={0,1,0}, click_function=\"null\", position={xp, yp, zp},\r\n            height=300, width=300, font_size=300\r\n        })\n        success = success + 1\n\n     elseif tonumber(v) >= 2 and tonumber(v) <=4 then\r\n        self.createButton({            \n            label=dice[v], color={0,0,0}, click_function=\"null\", position={xp, yp, zp},\r\n            height=300, width=300, font_size=300\r\n        })\n\r\n     elseif tonumber(v) <=1 then\r\n        self.createButton({            \n            label=dice[v], color={1,0,0}, click_function=\"null\", position={xp, yp, zp},\r\n            height=300, width=300, font_size=300\r\n        })\r\n        fail = fail + 1   \n\nend\r\n        rollTotal = rollTotal + tonumber(v)\r\n    end\r\n    if printMode==true then printResults(c) end\r\n    updateMainDisplay()\r\nend\r\n\r\n\r\n-----------------------------------------------------------------------------\r\n----[[BUTTON DESTRUCTION: Removes buttons, either mod roll display ones]]----\r\nfunction destroyModButtons()\r\n    for i=1,6 do\r\n        self.removeButton(i)\r\n    end\r\nend\r\n\r\nfunction destroyRollButtons()\r\n    for i=1, #self.getButtons()-1 do\r\n        self.removeButton(i)\r\n    end\r\nend\nfunction null()\n    if size==0 then\n        size=size+0\n    end\nend\n",
+      "LuaScriptState": "{\"dc\":17,\"pm\":true}",
+      "GUID": "b5a56e"
+    }
+  ],
+  "DecalPallet": [],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": "v12.0.4"
+}

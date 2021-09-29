@@ -1,0 +1,2578 @@
+{
+  "SaveName": "Twin Stars: A solo game system",
+  "GameMode": "Twin Stars",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "10/10/2018 8:15:10 PM",
+  "Table": "Table_None",
+  "Sky": "Sky_Museum",
+  "SkyURL": "http://cloud-3.steamusercontent.com/ugc/947327626495809519/4AB7F8A19B75A902AC95BA14B58CDB991D0094DB/",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
+  "LuaScript": "function onLoad()\r\n\r\n    gameBagGUID = '447929'\r\n    gameBag = getObjectFromGUID(gameBagGUID)\r\n\r\n    playZoneGUID = '00a168'\r\n    playZone = getObjectFromGUID(playZoneGUID)\r\n\r\n    --Adds buttons to the Wallet Bag\r\n    gameBag.createButton({\r\n        click_function = 'scenario01',\r\n        function_owner = Global,\r\n        label          = 'Scenario 01',\r\n        position       = {5,0.05,-0.5},\r\n        scale          = {0.6,0.6,0.6},\r\n        width          = 1950,\r\n        height         = 400,\r\n        font_size      = 350,\r\n    })\r\n    gameBag.createButton({\r\n        click_function = 'scenario07',\r\n        function_owner = Global,\r\n        label          = 'Scenario 07',\r\n        position       = {5,0.05,0.5},\r\n        scale          = {0.6,0.6,0.6},\r\n        width          = 1950,\r\n        height         = 400,\r\n        font_size      = 350,\r\n    })\r\n\r\n    --Uncomment below to enable to export and clear buttons.\r\n    --enableExportButton()\r\n    buildScenarioTables()\r\n\r\nend\r\n\r\n\r\n--Call the functions to load the scenarios\r\nfunction scenario01()\r\n    scenarioName = 'Scenario01'\r\n    clearPlayArea()\r\n    Wait.time(function() loadScenario(scenarioName) end, 0.4)\r\nend\r\nfunction scenario07()\r\n    scenarioName = 'Scenario07'\r\n    clearPlayArea()\r\n    Wait.time(function() loadScenario(scenarioName) end, 0.4)\r\nend\r\n\r\n--This will put obj based on the table for the selected scenario.\r\nfunction loadScenario(scenarioName)\r\n    for layout, DataTable in pairs(scenairoTableArray) do\r\n        if layout == scenarioName then\r\n            for _, entries in ipairs(DataTable) do\r\n                gameBag.takeObject({\r\n                    guid           = entries.guid,\r\n                    position       = entries.pos,\r\n                    rotation       = entries.rot,\r\n                    callback_function = function(obj) take_callback(obj) end,\r\n                    smooth         = true,\r\n                })\r\n            end\r\n            break\r\n        end\r\n    end\r\nend\r\n\r\n--This will lock the tiles in the play area\r\nfunction take_callback(object_spawned)\r\n    if object_spawned.getDescription() == \"Tile\" then\r\n        object_spawned.setLock(true)\r\n    end\r\nend\r\n\r\n\r\n--This will add the buttons to the wallet used to call the export functions.\r\nfunction enableExportButton()\r\n    gameBag.createButton({\r\n        click_function = 'exportScenario',\r\n        function_owner = Global,\r\n        label          = 'Export',\r\n        position       = {-3.5,0.25,0.5},\r\n        scale          = {0.6,0.6,0.6},\r\n        width          = 1300,\r\n        height         = 400,\r\n        font_size      = 350,\r\n    })\r\n    gameBag.createButton({\r\n        click_function = 'clearPlayArea',\r\n        function_owner = Global,\r\n        label          = 'Clear',\r\n        position       = {-3.5,0.25,-0.5},\r\n        scale          = {0.6,0.6,0.6},\r\n        width          = 1300,\r\n        height         = 400,\r\n        font_size      = 350,\r\n    })\r\nend\r\n\r\n\r\n--This is used to build the table that can be added the the scenairoTableArray list\r\nfunction exportScenario()\r\n\r\n    objectsInPlayArea = playZone.getObjects()\r\n\r\n    --Begins to build the data export\r\n    note = '[\"ScenarioXX\"] = {\\n'\r\n\r\n\r\n    note = note .. \"\\t--Tiles\\n\"\r\n    for _, obj in ipairs(objectsInPlayArea) do\r\n\r\n        if obj.getDescription() == \"Tile\" then\r\n            printGUID = obj.getGUID()\r\n            printPos = obj.getPosition()\r\n            printRot = obj.getRotation()\r\n\r\n            --Adds the guid to note\r\n            note = note .. '\\t{guid=\"'\r\n            note = note .. printGUID\r\n\r\n            --Adds the posision to note\r\n            note = note .. '\", pos={'\r\n            note = note .. round(printPos.x,2) .. \",\"\r\n            note = note .. round(printPos.y,2)  .. \",\"\r\n            note = note .. round(printPos.z,2)  .. \"}\"\r\n\r\n            --Adds the rotation to note\r\n            note = note .. ', rot={'\r\n            note = note .. round(printRot.x) .. \",\"\r\n            note = note .. round(printRot.y)  .. \",\"\r\n            note = note .. round(printRot.z)  .. \"}},\\n\"\r\n        end\r\n    end\r\n\r\n    note = note .. \"\\t--Tokens\\n\"\r\n\r\n    posY = 1.8\r\n    for _, obj in ipairs(objectsInPlayArea) do\r\n\r\n        if obj.getDescription() == \"Token\" then\r\n            printGUID = obj.getGUID()\r\n            printPos = obj.getPosition()\r\n            printRot = obj.getRotation()\r\n\r\n            --Adds the guid to note\r\n            note = note .. '\\t{guid=\"'\r\n            note = note .. printGUID\r\n\r\n            --Adds the posision to note\r\n            note = note .. '\", pos={'\r\n            note = note .. round(printPos.x,2) .. \",\"\r\n            --note = note .. round(printPos.y,2)  .. \",\"\r\n            note = note .. \" \" .. posY .. \",\"\r\n            note = note .. round(printPos.z,2)  .. \"}\"\r\n\r\n            --Adds the rotation to note\r\n            note = note .. ', rot={'\r\n            note = note .. round(printRot.x) .. \",\"\r\n            note = note .. round(printRot.y)  .. \",\"\r\n            note = note .. round(printRot.z)  .. \"}},\\n\"\r\n        end\r\n        posY = posY + 0.2\r\n    end\r\n\r\n    note = note ..  \"},\"\r\n    setNotes(note)\r\n\r\nend\r\n\r\n\r\n--This will remove all the objects in the playing area by putting them in the wallet bag\r\n--It will ignore the dice\r\nfunction clearPlayArea()\r\n\r\n    objectsInPlayArea = playZone.getObjects()\r\n\r\n    for _, obj in ipairs(objectsInPlayArea) do\r\n\r\n        if obj.tag ~= \"Dice\" then\r\n            gameBag.putObject(obj)\r\n        end\r\n\r\n    end\r\nend\r\n\r\n--Round number (num) to the second decimal\r\nfunction round(num,dec)\r\n  local mult = 10^(dec or 0)\r\n  return math.floor(num * mult + 0.5) / mult\r\nend\r\n\r\n\r\n--these are the tables used to pull the need objects for the scenarios\r\nfunction buildScenarioTables()\r\n    scenairoTableArray = {\r\n\r\n        [\"Scenario01\"] = {\r\n        \t--Tiles\r\n        \t{guid=\"be0c49\", pos={5.26,1.48,-11.15}, rot={0,180,0}},\r\n        \t{guid=\"74777d\", pos={1.01,1.48,-11.16}, rot={0,180,0}},\r\n        \t{guid=\"1ebfe1\", pos={-5.42,1.58,-6.9}, rot={0,180,180}},\r\n        \t{guid=\"5c621b\", pos={-5.41,1.48,-11.16}, rot={0,180,0}},\r\n        \t--Tokens\r\n        \t{guid=\"721710\", pos={-2.83, 1.8,-10.6}, rot={0,180,0}},\r\n        \t{guid=\"5a0044\", pos={-1.58, 2,-12.18}, rot={0,165,0}},\r\n        \t{guid=\"eb16e4\", pos={-1.58, 2.2,-12.18}, rot={0,179,0}},\r\n        \t{guid=\"835370\", pos={-7.26, 2.4,-13.14}, rot={0,180,0}},\r\n        \t{guid=\"e3ef92\", pos={-1.58, 2.6,-12.17}, rot={0,179,0}},\r\n        \t{guid=\"b80a73\", pos={-8.65, 4,-9.35}, rot={0,180,0}},\r\n        \t{guid=\"085f61\", pos={3.07, 4.2,-9.39}, rot={0,180,0}},\r\n        \t{guid=\"88cd08\", pos={7.31, 4.4,-9.97}, rot={0,180,0}},\r\n        },\r\n\r\n        [\"Scenario07\"] = {\r\n        \t--Tiles\r\n        \t{guid=\"60abfd\", pos={-5.41,1.48,-11.16}, rot={0,180,0}},\r\n        \t{guid=\"5a976e\", pos={5.26,1.48,-11.15}, rot={0,180,0}},\r\n        \t{guid=\"276478\", pos={-5.42,1.58,-6.7}, rot={0,180,180}},\r\n        \t{guid=\"332404\", pos={1.02,1.48,-11.15}, rot={0,180,0}},\r\n        \t--Tokens\r\n        \t{guid=\"88cd08\", pos={7.31, 1.8,-9.31}, rot={0,180,0}},\r\n        \t{guid=\"eb16e4\", pos={-1.58, 2,-12.18}, rot={0,179,0}},\r\n        \t{guid=\"5a0044\", pos={-1.58, 2.2,-12.18}, rot={0,184,0}},\r\n        \t{guid=\"e3ef92\", pos={-1.58, 2.4,-12.18}, rot={0,181,0}},\r\n        \t{guid=\"085f61\", pos={3.06, 2.6,-10.05}, rot={0,180,0}},\r\n        \t{guid=\"cc6751\", pos={-7.78, 3.4,-13.13}, rot={0,0,0}},\r\n        \t{guid=\"fe43f3\", pos={-8.64, 3.8,-9.42}, rot={0,359,0}},\r\n        \t{guid=\"da9cc9\", pos={-1.58, 4.2,-11.03}, rot={360,0,360}},\r\n        \t{guid=\"c39150\", pos={-1.57, 4.4,-11.06}, rot={360,0,0}},\r\n        \t{guid=\"6f2bee\", pos={-5.45, 4.6,-13.12}, rot={360,0,0}},\r\n        \t{guid=\"bafc2e\", pos={-1.58, 5.2,-11.03}, rot={360,0,360}},\r\n        },\r\n\r\n    }\r\nend\r\n\r\n\r\n--\r\n",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 0.0,
+          "posY": 5.0,
+          "posZ": -19.7499981,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 11.8350019,
+          "scaleY": 7.002465,
+          "scaleZ": 4.04115963
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "ObjectStates": [
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -9.0,
+        "posZ": 0.0,
+        "rotX": 6.536436E-07,
+        "rotY": -2.39176334E-05,
+        "rotZ": -3.84849864E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/879750610978795929/723C50F43FAB3DE3DC12CB8460536E8CB34B60A3/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 2,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "afc863"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -9.0,
+        "posZ": 0.0,
+        "rotX": 6.536436E-07,
+        "rotY": 90.0,
+        "rotZ": -3.84849864E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/879750610978795929/723C50F43FAB3DE3DC12CB8460536E8CB34B60A3/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 2,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "c8edca"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -9.0,
+        "posZ": 0.0,
+        "rotX": 6.536436E-07,
+        "rotY": 180.0,
+        "rotZ": -3.84849864E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/879750610978795929/723C50F43FAB3DE3DC12CB8460536E8CB34B60A3/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 2,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "393bf7"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -9.0,
+        "posZ": 0.0,
+        "rotX": 6.536436E-07,
+        "rotY": 270.0,
+        "rotZ": -3.84849864E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/879750610978795929/723C50F43FAB3DE3DC12CB8460536E8CB34B60A3/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 2,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "12c65e"
+    },
+    {
+      "Name": "Chinese_Checkers_Piece",
+      "Transform": {
+        "posX": 19.1600037,
+        "posY": -0.259998322,
+        "posZ": -22.12,
+        "rotX": 0.00190076465,
+        "rotY": 180.0,
+        "rotZ": 0.000379891542,
+        "scaleX": 1.6499995,
+        "scaleY": 1.6499995,
+        "scaleZ": 1.6499995
+      },
+      "Nickname": "Flex Table Control",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": 1,
+      "XmlUI": "",
+      "LuaScript": "tableHeightOffset = -9\n\nfunction onSave()\n    saved_data = JSON.encode({tid=tableImageData, cd=checkData})\n    --saved_data = \"\"\n    return saved_data\nend\n\nfunction onload(saved_data)\n    --Loads the tracking for if the game has started yet\n    if saved_data ~= \"\" then\n         local loaded_data = JSON.decode(saved_data)\n         tableImageData = loaded_data.tid\n         checkData = loaded_data.cd\n    else\n        tableImageData = {}\n        checkData = {move=false, scale=false}\n    end\n\n    --Disables interactable status of objects with GUID in list\n    for _, guid in ipairs(ref_noninteractable) do\n        local obj = getObjectFromGUID(guid)\n        if obj then obj.interactable = false end\n    end\n\n    --Establish references to table parts\n    obj_leg1 = getObjectFromGUID(\"afc863\")\n    obj_leg2 = getObjectFromGUID(\"c8edca\")\n    obj_leg3 = getObjectFromGUID(\"393bf7\")\n    obj_leg4 = getObjectFromGUID(\"12c65e\")\n    obj_surface = getObjectFromGUID(\"4ee1f2\")\n    obj_side_top = getObjectFromGUID(\"35b95f\")\n    obj_side_bot = getObjectFromGUID(\"f938a2\")\n    obj_side_lef = getObjectFromGUID(\"9f95fd\")\n    obj_side_rig = getObjectFromGUID(\"5af8f2\")\n\n    controlActive = false\n    createOpenCloseButton()\nend\n\n\n\n--Activation/deactivation of control panel\n\n\n\n--Activated by clicking on\nfunction click_toggleControl(_, color)\n    if permissionCheck(color) then\n        if not controlActive then\n            --Activate control panel\n            controlActive = true\n            self.clearButtons()\n            createOpenCloseButton()\n            createSurfaceInput()\n            createSurfaceButtons()\n            createScaleInput()\n            createScaleButtons()\n        else\n            --Deactivate control panel\n            controlActive = false\n            self.clearButtons()\n            self.clearInputs()\n            createOpenCloseButton()\n\n        end\n    end\nend\n\n\n\n\n--Table surface control\n\n\n\n--Changes table surface\nfunction click_applySurface(_, color)\n    if permissionCheck(color) then\n        updateSurface()\n        broadcastToAll(\"New Table Image Applied\", {0.2,0.9,0.2})\n    end\nend\n\n--Saves table surface\nfunction click_saveSurface(_, color)\n    if permissionCheck(color) then\n        local nickname = self.getInputs()[1].value\n        local url = self.getInputs()[2].value\n        if nickname == \"\" then\n            --No nickname\n            broadcastToAll(\"Please supply a nickname for this save.\", {0.9,0.2,0.2})\n        else\n            --Nickname exists\n\n            if findInImageDataIndex(url, nickname) == nil then\n                --Save doesn't exist already\n                table.insert(tableImageData, {url=url, name=nickname})\n                broadcastToAll(\"Image URL saved to memory.\", {0.2,0.9,0.2})\n                --Refresh buttons\n                self.clearButtons()\n                createOpenCloseButton()\n                createSurfaceButtons()\n                createScaleButtons()\n            else\n                --Save exists already\n                broadcastToAll(\"Memory already contains a save with this Name or URL. Delete it first.\", {0.9,0.2,0.2})\n            end\n        end\n    end\nend\n\n--Loads table surface\nfunction click_loadMemory(_, color, index)\n    if permissionCheck(color) then\n        self.editInput({index=0, value=tableImageData[index].name})\n        self.editInput({index=1, value=tableImageData[index].url})\n        updateSurface()\n        broadcastToAll(\"Table Image Loaded\", {0.2,0.9,0.2})\n    end\nend\n\n--Deletes table surface\nfunction click_deleteMemory(_, color, index)\n    if permissionCheck(color) then\n        table.remove(tableImageData, index)\n        self.clearButtons()\n        createOpenCloseButton()\n        createSurfaceButtons()\n        createScaleButtons()\n        broadcastToAll(\"Element Removed from Memory\", {0.2,0.9,0.2})\n    end\nend\n\n--Updates surface from the values in the input field\nfunction updateSurface()\n    local customInfo = obj_surface.getCustomObject()\n    customInfo.diffuse = self.getInputs()[2].value\n    obj_surface.setCustomObject(customInfo)\n    obj_surface = obj_surface.reload()\nend\n\n\n\n--Table Scale control\n\n\n\n--Applies Scale to table pieces\nfunction click_applyScale(_, color)\n    if permissionCheck(color) then\n        local newWidth = tonumber(self.getInputs()[3].value)\n        local newDepth = tonumber(self.getInputs()[4].value)\n        if type(newWidth) ~= \"number\" then\n            broadcastToAll(\"Invalid Width\", {0.9,0.2,0.2})\n            return\n        elseif type(newDepth) ~= \"number\" then\n            broadcastToAll(\"Invalid Depth\", {0.9,0.2,0.2})\n            return\n        elseif newWidth<0.1 or newDepth<0.1 then\n            broadcastToAll(\"Scale cannot go below 0.1\", {0.9,0.2,0.2})\n            return\n        elseif newWidth>12 or newDepth>12 then\n            broadcastToAll(\"Scale should not go over 12 (world size limitation)\", {0.9,0.2,0.2})\n            return\n        else\n            changeTableScale(math.abs(newWidth), math.abs(newDepth))\n            broadcastToAll(\"Scale applied.\", {0.2,0.9,0.2})\n        end\n    end\nend\n\n--Checks/unchecks move box for hands\nfunction click_checkMove(_, color)\n    if permissionCheck(color) then\n        local find_func = function(o) return o.click_function==\"click_checkMove\" end\n        if checkData.move == true then\n            checkData.move = false\n            local buttonEntry = findButton(self, find_func)\n            self.editButton({index=buttonEntry.index, label=\"\"})\n        else\n            checkData.move = true\n            local buttonEntry = findButton(self, find_func)\n            self.editButton({index=buttonEntry.index, label=string.char(10008)})\n        end\n    end\nend\n\n--Checks/unchecks scale box for hands\n--This button was disabled for technical reasons\n--[[\nfunction click_checkScale(_, color)\n    if permissionCheck(color) then\n        local find_func = function(o) return o.click_function==\"click_checkScale\" end\n        if checkData.scale == true then\n            checkData.scale = false\n            local buttonEntry = findButton(self, find_func)\n            self.editButton({index=buttonEntry.index, label=\"\"})\n        else\n            checkData.scale = true\n            local buttonEntry = findButton(self, find_func)\n            self.editButton({index=buttonEntry.index, label=string.char(10008)})\n        end\n    end\nend\n]]\n\n--Alters scale of elements and moves them\nfunction changeTableScale(width, depth)\n    --Scaling factors used to translate scale to position offset\n    local width2pos = (width-1) * 18\n    local depth2pos = (depth-1) * 18\n\n    --Hand zone movement\n    if checkData.move == true then\n        for _, pc in ipairs(ref_playerColor) do\n            if Player[pc].getHandCount() > 0 then\n                moveHandZone(Player[pc], width2pos, depth2pos)\n            end\n        end\n    end\n    --Hand zone scaling\n    --The button to enable this was disabled for technical reasons\n    if checkData.scale == true then\n        for _, pc in ipairs(ref_playerColor) do\n            if Player[pc].getHandCount() > 0 then\n                scaleHandZone(Player[pc], width, depth)\n            end\n        end\n    end\n\n    --Resizing table elements\n    obj_side_top.setScale({width, 1, 1})\n    obj_side_bot.setScale({width, 1, 1})\n    obj_side_lef.setScale({depth, 1, 1})\n    obj_side_rig.setScale({depth, 1, 1})\n    obj_surface.setScale({width, 1, depth})\n\n    --Moving table elements to accomodate new scale\n    obj_side_lef.setPosition({-width2pos,tableHeightOffset,0})\n    obj_side_rig.setPosition({ width2pos,tableHeightOffset,0})\n    obj_side_top.setPosition({0,tableHeightOffset, depth2pos})\n    obj_side_bot.setPosition({0,tableHeightOffset,-depth2pos})\n    obj_leg1.setPosition({-width2pos,tableHeightOffset,-depth2pos})\n    obj_leg2.setPosition({-width2pos,tableHeightOffset, depth2pos})\n    obj_leg3.setPosition({ width2pos,tableHeightOffset, depth2pos})\n    obj_leg4.setPosition({ width2pos,tableHeightOffset,-depth2pos})\n    self.setPosition(obj_leg4.positionToWorld({-22.12, 8.74,-19.16}))\n    --Only enabled when changing tableHeightOffset\n    --obj_surface.setPosition({0,tableHeightOffset,0})\nend\n\n--Move hand zone, p=player reference, facts are scaling factors\nfunction moveHandZone(p, width2pos, depth2pos)\n    local widthX = obj_side_rig.getPosition().x\n    local depthZ = obj_side_top.getPosition().z\n    for i=1, p.getHandCount() do\n        local handT = p.getHandTransform()\n        local pos = handT.position\n        local y = handT.rotation.y\n\n        if y<45 or y>320 or y>135 and y<225 then\n            if pos.z > 0 then\n                pos.z = pos.z + depth2pos - depthZ\n            else\n                pos.z = pos.z - depth2pos + depthZ\n            end\n        else\n            if pos.x > 0 then\n                pos.x = pos.x + width2pos - widthX\n            else\n                pos.x = pos.x - width2pos + widthX\n            end\n        end\n\n        --Only enabled when changing tableHeightOffset\n        --pos.y = tableHeightOffset + 14\n\n        handT.position = pos\n        p.setHandTransform(handT, i)\n    end\nend\n\n\n---Scales hand zones, p=player reference, facts are scaling factors\nfunction scaleHandZone(p, width, depth)\n    local widthFact = width / obj_side_top.getScale().x\n    local depthFact = depth / obj_side_lef.getScale().x\n    for i=1, p.getHandCount() do\n        local handT = p.getHandTransform()\n        local scale = handT.scale\n        local y = handT.rotation.y\n        if y<45 or y>320 or y>135 and y<225 then\n            scale.x = scale.x * widthFact\n        else\n            scale.x = scale.x * depthFact\n        end\n        handT.scale = scale\n        p.setHandTransform(handT, i)\n    end\nend\n\n\n\n--Information gathering\n\n\n\n--Checks if a color is promoted or host\nfunction permissionCheck(color)\n    if Player[color].host==true or Player[color].promoted==true then\n        return true\n    else\n        return false\n    end\nend\n\n--Locates a string saved within memory file\nfunction findInImageDataIndex(...)\n    for _, str in ipairs({...}) do\n        for i, v in ipairs(tableImageData) do\n            if v.url == str or v.name == str then\n                return i\n            end\n        end\n    end\n    return nil\nend\n\n--Round number (num) to the Nth decimal (dec)\nfunction round(num, dec)\n  local mult = 10^(dec or 0)\n  return math.floor(num * mult + 0.5) / mult\nend\n\n--Locates a button with a helper function\nfunction findButton(obj, func)\n    if func==nil then error(\"No func supplied to findButton\") end\n    for _, v in ipairs(obj.getButtons()) do\n        if func(v) then\n            return v\n        end\n    end\n    return nil\nend\n\n\n\n--Creation of buttons/inputs\n\n\n\nfunction createOpenCloseButton()\n    local tooltip = \"Open Table Control Panel\"\n    if controlActive then\n        tooltip = \"Close Table Control Panel\"\n    end\n    self.createButton({\n        click_function=\"click_toggleControl\", function_owner=self,\n        position={0,0,0}, rotation={-45,0,0}, height=400, width=400,\n        color={1,1,1,0}, tooltip=tooltip\n    })\nend\n\nfunction createSurfaceInput()\n    local currentURL = obj_surface.getCustomObject().diffuse\n    local nickname = \"\"\n    if findInImageDataIndex(currentURL) ~= nil then\n        nickname = tableImageData[findInImageDataIndex(currentURL)].name\n    end\n    self.createInput({\n        label=\"Nickname\", input_function=\"none\", function_owner=self,\n        alignment=3, position={0,0,2}, height=224, width=4000,\n        font_size=200, tooltip=\"Enter nickname for table image (only used for save)\",\n        value=nickname\n    })\n    self.createInput({\n        label=\"URL\", input_function=\"none\", function_owner=self,\n        alignment=3, position={0,0,3}, height=224, width=4000,\n        font_size=200, tooltip=\"Enter URL for tabletop image\",\n        value=currentURL\n    })\nend\n\nfunction createSurfaceButtons()\n    --Label\n    self.createButton({\n        label=\"Tabletop Surface Image\", click_function=\"none\",\n        position={0,0,1}, height=0, width=0, font_size=300, font_color={1,1,1}\n    })\n    --Functional\n    self.createButton({\n        label=\"Apply Image\\nTo Table\", click_function=\"click_applySurface\",\n        function_owner=self, tooltip=\"Apply URL as table image\",\n        position={2,0,4}, height=440, width=1400, font_size=200,\n    })\n    self.createButton({\n        label=\"Save Image\\nTo Memory\", click_function=\"click_saveSurface\",\n        function_owner=self, tooltip=\"Record URL into memory (requires nickname)\",\n        position={-2,0,4}, height=440, width=1400, font_size=200,\n    })\n    --Label\n    self.createButton({\n        label=\"Load From Memory\", click_function=\"none\",\n        position={0,0,5.5}, height=0, width=0, font_size=300, font_color={1,1,1}\n    })\n    --Saves, created dynamically from memory file\n    for i, memoryEntry in ipairs(tableImageData) do\n        --Load\n        local funcName = i..\"loadMemory\"\n        local func = function(x,y) click_loadMemory(x,y,i) end\n        self.setVar(funcName, func)\n        self.createButton({\n            label=memoryEntry.name, click_function=funcName,\n            function_owner=self, tooltip=memoryEntry.url, font_size=200,\n            position={-0.6,0,6.5+0.5*(i-1)}, height=240, width=3300,\n        })\n        --Delete\n        local funcName = i..\"deleteMemory\"\n        local func = function(x,y) click_deleteMemory(x,y,i) end\n        self.setVar(funcName, func)\n        self.createButton({\n            label=\"DELETE\", click_function=funcName,\n            function_owner=self, tooltip=\"\",\n            position={3.6,0,6.5+0.5*(i-1)}, height=240, width=600,\n            font_size=160, font_color={1,0,0}, color={0.8,0.8,0.8}\n        })\n    end\nend\n\nfunction createScaleInput()\n    self.createInput({\n        label=string.char(8644), input_function=\"none\", function_owner=self,\n        alignment=3, position={-8.5,0,2}, height=224, width=400,\n        font_size=200, tooltip=\"Table Width\",\n        value=round(obj_side_top.getScale().x, 1)\n    })\n    self.createInput({\n        label=string.char(8645), input_function=\"none\", function_owner=self,\n        alignment=3, position={-7.5,0,2}, height=224, width=400,\n        font_size=200, tooltip=\"Table Depth\",\n        value=round(obj_side_lef.getScale().x, 1)\n    })\nend\n\nfunction createScaleButtons()\n    --Labels\n    self.createButton({\n        label=\"Table Scale\", click_function=\"none\",\n        position={-8,0,1}, height=0, width=0, font_size=300, font_color={1,1,1}\n    })\n    self.createButton({\n        label=string.char(8644)..\"            \"..string.char(8645),\n        click_function=\"none\",\n        position={-8,0,2}, height=0, width=0, font_size=300, font_color={1,1,1}\n    })\n    self.createButton({\n        label=\"Move Hands:\", click_function=\"none\",\n        position={-8.3,0,3}, height=0, width=0, font_size=200, font_color={1,1,1}\n    })\n    --Disabled due to me removing the feature for technical reasons\n    --[[\n    self.createButton({\n        label=\"Scale Hands:\", click_function=\"none\",\n        position={-8.3,0,4}, height=0, width=0, font_size=200, font_color={1,1,1}\n    })\n    ]]\n    --Checkboxes\n    local label = \"\"\n    if checkData.move == true then label = string.char(10008) end\n    self.createButton({\n        label=label, click_function=\"click_checkMove\",\n        function_owner=self, tooltip=\"Check to move hands when table is rescaled\",\n        position={-6.8,0,3}, height=224, width=224, font_size=200,\n    })\n    --[[\n    local label = \"\"\n    if checkData.scale == true then label = string.char(10008) end\n    self.createButton({\n        label=label, click_function=\"click_checkScale\",\n        function_owner=self, tooltip=\"Check to scale the width of hands when table is rescaled\",\n        position={-6.8,0,4}, height=224, width=224, font_size=200,\n    })\n    ]]\n    --Apply button\n    self.createButton({\n        label=\"Apply Scale\", click_function=\"click_applyScale\",\n        function_owner=self, tooltip=\"Apply width/depth to table\",\n        position={-8,0,4}, height=440, width=1400, font_size=200,\n    })\nend\n\n\n\n\n\n--Data tables\n\n\n\n\nref_noninteractable = {\n    \"afc863\",\"c8edca\",\"393bf7\",\"12c65e\",\"f938a2\",\"9f95fd\",\"35b95f\",\n    \"5af8f2\",\"4ee1f2\",\"bd69bd\"\n}\n\nref_playerColor = {\n    \"White\", \"Brown\", \"Red\", \"Orange\", \"Yellow\",\n    \"Green\", \"Teal\", \"Blue\", \"Purple\", \"Pink\", \"Black\"\n}\n\n--Dummy function, absorbs unwanted triggers\nfunction none() end",
+      "LuaScriptState": "{\"cd\":{\"move\":true,\"scale\":false},\"tid\":[{\"name\":\"Felt - Green\",\"url\":\"https://i.imgur.com/eHXDjyy.jpg\"},{\"name\":\"Felt - Red\",\"url\":\"https://i.imgur.com/DbPelDi.jpg\"},{\"name\":\"Felt - Grey\",\"url\":\"https://i.imgur.com/N0O6aqj.jpg\"},{\"name\":\"Button Shy\",\"url\":\"http://cloud-3.steamusercontent.com/ugc/947336857390036043/B2814CB8BA7CA62199C726A2B77560907D605F73/\"}]}",
+      "GUID": "bd69bd"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -9.0,
+        "posZ": 0.0,
+        "rotX": -1.01777751E-13,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/879750610978796471/14ED0DBD593370733A0309B0950004F33EB9FACA/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "f938a2"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -9.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 90.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/879750610978796471/14ED0DBD593370733A0309B0950004F33EB9FACA/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "9f95fd"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -9.0,
+        "posZ": 0.0,
+        "rotX": -1.01777751E-13,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/879750610978796471/14ED0DBD593370733A0309B0950004F33EB9FACA/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "35b95f"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -9.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 270.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/879750610978796471/14ED0DBD593370733A0309B0950004F33EB9FACA/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "5af8f2"
+    },
+    {
+      "Name": "Die_6",
+      "Transform": {
+        "posX": 5.917039,
+        "posY": 1.7291491,
+        "posZ": -7.782079,
+        "rotX": 0.0,
+        "rotY": 80.48749,
+        "rotZ": 90.0,
+        "scaleX": 0.750000238,
+        "scaleY": 0.750000238,
+        "scaleZ": 0.750000238
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": 0,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "8fa36e",
+      "RotationValues": [
+        {
+          "Value": 1,
+          "Rotation": {
+            "x": -90.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Value": 2,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Value": 3,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -90.0
+          }
+        },
+        {
+          "Value": 4,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 90.0
+          }
+        },
+        {
+          "Value": 5,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -180.0
+          }
+        },
+        {
+          "Value": 6,
+          "Rotation": {
+            "x": 90.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Die_6",
+      "Transform": {
+        "posX": 4.548528,
+        "posY": 1.72914886,
+        "posZ": -7.93448973,
+        "rotX": 270.0,
+        "rotY": 140.98764,
+        "rotZ": 0.0,
+        "scaleX": 0.750000238,
+        "scaleY": 0.750000238,
+        "scaleZ": 0.750000238
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": 0,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "e61425",
+      "RotationValues": [
+        {
+          "Value": 1,
+          "Rotation": {
+            "x": -90.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Value": 2,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Value": 3,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -90.0
+          }
+        },
+        {
+          "Value": 4,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 90.0
+          }
+        },
+        {
+          "Value": 5,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -180.0
+          }
+        },
+        {
+          "Value": 6,
+          "Rotation": {
+            "x": 90.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Die_6",
+      "Transform": {
+        "posX": 0.0619806759,
+        "posY": 1.81169927,
+        "posZ": -8.158186,
+        "rotX": -8.53773656E-07,
+        "rotY": 198.59111,
+        "rotZ": 90.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.6282104,
+        "g": 0.3680658,
+        "b": 0.7918492
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "AltSound": false,
+      "MaterialIndex": 0,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "1d9168",
+      "RotationValues": [
+        {
+          "Value": 1,
+          "Rotation": {
+            "x": -90.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Value": 2,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Value": 3,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -90.0
+          }
+        },
+        {
+          "Value": 4,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 90.0
+          }
+        },
+        {
+          "Value": 5,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -180.0
+          }
+        },
+        {
+          "Value": 6,
+          "Rotation": {
+            "x": 90.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Die_6",
+      "Transform": {
+        "posX": 1.17619872,
+        "posY": 1.81169915,
+        "posZ": -8.13041,
+        "rotX": 90.0,
+        "rotY": 242.240936,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.6282104,
+        "g": 0.3680658,
+        "b": 0.7918492
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "AltSound": false,
+      "MaterialIndex": 0,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "aa495b",
+      "RotationValues": [
+        {
+          "Value": 1,
+          "Rotation": {
+            "x": -90.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Value": 2,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Value": 3,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -90.0
+          }
+        },
+        {
+          "Value": 4,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 90.0
+          }
+        },
+        {
+          "Value": 5,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -180.0
+          }
+        },
+        {
+          "Value": 6,
+          "Rotation": {
+            "x": 90.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 3.32072616,
+        "posY": 1.52634478,
+        "posZ": -1.81663716,
+        "rotX": 0.0168455336,
+        "rotY": 180.019989,
+        "rotZ": 0.07988097,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Rulebook",
+      "Description": "Press keys 1 - 4 to see the corresponding page number",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/947327626495527091/C0149E722FB66E2EE984638B0F1B8CCE0F53CCE7/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "8a2526",
+      "States": {
+        "2": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 1.746389,
+            "posY": 1.52762592,
+            "posZ": -4.919877,
+            "rotX": 0.0166152082,
+            "rotY": 180.1833,
+            "rotZ": 0.07992921,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Rulebook",
+          "Description": "Press keys 1 - 4 to see the corresponding page number",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "http://cloud-3.steamusercontent.com/ugc/947327626495537091/E7D751743A4FC88E5FBAC307E3285064E5472991/",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "784098"
+        },
+        "3": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 1.74638891,
+            "posY": 1.5276258,
+            "posZ": -4.919878,
+            "rotX": 0.0166157354,
+            "rotY": 180.1833,
+            "rotZ": 0.0799287,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Rulebook",
+          "Description": "Press keys 1 - 4 to see the corresponding page number",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "http://cloud-3.steamusercontent.com/ugc/947327626495546372/A76264DC649397958FF07BB8B838DDD988030CFD/",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "b94702"
+        },
+        "4": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 1.74638891,
+            "posY": 1.52762592,
+            "posZ": -4.919879,
+            "rotX": 0.0166165978,
+            "rotY": 180.1833,
+            "rotZ": 0.07992951,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Rulebook",
+          "Description": "Press keys 1 - 4 to see the corresponding page number",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "http://cloud-3.steamusercontent.com/ugc/947327626495553277/66CD344BD34B739491086712F388D711BE2D322F/",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "1f66b0"
+        }
+      }
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": -0.03966856,
+        "posY": 4.068283,
+        "posZ": -8.9379,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 19.8662529,
+        "scaleY": 5.1,
+        "scaleZ": 10.4743109
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "00a168"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -9.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": true,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/879750610978796176/4A5A65543B98BCFBF57E910D06EC984208223D38/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/947336857390036043/B2814CB8BA7CA62199C726A2B77560907D605F73/",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "4ee1f2"
+    },
+    {
+      "Name": "Custom_Model_Bag",
+      "Transform": {
+        "posX": -15.1481314,
+        "posY": 1.56280065,
+        "posZ": -3.00744128,
+        "rotX": 0.0168757513,
+        "rotY": 180.000046,
+        "rotZ": 0.0798777,
+        "scaleX": 0.625000358,
+        "scaleY": 0.625000358,
+        "scaleZ": 0.625000358
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/947337204326547608/2E014219AEF14FCE8FB31B290800067CB4906030/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/947337204326548435/7B6229AA29F1819CA47951D808A35940923B8E7C/",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 6,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "backgammon_piece_white",
+          "Transform": {
+            "posX": -1.57111275,
+            "posY": 1.59759939,
+            "posZ": -11.0683994,
+            "rotX": 0.0149782365,
+            "rotY": 359.435059,
+            "rotZ": 359.978149,
+            "scaleX": 0.660937667,
+            "scaleY": 0.33694765,
+            "scaleZ": 0.660937667
+          },
+          "Nickname": "",
+          "Description": "Token",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.856,
+            "g": 0.09999972,
+            "b": 0.0939997062
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "c39150"
+        },
+        {
+          "Name": "backgammon_piece_white",
+          "Transform": {
+            "posX": -8.64,
+            "posY": 1.62032092,
+            "posZ": -9.42,
+            "rotX": 3.543701E-06,
+            "rotY": 358.999817,
+            "rotZ": -2.37099471E-06,
+            "scaleX": 0.660937667,
+            "scaleY": 0.33694765,
+            "scaleZ": 0.660937667
+          },
+          "Nickname": "",
+          "Description": "Token",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "fe43f3"
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -5.41,
+            "posY": 1.48148715,
+            "posZ": -11.16,
+            "rotX": -1.50788551E-07,
+            "rotY": 180.0,
+            "rotZ": 3.851493E-08,
+            "scaleX": 1.99198353,
+            "scaleY": 1.0,
+            "scaleZ": 1.99198353
+          },
+          "Nickname": "",
+          "Description": "Tile",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": false,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "http://cloud-3.steamusercontent.com/ugc/947337578575771814/5017C8885D77B469A0D4CB12109459ED2B170D6B/",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 3,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "60abfd",
+          "AttachedSnapPoints": [
+            {
+              "Position": {
+                "x": -1.617631,
+                "y": -1.82160392E-07,
+                "z": -0.874779761
+              }
+            },
+            {
+              "Position": {
+                "x": -1.62323606,
+                "y": -1.82274277E-07,
+                "z": -0.349761367
+              }
+            },
+            {
+              "Position": {
+                "x": -1.62175381,
+                "y": -1.82658766E-07,
+                "z": 0.220264345
+              }
+            },
+            {
+              "Position": {
+                "x": -1.19170582,
+                "y": -1.9792796E-07,
+                "z": 0.9877947
+              }
+            },
+            {
+              "Position": {
+                "x": -0.8094765,
+                "y": -2.1110165E-07,
+                "z": 0.990103662
+              }
+            },
+            {
+              "Position": {
+                "x": -0.407309353,
+                "y": -2.24960672E-07,
+                "z": 0.989423335
+              }
+            },
+            {
+              "Position": {
+                "x": -0.01987763,
+                "y": -2.38310292E-07,
+                "z": 0.9860509
+              }
+            },
+            {
+              "Position": {
+                "x": 0.417118758,
+                "y": -2.53372718E-07,
+                "z": 0.990700066
+              }
+            },
+            {
+              "Position": {
+                "x": 0.814991653,
+                "y": -2.67083749E-07,
+                "z": 0.9900518
+              }
+            },
+            {
+              "Position": {
+                "x": 1.21258378,
+                "y": -1.615742E-07,
+                "z": 0.986590862
+              }
+            },
+            {
+              "Position": {
+                "x": 1.27585888,
+                "y": -2.58391935E-07,
+                "z": -0.388299555
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 5.26,
+            "posY": 1.48148715,
+            "posZ": -11.15,
+            "rotX": 3.03722885E-07,
+            "rotY": 179.99028,
+            "rotZ": -2.1968269E-07,
+            "scaleX": 2.0,
+            "scaleY": 1.0,
+            "scaleZ": 2.0
+          },
+          "Nickname": "",
+          "Description": "Tile",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": false,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "http://cloud-3.steamusercontent.com/ugc/947336857388323231/8D1E6F325AC789578D17FF8B48A2CBD01C3981B4/",
+            "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/947327626495382894/C20DC09FF9569F58355D4425CE0F4B6D6CE089F9/",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 3,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "5a976e"
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -5.42,
+            "posY": 1.581487,
+            "posZ": -6.7,
+            "rotX": 3.543579E-08,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.99,
+            "scaleY": 1.0,
+            "scaleZ": 1.99
+          },
+          "Nickname": "",
+          "Description": "Tile",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": false,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "http://cloud-3.steamusercontent.com/ugc/947337578575771814/5017C8885D77B469A0D4CB12109459ED2B170D6B/",
+            "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/947337578575906150/97707FC9570DCD6342A725ACCB0E7FF49E6EACEC/",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 3,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "276478"
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 1.02,
+            "posY": 1.48148715,
+            "posZ": -11.15,
+            "rotX": -3.89877243E-07,
+            "rotY": 180.0011,
+            "rotZ": -7.65151469E-07,
+            "scaleX": 2.0,
+            "scaleY": 1.0,
+            "scaleZ": 2.0
+          },
+          "Nickname": "",
+          "Description": "Tile",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": false,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "http://cloud-3.steamusercontent.com/ugc/947336857388321632/3284F5013B3094F8247B091E6A4D8D3FFF2A83FA/",
+            "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/947327626495382894/C20DC09FF9569F58355D4425CE0F4B6D6CE089F9/",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 3,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "332404"
+        },
+        {
+          "Name": "backgammon_piece_white",
+          "Transform": {
+            "posX": -5.45,
+            "posY": 1.62032092,
+            "posZ": -13.12,
+            "rotX": -4.084887E-06,
+            "rotY": 0.0111550083,
+            "rotZ": 4.401594E-06,
+            "scaleX": 0.660937667,
+            "scaleY": 0.33694765,
+            "scaleZ": 0.660937667
+          },
+          "Nickname": "",
+          "Description": "Token",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.905,
+            "g": 0.898,
+            "b": 0.171999574
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "6f2bee",
+          "AttachedDecals": [
+            {
+              "Transform": {
+                "posX": -0.0142726125,
+                "posY": 0.144929722,
+                "posZ": 0.0146587212,
+                "rotX": 90.0,
+                "rotY": 359.5342,
+                "rotZ": 0.0,
+                "scaleX": 0.762912035,
+                "scaleY": 0.378250718,
+                "scaleZ": 0.74195534
+              },
+              "CustomDecal": {
+                "Name": "Primary",
+                "ImageURL": "http://cloud-3.steamusercontent.com/ugc/947337578575865249/DEED32AAB380BCD530D365C8E09B0C7C2D84FC56/",
+                "Size": 0.25
+              }
+            }
+          ]
+        },
+        {
+          "Name": "backgammon_piece_white",
+          "Transform": {
+            "posX": -7.78000069,
+            "posY": 1.62032092,
+            "posZ": -13.13,
+            "rotX": -1.53569E-05,
+            "rotY": 0.132580757,
+            "rotZ": 1.85951455E-06,
+            "scaleX": 0.660937667,
+            "scaleY": 0.33694765,
+            "scaleZ": 0.660937667
+          },
+          "Nickname": "",
+          "Description": "Token",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.117999576,
+            "g": 0.53,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "cc6751",
+          "AttachedDecals": [
+            {
+              "Transform": {
+                "posX": -0.000603657158,
+                "posY": 0.144929722,
+                "posZ": -0.000405410159,
+                "rotX": 90.0,
+                "rotY": 359.5342,
+                "rotZ": 0.0,
+                "scaleX": 0.762912035,
+                "scaleY": 0.378250718,
+                "scaleZ": 0.74195534
+              },
+              "CustomDecal": {
+                "Name": "Secondary",
+                "ImageURL": "http://cloud-3.steamusercontent.com/ugc/947337578575874077/732F2928EF4D9FE9631484F91C2F6F3CCC00A3D1/",
+                "Size": 0.25
+              }
+            }
+          ]
+        },
+        {
+          "Name": "backgammon_piece_white",
+          "Transform": {
+            "posX": -1.58002388,
+            "posY": 1.5202564,
+            "posZ": -11.0299435,
+            "rotX": 359.98056,
+            "rotY": 0.0129738068,
+            "rotZ": -0.00510784145,
+            "scaleX": 0.660937667,
+            "scaleY": 0.33694765,
+            "scaleZ": 0.660937667
+          },
+          "Nickname": "",
+          "Description": "Token",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.856,
+            "g": 0.09999969,
+            "b": 0.09399968
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "da9cc9"
+        },
+        {
+          "Name": "backgammon_piece_white",
+          "Transform": {
+            "posX": -1.58331144,
+            "posY": 1.67502654,
+            "posZ": -11.0172291,
+            "rotX": 0.0473092943,
+            "rotY": 359.924561,
+            "rotZ": 359.9705,
+            "scaleX": 0.660937667,
+            "scaleY": 0.33694765,
+            "scaleZ": 0.660937667
+          },
+          "Nickname": "",
+          "Description": "Token",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.856,
+            "g": 0.09999969,
+            "b": 0.09399968
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "bafc2e"
+        }
+      ],
+      "GUID": "447929"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 5.26,
+        "posY": 1.48148715,
+        "posZ": -11.15,
+        "rotX": 3.82489773E-09,
+        "rotY": 180.011856,
+        "rotZ": -1.854586E-06,
+        "scaleX": 2.0,
+        "scaleY": 1.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "",
+      "Description": "Tile",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/947327626496106860/33C0D74A69728DC6D654B115AAF14F4D9979E1A2/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/947327626495382894/C20DC09FF9569F58355D4425CE0F4B6D6CE089F9/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 3,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "be0c49"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 1.01,
+        "posY": 1.48148715,
+        "posZ": -11.16,
+        "rotX": -4.51036954E-07,
+        "rotY": 180.000122,
+        "rotZ": 3.999616E-07,
+        "scaleX": 2.0,
+        "scaleY": 1.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "",
+      "Description": "Tile",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/947327626496105798/DDA7821B63190CA0A6E13D9A61509CFC1218BE99/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/947327626495382894/C20DC09FF9569F58355D4425CE0F4B6D6CE089F9/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 3,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "74777d"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -5.42,
+        "posY": 1.581487,
+        "posZ": -6.9,
+        "rotX": 3.63087224E-07,
+        "rotY": 179.999619,
+        "rotZ": 180.0,
+        "scaleX": 1.9958576,
+        "scaleY": 1.0,
+        "scaleZ": 1.9958576
+      },
+      "Nickname": "",
+      "Description": "Tile",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/947327626496007086/182B1A4E9FCF957CD318778FDBB04D3D8C452BF6/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/947327626496008259/68011B3E4A97F0AD9082AFEC980BB6D6A5BBB418/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 3,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "1ebfe1"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -5.41,
+        "posY": 1.48148036,
+        "posZ": -11.16,
+        "rotX": -0.000248688273,
+        "rotY": 179.976791,
+        "rotZ": -3.14619756E-05,
+        "scaleX": 1.995505,
+        "scaleY": 1.0,
+        "scaleZ": 1.995505
+      },
+      "Nickname": "",
+      "Description": "Tile",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/947327626496007086/182B1A4E9FCF957CD318778FDBB04D3D8C452BF6/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/947327626496008259/68011B3E4A97F0AD9082AFEC980BB6D6A5BBB418/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 3,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "5c621b",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": -1.289813,
+            "y": 0.10000024,
+            "z": -0.2804254
+          }
+        },
+        {
+          "Position": {
+            "x": 1.62185919,
+            "y": 0.100000128,
+            "z": -0.907202065
+          }
+        },
+        {
+          "Position": {
+            "x": 1.6323247,
+            "y": 0.100000106,
+            "z": -0.475882679
+          }
+        },
+        {
+          "Position": {
+            "x": 1.62683523,
+            "y": 0.100000083,
+            "z": -0.116645485
+          }
+        },
+        {
+          "Position": {
+            "x": 1.63295639,
+            "y": 0.10000018,
+            "z": 0.277864516
+          }
+        },
+        {
+          "Position": {
+            "x": 1.58938539,
+            "y": 0.100000136,
+            "z": 0.952122867
+          }
+        },
+        {
+          "Position": {
+            "x": 0.9260985,
+            "y": 0.100000165,
+            "z": 0.9937967
+          }
+        },
+        {
+          "Position": {
+            "x": 0.477635324,
+            "y": 0.10000018,
+            "z": 0.998380363
+          }
+        },
+        {
+          "Position": {
+            "x": -0.259244174,
+            "y": 0.100000091,
+            "z": 0.9950232
+          }
+        },
+        {
+          "Position": {
+            "x": 0.118470043,
+            "y": 0.100000076,
+            "z": 0.9934141
+          }
+        },
+        {
+          "Position": {
+            "x": -0.6269945,
+            "y": 0.100000113,
+            "z": 0.9969576
+          }
+        },
+        {
+          "Position": {
+            "x": -0.9887123,
+            "y": 0.100000128,
+            "z": 0.9935881
+          }
+        },
+        {
+          "Position": {
+            "x": 1.63110483,
+            "y": 0.100000158,
+            "z": 0.675206959
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -2.82999945,
+        "posY": 1.63147962,
+        "posZ": -10.5999994,
+        "rotX": -0.000250672369,
+        "rotY": 179.974869,
+        "rotZ": -1.79308245E-05,
+        "scaleX": 0.225761339,
+        "scaleY": 1.0,
+        "scaleZ": 0.225761339
+      },
+      "Nickname": "",
+      "Description": "Token",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/947327626496065292/51AD07BF8181FBE6B1E0394FE6C188450DACBC46/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0,
+          "Stackable": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "721710"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -1.5799998,
+        "posY": 1.531503,
+        "posZ": -12.18,
+        "rotX": 0.0001787505,
+        "rotY": 164.999969,
+        "rotZ": 0.000385061081,
+        "scaleX": 0.225761339,
+        "scaleY": 1.0,
+        "scaleZ": 0.225761339
+      },
+      "Nickname": "",
+      "Description": "Token",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/947327626496038779/51330A8DB85769C174AF5A36ED7851351E7DD6AF/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "5a0044"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -1.57999575,
+        "posY": 1.63145745,
+        "posZ": -12.1799965,
+        "rotX": -0.00137234246,
+        "rotY": 178.985779,
+        "rotZ": 0.002123274,
+        "scaleX": 0.225761339,
+        "scaleY": 1.0,
+        "scaleZ": 0.225761339
+      },
+      "Nickname": "",
+      "Description": "Token",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/947327626496038779/51330A8DB85769C174AF5A36ED7851351E7DD6AF/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "eb16e4"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -7.26,
+        "posY": 1.63148987,
+        "posZ": -13.1400051,
+        "rotX": 0.00551737053,
+        "rotY": 180.011078,
+        "rotZ": 3.348287E-05,
+        "scaleX": 0.225761339,
+        "scaleY": 1.0,
+        "scaleZ": 0.225761339
+      },
+      "Nickname": "",
+      "Description": "Token",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/947327626496059813/FA74839F9990FCD72046994793DECD2FBC629F6E/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0,
+          "Stackable": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "835370"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -1.57999051,
+        "posY": 1.73142231,
+        "posZ": -12.1699905,
+        "rotX": -0.00195100682,
+        "rotY": 178.999985,
+        "rotZ": 0.00343493652,
+        "scaleX": 0.225761339,
+        "scaleY": 1.0,
+        "scaleZ": 0.225761339
+      },
+      "Nickname": "",
+      "Description": "Token",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/947327626496038779/51330A8DB85769C174AF5A36ED7851351E7DD6AF/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "e3ef92"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -8.650001,
+        "posY": 1.63147092,
+        "posZ": -9.35,
+        "rotX": -0.000259696069,
+        "rotY": 179.628525,
+        "rotZ": -5.45168368E-05,
+        "scaleX": 0.225761339,
+        "scaleY": 1.0,
+        "scaleZ": 0.225761339
+      },
+      "Nickname": "",
+      "Description": "Token",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/947327626496057684/9073C7CD3586E42A4C24F7CC166298AEAACD367F/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0,
+          "Stackable": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "b80a73"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 3.07,
+        "posY": 1.531499,
+        "posZ": -9.39,
+        "rotX": 1.52572113E-06,
+        "rotY": 179.96373,
+        "rotZ": -3.22286314E-06,
+        "scaleX": 0.225761339,
+        "scaleY": 1.0,
+        "scaleZ": 0.225761339
+      },
+      "Nickname": "",
+      "Description": "Token",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/947327626496049383/A6014F3182B9EE5255181C012BD1717CD7BFB51C/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0,
+          "Stackable": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "085f61"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 7.31,
+        "posY": 1.53149891,
+        "posZ": -9.97,
+        "rotX": -1.71848868E-07,
+        "rotY": 180.0017,
+        "rotZ": -2.65143058E-07,
+        "scaleX": 0.225761339,
+        "scaleY": 1.0,
+        "scaleZ": 0.225761339
+      },
+      "Nickname": "",
+      "Description": "Token",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/947327626496049383/A6014F3182B9EE5255181C012BD1717CD7BFB51C/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0,
+          "Stackable": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "88cd08"
+    }
+  ],
+  "SnapPoints": [
+    {
+      "Position": {
+        "x": 3.07005358,
+        "y": 1.47446465,
+        "z": -9.388562
+      }
+    },
+    {
+      "Position": {
+        "x": 3.04445982,
+        "y": 1.481499,
+        "z": -10.0013227
+      }
+    },
+    {
+      "Position": {
+        "x": 3.042407,
+        "y": 1.47412586,
+        "z": -10.6698818
+      }
+    },
+    {
+      "Position": {
+        "x": 3.05231285,
+        "y": 1.473916,
+        "z": -11.3359356
+      }
+    },
+    {
+      "Position": {
+        "x": 3.0490222,
+        "y": 1.47372019,
+        "z": -12.0163612
+      }
+    },
+    {
+      "Position": {
+        "x": 7.31478071,
+        "y": 1.46837544,
+        "z": -9.971215
+      }
+    },
+    {
+      "Position": {
+        "x": 7.27674,
+        "y": 1.46823049,
+        "z": -10.64352
+      }
+    },
+    {
+      "Position": {
+        "x": 7.300536,
+        "y": 1.46799946,
+        "z": -11.3158236
+      }
+    },
+    {
+      "Position": {
+        "x": 7.27066135,
+        "y": 1.46783876,
+        "z": -12.0029554
+      }
+    },
+    {
+      "Position": {
+        "x": -1.57673442,
+        "y": 1.48011971,
+        "z": -12.183979
+      }
+    },
+    {
+      "Position": {
+        "x": 7.3146534,
+        "y": 1.46849394,
+        "z": -9.308489
+      }
+    },
+    {
+      "Position": {
+        "x": -1.5830723,
+        "y": 1.481499,
+        "z": -11.0179405
+      }
+    }
+  ],
+  "DecalPallet": [
+    {
+      "Name": "Primary",
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/947337578575865249/DEED32AAB380BCD530D365C8E09B0C7C2D84FC56/",
+      "Size": 0.25
+    },
+    {
+      "Name": "Secondary",
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/947337578575874077/732F2928EF4D9FE9631484F91C2F6F3CCC00A3D1/",
+      "Size": 0.25
+    }
+  ],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": "v10.9.3"
+}

@@ -1,0 +1,367 @@
+{
+  "SaveName": "Card Naming Tool",
+  "GameMode": "New Script Testing Delete when done",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "8/21/2017 3:11:17 AM",
+  "Table": "Table_Circular",
+  "Sky": "Sky_Downtown",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "",
+  "LuaScript": "--[[ Lua code. See documentation: http://berserk-games.com/knowledgebase/scripting/ --]]\n\n--[[ The OnLoad function. This is called after everything in the game save finishes loading.\nMost of your script code goes here. --]]\nfunction onload()\n    --[[ print('Onload!') --]]\nend\n\n--[[ The Update function. This is called once per frame. --]]\nfunction update ()\n    --[[ print('Update loop!') --]]\nend",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -15.2383451,
+          "posY": 3.54391432,
+          "posZ": -15.41023,
+          "rotX": 0.0,
+          "rotY": 45.0000038,
+          "rotZ": 0.0,
+          "scaleX": 11.6554279,
+          "scaleY": 9.174584,
+          "scaleZ": 6.76723862
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -15.3520765,
+          "posY": 3.54391527,
+          "posZ": 15.1043758,
+          "rotX": 0.0,
+          "rotY": 135.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6568184,
+          "scaleY": 9.174584,
+          "scaleZ": 6.768058
+        }
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 21.5308113,
+          "posY": 3.54391432,
+          "posZ": 0.05564022,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 11.656064,
+          "scaleY": 9.174584,
+          "scaleZ": 6.76773643
+        }
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 15.3141708,
+          "posY": 3.54391241,
+          "posZ": 15.1422806,
+          "rotX": 0.0,
+          "rotY": 225.000046,
+          "rotZ": 0.0,
+          "scaleX": 11.6567249,
+          "scaleY": 9.174584,
+          "scaleZ": 6.76808739
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 9.536743E-07,
+          "posY": 3.54391241,
+          "posZ": -21.4752541,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6554279,
+          "scaleY": 9.174588,
+          "scaleZ": 6.76723957
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": -3.33786E-06,
+          "posY": 3.54391241,
+          "posZ": 21.29339,
+          "rotX": 1.02452923E-05,
+          "rotY": 180.000549,
+          "rotZ": -1.70749809E-06,
+          "scaleX": 11.6555281,
+          "scaleY": 9.174584,
+          "scaleZ": 6.76723337
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 15.3141727,
+          "posY": 3.54391527,
+          "posZ": -15.0311737,
+          "rotX": -1.30690034E-06,
+          "rotY": 315.0,
+          "rotZ": -3.1551358E-06,
+          "scaleX": 11.6555958,
+          "scaleY": 9.174584,
+          "scaleZ": 6.767313
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -21.5687141,
+          "posY": 3.54391527,
+          "posZ": -0.20971489,
+          "rotX": -4.82967334E-06,
+          "rotY": 90.0,
+          "rotZ": 4.829673E-06,
+          "scaleX": 11.65603,
+          "scaleY": 9.174584,
+          "scaleZ": 6.767707
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "VectorLines": [],
+  "ObjectStates": [
+    {
+      "Name": "PiecePack_Suns",
+      "Transform": {
+        "posX": 3.06327661E-06,
+        "posY": 1.34695792,
+        "posZ": 2.13231069E-05,
+        "rotX": 1.28487147E-06,
+        "rotY": 180.011536,
+        "rotZ": -1.16065962E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Card Naming Tool",
+      "Description": "This tool uses a script to name and give descriptions to cards.\n\nOpen the scripting window and add your decks GUID and card information, and then press the Rename cards button.\n\nYou can get your decks GUID by right clicking your deck and selecting the scripting menu, click the GUID to copy.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.4429998,
+        "g": 0.2309998,
+        "b": 0.08999986
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "MeshIndex": 6,
+      "XmlUI": "",
+      "LuaScript": "-- Card Naming Tool v1.1\r\n\r\n-- This script was created by dzikakulka, and co-authored and published by Hiram Abiff.\r\n\r\n-- You can add or remove as many cards as you'd like.\r\n-- You may also use BB codes in both card names and\r\n-- descriptions. For more info on BB Codes you can\r\n-- visit the link provided on the workshop page for\r\n-- this mod. Even when drawing cards from the bottom,\r\n-- Names and descriptions in the tables will be assigned\r\n-- from top to bottom; so consider this while organizing them.\r\n\r\n-- Remember to every so often while filling in info\r\n-- to save and test your names to see if they are\r\n-- accurately assigned to the correct cards. This\r\n-- will allow you to catch mistakes early and\r\n-- help save a huge amount of time later on.\r\n-- Good Luck!\r\n\r\ndeckGUID = 'f453dd' -- Replace this with your decks GUID, make sure to keep the apostrophes\r\nnumberOfCards = 3 -- set this to the exact number of cards to be named.\r\ntakeFromTop = true -- Set this to false to draw cards from the bottom of the deck.(optional)\r\nfipCards = false -- This is used to flip cards on draw; it can be helpful to keep your deck in order.(optional)\r\n\r\ncardNames = { -- Each new line is a separate card. Don't forget your commas after each entry.\r\n    'Card 1',\r\n    'Card 2',\r\n    'Card 3',\r\n    '',\r\n    '',\r\n    '',\r\n    '',\r\n    '',\r\n    '',\r\n    ''\r\n}\r\n\r\ncardDescriptions = {\r\n    'This is the description for card one.', -- Card 1\r\n    'This is the description for card two.', -- Card 2\r\n    'This is the description for card three.', -- Card 3\r\n    '',\r\n    '',\r\n    '',\r\n    '',\r\n    '',\r\n    '',\r\n    ''\r\n}\r\n\r\n-- Unless looking to troubleshoot, everything below this point should not need to be changed.\r\n\r\nfunction onLoad()\r\n    self.createButton({\r\n        label=\"Rename Cards\", click_function=\"renameCards\",\r\n        function_owner=self, position={0,0.1,0},\r\n        height=210, width=640, font_size=100,\r\n        })\r\nend\r\n\r\nfunction renameCards()\r\n    startLuaCoroutine(self, 'takeAndRename')\r\nend\r\n\r\nfunction takeAndRename()\r\n    local frameWait = 10        -- change if wait between cards is too short/long\r\n    local flipCard = false      -- Added as an alternative in helping keep the deck organized if desired. Not included above.\r\n    local deck = getObjectFromGUID(deckGUID)\r\n    if deck == nil then\r\n        print(\"\\n[FF0000]-------- Deck GUID is incorrect or missing!! --------\")\r\n        return 1\r\n    else\r\n        print(\"\\n---------- Naming deck with GUID \"..deck.getGUID()..\" ----------\\n\")\r\n    end\r\n    local heightStep = 2/((#deck.getObjects() < #cardNames) and #deck.getObjects() or #cardNames)\r\n    local nameKey = 1\r\n    watchCards = false\r\n    while deck ~= nil and cardNames[nameKey] ~= nil do\r\n        local targetPos = deck.positionToWorld({5, 0, 0})\r\n        targetPos.y = targetPos.y + (nameKey*heightStep)\r\n        local newCard = deck.takeObject({ position = targetPos, top = takeFromTop, flip = flipCards })\r\n        if nameKey == numberOfCards-1 then\r\n            watchCards = true\r\n            for i=1,5,1 do coroutine.yield(0) end\r\n            if deck == nil then\r\n\t\t\t\tif flipCards == true then\r\n\t\t\t\t\tcardRef.flip()\r\n\t\t\t\tend\r\n                cardRef.setName(cardNames[numberOfCards])\r\n                cardRef.setDescription(cardDescriptions[numberOfCards])\r\n                local targetPos = cardRef.positionToWorld({5, 0, 0})\r\n                targetPos.y = targetPos.y + 5\r\n                cardRef.setPositionSmooth(targetPos)\r\n            end\r\n        end\r\n        newCard.setName(cardNames[nameKey])\r\n        newCard.setDescription(cardDescriptions[nameKey])\r\n        nameKey = nameKey+1\r\n        for i=1,frameWait,1 do coroutine.yield(0) end\r\n    end\r\n    watchCards = false\r\n    print(\"[FFbf00]--------- Cards Were Successfully Named! ---------\\n--- Thank you for using the Card Naming Tool. ---\")\r\n    return 1\r\nend\r\n\r\nfunction onObjectSpawn(obj)\r\n    if watchCards == true and obj.tag == \"Card\" then\r\n        cardGuid = obj.getGUID()\r\n        cardRef = getObjectFromGUID(cardGuid)\r\n    end\r\nend\r\n",
+      "LuaScriptState": "",
+      "GUID": "485e8e"
+    }
+  ],
+  "DecalPallet": [],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": "v9.6"
+}

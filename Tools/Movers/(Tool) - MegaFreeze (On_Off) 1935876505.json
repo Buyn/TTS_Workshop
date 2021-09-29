@@ -1,0 +1,2073 @@
+{
+  "SaveName": "(Tool) - MegaFreeze (On/Off)",
+  "GameMode": "MegaFreeze",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "12/28/2019 10:17:14 AM",
+  "Table": "Table_Square",
+  "Sky": "Sky_Field",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
+  "LuaScript": "function onLoad()\n    MegaFreeze() -- Call MegaFreeze - Place it here so you can disable it by just commenting out this alone.\nend\n\nfunction MegaFreeze()\n    local freezeByZone = {'4e6958'} -- Place GUIDs of script zones here\n    local freezeByGUID = {'98f523', '79b304', 'b718b4', '316f83'} -- Place GUIDs of individual Objects here\n\n    for _, obj in pairs(getAllObjects()) do\n        if      obj.getName() == 'MegaFreeze' then\n                obj.interactable = false\n        elseif  obj.getDescription() == 'MegaFreeze' then\n                obj.interactable = false\n        else\n            for _, guid in pairs(freezeByGUID) do\n                if obj.getGUID() == guid then obj.interactable = false end\n            end\n        end\n    end\n\n     -- Freeze Objects by Zone\n    for _, zone in pairs(freezeByZone) do\n        for _, obj in pairs(getObjectFromGUID(zone).getObjects()) do\n            obj.interactable = false\n        end\n    end\nend\n\n--[[\n        It is best to use dynamic code, so using the Names or Descritions means you\n        do not have to hardcore GUIDs. I just left that in as an example, as sometimes\n        you need to retain names and/or descritpions for other parts of the scripts.\n\n        You can of course add more seach criteria in the same was as the freezeByGUID\n        to say MegaFreze by texture, or type or w/e.\n]]",
+  "LuaScriptState": "",
+  "MusicPlayer": {
+    "RepeatSong": false,
+    "PlaylistEntry": 0,
+    "CurrentAudioTitle": "Typhons Children - Mission Briefing",
+    "CurrentAudioURL": "http://cloud-3.steamusercontent.com/ugc/781859262304608199/3E220047A4B3A0CE8ED3435C5D9FDDE1133CBCC8/",
+    "AudioLibrary": [
+      {
+        "Item1": "http://cloud-3.steamusercontent.com/ugc/781859262304608199/3E220047A4B3A0CE8ED3435C5D9FDDE1133CBCC8/",
+        "Item2": "Typhons Children - Mission Briefing"
+      },
+      {
+        "Item1": "http://cloud-3.steamusercontent.com/ugc/781859262301397823/8AFDF3A837114301F1330792C9AFA80CD6EE7E44/",
+        "Item2": "Typhons Children - Act 1 - Abes Log"
+      },
+      {
+        "Item1": "http://cloud-3.steamusercontent.com/ugc/781859262304596731/890471B08AADA2F3A7D8CC26E23216365A324C31/",
+        "Item2": "Typhons Children - Act 1 - RiverCrossing"
+      },
+      {
+        "Item1": "http://cloud-3.steamusercontent.com/ugc/781859262304595712/46267F4421FFF49CD51105818598B5A4B95B9160/",
+        "Item2": "Typhons Children - Act 1 - After Action Report"
+      },
+      {
+        "Item1": "http://cloud-3.steamusercontent.com/ugc/781859262304598758/2F68ED600FF153C9FFBA88CFF1C80580505203DC/",
+        "Item2": "Typhons Children - Act 2 -  Abes Log"
+      },
+      {
+        "Item1": "http://cloud-3.steamusercontent.com/ugc/781859262304600404/124AEB03CEA937246392B68BE1A6E90A0868F784/",
+        "Item2": "Typhons Children - Act 2 - VillageRecon"
+      },
+      {
+        "Item1": "http://cloud-3.steamusercontent.com/ugc/781859262304599374/DC5B8D8ABE2462FE22DA1A4B97990B3A37EE1ED1/",
+        "Item2": "Typhons Children - Act 2 - After Action Report"
+      },
+      {
+        "Item1": "http://cloud-3.steamusercontent.com/ugc/781859262304603237/0027353CB12E636E719218CBFCEC031AA1E9196F/",
+        "Item2": "Typhons Children - Act 3 - Abes Log"
+      },
+      {
+        "Item1": "http://cloud-3.steamusercontent.com/ugc/781859262304605976/81DB3DC21CA3B752B24E27731D201851002ADB7D/",
+        "Item2": "Typhons Children - Act 3 - MineAssault"
+      },
+      {
+        "Item1": "http://cloud-3.steamusercontent.com/ugc/781859262304604710/57B595C2CF2B13E49B404748D2D89A46ED518710/",
+        "Item2": "Typhons Children - Act 3 - After Action Report"
+      },
+      {
+        "Item1": "http://cloud-3.steamusercontent.com/ugc/781859262304582207/44A479DA3A8D37F3DEE9342E4FB1395350B105D6/",
+        "Item2": "A Mothers Love - Mission Briefing"
+      },
+      {
+        "Item1": "http://cloud-3.steamusercontent.com/ugc/781859262301397823/8AFDF3A837114301F1330792C9AFA80CD6EE7E44/",
+        "Item2": "A Mothers Love - Act 1 - Abes Log"
+      },
+      {
+        "Item1": "http://cloud-3.steamusercontent.com/ugc/781859262304567652/5BB6B8AE07399C1761C7F9D255B02F2B3BBEC08A/",
+        "Item2": "A Mothers Love - Act 1 - Betrayal"
+      },
+      {
+        "Item1": "http://cloud-3.steamusercontent.com/ugc/781859262301400619/1C11D1757B70A0B6273635593A0E8CEAD1C29B6D/",
+        "Item2": "A Mothers Love - Act 1 - After Action Report"
+      },
+      {
+        "Item1": "http://cloud-3.steamusercontent.com/ugc/781859262304572613/DB0203511C39AF5DECB282025789B1C6DF401B37/",
+        "Item2": "A Mothers Love - Act 2 - Abes Log"
+      },
+      {
+        "Item1": "http://cloud-3.steamusercontent.com/ugc/781859262304574505/45AE8B9626CEC8232AE9FCBC6943EF529B05E320/",
+        "Item2": "A Mothers Love - Act 2 - TheNursery"
+      },
+      {
+        "Item1": "http://cloud-3.steamusercontent.com/ugc/781859262304573378/3D5D74834604F2B77237255D92BF489A76C26F8A/",
+        "Item2": "A Mothers Love - Act 2 - After Action Report"
+      },
+      {
+        "Item1": "http://cloud-3.steamusercontent.com/ugc/781859262304578756/C00FE19A4A2E8A4ADBE85D46B6051B275A80E901/",
+        "Item2": "A Mothers Love - Act 3 - Abes Log"
+      },
+      {
+        "Item1": "http://cloud-3.steamusercontent.com/ugc/781859262301391408/CA1697BC46999F99D8E6507304CB79E4EE753FB8/",
+        "Item2": "A Mother's Love - Act 3 - Mother of the Infinite"
+      },
+      {
+        "Item1": "http://cloud-3.steamusercontent.com/ugc/781859262304579208/9BF9B762E7C39B010097732582D6E86D97427942/",
+        "Item2": "A Mothers Love - Act 3 - After Action Report"
+      },
+      {
+        "Item1": "http://cloud-3.steamusercontent.com/ugc/781859262304594578/DAAB2024175C609927E619C31C00185409E0A5C6/",
+        "Item2": "Follow the Moon - Mission Briefing"
+      },
+      {
+        "Item1": "http://cloud-3.steamusercontent.com/ugc/781859262304582721/8FF7F5EF0BC8A8EB51DBEA5ADEE83513E6EEFE94/",
+        "Item2": "Follow the Moon - Act 1 - Abes Log"
+      },
+      {
+        "Item1": "http://cloud-3.steamusercontent.com/ugc/781859262304584279/15B1C0184420B67E8B876BEDA82DB11769378FFD/",
+        "Item2": "Follow the Moon - Act 1 - What Lies Beneath"
+      },
+      {
+        "Item1": "http://cloud-3.steamusercontent.com/ugc/781859262304583451/B6ABDAA7DA2190A2B29AF758C1F237C28A19E0AD/",
+        "Item2": "Follow the Moon - Act 1 - After Action Report"
+      },
+      {
+        "Item1": "http://cloud-3.steamusercontent.com/ugc/781859262304586962/F4EFB96C532E275A5ABD3326ACBC0F160598CAC5/",
+        "Item2": "Follow the Moon - Act 2 - Abes Log"
+      },
+      {
+        "Item1": "http://cloud-3.steamusercontent.com/ugc/781859262304588284/0053B28857E70B90E6E5E5BFCD570A96C8D51E97/",
+        "Item2": "Follow the Moon - Act 2 - Gateway"
+      },
+      {
+        "Item1": "http://cloud-3.steamusercontent.com/ugc/781859262304587431/EBF6E9EE36F2D837BCE31865716400CF633D7B15/",
+        "Item2": "Follow the Moon - Act 2 - After Action Report"
+      },
+      {
+        "Item1": "http://cloud-3.steamusercontent.com/ugc/781859262304590671/A79755EEFE21C8DAD9986326B780808207D9A011/",
+        "Item2": "Follow the Moon - Act 3 - Abes Log"
+      },
+      {
+        "Item1": "http://cloud-3.steamusercontent.com/ugc/781859262304592388/1D2E56553743616DF94E175718926418CC9F25AE/",
+        "Item2": "Follow the Moon - Act 3 - Blue Moon"
+      },
+      {
+        "Item1": "http://cloud-3.steamusercontent.com/ugc/781859262304591489/FB85A75E238F4858576D3FBB340C58540B1B4B54/",
+        "Item2": "Follow the Moon - Act 3 - After Action Report"
+      }
+    ]
+  },
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 14.3801212,
+          "posY": 3.09245682,
+          "posZ": 0.141296387,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 9.396279,
+          "scaleY": 6.634502,
+          "scaleZ": 3.52336621
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 0.03270387,
+          "posY": 3.09235382,
+          "posZ": -14.3720093,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 9.392744,
+          "scaleY": 6.634502,
+          "scaleZ": 3.522614
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": 0.03270387,
+          "posY": 3.092186,
+          "posZ": 14.2785149,
+          "rotX": 0.0,
+          "rotY": 180.0,
+          "rotZ": 0.0,
+          "scaleX": 9.394625,
+          "scaleY": 6.634502,
+          "scaleZ": 3.523272
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -14.2912292,
+          "posY": 3.09245682,
+          "posZ": -0.05830002,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 9.396279,
+          "scaleY": 6.634502,
+          "scaleZ": 3.52336621
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "ObjectStates": [
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -8.733072,
+        "posY": 1.459992,
+        "posZ": 5.701175,
+        "rotX": -5.250639E-05,
+        "rotY": 179.999557,
+        "rotZ": 180.000046,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MegaFreeze",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "9c2d88"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -11.1727419,
+        "posY": 1.459991,
+        "posZ": 0.8259402,
+        "rotX": -5.29339668E-05,
+        "rotY": 294.108246,
+        "rotZ": 90.00011,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MegaFreeze",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "910648"
+    },
+    {
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": 1.51554358,
+        "posY": 1.95999181,
+        "posZ": -1.02742946,
+        "rotX": 90.0,
+        "rotY": 73.54603,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MegaFreeze",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.201567829,
+        "b": 0.8235294
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "498d3c"
+    },
+    {
+      "Name": "BlockTriangle",
+      "Transform": {
+        "posX": 3.21086049,
+        "posY": 1.30841577,
+        "posZ": -3.60492849,
+        "rotX": 359.9806,
+        "rotY": 336.094849,
+        "rotZ": 134.945282,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MegaFreeze",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.00539905,
+        "g": 0.772058845,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "b71251"
+    },
+    {
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": 3.62132883,
+        "posY": 1.78303039,
+        "posZ": -2.282168,
+        "rotX": 20.3518829,
+        "rotY": 4.07101059,
+        "rotZ": 359.1477,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MegaFreeze",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.201567829,
+        "b": 0.8235294
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "cc9186"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": 2.83730936,
+        "posY": 1.45999157,
+        "posZ": -6.537099,
+        "rotX": 3.863002E-05,
+        "rotY": 27.8152447,
+        "rotZ": 179.999985,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MegaFreeze",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "133908"
+    },
+    {
+      "Name": "BlockTriangle",
+      "Transform": {
+        "posX": 2.17445278,
+        "posY": 1.45451832,
+        "posZ": -4.219826,
+        "rotX": 41.58183,
+        "rotY": 313.9944,
+        "rotZ": 0.624132037,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MegaFreeze",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.00539905,
+        "g": 0.772058845,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "f0db3d"
+    },
+    {
+      "Name": "BlockTriangle",
+      "Transform": {
+        "posX": 4.994731,
+        "posY": 1.17423546,
+        "posZ": -5.827696,
+        "rotX": -4.36450937E-05,
+        "rotY": 294.302826,
+        "rotZ": -2.43366758E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MegaFreeze",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.00539905,
+        "g": 0.772058845,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "97703f"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -1.69260979,
+        "posY": 1.4599905,
+        "posZ": -5.56092644,
+        "rotX": 270.0,
+        "rotY": 321.837677,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MegaFreeze",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "d10297"
+    },
+    {
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": 2.12550664,
+        "posY": 2.062786,
+        "posZ": -2.62478685,
+        "rotX": 72.90402,
+        "rotY": 287.657776,
+        "rotZ": 269.6075,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MegaFreeze",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.201567829,
+        "b": 0.8235294
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "a536f8"
+    },
+    {
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": -3.44554043,
+        "posY": 1.45999265,
+        "posZ": 5.32147551,
+        "rotX": -1.09071232E-06,
+        "rotY": 241.989136,
+        "rotZ": 0.000129826978,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MegaFreeze",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.201567829,
+        "b": 0.8235294
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "53962c"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -6.364215,
+        "posY": 1.459992,
+        "posZ": -1.01378381,
+        "rotX": -8.537737E-05,
+        "rotY": 283.387329,
+        "rotZ": 90.00003,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MegaFreeze",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "b8068c"
+    },
+    {
+      "Name": "BlockTriangle",
+      "Transform": {
+        "posX": 3.97071,
+        "posY": 1.308498,
+        "posZ": -5.71092129,
+        "rotX": 3.58584948E-05,
+        "rotY": 42.08548,
+        "rotZ": 224.999985,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MegaFreeze",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.00539905,
+        "g": 0.772058845,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "aca1b2"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -3.89137387,
+        "posY": 1.4599905,
+        "posZ": -3.54545641,
+        "rotX": 270.0,
+        "rotY": 331.287781,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MegaFreeze",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "dfcd01"
+    },
+    {
+      "Name": "BlockTriangle",
+      "Transform": {
+        "posX": 0.560618162,
+        "posY": 1.46294558,
+        "posZ": -1.88861465,
+        "rotX": 89.25454,
+        "rotY": 248.694275,
+        "rotZ": 225.001892,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MegaFreeze",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.00539905,
+        "g": 0.772058845,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "5c2170"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": 2.59497023,
+        "posY": 1.46002376,
+        "posZ": -1.59736073,
+        "rotX": 359.981567,
+        "rotY": 13.6535892,
+        "rotZ": 0.009481543,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MegaFreeze",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "dba645"
+    },
+    {
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": -4.75404263,
+        "posY": 1.55014551,
+        "posZ": 1.98863029,
+        "rotX": 359.9832,
+        "rotY": 291.7027,
+        "rotZ": 281.645477,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MegaFreeze",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.201567829,
+        "b": 0.8235294
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "28a7da"
+    },
+    {
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": 4.92579031,
+        "posY": 1.45999241,
+        "posZ": -2.28148723,
+        "rotX": -4.48908258E-06,
+        "rotY": 345.404877,
+        "rotZ": 179.999924,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MegaFreeze",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.201567829,
+        "b": 0.8235294
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "72b805"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": 1.74817228,
+        "posY": 1.45999324,
+        "posZ": 0.2542809,
+        "rotX": 270.0,
+        "rotY": 351.842163,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MegaFreeze",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "d3008b"
+    },
+    {
+      "Name": "BlockTriangle",
+      "Transform": {
+        "posX": 1.71093035,
+        "posY": 1.75541055,
+        "posZ": -3.443371,
+        "rotX": 30.5055313,
+        "rotY": 285.129822,
+        "rotZ": 104.774292,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MegaFreeze",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.00539905,
+        "g": 0.772058845,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "225e87"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -2.94768572,
+        "posY": 1.459991,
+        "posZ": -2.47479486,
+        "rotX": 3.0146537E-05,
+        "rotY": 162.319839,
+        "rotZ": 180.000092,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MegaFreeze",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "4be178"
+    },
+    {
+      "Name": "BlockTriangle",
+      "Transform": {
+        "posX": 2.96257186,
+        "posY": 1.30849743,
+        "posZ": -4.90704727,
+        "rotX": -1.8783021E-05,
+        "rotY": 134.168655,
+        "rotZ": 135.000061,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MegaFreeze",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.00539905,
+        "g": 0.772058845,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "46cb2c"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -0.9854394,
+        "posY": 1.45999253,
+        "posZ": -3.206591,
+        "rotX": 8.366982E-05,
+        "rotY": 13.9549456,
+        "rotZ": 270.000061,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MegaFreeze",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "56e234"
+    },
+    {
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": -8.636981,
+        "posY": 1.45999324,
+        "posZ": 0.2602195,
+        "rotX": 2.99146868E-05,
+        "rotY": 21.7844315,
+        "rotZ": 179.999924,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MegaFreeze",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.201567829,
+        "b": 0.8235294
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "3836f0"
+    },
+    {
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": -2.14513278,
+        "posY": 1.45999122,
+        "posZ": 3.546354,
+        "rotX": 7.009698E-05,
+        "rotY": 49.23254,
+        "rotZ": -5.41777154E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MegaFreeze",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.201567829,
+        "b": 0.8235294
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "192194"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -6.29861736,
+        "posY": 1.45999265,
+        "posZ": -5.15180969,
+        "rotX": 2.90283042E-05,
+        "rotY": 108.028931,
+        "rotZ": 269.999939,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MegaFreeze",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "b4efa8"
+    },
+    {
+      "Name": "BlockTriangle",
+      "Transform": {
+        "posX": -0.874465764,
+        "posY": 1.30849624,
+        "posZ": -7.544175,
+        "rotX": -0.00011312501,
+        "rotY": 16.69391,
+        "rotZ": 225.000015,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MegaFreeze",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.00539905,
+        "g": 0.772058845,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "168b75"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -1.92618024,
+        "posY": 1.45999074,
+        "posZ": -6.91584063,
+        "rotX": 9.04004E-05,
+        "rotY": 23.5962029,
+        "rotZ": 179.999939,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MegaFreeze",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "4e83c8"
+    },
+    {
+      "Name": "BlockTriangle",
+      "Transform": {
+        "posX": -3.75839019,
+        "posY": 1.17423689,
+        "posZ": -1.34464085,
+        "rotX": -8.87084461E-05,
+        "rotY": 252.404633,
+        "rotZ": -2.47343178E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MegaFreeze",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.00539905,
+        "g": 0.772058845,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "016d65"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -1.13306546,
+        "posY": 1.459993,
+        "posZ": 1.945336,
+        "rotX": -1.70754731E-06,
+        "rotY": 37.68369,
+        "rotZ": 89.999855,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MegaFreeze",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "0d1496"
+    },
+    {
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": -6.80365753,
+        "posY": 1.95999169,
+        "posZ": 0.943298,
+        "rotX": 270.0,
+        "rotY": 14.5769749,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MegaFreeze",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.201567829,
+        "b": 0.8235294
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "5e15e2"
+    },
+    {
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": -5.25443125,
+        "posY": 1.4600538,
+        "posZ": 3.91730857,
+        "rotX": 359.942657,
+        "rotY": 204.151031,
+        "rotZ": 89.9646,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MegaFreeze",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.201567829,
+        "b": 0.8235294
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "91e67c"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -1.91041374,
+        "posY": 1.45999134,
+        "posZ": -1.822094,
+        "rotX": -0.000143433979,
+        "rotY": 268.9018,
+        "rotZ": 270.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MegaFreeze",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "11365e"
+    },
+    {
+      "Name": "BlockTriangle",
+      "Transform": {
+        "posX": -4.23911333,
+        "posY": 1.46301925,
+        "posZ": 3.09068,
+        "rotX": 89.24204,
+        "rotY": 5.345628,
+        "rotZ": 134.98996,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MegaFreeze",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.00539905,
+        "g": 0.772058845,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "4cf725"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -3.707223,
+        "posY": 1.45999181,
+        "posZ": 0.292373359,
+        "rotX": 6.147171E-05,
+        "rotY": 132.5976,
+        "rotZ": 90.00003,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MegaFreeze",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "673f92"
+    },
+    {
+      "Name": "Chess_Pawn",
+      "Transform": {
+        "posX": 11.4294186,
+        "posY": 2.13080359,
+        "posZ": 12.7838449,
+        "rotX": -0.000149634361,
+        "rotY": 90.0002,
+        "rotZ": 5.993175E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9558824,
+        "g": 0.9558824,
+        "b": 0.9558824
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "AltSound": true,
+      "MaterialIndex": 2,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "82c51a"
+    },
+    {
+      "Name": "Chess_Knight",
+      "Transform": {
+        "posX": 9.301176,
+        "posY": 2.55941319,
+        "posZ": 12.7745829,
+        "rotX": -2.14117135E-05,
+        "rotY": 5.64098154E-05,
+        "rotZ": -3.33337339E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9558824,
+        "g": 0.9558824,
+        "b": 0.9558824
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "AltSound": true,
+      "MaterialIndex": 2,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "612e9f"
+    },
+    {
+      "Name": "Chess_Bishop",
+      "Transform": {
+        "posX": 6.779223,
+        "posY": 2.41765833,
+        "posZ": 12.2746763,
+        "rotX": -5.93455079E-05,
+        "rotY": -0.000131180524,
+        "rotZ": -3.08978051E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9558824,
+        "g": 0.9558824,
+        "b": 0.9558824
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "AltSound": true,
+      "MaterialIndex": 2,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "3e3f4e"
+    },
+    {
+      "Name": "Chess_Rook",
+      "Transform": {
+        "posX": 10.6994724,
+        "posY": 2.23670244,
+        "posZ": 10.4437666,
+        "rotX": -4.252307E-05,
+        "rotY": 3.986846E-05,
+        "rotZ": -2.50461326E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "AltSound": true,
+      "MaterialIndex": 3,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "4850df"
+    },
+    {
+      "Name": "Chess_Queen",
+      "Transform": {
+        "posX": 8.282226,
+        "posY": 2.76270843,
+        "posZ": 10.3121176,
+        "rotX": 0.000142000732,
+        "rotY": 0.0001429862,
+        "rotZ": 5.45075163E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9558824,
+        "g": 0.9558824,
+        "b": 0.9558824
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "AltSound": true,
+      "MaterialIndex": 2,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "e03cde"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -11.566843,
+        "posY": 0.963106334,
+        "posZ": 13.4265823,
+        "rotX": 5.74019032E-05,
+        "rotY": 89.99998,
+        "rotZ": 5.083653E-05,
+        "scaleX": 1.69999945,
+        "scaleY": 1.69999945,
+        "scaleZ": 1.69999945
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.838235259,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": 1,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "316f83"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -14.1969223,
+        "posY": 0.963107467,
+        "posZ": 12.4531622,
+        "rotX": 3.32393538E-05,
+        "rotY": 89.99922,
+        "rotZ": -3.7757668E-06,
+        "scaleX": 1.69999945,
+        "scaleY": 1.69999945,
+        "scaleZ": 1.69999945
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.1724138,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": 5,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "98f523"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -13.4965229,
+        "posY": 0.9631066,
+        "posZ": 10.2335634,
+        "rotX": 2.37607383E-05,
+        "rotY": 90.01892,
+        "rotZ": 1.9579662E-05,
+        "scaleX": 1.69999945,
+        "scaleY": 1.69999945,
+        "scaleZ": 1.69999945
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.8602941,
+        "g": 0.0,
+        "b": 0.7653667
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": 7,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "79b304"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -12.1500187,
+        "posY": 0.9631069,
+        "posZ": 11.7497549,
+        "rotX": 3.19553146E-05,
+        "rotY": 89.98097,
+        "rotZ": 6.393598E-05,
+        "scaleX": 1.69999945,
+        "scaleY": 1.69999945,
+        "scaleZ": 1.69999945
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.7867647,
+        "g": 0.732506037,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": 3,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "b718b4"
+    },
+    {
+      "Name": "go_game_piece_white",
+      "Transform": {
+        "posX": -0.0309193861,
+        "posY": 1.28023791,
+        "posZ": -12.3728809,
+        "rotX": 8.68555253E-06,
+        "rotY": 0.000235901171,
+        "rotZ": -1.53683541E-05,
+        "scaleX": 1.749999,
+        "scaleY": 1.749999,
+        "scaleZ": 1.749999
+      },
+      "Nickname": "(Tool) - MegaFreeze Enable and Disable",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.6617647,
+        "g": 0.6617647,
+        "b": 0.6617647
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "function onload()\r\n    MakeButtons()\r\nend\r\n\r\nfunction func_Unfreeze()\r\n    for _, obj in pairs(getAllObjects()) do\r\n        if obj.interactable == false then\r\n            obj.interactable = true\r\n        end\r\n    end\r\n    MakeButtons('Freeze')\r\n\r\nend\r\n\r\nfunction func_Freeze()\r\n    Global.call('MegaFreeze')\r\n    MakeButtons('unFreeze')\r\nend\r\n\r\nfunction MakeButtons(switch)\r\n    if switch == nil then\r\n        self.createButton({\r\n            label=\"Unfreeze Objects\", click_function=\"func_Unfreeze\", function_owner=self,\r\n            position={0,0.5,1}, rotation={0,180,0}, height=900, width=2200,\r\n            font_size=250,-- color={0,0,0}, font_color={1,1,1}\r\n        })\r\n    elseif switch == 'Freeze' then\r\n        self.clearButtons()\r\n        self.createButton({\r\n            label=\"Freeze Objects\", click_function=\"func_Freeze\", function_owner=self,\r\n            position={0,0.5,1}, rotation={0,180,0}, height=900, width=2200,\r\n            font_size=250,-- color={0,0,0}, font_color={1,1,1}\r\n        })\r\n    elseif switch == 'unFreeze' then\r\n        self.clearButtons()\r\n        self.createButton({\r\n            label=\"Unfreeze Objects\", click_function=\"func_Unfreeze\", function_owner=self,\r\n            position={0,0.5,1}, rotation={0,180,0}, height=900, width=2200,\r\n            font_size=250,-- color={0,0,0}, font_color={1,1,1}\r\n        })\r\n    end\r\nend\r\n\r\n--[[\r\n\r\nThis is the MEGA FREEZE CODE\r\n\r\nfunction onLoad()\r\n    MegaFreeze() -- Call MegaFreeze - Place it here so you can disable it by just commenting out this alone.\r\nend\r\n\r\nfunction MegaFreeze()\r\n    local freezeByZone = {'4e6958'} -- Place GUIDs of script zones here\r\n    local freezeByGUID = {'98f523', '79b304', 'b718b4', '316f83'} -- Place GUIDs of individual Objects here\r\n\r\n    for _, obj in pairs(getAllObjects()) do\r\n        if      obj.getName() == 'MegaFreeze' then\r\n                obj.interactable = false\r\n        elseif  obj.getDescription() == 'MegaFreeze' then\r\n                obj.interactable = false\r\n        else\r\n            for _, guid in pairs(freezeByGUID) do\r\n                if obj.getGUID() == guid then obj.interactable = false end\r\n            end\r\n        end\r\n    end\r\n\r\n     -- Freeze Objects by Zone\r\n    for _, zone in pairs(freezeByZone) do\r\n        for _, obj in pairs(getObjectFromGUID(zone).getObjects()) do\r\n            obj.interactable = false\r\n        end\r\n    end\r\nend\r\n\r\n]]\r\n",
+      "LuaScriptState": "",
+      "GUID": "725ef4"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 9.037624,
+        "posY": 1.62931752,
+        "posZ": 11.4864111,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 6.966255,
+        "scaleY": 0.610765,
+        "scaleZ": 4.86725235
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "4e6958"
+    }
+  ],
+  "DecalPallet": [],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": "v12.2.2"
+}

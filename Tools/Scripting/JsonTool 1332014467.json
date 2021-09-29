@@ -1,0 +1,360 @@
+{
+  "SaveName": "JsonTool",
+  "GameMode": "Tools",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "30.03.2018 16:18:33",
+  "Table": "Table_Hexagon",
+  "Sky": "Sky_Sunset",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "",
+  "LuaScript": "--[[ Lua code. See documentation: http://berserk-games.com/knowledgebase/scripting/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate ()\n    --[[ print('onUpdate loop!') --]]\nend",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -13.6427822,
+          "posY": 3.55748653,
+          "posZ": -7.48837757,
+          "rotX": 0.0,
+          "rotY": 60.0000038,
+          "rotZ": 0.0,
+          "scaleX": 10.2688274,
+          "scaleY": 6.63434935,
+          "scaleZ": 4.893644
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -13.3165751,
+          "posY": 3.55751753,
+          "posZ": 8.302307,
+          "rotX": 0.0,
+          "rotY": 120.000008,
+          "rotZ": 0.0,
+          "scaleX": 10.2698193,
+          "scaleY": 6.63434935,
+          "scaleZ": 4.893611
+        }
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 13.5729713,
+          "posY": 3.55803585,
+          "posZ": 7.749332,
+          "rotX": -3.8082675E-05,
+          "rotY": 240.0,
+          "rotZ": -9.170954E-06,
+          "scaleX": 10.2703266,
+          "scaleY": 6.63434935,
+          "scaleZ": 4.894247
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": -0.000232696533,
+          "posY": 3.55775833,
+          "posZ": -15.5338268,
+          "rotX": 2.5444431E-14,
+          "rotY": 1.70754709E-06,
+          "rotZ": -1.70754709E-06,
+          "scaleX": 10.2680635,
+          "scaleY": 6.63434935,
+          "scaleZ": 4.89362049
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": 0.00162982941,
+          "posY": 3.55775642,
+          "posZ": 15.5952358,
+          "rotX": 0.0,
+          "rotY": 180.0,
+          "rotZ": 0.0,
+          "scaleX": 10.2695589,
+          "scaleY": 6.63434935,
+          "scaleZ": 4.89431763
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 13.6821318,
+          "posY": 3.55805731,
+          "posZ": -7.40796328,
+          "rotX": 1.99104343E-05,
+          "rotY": 300.0,
+          "rotZ": 3.349408E-07,
+          "scaleX": 10.2691536,
+          "scaleY": 6.63434935,
+          "scaleZ": 4.89337969
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "VectorLines": [],
+  "ObjectStates": [
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -6.22004032,
+        "posY": 2.25999951,
+        "posZ": -1.05855978,
+        "rotX": -4.268336E-07,
+        "rotY": -0.0006332866,
+        "rotZ": 9.631636E-06,
+        "scaleX": 2.59999871,
+        "scaleY": 2.59999871,
+        "scaleZ": 2.59999871
+      },
+      "Nickname": "JsonTool",
+      "Description": "JsonTool is a tool for exporting and importing information about in-game objects in JSON-format. JsonTool works with Notebook tabs for all actions. All needed tabs would created automatically. Exporting and importing processes use tab \"json.data\" for saving or getting information in JSON-format. Before every exporting and importing JsonTool would save backup to tabs with prefix \"json.exp.backup\" and \"json.imp.backup\". Tool configuration is saved in tab \"json.conf\". This tab would be read before every importing and exporting process. JsonTool print information about a current process into a Chat window. \n\nSee more information at Workshop or GitHub page. \n\nVersion 3.1.2. \n\nhttps://github.com/indvd00m/json-tool",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.3999999,
+        "g": 0.6,
+        "b": 0.6
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "-- JsonTool\n-- Tool for exporting and importing information about in-game objects in JSON-format.\n\n-- constants\nversion = '3.1.2'\nurl = 'https://github.com/indvd00m/json-tool'\nconfigTabName = 'json.conf'\ndataTabName = 'json.data'\nexportBackupTabNamePrefix = 'json.exp.backup'\nimportBackupTabNamePrefix = 'json.imp.backup'\ntabsColor = 'Grey'\nexportButtonLabel = 'Export'\nexportButtonTooltip = 'Export information about in-game objects to tab \"' ..\n    dataTabName .. '\" in JSON-format'\nimportButtonLabel = 'Import'\nimportButtonTooltip = 'Import information about in-game objects from tab \"' ..\n    dataTabName .. '\" in JSON-format'\nmainColor = {102/255, 153/255, 153/255}\nprocessColor = {255/255, 102/255, 102/255}\ndefaultButtonColor = {255/255, 255/255, 255/255}\ndefaultConfig = {\n    exportEmptyData = false,\n    createExportBackups = true,\n    createImportBackups = true,\n    processContainers = false,\n    processDuplicates = false,\n    takeRelativePosition = {2, 0, 2},\n    takeErrorTimeoutSeconds = 10,\n    includeGuids = {},\n    excludeGuids = {},\n    mode = {\n        auto = true,\n        manual = false\n    }\n}\n\n-- variables\nconfig = {}\ndata = nil\nimportBackup = nil\nnextObjectForManualImport = nil\n\n-- code\n\n-- START OF CONVERTING CODE\nfunction exportObject(object)\n    local fields = {\n        guid = object.getGUID(),\n        name = object.getName(),\n        description = object.getDescription()\n    }\n    return fields\nend\n\nfunction importObject(object, fields)\n    object.setName(fields.name)\n    object.setDescription(fields.description)\nend\n-- END OF CONVERTING CODE\n\nfunction onSave()\n    local persistence = {\n        config = config\n    }\n    local json = JSON.encode(persistence)\n    return json\nend\n\nfunction onLoad(savedState)\n    if savedState ~= nil and savedState ~= \"\" then\n        local persistence = JSON.decode(savedState)\n        applyConfig(persistence.config, true)\n    else\n        config = clone(defaultConfig)\n    end\n\n    updateForBackwardCompatibility()\n\n    createButtons()\n    syncTabs()\n\n    -- on load always force write config to tab\n    writeConfigToTab(getTabByName(configTabName))\n\n    self.setName('JsonTool')\n    self.setDescription('\\z\n        JsonTool is a tool for exporting and importing information about \\z\n        in-game objects in JSON-format. JsonTool works with Notebook tabs \\z\n        for all actions. All needed tabs would created automatically. \\z\n        Exporting and importing processes use tab \"' .. dataTabName .. '\" for \\z\n        saving or getting information in JSON-format. Before every exporting \\z\n        and importing JsonTool would save backup to tabs with prefix \\z\n        \"' .. exportBackupTabNamePrefix .. '\" and \\z\n        \"' .. importBackupTabNamePrefix .. '\". Tool configuration is saved in \\z\n        tab \"' .. configTabName .. '\". This tab would be read before every \\z\n        importing and exporting process. JsonTool print information about a \\z\n        current process into a Chat window. \\z\n        \\n\\nSee more information at Workshop or GitHub page. \\z\n        \\n\\nVersion ' .. version .. '. \\n\\n' .. url)\n    self.setColorTint(mainColor)\nend\n\nfunction updateForBackwardCompatibility()\n    -- insert new config options if need\n    for option, defaultValue in pairs(defaultConfig) do\n        if (config[option] == nil) then\n            config[option] = defaultValue\n        end\n    end\nend\n\n-- START OF TABS CODE\nfunction syncTabs()\n    local configTab = getTabByName(configTabName)\n    if (configTab == nil) then\n        addNotebookTab({\n            title = configTabName,\n            body  = '',\n            color = tabsColor\n        })\n        configTab = getTabByName(configTabName)\n        writeConfigToTab(configTab)\n    else\n        if (readConfigFromTab(configTab) == true) then\n            writeConfigToTab(configTab)\n        end\n    end\n\n    local dataTab = getTabByName(dataTabName)\n    if (dataTab == nil) then\n        addNotebookTab({\n            title = dataTabName,\n            body  = '',\n            color = tabsColor\n        })\n        dataTab = getTabByName(dataTabName)\n        writeDataToTab(dataTab, {})\n    end\nend\n\nfunction getTabByName(tabName)\n    local tabs = getNotebookTabs()\n    for index, tab in pairs(tabs) do\n        if tab.title == tabName then\n            return tab\n        end\n    end\n    return nil\nend\n\nfunction readConfigFromTab(configTab)\n    if (configTab == nil) then\n        return false\n    end\n    local tabContent = configTab.body\n    if (tabContent == nil) then\n        return false\n    end\n    local userConfig = JSON.decode(tabContent)\n    return applyConfig(userConfig, false)\nend\n\nfunction applyConfig(newConfig, allowIncorrectConfig)\n    local correctConfig = true\n    local tmpConfig = {}\n    for option, defaultValue in pairs(defaultConfig) do\n        local newValue = nil\n        if (newConfig != nil) then\n            newValue = newConfig[option]\n        end\n        if (newValue == nil) then\n            correctConfig = false\n            tmpConfig[option] = defaultValue\n        else\n            tmpConfig[option] = newValue\n        end\n    end\n    if (correctConfig == true or allowIncorrectConfig) then\n        config = tmpConfig\n        return true\n    else\n        return false\n    end\nend\n\nfunction writeConfigToTab(configTab)\n    local tabContent = JSON.encode_pretty(config)\n    editNotebookTab({\n        index = configTab.index,\n        title = configTabName,\n        body  = tabContent,\n        color = tabsColor\n    })\nend\n\nfunction readDataFromTab(dataTab)\n    if (dataTab == nil) then\n        return nil\n    end\n    local tabContent = dataTab.body\n    if (tabContent == nil) then\n        return false\n    end\n    local data = JSON.decode(tabContent)\n    return data\nend\n\nfunction writeDataToTab(dataTab, data)\n    local tabContent = JSON.encode_pretty(data)\n    editNotebookTab({\n        index = dataTab.index,\n        title = dataTabName,\n        body  = tabContent,\n        color = tabsColor\n    })\nend\n-- END OF TABS CODE\n\n-- START OF EXPORTING CODE\nfunction exportData()\n    if (async.inProcess == true) then\n        print('WARN: async task already started')\n        return\n    end\n    print('Start exporting...')\n\n    syncTabs()\n\n    if (config.createExportBackups == true) then\n        local dataTab = getTabByName(dataTabName)\n        local tabName = createTabBackup(dataTab, exportBackupTabNamePrefix)\n        print('Data backuped to tab \"' .. tabName .. '\".')\n    else\n        print('Backup is disabled.')\n    end\n\n    asyncExportStart()\nend\n\nfunction asyncExportStart()\n    print('Export started.')\n    data = {}\n\n    asyncStart(exportObjectToDataAuto, exportObjectToDataManual, asyncExportStop)\nend\n\nfunction asyncExportStop(count)\n    local dataTab = getTabByName(dataTabName)\n    writeDataToTab(dataTab, data)\n    print(count .. ' in-game objects exported.')\n\n    self.editButton({\n        index          = 0,\n        label          = exportButtonLabel,\n        tooltip        = exportButtonTooltip\n    })\n\n    data = nil\n    print('Export done.')\nend\n\nfunction createTabBackup(tab, tabNamePrefix)\n    local tabName = tabNamePrefix .. '_' .. os.date('%Y-%m-%d_%H:%M:%S')\n    addNotebookTab({\n        title = tabName,\n        body  = tab.body,\n        color = tabsColor\n    })\n    return tabName\nend\n\nfunction exportObjectToDataAuto(object)\n    if\n        isNeedExportByGuid(object.guid, data)\n        and isNeedExportByObject(object, data)\n    then\n        return exportObjectToData(object)\n    end\n    return false\nend\n\nfunction updateExportStatus()\n    local percent = string.format('%.1f %%', async.progress * 100)\n    self.editButton({\n        index          = 0,\n        label          = percent,\n        tooltip        = async.progressCount\n    })\nend\n\nfunction exportObjectToData(object)\n    updateExportStatus()\n    data[object.getGUID()] = exportObject(object)\n    return true\nend\n\nfunction exportObjectToDataManual(object)\n    if (object == nil) then\n        return false\n    end\n    if (self.guid == object.guid) then\n        print('Skipping export of this object. Pick up next object or press Stop button...')\n        return false\n    end\n    local result = data[object.guid] == nil\n    exportObjectToData(object)\n    print('Exported: ' .. object.guid .. ' \"' .. object.getName() .. '\". Pick up next object or press Stop button...')\n    return result\nend\n\nfunction isNeedExportByGuid(guid, data)\n    -- self\n    if (guid == self.guid) then\n        return false\n    end\n    -- already processed\n    if (data[guid] ~= nil) then\n        return false\n    end\n    return isNeedProcessByGuid(guid)\nend\n\nfunction isNeedExportByObject(object, data)\n    -- empty values\n    local name = object.getName()\n    local description = object.getDescription()\n    if\n        config.exportEmptyData == false\n        and isEmpty(name) == true\n        and isEmpty(description) == true\n    then\n        return false\n    end\n    return true\nend\n-- END OF EXPORTING CODE\n\n-- START OF IMPORTING CODE\nfunction importDataToObjectAuto(object)\n    if\n        isNeedImportByGuid(object.guid, data)\n        and isNeedImportByObject(object, data)\n    then\n        updateImportStatus()\n\n        local guid = object.getGUID()\n        local fields = data[guid]\n        if (fields == nil) then\n            return false\n        end\n        if (fields.guid ~= guid) then\n            print('WARN: object guid ' .. guid .. ' and data guid ' .. fields.guid .. ' not equals')\n        end\n        -- backup import\n        importBackup[guid] = exportObject(object)\n        -- write data\n        importObject(object, fields)\n        return true\n    end\n    return false\nend\n\nfunction updateImportStatus()\n    local percent = string.format('%.1f %%', async.progress * 100)\n    self.editButton({\n        index          = 1,\n        label          = percent,\n        tooltip        = async.progressCount\n    })\nend\n\nfunction importDataToObjectManual(object)\n    local result = false\n    -- importing\n    if (nextObjectForManualImport ~= nil and object ~= nil) then\n        updateImportStatus()\n\n        if (self.guid == object.guid) then\n            -- mark as skipped\n            if (importBackup[nextObjectForManualImport.guid] == nil) then\n                importBackup[nextObjectForManualImport.guid] = {\n                    guid = '[SKIPPED]'\n                }\n            end\n\n            print('Skipping import of this data')\n            result = false\n        else\n            -- backup import\n            if (importBackup[nextObjectForManualImport.guid] == nil) then\n                importBackup[nextObjectForManualImport.guid] = exportObject(object)\n            end\n\n            if (nextObjectForManualImport.guid ~= object.guid) then\n                print('WARN: object guid ' .. object.guid .. ' and data guid ' .. nextObjectForManualImport.guid .. ' not equals')\n            end\n\n            -- write data\n            importObject(object, nextObjectForManualImport)\n\n            print('Imported to: ' .. object.guid)\n            result = true\n        end\n    end\n\n    findNextObjectForImport()\n    return result\nend\n\nfunction findNextObjectForImport()\n    nextObjectForManualImport = nil\n    for index, dataObject in pairs(data) do\n        if (importBackup[dataObject.guid] == nil) then\n            if (nextObjectForManualImport == nil) then\n                nextObjectForManualImport = dataObject\n            else\n                -- find minimal object by field 'name'\n                if (compareObjects(dataObject, nextObjectForManualImport) < 0) then\n                    nextObjectForManualImport = dataObject\n                end\n            end\n        end\n    end\n    if (nextObjectForManualImport != nil) then\n        print('Pick up object for importing this data (pick up JsonTool for skip), or press Stop button:\\n' .. JSON.encode_pretty(nextObjectForManualImport))\n    else\n        print('All data already manually processed, you can stop importing')\n    end\nend\n\nfunction isNeedImportByGuid(guid, data)\n    -- self\n    if (guid == self.guid) then\n        return false\n    end\n    if (data[guid] == nil) then\n        return false\n    end\n    return isNeedProcessByGuid(guid)\nend\n\nfunction isNeedImportByObject(object, data)\n    return true\nend\n\nfunction importData()\n    if (async.inProcess == true) then\n        print('WARN: async task already started')\n        return\n    end\n    print('Start importing...')\n\n    syncTabs()\n    local dataTab = getTabByName(dataTabName)\n    local parsedData = readDataFromTab(dataTab)\n\n    asyncImportStart(parsedData)\nend\n\nfunction asyncImportStart(parsedData)\n    print('Import started.')\n    data = parsedData\n    importBackup = {}\n    nextObjectForManualImport = nil\n\n    asyncStart(importDataToObjectAuto, importDataToObjectManual, asyncImportStop)\nend\n\nfunction asyncImportStop(count)\n    if (config.createImportBackups == true) then\n        local tabName = createImportBackupTab(importBackup, importBackupTabNamePrefix)\n        print('Data backuped to tab \"' .. tabName .. '\".')\n    else\n        print('Backup is disabled.')\n    end\n\n    print(count .. ' in-game objects imported.')\n\n    self.editButton({\n        index          = 1,\n        label          = importButtonLabel,\n        tooltip        = importButtonTooltip\n    })\n\n    data = nil\n    importBackup = nil\n    nextObjectForManualImport = nil\n    print('Import done.')\nend\n\nfunction createImportBackupTab(backup, tabNamePrefix)\n    local tabName = tabNamePrefix .. '_' .. os.date('%Y-%m-%d_%H:%M:%S')\n    local content = JSON.encode_pretty(backup)\n    addNotebookTab({\n        title = tabName,\n        body  = content,\n        color = tabsColor\n    })\n    return tabName\nend\n-- END OF IMPORTING CODE\n\nfunction compareObjects(object1, object2)\n    local fields = {'name', 'description', 'guid'}\n    for index, fieldName in pairs(fields) do\n        if (object1[fieldName] == nil and object2[fieldName] ~= nil) then\n            return -1\n        end\n        if (object1[fieldName] ~= nil and object2[fieldName] == nil) then\n            return 1\n        end\n        if (object1[fieldName] ~= nil and object2[fieldName] ~= nil) then\n            if (object1[fieldName] < object2[fieldName]) then\n                return -1\n            end\n            if (object1[fieldName] > object2[fieldName]) then\n                return 1\n            end\n        end\n    end\n    return 0\nend\n\nfunction isEmpty(str)\n    if str == nil then\n        return true\n    end\n    if string.len(str) == 0 then\n        return true\n    end\n    return false\nend\n\nfunction length(table)\n    local count = 0\n    for _ in pairs(table) do\n        count = count + 1\n    end\n    return count\nend\n\nfunction clone (t)\n    if type(t) ~= \"table\" then\n        return t\n    end\n    local meta = getmetatable(t)\n    local target = {}\n    for k, v in pairs(t) do\n        if type(v) == \"table\" then\n            target[k] = clone(v)\n        else\n            target[k] = v\n        end\n    end\n    setmetatable(target, meta)\n    return target\nend\n\n-- START OF ASYNC CODE\nasync = {\n    inProcess = false,\n    mode = nil,\n    processedGuids = nil,\n    stack = nil,\n    stackContentByGuid = nil,\n    maxStackLength = 0,\n    progress = 0,\n    progressCount = nil,\n    objectProcessorAuto = nil,\n    objectProcessorManual = nil,\n    finishListener = nil,\n    count = 0\n}\n\nfunction isNeedProcessByGuid(guid)\n    if (config.excludeGuids[guid] == true) then\n        return false\n    end\n    if (length(config.includeGuids) > 0) then\n        if (config.includeGuids[guid] == true) then\n            return true\n        end\n        return false\n    end\n    return true\nend\n\nfunction onObjectPickedUp(playerColor, object)\n    if (async.inProcess == true and async.mode == 'manual') then\n        asyncPush({\n            guid = object.guid,\n            containerGuid = nil\n        })\n        startLuaCoroutine(self, 'asyncNextManual')\n    end\nend\n\nfunction asyncStart(objectProcessorAuto, objectProcessorManual, asyncFinishListener)\n    if (async.inProcess == true) then\n        print('WARN: async task already started')\n        return\n    end\n    self.setColorTint(processColor)\n    async.inProcess = true\n    async.processed = {}\n    async.stack = {}\n    async.stackContentByGuid = {}\n    async.maxStackLength = 0\n    async.progress = 0\n    async.progressCount = ''\n    async.objectProcessorAuto = objectProcessorAuto\n    async.objectProcessorManual = objectProcessorManual\n    async.finishListener = asyncFinishListener\n    async.count = 0\n\n    if (config.mode.auto == true) then\n        async.mode = 'auto'\n        print('Auto processing started...')\n        local allObjects = getAllObjects()\n        for index, object in pairs(allObjects) do\n            asyncPush({\n                guid = object.guid,\n                containerGuid = nil\n            })\n        end\n        startLuaCoroutine(self, 'asyncNextAuto')\n    elseif (config.mode.manual == true) then\n        async.mode = 'manual'\n        print('Manual processing started: pick up object for continue or press Stop button...')\n        -- first time call processor with nil argument\n        async.objectProcessorManual(nil)\n    else\n        asyncStop()\n    end\nend\n\nfunction asyncStop()\n    if (async.mode == 'auto') then\n        print('Auto processing done.')\n        if (config.mode.manual == true) then\n            async.mode = 'manual'\n            print('Manual processing started: pick up object for continue or press Stop button...')\n            -- first time call processor with nil argument\n            async.objectProcessorManual(nil)\n            return\n        end\n    elseif (async.mode == 'manual') then\n        print('Manual processing done.')\n    end\n\n    local asyncFinishListener = async.finishListener\n    local count = async.count\n\n    async.inProcess = false\n    async.mode = nil\n    async.processed = nil\n    async.stack = nil\n    async.stackContentByGuid = nil\n    async.maxStackLength = 0\n    async.progress = 0\n    async.progressCount = nil\n    async.objectProcessorAuto = nil\n    async.objectProcessorManual = nil\n    async.finishListener = nil\n    async.count = 0\n\n    if (asyncFinishListener) then\n        asyncFinishListener(count)\n    end\n\n    self.setColorTint(mainColor)\nend\n\nfunction asyncPush(objInfo)\n    if (async.stackContentByGuid[objInfo.guid] ~= nil) then\n        print('Detected duplicated object in processing queue: ' .. objInfo.guid)\n        if (config.processDuplicates == false) then\n            return\n        end\n    end\n    table.insert(async.stack, objInfo)\n    async.stackContentByGuid[objInfo.guid] = objInfo\n    local len = length(async.stack)\n    if (len > async.maxStackLength) then\n        async.maxStackLength = len\n    end\n    if (async.maxStackLength > 0) then\n        async.progress = 1 - len / async.maxStackLength\n        async.progressCount = string.format('%d/%d', async.maxStackLength - len, async.maxStackLength)\n    else\n        async.progress = 0\n        async.progressCount = ''\n    end\nend\n\nfunction asyncPop()\n    local len = length(async.stack)\n    local next = nil\n    if (len > 0) then\n        next = table.remove(async.stack)\n        async.stackContentByGuid[next.guid] = nil\n    end\n    if (async.maxStackLength > 0) then\n        async.progress = 1 - len / async.maxStackLength\n        async.progressCount = string.format('%d/%d', async.maxStackLength - len, async.maxStackLength)\n    else\n        async.progress = 0\n        async.progressCount = ''\n    end\n    return next\nend\n\nfunction asyncPeek()\n    local len = length(async.stack)\n    local next = nil\n    if (len > 0) then\n        next = table.remove(async.stack)\n        table.insert(async.stack, next)\n    end\n    return next\nend\n\nfunction asyncNextManual()\n    if (async.inProcess == false) then\n        asyncStop()\n        return 1\n    end\n    if (async.mode ~= 'manual') then\n        return 1\n    end\n    local objectInfo = asyncPop()\n    if (objectInfo == nil) then\n        return 1\n    end\n\n    local object = getObjectFromGUID(objectInfo.guid)\n    if (object == nil) then\n        return 1\n    end\n    if async.objectProcessorManual(object) then\n        async.count = async.count + 1\n    end\n    async.processed[object.guid] = true\n    return 1\nend\n\nfunction asyncNextAuto()\n    if (async.inProcess == false) then\n        asyncStop()\n        return 1\n    end\n    if (async.mode ~= 'auto') then\n        return 1\n    end\n    local objectInfo = nil\n    repeat\n        objectInfo = asyncPop()\n        if (objectInfo == nil) then\n            asyncStop()\n            return 1\n        end\n    until (isNeedProcessByGuid(objectInfo.guid) == true)\n    local object = getObjectFromGUID(objectInfo.guid)\n    if (config.processContainers == true and object == nil) then\n        takeFromContainer(objectInfo)\n        return 1\n    end\n    -- object loaded\n    local stackChanged = false\n    if (async.processed[object.guid] == nil) then\n        -- not processed\n        if async.objectProcessorAuto(object) then\n            async.count = async.count + 1\n        end\n        async.processed[object.guid] = true\n        if (config.processContainers == true) then\n            stackChanged = pushNested(object, objectInfo) > 0\n        end\n    end\n    if (\n        config.processContainers == true\n        and stackChanged == false\n        and objectInfo.containerGuid ~= nil\n    ) then\n        putToContainer(object, objectInfo)\n    else\n        startLuaCoroutine(self, 'asyncNextAuto')\n    end\n    return 1\nend\n\nfunction takeFromContainer(objectInfo)\n    if (objectInfo.containerGuid == nil) then\n        print('Trying to take object ' .. objectInfo.guid .. ' from unexisted container')\n        startLuaCoroutine(self, 'asyncNextAuto')\n        return\n    end\n    asyncPush(objectInfo)\n    local container = getObjectFromGUID(objectInfo.containerGuid)\n    local position = container.positionToWorld(config.takeRelativePosition)\n    container.takeObject({\n        callback       = 'takedFromContainer',\n        callback_owner = self,\n        guid           = objectInfo.guid,\n        position       = position,\n        take_from_top  = true\n    })\n    wait(config.takeErrorTimeoutSeconds, function(takedGuid)\n        if (async.inProcess == false) then\n            return\n        end\n        local headInfo = asyncPeek()\n        if (headInfo ~= nil and headInfo.guid == takedGuid) then\n            if (async.processed[takedGuid] == nil) then\n                print('Detected unworked take of object ' .. takedGuid .. ', trying to take again')\n                startLuaCoroutine(self, 'asyncNextAuto')\n            end\n        end\n    end, objectInfo.guid)\nend\n\nfunction takedFromContainer(object)\n    startLuaCoroutine(self, 'asyncNextAuto')\nend\n\nfunction putToContainer(object, objectInfo)\n    if (objectInfo.type == 'Deck') then\n        putToDeck(object, objectInfo)\n    else\n        local container = getObjectFromGUID(objectInfo.containerGuid)\n        container.putObject(object)\n        startLuaCoroutine(self, 'asyncNextAuto')\n    end\nend\n\nfunction putToDeck(object, objectInfo)\n    local deckInfo = objectInfo.deckInfo\n    if (deckInfo.doubleSize == true) then\n        putToDoubleSizeDeck(object, objectInfo)\n    else\n        local container = getObjectFromGUID(objectInfo.containerGuid)\n        container.putObject(object)\n        startLuaCoroutine(self, 'asyncNextAuto')\n    end\nend\n\nfunction putToDoubleSizeDeck(object, objectInfo)\n    local deckInfo = objectInfo.deckInfo\n    if (object.guid == deckInfo.element1Guid) then\n        -- second time taked object\n        object = getObjectFromGUID(deckInfo.element2Guid)\n        objectInfo.containerGuid = deckInfo.element1Guid\n        local container = getObjectFromGUID(objectInfo.containerGuid)\n        container.putObject(object)\n        waitObjectReplaced(container, 5, function(newObject)\n            local containerInfo = asyncPeek()\n            if (newObject ~= nil) then\n                containerInfo.guid = newObject.guid\n                containerInfo.deckInfo.deckGuid = newObject.guid\n                async.processed[newObject.guid] = true\n            else\n                print('Waiting of replacing of object ' .. containerInfo.guid .. ' is failed.')\n            end\n            startLuaCoroutine(self, 'asyncNextAuto')\n        end)\n    elseif (object.guid == deckInfo.element2Guid) then\n        -- first time taked object\n        startLuaCoroutine(self, 'asyncNextAuto')\n    end\nend\n\nfunction waitObjectReplaced(object, timeout, callback)\n    local guid = object.guid\n    local position = vectorToTable(object.getPosition())\n    local rotation = vectorToTable(object.getRotation())\n    waitCondition(\n        conditionOr(\n            conditionObjectReplaced(guid, position, rotation),\n            conditionTime(timeout)\n        ), function(guid, position, rotation, callback)\n            local newObject = findObject(position, rotation)\n            if (newObject != nil and newObject.guid == object.guid) then\n                newObject = nil\n            end\n            callback(newObject)\n        end, guid, position, rotation, callback\n    )\nend\n\nfunction conditionObjectReplaced(guid, position, rotation)\n    function conditionObjectReplacedInstance()\n        local obj = findObject(position, rotation)\n        local objReplaced = obj ~= nil and obj.guid ~= guid\n        return objReplaced\n    end\n    return conditionObjectReplacedInstance\nend\n\nfunction findObject(position, rotation)\n    local allObjects = getAllObjects()\n    for index, object in pairs(allObjects) do\n        local objPosition = object.getPosition()\n        local objRotation = object.getRotation()\n        if (\n            equalsVectors(position, objPosition)\n            -- and equalsVectors(rotation, objRotation)\n        ) then\n            return object\n        end\n    end\n    return nil\nend\n\nfunction vectorToTable(v)\n    return {\n        x = v.x,\n        y = v.y,\n        z = v.z\n    }\nend\n\nfunction equalsVectors(v1, v2)\n    if (v1.x == v2.x and v1.y == v2.y and v1.z == v2.z) then\n        return true\n    end\n    return false\nend\n\nfunction getContainerObjects(container)\n    local realNested = {}\n    local ttsNested = container.getObjects()\n    for index, objDesc in pairs(ttsNested) do\n        if (getObjectFromGUID(objDesc.guid) != nil) then\n            print('Detected getObjects() API error: ' .. objDesc.guid .. ' is not contained in ' .. container.getGUID())\n        else\n            table.insert(realNested, objDesc)\n        end\n    end\n    return realNested\nend\n\nfunction pushNested(object, objectInfo)\n    local nestedGuids = {}\n    if (object.tag == 'Bag') then\n        local nestedObjectsDescs = getContainerObjects(object)\n        for index, nestedObjectDesc in pairs(nestedObjectsDescs) do\n            if (isNeedProcessByGuid(nestedObjectDesc.guid)) then\n                table.insert(nestedGuids, {\n                    type = object.tag,\n                    guid = nestedObjectDesc.guid\n                })\n            end\n        end\n    elseif (object.tag == 'Deck') then\n        local nestedObjectsDescs = getContainerObjects(object)\n        local deckInfo = {\n            deckGuid = object.guid,\n            length = length(nestedObjectsDescs),\n        }\n        if deckInfo.length == 2 then\n            deckInfo['doubleSize'] = true\n            deckInfo['element1Guid'] = nestedObjectsDescs[1].guid\n            deckInfo['element2Guid'] = nestedObjectsDescs[2].guid\n        end\n        for index, nestedObjectDesc in pairs(nestedObjectsDescs) do\n            if (isNeedProcessByGuid(nestedObjectDesc.guid)) then\n                table.insert(nestedGuids, {\n                    type = object.tag,\n                    guid = nestedObjectDesc.guid,\n                    deckInfo = deckInfo\n                })\n            end\n        end\n        objectInfo['deckInfo'] = deckInfo\n    end\n    local pushSize = length(nestedGuids)\n    if (pushSize > 0) then\n        asyncPush(objectInfo)\n        for index, nestedInfo in pairs(nestedGuids) do\n            local nextInfo = {\n                guid = nestedInfo.guid,\n                containerGuid = object.guid\n            }\n            for field, value in pairs(nestedInfo) do\n                nextInfo[field] = value\n            end\n            asyncPush(nextInfo)\n        end\n    end\n    return pushSize\nend\n-- END OF ASYNC CODE\n\n-- START OF WAIT CODE\nfunction waitCondition(condition, callback, ...)\n    local params = {...}\n    function waitConditionCoroutine()\n        repeat\n            coroutine.yield(0)\n        until (condition(unpack(params)) == true)\n        callback(unpack(params))\n        return 1\n    end\n    startLuaCoroutine(self, 'waitConditionCoroutine')\nend\n\nfunction conditionOr(...)\n    local conditions = {...}\n    function conditionOrInstance()\n        for index, condition in pairs(conditions) do\n            if (condition()) then\n                return true\n            end\n        end\n        return false\n    end\n    return conditionOrInstance\nend\n\nfunction conditionTime(seconds)\n    local awaitSeconds = os.clock() + seconds\n    function conditionTimeInstance()\n        return os.clock() >= awaitSeconds\n    end\n    return conditionTimeInstance\nend\n\nfunction wait(seconds, callback, ...)\n    local params = {...}\n    waitCondition(conditionTime(seconds), function(params)\n        callback(unpack(params))\n    end, params)\nend\n-- END OF WAIT CODE\n\n-- INPUTS\nfunction createButtons()\n    self.createButton({\n        click_function = 'exportData',\n        function_owner = self,\n        label          = exportButtonLabel,\n        position       = {0.3, 0.5, 0.3},\n        rotation       = {0, 180, 0},\n        -- scale          = -- Vector,\n        width          = 150,\n        height         = 100,\n        font_size      = 40,\n        color          = defaultButtonColor,\n        -- font_color     = -- Color,\n        tooltip        = exportButtonTooltip,\n    })\n    self.createButton({\n        click_function = 'importData',\n        function_owner = self,\n        label          = importButtonLabel,\n        position       = {0.3, 0.5, 0},\n        rotation       = {0, 180, 0},\n        -- scale          = -- Vector,\n        width          = 150,\n        height         = 100,\n        font_size      = 40,\n        color          = defaultButtonColor,\n        -- font_color     = -- Color,\n        tooltip        = importButtonTooltip,\n    })\n    self.createButton({\n        click_function = 'asyncStop',\n        function_owner = self,\n        label          = 'Stop',\n        position       = {0, 0.5, 0.3},\n        rotation       = {0, 180, 0},\n        -- scale          = -- Vector,\n        width          = 150,\n        height         = 100,\n        font_size      = 40,\n        color          = defaultButtonColor,\n        -- font_color     = -- Color,\n        tooltip        = 'Stop process of export or import',\n    })\nend\n",
+      "LuaScriptState": "{\"config\":{\"createExportBackups\":true,\"createImportBackups\":true,\"excludeGuids\":[],\"exportEmptyData\":false,\"includeGuids\":[],\"mode\":{\"auto\":true,\"manual\":false},\"processContainers\":false,\"processDuplicates\":false,\"takeErrorTimeoutSeconds\":10,\"takeRelativePosition\":[2,0,2]}}",
+      "GUID": "dd02c6"
+    }
+  ],
+  "DecalPallet": [],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    },
+    "12": {
+      "title": "json.conf",
+      "body": "{\n  \"createExportBackups\": true,\n  \"createImportBackups\": true,\n  \"excludeGuids\": [],\n  \"exportEmptyData\": false,\n  \"includeGuids\": [],\n  \"mode\": {\n    \"auto\": true,\n    \"manual\": false\n  },\n  \"processContainers\": false,\n  \"processDuplicates\": false,\n  \"takeErrorTimeoutSeconds\": 10,\n  \"takeRelativePosition\": [ 2, 0, 2 ]\n}",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 12
+    },
+    "13": {
+      "title": "json.data",
+      "body": "[]",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 13
+    }
+  },
+  "VersionNumber": "v10.4"
+}

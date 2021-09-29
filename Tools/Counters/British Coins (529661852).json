@@ -1,0 +1,595 @@
+{
+  "SaveName": "British Coins",
+  "GameMode": "British Coins",
+  "Date": "12/20/2015 3:21:07 PM",
+  "Table": "Table_Hexagon",
+  "Sky": "Sky_Downtown",
+  "Note": "",
+  "Rules": "",
+  "PlayerTurn": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 0.5,
+    "ySize": 0.5,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hidding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -13.6426916,
+          "posY": 3.57056117,
+          "posZ": -7.48816442,
+          "rotX": -9.07900449E-06,
+          "rotY": 60.0000153,
+          "rotZ": -1.47653564E-05,
+          "scaleX": 10.2680626,
+          "scaleY": 6.63386965,
+          "scaleZ": 4.893244
+        },
+        "GameMaster": false
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -13.31658,
+          "posY": 3.570564,
+          "posZ": 8.30218,
+          "rotX": 7.081395E-06,
+          "rotY": 120.000008,
+          "rotZ": -1.92629923E-05,
+          "scaleX": 10.2680779,
+          "scaleY": 6.63386965,
+          "scaleZ": 4.89323139
+        },
+        "GameMaster": false
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 13.5728321,
+          "posY": 3.57089114,
+          "posZ": 7.749124,
+          "rotX": 9.07900449E-06,
+          "rotY": 240.000015,
+          "rotZ": 1.47653564E-05,
+          "scaleX": 10.2680664,
+          "scaleY": 6.63386965,
+          "scaleZ": 4.893231
+        },
+        "GameMaster": false
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": -0.000217424764,
+          "posY": 3.57083583,
+          "posZ": -15.5334148,
+          "rotX": -1.928543E-05,
+          "rotY": 2.33255241E-06,
+          "rotZ": 2.66749339E-06,
+          "scaleX": 10.2680626,
+          "scaleY": 6.6338706,
+          "scaleZ": 4.89322853
+        },
+        "GameMaster": false
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": 0.00158713781,
+          "posY": 3.57075286,
+          "posZ": 15.5948648,
+          "rotX": 1.928543E-05,
+          "rotY": 180.000031,
+          "rotZ": -2.66748884E-06,
+          "scaleX": 10.2680626,
+          "scaleY": 6.63386965,
+          "scaleZ": 4.89322758
+        },
+        "GameMaster": false
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 13.6820612,
+          "posY": 3.57088637,
+          "posZ": -7.407806,
+          "rotX": -5.37384267E-06,
+          "rotY": 300.0,
+          "rotZ": 1.75554469E-05,
+          "scaleX": 10.26806,
+          "scaleY": 6.63386965,
+          "scaleZ": 4.893226
+        },
+        "GameMaster": false
+      }
+    ]
+  },
+  "DrawImage": "iVBORw0KGgoAAAANSUhEUgAAAWAAAADQCAYAAAA53LuNAAAFFElEQVR4Ae3QgQAAAADDoPlTH+SFUGHAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgy8DQx5DAABHyNK3wAAAABJRU5ErkJggg==",
+  "VectorLines": [],
+  "ObjectStates": [
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -1.29389226,
+        "posY": 1.04401183,
+        "posZ": 2.45880914,
+        "rotX": -1.717492E-05,
+        "rotY": 59.99153,
+        "rotZ": 180.0,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921617,
+        "b": 0.9999999
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/0ki1d66f2p1yzwr/coin.obj?dl=1",
+        "DiffuseURL": "https://www.dropbox.com/s/wilsv0aq71xvu8b/coin.png?dl=1",
+        "NormalURL": "https://www.dropbox.com/s/xymxla0pijw20k4/coin_normal.png?dl=1",
+        "ColliderURL": "https://www.dropbox.com/s/0ki1d66f2p1yzwr/coin.obj?dl=1",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 3,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.7372549,
+            "g": 0.7372549,
+            "b": 0.7372549
+          },
+          "SpecularIntensity": 0.9,
+          "SpecularSharpness": 8.0,
+          "FresnelStrength": 0.0
+        }
+      },
+      "GUID": "822ba7"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -1.99811077,
+        "posY": 1.03728414,
+        "posZ": 3.65379071,
+        "rotX": 3.177065E-05,
+        "rotY": 60.0126877,
+        "rotZ": 180.0,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921621,
+        "b": 0.9999999
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/9nbcdxnrfipof0g/coin.obj?dl=1",
+        "DiffuseURL": "https://www.dropbox.com/s/iywebsye4dcrfwm/coin.png?dl=1",
+        "NormalURL": "https://www.dropbox.com/s/5je5xt7yfnee9n1/coin_normal.png?dl=1",
+        "ColliderURL": "https://www.dropbox.com/s/9nbcdxnrfipof0g/coin.obj?dl=1",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 3,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.7372549,
+            "g": 0.7372549,
+            "b": 0.7372549
+          },
+          "SpecularIntensity": 0.9,
+          "SpecularSharpness": 8.0,
+          "FresnelStrength": 0.0
+        }
+      },
+      "GUID": "770d09"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -0.62608397,
+        "posY": 0.9955551,
+        "posZ": 1.1976006,
+        "rotX": 7.052705E-06,
+        "rotY": 269.993256,
+        "rotZ": 180.000015,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.99216187,
+        "b": 0.9999999
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/z7i5k1xwktbwuns/coin.obj?dl=1",
+        "DiffuseURL": "https://www.dropbox.com/s/kje4u9hkia9llef/coin.png?dl=1",
+        "NormalURL": "https://www.dropbox.com/s/uw7ygm4eceluuno/coin_betternormal.png?dl=1",
+        "ColliderURL": "https://www.dropbox.com/s/z7i5k1xwktbwuns/coin.obj?dl=1",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 3,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.7372549,
+            "g": 0.7372549,
+            "b": 0.7372549
+          },
+          "SpecularIntensity": 0.9,
+          "SpecularSharpness": 8.0,
+          "FresnelStrength": 0.0
+        }
+      },
+      "GUID": "2c2404"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 1.13552,
+        "posY": 0.998751462,
+        "posZ": -2.20085025,
+        "rotX": 2.52568989E-05,
+        "rotY": 59.9813423,
+        "rotZ": 180.000015,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.99216187,
+        "b": 0.9999999
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/95jye91pk5lura6/coin.obj?dl=1",
+        "DiffuseURL": "https://www.dropbox.com/s/gn1aucz52lu4lru/coin.png?dl=1",
+        "NormalURL": "https://www.dropbox.com/s/52op7zwbclmci96/coin_betternormal.png?dl=1",
+        "ColliderURL": "https://www.dropbox.com/s/95jye91pk5lura6/coin.obj?dl=1",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 3,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.7372549,
+            "g": 0.7372549,
+            "b": 0.7372549
+          },
+          "SpecularIntensity": 0.9,
+          "SpecularSharpness": 8.0,
+          "FresnelStrength": 0.0
+        }
+      },
+      "GUID": "10b6c4"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.557892442,
+        "posY": 0.99506557,
+        "posZ": -1.25977826,
+        "rotX": 6.160676E-05,
+        "rotY": 60.01721,
+        "rotZ": 180.000015,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992164135,
+        "b": 0.9999999
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/0qx9anm6dmfwsk3/coin.obj?dl=1",
+        "DiffuseURL": "https://www.dropbox.com/s/zosyetzzms7x1lp/coin.png?dl=1",
+        "NormalURL": "https://www.dropbox.com/s/m2a7okzq8tv77cp/coin_betternormal.png?dl=1",
+        "ColliderURL": "https://www.dropbox.com/s/0qx9anm6dmfwsk3/coin.obj?dl=1",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 3,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.7372549,
+            "g": 0.7372549,
+            "b": 0.7372549
+          },
+          "SpecularIntensity": 0.9,
+          "SpecularSharpness": 8.0,
+          "FresnelStrength": 0.0
+        }
+      },
+      "GUID": "70d314"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -0.03781346,
+        "posY": 0.983981967,
+        "posZ": -0.0472024456,
+        "rotX": 1.226233E-05,
+        "rotY": 269.979675,
+        "rotZ": 180.0,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921616,
+        "b": 0.9999999
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/9xzuah2d7vmyxic/coin.obj?dl=1",
+        "DiffuseURL": "https://www.dropbox.com/s/yb3p4s31ifsqfcd/coin.png?dl=1",
+        "NormalURL": "https://www.dropbox.com/s/f8zwq66m9e93zvl/coin_betternormal.png?dl=1",
+        "ColliderURL": "https://www.dropbox.com/s/9xzuah2d7vmyxic/coin.obj?dl=1",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 3,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.7372549,
+            "g": 0.7372549,
+            "b": 0.7372549
+          },
+          "SpecularIntensity": 0.9,
+          "SpecularSharpness": 8.0,
+          "FresnelStrength": 0.0
+        }
+      },
+      "GUID": "ebeeef"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 1.57066131,
+        "posY": 1.02390218,
+        "posZ": -3.32810235,
+        "rotX": 5.52896272E-05,
+        "rotY": 59.8041534,
+        "rotZ": 180.000015,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.99216336,
+        "b": 0.9999999
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/rxh6l5xivnirxdl/coin.obj?dl=1",
+        "DiffuseURL": "https://www.dropbox.com/s/235f6r1a5mf29js/coin.png?dl=1",
+        "NormalURL": "https://www.dropbox.com/s/ob9jyeryqw6cfte/coin_betternormal.png?dl=1",
+        "ColliderURL": "https://www.dropbox.com/s/rxh6l5xivnirxdl/coin.obj?dl=1",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 3,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.392156869,
+            "g": 0.274509817,
+            "b": 0.156862751
+          },
+          "SpecularIntensity": 0.9,
+          "SpecularSharpness": 8.0,
+          "FresnelStrength": 0.6388889
+        }
+      },
+      "GUID": "dca16a"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 2.172615,
+        "posY": 0.997140467,
+        "posZ": -4.34345675,
+        "rotX": 7.360494E-05,
+        "rotY": 59.9967651,
+        "rotZ": 180.000031,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921636,
+        "b": 0.9999999
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/rkffu0zcxs2m1fy/coin.obj?dl=1",
+        "DiffuseURL": "https://www.dropbox.com/s/qqa4gzfwyrxbenf/coin.png?dl=1",
+        "NormalURL": "https://www.dropbox.com/s/5yplztro5n74fif/coin_betternormal.png?dl=1",
+        "ColliderURL": "https://www.dropbox.com/s/rkffu0zcxs2m1fy/coin.obj?dl=1",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 3,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.392156869,
+            "g": 0.274509817,
+            "b": 0.156862751
+          },
+          "SpecularIntensity": 0.9,
+          "SpecularSharpness": 8.0,
+          "FresnelStrength": 0.642444
+        }
+      },
+      "GUID": "ffac3e"
+    }
+  ],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Red",
+      "body": "",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Orange",
+      "body": "",
+      "visibleColor": {
+        "r": 0.882,
+        "g": 0.517,
+        "b": 0.219
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Yellow",
+      "body": "",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Green",
+      "body": "",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Blue",
+      "body": "",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Purple",
+      "body": "",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Pink",
+      "body": "",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Black",
+      "body": "",
+      "visibleColor": {
+        "r": 0.1,
+        "g": 0.1,
+        "b": 0.1
+      },
+      "id": 9
+    }
+  }
+}

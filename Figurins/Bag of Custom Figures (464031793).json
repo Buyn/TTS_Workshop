@@ -1,0 +1,5179 @@
+{
+  "SaveName": "Bag of Custom Figures",
+  "GameMode": "Piecepack",
+  "Date": "7/9/2015 6:39:23 PM",
+  "Table": "Table_RPG",
+  "Sky": "Sky_Downtown",
+  "Note": "",
+  "Rules": "",
+  "PlayerTurn": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Snapping": false,
+    "Offset": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "yPosition": 0.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hidding": 0
+  },
+  "DrawImage": "iVBORw0KGgoAAAANSUhEUgAAAWAAAADQCAYAAAA53LuNAAAFFElEQVR4Ae3QgQAAAADDoPlTH+SFUGHAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgy8DQx5DAABHyNK3wAAAABJRU5ErkJggg==",
+  "ObjectStates": [
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 0.9061581,
+        "posY": 3.42472482,
+        "posZ": -19.9581165,
+        "rotX": -6.00397868E-07,
+        "rotY": 44.91045,
+        "rotZ": -1.05648553E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Bag of bags",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7059298,
+        "g": 0.366594851,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Bag",
+          "Transform": {
+            "posX": 1.07746553,
+            "posY": 5.48393631,
+            "posZ": -20.1075439,
+            "rotX": 359.430084,
+            "rotY": -0.0023516966,
+            "rotZ": 359.27597,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Bonus",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.705914,
+            "g": 0.3665702,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "ContainedObjects": [
+            {
+              "Name": "Bag",
+              "Transform": {
+                "posX": 3.861579,
+                "posY": 2.76021051,
+                "posZ": 14.9576054,
+                "rotX": 3.059791,
+                "rotY": 1.35785735,
+                "rotZ": 0.471071064,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "fidget (dust an elysian tail)",
+              "Description": "newest shit",
+              "ColorDiffuse": {
+                "r": 0.7059219,
+                "g": 0.366582543,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "MaterialIndex": -1,
+              "MeshIndex": -1,
+              "ContainedObjects": [
+                {
+                  "Name": "Figurine_Custom",
+                  "Transform": {
+                    "posX": -19.856123,
+                    "posY": 3.14566255,
+                    "posZ": 13.862566,
+                    "rotX": 3.72453761,
+                    "rotY": 311.4583,
+                    "rotZ": 359.540771,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "scaleZ": 1.0
+                  },
+                  "Nickname": "",
+                  "Description": "",
+                  "ColorDiffuse": {
+                    "r": 0.0,
+                    "g": 0.0,
+                    "b": 0.0
+                  },
+                  "Grid": true,
+                  "Locked": false,
+                  "CustomImage": {
+                    "ImageURL": "http://i.imgur.com/jU9KMyX.png",
+                    "WidthScale": 0.0
+                  },
+                  "GUID": "a0fbed"
+                },
+                {
+                  "Name": "Figurine_Custom",
+                  "Transform": {
+                    "posX": -18.9683914,
+                    "posY": 3.39584231,
+                    "posZ": 14.9616394,
+                    "rotX": 357.319855,
+                    "rotY": 306.814056,
+                    "rotZ": 39.5089035,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "scaleZ": 1.0
+                  },
+                  "Nickname": "",
+                  "Description": "",
+                  "ColorDiffuse": {
+                    "r": 0.0,
+                    "g": 0.0,
+                    "b": 0.0
+                  },
+                  "Grid": true,
+                  "Locked": false,
+                  "CustomImage": {
+                    "ImageURL": "http://i.imgur.com/1JHcvNM.png",
+                    "WidthScale": 0.0
+                  },
+                  "GUID": "aa1fdf"
+                },
+                {
+                  "Name": "Figurine_Custom",
+                  "Transform": {
+                    "posX": -19.1010132,
+                    "posY": 2.92581129,
+                    "posZ": 13.5517778,
+                    "rotX": 356.990875,
+                    "rotY": 313.4894,
+                    "rotZ": 359.2166,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "scaleZ": 1.0
+                  },
+                  "Nickname": "",
+                  "Description": "",
+                  "ColorDiffuse": {
+                    "r": 0.0,
+                    "g": 0.0,
+                    "b": 0.0
+                  },
+                  "Grid": true,
+                  "Locked": false,
+                  "CustomImage": {
+                    "ImageURL": "http://i.imgur.com/e1CqSde.png",
+                    "WidthScale": 0.0
+                  },
+                  "GUID": "0558a4"
+                },
+                {
+                  "Name": "Figurine_Custom",
+                  "Transform": {
+                    "posX": -20.9396534,
+                    "posY": 3.01213765,
+                    "posZ": 14.7260885,
+                    "rotX": 348.767975,
+                    "rotY": 64.61245,
+                    "rotZ": 359.220245,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "scaleZ": 1.0
+                  },
+                  "Nickname": "",
+                  "Description": "",
+                  "ColorDiffuse": {
+                    "r": 0.0,
+                    "g": 0.0,
+                    "b": 0.0
+                  },
+                  "Grid": true,
+                  "Locked": false,
+                  "CustomImage": {
+                    "ImageURL": "http://i.imgur.com/CmlvINX.png",
+                    "WidthScale": 0.0
+                  },
+                  "GUID": "055389"
+                },
+                {
+                  "Name": "Figurine_Custom",
+                  "Transform": {
+                    "posX": -20.36877,
+                    "posY": 4.558673,
+                    "posZ": 15.5978546,
+                    "rotX": 5.888064,
+                    "rotY": 72.10888,
+                    "rotZ": 268.829376,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "scaleZ": 1.0
+                  },
+                  "Nickname": "",
+                  "Description": "",
+                  "ColorDiffuse": {
+                    "r": 0.0,
+                    "g": 0.0,
+                    "b": 0.0
+                  },
+                  "Grid": true,
+                  "Locked": false,
+                  "CustomImage": {
+                    "ImageURL": "http://i.imgur.com/hfTYWne.png",
+                    "WidthScale": 0.0
+                  },
+                  "GUID": "d5de38"
+                },
+                {
+                  "Name": "Figurine_Custom",
+                  "Transform": {
+                    "posX": -20.06247,
+                    "posY": 3.17145824,
+                    "posZ": 14.7158127,
+                    "rotX": 359.2194,
+                    "rotY": 105.009109,
+                    "rotZ": 0.470443964,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "scaleZ": 1.0
+                  },
+                  "Nickname": "",
+                  "Description": "",
+                  "ColorDiffuse": {
+                    "r": 0.0,
+                    "g": 0.0,
+                    "b": 0.0
+                  },
+                  "Grid": true,
+                  "Locked": false,
+                  "CustomImage": {
+                    "ImageURL": "http://i.imgur.com/aoLzz2N.png",
+                    "WidthScale": 0.0
+                  },
+                  "GUID": "1998c3"
+                },
+                {
+                  "Name": "Figurine_Custom",
+                  "Transform": {
+                    "posX": -19.9221039,
+                    "posY": 3.18195939,
+                    "posZ": 14.1420631,
+                    "rotX": 359.637543,
+                    "rotY": 30.0007973,
+                    "rotZ": 0.031938687,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "scaleZ": 1.0
+                  },
+                  "Nickname": "",
+                  "Description": "",
+                  "ColorDiffuse": {
+                    "r": 0.0,
+                    "g": 0.0,
+                    "b": 0.0
+                  },
+                  "Grid": true,
+                  "Locked": false,
+                  "CustomImage": {
+                    "ImageURL": "http://i.imgur.com/A7cTE5x.png",
+                    "WidthScale": 0.0
+                  },
+                  "GUID": "40f6a5"
+                }
+              ],
+              "GUID": "951c7f"
+            },
+            {
+              "Name": "Bag",
+              "Transform": {
+                "posX": -13.98982,
+                "posY": 5.48329544,
+                "posZ": -19.0081253,
+                "rotX": 0.1995817,
+                "rotY": -0.00168470282,
+                "rotZ": 359.0962,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "kilala",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.7059338,
+                "g": 0.36660102,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "MaterialIndex": -1,
+              "MeshIndex": -1,
+              "ContainedObjects": [
+                {
+                  "Name": "Figurine_Custom",
+                  "Transform": {
+                    "posX": 21.8618,
+                    "posY": 3.323621,
+                    "posZ": 14.1117058,
+                    "rotX": 13.95889,
+                    "rotY": 23.9825535,
+                    "rotZ": 351.8961,
+                    "scaleX": 1.25,
+                    "scaleY": 1.25,
+                    "scaleZ": 1.25
+                  },
+                  "Nickname": "",
+                  "Description": "",
+                  "ColorDiffuse": {
+                    "r": 0.0,
+                    "g": 0.0,
+                    "b": 0.0
+                  },
+                  "Grid": true,
+                  "Locked": false,
+                  "CustomImage": {
+                    "ImageURL": "http://i.imgur.com/UqC8raA.png",
+                    "WidthScale": 0.0
+                  },
+                  "GUID": "0489b4"
+                },
+                {
+                  "Name": "Figurine_Custom",
+                  "Transform": {
+                    "posX": 22.1553,
+                    "posY": 3.523726,
+                    "posZ": 15.2241106,
+                    "rotX": 355.579437,
+                    "rotY": 32.1832,
+                    "rotZ": 337.6428,
+                    "scaleX": 1.25,
+                    "scaleY": 1.25,
+                    "scaleZ": 1.25
+                  },
+                  "Nickname": "",
+                  "Description": "",
+                  "ColorDiffuse": {
+                    "r": 0.0,
+                    "g": 0.0,
+                    "b": 0.0
+                  },
+                  "Grid": true,
+                  "Locked": false,
+                  "CustomImage": {
+                    "ImageURL": "http://i.imgur.com/AHGbYvF.png",
+                    "WidthScale": 0.0
+                  },
+                  "GUID": "d0cf49"
+                },
+                {
+                  "Name": "Figurine_Custom",
+                  "Transform": {
+                    "posX": 23.2836552,
+                    "posY": 3.7462337,
+                    "posZ": 13.5340586,
+                    "rotX": 11.8021889,
+                    "rotY": 25.3860874,
+                    "rotZ": 59.4158554,
+                    "scaleX": 1.25,
+                    "scaleY": 1.25,
+                    "scaleZ": 1.25
+                  },
+                  "Nickname": "",
+                  "Description": "",
+                  "ColorDiffuse": {
+                    "r": 0.0,
+                    "g": 0.0,
+                    "b": 0.0
+                  },
+                  "Grid": true,
+                  "Locked": false,
+                  "CustomImage": {
+                    "ImageURL": "http://i.imgur.com/xOu47EF.png",
+                    "WidthScale": 0.0
+                  },
+                  "GUID": "b59a54"
+                },
+                {
+                  "Name": "Figurine_Custom",
+                  "Transform": {
+                    "posX": 20.4526882,
+                    "posY": 3.10558152,
+                    "posZ": 13.7725029,
+                    "rotX": 24.3860321,
+                    "rotY": 15.9014578,
+                    "rotZ": 335.697083,
+                    "scaleX": 1.25,
+                    "scaleY": 1.25,
+                    "scaleZ": 1.25
+                  },
+                  "Nickname": "",
+                  "Description": "",
+                  "ColorDiffuse": {
+                    "r": 0.0,
+                    "g": 0.0,
+                    "b": 0.0
+                  },
+                  "Grid": true,
+                  "Locked": false,
+                  "CustomImage": {
+                    "ImageURL": "http://i.imgur.com/lrAKIr8.png",
+                    "WidthScale": 0.0
+                  },
+                  "GUID": "c6576c"
+                },
+                {
+                  "Name": "Figurine_Custom",
+                  "Transform": {
+                    "posX": 22.21361,
+                    "posY": 3.19799447,
+                    "posZ": 13.8144064,
+                    "rotX": 1.89015031,
+                    "rotY": 135.044922,
+                    "rotZ": 358.840881,
+                    "scaleX": 1.25,
+                    "scaleY": 1.25,
+                    "scaleZ": 1.25
+                  },
+                  "Nickname": "",
+                  "Description": "",
+                  "ColorDiffuse": {
+                    "r": 0.0,
+                    "g": 0.0,
+                    "b": 0.0
+                  },
+                  "Grid": true,
+                  "Locked": false,
+                  "CustomImage": {
+                    "ImageURL": "http://i.imgur.com/frQWzBA.png",
+                    "WidthScale": 0.0
+                  },
+                  "GUID": "744df3"
+                }
+              ],
+              "GUID": "d11ec7"
+            }
+          ],
+          "GUID": "3e002c"
+        },
+        {
+          "Name": "Bag",
+          "Transform": {
+            "posX": 0.8898233,
+            "posY": 5.47527552,
+            "posZ": -20.3755913,
+            "rotX": 359.971832,
+            "rotY": 90.02499,
+            "rotZ": 358.5895,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "neutral",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.705937743,
+            "g": 0.3666072,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "ContainedObjects": [
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": 1.65725911,
+                "posY": 3.80056453,
+                "posZ": 1.348114,
+                "rotX": 47.5400963,
+                "rotY": 355.108551,
+                "rotZ": 292.796173,
+                "scaleX": 1.25,
+                "scaleY": 1.25,
+                "scaleZ": 1.25
+              },
+              "Nickname": "Kitsune",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/CZbCVOd.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "483d3e"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": 2.795576,
+                "posY": 3.07982635,
+                "posZ": 1.05933142,
+                "rotX": 323.824158,
+                "rotY": 327.691162,
+                "rotZ": 346.3039,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "lampad",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/m7R8Yzz.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "f417dd"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": 3.50758362,
+                "posY": 2.94506931,
+                "posZ": 2.17457676,
+                "rotX": 348.283264,
+                "rotY": 275.0303,
+                "rotZ": 299.779236,
+                "scaleX": 0.875,
+                "scaleY": 0.875,
+                "scaleZ": 0.875
+              },
+              "Nickname": "Huldra",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/gWMN97E.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "1e86c0"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": 2.038795,
+                "posY": 3.06690884,
+                "posZ": 2.78517079,
+                "rotX": 39.2207069,
+                "rotY": 29.5345783,
+                "rotZ": 320.528259,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "catfolk",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/YWQq1hi.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "72022f"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": 2.590352,
+                "posY": 3.34111667,
+                "posZ": 1.55677938,
+                "rotX": 328.671356,
+                "rotY": 330.812317,
+                "rotZ": 6.671646,
+                "scaleX": 1.25,
+                "scaleY": 1.25,
+                "scaleZ": 1.25
+              },
+              "Nickname": "Adlet",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/Bn9fXbK.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "200301"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": 3.009235,
+                "posY": 3.141146,
+                "posZ": 1.85401654,
+                "rotX": 356.874542,
+                "rotY": 285.024353,
+                "rotZ": 357.116058,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "Gathlain",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/QPHVN3J.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "5b4582"
+            }
+          ],
+          "GUID": "2e0937"
+        },
+        {
+          "Name": "Bag",
+          "Transform": {
+            "posX": 1.278882,
+            "posY": 5.478284,
+            "posZ": -19.8784466,
+            "rotX": 1.23513389,
+            "rotY": 90.0037,
+            "rotZ": 0.267385244,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "friendly-ish",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.7059259,
+            "g": 0.3665887,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "ContainedObjects": [
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -0.1464961,
+                "posY": 3.15934563,
+                "posZ": -5.49447536,
+                "rotX": 333.958527,
+                "rotY": 327.2852,
+                "rotZ": 17.3960686,
+                "scaleX": 1.5,
+                "scaleY": 1.5,
+                "scaleZ": 1.5
+              },
+              "Nickname": "Nixie",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/1ucWN6c.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "26cb03"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": 0.053687878,
+                "posY": 3.04173923,
+                "posZ": -6.24181557,
+                "rotX": 353.3158,
+                "rotY": 81.92658,
+                "rotZ": 338.7593,
+                "scaleX": 1.25,
+                "scaleY": 1.25,
+                "scaleZ": 1.25
+              },
+              "Nickname": "Changeling",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/WZrnpbb.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "95afd1"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": 0.769623041,
+                "posY": 3.21658659,
+                "posZ": -6.44153547,
+                "rotX": 46.1855125,
+                "rotY": 235.234238,
+                "rotZ": 19.3970222,
+                "scaleX": 1.5,
+                "scaleY": 1.5,
+                "scaleZ": 1.5
+              },
+              "Nickname": "Axiomite",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/uXwQMwE.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "ca6f0b"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -0.114403777,
+                "posY": 2.50924826,
+                "posZ": -4.250384,
+                "rotX": 13.5353251,
+                "rotY": 295.56427,
+                "rotZ": 307.229523,
+                "scaleX": 1.5,
+                "scaleY": 1.5,
+                "scaleZ": 1.5
+              },
+              "Nickname": "Valkyrie",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/q8IbX3P.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "4c6956"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -1.75965214,
+                "posY": 2.60343838,
+                "posZ": -5.16214561,
+                "rotX": 18.321331,
+                "rotY": 359.858917,
+                "rotZ": 6.35485268,
+                "scaleX": 1.25,
+                "scaleY": 1.25,
+                "scaleZ": 1.25
+              },
+              "Nickname": "Merfolk",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/V2FDyAJ.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "e7d2a8"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": 0.09151384,
+                "posY": 3.26584888,
+                "posZ": -5.23979139,
+                "rotX": 0.004716859,
+                "rotY": 254.975525,
+                "rotZ": 359.8164,
+                "scaleX": 1.5,
+                "scaleY": 1.5,
+                "scaleZ": 1.5
+              },
+              "Nickname": "Kami Toshigami",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/XnsK4H8.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "5dcc47"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": 0.005277551,
+                "posY": 3.17771745,
+                "posZ": -5.08336258,
+                "rotX": 0.6292247,
+                "rotY": 330.0081,
+                "rotZ": 359.870972,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "Kami Zuishin",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/gfbxlai.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "d1754b"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": 0.424131,
+                "posY": 3.26346064,
+                "posZ": -5.334169,
+                "rotX": 0.246561319,
+                "rotY": 120.0272,
+                "rotZ": 0.225361645,
+                "scaleX": 1.5,
+                "scaleY": 1.5,
+                "scaleZ": 1.5
+              },
+              "Nickname": "Azata Lyrakien",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/ZPWWHSC.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "e88ddb"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": 1.61737132,
+                "posY": 3.1067,
+                "posZ": -7.59723,
+                "rotX": 359.118469,
+                "rotY": 359.6445,
+                "rotZ": 359.1229,
+                "scaleX": 2.25,
+                "scaleY": 2.25,
+                "scaleZ": 2.25
+              },
+              "Nickname": "Quickwood",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/QfNWt1Y.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "081b51"
+            }
+          ],
+          "GUID": "9f792c"
+        },
+        {
+          "Name": "Bag",
+          "Transform": {
+            "posX": 0.957159162,
+            "posY": 5.49028969,
+            "posZ": -19.7951,
+            "rotX": 359.45163,
+            "rotY": 179.994339,
+            "rotZ": 0.164327726,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "enemies",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.7059259,
+            "g": 0.3665887,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "ContainedObjects": [
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": 0.308292359,
+                "posY": 3.73759222,
+                "posZ": -15.8400469,
+                "rotX": 19.0718441,
+                "rotY": 26.516901,
+                "rotZ": 22.3271675,
+                "scaleX": 1.75,
+                "scaleY": 1.75,
+                "scaleZ": 1.75
+              },
+              "Nickname": "Yuki-Onna",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/DIhBsd9.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "1af96b"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -0.7630327,
+                "posY": 2.95555115,
+                "posZ": -16.9110241,
+                "rotX": 358.647522,
+                "rotY": 12.05331,
+                "rotZ": 36.0630569,
+                "scaleX": 1.75,
+                "scaleY": 1.75,
+                "scaleZ": 1.75
+              },
+              "Nickname": "",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/jAJ3s65.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "e91e15"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": 0.5421589,
+                "posY": 3.80619526,
+                "posZ": -16.7022552,
+                "rotX": 7.97473669,
+                "rotY": 50.1971931,
+                "rotZ": 91.79804,
+                "scaleX": 1.75,
+                "scaleY": 1.75,
+                "scaleZ": 1.75
+              },
+              "Nickname": "",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/9BrtzHC.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "9d7604"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": 0.176891714,
+                "posY": 3.3033042,
+                "posZ": -15.6212463,
+                "rotX": 2.226112,
+                "rotY": 315.726746,
+                "rotZ": 354.297943,
+                "scaleX": 1.75,
+                "scaleY": 1.75,
+                "scaleZ": 1.75
+              },
+              "Nickname": "",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/XuHP5hb.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "cbd577"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -0.7506789,
+                "posY": 2.85595918,
+                "posZ": -16.87956,
+                "rotX": 9.358997,
+                "rotY": 38.0651474,
+                "rotZ": 358.670929,
+                "scaleX": 1.5,
+                "scaleY": 1.5,
+                "scaleZ": 1.5
+              },
+              "Nickname": "Shea",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/r92iARm.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "a93d8c"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": 1.61546624,
+                "posY": 3.35227442,
+                "posZ": -14.667737,
+                "rotX": 26.9783039,
+                "rotY": 84.91791,
+                "rotZ": 263.6593,
+                "scaleX": 1.25,
+                "scaleY": 1.25,
+                "scaleZ": 1.25
+              },
+              "Nickname": "Aranea",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/y5opdeQ.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "85a153"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -0.8004926,
+                "posY": 2.315765,
+                "posZ": -14.477293,
+                "rotX": 42.2685928,
+                "rotY": 345.452637,
+                "rotZ": 32.7716675,
+                "scaleX": 1.5,
+                "scaleY": 1.5,
+                "scaleZ": 1.5
+              },
+              "Nickname": "Festering Spirit",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/C7TFm8A.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "bc5487"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": 1.07653153,
+                "posY": 3.05479074,
+                "posZ": -14.2042551,
+                "rotX": 319.949158,
+                "rotY": 343.178528,
+                "rotZ": 64.51059,
+                "scaleX": 1.5,
+                "scaleY": 1.5,
+                "scaleZ": 1.5
+              },
+              "Nickname": "Shimigami",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/dRNdWGi.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "7fa890"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": 0.559518,
+                "posY": 3.37818241,
+                "posZ": -15.7372656,
+                "rotX": 337.045135,
+                "rotY": 67.66171,
+                "rotZ": 0.390498161,
+                "scaleX": 1.75,
+                "scaleY": 1.75,
+                "scaleZ": 1.75
+              },
+              "Nickname": "Attic Whisper",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/mxhhbWC.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "5ee8b1"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -0.8573105,
+                "posY": 3.48716664,
+                "posZ": -13.93928,
+                "rotX": 18.59695,
+                "rotY": 72.09724,
+                "rotZ": 351.497528,
+                "scaleX": 1.75,
+                "scaleY": 1.75,
+                "scaleZ": 1.75
+              },
+              "Nickname": "Bone Devil",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/xK9l5Yi.png?1",
+                "WidthScale": 0.0
+              },
+              "GUID": "4623ee"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": 2.42946315,
+                "posY": 2.010795,
+                "posZ": -14.5553856,
+                "rotX": 340.799957,
+                "rotY": 292.12442,
+                "rotZ": 338.171875,
+                "scaleX": 1.75,
+                "scaleY": 1.75,
+                "scaleZ": 1.75
+              },
+              "Nickname": "Ectoplasmic Creature",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/MzKYtAB.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "002c52"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": 0.7775622,
+                "posY": 2.801932,
+                "posZ": -14.109024,
+                "rotX": 341.3179,
+                "rotY": 235.368484,
+                "rotZ": 342.838379,
+                "scaleX": 1.75,
+                "scaleY": 1.75,
+                "scaleZ": 1.75
+              },
+              "Nickname": "Argus",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/acAbAkc.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "fd4e01"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": 0.228763014,
+                "posY": 3.34910226,
+                "posZ": -15.372529,
+                "rotX": 359.959,
+                "rotY": 0.0195354614,
+                "rotZ": 359.892,
+                "scaleX": 2.0,
+                "scaleY": 2.0,
+                "scaleZ": 2.0
+              },
+              "Nickname": "Quickwood",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/QfNWt1Y.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "f4ef74"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -0.534365535,
+                "posY": 3.16541839,
+                "posZ": -15.1921387,
+                "rotX": 354.3152,
+                "rotY": 123.474548,
+                "rotZ": 0.497938663,
+                "scaleX": 1.5,
+                "scaleY": 1.5,
+                "scaleZ": 1.5
+              },
+              "Nickname": "Devilbound Creature",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/UhrqpLC.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "4f25b4"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": 0.4572048,
+                "posY": 3.330849,
+                "posZ": -16.1536922,
+                "rotX": 0.469080478,
+                "rotY": 36.118412,
+                "rotZ": 1.96792912,
+                "scaleX": 1.75,
+                "scaleY": 1.75,
+                "scaleZ": 1.75
+              },
+              "Nickname": "Owb",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/agjGao7.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "3c4aa8"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -0.22322078,
+                "posY": 2.91499686,
+                "posZ": -14.92032,
+                "rotX": 335.761,
+                "rotY": 83.32465,
+                "rotZ": 14.4786177,
+                "scaleX": 1.5,
+                "scaleY": 1.5,
+                "scaleZ": 1.5
+              },
+              "Nickname": "Jorogumo",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/WNXTzLZ.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "78e5bc"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": 1.52248025,
+                "posY": 3.328021,
+                "posZ": -14.4066687,
+                "rotX": 338.061218,
+                "rotY": 108.6357,
+                "rotZ": 351.117828,
+                "scaleX": 1.25,
+                "scaleY": 1.25,
+                "scaleZ": 1.25
+              },
+              "Nickname": "Dark Dancer",
+              "Description": "needs to be fixed",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/bYTz2hi.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "e70d98"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -0.3061533,
+                "posY": 4.13089657,
+                "posZ": -15.5804281,
+                "rotX": 1.67448628,
+                "rotY": 11.1788616,
+                "rotZ": 290.015656,
+                "scaleX": 1.75,
+                "scaleY": 1.75,
+                "scaleZ": 1.75
+              },
+              "Nickname": "",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/KPbClMC.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "0f13bc"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": 0.910684943,
+                "posY": 3.18905616,
+                "posZ": -15.3469019,
+                "rotX": 359.994049,
+                "rotY": 179.9143,
+                "rotZ": 2.08298159,
+                "scaleX": 1.25,
+                "scaleY": 1.25,
+                "scaleZ": 1.25
+              },
+              "Nickname": "Harpy",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/8rHRwDY.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "ef3fad"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": 0.0112434821,
+                "posY": 3.26636767,
+                "posZ": -15.1268559,
+                "rotX": 359.828674,
+                "rotY": 104.955063,
+                "rotZ": 0.117429391,
+                "scaleX": 1.5,
+                "scaleY": 1.5,
+                "scaleZ": 1.5
+              },
+              "Nickname": "Fleshwarp Irnakurse",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/EIafNF7.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "cc2922"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -0.0708498359,
+                "posY": 3.222916,
+                "posZ": -15.4385891,
+                "rotX": 0.179850683,
+                "rotY": 194.965561,
+                "rotZ": 359.900482,
+                "scaleX": 1.25,
+                "scaleY": 1.25,
+                "scaleZ": 1.25
+              },
+              "Nickname": "Succubus",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/Tyo0DVc.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "6210f2"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": 0.02408847,
+                "posY": 3.30889,
+                "posZ": -15.3205824,
+                "rotX": -0.004316085,
+                "rotY": 14.9869432,
+                "rotZ": 0.0568753257,
+                "scaleX": 1.75,
+                "scaleY": 1.75,
+                "scaleZ": 1.75
+              },
+              "Nickname": "Gibbering Mouther",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/W5t8PTf.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "cafa75"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": 0.380523533,
+                "posY": 3.23489046,
+                "posZ": -15.9535217,
+                "rotX": 358.4834,
+                "rotY": 300.013824,
+                "rotZ": 0.8265065,
+                "scaleX": 1.5,
+                "scaleY": 1.5,
+                "scaleZ": 1.5
+              },
+              "Nickname": "",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/P8xvluj.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "ceb8d8"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -0.162890941,
+                "posY": 3.299469,
+                "posZ": -15.9257259,
+                "rotX": 0.447508365,
+                "rotY": 180.009125,
+                "rotZ": 359.8208,
+                "scaleX": 1.75,
+                "scaleY": 1.75,
+                "scaleZ": 1.75
+              },
+              "Nickname": "Bebilith",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/0P7y7oe.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "0f97b5"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": 0.173407108,
+                "posY": 3.30359554,
+                "posZ": -15.88252,
+                "rotX": 0.4635142,
+                "rotY": 210.0024,
+                "rotZ": 0.319527924,
+                "scaleX": 1.75,
+                "scaleY": 1.75,
+                "scaleZ": 1.75
+              },
+              "Nickname": "Comozant Wyrd",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/RJkvA8Q.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "81a10f"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": 0.07522428,
+                "posY": 3.291233,
+                "posZ": -15.62928,
+                "rotX": 359.354736,
+                "rotY": 316.607941,
+                "rotZ": 0.845697939,
+                "scaleX": 1.75,
+                "scaleY": 1.75,
+                "scaleZ": 1.75
+              },
+              "Nickname": "Kappa",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/Tf7UK2b.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "91c146"
+            }
+          ],
+          "GUID": "4bcddd"
+        }
+      ],
+      "GUID": "c90e4f"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 0.130526736,
+        "posY": 0.763208032,
+        "posZ": -15.3553152,
+        "rotX": 4.488138E-05,
+        "rotY": 180.206955,
+        "rotZ": -3.222232E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "enemies",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705917954,
+        "g": 0.366576374,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 0.308292359,
+            "posY": 3.73759222,
+            "posZ": -15.8400469,
+            "rotX": 19.0718441,
+            "rotY": 26.516901,
+            "rotZ": 22.3271675,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "Yuki-Onna",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/DIhBsd9.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "1af96b"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": -0.7630327,
+            "posY": 2.95555115,
+            "posZ": -16.9110241,
+            "rotX": 358.647522,
+            "rotY": 12.05331,
+            "rotZ": 36.0630569,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/jAJ3s65.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "e91e15"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 0.5421589,
+            "posY": 3.80619526,
+            "posZ": -16.7022552,
+            "rotX": 7.97473669,
+            "rotY": 50.1971931,
+            "rotZ": 91.79804,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/9BrtzHC.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "9d7604"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 0.176891714,
+            "posY": 3.3033042,
+            "posZ": -15.6212463,
+            "rotX": 2.226112,
+            "rotY": 315.726746,
+            "rotZ": 354.297943,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/XuHP5hb.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "cbd577"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": -0.7506789,
+            "posY": 2.85595918,
+            "posZ": -16.87956,
+            "rotX": 9.358997,
+            "rotY": 38.0651474,
+            "rotZ": 358.670929,
+            "scaleX": 1.5,
+            "scaleY": 1.5,
+            "scaleZ": 1.5
+          },
+          "Nickname": "Shea",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/r92iARm.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "a93d8c"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 1.61546624,
+            "posY": 3.35227442,
+            "posZ": -14.667737,
+            "rotX": 26.9783039,
+            "rotY": 84.91791,
+            "rotZ": 263.6593,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "Aranea",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/y5opdeQ.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "85a153"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": -0.8004926,
+            "posY": 2.315765,
+            "posZ": -14.477293,
+            "rotX": 42.2685928,
+            "rotY": 345.452637,
+            "rotZ": 32.7716675,
+            "scaleX": 1.5,
+            "scaleY": 1.5,
+            "scaleZ": 1.5
+          },
+          "Nickname": "Festering Spirit",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/C7TFm8A.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "bc5487"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 1.07653153,
+            "posY": 3.05479074,
+            "posZ": -14.2042551,
+            "rotX": 319.949158,
+            "rotY": 343.178528,
+            "rotZ": 64.51059,
+            "scaleX": 1.5,
+            "scaleY": 1.5,
+            "scaleZ": 1.5
+          },
+          "Nickname": "Shimigami",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/dRNdWGi.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "7fa890"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 0.559518,
+            "posY": 3.37818241,
+            "posZ": -15.7372656,
+            "rotX": 337.045135,
+            "rotY": 67.66171,
+            "rotZ": 0.390498161,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "Attic Whisper",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/mxhhbWC.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "5ee8b1"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": -0.8573105,
+            "posY": 3.48716664,
+            "posZ": -13.93928,
+            "rotX": 18.59695,
+            "rotY": 72.09724,
+            "rotZ": 351.497528,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "Bone Devil",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/xK9l5Yi.png?1",
+            "WidthScale": 0.0
+          },
+          "GUID": "4623ee"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 2.42946315,
+            "posY": 2.010795,
+            "posZ": -14.5553856,
+            "rotX": 340.799957,
+            "rotY": 292.12442,
+            "rotZ": 338.171875,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "Ectoplasmic Creature",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/MzKYtAB.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "002c52"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 0.7775622,
+            "posY": 2.801932,
+            "posZ": -14.109024,
+            "rotX": 341.3179,
+            "rotY": 235.368484,
+            "rotZ": 342.838379,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "Argus",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/acAbAkc.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "fd4e01"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 0.228763014,
+            "posY": 3.34910226,
+            "posZ": -15.372529,
+            "rotX": 359.959,
+            "rotY": 0.0195354614,
+            "rotZ": 359.892,
+            "scaleX": 2.0,
+            "scaleY": 2.0,
+            "scaleZ": 2.0
+          },
+          "Nickname": "Quickwood",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/QfNWt1Y.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "f4ef74"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": -0.534365535,
+            "posY": 3.16541839,
+            "posZ": -15.1921387,
+            "rotX": 354.3152,
+            "rotY": 123.474548,
+            "rotZ": 0.497938663,
+            "scaleX": 1.5,
+            "scaleY": 1.5,
+            "scaleZ": 1.5
+          },
+          "Nickname": "Devilbound Creature",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/UhrqpLC.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "4f25b4"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 0.4572048,
+            "posY": 3.330849,
+            "posZ": -16.1536922,
+            "rotX": 0.469080478,
+            "rotY": 36.118412,
+            "rotZ": 1.96792912,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "Owb",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/agjGao7.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "3c4aa8"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": -0.22322078,
+            "posY": 2.91499686,
+            "posZ": -14.92032,
+            "rotX": 335.761,
+            "rotY": 83.32465,
+            "rotZ": 14.4786177,
+            "scaleX": 1.5,
+            "scaleY": 1.5,
+            "scaleZ": 1.5
+          },
+          "Nickname": "Jorogumo",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/WNXTzLZ.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "78e5bc"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 1.52248025,
+            "posY": 3.328021,
+            "posZ": -14.4066687,
+            "rotX": 338.061218,
+            "rotY": 108.6357,
+            "rotZ": 351.117828,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "Dark Dancer",
+          "Description": "needs to be fixed",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/bYTz2hi.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "e70d98"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": -0.3061533,
+            "posY": 4.13089657,
+            "posZ": -15.5804281,
+            "rotX": 1.67448628,
+            "rotY": 11.1788616,
+            "rotZ": 290.015656,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/KPbClMC.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "0f13bc"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 0.910684943,
+            "posY": 3.18905616,
+            "posZ": -15.3469019,
+            "rotX": 359.994049,
+            "rotY": 179.9143,
+            "rotZ": 2.08298159,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "Harpy",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/8rHRwDY.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "ef3fad"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 0.0112434821,
+            "posY": 3.26636767,
+            "posZ": -15.1268559,
+            "rotX": 359.828674,
+            "rotY": 104.955063,
+            "rotZ": 0.117429391,
+            "scaleX": 1.5,
+            "scaleY": 1.5,
+            "scaleZ": 1.5
+          },
+          "Nickname": "Fleshwarp Irnakurse",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/EIafNF7.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "cc2922"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": -0.0708498359,
+            "posY": 3.222916,
+            "posZ": -15.4385891,
+            "rotX": 0.179850683,
+            "rotY": 194.965561,
+            "rotZ": 359.900482,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "Succubus",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/Tyo0DVc.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "6210f2"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 0.02408847,
+            "posY": 3.30889,
+            "posZ": -15.3205824,
+            "rotX": -0.004316085,
+            "rotY": 14.9869432,
+            "rotZ": 0.0568753257,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "Gibbering Mouther",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/W5t8PTf.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "cafa75"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 0.380523533,
+            "posY": 3.23489046,
+            "posZ": -15.9535217,
+            "rotX": 358.4834,
+            "rotY": 300.013824,
+            "rotZ": 0.8265065,
+            "scaleX": 1.5,
+            "scaleY": 1.5,
+            "scaleZ": 1.5
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/P8xvluj.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "ceb8d8"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": -0.162890941,
+            "posY": 3.299469,
+            "posZ": -15.9257259,
+            "rotX": 0.447508365,
+            "rotY": 180.009125,
+            "rotZ": 359.8208,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "Bebilith",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/0P7y7oe.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "0f97b5"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 0.173407108,
+            "posY": 3.30359554,
+            "posZ": -15.88252,
+            "rotX": 0.4635142,
+            "rotY": 210.0024,
+            "rotZ": 0.319527924,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "Comozant Wyrd",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/RJkvA8Q.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "81a10f"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 0.07522428,
+            "posY": 3.291233,
+            "posZ": -15.62928,
+            "rotX": 359.354736,
+            "rotY": 316.607941,
+            "rotZ": 0.845697939,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "Kappa",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/Tf7UK2b.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "91c146"
+        }
+      ],
+      "GUID": "be8538"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 0.119425967,
+        "posY": 0.763208151,
+        "posZ": -5.442927,
+        "rotX": 1.25138777E-05,
+        "rotY": 92.11549,
+        "rotZ": -1.63897039E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "friendly-ish",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.705917954,
+        "g": 0.366576374,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": -0.1464961,
+            "posY": 3.15934563,
+            "posZ": -5.49447536,
+            "rotX": 333.958527,
+            "rotY": 327.2852,
+            "rotZ": 17.3960686,
+            "scaleX": 1.5,
+            "scaleY": 1.5,
+            "scaleZ": 1.5
+          },
+          "Nickname": "Nixie",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/1ucWN6c.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "26cb03"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 0.053687878,
+            "posY": 3.04173923,
+            "posZ": -6.24181557,
+            "rotX": 353.3158,
+            "rotY": 81.92658,
+            "rotZ": 338.7593,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "Changeling",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/WZrnpbb.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "95afd1"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 0.769623041,
+            "posY": 3.21658659,
+            "posZ": -6.44153547,
+            "rotX": 46.1855125,
+            "rotY": 235.234238,
+            "rotZ": 19.3970222,
+            "scaleX": 1.5,
+            "scaleY": 1.5,
+            "scaleZ": 1.5
+          },
+          "Nickname": "Axiomite",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/uXwQMwE.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "ca6f0b"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": -0.114403777,
+            "posY": 2.50924826,
+            "posZ": -4.250384,
+            "rotX": 13.5353251,
+            "rotY": 295.56427,
+            "rotZ": 307.229523,
+            "scaleX": 1.5,
+            "scaleY": 1.5,
+            "scaleZ": 1.5
+          },
+          "Nickname": "Valkyrie",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/q8IbX3P.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "4c6956"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": -1.75965214,
+            "posY": 2.60343838,
+            "posZ": -5.16214561,
+            "rotX": 18.321331,
+            "rotY": 359.858917,
+            "rotZ": 6.35485268,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "Merfolk",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/V2FDyAJ.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "e7d2a8"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 0.09151384,
+            "posY": 3.26584888,
+            "posZ": -5.23979139,
+            "rotX": 0.004716859,
+            "rotY": 254.975525,
+            "rotZ": 359.8164,
+            "scaleX": 1.5,
+            "scaleY": 1.5,
+            "scaleZ": 1.5
+          },
+          "Nickname": "Kami Toshigami",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/XnsK4H8.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "5dcc47"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 0.005277551,
+            "posY": 3.17771745,
+            "posZ": -5.08336258,
+            "rotX": 0.6292247,
+            "rotY": 330.0081,
+            "rotZ": 359.870972,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Kami Zuishin",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/gfbxlai.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "d1754b"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 0.424131,
+            "posY": 3.26346064,
+            "posZ": -5.334169,
+            "rotX": 0.246561319,
+            "rotY": 120.0272,
+            "rotZ": 0.225361645,
+            "scaleX": 1.5,
+            "scaleY": 1.5,
+            "scaleZ": 1.5
+          },
+          "Nickname": "Azata Lyrakien",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/ZPWWHSC.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "e88ddb"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 1.61737132,
+            "posY": 3.1067,
+            "posZ": -7.59723,
+            "rotX": 359.118469,
+            "rotY": 359.6445,
+            "rotZ": 359.1229,
+            "scaleX": 2.25,
+            "scaleY": 2.25,
+            "scaleZ": 2.25
+          },
+          "Nickname": "Quickwood",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/QfNWt1Y.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "081b51"
+        }
+      ],
+      "GUID": "8d71d7"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 2.68086839,
+        "posY": 0.7632084,
+        "posZ": 1.63710046,
+        "rotX": 4.77481535E-06,
+        "rotY": 87.55699,
+        "rotZ": -4.145342E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "neutral",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7059298,
+        "g": 0.366594851,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 1.65725911,
+            "posY": 3.80056453,
+            "posZ": 1.348114,
+            "rotX": 47.5400963,
+            "rotY": 355.108551,
+            "rotZ": 292.796173,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "Kitsune",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/CZbCVOd.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "483d3e"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 2.795576,
+            "posY": 3.07982635,
+            "posZ": 1.05933142,
+            "rotX": 323.824158,
+            "rotY": 327.691162,
+            "rotZ": 346.3039,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "lampad",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/m7R8Yzz.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "f417dd"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 3.50758362,
+            "posY": 2.94506931,
+            "posZ": 2.17457676,
+            "rotX": 348.283264,
+            "rotY": 275.0303,
+            "rotZ": 299.779236,
+            "scaleX": 0.875,
+            "scaleY": 0.875,
+            "scaleZ": 0.875
+          },
+          "Nickname": "Huldra",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/gWMN97E.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "1e86c0"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 2.038795,
+            "posY": 3.06690884,
+            "posZ": 2.78517079,
+            "rotX": 39.2207069,
+            "rotY": 29.5345783,
+            "rotZ": 320.528259,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "catfolk",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/YWQq1hi.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "72022f"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 2.590352,
+            "posY": 3.34111667,
+            "posZ": 1.55677938,
+            "rotX": 328.671356,
+            "rotY": 330.812317,
+            "rotZ": 6.671646,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "Adlet",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/Bn9fXbK.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "200301"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 3.009235,
+            "posY": 3.141146,
+            "posZ": 1.85401654,
+            "rotX": 356.874542,
+            "rotY": 285.024353,
+            "rotZ": 357.116058,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Gathlain",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/QPHVN3J.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "5b4582"
+        }
+      ],
+      "GUID": "18e0cb"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 3.97659945,
+        "posY": 0.763207436,
+        "posZ": 13.9526768,
+        "rotX": -8.372756E-06,
+        "rotY": 2.86919117,
+        "rotZ": -2.53160829E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Bonus",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7059061,
+        "g": 0.3665579,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Bag",
+          "Transform": {
+            "posX": 3.861579,
+            "posY": 2.76021051,
+            "posZ": 14.9576054,
+            "rotX": 3.059791,
+            "rotY": 1.35785735,
+            "rotZ": 0.471071064,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "fidget (dust an elysian tail)",
+          "Description": "newest shit",
+          "ColorDiffuse": {
+            "r": 0.7059219,
+            "g": 0.366582543,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "ContainedObjects": [
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -19.856123,
+                "posY": 3.14566255,
+                "posZ": 13.862566,
+                "rotX": 3.72453761,
+                "rotY": 311.4583,
+                "rotZ": 359.540771,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/jU9KMyX.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "a0fbed"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -18.9683914,
+                "posY": 3.39584231,
+                "posZ": 14.9616394,
+                "rotX": 357.319855,
+                "rotY": 306.814056,
+                "rotZ": 39.5089035,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/1JHcvNM.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "aa1fdf"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -19.1010132,
+                "posY": 2.92581129,
+                "posZ": 13.5517778,
+                "rotX": 356.990875,
+                "rotY": 313.4894,
+                "rotZ": 359.2166,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/e1CqSde.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "0558a4"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -20.9396534,
+                "posY": 3.01213765,
+                "posZ": 14.7260885,
+                "rotX": 348.767975,
+                "rotY": 64.61245,
+                "rotZ": 359.220245,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/CmlvINX.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "055389"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -20.36877,
+                "posY": 4.558673,
+                "posZ": 15.5978546,
+                "rotX": 5.888064,
+                "rotY": 72.10888,
+                "rotZ": 268.829376,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/hfTYWne.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "d5de38"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -20.06247,
+                "posY": 3.17145824,
+                "posZ": 14.7158127,
+                "rotX": 359.2194,
+                "rotY": 105.009109,
+                "rotZ": 0.470443964,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/aoLzz2N.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "1998c3"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -19.9221039,
+                "posY": 3.18195939,
+                "posZ": 14.1420631,
+                "rotX": 359.637543,
+                "rotY": 30.0007973,
+                "rotZ": 0.031938687,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/A7cTE5x.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "40f6a5"
+            }
+          ],
+          "GUID": "951c7f"
+        },
+        {
+          "Name": "Bag",
+          "Transform": {
+            "posX": 3.7391572,
+            "posY": 2.7632823,
+            "posZ": 14.7127342,
+            "rotX": 3.04946852,
+            "rotY": 0.450325161,
+            "rotZ": 0.9222855,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "kilala",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.7059259,
+            "g": 0.3665887,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "ContainedObjects": [
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": 21.8618,
+                "posY": 3.323621,
+                "posZ": 14.1117058,
+                "rotX": 13.95889,
+                "rotY": 23.9825535,
+                "rotZ": 351.8961,
+                "scaleX": 1.25,
+                "scaleY": 1.25,
+                "scaleZ": 1.25
+              },
+              "Nickname": "",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/UqC8raA.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "0489b4"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": 22.1553,
+                "posY": 3.523726,
+                "posZ": 15.2241106,
+                "rotX": 355.579437,
+                "rotY": 32.1832,
+                "rotZ": 337.6428,
+                "scaleX": 1.25,
+                "scaleY": 1.25,
+                "scaleZ": 1.25
+              },
+              "Nickname": "",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/AHGbYvF.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "d0cf49"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": 23.2836552,
+                "posY": 3.7462337,
+                "posZ": 13.5340586,
+                "rotX": 11.8021889,
+                "rotY": 25.3860874,
+                "rotZ": 59.4158554,
+                "scaleX": 1.25,
+                "scaleY": 1.25,
+                "scaleZ": 1.25
+              },
+              "Nickname": "",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/xOu47EF.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "b59a54"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": 20.4526882,
+                "posY": 3.10558152,
+                "posZ": 13.7725029,
+                "rotX": 24.3860321,
+                "rotY": 15.9014578,
+                "rotZ": 335.697083,
+                "scaleX": 1.25,
+                "scaleY": 1.25,
+                "scaleZ": 1.25
+              },
+              "Nickname": "",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/lrAKIr8.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "c6576c"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": 22.21361,
+                "posY": 3.19799447,
+                "posZ": 13.8144064,
+                "rotX": 1.89015031,
+                "rotY": 135.044922,
+                "rotZ": 358.840881,
+                "scaleX": 1.25,
+                "scaleY": 1.25,
+                "scaleZ": 1.25
+              },
+              "Nickname": "",
+              "Description": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Grid": true,
+              "Locked": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/frQWzBA.png",
+                "WidthScale": 0.0
+              },
+              "GUID": "744df3"
+            }
+          ],
+          "GUID": "277699"
+        }
+      ],
+      "GUID": "f91774"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": -19.7621613,
+        "posY": 0.763209,
+        "posZ": 14.3773746,
+        "rotX": 1.44550741E-05,
+        "rotY": 1.41080606,
+        "rotZ": 9.848696E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "fidget (dust an elysian tail)",
+      "Description": "newest shit",
+      "ColorDiffuse": {
+        "r": 0.705917954,
+        "g": 0.366576374,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": -19.856123,
+            "posY": 3.14566255,
+            "posZ": 13.862566,
+            "rotX": 3.72453761,
+            "rotY": 311.4583,
+            "rotZ": 359.540771,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/jU9KMyX.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "a0fbed"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": -18.9683914,
+            "posY": 3.39584231,
+            "posZ": 14.9616394,
+            "rotX": 357.319855,
+            "rotY": 306.814056,
+            "rotZ": 39.5089035,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/1JHcvNM.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "aa1fdf"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": -19.1010132,
+            "posY": 2.92581129,
+            "posZ": 13.5517778,
+            "rotX": 356.990875,
+            "rotY": 313.4894,
+            "rotZ": 359.2166,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/e1CqSde.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "0558a4"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": -20.9396534,
+            "posY": 3.01213765,
+            "posZ": 14.7260885,
+            "rotX": 348.767975,
+            "rotY": 64.61245,
+            "rotZ": 359.220245,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/CmlvINX.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "055389"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": -20.36877,
+            "posY": 4.558673,
+            "posZ": 15.5978546,
+            "rotX": 5.888064,
+            "rotY": 72.10888,
+            "rotZ": 268.829376,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/hfTYWne.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "d5de38"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": -20.06247,
+            "posY": 3.17145824,
+            "posZ": 14.7158127,
+            "rotX": 359.2194,
+            "rotY": 105.009109,
+            "rotZ": 0.470443964,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/aoLzz2N.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "1998c3"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": -19.9221039,
+            "posY": 3.18195939,
+            "posZ": 14.1420631,
+            "rotX": 359.637543,
+            "rotY": 30.0007973,
+            "rotZ": 0.031938687,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/A7cTE5x.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "40f6a5"
+        }
+      ],
+      "GUID": "61a5e7"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 22.1571674,
+        "posY": 0.763208032,
+        "posZ": 14.2937059,
+        "rotX": -6.86060457E-06,
+        "rotY": 0.452495545,
+        "rotZ": 4.03640479E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "kilala",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7059219,
+        "g": 0.366582543,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 21.8618,
+            "posY": 3.323621,
+            "posZ": 14.1117058,
+            "rotX": 13.95889,
+            "rotY": 23.9825535,
+            "rotZ": 351.8961,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/UqC8raA.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "0489b4"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 22.1553,
+            "posY": 3.523726,
+            "posZ": 15.2241106,
+            "rotX": 355.579437,
+            "rotY": 32.1832,
+            "rotZ": 337.6428,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/AHGbYvF.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "d0cf49"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 23.2836552,
+            "posY": 3.7462337,
+            "posZ": 13.5340586,
+            "rotX": 11.8021889,
+            "rotY": 25.3860874,
+            "rotZ": 59.4158554,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/xOu47EF.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "b59a54"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 20.4526882,
+            "posY": 3.10558152,
+            "posZ": 13.7725029,
+            "rotX": 24.3860321,
+            "rotY": 15.9014578,
+            "rotZ": 335.697083,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/lrAKIr8.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "c6576c"
+        },
+        {
+          "Name": "Figurine_Custom",
+          "Transform": {
+            "posX": 22.21361,
+            "posY": 3.19799447,
+            "posZ": 13.8144064,
+            "rotX": 1.89015031,
+            "rotY": 135.044922,
+            "rotZ": 358.840881,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomImage": {
+            "ImageURL": "http://i.imgur.com/frQWzBA.png",
+            "WidthScale": 0.0
+          },
+          "GUID": "744df3"
+        }
+      ],
+      "GUID": "dabf62"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 2.036533,
+        "posY": 1.32409453,
+        "posZ": 6.336037,
+        "rotX": -3.95692859E-06,
+        "rotY": 359.992218,
+        "rotZ": -4.055165E-06,
+        "scaleX": 2.25,
+        "scaleY": 2.25,
+        "scaleZ": 2.25
+      },
+      "Nickname": "lampad",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/m7R8Yzz.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "a3fc8a"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 6.809907,
+        "posY": 1.32409477,
+        "posZ": 6.332766,
+        "rotX": 2.07084531E-06,
+        "rotY": 359.672241,
+        "rotZ": -5.342758E-06,
+        "scaleX": 2.25,
+        "scaleY": 2.25,
+        "scaleZ": 2.25
+      },
+      "Nickname": "catfolk",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/YWQq1hi.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "066408"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 10.6312952,
+        "posY": 1.28233337,
+        "posZ": 5.721653,
+        "rotX": 9.256685E-06,
+        "rotY": 359.849854,
+        "rotZ": -1.186227E-06,
+        "scaleX": 2.0,
+        "scaleY": 2.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "Huldra",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/gWMN97E.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "2183d7"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 14.5033178,
+        "posY": 1.32409477,
+        "posZ": 5.15711737,
+        "rotX": 1.12240241E-05,
+        "rotY": 359.934753,
+        "rotZ": -9.718138E-06,
+        "scaleX": 2.25,
+        "scaleY": 2.25,
+        "scaleZ": 2.25
+      },
+      "Nickname": "Gathlain",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/QPHVN3J.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "5d013d"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -3.09062243,
+        "posY": 1.36585617,
+        "posZ": 6.48609829,
+        "rotX": 6.02625369E-06,
+        "rotY": 359.941071,
+        "rotZ": 5.226133E-06,
+        "scaleX": 2.5,
+        "scaleY": 2.5,
+        "scaleZ": 2.5
+      },
+      "Nickname": "Kitsune",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/CZbCVOd.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "95f5cc"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -7.707346,
+        "posY": 1.36585593,
+        "posZ": 6.00408125,
+        "rotX": -1.01052558E-06,
+        "rotY": 359.769653,
+        "rotZ": 2.58612681E-06,
+        "scaleX": 2.5,
+        "scaleY": 2.5,
+        "scaleZ": 2.5
+      },
+      "Nickname": "Adlet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/Bn9fXbK.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "b0e782"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 24.9390259,
+        "posY": 4.11089373,
+        "posZ": 20.8896141,
+        "rotX": 4.19448861E-06,
+        "rotY": 0.0343068466,
+        "rotZ": -5.87983277E-06,
+        "scaleX": 3.0,
+        "scaleY": 3.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/xOu47EF.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "02ec06"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 19.1146526,
+        "posY": 4.110894,
+        "posZ": 21.0070457,
+        "rotX": 7.27469433E-06,
+        "rotY": 359.980133,
+        "rotZ": 3.30709031E-06,
+        "scaleX": 3.0,
+        "scaleY": 3.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/UqC8raA.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "2f7349"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 30.67032,
+        "posY": 4.110894,
+        "posZ": 20.568018,
+        "rotX": -4.623669E-08,
+        "rotY": 179.966049,
+        "rotZ": 2.134129E-07,
+        "scaleX": 3.0,
+        "scaleY": 3.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/frQWzBA.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "70a258"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 13.341959,
+        "posY": 4.1109004,
+        "posZ": 19.6966782,
+        "rotX": -5.32538343E-06,
+        "rotY": 15.0171766,
+        "rotZ": 1.42644467E-05,
+        "scaleX": 3.0,
+        "scaleY": 3.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/AHGbYvF.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "b8075f"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 7.3461256,
+        "posY": 4.110894,
+        "posZ": 19.866106,
+        "rotX": -1.27068579E-05,
+        "rotY": 179.891953,
+        "rotZ": -3.083473E-07,
+        "scaleX": 3.0,
+        "scaleY": 3.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/lrAKIr8.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "a5a5d8"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -15.3967953,
+        "posY": 4.110894,
+        "posZ": 19.81738,
+        "rotX": -1.358926E-06,
+        "rotY": 0.0211332217,
+        "rotZ": 1.63281929E-05,
+        "scaleX": 3.0,
+        "scaleY": 3.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/CmlvINX.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "5848b6"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 0.344148278,
+        "posY": 4.110894,
+        "posZ": 19.2643585,
+        "rotX": -3.6066632E-07,
+        "rotY": 0.0122085065,
+        "rotZ": -1.067473E-07,
+        "scaleX": 3.0,
+        "scaleY": 3.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/1JHcvNM.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "eb2be9"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -20.5754738,
+        "posY": 4.110894,
+        "posZ": 19.5610485,
+        "rotX": -9.904449E-06,
+        "rotY": 0.0329886079,
+        "rotZ": -3.073867E-05,
+        "scaleX": 3.0,
+        "scaleY": 3.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/A7cTE5x.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "0529fc"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -10.0643682,
+        "posY": 4.110894,
+        "posZ": 19.2556686,
+        "rotX": 3.1351658E-07,
+        "rotY": 0.0289337728,
+        "rotZ": 1.88995346E-05,
+        "scaleX": 3.0,
+        "scaleY": 3.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/jU9KMyX.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "01fed3"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -4.875062,
+        "posY": 4.11089373,
+        "posZ": 19.2390366,
+        "rotX": 1.30754752E-05,
+        "rotY": 0.0244289711,
+        "rotZ": 1.67662984E-05,
+        "scaleX": 3.0,
+        "scaleY": 3.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/e1CqSde.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "177a0d"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -27.6184254,
+        "posY": 4.110894,
+        "posZ": 19.5814,
+        "rotX": 6.0040843E-06,
+        "rotY": 0.00619053375,
+        "rotZ": 2.98853865E-06,
+        "scaleX": 3.0,
+        "scaleY": 3.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/hfTYWne.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "e9a692"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -31.0320721,
+        "posY": 4.110894,
+        "posZ": 14.3005066,
+        "rotX": -6.287355E-06,
+        "rotY": -0.00319166481,
+        "rotZ": 3.208655E-07,
+        "scaleX": 3.0,
+        "scaleY": 3.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/aoLzz2N.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "f36de1"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 16.86455,
+        "posY": 1.32409465,
+        "posZ": -0.7323199,
+        "rotX": 2.10761959E-06,
+        "rotY": 0.0249158647,
+        "rotZ": -1.09918537E-05,
+        "scaleX": 2.25,
+        "scaleY": 2.25,
+        "scaleZ": 2.25
+      },
+      "Nickname": "Kami Zuishin",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/gfbxlai.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "a16877"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 5.08027744,
+        "posY": 1.40761733,
+        "posZ": -1.80191708,
+        "rotX": 1.64258586E-06,
+        "rotY": 359.9578,
+        "rotZ": -5.76362163E-06,
+        "scaleX": 2.75,
+        "scaleY": 2.75,
+        "scaleZ": 2.75
+      },
+      "Nickname": "Kami Toshigami",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/XnsK4H8.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "7dd405"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 0.404257685,
+        "posY": 1.36585593,
+        "posZ": -2.23479819,
+        "rotX": -1.87189258E-07,
+        "rotY": 179.970184,
+        "rotZ": 3.415174E-06,
+        "scaleX": 2.5,
+        "scaleY": 2.5,
+        "scaleZ": 2.5
+      },
+      "Nickname": "Changeling",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/WZrnpbb.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "cb6e51"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -4.802456,
+        "posY": 1.40761757,
+        "posZ": -1.39702463,
+        "rotX": -4.70687837E-06,
+        "rotY": 359.0924,
+        "rotZ": 4.05340461E-06,
+        "scaleX": 2.75,
+        "scaleY": 2.75,
+        "scaleZ": 2.75
+      },
+      "Nickname": "Nixie",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/1ucWN6c.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "40e14f"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -10.4770231,
+        "posY": 1.365856,
+        "posZ": -0.8951311,
+        "rotX": -3.37874044E-05,
+        "rotY": 181.4333,
+        "rotZ": 1.13135266E-05,
+        "scaleX": 2.5,
+        "scaleY": 2.5,
+        "scaleZ": 2.5
+      },
+      "Nickname": "Merfolk",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/V2FDyAJ.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "e64a7f"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -15.97071,
+        "posY": 1.40761733,
+        "posZ": -0.9049086,
+        "rotX": -7.730927E-08,
+        "rotY": 179.98642,
+        "rotZ": 9.604847E-07,
+        "scaleX": 2.75,
+        "scaleY": 2.75,
+        "scaleZ": 2.75
+      },
+      "Nickname": "Valkyrie",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/q8IbX3P.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "34c57e"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -21.451334,
+        "posY": 1.40761769,
+        "posZ": -1.01421583,
+        "rotX": -1.75858167E-05,
+        "rotY": 179.956787,
+        "rotZ": 1.24930784E-05,
+        "scaleX": 2.75,
+        "scaleY": 2.75,
+        "scaleZ": 2.75
+      },
+      "Nickname": "Azata Lyrakien",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/ZPWWHSC.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "0d3aac"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 11.1079121,
+        "posY": 1.407618,
+        "posZ": -0.589731157,
+        "rotX": -4.233908E-06,
+        "rotY": 180.019882,
+        "rotZ": 2.667417E-06,
+        "scaleX": 2.75,
+        "scaleY": 2.75,
+        "scaleZ": 2.75
+      },
+      "Nickname": "Axiomite",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/uXwQMwE.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "f2cf34"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 14.41286,
+        "posY": 1.28233361,
+        "posZ": -12.9449472,
+        "rotX": 5.17641865E-06,
+        "rotY": 359.971222,
+        "rotZ": -7.685285E-06,
+        "scaleX": 2.0,
+        "scaleY": 2.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "Kappa",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/Tf7UK2b.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "bf528f"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 17.8006077,
+        "posY": 1.240572,
+        "posZ": -13.3253565,
+        "rotX": 1.20856448E-05,
+        "rotY": 359.9682,
+        "rotZ": -1.38858741E-05,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "Jorogumo",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/WNXTzLZ.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "73384e"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 15.0074043,
+        "posY": 1.24057186,
+        "posZ": -9.536987,
+        "rotX": -5.10782229E-06,
+        "rotY": 359.960846,
+        "rotZ": -1.69670438E-05,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "Fleshwarp Irnakurse",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/EIafNF7.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "0949a0"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 20.6991577,
+        "posY": 1.19881058,
+        "posZ": -13.45916,
+        "rotX": -1.95769849E-06,
+        "rotY": 359.964264,
+        "rotZ": 6.19042657E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Harpy",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/8rHRwDY.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "b0ef1c"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 23.2000465,
+        "posY": 1.19881058,
+        "posZ": -13.79355,
+        "rotX": -1.66762384E-05,
+        "rotY": 359.98642,
+        "rotZ": -1.0776962E-05,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Succubus",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/Tyo0DVc.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "66c1f9"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 10.9299564,
+        "posY": 1.28233325,
+        "posZ": -12.767848,
+        "rotX": 3.5528883E-06,
+        "rotY": 180.014359,
+        "rotZ": 3.09539655E-06,
+        "scaleX": 2.0,
+        "scaleY": 2.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/KPbClMC.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "f13664"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 7.76054764,
+        "posY": 1.28233337,
+        "posZ": -12.81236,
+        "rotX": -1.12956659E-05,
+        "rotY": 180.007446,
+        "rotZ": 5.868978E-06,
+        "scaleX": 2.0,
+        "scaleY": 2.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "Ectoplasmic Creature",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/MzKYtAB.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "f2e2a1"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 7.48163366,
+        "posY": 1.28233337,
+        "posZ": -9.85744,
+        "rotX": -5.90617856E-06,
+        "rotY": 359.990784,
+        "rotZ": -7.57930275E-06,
+        "scaleX": 2.0,
+        "scaleY": 2.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "Argus",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/acAbAkc.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "aa6dd4"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 26.0778637,
+        "posY": 1.1988107,
+        "posZ": -14.08106,
+        "rotX": -2.06869372E-05,
+        "rotY": 179.9661,
+        "rotZ": 4.72838146E-05,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Dark Dancer",
+      "Description": "needs to be fixed",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/bYTz2hi.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "5b1b3d"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 4.154673,
+        "posY": 1.28233349,
+        "posZ": -9.814294,
+        "rotX": 1.18745831E-07,
+        "rotY": 359.968658,
+        "rotZ": 1.06638005E-07,
+        "scaleX": 2.0,
+        "scaleY": 2.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "Attic Whisper",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/mxhhbWC.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "f8ab8b"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 4.183648,
+        "posY": 1.28233385,
+        "posZ": -12.6572742,
+        "rotX": -2.69691867E-07,
+        "rotY": 359.968964,
+        "rotZ": 1.27326018E-06,
+        "scaleX": 2.0,
+        "scaleY": 2.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "Comozant Wyrd",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/RJkvA8Q.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "6ad090"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 0.254648,
+        "posY": 1.28233361,
+        "posZ": -12.0913048,
+        "rotX": -3.046366E-07,
+        "rotY": 359.981079,
+        "rotZ": 1.702423E-06,
+        "scaleX": 2.0,
+        "scaleY": 2.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "Yuki-Onna",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/DIhBsd9.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "62d624"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -3.370951,
+        "posY": 1.28226256,
+        "posZ": -12.5497351,
+        "rotX": 359.9935,
+        "rotY": 358.9159,
+        "rotZ": -0.00197325321,
+        "scaleX": 2.0,
+        "scaleY": 2.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/9BrtzHC.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "23a558"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -3.23548746,
+        "posY": 1.54955471,
+        "posZ": -9.986417,
+        "rotX": 350.652161,
+        "rotY": 190.35968,
+        "rotZ": 358.1214,
+        "scaleX": 2.0,
+        "scaleY": 2.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "Bebilith",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/0P7y7oe.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "ad3a9c"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -7.337677,
+        "posY": 1.28233373,
+        "posZ": -9.382208,
+        "rotX": 1.79925257E-06,
+        "rotY": 356.6292,
+        "rotZ": 7.2092E-06,
+        "scaleX": 2.0,
+        "scaleY": 2.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "Bone Devil",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/xK9l5Yi.png?1",
+        "WidthScale": 0.0
+      },
+      "GUID": "383224"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -7.048492,
+        "posY": 1.28233314,
+        "posZ": -12.5687056,
+        "rotX": -9.71782E-06,
+        "rotY": -0.0041673216,
+        "rotZ": 7.48576042E-07,
+        "scaleX": 2.0,
+        "scaleY": 2.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/jAJ3s65.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "427154"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -10.4719553,
+        "posY": 1.28233337,
+        "posZ": -9.84699,
+        "rotX": 3.75009813E-06,
+        "rotY": 359.977234,
+        "rotZ": -1.64359153E-05,
+        "scaleX": 2.0,
+        "scaleY": 2.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "Owb",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/agjGao7.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "ab027b"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -10.4504642,
+        "posY": 1.28233385,
+        "posZ": -12.8137941,
+        "rotX": 9.669321E-07,
+        "rotY": -0.00294006779,
+        "rotZ": -3.703245E-05,
+        "scaleX": 2.0,
+        "scaleY": 2.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/XuHP5hb.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "3390e5"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -13.7524891,
+        "posY": 1.24142361,
+        "posZ": -12.5753574,
+        "rotX": -1.35468563E-05,
+        "rotY": 0.288815171,
+        "rotZ": 0.04109436,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/P8xvluj.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "2506f8"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -13.83331,
+        "posY": 1.240572,
+        "posZ": -9.581448,
+        "rotX": -3.493674E-06,
+        "rotY": 359.959,
+        "rotZ": 3.6297447E-06,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "Shimigami",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/dRNdWGi.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "085086"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -16.8700676,
+        "posY": 1.24057245,
+        "posZ": -12.7167206,
+        "rotX": 7.353498E-06,
+        "rotY": 0.2884861,
+        "rotZ": -3.076099E-06,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "Festering Spirit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/C7TFm8A.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "a9d2db"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -24.0594769,
+        "posY": 1.24057186,
+        "posZ": -13.0272789,
+        "rotX": -2.181141E-05,
+        "rotY": 0.008112664,
+        "rotZ": 7.789149E-06,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "Devilbound Creature",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/UhrqpLC.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "649dd4"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -18.1303062,
+        "posY": 1.24057138,
+        "posZ": -10.0456238,
+        "rotX": 2.25938184E-05,
+        "rotY": 179.9914,
+        "rotZ": -8.43274847E-06,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "Shea",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/r92iARm.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "fdac07"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -20.4862862,
+        "posY": 1.19881058,
+        "posZ": -12.8146009,
+        "rotX": 1.28027586E-05,
+        "rotY": 179.916092,
+        "rotZ": 2.94457568E-05,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Aranea",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/y5opdeQ.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "a8e0a6"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 0.3004089,
+        "posY": 1.240572,
+        "posZ": -8.860673,
+        "rotX": 1.42707279E-07,
+        "rotY": 359.9863,
+        "rotZ": -1.98180933E-11,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "Gibbering Mouther",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/W5t8PTf.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "c4309b"
+    }
+  ]
+}

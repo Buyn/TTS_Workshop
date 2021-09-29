@@ -1,0 +1,7667 @@
+{
+  "SaveName": "Battleship: The Tactical Combat Game",
+  "GameMode": "Battleship",
+  "Date": "5/22/2015 9:30:02 PM",
+  "Table": "Table_RPG",
+  "Sky": "Sky_Downtown",
+  "Note": "The goal of Battleship is to destroy all the other person's ships before they destroy yours!\n\r\nThe board to the right is used for locating enemy ships, and the board to the left is to place your own.\r\n\n[u][b][00ff00]How to play[-][/b][/u]                     \r\n\nBoth players need to set up their boards, placing each ship on their board.\n\nPick a person to go first (flip a coin)\n\nIf you go first, pick a coordinate (eg: A3), the other player must say \"Hit\" or \"Miss\", if you hit, place a red marker on the Hit board, if not, place a white one. You may need a third person to be the 'Game Master' and watch over the game\n\r\nThese rules are based on the standard Hasbro Battleship, but most variants such as SALVO will work just fine.\r\n\nThe first person to destroy all the other ships wins.\n\n\n\n \n\n\n Have funsssd",
+  "Rules": "",
+  "PlayerTurn": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": true,
+    "Snapping": true,
+    "Offset": true,
+    "xSize": 0.74655,
+    "ySize": 0.7369
+  },
+  "DrawImage": "iVBORw0KGgoAAAANSUhEUgAAAWAAAADQCAYAAAA53LuNAAAFFElEQVR4Ae3QgQAAAADDoPlTH+SFUGHAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgy8DQx5DAABHyNK3wAAAABJRU5ErkJggg==",
+  "ObjectStates": [
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -18.1446362,
+        "posY": 1.055184,
+        "posZ": 2.64189243,
+        "rotX": 359.935455,
+        "rotY": 137.663925,
+        "rotZ": 359.709778,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.86031276,
+        "g": 0.86031276,
+        "b": 0.86031276
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "574ed7"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -19.9982948,
+        "posY": 0.319057,
+        "posZ": 9.638432,
+        "rotX": 2.19491558E-05,
+        "rotY": 359.97052,
+        "rotZ": 6.037835E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921626,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": true,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=WQmLhUC8",
+        "DiffuseURL": "http://i.imgur.com/OsmH50o.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=TAs2p4en",
+        "Convex": false,
+        "MaterialIndex": 0,
+        "TypeIndex": 4
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 1.0,
+        "DynamicFriction": 1.0,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 5.0,
+        "Drag": 5.0,
+        "AngularDrag": 100.0,
+        "UseGravity": true
+      },
+      "GUID": "ef2d52"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -16.946867,
+        "posY": 1.0546124,
+        "posZ": 3.30042624,
+        "rotX": -0.0005842697,
+        "rotY": 0.106120341,
+        "rotZ": -0.0005573319,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "c9633f"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -19.038578,
+        "posY": 1.48513865,
+        "posZ": 1.86792207,
+        "rotX": 352.567139,
+        "rotY": 125.318275,
+        "rotZ": 356.1904,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "54d18f"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -18.379137,
+        "posY": 1.05616689,
+        "posZ": 2.713318,
+        "rotX": 0.7589445,
+        "rotY": 207.707672,
+        "rotZ": 359.263855,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "5609ca"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -18.1197453,
+        "posY": 1.05447984,
+        "posZ": 2.90402651,
+        "rotX": 359.529816,
+        "rotY": 182.941483,
+        "rotZ": 359.936951,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "cfd229"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -18.9156055,
+        "posY": 1.06366479,
+        "posZ": 3.34176469,
+        "rotX": 357.7748,
+        "rotY": 79.76139,
+        "rotZ": 3.567781,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "7f2ed9"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -17.9199181,
+        "posY": 1.05442429,
+        "posZ": 2.72830129,
+        "rotX": 0.0513335429,
+        "rotY": 183.611481,
+        "rotZ": 359.2581,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "003736"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -18.8529186,
+        "posY": 1.05657113,
+        "posZ": 2.46751428,
+        "rotX": 1.50747335,
+        "rotY": 158.441818,
+        "rotZ": 359.8516,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "990f7d"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -17.7050114,
+        "posY": 1.0563612,
+        "posZ": 3.347092,
+        "rotX": 0.496785969,
+        "rotY": 178.151688,
+        "rotZ": 359.672058,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "f1e1fd"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -18.6045284,
+        "posY": 1.064109,
+        "posZ": 1.7722553,
+        "rotX": 0.416245431,
+        "rotY": 62.5490761,
+        "rotZ": 354.5126,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "2e9240"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -17.9429264,
+        "posY": 1.05461156,
+        "posZ": 3.07502222,
+        "rotX": 0.000295108242,
+        "rotY": 233.64006,
+        "rotZ": 0.000230738166,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "5df2a3"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -18.2912827,
+        "posY": 1.05460882,
+        "posZ": 2.34426928,
+        "rotX": 0.00018124943,
+        "rotY": 109.990379,
+        "rotZ": -0.000166160637,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "4c8def"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -17.4777565,
+        "posY": 1.05454493,
+        "posZ": 3.29761934,
+        "rotX": 359.932,
+        "rotY": 42.4146233,
+        "rotZ": 0.05846431,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "387b98"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -18.9326839,
+        "posY": 1.054141,
+        "posZ": 2.11824846,
+        "rotX": 1.106229,
+        "rotY": 256.838745,
+        "rotZ": 359.021637,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "906707"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -18.52343,
+        "posY": 1.05460882,
+        "posZ": 2.50162244,
+        "rotX": 0.000335816119,
+        "rotY": 187.548859,
+        "rotZ": 0.000101607555,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "cfaeb3"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -17.92657,
+        "posY": 1.05617845,
+        "posZ": 3.325112,
+        "rotX": 0.622884631,
+        "rotY": 159.984772,
+        "rotZ": 359.585571,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "28dec2"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -18.4243965,
+        "posY": 1.05470335,
+        "posZ": 1.89837945,
+        "rotX": 0.232891768,
+        "rotY": 218.383041,
+        "rotZ": 0.154758081,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "5af12f"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -18.2348347,
+        "posY": 1.0544802,
+        "posZ": 3.17627072,
+        "rotX": 359.4217,
+        "rotY": 152.835114,
+        "rotZ": 359.689819,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "d93d46"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -18.6705418,
+        "posY": 1.0543828,
+        "posZ": 2.00200176,
+        "rotX": 359.70816,
+        "rotY": 21.4315128,
+        "rotZ": 359.483917,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "5d604d"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -17.1484032,
+        "posY": 1.05461085,
+        "posZ": 3.18096924,
+        "rotX": 0.001005425,
+        "rotY": 225.883209,
+        "rotZ": -0.00168917282,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "aacae4"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -19.4713459,
+        "posY": 1.06401658,
+        "posZ": 1.69734967,
+        "rotX": 6.08404064,
+        "rotY": 54.9065247,
+        "rotZ": 0.14536643,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "67b7b9"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -17.3636322,
+        "posY": 0.94893,
+        "posZ": 3.522443,
+        "rotX": -1.960764E-06,
+        "rotY": 169.443359,
+        "rotZ": 2.380836E-07,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "4cf0e3"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -19.4338512,
+        "posY": 1.47602427,
+        "posZ": 2.35915518,
+        "rotX": 355.4089,
+        "rotY": 135.55864,
+        "rotZ": 10.89661,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "649336"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -17.6773319,
+        "posY": 1.05461144,
+        "posZ": 3.05557227,
+        "rotX": 0.000104433704,
+        "rotY": 89.39604,
+        "rotZ": -0.0001930715,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "7a3752"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -19.0751534,
+        "posY": 1.0545752,
+        "posZ": 2.61476851,
+        "rotX": 0.177687466,
+        "rotY": 315.178467,
+        "rotZ": 359.8357,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "04b2ab"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -17.9708767,
+        "posY": 1.48531377,
+        "posZ": 2.715226,
+        "rotX": 347.877228,
+        "rotY": 91.1249542,
+        "rotZ": 356.833618,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "189bc8"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -18.3924427,
+        "posY": 1.05460727,
+        "posZ": 2.13835669,
+        "rotX": 0.000225468728,
+        "rotY": 120.581871,
+        "rotZ": -0.00016328723,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "4a5b7a"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -17.7366886,
+        "posY": 1.05460846,
+        "posZ": 2.44595957,
+        "rotX": 7.244531E-05,
+        "rotY": 85.4541,
+        "rotZ": -0.000209426216,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "298333"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -19.0075569,
+        "posY": 1.05476344,
+        "posZ": 1.60712886,
+        "rotX": 0.17205739,
+        "rotY": 185.104752,
+        "rotZ": 359.6876,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "f78cfc"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -17.2618027,
+        "posY": 1.05461121,
+        "posZ": 2.98079062,
+        "rotX": 0.000467522681,
+        "rotY": 190.526367,
+        "rotZ": 0.00158947846,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "5af26f"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -17.9076176,
+        "posY": 1.05460656,
+        "posZ": 2.14489484,
+        "rotX": 3.300159E-05,
+        "rotY": 288.614166,
+        "rotZ": 0.000283599657,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "304f26"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -17.5479965,
+        "posY": 1.05460906,
+        "posZ": 2.57969666,
+        "rotX": 0.000298958184,
+        "rotY": 149.4221,
+        "rotZ": -6.763129E-05,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "e62fe0"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -17.95858,
+        "posY": 1.05465961,
+        "posZ": 2.5086925,
+        "rotX": 0.01805673,
+        "rotY": 4.76467228,
+        "rotZ": 0.2693407,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "a602b4"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -18.3488884,
+        "posY": 1.05465209,
+        "posZ": 2.92671132,
+        "rotX": 359.265625,
+        "rotY": 20.4102745,
+        "rotZ": 359.659973,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "685e6d"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -19.6655369,
+        "posY": 1.05721653,
+        "posZ": 1.62957311,
+        "rotX": 359.907379,
+        "rotY": 52.63521,
+        "rotZ": 1.61660147,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "595982"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -18.7706966,
+        "posY": 1.05427432,
+        "posZ": 2.95598578,
+        "rotX": 0.248374522,
+        "rotY": 132.613541,
+        "rotZ": 0.34066093,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "c43a82"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -19.2620182,
+        "posY": 1.05473721,
+        "posZ": 2.20298815,
+        "rotX": 359.8217,
+        "rotY": 175.444931,
+        "rotZ": 0.3522741,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "aaf84f"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -19.0726528,
+        "posY": 1.05466735,
+        "posZ": 2.347052,
+        "rotX": 0.02911054,
+        "rotY": 133.898758,
+        "rotZ": 359.9264,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "5128a1"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -18.96512,
+        "posY": 1.0558964,
+        "posZ": 1.85746622,
+        "rotX": 359.243,
+        "rotY": 127.345848,
+        "rotZ": 0.172179431,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "23c8f7"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -18.7999554,
+        "posY": 1.05472112,
+        "posZ": 1.69250071,
+        "rotX": 1.06003392,
+        "rotY": 76.73775,
+        "rotZ": 0.474163473,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "ddc16c"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -19.1662083,
+        "posY": 1.054413,
+        "posZ": 2.89979029,
+        "rotX": 359.4231,
+        "rotY": 129.9942,
+        "rotZ": 0.5143753,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "fb354a"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -19.7866688,
+        "posY": 1.054606,
+        "posZ": 1.84549975,
+        "rotX": 0.0003098174,
+        "rotY": 147.082092,
+        "rotZ": -9.244189E-05,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "fed715"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -18.2847347,
+        "posY": 1.47752547,
+        "posZ": 2.84977031,
+        "rotX": 6.370561,
+        "rotY": 184.264725,
+        "rotZ": 9.51454449,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "9df538"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -18.5697956,
+        "posY": 1.05352354,
+        "posZ": 2.8324163,
+        "rotX": 358.755859,
+        "rotY": 231.209061,
+        "rotZ": 359.8746,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "73436a"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -19.55717,
+        "posY": 1.05448413,
+        "posZ": 2.47106552,
+        "rotX": 0.06745736,
+        "rotY": 179.1718,
+        "rotZ": 0.375083357,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "25a00f"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -19.2994175,
+        "posY": 1.05465829,
+        "posZ": 2.465443,
+        "rotX": 359.393219,
+        "rotY": 89.57547,
+        "rotZ": 359.95575,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "a68c73"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -19.0158863,
+        "posY": 1.46178389,
+        "posZ": 2.16731858,
+        "rotX": 11.1324511,
+        "rotY": 247.827728,
+        "rotZ": 339.549042,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "45b9fa"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -19.14844,
+        "posY": 1.05479228,
+        "posZ": 2.01237369,
+        "rotX": 0.279863954,
+        "rotY": 256.167938,
+        "rotZ": 0.380471826,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "84ea4c"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -19.049181,
+        "posY": 1.05521154,
+        "posZ": 3.085838,
+        "rotX": 0.0312240571,
+        "rotY": 22.33311,
+        "rotZ": 359.834839,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "3b7389"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -18.5298748,
+        "posY": 1.05526972,
+        "posZ": 3.06936526,
+        "rotX": 0.447796851,
+        "rotY": 108.361763,
+        "rotZ": 0.141088992,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "10f35f"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -19.3894424,
+        "posY": 1.05462027,
+        "posZ": 1.93454063,
+        "rotX": 0.140948027,
+        "rotY": 179.087036,
+        "rotZ": 359.9311,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "2ed8b6"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 20.8337879,
+        "posY": 0.319051981,
+        "posZ": -8.159662,
+        "rotX": 1.09265447E-05,
+        "rotY": 179.838745,
+        "rotZ": -1.86115158E-05,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921628,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": true,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=WQmLhUC8",
+        "DiffuseURL": "http://i.imgur.com/OsmH50o.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=TAs2p4en",
+        "Convex": false,
+        "MaterialIndex": 0,
+        "TypeIndex": 4
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 1.0,
+        "DynamicFriction": 1.0,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 5.0,
+        "Drag": 5.0,
+        "AngularDrag": 100.0,
+        "UseGravity": true
+      },
+      "GUID": "bc6021"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -22.3377533,
+        "posY": 1.05453038,
+        "posZ": 3.15611625,
+        "rotX": 359.96637,
+        "rotY": 45.2810745,
+        "rotZ": 0.05976549,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "195d0b"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -22.0143948,
+        "posY": 1.05755091,
+        "posZ": 2.29784918,
+        "rotX": 1.75676191,
+        "rotY": 118.524437,
+        "rotZ": 0.270043045,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "bb21e3"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -22.0138283,
+        "posY": 1.06021917,
+        "posZ": 2.544199,
+        "rotX": 356.109924,
+        "rotY": 82.73484,
+        "rotZ": 359.987823,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "83c55d"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -22.5114079,
+        "posY": 1.054697,
+        "posZ": 3.01756358,
+        "rotX": 359.9892,
+        "rotY": 53.9941368,
+        "rotZ": 359.961945,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "27762f"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -22.03358,
+        "posY": 1.05532777,
+        "posZ": 1.61086726,
+        "rotX": 0.201405361,
+        "rotY": 88.42546,
+        "rotZ": 0.1338531,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "de17a8"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -21.85522,
+        "posY": 1.07353759,
+        "posZ": 2.73548579,
+        "rotX": 0.4593253,
+        "rotY": 44.92414,
+        "rotZ": 348.223724,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "2845db"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -21.66819,
+        "posY": 1.071678,
+        "posZ": 2.46303344,
+        "rotX": 359.7897,
+        "rotY": 189.825241,
+        "rotZ": 11.4195852,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "c629fd"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -21.7973213,
+        "posY": 1.05460751,
+        "posZ": 2.21404028,
+        "rotX": -0.0005381331,
+        "rotY": 94.75294,
+        "rotZ": 0.00043429443,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "98f983"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -22.15735,
+        "posY": 1.05431044,
+        "posZ": 2.728927,
+        "rotX": 0.5134917,
+        "rotY": 144.298721,
+        "rotZ": 0.158066362,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "d89380"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -21.98852,
+        "posY": 1.05445218,
+        "posZ": 2.87847,
+        "rotX": 359.698517,
+        "rotY": 134.185883,
+        "rotZ": 359.845856,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "f17845"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -22.3794842,
+        "posY": 1.054794,
+        "posZ": 2.164555,
+        "rotX": 359.2064,
+        "rotY": 157.741257,
+        "rotZ": 0.158743858,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "b4058d"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -21.9897652,
+        "posY": 1.05470037,
+        "posZ": 2.05009079,
+        "rotX": 0.009401664,
+        "rotY": 191.428131,
+        "rotZ": 0.231339812,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "0cede4"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -21.5338459,
+        "posY": 1.05460489,
+        "posZ": 1.80315089,
+        "rotX": 0.000113834671,
+        "rotY": 273.170654,
+        "rotZ": 0.0003034853,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "f49f65"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -21.2751675,
+        "posY": 1.05460572,
+        "posZ": 1.83989477,
+        "rotX": 0.000193492669,
+        "rotY": 253.331467,
+        "rotZ": 0.000280668057,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "9fc9e5"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 23.10183,
+        "posY": 1.48221946,
+        "posZ": -1.326265,
+        "rotX": 1.86948359,
+        "rotY": 321.4365,
+        "rotZ": 350.476257,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "dcfa1e"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -21.8325348,
+        "posY": 1.05460584,
+        "posZ": 1.86975861,
+        "rotX": 0.000346534,
+        "rotY": 160.899033,
+        "rotZ": -3.1309286E-05,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "c26daa"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -22.447794,
+        "posY": 1.05461,
+        "posZ": 2.79863,
+        "rotX": 0.000178870381,
+        "rotY": 259.943237,
+        "rotZ": 0.000288363168,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "5ddf15"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -22.4394188,
+        "posY": 1.05436218,
+        "posZ": 1.91856265,
+        "rotX": 0.05617083,
+        "rotY": 11.6805639,
+        "rotZ": 359.742523,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "39733a"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -22.35746,
+        "posY": 1.054627,
+        "posZ": 2.56035972,
+        "rotX": 359.982971,
+        "rotY": 54.5534668,
+        "rotZ": 359.9894,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "332d13"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -22.2352543,
+        "posY": 1.053872,
+        "posZ": 2.37198186,
+        "rotX": 359.691681,
+        "rotY": 54.9023476,
+        "rotZ": 358.987854,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "c381ef"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -21.9989357,
+        "posY": 1.47192287,
+        "posZ": 2.77971435,
+        "rotX": 15.9999065,
+        "rotY": 147.086075,
+        "rotZ": 354.6007,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "0fd5ea"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -21.7917747,
+        "posY": 1.05460691,
+        "posZ": 2.984519,
+        "rotX": 0.00435119169,
+        "rotY": 64.2249756,
+        "rotZ": 0.00109133334,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "599a36"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -22.2233963,
+        "posY": 1.23154664,
+        "posZ": 2.01397157,
+        "rotX": 5.786947,
+        "rotY": 237.604,
+        "rotZ": 0.205290452,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "3c3566"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -21.8420677,
+        "posY": 1.25132728,
+        "posZ": 2.47406077,
+        "rotX": 353.1212,
+        "rotY": 15.72468,
+        "rotZ": 353.378052,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "f1ffba"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -22.07804,
+        "posY": 1.05433369,
+        "posZ": 1.84610653,
+        "rotX": 359.968384,
+        "rotY": 118.526474,
+        "rotZ": 0.18407838,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "c210c3"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -22.7522259,
+        "posY": 1.06712747,
+        "posZ": 2.35724449,
+        "rotX": 359.888245,
+        "rotY": 135.3351,
+        "rotZ": 8.243405,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "54eb18"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -22.8526173,
+        "posY": 1.07502973,
+        "posZ": 2.726178,
+        "rotX": 0.02227837,
+        "rotY": 82.32379,
+        "rotZ": 12.8773756,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "bdc647"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -22.602951,
+        "posY": 1.05452025,
+        "posZ": 2.5801816,
+        "rotX": 0.005317849,
+        "rotY": 51.88667,
+        "rotZ": 359.907562,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "2b50b3"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -23.099123,
+        "posY": 1.054081,
+        "posZ": 2.35003972,
+        "rotX": 0.417752922,
+        "rotY": 210.44249,
+        "rotZ": 0.0271603316,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "e61262"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -23.07542,
+        "posY": 1.05597341,
+        "posZ": 2.62767482,
+        "rotX": 359.715576,
+        "rotY": 163.285721,
+        "rotZ": 359.245,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "7a9468"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -22.8254471,
+        "posY": 1.22731018,
+        "posZ": 2.5513413,
+        "rotX": 352.052338,
+        "rotY": 164.38829,
+        "rotZ": 352.370453,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "76aee5"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -23.2985439,
+        "posY": 1.05703723,
+        "posZ": 2.59757757,
+        "rotX": 0.181803778,
+        "rotY": 64.23721,
+        "rotZ": 1.29563642,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "160039"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -22.7416534,
+        "posY": 1.05466068,
+        "posZ": 2.98510265,
+        "rotX": 359.953552,
+        "rotY": 142.060028,
+        "rotZ": 359.9622,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "a6fe9b"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -22.3054,
+        "posY": 1.482083,
+        "posZ": 2.35193086,
+        "rotX": 349.047638,
+        "rotY": 86.27589,
+        "rotZ": 356.057831,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "189a5a"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -22.5951614,
+        "posY": 1.054695,
+        "posZ": 2.10971951,
+        "rotX": 0.123498037,
+        "rotY": 100.113449,
+        "rotZ": 359.631927,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "3bfc3e"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -22.916,
+        "posY": 1.05461144,
+        "posZ": 3.16882157,
+        "rotX": -3.84684463E-05,
+        "rotY": 279.704376,
+        "rotZ": 0.000265051931,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "e4369d"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -21.2730923,
+        "posY": 1.05461,
+        "posZ": 2.57006931,
+        "rotX": 0.00021637691,
+        "rotY": 255.667648,
+        "rotZ": 0.000407132931,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "f5eba2"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -21.0559349,
+        "posY": 1.05460739,
+        "posZ": 2.327123,
+        "rotX": 0.000319889979,
+        "rotY": 196.177811,
+        "rotZ": 0.000104019651,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "2db24a"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -22.9501324,
+        "posY": 1.05587411,
+        "posZ": 2.02492762,
+        "rotX": 1.216384,
+        "rotY": 132.400818,
+        "rotZ": 0.111756645,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "46298e"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -22.9176044,
+        "posY": 1.13843918,
+        "posZ": 2.23665881,
+        "rotX": 353.423981,
+        "rotY": 212.6928,
+        "rotZ": 3.073591,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "08eab7"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -22.4749565,
+        "posY": 1.05536461,
+        "posZ": 2.367799,
+        "rotX": 0.4942718,
+        "rotY": 324.089,
+        "rotZ": 359.9449,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "7725b0"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -22.5225182,
+        "posY": 1.480668,
+        "posZ": 2.07408643,
+        "rotX": 352.400848,
+        "rotY": 256.0398,
+        "rotZ": 8.846784,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "c531bd"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -22.743248,
+        "posY": 1.05460536,
+        "posZ": 1.81123054,
+        "rotX": 0.000352509785,
+        "rotY": 177.5261,
+        "rotZ": 3.73488656E-05,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "4c0cd0"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -21.28617,
+        "posY": 1.05460787,
+        "posZ": 2.258453,
+        "rotX": 0.0003844907,
+        "rotY": 200.75798,
+        "rotZ": 0.00012141512,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382591,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "275ccb"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -19.3166065,
+        "posY": 1.0539397,
+        "posZ": 2.727883,
+        "rotX": 359.6502,
+        "rotY": 248.184982,
+        "rotZ": 0.39713496,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860316932,
+        "g": 0.860316932,
+        "b": 0.860316932
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "dd36f8"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -19.33436,
+        "posY": 1.1000104,
+        "posZ": 3.05401874,
+        "rotX": 0.07224037,
+        "rotY": 302.0178,
+        "rotZ": 331.685822,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860316932,
+        "g": 0.860316932,
+        "b": 0.860316932
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "30f61f"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -19.18626,
+        "posY": 1.05430436,
+        "posZ": 1.77172959,
+        "rotX": 0.141538933,
+        "rotY": 150.066589,
+        "rotZ": 0.197282672,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860316932,
+        "g": 0.860316932,
+        "b": 0.860316932
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "014dbf"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -18.3622456,
+        "posY": 1.054605,
+        "posZ": 1.65525687,
+        "rotX": -7.234193E-05,
+        "rotY": 279.186829,
+        "rotZ": 0.000221742332,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860316932,
+        "g": 0.860316932,
+        "b": 0.860316932
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "26ca69"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -18.7830486,
+        "posY": 1.49442816,
+        "posZ": 1.69880843,
+        "rotX": 354.879517,
+        "rotY": 297.410858,
+        "rotZ": 0.737463653,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860316932,
+        "g": 0.860316932,
+        "b": 0.860316932
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "f84450"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -18.1947384,
+        "posY": 1.05477357,
+        "posZ": 1.86509466,
+        "rotX": 0.111086033,
+        "rotY": 28.9859066,
+        "rotZ": 359.9567,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860316932,
+        "g": 0.860316932,
+        "b": 0.860316932
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "2dd770"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -18.6425037,
+        "posY": 1.47367013,
+        "posZ": 1.92374885,
+        "rotX": 357.214661,
+        "rotY": 252.829269,
+        "rotZ": 17.290102,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860316932,
+        "g": 0.860316932,
+        "b": 0.860316932
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "153e57"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -19.0024338,
+        "posY": 1.46858716,
+        "posZ": 2.57048821,
+        "rotX": 337.7078,
+        "rotY": 305.161957,
+        "rotZ": 359.271881,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860316932,
+        "g": 0.860316932,
+        "b": 0.860316932
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "d68694"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -18.8148289,
+        "posY": 1.2339952,
+        "posZ": 3.16131258,
+        "rotX": 358.744232,
+        "rotY": 248.293167,
+        "rotZ": 355.558472,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860316932,
+        "g": 0.860316932,
+        "b": 0.860316932
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "d47eef"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -18.4245014,
+        "posY": 1.05464852,
+        "posZ": 3.31311536,
+        "rotX": 359.818878,
+        "rotY": 294.042725,
+        "rotZ": 0.197256759,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860316932,
+        "g": 0.860316932,
+        "b": 0.860316932
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "cdeac6"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -19.98638,
+        "posY": 1.05460727,
+        "posZ": 2.23457861,
+        "rotX": -4.334311E-05,
+        "rotY": 253.9677,
+        "rotZ": 0.0002559288,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860316932,
+        "g": 0.860316932,
+        "b": 0.860316932
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "79bbb9"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -18.65869,
+        "posY": 1.05689144,
+        "posZ": 3.35737944,
+        "rotX": 358.9383,
+        "rotY": 3.37433124,
+        "rotZ": 359.15332,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860316932,
+        "g": 0.860316932,
+        "b": 0.860316932
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "0e0c4a"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -19.6141224,
+        "posY": 1.05460668,
+        "posZ": 2.02113032,
+        "rotX": 0.000258521468,
+        "rotY": 168.025543,
+        "rotZ": 0.000106842606,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860316932,
+        "g": 0.860316932,
+        "b": 0.860316932
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "e71e47"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -18.3589668,
+        "posY": 1.47279942,
+        "posZ": 3.141314,
+        "rotX": 349.315125,
+        "rotY": 85.38775,
+        "rotZ": 2.84169459,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860316932,
+        "g": 0.860316932,
+        "b": 0.860316932
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "203c6f"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -19.7641068,
+        "posY": 1.05460751,
+        "posZ": 2.22404456,
+        "rotX": 6.321126E-05,
+        "rotY": 257.802551,
+        "rotZ": 0.000232705745,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860316932,
+        "g": 0.860316932,
+        "b": 0.860316932
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "50aba2"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -19.4898434,
+        "posY": 1.0526185,
+        "posZ": 2.93469143,
+        "rotX": 0.3616898,
+        "rotY": 22.70397,
+        "rotZ": 359.482971,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860316932,
+        "g": 0.860316932,
+        "b": 0.860316932
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "ccbc77"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -19.2490788,
+        "posY": 1.46448779,
+        "posZ": 2.55320287,
+        "rotX": 347.01123,
+        "rotY": 159.555145,
+        "rotZ": 15.9469585,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860316932,
+        "g": 0.860316932,
+        "b": 0.860316932
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "1b30eb"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -18.8530045,
+        "posY": 1.05459487,
+        "posZ": 2.69501257,
+        "rotX": 0.0028408668,
+        "rotY": 247.659927,
+        "rotZ": 359.9457,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860316932,
+        "g": 0.860316932,
+        "b": 0.860316932
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "00f5ae"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -18.6175556,
+        "posY": 1.05460787,
+        "posZ": 2.2671392,
+        "rotX": -0.000118849108,
+        "rotY": 18.6026325,
+        "rotZ": -1.51292106E-05,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860316932,
+        "g": 0.860316932,
+        "b": 0.860316932
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "d5d316"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -18.5163345,
+        "posY": 1.47905231,
+        "posZ": 2.89579272,
+        "rotX": 12.1184444,
+        "rotY": 74.2147751,
+        "rotZ": 3.38017917,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860316932,
+        "g": 0.860316932,
+        "b": 0.860316932
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "e4116f"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -19.4759254,
+        "posY": 1.05409682,
+        "posZ": 2.26329684,
+        "rotX": 0.09621767,
+        "rotY": 262.638031,
+        "rotZ": 0.288064927,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860316932,
+        "g": 0.860316932,
+        "b": 0.860316932
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "7794c9"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -19.5470352,
+        "posY": 1.05460954,
+        "posZ": 2.69782162,
+        "rotX": 0.000161673539,
+        "rotY": 276.901276,
+        "rotZ": 0.0003341488,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860316932,
+        "g": 0.860316932,
+        "b": 0.860316932
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "0fbbc6"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 18.7161751,
+        "posY": 1.11489487,
+        "posZ": -0.3956114,
+        "rotX": 5.73165131,
+        "rotY": 39.66791,
+        "rotZ": 7.104137,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "d30787"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.4913483,
+        "posY": 1.061676,
+        "posZ": -1.839125,
+        "rotX": 359.972382,
+        "rotY": 254.669861,
+        "rotZ": 4.348344,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "405901"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.05309,
+        "posY": 1.06121969,
+        "posZ": -0.7818268,
+        "rotX": 4.61506128,
+        "rotY": 32.21695,
+        "rotZ": 359.742279,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "045108"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.3058014,
+        "posY": 1.05602217,
+        "posZ": -1.68729436,
+        "rotX": 359.956177,
+        "rotY": 303.967957,
+        "rotZ": 0.6853298,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "8e9232"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 18.6024818,
+        "posY": 1.06856692,
+        "posZ": -0.5611763,
+        "rotX": 353.700256,
+        "rotY": 205.80603,
+        "rotZ": 359.8688,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "877746"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.60209,
+        "posY": 1.05396628,
+        "posZ": -1.629583,
+        "rotX": 0.615406036,
+        "rotY": 331.685669,
+        "rotZ": 2.98693824,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "cd373e"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 18.5742283,
+        "posY": 1.0492487,
+        "posZ": -0.7631903,
+        "rotX": 0.4588044,
+        "rotY": 35.2217331,
+        "rotZ": 3.40619636,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "e3926a"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.42009,
+        "posY": 1.05885053,
+        "posZ": -1.50123978,
+        "rotX": 359.753845,
+        "rotY": 26.185751,
+        "rotZ": 2.41421628,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "00767c"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 18.9114056,
+        "posY": 1.05905449,
+        "posZ": -0.318168074,
+        "rotX": 3.19705367,
+        "rotY": 66.35872,
+        "rotZ": 359.141541,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "3767eb"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.1251373,
+        "posY": 1.05369163,
+        "posZ": -1.8461926,
+        "rotX": 358.398438,
+        "rotY": 24.3346176,
+        "rotZ": 1.72813439,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "e2b101"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.0246239,
+        "posY": 1.05452943,
+        "posZ": -1.18821061,
+        "rotX": 359.227448,
+        "rotY": 309.184265,
+        "rotZ": 359.704834,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "e5b5e0"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 18.75945,
+        "posY": 1.05871892,
+        "posZ": -0.139571339,
+        "rotX": 2.15153384,
+        "rotY": 246.889023,
+        "rotZ": 359.758484,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "945965"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 18.76356,
+        "posY": 1.05267143,
+        "posZ": -1.65034068,
+        "rotX": 358.678467,
+        "rotY": 267.835327,
+        "rotZ": 359.8257,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "7f6747"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.4376926,
+        "posY": 1.059571,
+        "posZ": -0.6505851,
+        "rotX": 2.68267965,
+        "rotY": 34.7079659,
+        "rotZ": 0.158925518,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "58eff2"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.1551819,
+        "posY": 1.05734742,
+        "posZ": -1.52167618,
+        "rotX": 359.784271,
+        "rotY": 296.005829,
+        "rotZ": 1.833837,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "796d20"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.3012543,
+        "posY": 1.05367148,
+        "posZ": -0.8180912,
+        "rotX": 0.06235145,
+        "rotY": 216.167984,
+        "rotZ": 359.133179,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "78d5fa"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 18.41147,
+        "posY": 1.05460179,
+        "posZ": -1.43134725,
+        "rotX": -0.000110409324,
+        "rotY": 219.594116,
+        "rotZ": -6.935094E-05,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "efedb3"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 18.92788,
+        "posY": 1.05662417,
+        "posZ": -0.944474041,
+        "rotX": 1.165419,
+        "rotY": 298.949463,
+        "rotZ": 1.31407142,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "78a1cf"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.837904,
+        "posY": 1.05638337,
+        "posZ": -1.861287,
+        "rotX": 359.218323,
+        "rotY": 260.0674,
+        "rotZ": 0.117627449,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "28f0a1"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 18.9889088,
+        "posY": 1.055164,
+        "posZ": -0.5195253,
+        "rotX": 359.3366,
+        "rotY": 323.2649,
+        "rotZ": 0.05157503,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "09c769"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.6268139,
+        "posY": 1.05460751,
+        "posZ": -1.08581185,
+        "rotX": 359.306061,
+        "rotY": 256.125671,
+        "rotZ": 359.5284,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "3ffa2c"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 18.7311,
+        "posY": 1.47189474,
+        "posZ": -1.05948877,
+        "rotX": 346.622742,
+        "rotY": 262.0477,
+        "rotZ": 9.119189,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "cae31a"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.4077282,
+        "posY": 1.05364406,
+        "posZ": -1.09023607,
+        "rotX": 0.144673869,
+        "rotY": 253.308,
+        "rotZ": 0.4126054,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "e2665c"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 18.5597019,
+        "posY": 1.07304811,
+        "posZ": -0.239396483,
+        "rotX": 354.112732,
+        "rotY": 152.760574,
+        "rotZ": 356.5915,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "d9b6d9"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.2429676,
+        "posY": 1.05453,
+        "posZ": -1.2762239,
+        "rotX": 0.390512556,
+        "rotY": 270.850922,
+        "rotZ": 359.3691,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "e1d592"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 18.2218628,
+        "posY": 1.05584478,
+        "posZ": -1.29907215,
+        "rotX": 0.104256332,
+        "rotY": 104.237152,
+        "rotZ": 359.213379,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "0b8e33"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 20.2829266,
+        "posY": 1.05460179,
+        "posZ": -1.28636575,
+        "rotX": 0.000251688878,
+        "rotY": 51.383152,
+        "rotZ": 0.000251711957,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "5cfcc3"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.9979134,
+        "posY": 1.05692661,
+        "posZ": -0.1319391,
+        "rotX": 358.6971,
+        "rotY": 180.839249,
+        "rotZ": 359.957672,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "7391ee"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.8555317,
+        "posY": 1.05921435,
+        "posZ": -1.18639255,
+        "rotX": 357.4692,
+        "rotY": 273.293427,
+        "rotZ": 0.112028711,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "b62dda"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.9726982,
+        "posY": 1.05898786,
+        "posZ": -0.8109431,
+        "rotX": 359.609924,
+        "rotY": 199.749252,
+        "rotZ": 1.48171866,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "dc1929"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 20.1182976,
+        "posY": 1.05415821,
+        "posZ": -1.04931641,
+        "rotX": 359.499,
+        "rotY": 223.438339,
+        "rotZ": 359.046326,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "8fe4f4"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.546299,
+        "posY": 1.05385292,
+        "posZ": -0.8688041,
+        "rotX": 359.351624,
+        "rotY": 356.615631,
+        "rotZ": 0.387693733,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "34aaed"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.1547222,
+        "posY": 1.05482554,
+        "posZ": -0.328173637,
+        "rotX": 359.749847,
+        "rotY": 315.386841,
+        "rotZ": 359.456818,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "5d14c5"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 20.2441864,
+        "posY": 1.06144619,
+        "posZ": -0.8801961,
+        "rotX": 0.09042214,
+        "rotY": 305.546539,
+        "rotZ": 355.9224,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "0e3968"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.744215,
+        "posY": 1.06224155,
+        "posZ": -1.38453126,
+        "rotX": 0.2098099,
+        "rotY": 192.535889,
+        "rotZ": 5.08279943,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "19f818"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.98661,
+        "posY": 1.14254522,
+        "posZ": -1.37399256,
+        "rotX": 358.761047,
+        "rotY": 214.98175,
+        "rotZ": 71.70544,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "98944a"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 20.4352131,
+        "posY": 1.05480313,
+        "posZ": -1.45887125,
+        "rotX": 359.712463,
+        "rotY": 339.841644,
+        "rotZ": 0.101617873,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "266611"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 20.03104,
+        "posY": 1.28293276,
+        "posZ": -1.44745648,
+        "rotX": 359.642761,
+        "rotY": 207.067688,
+        "rotZ": 341.6996,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "ff1db4"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.80919,
+        "posY": 1.05507028,
+        "posZ": -0.345311522,
+        "rotX": 359.804352,
+        "rotY": 263.1539,
+        "rotZ": 0.02644444,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "e07941"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 20.12882,
+        "posY": 1.055278,
+        "posZ": -0.634409,
+        "rotX": 0.421561241,
+        "rotY": 159.282379,
+        "rotZ": 0.09101059,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "5712aa"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.5440578,
+        "posY": 1.06094217,
+        "posZ": -0.11707186,
+        "rotX": 358.934845,
+        "rotY": 263.643036,
+        "rotZ": 1.59399462,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "56f13f"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 20.0540047,
+        "posY": 1.05885875,
+        "posZ": -0.337149173,
+        "rotX": 358.314178,
+        "rotY": 9.850388,
+        "rotZ": 359.734924,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "c785b8"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 20.3769627,
+        "posY": 1.05452514,
+        "posZ": -1.080844,
+        "rotX": 359.984375,
+        "rotY": 199.12149,
+        "rotZ": 0.0262777675,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "26589d"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.7812023,
+        "posY": 1.47199726,
+        "posZ": -0.6698531,
+        "rotX": 348.68103,
+        "rotY": 131.283279,
+        "rotZ": 19.8324528,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "e30177"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 18.6470032,
+        "posY": 1.05452609,
+        "posZ": -1.01745045,
+        "rotX": 359.5908,
+        "rotY": 204.899048,
+        "rotZ": 0.174298659,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "a90ef8"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 18.5549183,
+        "posY": 1.05448127,
+        "posZ": -1.23423207,
+        "rotX": 0.07697577,
+        "rotY": 7.997032,
+        "rotZ": 359.645782,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "00dcb0"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 18.7065525,
+        "posY": 1.05548,
+        "posZ": -1.43835962,
+        "rotX": 359.8706,
+        "rotY": 4.7931695,
+        "rotZ": 1.13024008,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "abcc08"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 18.3498211,
+        "posY": 1.05965567,
+        "posZ": -1.12004435,
+        "rotX": 358.5551,
+        "rotY": 301.396423,
+        "rotZ": 0.8191624,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "d45748"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 18.7788,
+        "posY": 1.053986,
+        "posZ": -1.23202181,
+        "rotX": 359.61145,
+        "rotY": 87.71048,
+        "rotZ": 358.879669,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "99d941"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.4126816,
+        "posY": 1.0543189,
+        "posZ": -0.394024968,
+        "rotX": 0.295340985,
+        "rotY": 237.473145,
+        "rotZ": 0.496545166,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "b5893e"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 18.4744,
+        "posY": 1.05460358,
+        "posZ": -1.672824,
+        "rotX": 0.0003254263,
+        "rotY": 38.58386,
+        "rotZ": 0.000247674441,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "4af808"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.6466236,
+        "posY": 1.0553484,
+        "posZ": -0.5453977,
+        "rotX": 0.8590818,
+        "rotY": 316.3827,
+        "rotZ": 0.12804386,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "9fb9c6"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 18.2257919,
+        "posY": 1.057674,
+        "posZ": -0.7481212,
+        "rotX": 1.25153208,
+        "rotY": 296.364868,
+        "rotZ": 1.06593668,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "080a19"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 18.9804173,
+        "posY": 1.0567112,
+        "posZ": -1.67749369,
+        "rotX": 359.726746,
+        "rotY": 295.826172,
+        "rotZ": 359.846649,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "510171"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.5433865,
+        "posY": 1.05860722,
+        "posZ": -1.31440628,
+        "rotX": 2.59107852,
+        "rotY": 282.1671,
+        "rotZ": 0.409823179,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "c82e73"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 18.9553337,
+        "posY": 1.05455732,
+        "posZ": -1.42387164,
+        "rotX": 0.0525208637,
+        "rotY": 105.417076,
+        "rotZ": 0.0309239756,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "b23448"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.26509,
+        "posY": 1.48049879,
+        "posZ": -0.460816979,
+        "rotX": 11.9737406,
+        "rotY": 318.272278,
+        "rotZ": 351.360779,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "0df044"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 18.7291775,
+        "posY": 1.48336327,
+        "posZ": -1.26365018,
+        "rotX": 349.7794,
+        "rotY": 359.67746,
+        "rotZ": 8.958121,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "b4899c"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 18.165926,
+        "posY": 1.06216884,
+        "posZ": -0.9792952,
+        "rotX": 359.845245,
+        "rotY": 202.8492,
+        "rotZ": 355.30542,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "e84b78"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.828495,
+        "posY": 1.12510109,
+        "posZ": -1.60739064,
+        "rotX": 359.703979,
+        "rotY": 17.4935551,
+        "rotZ": 311.031982,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "e6873f"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 18.3712311,
+        "posY": 1.05418813,
+        "posZ": -0.56972754,
+        "rotX": 358.895935,
+        "rotY": 297.105865,
+        "rotZ": 359.9666,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "8eaab9"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.8619213,
+        "posY": 1.33275366,
+        "posZ": -1.65820515,
+        "rotX": 1.78497171,
+        "rotY": 187.2566,
+        "rotZ": 332.769043,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "6b11f7"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 18.39087,
+        "posY": 1.0567348,
+        "posZ": -0.908859968,
+        "rotX": 357.906738,
+        "rotY": 14.4455023,
+        "rotZ": 0.607152045,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "8f94a4"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.6769161,
+        "posY": 1.46054983,
+        "posZ": -1.2248286,
+        "rotX": 7.64249754,
+        "rotY": 60.3522758,
+        "rotZ": 345.693451,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "306253"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.3121929,
+        "posY": 1.06256056,
+        "posZ": -0.192721426,
+        "rotX": 358.4475,
+        "rotY": 333.2255,
+        "rotZ": 354.668457,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "e755db"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.0009747,
+        "posY": 1.42168427,
+        "posZ": -1.87140667,
+        "rotX": 358.0516,
+        "rotY": 156.6434,
+        "rotZ": 322.423523,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "b4edf5"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.2318764,
+        "posY": 1.46400285,
+        "posZ": -1.1844939,
+        "rotX": 27.0445557,
+        "rotY": 342.769379,
+        "rotZ": 339.676056,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "b35532"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.7651062,
+        "posY": 1.05393124,
+        "posZ": -0.7425288,
+        "rotX": 359.96405,
+        "rotY": 268.376984,
+        "rotZ": 359.4356,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "8025da"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.9052658,
+        "posY": 1.05660951,
+        "posZ": -0.5344971,
+        "rotX": 0.206870511,
+        "rotY": 345.69223,
+        "rotZ": 359.440735,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "68e066"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.2380753,
+        "posY": 1.05496728,
+        "posZ": -0.533333063,
+        "rotX": 359.983765,
+        "rotY": 53.8273048,
+        "rotZ": 0.4635319,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "a940f5"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.51707,
+        "posY": 1.46426439,
+        "posZ": -1.67279792,
+        "rotX": 16.26168,
+        "rotY": 196.297348,
+        "rotZ": 347.1143,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "63f867"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 18.6302967,
+        "posY": 1.475083,
+        "posZ": -0.7081845,
+        "rotX": 350.857452,
+        "rotY": 260.5504,
+        "rotZ": 348.2294,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "e0f8ad"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.6223583,
+        "posY": 1.461385,
+        "posZ": -1.50118852,
+        "rotX": 20.7940617,
+        "rotY": 304.542938,
+        "rotZ": 350.803162,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "545eee"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.6162949,
+        "posY": 1.47599125,
+        "posZ": -0.8411981,
+        "rotX": 351.500061,
+        "rotY": 333.978821,
+        "rotZ": 341.9588,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "e86493"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.77978,
+        "posY": 1.06338227,
+        "posZ": -0.133758157,
+        "rotX": 357.389557,
+        "rotY": 181.793488,
+        "rotZ": 358.453369,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "889416"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.0619869,
+        "posY": 1.0672555,
+        "posZ": -0.1387842,
+        "rotX": 1.03178179,
+        "rotY": 242.747772,
+        "rotZ": 354.482544,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "acfb95"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 18.7805748,
+        "posY": 1.48738384,
+        "posZ": -1.52099311,
+        "rotX": 3.9001627,
+        "rotY": 19.1658859,
+        "rotZ": 352.585968,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "6f32da"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.167593,
+        "posY": 1.47194207,
+        "posZ": -0.2509307,
+        "rotX": 16.7626019,
+        "rotY": 318.945282,
+        "rotZ": 345.525269,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "7b9cf8"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.207922,
+        "posY": 1.47754955,
+        "posZ": -1.37164664,
+        "rotX": 10.4564915,
+        "rotY": 191.334183,
+        "rotZ": 358.090668,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "49cdce"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 18.805048,
+        "posY": 1.05472624,
+        "posZ": -0.6447283,
+        "rotX": 359.77475,
+        "rotY": 303.403,
+        "rotZ": 359.654572,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "6fad84"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.2818127,
+        "posY": 1.46869767,
+        "posZ": -0.728987634,
+        "rotX": 357.214142,
+        "rotY": 235.21019,
+        "rotZ": 340.36,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "08c3a1"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 20.117939,
+        "posY": 1.47694433,
+        "posZ": -0.9768127,
+        "rotX": 11.1526279,
+        "rotY": 319.27533,
+        "rotZ": 346.95282,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "d9445c"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 20.52942,
+        "posY": 1.05459738,
+        "posZ": -0.369115055,
+        "rotX": 0.000133279653,
+        "rotY": 269.674133,
+        "rotZ": -0.000197042769,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "f4769c"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.1870232,
+        "posY": 1.055891,
+        "posZ": -1.00500286,
+        "rotX": 359.8442,
+        "rotY": 107.071358,
+        "rotZ": 0.4517635,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "65110e"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 18.4078941,
+        "posY": 1.46134222,
+        "posZ": -0.7276002,
+        "rotX": 10.9276142,
+        "rotY": 274.27063,
+        "rotZ": 13.7216539,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "a8d3d3"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 18.29081,
+        "posY": 1.05460346,
+        "posZ": -1.832421,
+        "rotX": 7.45239158E-05,
+        "rotY": 300.249725,
+        "rotZ": -0.000100456324,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "3ddfdb"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 18.8856659,
+        "posY": 1.44507682,
+        "posZ": -0.821573,
+        "rotX": 23.174221,
+        "rotY": 330.49118,
+        "rotZ": 347.8954,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "3170af"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.0141659,
+        "posY": 1.487052,
+        "posZ": -1.1280576,
+        "rotX": 359.674469,
+        "rotY": 292.667572,
+        "rotZ": 349.461853,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "30b20d"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 19.8054638,
+        "posY": 1.05282664,
+        "posZ": -0.9625396,
+        "rotX": 359.635376,
+        "rotY": 236.50383,
+        "rotZ": 359.661652,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.860314846,
+        "g": 0.860314846,
+        "b": 0.860314846
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": "21639c"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.2519131,
+        "posY": 1.05437565,
+        "posZ": -0.382209957,
+        "rotX": 359.902283,
+        "rotY": 316.942657,
+        "rotZ": 359.904266,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.838254333,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "445f39"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.4994144,
+        "posY": 1.05529165,
+        "posZ": -1.15323937,
+        "rotX": 0.0106561892,
+        "rotY": 308.134583,
+        "rotZ": 1.08155024,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "24cf76"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.56061,
+        "posY": 1.16021156,
+        "posZ": -1.06163931,
+        "rotX": 10.5658283,
+        "rotY": 311.482269,
+        "rotZ": 270.995026,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "24e816"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.925993,
+        "posY": 1.05594814,
+        "posZ": -0.461500049,
+        "rotX": 0.356590152,
+        "rotY": 330.9142,
+        "rotZ": 359.567017,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "209d95"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.6691,
+        "posY": 1.053285,
+        "posZ": -1.58196592,
+        "rotX": 0.633541167,
+        "rotY": 224.54454,
+        "rotZ": 359.292816,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "809ba4"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.54395,
+        "posY": 1.05288529,
+        "posZ": -0.7600369,
+        "rotX": 359.1901,
+        "rotY": 308.730133,
+        "rotZ": 359.860168,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "539be6"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.3763428,
+        "posY": 1.05575514,
+        "posZ": -1.74790263,
+        "rotX": 0.5794102,
+        "rotY": 219.850876,
+        "rotZ": 0.31874904,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "316e84"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.1377869,
+        "posY": 1.05639184,
+        "posZ": -1.61106122,
+        "rotX": 359.671265,
+        "rotY": 89.86304,
+        "rotZ": 359.22403,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "454a7c"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 23.33688,
+        "posY": 1.08309758,
+        "posZ": -1.49163675,
+        "rotX": 0.4220062,
+        "rotY": 252.026276,
+        "rotZ": 18.6463242,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "b8fd67"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 23.4265556,
+        "posY": 1.05459976,
+        "posZ": -0.749837041,
+        "rotX": 8.976536E-05,
+        "rotY": 277.512939,
+        "rotZ": -0.000566138944,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "b2899c"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 21.7455883,
+        "posY": 1.05681515,
+        "posZ": -1.3472755,
+        "rotX": 359.865143,
+        "rotY": 296.096954,
+        "rotZ": 1.41244555,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "631a35"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 21.7706966,
+        "posY": 1.05459857,
+        "posZ": -0.5276854,
+        "rotX": -3.726353E-05,
+        "rotY": 90.37054,
+        "rotZ": 0.000293077319,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "b0b098"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 21.6474323,
+        "posY": 1.054817,
+        "posZ": -0.7469128,
+        "rotX": 359.845062,
+        "rotY": 329.817139,
+        "rotZ": 359.821259,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "8c6734"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.1057167,
+        "posY": 1.05152893,
+        "posZ": -1.400511,
+        "rotX": 357.619232,
+        "rotY": 280.865479,
+        "rotZ": 0.6463309,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "9b0667"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 21.4944649,
+        "posY": 1.05459762,
+        "posZ": -0.357173055,
+        "rotX": 0.000347711844,
+        "rotY": 24.81178,
+        "rotZ": 0.000204182885,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "53841d"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.0598125,
+        "posY": 1.05460489,
+        "posZ": -1.82709026,
+        "rotX": 0.000120166391,
+        "rotY": 268.431641,
+        "rotZ": -0.000178479822,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "f6b9e7"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.1008377,
+        "posY": 1.05477285,
+        "posZ": -0.722997367,
+        "rotX": 359.92215,
+        "rotY": 3.78367639,
+        "rotZ": 359.951019,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "43bf3a"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 21.7492,
+        "posY": 1.05491614,
+        "posZ": -0.942755,
+        "rotX": 0.5206628,
+        "rotY": 312.677277,
+        "rotZ": 0.211636871,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "b0e0e9"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 21.6096859,
+        "posY": 1.053637,
+        "posZ": -1.109514,
+        "rotX": 359.4417,
+        "rotY": 303.244446,
+        "rotZ": 359.4543,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "971878"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 21.8529568,
+        "posY": 1.054247,
+        "posZ": -1.13776672,
+        "rotX": 0.402567327,
+        "rotY": 331.911377,
+        "rotZ": 359.908447,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "0b8d58"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.1982517,
+        "posY": 1.05517,
+        "posZ": -1.10374,
+        "rotX": 359.660217,
+        "rotY": 231.465881,
+        "rotZ": 359.060638,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "42608a"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 23.008564,
+        "posY": 1.05425215,
+        "posZ": -1.35915422,
+        "rotX": 359.428253,
+        "rotY": 170.511978,
+        "rotZ": 0.4521292,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "c74e23"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 23.14661,
+        "posY": 1.15963554,
+        "posZ": -1.47113121,
+        "rotX": 270.0,
+        "rotY": 6.88230944,
+        "rotZ": 0.0,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "6854aa"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 21.8801556,
+        "posY": 1.05445361,
+        "posZ": -0.7478585,
+        "rotX": 0.0160514116,
+        "rotY": 279.294525,
+        "rotZ": 359.940948,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "355b4b"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.8222866,
+        "posY": 1.05598664,
+        "posZ": -1.85821116,
+        "rotX": 359.955658,
+        "rotY": 265.373657,
+        "rotZ": 359.3514,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "a97a61"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 21.7720261,
+        "posY": 1.48121059,
+        "posZ": -1.102896,
+        "rotX": 6.44894838,
+        "rotY": 355.69873,
+        "rotZ": 7.43738127,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "8c68e6"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.81445,
+        "posY": 1.05394173,
+        "posZ": -1.2029829,
+        "rotX": 359.2944,
+        "rotY": 120.153191,
+        "rotZ": 359.819,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "b05af3"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.3236179,
+        "posY": 1.05459917,
+        "posZ": -0.647895634,
+        "rotX": -5.19088026E-05,
+        "rotY": 192.483246,
+        "rotZ": 0.000109950714,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "37cde7"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.38291,
+        "posY": 1.05451334,
+        "posZ": -0.954828,
+        "rotX": 359.744568,
+        "rotY": 32.746357,
+        "rotZ": 359.8158,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "a829b5"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.4899769,
+        "posY": 1.05639827,
+        "posZ": -0.421153963,
+        "rotX": 2.20954156,
+        "rotY": 129.154877,
+        "rotZ": -0.00105364644,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "5f9627"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 23.2408962,
+        "posY": 1.05698,
+        "posZ": -0.5615369,
+        "rotX": 0.2437598,
+        "rotY": 267.8475,
+        "rotZ": 358.7849,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "c4fcd5"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 23.51154,
+        "posY": 1.05680621,
+        "posZ": -1.35580325,
+        "rotX": 358.943726,
+        "rotY": 268.868347,
+        "rotZ": 359.875244,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "616d54"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 23.5113964,
+        "posY": 1.08070564,
+        "posZ": -1.10241425,
+        "rotX": 355.615265,
+        "rotY": 290.5549,
+        "rotZ": 347.514374,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "33dbbc"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 23.64558,
+        "posY": 1.05452347,
+        "posZ": -0.705856562,
+        "rotX": 0.111148216,
+        "rotY": 11.28355,
+        "rotZ": 359.8937,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "676661"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 23.6163483,
+        "posY": 1.05460632,
+        "posZ": -1.58794224,
+        "rotX": 0.000222872855,
+        "rotY": 314.057648,
+        "rotZ": -0.000447312574,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "45862a"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 23.78236,
+        "posY": 1.0546031,
+        "posZ": -1.43627083,
+        "rotX": 0.00027516234,
+        "rotY": 46.47635,
+        "rotZ": 0.0002545557,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "0ef120"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 23.72611,
+        "posY": 1.05517519,
+        "posZ": -0.4953173,
+        "rotX": 359.683777,
+        "rotY": 226.094681,
+        "rotZ": 0.8618641,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "e79546"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 23.8626137,
+        "posY": 1.05592823,
+        "posZ": -0.7539012,
+        "rotX": 359.365448,
+        "rotY": 7.69252968,
+        "rotZ": 0.0242276676,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "f6fada"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 23.2841282,
+        "posY": 1.054541,
+        "posZ": -1.29894745,
+        "rotX": 359.6369,
+        "rotY": 81.05011,
+        "rotZ": 359.493,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "600b84"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 23.7540512,
+        "posY": 1.054602,
+        "posZ": -1.19222057,
+        "rotX": -0.000132853864,
+        "rotY": 218.788,
+        "rotZ": -7.962007E-06,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "01250e"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 23.4172344,
+        "posY": 1.4368974,
+        "posZ": -1.18608034,
+        "rotX": 346.0108,
+        "rotY": 224.192047,
+        "rotZ": 349.6964,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "87249e"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 23.19827,
+        "posY": 1.05414367,
+        "posZ": -0.7755064,
+        "rotX": 0.13273254,
+        "rotY": 10.0111246,
+        "rotZ": 0.0412815362,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "893fef"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.59409,
+        "posY": 1.05458248,
+        "posZ": -1.80938983,
+        "rotX": 0.06387387,
+        "rotY": 188.372742,
+        "rotZ": 0.09872105,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "e9235c"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.3177452,
+        "posY": 1.0579325,
+        "posZ": -1.29312682,
+        "rotX": 359.275146,
+        "rotY": 245.823074,
+        "rotZ": 359.390564,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "26fbd6"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.4050159,
+        "posY": 1.060495,
+        "posZ": -0.220976442,
+        "rotX": 359.800232,
+        "rotY": 50.0113,
+        "rotZ": 4.05010557,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "e3b65a"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 23.32689,
+        "posY": 1.054941,
+        "posZ": -1.82663727,
+        "rotX": 359.964722,
+        "rotY": 353.437225,
+        "rotZ": 359.910248,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "755a9c"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.3702068,
+        "posY": 1.05716991,
+        "posZ": -1.50810969,
+        "rotX": 359.885681,
+        "rotY": 89.46339,
+        "rotZ": 1.40718937,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "c7ce3b"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 23.0553169,
+        "posY": 1.05567014,
+        "posZ": -1.14098442,
+        "rotX": 2.24417949,
+        "rotY": 256.3144,
+        "rotZ": 359.85553,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "e869e7"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.4073753,
+        "posY": 1.47781646,
+        "posZ": -1.12263572,
+        "rotX": 10.14304,
+        "rotY": 239.360382,
+        "rotZ": 351.5813,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "1ef33d"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 23.3028374,
+        "posY": 1.0545969,
+        "posZ": -1.02120137,
+        "rotX": 0.116493575,
+        "rotY": 281.757538,
+        "rotZ": 359.537567,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "baef93"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.0594616,
+        "posY": 1.0545615,
+        "posZ": -0.504109859,
+        "rotX": 0.006560678,
+        "rotY": 243.078232,
+        "rotZ": 359.984863,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "296bcb"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.192688,
+        "posY": 1.46950924,
+        "posZ": -1.42331147,
+        "rotX": 342.815277,
+        "rotY": 305.688934,
+        "rotZ": 353.97522,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "4f67e1"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 23.4741516,
+        "posY": 1.05388784,
+        "posZ": -0.503588259,
+        "rotX": 0.351851881,
+        "rotY": 319.8829,
+        "rotZ": 359.851868,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "4a89e0"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 23.595026,
+        "posY": 1.05511057,
+        "posZ": -0.3157274,
+        "rotX": 1.03683281,
+        "rotY": 329.2549,
+        "rotZ": 0.218268633,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "b4162f"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 23.60516,
+        "posY": 1.48599088,
+        "posZ": -0.416856647,
+        "rotX": 353.437317,
+        "rotY": 53.51672,
+        "rotZ": 357.3327,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "ef658f"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 23.3311,
+        "posY": 1.05459785,
+        "posZ": -0.246785969,
+        "rotX": 0.0003536915,
+        "rotY": 338.932922,
+        "rotZ": -2.16681583E-05,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "2e22d8"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.7623024,
+        "posY": 1.05498445,
+        "posZ": -0.3192334,
+        "rotX": 359.8988,
+        "rotY": 305.288361,
+        "rotZ": 0.6879347,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "06a037"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.6309471,
+        "posY": 1.05670428,
+        "posZ": -0.14191635,
+        "rotX": 358.9332,
+        "rotY": 62.4075546,
+        "rotZ": 0.118896909,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "d33d25"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.74368,
+        "posY": 1.07663786,
+        "posZ": -0.6417745,
+        "rotX": 0.375724584,
+        "rotY": 71.1671,
+        "rotZ": 13.3651457,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "c6a734"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.0319157,
+        "posY": 1.05465627,
+        "posZ": -0.9378774,
+        "rotX": -0.0023347,
+        "rotY": 111.866196,
+        "rotZ": 0.0114707388,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "a11074"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 23.01032,
+        "posY": 1.23581481,
+        "posZ": -0.921889067,
+        "rotX": 359.575684,
+        "rotY": 96.4902039,
+        "rotZ": 358.643036,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "551aee"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 23.3291912,
+        "posY": 1.45485854,
+        "posZ": -1.40186036,
+        "rotX": 346.129639,
+        "rotY": 263.9799,
+        "rotZ": 20.8158417,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "191884"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.5837688,
+        "posY": 1.31982124,
+        "posZ": -0.9700158,
+        "rotX": 5.142336,
+        "rotY": 188.515732,
+        "rotZ": 26.147934,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "5184a0"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.5723171,
+        "posY": 1.05900145,
+        "posZ": -1.39047,
+        "rotX": 0.5329893,
+        "rotY": 66.26905,
+        "rotZ": 3.01421046,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "e0c165"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.41126,
+        "posY": 1.48272491,
+        "posZ": -0.368097275,
+        "rotX": 5.635225,
+        "rotY": 358.2487,
+        "rotZ": 7.31397057,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "0bfaef"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.8097973,
+        "posY": 1.27606165,
+        "posZ": -0.828546941,
+        "rotX": 355.954529,
+        "rotY": 214.31105,
+        "rotZ": 358.945251,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "34f8ab"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.9097862,
+        "posY": 1.0545572,
+        "posZ": -1.60526454,
+        "rotX": 0.07584938,
+        "rotY": 190.102737,
+        "rotZ": 359.9833,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "9d013a"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.4909744,
+        "posY": 1.43842638,
+        "posZ": -1.65776229,
+        "rotX": 20.55071,
+        "rotY": 65.8761139,
+        "rotZ": 15.2261963,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "de600e"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 21.4867458,
+        "posY": 1.05460036,
+        "posZ": -0.9054505,
+        "rotX": -0.000210887141,
+        "rotY": 149.207489,
+        "rotZ": 0.000120539313,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "23629f"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.7774525,
+        "posY": 1.35576129,
+        "posZ": -1.4136678,
+        "rotX": 3.18294024,
+        "rotY": 299.201782,
+        "rotZ": 5.08808327,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "8efb74"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 22.9898453,
+        "posY": 1.053481,
+        "posZ": -0.6914705,
+        "rotX": 359.467651,
+        "rotY": 130.566879,
+        "rotZ": 0.288223952,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "d501d1"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 23.1168728,
+        "posY": 1.27769458,
+        "posZ": -1.69027543,
+        "rotX": 358.250519,
+        "rotY": 111.445114,
+        "rotZ": 2.111385,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8382567,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": "8227a0"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -19.80553,
+        "posY": 1.01602507,
+        "posZ": 15.1973467,
+        "rotX": -9.623244E-06,
+        "rotY": 91.58732,
+        "rotZ": 0.0002738049,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.99216187,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=9P5Eq04q",
+        "DiffuseURL": "http://i.imgur.com/1ltLW9w.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        }
+      },
+      "GUID": "52fc53"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -22.4682274,
+        "posY": 1.21598685,
+        "posZ": 14.9478121,
+        "rotX": -7.55895053E-06,
+        "rotY": 89.98142,
+        "rotZ": 0.00029960784,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.99216187,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=TeKNbrie",
+        "DiffuseURL": "http://i.imgur.com/1ltLW9w.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        }
+      },
+      "GUID": "0fc3a3"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -21.867075,
+        "posY": 1.24474335,
+        "posZ": 16.2461224,
+        "rotX": 0.0107649583,
+        "rotY": 90.02905,
+        "rotZ": 359.865448,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.99216187,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=TSpdCDky",
+        "DiffuseURL": "http://i.imgur.com/1ltLW9w.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        }
+      },
+      "GUID": "03b1a6"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -22.5096664,
+        "posY": 1.03030908,
+        "posZ": 15.6010733,
+        "rotX": 1.2349351E-05,
+        "rotY": 89.96761,
+        "rotZ": 0.0003061372,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.99216187,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=HjQWRMDc",
+        "DiffuseURL": "http://i.imgur.com/1ltLW9w.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        }
+      },
+      "GUID": "2cc3fb"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -19.1949329,
+        "posY": 0.938003361,
+        "posZ": 16.0797863,
+        "rotX": -5.56742862E-06,
+        "rotY": 90.00137,
+        "rotZ": 0.000295874779,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.99216187,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=VL0495Qy",
+        "DiffuseURL": "http://i.imgur.com/1ltLW9w.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        }
+      },
+      "GUID": "a298db"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 22.6053028,
+        "posY": 1.24439967,
+        "posZ": -14.7428885,
+        "rotX": 7.927044E-06,
+        "rotY": 272.0554,
+        "rotZ": 0.000228805788,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921621,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=TSpdCDky",
+        "DiffuseURL": "http://i.imgur.com/1ltLW9w.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        }
+      },
+      "GUID": "874952"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 20.478857,
+        "posY": 1.01833367,
+        "posZ": -13.7288,
+        "rotX": -0.004366372,
+        "rotY": 269.981659,
+        "rotZ": 359.602966,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921621,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=9P5Eq04q",
+        "DiffuseURL": "http://i.imgur.com/1ltLW9w.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        }
+      },
+      "GUID": "1338a3"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 19.9016647,
+        "posY": 0.9403824,
+        "posZ": -14.6495543,
+        "rotX": 0.09982193,
+        "rotY": 90.22784,
+        "rotZ": 0.0261983555,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921621,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=VL0495Qy",
+        "DiffuseURL": "http://i.imgur.com/1ltLW9w.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        }
+      },
+      "GUID": "74496c"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 23.2696552,
+        "posY": 1.21598291,
+        "posZ": -13.527339,
+        "rotX": 1.23435275E-05,
+        "rotY": 269.92746,
+        "rotZ": 0.0002913613,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921621,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=TeKNbrie",
+        "DiffuseURL": "http://i.imgur.com/1ltLW9w.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        }
+      },
+      "GUID": "302eb2"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 23.3397865,
+        "posY": 1.03030419,
+        "posZ": -14.22118,
+        "rotX": -1.97262543E-05,
+        "rotY": 268.766571,
+        "rotZ": 0.000340980245,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921621,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=HjQWRMDc",
+        "DiffuseURL": "http://i.imgur.com/1ltLW9w.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        }
+      },
+      "GUID": "df7de6"
+    },
+    {
+      "Name": "Custom_Board",
+      "Transform": {
+        "posX": 19.45869,
+        "posY": 0.97766,
+        "posZ": 9.642661,
+        "rotX": -4.075727E-05,
+        "rotY": 90.03335,
+        "rotZ": -8.313387E-06,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7867768,
+        "g": 0.7867768,
+        "b": 0.7867768
+      },
+      "Grid": true,
+      "Locked": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/WVeUd8b.jpg",
+        "WidthScale": 1.0
+      },
+      "GUID": "75cd1a"
+    },
+    {
+      "Name": "Custom_Board",
+      "Transform": {
+        "posX": -20.2905674,
+        "posY": 0.9776602,
+        "posZ": -6.61659145,
+        "rotX": -1.86549587E-05,
+        "rotY": 270.022522,
+        "rotZ": 1.049104E-05,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7867798,
+        "g": 0.7867798,
+        "b": 0.7867798
+      },
+      "Grid": false,
+      "Locked": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/WVeUd8b.jpg",
+        "WidthScale": 1.0
+      },
+      "GUID": "869df3"
+    },
+    {
+      "Name": "Quarter",
+      "Transform": {
+        "posX": -1.27863789,
+        "posY": 1.04738545,
+        "posZ": 2.19747257,
+        "rotX": 2.15731575E-07,
+        "rotY": 44.9149246,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.0,
+        "AngularDrag": 0.0,
+        "UseGravity": true
+      },
+      "GUID": "37221c"
+    },
+    {
+      "Name": "Digital_Clock",
+      "Transform": {
+        "posX": -0.37343052,
+        "posY": 3.60975838,
+        "posZ": 19.5279427,
+        "rotX": -4.05617357E-06,
+        "rotY": 0.0241241,
+        "rotZ": -2.27764144E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.77942425,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": true,
+      "Clock": {
+        "ClockState": 0,
+        "SecondsPassed": 0,
+        "Paused": false
+      },
+      "GUID": "aa8d1c"
+    },
+    {
+      "Name": "FogOfWarTrigger",
+      "Transform": {
+        "posX": 20.29245,
+        "posY": 2.89183068,
+        "posZ": -7.31437874,
+        "rotX": 0.0,
+        "rotY": 0.177052185,
+        "rotZ": 0.0,
+        "scaleX": 6.956966,
+        "scaleY": 3.5,
+        "scaleZ": 7.42632246
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.856002152,
+        "g": 0.10000474,
+        "b": 0.09400465
+      },
+      "Grid": true,
+      "Locked": true,
+      "FogColor": "Red",
+      "FogHidePointers": false,
+      "GUID": ""
+    },
+    {
+      "Name": "FogOfWarTrigger",
+      "Transform": {
+        "posX": -19.2343636,
+        "posY": 2.89183474,
+        "posZ": 8.855528,
+        "rotX": 0.0,
+        "rotY": 89.48399,
+        "rotZ": 0.0,
+        "scaleX": 7.401557,
+        "scaleY": 3.5,
+        "scaleZ": 7.454583
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": true,
+      "FogColor": "White",
+      "FogHidePointers": false,
+      "GUID": ""
+    }
+  ]
+}

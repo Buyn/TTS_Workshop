@@ -1,0 +1,230 @@
+{
+  "SaveName": "Attack on Titan",
+  "GameMode": "None",
+  "Date": "1/5/2015 8:38:17 AM",
+  "Table": "Table_RPG",
+  "Sky": "Sky_Museum",
+  "Note": "",
+  "Rules": "",
+  "PlayerTurn": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Snapping": false,
+    "Offset": false,
+    "xSize": 2.0,
+    "ySize": 2.0
+  },
+  "DrawImage": "iVBORw0KGgoAAAANSUhEUgAAALAAAABoCAYAAABR2nocAAABV0lEQVR4Ae3QMQEAAADCoPVPbQZ/iEBhwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwICBb2AedwABqCI4UwAAAABJRU5ErkJggg==",
+  "ObjectStates": [
+    {
+      "Name": "Custom_Board",
+      "Transform": {
+        "posX": -2.33204985,
+        "posY": 1.05104733,
+        "posZ": 0.2955306,
+        "rotX": 0.000367574,
+        "rotY": 270.0347,
+        "rotZ": 2.15926339E-05,
+        "scaleX": 2.0,
+        "scaleY": 2.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.786803961,
+        "g": 0.786803961,
+        "b": 0.786803961
+      },
+      "Grid": true,
+      "Locked": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/HJNPEQ7.jpg",
+        "WidthScale": 0.7112211
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "DeckCustom",
+      "Transform": {
+        "posX": -3.72605586,
+        "posY": 3.488126,
+        "posZ": -1.79096782,
+        "rotX": -8.44227761E-05,
+        "rotY": 3.12450719,
+        "rotZ": 180.0004,
+        "scaleX": 2.0,
+        "scaleY": 2.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7132859,
+        "g": 0.7132859,
+        "b": 0.7132859
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        159,
+        106,
+        137,
+        102,
+        121,
+        162,
+        155,
+        134,
+        105,
+        146,
+        157,
+        126,
+        144,
+        112,
+        100,
+        128,
+        113,
+        125,
+        153,
+        107,
+        101,
+        117,
+        149,
+        136,
+        163,
+        143,
+        133,
+        165,
+        140,
+        124,
+        123,
+        104,
+        127,
+        164,
+        118,
+        120,
+        135,
+        130,
+        122,
+        103,
+        154,
+        151,
+        111,
+        147,
+        132,
+        114,
+        150,
+        148,
+        156,
+        158,
+        115,
+        109,
+        141,
+        131,
+        145,
+        166,
+        168,
+        129,
+        139,
+        161,
+        152,
+        142,
+        160,
+        110,
+        108,
+        119,
+        167,
+        138,
+        116
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "http://i.imgur.com/Uy8IeHE.jpg",
+          "BackURL": "http://i.imgur.com/SNf4Xso.jpg"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -4.09318972,
+        "posY": 2.708143,
+        "posZ": -10.1440964,
+        "rotX": 9.77638556E-05,
+        "rotY": 74.79326,
+        "rotZ": -0.00114467612,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.6985817,
+        "b": 0.00481740525
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 4,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6",
+      "Transform": {
+        "posX": 0.7059498,
+        "posY": 3.03654337,
+        "posZ": -9.50846,
+        "rotX": -0.0004254956,
+        "rotY": 93.24944,
+        "rotZ": 179.999954,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.149057031,
+        "g": 0.30200395,
+        "b": 0.443178982
+      },
+      "Grid": false,
+      "Locked": false,
+      "AltSound": true,
+      "MaterialIndex": 1,
+      "Layer": 11,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6",
+      "Transform": {
+        "posX": -0.4248733,
+        "posY": 3.03653574,
+        "posZ": -10.6875134,
+        "rotX": -2.59556782E-05,
+        "rotY": -0.00375071354,
+        "rotZ": 90.00038,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.149057031,
+        "g": 0.30200395,
+        "b": 0.443178982
+      },
+      "Grid": false,
+      "Locked": false,
+      "AltSound": true,
+      "MaterialIndex": 1,
+      "Layer": 11,
+      "GUID": ""
+    }
+  ]
+}

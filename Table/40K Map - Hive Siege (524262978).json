@@ -1,0 +1,4933 @@
+{
+  "SaveName": "40K Map - Hive Siege",
+  "GameMode": "warhammer 40k",
+  "Date": "9/27/2015 6:46:30 PM",
+  "Table": "Table_Custom",
+  "TableURL": "https://www.dropbox.com/s/0cppqker83xb87g/snow_scuffed_ground_1.jpg?dl=1",
+  "Sky": "Sky_Tunnel",
+  "SkyURL": "https://www.dropbox.com/s/8f0s30b49w55qr5/panorama.jpg?dl=1",
+  "Note": "Tip: Hold down \"T\" \nwhen placing units\non the ramps.",
+  "Rules": "Special Rule: \"Upward Mobility\" \nWhen a unit is touching the base of one of the small staircases leading to the top of the fortress wall, consider the vertical distance to the top of the wall as 3\" instead of 6\" for the purposes of movement. The idea is that the staircases give an advantage to the defender by allowing his units to ascend the wall rapidly. ",
+  "PlayerTurn": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hidding": 0
+  },
+  "DrawImage": "iVBORw0KGgoAAAANSUhEUgAAAWAAAADQCAYAAAA53LuNAAAFFElEQVR4Ae3QgQAAAADDoPlTH+SFUGHAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgy8DQx5DAABHyNK3wAAAABJRU5ErkJggg==",
+  "VectorLines": [],
+  "ObjectStates": [
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -12.0885134,
+        "posY": 1.027489,
+        "posZ": -5.64532661,
+        "rotX": 4.223113,
+        "rotY": 238.002747,
+        "rotZ": 358.879852,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "wh_dead_spacemarines_scout",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921772,
+        "b": 0.9999998
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/NbUCC",
+        "DiffuseURL": "http://i.imgur.com/juJJbDB.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/NbUCC",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "0d252b"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -37.16221,
+        "posY": 1.07634473,
+        "posZ": -15.3438683,
+        "rotX": 0.00140095479,
+        "rotY": 110.227364,
+        "rotZ": 0.00736975856,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Crates, Pile",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9999998,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=cghKDqjm",
+        "DiffuseURL": "http://i1374.photobucket.com/albums/ag416/JJMark/Crates213_zps595bffab.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "70b384"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 43.265583,
+        "posY": 1.04841924,
+        "posZ": -24.79742,
+        "rotX": 0.006363739,
+        "rotY": 276.65097,
+        "rotZ": -0.003325897,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Vat",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921759,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "www.general-chaos.com/rp/ts/cryotube.obj",
+        "DiffuseURL": "www.general-chaos.com/rp/ts/tech.jpg",
+        "NormalURL": "www.general-chaos.com/rp/ts/techn.jpg",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "c6b5ed"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 36.00889,
+        "posY": 1.09076166,
+        "posZ": 11.3726015,
+        "rotX": -3.60232771E-05,
+        "rotY": 303.2021,
+        "rotZ": -7.9563375E-05,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "Campfire",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9999998,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=AtvkCjcD",
+        "DiffuseURL": "http://i1374.photobucket.com/albums/ag416/JJMark/Campfire239_zpsd95e2d6c.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "9cf3cd"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 12.8693485,
+        "posY": 2.00654936,
+        "posZ": -22.1519775,
+        "rotX": 341.885223,
+        "rotY": 357.152344,
+        "rotZ": 180.00293,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "Siege Ramp",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992179453,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "http://www.general-chaos.com/rp/ts/3x3tech.obj",
+        "DiffuseURL": "http://www.general-chaos.com/rp/ts/tech.jpg",
+        "NormalURL": "http://www.general-chaos.com/rp/ts/techn.jpg",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "JointFixed": {
+        "ConnectedBodyGUID": "c66b76",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": -0.0396165848,
+          "y": 0.0120007209,
+          "z": -2.95776439
+        },
+        "BreakForce": Infinity,
+        "BreakTorgue": Infinity
+      },
+      "GUID": "f413e7"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -6.06383133,
+        "posY": 1.37650943,
+        "posZ": -9.260134,
+        "rotX": 30.678112,
+        "rotY": 7.50983238,
+        "rotZ": 256.582642,
+        "scaleX": 0.3,
+        "scaleY": 0.3,
+        "scaleZ": 0.3
+      },
+      "Nickname": "wh40k_env_all_tank_trap_01",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992183268,
+        "b": 0.9999998
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "www.googledrive.com/host/0B5MM9iBmON8nZGhhSmVPckQ2cE0",
+        "DiffuseURL": "www.googledrive.com/host/0B5MM9iBmON8nVnNMQldJcHBhUWM",
+        "NormalURL": "",
+        "ColliderURL": "www.googledrive.com/host/0B5MM9iBmON8nZGhhSmVPckQ2cE0",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "7fee1f"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 4.214505,
+        "posY": 1.530693,
+        "posZ": 2.37012362,
+        "rotX": 21.1395664,
+        "rotY": 279.027863,
+        "rotZ": 176.191208,
+        "scaleX": 0.3,
+        "scaleY": 0.3,
+        "scaleZ": 0.3
+      },
+      "Nickname": "wh40k_env_all_tank_trap_01",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992183268,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "www.googledrive.com/host/0B5MM9iBmON8nZGhhSmVPckQ2cE0",
+        "DiffuseURL": "www.googledrive.com/host/0B5MM9iBmON8nVnNMQldJcHBhUWM",
+        "NormalURL": "",
+        "ColliderURL": "www.googledrive.com/host/0B5MM9iBmON8nZGhhSmVPckQ2cE0",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "1d8b36"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -5.82772255,
+        "posY": 1.389745,
+        "posZ": 3.68784523,
+        "rotX": 294.994,
+        "rotY": 36.4502335,
+        "rotZ": 255.708328,
+        "scaleX": 0.3,
+        "scaleY": 0.3,
+        "scaleZ": 0.3
+      },
+      "Nickname": "wh40k_env_all_tank_trap_01",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992183268,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "www.googledrive.com/host/0B5MM9iBmON8nZGhhSmVPckQ2cE0",
+        "DiffuseURL": "www.googledrive.com/host/0B5MM9iBmON8nVnNMQldJcHBhUWM",
+        "NormalURL": "",
+        "ColliderURL": "www.googledrive.com/host/0B5MM9iBmON8nZGhhSmVPckQ2cE0",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "690aed"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 43.052536,
+        "posY": 5.249171,
+        "posZ": -22.9640236,
+        "rotX": 0.004242111,
+        "rotY": 357.8349,
+        "rotZ": 0.005863272,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Surgery Table",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921749,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "http://www.general-chaos.com/rp/ts/medbed.obj",
+        "DiffuseURL": "http://www.general-chaos.com/rp/ts/tech.jpg",
+        "NormalURL": "http://www.general-chaos.com/rp/ts/techn.jpg",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "53c274"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -50.80457,
+        "posY": 1.23946857,
+        "posZ": -31.5412521,
+        "rotX": 2.00033946E-06,
+        "rotY": 329.992523,
+        "rotZ": 180.000015,
+        "scaleX": 2.25,
+        "scaleY": 2.25,
+        "scaleZ": 2.25
+      },
+      "Nickname": "Massive Blast",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.796278954,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=5WJEx919",
+        "DiffuseURL": "http://i.imgur.com/5jmD4U3.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": "c6d946"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 37.98068,
+        "posY": 1.3332206,
+        "posZ": 34.2376328,
+        "rotX": -6.317925E-05,
+        "rotY": 323.7012,
+        "rotZ": 90.00007,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Scatter die",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9999998,
+        "b": 0.9999998
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=7CD7wScC",
+        "DiffuseURL": "http://i.imgur.com/yIMwR0n.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 2
+      },
+      "GUID": "47dfc2"
+    },
+    {
+      "Name": "DeckCustom",
+      "Transform": {
+        "posX": 35.971508,
+        "posY": 1.17325222,
+        "posZ": 29.828928,
+        "rotX": 4.389027E-06,
+        "rotY": 359.96463,
+        "rotZ": 180.000061,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Tactical Objectives",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713605642,
+        "g": 0.713605642,
+        "b": 0.713605642
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        104,
+        117,
+        114,
+        105,
+        112,
+        107,
+        130,
+        121,
+        111,
+        115,
+        128,
+        120,
+        109,
+        134,
+        110,
+        127,
+        125,
+        101,
+        118,
+        108,
+        135,
+        129,
+        102,
+        100,
+        106,
+        103,
+        133,
+        122,
+        124,
+        119,
+        126,
+        116,
+        132,
+        113,
+        123,
+        131
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "http://i.imgur.com/fW33VEy.jpg",
+          "BackURL": "http://i.imgur.com/hMQaI47.jpg"
+        }
+      },
+      "GUID": "d87963"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 44.277813,
+        "posY": 1.23949111,
+        "posZ": 31.6556149,
+        "rotX": 0.0008100142,
+        "rotY": 119.387825,
+        "rotZ": 0.000478197035,
+        "scaleX": 2.25,
+        "scaleY": 2.25,
+        "scaleZ": 2.25
+      },
+      "Nickname": "Massive Blast",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.150041848,
+        "g": 0.165757537,
+        "b": 0.9257064
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=5WJEx919",
+        "DiffuseURL": "http://i.imgur.com/5jmD4U3.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": "2f8144"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 50.2000237,
+        "posY": 1.08321857,
+        "posZ": 22.5554237,
+        "rotX": -7.329302E-08,
+        "rotY": 344.971039,
+        "rotZ": 180.000015,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Small Blast",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.150041848,
+        "g": 0.165757537,
+        "b": 0.9257064
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=5WJEx919",
+        "DiffuseURL": "http://i.imgur.com/5jmD4U3.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": "d77ad0"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -38.1419334,
+        "posY": 1.08322024,
+        "posZ": -35.3440781,
+        "rotX": -4.01675422E-08,
+        "rotY": 344.9918,
+        "rotZ": 180.000015,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Small Blast",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.792478144,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=5WJEx919",
+        "DiffuseURL": "http://i.imgur.com/5jmD4U3.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": "642930"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 49.9948235,
+        "posY": 1.44854,
+        "posZ": 32.2147141,
+        "rotX": 359.919281,
+        "rotY": 209.943863,
+        "rotZ": 8.354571,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Large Blast",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.150041848,
+        "g": 0.165757537,
+        "b": 0.9257064
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=fbSASgTB",
+        "DiffuseURL": "http://i.imgur.com/gS1RQkG.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": "d9dca2"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -42.27574,
+        "posY": 1.08321941,
+        "posZ": -32.2451248,
+        "rotX": 1.38497926E-05,
+        "rotY": 209.986145,
+        "rotZ": -3.02461558E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Large Blast",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.796278954,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=fbSASgTB",
+        "DiffuseURL": "http://i.imgur.com/gS1RQkG.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": "6b7838"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -34.0127029,
+        "posY": 1.08322072,
+        "posZ": -33.20108,
+        "rotX": 3.26992222E-06,
+        "rotY": 315.175,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Flamer Cone",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6140171,
+        "g": 0.586614,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=SdFBHx84",
+        "DiffuseURL": "http://i.imgur.com/HFXVbET.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": "b1101a"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 46.5356445,
+        "posY": 1.08354247,
+        "posZ": 19.65857,
+        "rotX": 355.680023,
+        "rotY": 359.662445,
+        "rotZ": 180.000351,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Flamer Cone",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6140171,
+        "g": 0.586614,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=SdFBHx84",
+        "DiffuseURL": "http://i.imgur.com/HFXVbET.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": "fbfcd4"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -8.525319,
+        "posY": 0.957158566,
+        "posZ": -12.2306767,
+        "rotX": 0.000503613264,
+        "rotY": 315.013336,
+        "rotZ": -0.0004128707,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Fortress Inner Angle",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992173851,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/npwu6gs5cxs8fxy/fortress_angle_in.obj?dl=1",
+        "DiffuseURL": "https://www.dropbox.com/s/z8vu766809jfs5u/chaosbrick_square.jpg?dl=1",
+        "NormalURL": "https://www.dropbox.com/s/kj3n7rnhf7lnxih/chaosbrick_normal.jpg?dl=1",
+        "ColliderURL": "https://www.dropbox.com/s/npwu6gs5cxs8fxy/fortress_angle_in.obj?dl=1",
+        "Convex": false,
+        "MaterialIndex": 2,
+        "TypeIndex": 0
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 10.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "GUID": "84b5f0"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -17.7648659,
+        "posY": 0.957037,
+        "posZ": 1.77241564,
+        "rotX": 1.99182111E-08,
+        "rotY": 315.007019,
+        "rotZ": -3.05487333E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Fortress Damaged",
+      "Description": "Dangerous Terrain",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.992170036,
+        "b": 0.99999994
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/bvf2z7v38li2cfr/fortress_straight_damaged.obj?dl=1",
+        "DiffuseURL": "https://www.dropbox.com/s/z8vu766809jfs5u/chaosbrick_square.jpg?dl=1",
+        "NormalURL": "https://www.dropbox.com/s/kj3n7rnhf7lnxih/chaosbrick_normal.jpg?dl=1",
+        "ColliderURL": "https://www.dropbox.com/s/bvf2z7v38li2cfr/fortress_straight_damaged.obj?dl=1",
+        "Convex": false,
+        "MaterialIndex": 2,
+        "TypeIndex": 0
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 10.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "GUID": "c478dc"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -30.7816448,
+        "posY": 0.9569938,
+        "posZ": 11.7105446,
+        "rotX": 2.71670729E-06,
+        "rotY": 270.002,
+        "rotZ": -9.05515833E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Fortress Outer Angle",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.992170036,
+        "b": 0.99999994
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/1qug99dfk8ya9vb/fortress_angle_outer.obj?dl=1",
+        "DiffuseURL": "https://www.dropbox.com/s/z8vu766809jfs5u/chaosbrick_square.jpg?dl=1",
+        "NormalURL": "https://www.dropbox.com/s/kj3n7rnhf7lnxih/chaosbrick_normal.jpg?dl=1",
+        "ColliderURL": "https://www.dropbox.com/s/1qug99dfk8ya9vb/fortress_angle_outer.obj?dl=1",
+        "Convex": false,
+        "MaterialIndex": 2,
+        "TypeIndex": 0
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 10.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "GUID": "2a605f"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 12.5445032,
+        "posY": 3.615743,
+        "posZ": -17.2427921,
+        "rotX": 342.1033,
+        "rotY": 357.031,
+        "rotZ": 180.1361,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "Siege Ramp",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921797,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "http://www.general-chaos.com/rp/ts/3x3tech.obj",
+        "DiffuseURL": "http://www.general-chaos.com/rp/ts/tech.jpg",
+        "NormalURL": "http://www.general-chaos.com/rp/ts/techn.jpg",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "JointFixed": {
+        "ConnectedBodyGUID": "3c9708",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": -0.0174472686,
+          "y": -0.004696379,
+          "z": -2.00787044
+        },
+        "BreakForce": Infinity,
+        "BreakTorgue": Infinity
+      },
+      "GUID": "c66b76"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 13.7701693,
+        "posY": 0.95702076,
+        "posZ": -10.1237793,
+        "rotX": -1.66924633E-06,
+        "rotY": 270.0264,
+        "rotZ": 0.000941050239,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Fortress Damaged",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.9921703,
+        "b": 0.99999994
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/bvf2z7v38li2cfr/fortress_straight_damaged.obj?dl=1",
+        "DiffuseURL": "https://www.dropbox.com/s/z8vu766809jfs5u/chaosbrick_square.jpg?dl=1",
+        "NormalURL": "https://www.dropbox.com/s/kj3n7rnhf7lnxih/chaosbrick_normal.jpg?dl=1",
+        "ColliderURL": "https://www.dropbox.com/s/bvf2z7v38li2cfr/fortress_straight_damaged.obj?dl=1",
+        "Convex": false,
+        "MaterialIndex": 2,
+        "TypeIndex": 0
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 10.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "GUID": "88466a"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 31.7319317,
+        "posY": 0.957001,
+        "posZ": -10.08812,
+        "rotX": -2.66023471E-06,
+        "rotY": 270.00705,
+        "rotZ": 2.29204443E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.9921703,
+        "b": 0.99999994
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/tocnjs6iaaawfqa/fortress_straight.obj?dl=1",
+        "DiffuseURL": "https://www.dropbox.com/s/z8vu766809jfs5u/chaosbrick_square.jpg?dl=1",
+        "NormalURL": "https://www.dropbox.com/s/kj3n7rnhf7lnxih/chaosbrick_normal.jpg?dl=1",
+        "ColliderURL": "https://www.dropbox.com/s/tocnjs6iaaawfqa/fortress_straight.obj?dl=1",
+        "Convex": false,
+        "MaterialIndex": 2,
+        "TypeIndex": 0
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 10.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "GUID": "9c10c3"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 48.0952454,
+        "posY": 0.958226442,
+        "posZ": -13.306407,
+        "rotX": 3.154245E-05,
+        "rotY": 270.024963,
+        "rotZ": 6.194895E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Fortress Outer Angle",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.992170036,
+        "b": 0.99999994
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/1qug99dfk8ya9vb/fortress_angle_outer.obj?dl=1",
+        "DiffuseURL": "https://www.dropbox.com/s/z8vu766809jfs5u/chaosbrick_square.jpg?dl=1",
+        "NormalURL": "https://www.dropbox.com/s/kj3n7rnhf7lnxih/chaosbrick_normal.jpg?dl=1",
+        "ColliderURL": "https://www.dropbox.com/s/1qug99dfk8ya9vb/fortress_angle_outer.obj?dl=1",
+        "Convex": false,
+        "MaterialIndex": 2,
+        "TypeIndex": 0
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 10.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "GUID": "eba332"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 12.6116009,
+        "posY": 3.351595,
+        "posZ": -5.19334,
+        "rotX": 350.583,
+        "rotY": 180.82608,
+        "rotZ": 179.788483,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "Siege Ramp",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.99217993,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "http://www.general-chaos.com/rp/ts/3x3tech.obj",
+        "DiffuseURL": "http://www.general-chaos.com/rp/ts/tech.jpg",
+        "NormalURL": "http://www.general-chaos.com/rp/ts/techn.jpg",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 1.0,
+        "DynamicFriction": 1.0,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.1875,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "JointFixed": {
+        "ConnectedBodyGUID": "a5045c",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.0532777421,
+          "y": -0.000131532288,
+          "z": 2.95754576
+        },
+        "BreakForce": Infinity,
+        "BreakTorgue": Infinity
+      },
+      "GUID": "e11905"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 12.5948038,
+        "posY": 2.49640512,
+        "posZ": -0.08795538,
+        "rotX": 350.505829,
+        "rotY": 180.8539,
+        "rotZ": 179.717865,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "Siege Ramp",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921797,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "http://www.general-chaos.com/rp/ts/3x3tech.obj",
+        "DiffuseURL": "http://www.general-chaos.com/rp/ts/tech.jpg",
+        "NormalURL": "http://www.general-chaos.com/rp/ts/techn.jpg",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 1.0,
+        "DynamicFriction": 1.0,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.1875,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "JointFixed": {
+        "ConnectedBodyGUID": "0cbd98",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": -0.02769282,
+          "y": -0.0008073512,
+          "z": -2.94930363
+        },
+        "BreakForce": Infinity,
+        "BreakTorgue": Infinity
+      },
+      "GUID": "a5045c"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 3.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921728,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=62RLe7Sc",
+        "DiffuseURL": "http://i58.tinypic.com/2vb8kyv.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=62RLe7Sc",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "87406a"
+    },
+    {
+      "Name": "DeckCustom",
+      "Transform": {
+        "posX": -29.6749821,
+        "posY": 1.17325187,
+        "posZ": -33.9691849,
+        "rotX": -8.449604E-08,
+        "rotY": 180.000885,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Tactical Objectives",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7136095,
+        "g": 0.7136095,
+        "b": 0.7136095
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        104,
+        117,
+        114,
+        105,
+        112,
+        107,
+        130,
+        121,
+        111,
+        115,
+        128,
+        120,
+        109,
+        134,
+        110,
+        127,
+        125,
+        101,
+        118,
+        108,
+        135,
+        129,
+        102,
+        100,
+        106,
+        103,
+        133,
+        122,
+        124,
+        119,
+        126,
+        116,
+        132,
+        113,
+        123,
+        131
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "http://i.imgur.com/fW33VEy.jpg",
+          "BackURL": "http://i.imgur.com/hMQaI47.jpg"
+        }
+      },
+      "GUID": "e98b6c"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -29.9343719,
+        "posY": 1.30822015,
+        "posZ": -29.6701317,
+        "rotX": 4.4778928E-05,
+        "rotY": 140.874435,
+        "rotZ": 179.999969,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Die",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.956924736,
+        "g": 0.0156862754,
+        "b": 0.235819846
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 1,
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.2,
+        "AngularDrag": 0.2,
+        "UseGravity": true
+      },
+      "GUID": "b3f6db"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -29.3662872,
+        "posY": 1.33322036,
+        "posZ": -29.22374,
+        "rotX": 2.22847871E-06,
+        "rotY": 140.93602,
+        "rotZ": 1.640718E-06,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Scatter die",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9999998,
+        "b": 0.9999998
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=7CD7wScC",
+        "DiffuseURL": "http://i.imgur.com/yIMwR0n.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 2
+      },
+      "GUID": "cdfacc"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 7.14994144,
+        "posY": 1.31716526,
+        "posZ": 6.722823,
+        "rotX": 1.1103142E-06,
+        "rotY": 94.8938751,
+        "rotZ": 180.0,
+        "scaleX": 0.975,
+        "scaleY": 0.975,
+        "scaleZ": 0.975
+      },
+      "Nickname": "wh_dead_civ_1",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921761,
+        "b": 0.9999998
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/9nFFf",
+        "DiffuseURL": "http://i.imgur.com/y8PWyDr.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "fe66ed"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 48.01845,
+        "posY": 7.419161,
+        "posZ": -12.1790733,
+        "rotX": 4.223119,
+        "rotY": 210.114746,
+        "rotZ": 358.879822,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "wh_dead_spacemarines_scout",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921774,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/NbUCC",
+        "DiffuseURL": "http://i.imgur.com/juJJbDB.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/NbUCC",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "d03870"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -46.0482254,
+        "posY": 7.35157537,
+        "posZ": 13.688611,
+        "rotX": 2.00960135,
+        "rotY": 314.8674,
+        "rotZ": 356.818634,
+        "scaleX": 0.975,
+        "scaleY": 0.975,
+        "scaleZ": 0.975
+      },
+      "Nickname": "wh_dead_civ_1",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921759,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/9nFFf",
+        "DiffuseURL": "http://i.imgur.com/y8PWyDr.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/9nFFf",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "a73761"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 10.4005184,
+        "posY": 1.06631887,
+        "posZ": -15.5387211,
+        "rotX": 2.00928044,
+        "rotY": 305.693085,
+        "rotZ": 356.8189,
+        "scaleX": 1.1,
+        "scaleY": 1.1,
+        "scaleZ": 1.1
+      },
+      "Nickname": "wh_dead_civ_1",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992175639,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/9nFFf",
+        "DiffuseURL": "http://i.imgur.com/y8PWyDr.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/9nFFf",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "7557ef"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -22.521801,
+        "posY": 1.041474,
+        "posZ": -1.41533685,
+        "rotX": 2.00926,
+        "rotY": 339.582367,
+        "rotZ": 356.818939,
+        "scaleX": 0.85,
+        "scaleY": 0.85,
+        "scaleZ": 0.85
+      },
+      "Nickname": "wh_dead_civ_1",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921759,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/9nFFf",
+        "DiffuseURL": "http://i.imgur.com/y8PWyDr.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/9nFFf",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "GUID": "e4ac2d"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -32.5564423,
+        "posY": 1.3876276,
+        "posZ": -49.7808571,
+        "rotX": 6.132953E-06,
+        "rotY": 97.89101,
+        "rotZ": 180.000015,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9960789,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 1,
+      "GUID": "92028b"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -34.2437363,
+        "posY": 1.38762748,
+        "posZ": -49.24339,
+        "rotX": -3.45466469E-05,
+        "rotY": 129.480957,
+        "rotZ": 1.08274253E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9960789,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 1,
+      "GUID": "ef076f"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -35.7400932,
+        "posY": 1.38762736,
+        "posZ": -50.3993263,
+        "rotX": 0.0001263585,
+        "rotY": 16.76723,
+        "rotZ": 89.99985,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9960789,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 1,
+      "GUID": "5d969e"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -34.9794159,
+        "posY": 1.38762772,
+        "posZ": -50.6474342,
+        "rotX": 270.0,
+        "rotY": 114.916458,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9960789,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 1,
+      "GUID": "99b28b"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -34.087162,
+        "posY": 1.38762784,
+        "posZ": -51.3452644,
+        "rotX": -0.0001631968,
+        "rotY": 171.826248,
+        "rotZ": 180.000122,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9960789,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 1,
+      "GUID": "c15ef6"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -34.1512642,
+        "posY": 1.38762748,
+        "posZ": -47.088,
+        "rotX": 2.9395992E-06,
+        "rotY": 54.03319,
+        "rotZ": -2.12956875E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9960789,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 1,
+      "GUID": "3abec8"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -31.6024151,
+        "posY": 1.38762748,
+        "posZ": -51.6051025,
+        "rotX": 5.33401362E-05,
+        "rotY": 104.888313,
+        "rotZ": 0.000146772742,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9960789,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 1,
+      "GUID": "91c166"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -33.395153,
+        "posY": 1.38762426,
+        "posZ": -47.8906326,
+        "rotX": 90.0,
+        "rotY": 54.9771156,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9960789,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 1,
+      "GUID": "10bafa"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -33.1182823,
+        "posY": 1.38762784,
+        "posZ": -46.9988174,
+        "rotX": 0.02685289,
+        "rotY": 133.6495,
+        "rotZ": 269.996552,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9960789,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 1,
+      "GUID": "78dc52"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -35.6387177,
+        "posY": 1.38762748,
+        "posZ": -48.2385445,
+        "rotX": 90.0,
+        "rotY": 315.209259,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9960789,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 1,
+      "GUID": "2a87ba"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -36.5758362,
+        "posY": 1.38762724,
+        "posZ": -49.8985519,
+        "rotX": 0.000162217,
+        "rotY": 272.8143,
+        "rotZ": 90.0001144,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9960789,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 1,
+      "GUID": "d3a2a9"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -36.0438423,
+        "posY": 1.3876276,
+        "posZ": -49.1954269,
+        "rotX": 2.21981154E-05,
+        "rotY": 34.32359,
+        "rotZ": 89.9999847,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9960789,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 1,
+      "GUID": "7a6aef"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -33.2012024,
+        "posY": 1.38762772,
+        "posZ": -49.231678,
+        "rotX": 270.0,
+        "rotY": 276.0676,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9960789,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 1,
+      "GUID": "29a6f0"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -33.12383,
+        "posY": 2.084646,
+        "posZ": -47.08335,
+        "rotX": 0.00194831146,
+        "rotY": 186.63916,
+        "rotZ": 270.0054,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9960789,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 1,
+      "GUID": "2e010b"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -36.9664421,
+        "posY": 1.38762784,
+        "posZ": -51.04375,
+        "rotX": 3.54075673E-05,
+        "rotY": 155.0515,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9960789,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 1,
+      "GUID": "6d2f1d"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -32.6674919,
+        "posY": 1.3876121,
+        "posZ": -47.670845,
+        "rotX": -0.00170925481,
+        "rotY": 51.8162231,
+        "rotZ": 90.0337448,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9960789,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 1,
+      "GUID": "d0c8dd"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -33.8456154,
+        "posY": 1.38762748,
+        "posZ": -54.29077,
+        "rotX": -5.36517746E-06,
+        "rotY": 340.6345,
+        "rotZ": -0.00010264806,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9960789,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 1,
+      "GUID": "d240b8"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -31.7244759,
+        "posY": 1.38762748,
+        "posZ": -48.84201,
+        "rotX": 90.0,
+        "rotY": 65.28678,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9960789,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 1,
+      "GUID": "c93f0c"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -34.7343025,
+        "posY": 1.38762748,
+        "posZ": -49.9647865,
+        "rotX": -8.056002E-05,
+        "rotY": 294.3788,
+        "rotZ": 1.26356963E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9960789,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 1,
+      "GUID": "3a066b"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -33.19823,
+        "posY": 1.38762748,
+        "posZ": -51.1902542,
+        "rotX": -0.000132258821,
+        "rotY": 109.948463,
+        "rotZ": 0.000145754,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9960789,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 1,
+      "GUID": "2e398d"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -36.4322281,
+        "posY": 1.38762748,
+        "posZ": -52.05078,
+        "rotX": 4.90171146E-07,
+        "rotY": 39.54043,
+        "rotZ": 180.000015,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9960789,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 1,
+      "GUID": "b228fe"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -30.8491535,
+        "posY": 1.38762748,
+        "posZ": -49.1692047,
+        "rotX": 2.107147E-06,
+        "rotY": 176.624924,
+        "rotZ": -1.182288E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9960789,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 1,
+      "GUID": "fbed86"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -32.32893,
+        "posY": 1.38762724,
+        "posZ": -51.3978539,
+        "rotX": -3.5441004E-05,
+        "rotY": 185.137161,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9960789,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 1,
+      "GUID": "9e5fc8"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -33.6236877,
+        "posY": 1.38762784,
+        "posZ": -53.4769554,
+        "rotX": 90.0,
+        "rotY": 72.12549,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9960789,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 1,
+      "GUID": "cc4908"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -31.5597515,
+        "posY": 1.38762748,
+        "posZ": -49.6815,
+        "rotX": -1.10712313E-06,
+        "rotY": 310.335571,
+        "rotZ": 180.000015,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9960789,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 1,
+      "GUID": "0d0b32"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -33.2536736,
+        "posY": 1.38762748,
+        "posZ": -50.42698,
+        "rotX": 6.20548633E-07,
+        "rotY": 19.871006,
+        "rotZ": -5.031273E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9960789,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 1,
+      "GUID": "745cad"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -34.78912,
+        "posY": 1.3876276,
+        "posZ": -51.7951965,
+        "rotX": -2.90283042E-05,
+        "rotY": 50.53437,
+        "rotZ": 270.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9960789,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 1,
+      "GUID": "f0e2fd"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 30.4559,
+        "posY": 1.38762748,
+        "posZ": 50.9404259,
+        "rotX": -1.36603785E-05,
+        "rotY": 315.861938,
+        "rotZ": 270.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.423740447,
+        "b": 0.9960789
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 3,
+      "GUID": "16f30b"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 29.2332649,
+        "posY": 1.3876276,
+        "posZ": 53.10817,
+        "rotX": -4.226454E-05,
+        "rotY": 237.473114,
+        "rotZ": 180.000015,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.423746467,
+        "b": 0.9960789
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 3,
+      "GUID": "531ed9"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 32.16157,
+        "posY": 1.3876276,
+        "posZ": 53.6543846,
+        "rotX": -0.000124650949,
+        "rotY": 210.9091,
+        "rotZ": 269.999939,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.423746467,
+        "b": 0.9960789
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 3,
+      "GUID": "73f7dd"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 31.3116856,
+        "posY": 1.38762748,
+        "posZ": 54.23353,
+        "rotX": 3.20165123E-06,
+        "rotY": 182.776947,
+        "rotZ": 90.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.423746467,
+        "b": 0.9960789
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 3,
+      "GUID": "b27f4b"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 31.0168438,
+        "posY": 1.38762724,
+        "posZ": 52.2978134,
+        "rotX": -8.6543354E-05,
+        "rotY": 129.777008,
+        "rotZ": 180.0001,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.423746467,
+        "b": 0.9960789
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 3,
+      "GUID": "cb39a0"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 31.8082924,
+        "posY": 1.38762748,
+        "posZ": 52.68075,
+        "rotX": 270.0,
+        "rotY": 218.258728,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.423746467,
+        "b": 0.9960789
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 3,
+      "GUID": "86339b"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 32.9137,
+        "posY": 1.3876276,
+        "posZ": 54.454998,
+        "rotX": -2.561321E-06,
+        "rotY": 337.643433,
+        "rotZ": 270.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.423746467,
+        "b": 0.9960789
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 3,
+      "GUID": "5e1b04"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 33.75435,
+        "posY": 1.38762772,
+        "posZ": 54.5247154,
+        "rotX": 90.0,
+        "rotY": 243.662033,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.423746467,
+        "b": 0.9960789
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 3,
+      "GUID": "4b6c56"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 32.671772,
+        "posY": 1.3876276,
+        "posZ": 52.2036324,
+        "rotX": 90.0,
+        "rotY": 348.166779,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.423746467,
+        "b": 0.9960789
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 3,
+      "GUID": "b6eaba"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 33.4669724,
+        "posY": 1.38762748,
+        "posZ": 52.4293671,
+        "rotX": 8.1176795E-06,
+        "rotY": 319.05368,
+        "rotZ": -2.00538416E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.423746467,
+        "b": 0.9960789
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 3,
+      "GUID": "a9966c"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 31.735239,
+        "posY": 1.38762748,
+        "posZ": 51.84246,
+        "rotX": 0.000163924546,
+        "rotY": 102.193535,
+        "rotZ": 269.9998,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.423746467,
+        "b": 0.9960789
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 3,
+      "GUID": "3397eb"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 32.9774628,
+        "posY": 1.38762689,
+        "posZ": 51.2823677,
+        "rotX": 1.82222971E-06,
+        "rotY": 173.3533,
+        "rotZ": 180.000122,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.423746467,
+        "b": 0.9960789
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 3,
+      "GUID": "258ca0"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 31.0244923,
+        "posY": 1.3876276,
+        "posZ": 55.2451324,
+        "rotX": -6.510024E-06,
+        "rotY": 176.761154,
+        "rotZ": 270.000031,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.423746467,
+        "b": 0.9960789
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 3,
+      "GUID": "f60a63"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 27.6972771,
+        "posY": 1.38762748,
+        "posZ": 52.5806046,
+        "rotX": 270.0,
+        "rotY": 262.540375,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.4237525,
+        "b": 0.9960789
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 3,
+      "GUID": "926318"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 29.6510067,
+        "posY": 1.38762748,
+        "posZ": 50.0095863,
+        "rotX": -5.783873E-07,
+        "rotY": 254.218658,
+        "rotZ": 2.976734E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.4237525,
+        "b": 0.9960789
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 3,
+      "GUID": "46700e"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 30.0336,
+        "posY": 1.38762748,
+        "posZ": 54.14226,
+        "rotX": 1.718071E-05,
+        "rotY": 63.06617,
+        "rotZ": 6.86355052E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.4237525,
+        "b": 0.9960789
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 3,
+      "GUID": "e243fa"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 28.3000565,
+        "posY": 1.3876276,
+        "posZ": 53.47208,
+        "rotX": 7.00081437E-05,
+        "rotY": 285.283844,
+        "rotZ": 179.9999,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.4237525,
+        "b": 0.9960789
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 3,
+      "GUID": "c4076d"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 32.1203,
+        "posY": 1.38762748,
+        "posZ": 55.4955635,
+        "rotX": -2.15139744E-06,
+        "rotY": 11.8887444,
+        "rotZ": -1.3582868E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.4237525,
+        "b": 0.9960789
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 3,
+      "GUID": "7523fa"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 32.02391,
+        "posY": 1.38762748,
+        "posZ": 54.49412,
+        "rotX": 1.79292474E-05,
+        "rotY": 183.039276,
+        "rotZ": 269.9999,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.4237525,
+        "b": 0.9960789
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 3,
+      "GUID": "914c4e"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 30.2127972,
+        "posY": 1.38762748,
+        "posZ": 55.0030174,
+        "rotX": 2.23048373E-05,
+        "rotY": 179.202789,
+        "rotZ": 89.9999542,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.4237525,
+        "b": 0.9960789
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 3,
+      "GUID": "71ed79"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 30.4659348,
+        "posY": 1.38762748,
+        "posZ": 53.0097351,
+        "rotX": -2.68870772E-05,
+        "rotY": 269.802277,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.4237525,
+        "b": 0.9960789
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 3,
+      "GUID": "8e838b"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 29.1246681,
+        "posY": 1.38762689,
+        "posZ": 51.98302,
+        "rotX": -0.000150070962,
+        "rotY": 171.400787,
+        "rotZ": 180.000015,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.4237525,
+        "b": 0.9960789
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 3,
+      "GUID": "383136"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 29.2456055,
+        "posY": 1.38762772,
+        "posZ": 54.57239,
+        "rotX": 5.97641565E-06,
+        "rotY": 339.5495,
+        "rotZ": 270.000061,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.423746467,
+        "b": 0.9960789
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 3,
+      "GUID": "793112"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 31.888834,
+        "posY": 1.38762772,
+        "posZ": 50.131424,
+        "rotX": -1.70754731E-06,
+        "rotY": 256.806854,
+        "rotZ": 270.000031,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.4237525,
+        "b": 0.9960789
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 3,
+      "GUID": "0002c8"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 34.31171,
+        "posY": 1.38762748,
+        "posZ": 52.95699,
+        "rotX": -2.06183013E-05,
+        "rotY": 0.883360744,
+        "rotZ": 180.000137,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.4237525,
+        "b": 0.9960789
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 3,
+      "GUID": "6ce4bc"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 30.55803,
+        "posY": 1.38762748,
+        "posZ": 55.9520836,
+        "rotX": 90.0,
+        "rotY": 71.42365,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.4237525,
+        "b": 0.9960789
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 3,
+      "GUID": "a4ea67"
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 39.644783,
+        "posY": 1.30822039,
+        "posZ": 34.87146,
+        "rotX": 0.0,
+        "rotY": 257.7082,
+        "rotZ": 270.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.4237585,
+        "b": 0.9960789
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": 3,
+      "GUID": "83efb2"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -17.8042355,
+        "posY": 7.289044,
+        "posZ": -1.81089151,
+        "rotX": -0.00141586049,
+        "rotY": 119.996429,
+        "rotZ": 0.000825849944,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Objective 3",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921711,
+        "b": 0.9999998
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "www.googledrive.com/host/0BwpXdiEgZ5GzX1E0OVZ4OVI3NEU",
+        "DiffuseURL": "http://i.imgur.com/2M6Gi1a.jpg",
+        "NormalURL": "http://i.imgur.com/OwdSyxh.jpg",
+        "ColliderURL": "www.googledrive.com/host/0BwpXdiEgZ5GzQlFJOWVXUEFkVjA",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 7.0,
+          "FresnelStrength": 0.4
+        }
+      },
+      "GUID": "506629"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -10.3635082,
+        "posY": 0.9925283,
+        "posZ": -12.4818764,
+        "rotX": 0.00149336015,
+        "rotY": 284.924561,
+        "rotZ": -0.000698897929,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Objective 1",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921704,
+        "b": 0.9999998
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "www.googledrive.com/host/0BwpXdiEgZ5GzX1E0OVZ4OVI3NEU",
+        "DiffuseURL": "http://i.imgur.com/LlVaWAa.jpg",
+        "NormalURL": "http://i.imgur.com/OwdSyxh.jpg",
+        "ColliderURL": "www.googledrive.com/host/0BwpXdiEgZ5GzQlFJOWVXUEFkVjA",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 7.0,
+          "FresnelStrength": 0.4
+        }
+      },
+      "GUID": "a07e14"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 15.8421211,
+        "posY": 7.289003,
+        "posZ": -12.0757618,
+        "rotX": -0.00308410614,
+        "rotY": 90.00103,
+        "rotZ": -0.000406723731,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Objective 4",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921709,
+        "b": 0.9999998
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "www.googledrive.com/host/0BwpXdiEgZ5GzX1E0OVZ4OVI3NEU",
+        "DiffuseURL": "http://i.imgur.com/hBVaqK2.jpg",
+        "NormalURL": "http://i.imgur.com/OwdSyxh.jpg",
+        "ColliderURL": "www.googledrive.com/host/0BwpXdiEgZ5GzQlFJOWVXUEFkVjA",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 7.0,
+          "FresnelStrength": 0.4
+        }
+      },
+      "GUID": "7db4e6"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 25.6756763,
+        "posY": 1.10987031,
+        "posZ": 5.069238,
+        "rotX": -0.00370971626,
+        "rotY": 133.247528,
+        "rotZ": -0.000515050138,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Objective 6",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992171347,
+        "b": 0.9999998
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "www.googledrive.com/host/0BwpXdiEgZ5GzX1E0OVZ4OVI3NEU",
+        "DiffuseURL": "http://i.imgur.com/YNibEhf.jpg",
+        "NormalURL": "http://i.imgur.com/OwdSyxh.jpg",
+        "ColliderURL": "www.googledrive.com/host/0BwpXdiEgZ5GzQlFJOWVXUEFkVjA",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 7.0,
+          "FresnelStrength": 0.4
+        }
+      },
+      "GUID": "d1df52"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 1.20696533,
+        "posY": 0.992528439,
+        "posZ": 0.6504155,
+        "rotX": 0.00151380454,
+        "rotY": 285.018372,
+        "rotZ": -0.0006955254,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Objective 2",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921709,
+        "b": 0.9999998
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "www.googledrive.com/host/0BwpXdiEgZ5GzX1E0OVZ4OVI3NEU",
+        "DiffuseURL": "http://i.imgur.com/cH2Zp75.jpg",
+        "NormalURL": "http://i.imgur.com/OwdSyxh.jpg",
+        "ColliderURL": "www.googledrive.com/host/0BwpXdiEgZ5GzQlFJOWVXUEFkVjA",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 7.0,
+          "FresnelStrength": 0.4
+        }
+      },
+      "GUID": "b88438"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -34.4679,
+        "posY": 0.9925282,
+        "posZ": 3.60429764,
+        "rotX": 0.00151111465,
+        "rotY": 330.000061,
+        "rotZ": -0.000671191432,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Objective 5",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921709,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "www.googledrive.com/host/0BwpXdiEgZ5GzX1E0OVZ4OVI3NEU",
+        "DiffuseURL": "http://i.imgur.com/NbmkXub.jpg",
+        "NormalURL": "http://i.imgur.com/OwdSyxh.jpg",
+        "ColliderURL": "www.googledrive.com/host/0BwpXdiEgZ5GzQlFJOWVXUEFkVjA",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 7.0,
+          "FresnelStrength": 0.4
+        }
+      },
+      "GUID": "073dde"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -37.61163,
+        "posY": 1.4408356,
+        "posZ": -14.4910679,
+        "rotX": 0.00224726018,
+        "rotY": 195.002472,
+        "rotZ": -0.00286939438,
+        "scaleX": 0.725,
+        "scaleY": 0.725,
+        "scaleZ": 0.725
+      },
+      "Nickname": "wh_dead_officer_1",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.99216944,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/fUOya",
+        "DiffuseURL": "http://i.imgur.com/U4A4Hy5.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/fUOya",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 0.93125,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": false
+      },
+      "GUID": "08240d"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 5.182588,
+        "posY": 4.30735874,
+        "posZ": -13.4336681,
+        "rotX": -1.963732E-05,
+        "rotY": 179.991547,
+        "rotZ": -7.148905E-06,
+        "scaleX": 0.6,
+        "scaleY": 0.6,
+        "scaleZ": 0.6
+      },
+      "Nickname": "wh_dead_ig_nailed_1",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921704,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=em7yuxhu",
+        "DiffuseURL": "http://i.imgur.com/rmcIdix.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=em7yuxhu",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 0.9,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": false
+      },
+      "GUID": "bd5a39"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -17.3789043,
+        "posY": 5.00267744,
+        "posZ": -3.2823143,
+        "rotX": 0.0150407217,
+        "rotY": 225.006958,
+        "rotZ": 359.991425,
+        "scaleX": 0.6,
+        "scaleY": 0.6,
+        "scaleZ": 0.6
+      },
+      "Nickname": "wh_dead_ig_nailed_2",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921704,
+        "b": 0.9999998
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=yheYkYGU",
+        "DiffuseURL": "http://i.imgur.com/gkbcQmz.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=yheYkYGU",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 1
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 0.9,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": false
+      },
+      "GUID": "5ec94e"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -2.31602049,
+        "posY": 1.14050257,
+        "posZ": 2.01872349,
+        "rotX": 5.38066626,
+        "rotY": 343.718658,
+        "rotZ": 346.4506,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Wrecked Chimera",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921805,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "www.googledrive.com/host/0B5MM9iBmON8nZGFuVHJyVXRNOTQ",
+        "DiffuseURL": "www.googledrive.com/host/0B5MM9iBmON8nSlhQRFpiU1pEeWM",
+        "NormalURL": "https://www.dropbox.com/s/q7evcr5x51xedp1/templewall_normal.jpg?dl=1",
+        "ColliderURL": "www.googledrive.com/host/0B5MM9iBmON8nZGFuVHJyVXRNOTQ",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "474e72"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -13.1889849,
+        "posY": 0.972563744,
+        "posZ": -12.2834988,
+        "rotX": -8.3471E-05,
+        "rotY": 194.98616,
+        "rotZ": -4.435564E-07,
+        "scaleX": 0.949999869,
+        "scaleY": 0.949999869,
+        "scaleZ": 0.949999869
+      },
+      "Nickname": "wh40k_env_snow_forest_tree_02",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992177665,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "www.googledrive.com/host/0B5MM9iBmON8nZXNhRVcyNGRLQ2c",
+        "DiffuseURL": "www.googledrive.com/host/0B5MM9iBmON8nSWpYc2FiSlRmbkU",
+        "NormalURL": "https://www.dropbox.com/s/tkfcdlgghlwh6ol/lunarrock_n.jpg?dl=1",
+        "ColliderURL": "www.googledrive.com/host/0B5MM9iBmON8nZXNhRVcyNGRLQ2c",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "c4b6fc"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 27.23128,
+        "posY": 0.9561417,
+        "posZ": -21.039135,
+        "rotX": 0.0197761264,
+        "rotY": 53.00862,
+        "rotZ": 359.967377,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "wh40k_env_snow_cover_sandbags_snow_02",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921774,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "www.googledrive.com/host/0B5MM9iBmON8nTDBlbG9wcVF4OEk",
+        "DiffuseURL": "www.googledrive.com/host/0B5MM9iBmON8nck5mczRjcDdzUlk",
+        "NormalURL": "https://www.dropbox.com/s/tkfcdlgghlwh6ol/lunarrock_n.jpg?dl=1",
+        "ColliderURL": "www.googledrive.com/host/0B5MM9iBmON8nTDBlbG9wcVF4OEk",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "b47d35"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 29.5125961,
+        "posY": 0.9725809,
+        "posZ": -18.87895,
+        "rotX": -1.8854962E-05,
+        "rotY": 15.0289211,
+        "rotZ": -2.26708071E-05,
+        "scaleX": 0.949999869,
+        "scaleY": 0.949999869,
+        "scaleZ": 0.949999869
+      },
+      "Nickname": "wh40k_env_snow_forest_tree_02",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.99217695,
+        "b": 0.9999998
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "www.googledrive.com/host/0B5MM9iBmON8nZXNhRVcyNGRLQ2c",
+        "DiffuseURL": "www.googledrive.com/host/0B5MM9iBmON8nSWpYc2FiSlRmbkU",
+        "NormalURL": "https://www.dropbox.com/s/tkfcdlgghlwh6ol/lunarrock_n.jpg?dl=1",
+        "ColliderURL": "www.googledrive.com/host/0B5MM9iBmON8nZXNhRVcyNGRLQ2c",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "1c9990"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -34.5947762,
+        "posY": 0.9570003,
+        "posZ": 1.766761,
+        "rotX": 2.486933E-05,
+        "rotY": 255.005722,
+        "rotZ": -1.790107E-05,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "wh40k_env_snow_cover_sandbags_snow_02",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992177665,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "www.googledrive.com/host/0B5MM9iBmON8nTDBlbG9wcVF4OEk",
+        "DiffuseURL": "www.googledrive.com/host/0B5MM9iBmON8nck5mczRjcDdzUlk",
+        "NormalURL": "https://www.dropbox.com/s/tkfcdlgghlwh6ol/lunarrock_n.jpg?dl=1",
+        "ColliderURL": "www.googledrive.com/host/0B5MM9iBmON8nTDBlbG9wcVF4OEk",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "d7aefb"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 3.30186772,
+        "posY": 0.957000732,
+        "posZ": 19.1840534,
+        "rotX": -3.471347E-05,
+        "rotY": 89.99085,
+        "rotZ": -2.4120643E-06,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992164552,
+        "b": 0.9999998
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/1a9jk63rljmq4d3/mod_city_ruin3.obj?dl=1",
+        "DiffuseURL": "https://www.dropbox.com/s/rpn9u091xg1vdv8/Dirty_wall_01.jpg?dl=1",
+        "NormalURL": "https://www.dropbox.com/s/tkfcdlgghlwh6ol/lunarrock_n.jpg?dl=1",
+        "ColliderURL": "https://www.dropbox.com/s/1a9jk63rljmq4d3/mod_city_ruin3.obj?dl=1",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 0.96875,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "GUID": "c6a105"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -42.2052727,
+        "posY": 0.9579973,
+        "posZ": 6.91885567,
+        "rotX": -8.79230647E-05,
+        "rotY": 179.923126,
+        "rotZ": 0.008295546,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921648,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/1a9jk63rljmq4d3/mod_city_ruin3.obj?dl=1",
+        "DiffuseURL": "https://www.dropbox.com/s/rpn9u091xg1vdv8/Dirty_wall_01.jpg?dl=1",
+        "NormalURL": "https://www.dropbox.com/s/tkfcdlgghlwh6ol/lunarrock_n.jpg?dl=1",
+        "ColliderURL": "https://www.dropbox.com/s/1a9jk63rljmq4d3/mod_city_ruin3.obj?dl=1",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 0.96875,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "GUID": "b0d568"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -42.68879,
+        "posY": 0.762970448,
+        "posZ": -19.6168938,
+        "rotX": 359.994019,
+        "rotY": 269.998566,
+        "rotZ": -0.0002788384,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992166,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/q7q4q8poipinwbu/mod_gothic_ruin.obj?dl=1",
+        "DiffuseURL": "https://www.dropbox.com/s/rpn9u091xg1vdv8/Dirty_wall_01.jpg?dl=1",
+        "NormalURL": "https://www.dropbox.com/s/tkfcdlgghlwh6ol/lunarrock_n.jpg?dl=1",
+        "ColliderURL": "https://www.dropbox.com/s/q7q4q8poipinwbu/mod_gothic_ruin.obj?dl=1",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 0.96875,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "GUID": "e0a951"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 43.94289,
+        "posY": 0.958257437,
+        "posZ": -17.8989182,
+        "rotX": -0.00402552262,
+        "rotY": 180.016861,
+        "rotZ": 359.99408,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921641,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/00da28vixf1n9pv/mod_city_ruin2.obj?dl=1",
+        "DiffuseURL": "https://www.dropbox.com/s/rpn9u091xg1vdv8/Dirty_wall_01.jpg?dl=1",
+        "NormalURL": "https://www.dropbox.com/s/tkfcdlgghlwh6ol/lunarrock_n.jpg?dl=1",
+        "ColliderURL": "https://www.dropbox.com/s/00da28vixf1n9pv/mod_city_ruin2.obj?dl=1",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 0.96875,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "GUID": "ab77a8"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 43.2317467,
+        "posY": 1.04826856,
+        "posZ": -22.67271,
+        "rotX": 0.00627259724,
+        "rotY": 276.097076,
+        "rotZ": -0.00346353534,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Vat",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921761,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "www.general-chaos.com/rp/ts/cryotube.obj",
+        "DiffuseURL": "www.general-chaos.com/rp/ts/tech.jpg",
+        "NormalURL": "www.general-chaos.com/rp/ts/techn.jpg",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "dbadb2"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -45.45478,
+        "posY": 0.9582205,
+        "posZ": 12.8154726,
+        "rotX": -5.276136E-06,
+        "rotY": 225.0123,
+        "rotZ": -2.87922921E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Fortress Outer Angle",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.9921703,
+        "b": 0.99999994
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/1qug99dfk8ya9vb/fortress_angle_outer.obj?dl=1",
+        "DiffuseURL": "https://www.dropbox.com/s/z8vu766809jfs5u/chaosbrick_square.jpg?dl=1",
+        "NormalURL": "https://www.dropbox.com/s/kj3n7rnhf7lnxih/chaosbrick_normal.jpg?dl=1",
+        "ColliderURL": "https://www.dropbox.com/s/1qug99dfk8ya9vb/fortress_angle_outer.obj?dl=1",
+        "Convex": false,
+        "MaterialIndex": 2,
+        "TypeIndex": 0
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 10.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "GUID": "03e4d5"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -19.8442841,
+        "posY": 1.03512609,
+        "posZ": 25.967762,
+        "rotX": -4.28239247E-07,
+        "rotY": 269.987152,
+        "rotZ": 8.579321E-06,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921636,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/j9t6075wttlol2e/mod_city_ruin4.obj?dl=1",
+        "DiffuseURL": "https://www.dropbox.com/s/rpn9u091xg1vdv8/Dirty_wall_01.jpg?dl=1",
+        "NormalURL": "https://www.dropbox.com/s/tkfcdlgghlwh6ol/lunarrock_n.jpg?dl=1",
+        "ColliderURL": "https://www.dropbox.com/s/j9t6075wttlol2e/mod_city_ruin4.obj?dl=1",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 0.90625,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "GUID": "ceeffb"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 12.5098133,
+        "posY": 4.212487,
+        "posZ": -10.3201866,
+        "rotX": 350.423126,
+        "rotY": 180.952087,
+        "rotZ": 179.65094,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "Siege Ramp",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992180169,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "http://www.general-chaos.com/rp/ts/3x3tech.obj",
+        "DiffuseURL": "http://www.general-chaos.com/rp/ts/tech.jpg",
+        "NormalURL": "http://www.general-chaos.com/rp/ts/techn.jpg",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 1.0,
+        "DynamicFriction": 1.0,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.1875,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "JointFixed": {
+        "ConnectedBodyGUID": "e11905",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": -0.0150785642,
+          "y": -0.0008920345,
+          "z": 2.97121215
+        },
+        "BreakForce": Infinity,
+        "BreakTorgue": Infinity
+      },
+      "GUID": "dfe847"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 12.6478148,
+        "posY": 1.652393,
+        "posZ": 5.003864,
+        "rotX": 9.427037,
+        "rotY": 1.14475369,
+        "rotZ": 180.285767,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "Siege Ramp",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.99217993,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "http://www.general-chaos.com/rp/ts/3x3tech.obj",
+        "DiffuseURL": "http://www.general-chaos.com/rp/ts/tech.jpg",
+        "NormalURL": "http://www.general-chaos.com/rp/ts/techn.jpg",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 1.0,
+        "DynamicFriction": 1.0,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.1875,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "GUID": "0cbd98"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 12.3498487,
+        "posY": 4.6983366,
+        "posZ": -13.9055138,
+        "rotX": 341.92926,
+        "rotY": 357.182281,
+        "rotZ": 180.060516,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921631,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "http://general-chaos.com/rp/ts/3x1tech.obj",
+        "DiffuseURL": "http://www.general-chaos.com/rp/ts/tech.jpg",
+        "NormalURL": "http://www.general-chaos.com/rp/ts/techn.jpg",
+        "ColliderURL": "http://general-chaos.com/rp/ts/3x1tech.obj",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "3c9708"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -15.2795582,
+        "posY": 3.384223,
+        "posZ": 6.12302446,
+        "rotX": 9.84535,
+        "rotY": 44.113266,
+        "rotZ": 180.115112,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "Siege Ramp",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.99217993,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "http://www.general-chaos.com/rp/ts/3x3tech.obj",
+        "DiffuseURL": "http://www.general-chaos.com/rp/ts/tech.jpg",
+        "NormalURL": "http://www.general-chaos.com/rp/ts/techn.jpg",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 1.0,
+        "DynamicFriction": 1.0,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.1875,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "JointFixed": {
+        "ConnectedBodyGUID": "759635",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": -0.02769282,
+          "y": -0.0008073512,
+          "z": -2.94930363
+        },
+        "BreakForce": Infinity,
+        "BreakTorgue": Infinity
+      },
+      "GUID": "932da1"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -18.8059864,
+        "posY": 4.26005125,
+        "posZ": 2.45713615,
+        "rotX": 350.251129,
+        "rotY": 224.443085,
+        "rotZ": 179.765076,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "Siege Ramp",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992180169,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "http://www.general-chaos.com/rp/ts/3x3tech.obj",
+        "DiffuseURL": "http://www.general-chaos.com/rp/ts/tech.jpg",
+        "NormalURL": "http://www.general-chaos.com/rp/ts/techn.jpg",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 1.0,
+        "DynamicFriction": 1.0,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.1875,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "GUID": "759635"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -11.797163,
+        "posY": 2.50083,
+        "posZ": 9.849947,
+        "rotX": 9.617691,
+        "rotY": 44.05859,
+        "rotZ": 180.10878,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "Siege Ramp",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992180169,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "http://www.general-chaos.com/rp/ts/3x3tech.obj",
+        "DiffuseURL": "http://www.general-chaos.com/rp/ts/tech.jpg",
+        "NormalURL": "http://www.general-chaos.com/rp/ts/techn.jpg",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 1.0,
+        "DynamicFriction": 1.0,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.1875,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "JointFixed": {
+        "ConnectedBodyGUID": "932da1",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.0532777421,
+          "y": -0.000131532288,
+          "z": 2.95754576
+        },
+        "BreakForce": Infinity,
+        "BreakTorgue": Infinity
+      },
+      "GUID": "5bc079"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -8.212908,
+        "posY": 1.63426208,
+        "posZ": 13.5179834,
+        "rotX": 9.26538,
+        "rotY": 44.1280632,
+        "rotZ": 179.996277,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "Siege Ramp",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921804,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "http://www.general-chaos.com/rp/ts/3x3tech.obj",
+        "DiffuseURL": "http://www.general-chaos.com/rp/ts/tech.jpg",
+        "NormalURL": "http://www.general-chaos.com/rp/ts/techn.jpg",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 1.0,
+        "DynamicFriction": 1.0,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.1875,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "JointFixed": {
+        "ConnectedBodyGUID": "5bc079",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": -0.0150785642,
+          "y": -0.0008920345,
+          "z": 2.97121215
+        },
+        "BreakForce": Infinity,
+        "BreakTorgue": Infinity
+      },
+      "GUID": "e9bb03"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -26.1806965,
+        "posY": 3.04561734,
+        "posZ": -4.6792655,
+        "rotX": 13.6294632,
+        "rotY": 224.7108,
+        "rotZ": 179.942764,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "Siege Ramp",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.99217993,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "http://www.general-chaos.com/rp/ts/3x3tech.obj",
+        "DiffuseURL": "http://www.general-chaos.com/rp/ts/tech.jpg",
+        "NormalURL": "http://www.general-chaos.com/rp/ts/techn.jpg",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 1.0,
+        "DynamicFriction": 1.0,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.1875,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "JointFixed": {
+        "ConnectedBodyGUID": "ae3c58",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": -0.0519153066,
+          "y": 0.00418931,
+          "z": -2.95757413
+        },
+        "BreakForce": Infinity,
+        "BreakTorgue": Infinity
+      },
+      "GUID": "403ca4"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -22.6691551,
+        "posY": 4.2678113,
+        "posZ": -1.09926641,
+        "rotX": 346.287,
+        "rotY": 45.0137062,
+        "rotZ": 179.956177,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "Siege Ramp",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992180169,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "http://www.general-chaos.com/rp/ts/3x3tech.obj",
+        "DiffuseURL": "http://www.general-chaos.com/rp/ts/tech.jpg",
+        "NormalURL": "http://www.general-chaos.com/rp/ts/techn.jpg",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 1.0,
+        "DynamicFriction": 1.0,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.1875,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "JointFixed": {
+        "ConnectedBodyGUID": "403ca4",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": -0.0129068922,
+          "y": -0.00259053684,
+          "z": -2.94940519
+        },
+        "BreakForce": Infinity,
+        "BreakTorgue": Infinity
+      },
+      "GUID": "d43838"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -29.65192,
+        "posY": 1.82515836,
+        "posZ": -8.32039,
+        "rotX": 13.7198534,
+        "rotY": 224.66571,
+        "rotZ": 180.0083,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "Siege Ramp",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992180169,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "http://www.general-chaos.com/rp/ts/3x3tech.obj",
+        "DiffuseURL": "http://www.general-chaos.com/rp/ts/tech.jpg",
+        "NormalURL": "http://www.general-chaos.com/rp/ts/techn.jpg",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 1.0,
+        "DynamicFriction": 1.0,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.1875,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "JointFixed": {
+        "ConnectedBodyGUID": "403ca4",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.0532777421,
+          "y": -0.000131532288,
+          "z": 2.95754576
+        },
+        "BreakForce": Infinity,
+        "BreakTorgue": Infinity
+      },
+      "GUID": "ae3c58"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 12.4125977,
+        "posY": 0.957869768,
+        "posZ": 24.2419338,
+        "rotX": 359.990143,
+        "rotY": 329.987366,
+        "rotZ": 0.00569641963,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Rubble",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9999998,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=43265McR",
+        "DiffuseURL": "http://i1374.photobucket.com/albums/ag416/JJMark/Rock76_zpsf0a9cfd6.jpg",
+        "NormalURL": "https://www.dropbox.com/s/tkfcdlgghlwh6ol/lunarrock_n.jpg?dl=1",
+        "ColliderURL": "http://pastebin.com/raw.php?i=43265McR",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "0b838a"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 30.38527,
+        "posY": 0.7620411,
+        "posZ": 5.1159544,
+        "rotX": -3.58595462E-05,
+        "rotY": 180.007858,
+        "rotZ": 1.5365471E-05,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921662,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/q7q4q8poipinwbu/mod_gothic_ruin.obj?dl=1",
+        "DiffuseURL": "https://www.dropbox.com/s/rpn9u091xg1vdv8/Dirty_wall_01.jpg?dl=1",
+        "NormalURL": "https://www.dropbox.com/s/tkfcdlgghlwh6ol/lunarrock_n.jpg?dl=1",
+        "ColliderURL": "https://www.dropbox.com/s/q7q4q8poipinwbu/mod_gothic_ruin.obj?dl=1",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 0.96875,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "GUID": "09bcdc"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -43.76539,
+        "posY": 9.169153,
+        "posZ": -25.77572,
+        "rotX": 0.00598967867,
+        "rotY": 89.71269,
+        "rotZ": 0.000253256876,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992166,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/ib897i3eyd64wnp/mod_city_ruin1.obj?dl=1",
+        "DiffuseURL": "https://www.dropbox.com/s/rpn9u091xg1vdv8/Dirty_wall_01.jpg?dl=1",
+        "NormalURL": "https://www.dropbox.com/s/tkfcdlgghlwh6ol/lunarrock_n.jpg?dl=1",
+        "ColliderURL": "https://www.dropbox.com/s/ib897i3eyd64wnp/mod_city_ruin1.obj?dl=1",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 0.96875,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "GUID": "d0a946"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 36.5253258,
+        "posY": 9.167764,
+        "posZ": 4.136768,
+        "rotX": 359.9902,
+        "rotY": 359.7427,
+        "rotZ": 0.002689405,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921662,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/ib897i3eyd64wnp/mod_city_ruin1.obj?dl=1",
+        "DiffuseURL": "https://www.dropbox.com/s/rpn9u091xg1vdv8/Dirty_wall_01.jpg?dl=1",
+        "NormalURL": "https://www.dropbox.com/s/tkfcdlgghlwh6ol/lunarrock_n.jpg?dl=1",
+        "ColliderURL": "https://www.dropbox.com/s/ib897i3eyd64wnp/mod_city_ruin1.obj?dl=1",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 0.96875,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "GUID": "8b3f93"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -20.1812077,
+        "posY": 1.036368,
+        "posZ": -26.0670834,
+        "rotX": 4.332276E-05,
+        "rotY": 90.01081,
+        "rotZ": 0.013338563,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992163837,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/j9t6075wttlol2e/mod_city_ruin4.obj?dl=1",
+        "DiffuseURL": "https://www.dropbox.com/s/rpn9u091xg1vdv8/Dirty_wall_01.jpg?dl=1",
+        "NormalURL": "https://www.dropbox.com/s/tkfcdlgghlwh6ol/lunarrock_n.jpg?dl=1",
+        "ColliderURL": "https://www.dropbox.com/s/j9t6075wttlol2e/mod_city_ruin4.obj?dl=1",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 0.90625,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "GUID": "d9ac60"
+    }
+  ]
+}

@@ -1,0 +1,525 @@
+{
+  "SaveName": "Archaeology The Card Game",
+  "GameMode": "None",
+  "Date": "12/2/2014 7:18:36 PM",
+  "Table": "Table_Hexagon",
+  "Sky": "Sky_Museum",
+  "Note": "",
+  "Rules": "Setup\r\nSeparate the thief, sandstorm, pyramid and map cards, and shuffle the remaining cards into one deck; deal 4 cards facedown to each player and 5 cards faceup to the middle of the table. These faceup treasures are the marketplace\r\n(arrange them by type).\r\nPut the pyramid card on the table and place 3 cards from the deck to the right of it, 5 cards above it and 7 cards to the left of it, all facedown. These are the pyramid’s treasures.\r\nWith 3 players, return 1 sandstorm card to the box; with 4 players, return 2 cards. Shuffle the remaining sandstorm, thief and map cards into the rest of the deck and place it facedown on the table as the dig site.\r\n\nRandomly choose a starting player.\n\nPlay\r\nOn your turn, you may first dig for treasure by drawing the top card from the dig site.\n\nTreasure cards are added to your hand.\n\nThief cards are discarded faceup on the table. You must choose a player and take 1 random card from their hand and add it to your own. \n\nSandstorm cards are discarded faceup on the table. Each player must choose half of their cards to discard, starting with the player who drew the card and going clockwise. All cards are placed faceup as part of the marketplace. When all players have discarded, the player who drew the card\r\nrestarts his turn. After digging for treasure, you may take any of the following actions any number of times and in any order:\n\nTrade at the marketplace\r\nYou may trade any number of cards in hand for any number of cards in the marketplace of equal or lesser value (any difference is lost). A treasure’s trading value is listed in the card’s top corners.\n\r\nExplore the pyramid You may discard 1 map card from your hand to take the 3 treasure cards from the small chamber; 2 cards to take the 5 cards from the medium chamber, or 3 cards to take the 7 cards from the large chamber.\r\nDiscarded maps are removed from the game. Each chamber may only be ‘explored’ once in the game.\n\r\nSell to the museum\nYou may sell a set of 1 or more treasure cards of the\r\nsame type from your hand to the museum. The value of a set is determined by the selling prices at the bottom of the card. Value increases as you collect more cards in a set.\n\r\nAnnounce what you are selling and place the cards faceup in front of you in an overlapping row. Each set is placed in a new pile; cards cannot be added to a set that has already been sold. You may not sell a set containing more cards than the maximum number listed, though you may sell multiple sets of the same treasure.\r\nSold treasures are unaffected by thieves or sandstorms.\n\nEnding the Turn\r\nWhen a player has finished taking actions for his turn, play passes clockwise to the next player.\n\r\nEnding the Game\r\nWhen there are no cards left in the dig site deck, play continues, however players do not dig for treasure at the start of their turn. From now on, a player may choose to pass and take no action on his turn. If all players pass in sequence, the first player who passed must sell at least 1 of his cards\r\nto the museum when play returns to him.\n\nWhen every player is left without cards in his hand, the game is over.\r\nEach player calculates the total selling values of all of the sets he sold to the museum.\r\nThe player with the highest total wins.\r\nIf there is a tie, the tied players count the total number of cards they sold to the museum: the lowest total wins",
+  "PlayerTurn": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Snapping": false,
+    "Offset": false,
+    "xSize": 0.0,
+    "ySize": 0.0
+  },
+  "DrawImage": "iVBORw0KGgoAAAANSUhEUgAAALAAAABoCAYAAABR2nocAAABV0lEQVR4Ae3QMQEAAADCoPVPbQZ/iEBhwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwICBb2AedwABqCI4UwAAAABJRU5ErkJggg==",
+  "ObjectStates": [
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -0.184480935,
+        "posY": 1.22605026,
+        "posZ": -3.60857224,
+        "rotX": 1.60195486E-05,
+        "rotY": 180.02832,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Archaeology Deck",
+      "Description": "Archaeology The Card Game Deck",
+      "ColorDiffuse": {
+        "r": 0.713262558,
+        "g": 0.713262558,
+        "b": 0.713262558
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        100,
+        101,
+        103,
+        100,
+        100,
+        101,
+        105,
+        105,
+        100,
+        102,
+        100,
+        100,
+        101,
+        101,
+        104,
+        105,
+        105,
+        105,
+        104,
+        101,
+        102,
+        105,
+        104,
+        102,
+        105,
+        100,
+        104,
+        101,
+        101,
+        105,
+        105,
+        100,
+        105,
+        105,
+        101,
+        100,
+        102,
+        101,
+        105,
+        102,
+        101,
+        102,
+        101,
+        101,
+        105,
+        104
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "http://i.imgur.com/IoRa5Y4.jpg",
+          "BackURL": "http://i.imgur.com/611Ksjc.jpg"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 0.00402564276,
+        "posY": 1.029438,
+        "posZ": -0.288271636,
+        "rotX": -8.476509E-06,
+        "rotY": 179.954269,
+        "rotZ": -1.592234E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713270366,
+        "g": 0.713270366,
+        "b": 0.713270366
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 109,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "http://i.imgur.com/IoRa5Y4.jpg",
+          "BackURL": "http://i.imgur.com/611Ksjc.jpg"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -2.326477,
+        "posY": 1.030303,
+        "posZ": -3.573609,
+        "rotX": -1.7503673E-05,
+        "rotY": 179.988159,
+        "rotZ": -6.10524648E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7132782,
+        "g": 0.7132782,
+        "b": 0.7132782
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        106,
+        106,
+        106,
+        106,
+        106,
+        106
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "http://i.imgur.com/IoRa5Y4.jpg",
+          "BackURL": "http://i.imgur.com/611Ksjc.jpg"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": 5.14535761,
+        "posY": 1.01119781,
+        "posZ": -3.796918,
+        "rotX": 1.312121E-05,
+        "rotY": 179.989044,
+        "rotZ": 0.000124474638,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7132782,
+        "g": 0.7132782,
+        "b": 0.7132782
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        108,
+        108,
+        108,
+        108,
+        108,
+        108,
+        108,
+        108
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "http://i.imgur.com/IoRa5Y4.jpg",
+          "BackURL": "http://i.imgur.com/611Ksjc.jpg"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": 2.50949764,
+        "posY": 1.03030312,
+        "posZ": -3.76066852,
+        "rotX": -1.60369182E-05,
+        "rotY": 179.959427,
+        "rotZ": -3.41324858E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7132782,
+        "g": 0.7132782,
+        "b": 0.7132782
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        107,
+        107,
+        107,
+        107,
+        107,
+        107
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "http://i.imgur.com/IoRa5Y4.jpg",
+          "BackURL": "http://i.imgur.com/611Ksjc.jpg"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": 2.30085349,
+        "posY": 1.03631759,
+        "posZ": -0.4836394,
+        "rotX": -1.14352451E-05,
+        "rotY": 180.029419,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7132782,
+        "g": 0.7132782,
+        "b": 0.7132782
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        100,
+        105,
+        100
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "http://i.imgur.com/IoRa5Y4.jpg",
+          "BackURL": "http://i.imgur.com/611Ksjc.jpg"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -0.04337752,
+        "posY": 1.03764319,
+        "posZ": 2.91696334,
+        "rotX": 2.72457328E-06,
+        "rotY": 180.009933,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7132782,
+        "g": 0.7132782,
+        "b": 0.7132782
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        101,
+        101,
+        105,
+        101,
+        103
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "http://i.imgur.com/IoRa5Y4.jpg",
+          "BackURL": "http://i.imgur.com/611Ksjc.jpg"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -2.26729822,
+        "posY": 1.04430234,
+        "posZ": -0.269138962,
+        "rotX": 1.20754057E-05,
+        "rotY": 179.988937,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7132782,
+        "g": 0.7132782,
+        "b": 0.7132782
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        102,
+        103,
+        100,
+        100,
+        100,
+        105,
+        102
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "http://i.imgur.com/IoRa5Y4.jpg",
+          "BackURL": "http://i.imgur.com/611Ksjc.jpg"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 4.87394047,
+        "posY": 1.02943754,
+        "posZ": -7.04584265,
+        "rotX": -2.61194018E-05,
+        "rotY": 180.003876,
+        "rotZ": -4.063282E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7132859,
+        "g": 0.7132859,
+        "b": 0.7132859
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 101,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "http://i.imgur.com/IoRa5Y4.jpg",
+          "BackURL": "http://i.imgur.com/611Ksjc.jpg"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 0.080990985,
+        "posY": 1.02943766,
+        "posZ": -7.02555227,
+        "rotX": 3.57582576E-05,
+        "rotY": 179.963348,
+        "rotZ": -0.000135684051,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7132859,
+        "g": 0.7132859,
+        "b": 0.7132859
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 104,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "http://i.imgur.com/IoRa5Y4.jpg",
+          "BackURL": "http://i.imgur.com/611Ksjc.jpg"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 2.46991467,
+        "posY": 1.02943826,
+        "posZ": -7.061747,
+        "rotX": -3.396821E-05,
+        "rotY": 180.002411,
+        "rotZ": -1.0437263E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7132859,
+        "g": 0.7132859,
+        "b": 0.7132859
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 103,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "http://i.imgur.com/IoRa5Y4.jpg",
+          "BackURL": "http://i.imgur.com/611Ksjc.jpg"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -2.3955462,
+        "posY": 1.083824,
+        "posZ": -7.731451,
+        "rotX": 0.010367821,
+        "rotY": 179.9814,
+        "rotZ": 359.9921,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713301539,
+        "g": 0.713301539,
+        "b": 0.713301539
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 105,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "http://i.imgur.com/IoRa5Y4.jpg",
+          "BackURL": "http://i.imgur.com/611Ksjc.jpg"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -2.34703946,
+        "posY": 1.02942026,
+        "posZ": -7.10234451,
+        "rotX": 0.00369472848,
+        "rotY": 179.976746,
+        "rotZ": 0.0004053681,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713301539,
+        "g": 0.713301539,
+        "b": 0.713301539
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 105,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "http://i.imgur.com/IoRa5Y4.jpg",
+          "BackURL": "http://i.imgur.com/611Ksjc.jpg"
+        }
+      },
+      "GUID": ""
+    }
+  ]
+}

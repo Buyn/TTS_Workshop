@@ -1,0 +1,1329 @@
+{
+  "SaveName": "Mansions of Madness - Monster Figurines",
+  "GameMode": "Custom",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "11/23/2016 12:08:19 AM",
+  "Table": "Table_RPG",
+  "Sky": "Sky_Regal",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "",
+  "LuaScript": "--[[ Lua code. See documentation: http://berserk-games.com/knowledgebase/scripting/ --]]\n\n--[[ The OnLoad function. This is called after everything in the game save finishes loading.\nMost of your script code goes here. --]]\nfunction onload()\n    --[[ print('Onload!') --]]\nend\n\n--[[ The Update function. This is called once per frame. --]]\nfunction update ()\n    --[[ print('Update loop!') --]]\nend",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -15.1107731,
+          "posY": 4.81034231,
+          "posZ": -20.1076221,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 11.771986,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -30.2150211,
+          "posY": 4.81034231,
+          "posZ": 10.17524,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6554251,
+          "scaleY": 9.174497,
+          "scaleZ": 4.919951
+        }
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 30.2511711,
+          "posY": 4.81034231,
+          "posZ": 9.59069252,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6554193,
+          "scaleY": 9.174497,
+          "scaleZ": 4.919951
+        }
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 15.4749184,
+          "posY": 4.81034231,
+          "posZ": 19.8365288,
+          "rotX": 0.0,
+          "rotY": 179.8,
+          "rotZ": 0.0,
+          "scaleX": 11.7719727,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87123775
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 15.1961212,
+          "posY": 4.81034231,
+          "posZ": -20.1400986,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 11.7719679,
+          "scaleY": 9.17449951,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": -15.1927719,
+          "posY": 4.81034231,
+          "posZ": 19.787817,
+          "rotX": 0.0,
+          "rotY": 180.000015,
+          "rotZ": 0.0,
+          "scaleX": 11.7719679,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 30.1035728,
+          "posY": 4.81034231,
+          "posZ": -8.449126,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6554174,
+          "scaleY": 9.174497,
+          "scaleZ": 4.919951
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -30.247818,
+          "posY": 4.81034231,
+          "posZ": -8.822588,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 11.65543,
+          "scaleY": 9.174497,
+          "scaleZ": 4.919951
+        }
+      }
+    ]
+  },
+  "VectorLines": [],
+  "ObjectStates": [
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 1.39297557,
+        "posY": 0.7749659,
+        "posZ": 3.361335,
+        "rotX": -1.19395213E-06,
+        "rotY": -0.0008356042,
+        "rotZ": -4.31880665E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "Number": 0,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "da91a7"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -8.26081848,
+        "posY": 1.12704515,
+        "posZ": -8.841969,
+        "rotX": 1.39455631E-06,
+        "rotY": 8.930295E-06,
+        "rotZ": 1.3873821E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/hZ5AJYq.jpg",
+        "ImageSecondaryURL": "http://i.imgur.com/hZ5AJYq.jpg",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "0f94c7"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -6.25753641,
+        "posY": 1.12704515,
+        "posZ": -8.694721,
+        "rotX": -1.58020839E-06,
+        "rotY": -2.56907447E-06,
+        "rotZ": -1.17393859E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/pGUS7C7.jpg",
+        "ImageSecondaryURL": "http://i.imgur.com/pGUS7C7.jpg",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "998557"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -4.27545166,
+        "posY": 1.12704527,
+        "posZ": -8.758778,
+        "rotX": -1.954589E-06,
+        "rotY": -1.63945151E-05,
+        "rotZ": 1.06721734E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/1FRNCHZ.jpg",
+        "ImageSecondaryURL": "http://i.imgur.com/1FRNCHZ.jpg",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "8c6c2b"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -2.26072621,
+        "posY": 1.12704527,
+        "posZ": -8.71045,
+        "rotX": -2.170154E-06,
+        "rotY": 5.070153E-06,
+        "rotZ": -1.06721677E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D2f1lpl.jpg",
+        "ImageSecondaryURL": "http://i.imgur.com/D2f1lpl.jpg",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "837fa9"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -0.158373743,
+        "posY": 1.12704527,
+        "posZ": -8.764267,
+        "rotX": -8.311969E-08,
+        "rotY": 4.90433958E-05,
+        "rotZ": -2.3478774E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/OhC000i.jpg",
+        "ImageSecondaryURL": "http://i.imgur.com/OhC000i.jpg",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "62ab8e"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 1.915998,
+        "posY": 1.12704527,
+        "posZ": -8.887847,
+        "rotX": -3.15243483E-06,
+        "rotY": 9.341481E-06,
+        "rotZ": 4.695755E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/FIORbVx.jpg",
+        "ImageSecondaryURL": "http://i.imgur.com/FIORbVx.jpg",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "2d1e0e"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 4.00806236,
+        "posY": 1.12704527,
+        "posZ": -9.035937,
+        "rotX": 3.03921354E-07,
+        "rotY": 2.83951385E-06,
+        "rotZ": -1.06721743E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/KpKZlve.jpg",
+        "ImageSecondaryURL": "http://i.imgur.com/KpKZlve.jpg",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "af1f80"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 6.21437025,
+        "posY": 1.12704527,
+        "posZ": -9.265941,
+        "rotX": -1.4820331E-06,
+        "rotY": -2.6277105E-06,
+        "rotZ": -1.60082561E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/wy0nhFg.jpg",
+        "ImageSecondaryURL": "http://i.imgur.com/wy0nhFg.jpg",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "ec844b"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -7.712456,
+        "posY": 1.12704527,
+        "posZ": -6.735255,
+        "rotX": 3.41976943E-06,
+        "rotY": 1.06814359E-05,
+        "rotZ": 2.454599E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/I3mIYve.jpg",
+        "ImageSecondaryURL": "http://i.imgur.com/I3mIYve.jpg",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "b8d912"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -5.49081039,
+        "posY": 1.12704527,
+        "posZ": -6.69864655,
+        "rotX": -2.683476E-06,
+        "rotY": -1.18423952E-06,
+        "rotZ": 3.09493E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/fHrfmOa.jpg",
+        "ImageSecondaryURL": "http://i.imgur.com/fHrfmOa.jpg",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "ab61c6"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -3.388876,
+        "posY": 1.12704527,
+        "posZ": -6.76197672,
+        "rotX": 3.96023324E-06,
+        "rotY": 4.27489249E-06,
+        "rotZ": -9.60496E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/JeMuBcC.jpg",
+        "ImageSecondaryURL": "http://i.imgur.com/JeMuBcC.jpg",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "883a7c"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -1.27580881,
+        "posY": 1.12704527,
+        "posZ": -6.730721,
+        "rotX": 2.59820581E-06,
+        "rotY": -9.05638E-07,
+        "rotZ": -3.20165168E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/xRLEN8c.jpg",
+        "ImageSecondaryURL": "http://i.imgur.com/xRLEN8c.jpg",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "29aa48"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 0.9642174,
+        "posY": 1.12704527,
+        "posZ": -6.952943,
+        "rotX": 8.91648639E-08,
+        "rotY": 2.20068487E-05,
+        "rotZ": -3.41509462E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/lm4FLl6.jpg",
+        "ImageSecondaryURL": "http://i.imgur.com/lm4FLl6.jpg",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "57db9b"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 3.08646917,
+        "posY": 1.12704527,
+        "posZ": -7.20667362,
+        "rotX": -1.93777609E-07,
+        "rotY": 2.09402356E-06,
+        "rotZ": 2.13443471E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/lpgmJiN.jpg",
+        "ImageSecondaryURL": "http://i.imgur.com/lpgmJiN.jpg",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "add234"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 5.202314,
+        "posY": 1.12704527,
+        "posZ": -7.485044,
+        "rotX": -5.818214E-08,
+        "rotY": -1.24806E-06,
+        "rotZ": 1.06721707E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/yvY7tG9.jpg",
+        "ImageSecondaryURL": "http://i.imgur.com/yvY7tG9.jpg",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "fffd30"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 7.283663,
+        "posY": 1.12704527,
+        "posZ": -7.410886,
+        "rotX": 1.65229721E-07,
+        "rotY": 5.217099E-06,
+        "rotZ": 1.1739387E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/fEWiZPd.jpg",
+        "ImageSecondaryURL": "http://i.imgur.com/fEWiZPd.jpg",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "d3dbb2"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -6.718365,
+        "posY": 1.12704527,
+        "posZ": -4.86587143,
+        "rotX": 8.36800041E-07,
+        "rotY": 8.223903E-06,
+        "rotZ": -3.628538E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/J2MWlyn.jpg",
+        "ImageSecondaryURL": "http://i.imgur.com/J2MWlyn.jpg",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "85b83f"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -4.570544,
+        "posY": 1.12704527,
+        "posZ": -4.878815,
+        "rotX": 7.972949E-07,
+        "rotY": 6.341696E-08,
+        "rotZ": 8.537735E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/1CmtrPj.jpg",
+        "ImageSecondaryURL": "http://i.imgur.com/1CmtrPj.jpg",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "3b5568"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -2.297609,
+        "posY": 1.12704527,
+        "posZ": -4.90272141,
+        "rotX": 3.60168428E-06,
+        "rotY": 6.70805866E-06,
+        "rotZ": 3.201647E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/0oXargm.jpg",
+        "ImageSecondaryURL": "http://i.imgur.com/0oXargm.jpg",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "d6b697"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -0.123219967,
+        "posY": 1.12704527,
+        "posZ": -4.918099,
+        "rotX": -1.16315857E-06,
+        "rotY": 1.54156569E-05,
+        "rotZ": -4.16214652E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/iMTAQxs.jpg",
+        "ImageSecondaryURL": "http://i.imgur.com/iMTAQxs.jpg",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "c24571"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 2.17441583,
+        "posY": 1.12704527,
+        "posZ": -5.26527643,
+        "rotX": -2.95488667E-06,
+        "rotY": 1.76292E-05,
+        "rotZ": -6.403307E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/qAi5gcM.jpg",
+        "ImageSecondaryURL": "http://i.imgur.com/qAi5gcM.jpg",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "6351e2"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 4.333707,
+        "posY": 1.12704527,
+        "posZ": -5.573023,
+        "rotX": -3.22924143E-06,
+        "rotY": -2.906E-06,
+        "rotZ": 2.13444054E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/wzYRSK7.jpg",
+        "ImageSecondaryURL": "http://i.imgur.com/wzYRSK7.jpg",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "017b6c"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 6.33946848,
+        "posY": 1.12704527,
+        "posZ": -5.845418,
+        "rotX": 9.42877762E-07,
+        "rotY": 5.57935346E-06,
+        "rotZ": -8.537736E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/mKYiGCW.jpg",
+        "ImageSecondaryURL": "http://i.imgur.com/mKYiGCW.jpg",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "31ff4d"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 8.507387,
+        "posY": 1.12704527,
+        "posZ": -5.867222,
+        "rotX": 1.36765252E-07,
+        "rotY": 1.42098759E-06,
+        "rotZ": 5.33608556E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/QBSShBr.jpg",
+        "ImageSecondaryURL": "http://i.imgur.com/QBSShBr.jpg",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "c8eeba"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -8.886365,
+        "posY": 1.12704527,
+        "posZ": -4.91291,
+        "rotX": 6.01980446E-06,
+        "rotY": 7.2272087E-06,
+        "rotZ": -7.47052638E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/kyNgWDM.jpg",
+        "ImageSecondaryURL": "http://i.imgur.com/kyNgWDM.jpg",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "693efc"
+    }
+  ],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": ""
+}

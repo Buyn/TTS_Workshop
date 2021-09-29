@@ -1,0 +1,5162 @@
+{
+  "SaveName": "MINIATURE 3D  FOR RPG",
+  "GameMode": "goblins-3",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "11/16/2017 12:05:20 PM",
+  "Table": "Table_Circular",
+  "Sky": "Sky_Forest",
+  "SkyURL": "http://i.imgur.com/pxlNqA3.jpg",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "",
+  "LuaScript": "--[[ Lua code. See documentation: http://berserk-games.com/knowledgebase/scripting/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate ()\n    --[[ print('onUpdate loop!') --]]\nend",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -15.2383451,
+          "posY": 3.54391432,
+          "posZ": -15.41023,
+          "rotX": 0.0,
+          "rotY": 45.0000038,
+          "rotZ": 0.0,
+          "scaleX": 11.655426,
+          "scaleY": 9.17657852,
+          "scaleZ": 6.76723862
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -15.3520746,
+          "posY": 3.54391527,
+          "posZ": 15.1043739,
+          "rotX": 0.0,
+          "rotY": 135.000015,
+          "rotZ": 0.0,
+          "scaleX": 11.666687,
+          "scaleY": 9.17657852,
+          "scaleZ": 6.773926
+        }
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 21.5308113,
+          "posY": 3.54391432,
+          "posZ": 0.05564022,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6711092,
+          "scaleY": 9.17657852,
+          "scaleZ": 6.778928
+        }
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 15.3141708,
+          "posY": 3.54391623,
+          "posZ": 15.1422806,
+          "rotX": 0.0,
+          "rotY": 224.999985,
+          "rotZ": 0.0,
+          "scaleX": 11.6667433,
+          "scaleY": 9.17657852,
+          "scaleZ": 6.773679
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 9.536743E-07,
+          "posY": 3.54391432,
+          "posZ": -21.4752541,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6554279,
+          "scaleY": 9.17658,
+          "scaleZ": 6.76723957
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": 4.76837158E-07,
+          "posY": 3.54391623,
+          "posZ": 21.2933922,
+          "rotX": 0.0,
+          "rotY": 180.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6554279,
+          "scaleY": 9.17657852,
+          "scaleZ": 6.76723337
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 15.3141727,
+          "posY": 3.54391527,
+          "posZ": -15.0311737,
+          "rotX": 0.0,
+          "rotY": 315.0,
+          "rotZ": 0.0,
+          "scaleX": 11.65757,
+          "scaleY": 9.17657852,
+          "scaleZ": 6.76735
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -21.5687141,
+          "posY": 3.54391527,
+          "posZ": -0.20971489,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6698418,
+          "scaleY": 9.17657852,
+          "scaleZ": 6.77909756
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "VectorLines": [],
+  "ObjectStates": [
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 18.0849,
+        "posY": 1.10603619,
+        "posZ": -4.64195728,
+        "rotX": 0.00427858159,
+        "rotY": 359.9698,
+        "rotZ": 3.87768316,
+        "scaleX": 11.800025,
+        "scaleY": 11.800025,
+        "scaleZ": 11.800025
+      },
+      "Nickname": "Goblin Lancers",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/872998007405507817/374908525785783AE26FD6632EC68BCDCA0C05A3/",
+        "DiffuseURL": "https://i.imgur.com/L5XCmSD.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/876375900177870061/C02739AA37CC654750E1D0DEEAAB81E76B4E2C84/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "85973b"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 16.3736839,
+        "posY": 0.9599991,
+        "posZ": 7.09100437,
+        "rotX": -2.7753018E-05,
+        "rotY": 344.939941,
+        "rotZ": -3.65925662E-05,
+        "scaleX": 12.5000305,
+        "scaleY": 12.5000305,
+        "scaleZ": 12.5000305
+      },
+      "Nickname": "Goblin Archer",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/872998007405497040/966EBDFD2CAE1E4A698091E2EEDB06E2767D3BAD/",
+        "DiffuseURL": "https://i.imgur.com/Oyck318.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/876375900177870061/C02739AA37CC654750E1D0DEEAAB81E76B4E2C84/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "0d55bc"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 7.434252,
+        "posY": 1.13694859,
+        "posZ": 18.020359,
+        "rotX": 358.72644,
+        "rotY": 314.9702,
+        "rotZ": 3.32857585,
+        "scaleX": 11.800025,
+        "scaleY": 11.800025,
+        "scaleZ": 11.800025
+      },
+      "Nickname": "Goblin Cutter",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/872998007405503526/5BBC9BFE980E5FB6739202EEB77C9CC9A6B9DECE/",
+        "DiffuseURL": "https://i.imgur.com/DMhNlAN.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/876375900177870061/C02739AA37CC654750E1D0DEEAAB81E76B4E2C84/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "491cfa"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -16.7721176,
+        "posY": 0.959998369,
+        "posZ": 6.63338852,
+        "rotX": 2.32730745E-05,
+        "rotY": 209.915359,
+        "rotZ": -9.68932E-06,
+        "scaleX": 11.800025,
+        "scaleY": 11.800025,
+        "scaleZ": 11.800025
+      },
+      "Nickname": "Goblin Blackblade ",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/872998007405506622/CD48459095BCE4CD77C47FC5964D73804DB93822/",
+        "DiffuseURL": "https://i.imgur.com/cs8eHwp.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/876375900177870061/C02739AA37CC654750E1D0DEEAAB81E76B4E2C84/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "43c851"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -7.29402637,
+        "posY": 1.08569074,
+        "posZ": 16.3809738,
+        "rotX": -0.000173102613,
+        "rotY": 224.829041,
+        "rotZ": 3.34012032,
+        "scaleX": 11.800025,
+        "scaleY": 11.800025,
+        "scaleZ": 11.800025
+      },
+      "Nickname": "Goblin Dagger",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/872998007405502084/CAD60DC997816A2C5565D8017867B40008188CAD/",
+        "DiffuseURL": "https://i.imgur.com/YrezcXH.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/876375900177870061/C02739AA37CC654750E1D0DEEAAB81E76B4E2C84/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "65012d"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -16.382019,
+        "posY": 1.082628,
+        "posZ": -6.94585371,
+        "rotX": 0.000284763752,
+        "rotY": 179.995621,
+        "rotZ": 3.25910473,
+        "scaleX": 11.800025,
+        "scaleY": 11.800025,
+        "scaleZ": 11.800025
+      },
+      "Nickname": "Goblin Warrior",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/872998007405505304/E7720D767DD1604BD655866A5D2F9E73C5D70825/",
+        "DiffuseURL": "https://i.imgur.com/LbXttZk.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/876375900177870061/C02739AA37CC654750E1D0DEEAAB81E76B4E2C84/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "e91060"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -8.378057,
+        "posY": 1.456187,
+        "posZ": -16.2513084,
+        "rotX": -0.003924559,
+        "rotY": 105.000633,
+        "rotZ": 359.960571,
+        "scaleX": 11.800025,
+        "scaleY": 11.800025,
+        "scaleZ": 11.800025
+      },
+      "Nickname": "Goblin Sling ",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/872998007405672275/EB41667BC0AEC593EE9E51165594CE244841AF3D/",
+        "DiffuseURL": "https://i.imgur.com/sdIhRca.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/876375900177870061/C02739AA37CC654750E1D0DEEAAB81E76B4E2C84/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "4a8c08"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 3.647924,
+        "posY": 1.75594711,
+        "posZ": -3.19573617,
+        "rotX": 0.0151429512,
+        "rotY": 104.9813,
+        "rotZ": 359.990936,
+        "scaleX": 11.800025,
+        "scaleY": 11.800025,
+        "scaleZ": 11.800025
+      },
+      "Nickname": "Hobgoblin Commander ",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/872998007405811072/B7B06AC8E52B6335D745B2F7020A6F5E4B913020/",
+        "DiffuseURL": "https://i.imgur.com/H3Sci8C.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/876375900177870061/C02739AA37CC654750E1D0DEEAAB81E76B4E2C84/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "1e2041"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 1.04279423,
+        "posY": 1.11747169,
+        "posZ": -19.3504543,
+        "rotX": 359.7969,
+        "rotY": 90.05577,
+        "rotZ": 3.96719456,
+        "scaleX": 11.800025,
+        "scaleY": 11.800025,
+        "scaleZ": 11.800025
+      },
+      "Nickname": "Goblin Hexer ",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/872998007405509477/DF9EBE29B741333183040EED1905AAD02BB35C5C/",
+        "DiffuseURL": "https://i.imgur.com/T3S2Fej.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/876375900177870061/C02739AA37CC654750E1D0DEEAAB81E76B4E2C84/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "a13b8e"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 11.9487381,
+        "posY": 1.30403268,
+        "posZ": -13.5967674,
+        "rotX": 351.500641,
+        "rotY": 90.37181,
+        "rotZ": -0.00272788364,
+        "scaleX": 11.800025,
+        "scaleY": 11.800025,
+        "scaleZ": 11.800025
+      },
+      "Nickname": "Goblin Blowgun ",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/872998007405498842/F0FA3711D5B9FF398A89CA4E45FB6AECD3C8817F/",
+        "DiffuseURL": "https://i.imgur.com/DvcHNwg.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/876375900177870061/C02739AA37CC654750E1D0DEEAAB81E76B4E2C84/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "ed06e1"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 15.4517231,
+        "posY": 1.45544982,
+        "posZ": -10.15428,
+        "rotX": 359.9011,
+        "rotY": 59.88331,
+        "rotZ": 359.875854,
+        "scaleX": 11.800025,
+        "scaleY": 11.800025,
+        "scaleZ": 11.800025
+      },
+      "Nickname": "Goblin Blowgun ",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/872998007405498842/F0FA3711D5B9FF398A89CA4E45FB6AECD3C8817F/",
+        "DiffuseURL": "https://i.imgur.com/DvcHNwg.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/876375900177870061/C02739AA37CC654750E1D0DEEAAB81E76B4E2C84/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "9d6182"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 19.1539917,
+        "posY": 1.45553207,
+        "posZ": 1.11958075,
+        "rotX": -0.002250907,
+        "rotY": 359.2572,
+        "rotZ": 359.934753,
+        "scaleX": 11.800025,
+        "scaleY": 11.800025,
+        "scaleZ": 11.800025
+      },
+      "Nickname": "Goblin Lancers",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/872998007405507817/374908525785783AE26FD6632EC68BCDCA0C05A3/",
+        "DiffuseURL": "https://i.imgur.com/L5XCmSD.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/876375900177870061/C02739AA37CC654750E1D0DEEAAB81E76B4E2C84/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "02c394"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 11.9731531,
+        "posY": 1.46136475,
+        "posZ": 12.672821,
+        "rotX": 0.08945318,
+        "rotY": 314.989044,
+        "rotZ": 0.0218132976,
+        "scaleX": 12.5000305,
+        "scaleY": 12.5000305,
+        "scaleZ": 12.5000305
+      },
+      "Nickname": "Goblin Archer",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/872998007405497040/966EBDFD2CAE1E4A698091E2EEDB06E2767D3BAD/",
+        "DiffuseURL": "https://i.imgur.com/Oyck318.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/876375900177870061/C02739AA37CC654750E1D0DEEAAB81E76B4E2C84/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "3922f6"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 12.96051,
+        "posY": 1.1061641,
+        "posZ": 5.5193553,
+        "rotX": 1.6997261,
+        "rotY": 239.994415,
+        "rotZ": 359.549438,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://i.imgur.com/JES7gEu.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "54398d",
+      "States": {
+        "2": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -3.2149334,
+            "posY": 1.06000042,
+            "posZ": 13.9495249,
+            "rotX": 3.29972977E-06,
+            "rotY": 179.99054,
+            "rotZ": -8.57305963E-07,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/BRA3eUS.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "0a3e52"
+        },
+        "3": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -3.21493244,
+            "posY": 1.0600003,
+            "posZ": 13.9495268,
+            "rotX": 9.560928E-07,
+            "rotY": 179.990631,
+            "rotZ": 3.78906378E-07,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/79SbF4Q.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "4bcb07"
+        },
+        "4": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -3.21493649,
+            "posY": 1.06000042,
+            "posZ": 13.9495335,
+            "rotX": 6.53093957E-06,
+            "rotY": 179.990662,
+            "rotZ": -1.93242727E-06,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/p03KWVC.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "568258"
+        }
+      }
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -0.0358055234,
+        "posY": 1.4606061,
+        "posZ": 18.177227,
+        "rotX": 359.987946,
+        "rotY": 284.973145,
+        "rotZ": 359.895142,
+        "scaleX": 11.800025,
+        "scaleY": 11.800025,
+        "scaleZ": 11.800025
+      },
+      "Nickname": "Goblin Cutter",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/872998007405503526/5BBC9BFE980E5FB6739202EEB77C9CC9A6B9DECE/",
+        "DiffuseURL": "https://i.imgur.com/DMhNlAN.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/876375900177870061/C02739AA37CC654750E1D0DEEAAB81E76B4E2C84/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "c53d63"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 14.5038729,
+        "posY": 1.10473824,
+        "posZ": -4.11387,
+        "rotX": 1.66073692,
+        "rotY": 285.090149,
+        "rotZ": 0.5166153,
+        "scaleX": 0.9925453,
+        "scaleY": 1.0,
+        "scaleZ": 0.9925453
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://i.imgur.com/QGBCovg.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "c6a343",
+      "States": {
+        "3": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -3.41467786,
+            "posY": 1.06000078,
+            "posZ": 9.768366,
+            "rotX": 2.30584137E-05,
+            "rotY": 344.996521,
+            "rotZ": 1.24898379E-05,
+            "scaleX": 0.9925453,
+            "scaleY": 1.0,
+            "scaleZ": 0.9925453
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/Mwhr1UN.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "5fe70b"
+        },
+        "2": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -3.41468334,
+            "posY": 1.06000078,
+            "posZ": 9.768367,
+            "rotX": 2.14547526E-05,
+            "rotY": 344.996521,
+            "rotZ": 1.52382072E-05,
+            "scaleX": 0.9925453,
+            "scaleY": 1.0,
+            "scaleZ": 0.9925453
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/ijI56PN.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "b18729"
+        }
+      }
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 18.3847733,
+        "posY": 1.20845985,
+        "posZ": 1.19045079,
+        "rotX": 0.000543067057,
+        "rotY": 269.600952,
+        "rotZ": -0.000266388146,
+        "scaleX": 1.70316041,
+        "scaleY": 1.0,
+        "scaleZ": 1.70316041
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://i.imgur.com/QGBCovg.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.496875465,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "02c394",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": -0.0650760159,
+          "y": -0.0210254416,
+          "z": 0.00684892246
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "ae9cc4",
+      "States": {
+        "2": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -11.7044725,
+            "posY": 1.208438,
+            "posZ": 1.92718375,
+            "rotX": 1.07151209E-05,
+            "rotY": 344.7246,
+            "rotZ": 1.3605516E-05,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/ijI56PN.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.4968753,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "b18729"
+        },
+        "3": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -11.70463,
+            "posY": 1.20843852,
+            "posZ": 1.92771173,
+            "rotX": -7.682615E-06,
+            "rotY": 344.70874,
+            "rotZ": 9.465617E-06,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/Mwhr1UN.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.496875465,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "5fe70b"
+        }
+      }
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 8.7444,
+        "posY": 1.14059043,
+        "posZ": -10.9449053,
+        "rotX": 2.26394,
+        "rotY": 329.168884,
+        "rotZ": 2.20974851,
+        "scaleX": 0.9925453,
+        "scaleY": 1.0,
+        "scaleZ": 0.9925453
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://i.imgur.com/QGBCovg.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "d060b4",
+      "States": {
+        "3": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -3.41467786,
+            "posY": 1.06000078,
+            "posZ": 9.768366,
+            "rotX": 2.30584137E-05,
+            "rotY": 344.996521,
+            "rotZ": 1.24898379E-05,
+            "scaleX": 0.9925453,
+            "scaleY": 1.0,
+            "scaleZ": 0.9925453
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/Mwhr1UN.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "5fe70b"
+        },
+        "2": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -3.41468334,
+            "posY": 1.06000078,
+            "posZ": 9.768367,
+            "rotX": 2.14547526E-05,
+            "rotY": 344.996521,
+            "rotZ": 1.52382072E-05,
+            "scaleX": 0.9925453,
+            "scaleY": 1.0,
+            "scaleZ": 0.9925453
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/ijI56PN.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "b18729"
+        }
+      }
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 5.243052,
+        "posY": 1.06000185,
+        "posZ": 14.4883785,
+        "rotX": 1.53331973E-06,
+        "rotY": 209.986145,
+        "rotZ": 8.059601E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://i.imgur.com/JES7gEu.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "83f1a5",
+      "States": {
+        "2": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -3.2149334,
+            "posY": 1.06000042,
+            "posZ": 13.9495249,
+            "rotX": 3.29972977E-06,
+            "rotY": 179.99054,
+            "rotZ": -8.57305963E-07,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/BRA3eUS.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "0a3e52"
+        },
+        "3": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -3.21493244,
+            "posY": 1.0600003,
+            "posZ": 13.9495268,
+            "rotX": 9.560928E-07,
+            "rotY": 179.990631,
+            "rotZ": 3.78906378E-07,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/79SbF4Q.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "4bcb07"
+        },
+        "4": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -3.21493649,
+            "posY": 1.06000042,
+            "posZ": 13.9495335,
+            "rotX": 6.53093957E-06,
+            "rotY": 179.990662,
+            "rotZ": -1.93242727E-06,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/p03KWVC.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "568258"
+        }
+      }
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -13.4270029,
+        "posY": 1.10811627,
+        "posZ": 5.826074,
+        "rotX": 1.58642185,
+        "rotY": 89.99353,
+        "rotZ": 359.085876,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://i.imgur.com/F4XYXXv.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "200521",
+      "States": {
+        "2": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -12.094882,
+            "posY": 1.06000018,
+            "posZ": -4.94364929,
+            "rotX": 3.00432657E-06,
+            "rotY": 75.01629,
+            "rotZ": 7.11302846E-07,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/4QqG1TM.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "9aefd0"
+        },
+        "3": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -12.0949068,
+            "posY": 1.06000018,
+            "posZ": -4.94364738,
+            "rotX": 3.9142472E-07,
+            "rotY": 75.01585,
+            "rotZ": -3.4472323E-06,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/sM7zg9U.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "1e5a7f"
+        },
+        "4": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -12.0950069,
+            "posY": 1.0600003,
+            "posZ": -4.94363546,
+            "rotX": -2.27344E-06,
+            "rotY": 75.015686,
+            "rotZ": 3.15524539E-06,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/M6CZOqd.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "a4f9c5"
+        }
+      }
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -17.4472275,
+        "posY": 1.21104276,
+        "posZ": -0.266116619,
+        "rotX": -5.89467345E-06,
+        "rotY": 90.2276154,
+        "rotZ": -1.0488412E-05,
+        "scaleX": 1.76113939,
+        "scaleY": 1.0,
+        "scaleZ": 1.76113939
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://i.imgur.com/F4XYXXv.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.5020837,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "775a7e",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": -0.05750286,
+          "y": -0.02125574,
+          "z": 0.03550547
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "f8bbaa",
+      "States": {
+        "2": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -10.855484,
+            "posY": 1.20843828,
+            "posZ": 0.9480981,
+            "rotX": -8.398501E-06,
+            "rotY": 74.76113,
+            "rotZ": 9.542764E-06,
+            "scaleX": 1.76113939,
+            "scaleY": 1.0,
+            "scaleZ": 1.76113939
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/4QqG1TM.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.4968753,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "9aefd0"
+        },
+        "3": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -10.9065952,
+            "posY": 1.21104228,
+            "posZ": 0.990164161,
+            "rotX": -9.458217E-06,
+            "rotY": 72.02519,
+            "rotZ": 1.14670829E-05,
+            "scaleX": 1.76113939,
+            "scaleY": 1.0,
+            "scaleZ": 1.76113939
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/sM7zg9U.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.5020837,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "1e5a7f"
+        },
+        "4": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -10.9058666,
+            "posY": 1.21104228,
+            "posZ": 0.9893053,
+            "rotX": -1.68042516E-05,
+            "rotY": 71.97936,
+            "rotZ": 1.48253184E-05,
+            "scaleX": 1.76113939,
+            "scaleY": 1.0,
+            "scaleZ": 1.76113939
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/M6CZOqd.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.5020836,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "2ae2d1"
+        }
+      }
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -17.9941788,
+        "posY": 1.46105051,
+        "posZ": 0.314568341,
+        "rotX": 359.9785,
+        "rotY": 195.021133,
+        "rotZ": 359.9584,
+        "scaleX": 11.800025,
+        "scaleY": 11.800025,
+        "scaleZ": 11.800025
+      },
+      "Nickname": "Goblin Blackblade ",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/872998007405506622/CD48459095BCE4CD77C47FC5964D73804DB93822/",
+        "DiffuseURL": "https://i.imgur.com/cs8eHwp.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/876375900177870061/C02739AA37CC654750E1D0DEEAAB81E76B4E2C84/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "775a7e"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -11.999939,
+        "posY": 1.46102142,
+        "posZ": 13.38435,
+        "rotX": 359.988373,
+        "rotY": 239.982513,
+        "rotZ": 359.954376,
+        "scaleX": 11.800025,
+        "scaleY": 11.800025,
+        "scaleZ": 11.800025
+      },
+      "Nickname": "Goblin Dagger",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/872998007405502084/CAD60DC997816A2C5565D8017867B40008188CAD/",
+        "DiffuseURL": "https://i.imgur.com/YrezcXH.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/876375900177870061/C02739AA37CC654750E1D0DEEAAB81E76B4E2C84/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "c42773"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -13.4149313,
+        "posY": 1.121925,
+        "posZ": -5.30178833,
+        "rotX": 2.02282,
+        "rotY": 60.36413,
+        "rotZ": 358.784668,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://i.imgur.com/F4XYXXv.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "773a7b",
+      "States": {
+        "2": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -12.094882,
+            "posY": 1.06000018,
+            "posZ": -4.94364929,
+            "rotX": 3.00432657E-06,
+            "rotY": 75.01629,
+            "rotZ": 7.11302846E-07,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/4QqG1TM.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "9aefd0"
+        },
+        "3": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -12.0949068,
+            "posY": 1.06000018,
+            "posZ": -4.94364738,
+            "rotX": 3.9142472E-07,
+            "rotY": 75.01585,
+            "rotZ": -3.4472323E-06,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/sM7zg9U.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "1e5a7f"
+        },
+        "4": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -12.0950069,
+            "posY": 1.0600003,
+            "posZ": -4.94363546,
+            "rotX": -2.27344E-06,
+            "rotY": 75.015686,
+            "rotZ": 3.15524539E-06,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/M6CZOqd.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "a4f9c5"
+        }
+      }
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -13.2309093,
+        "posY": 1.28690457,
+        "posZ": -11.0195217,
+        "rotX": 359.054077,
+        "rotY": 45.9796562,
+        "rotZ": 358.69986,
+        "scaleX": 1.76113939,
+        "scaleY": 1.0,
+        "scaleZ": 1.76113939
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://i.imgur.com/F4XYXXv.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.5020837,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "5c2b99",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": -0.08954238,
+          "y": -0.0212335046,
+          "z": -0.01545539
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "dfd3a9",
+      "States": {
+        "2": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -10.855484,
+            "posY": 1.20843828,
+            "posZ": 0.9480981,
+            "rotX": -8.398501E-06,
+            "rotY": 74.76113,
+            "rotZ": 9.542764E-06,
+            "scaleX": 1.76113939,
+            "scaleY": 1.0,
+            "scaleZ": 1.76113939
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/4QqG1TM.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.4968753,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "9aefd0"
+        },
+        "3": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -10.9065952,
+            "posY": 1.21104228,
+            "posZ": 0.990164161,
+            "rotX": -9.458217E-06,
+            "rotY": 72.02519,
+            "rotZ": 1.14670829E-05,
+            "scaleX": 1.76113939,
+            "scaleY": 1.0,
+            "scaleZ": 1.76113939
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/sM7zg9U.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.5020837,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "1e5a7f"
+        },
+        "4": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -10.9058666,
+            "posY": 1.21104228,
+            "posZ": 0.9893053,
+            "rotX": -1.68042516E-05,
+            "rotY": 71.97936,
+            "rotZ": 1.48253184E-05,
+            "scaleX": 1.76113939,
+            "scaleY": 1.0,
+            "scaleZ": 1.76113939
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/M6CZOqd.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.5020836,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "2ae2d1"
+        }
+      }
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -14.0561743,
+        "posY": 1.5203352,
+        "posZ": -11.7097378,
+        "rotX": 1.48085308,
+        "rotY": 150.1818,
+        "rotZ": 359.35553,
+        "scaleX": 11.800025,
+        "scaleY": 11.800025,
+        "scaleZ": 11.800025
+      },
+      "Nickname": "Goblin Warrior",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/872998007405505304/E7720D767DD1604BD655866A5D2F9E73C5D70825/",
+        "DiffuseURL": "https://i.imgur.com/LbXttZk.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/876375900177870061/C02739AA37CC654750E1D0DEEAAB81E76B4E2C84/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "5c2b99"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -11.7936525,
+        "posY": 1.211042,
+        "posZ": 12.6270123,
+        "rotX": -2.864341E-06,
+        "rotY": 134.848953,
+        "rotZ": -3.27334328E-06,
+        "scaleX": 1.76113939,
+        "scaleY": 1.0,
+        "scaleZ": 1.76113939
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://i.imgur.com/JES7gEu.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.5020837,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "c42773",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": -0.06429744,
+          "y": -0.02125252,
+          "z": 0.0169647187
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "e4c510",
+      "States": {
+        "4": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 18.0995274,
+            "posY": 1.21108687,
+            "posZ": 0.7599901,
+            "rotX": -0.000440549979,
+            "rotY": 255.136154,
+            "rotZ": -0.000684043742,
+            "scaleX": 1.76113939,
+            "scaleY": 1.0,
+            "scaleZ": 1.76113939
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/p03KWVC.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.5020837,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "568258"
+        },
+        "2": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 12.2675371,
+            "posY": 1.21105337,
+            "posZ": 12.482728,
+            "rotX": -0.000148939842,
+            "rotY": 255.009171,
+            "rotZ": -2.895083E-05,
+            "scaleX": 1.76113939,
+            "scaleY": 1.0,
+            "scaleZ": 1.76113939
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/BRA3eUS.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.5020837,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "0a3e52"
+        },
+        "3": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 12.2673979,
+            "posY": 1.20844769,
+            "posZ": 12.4825993,
+            "rotX": -7.052638E-05,
+            "rotY": 255.00415,
+            "rotZ": -0.000137439521,
+            "scaleX": 1.76113939,
+            "scaleY": 1.0,
+            "scaleZ": 1.76113939
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/79SbF4Q.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.4968753,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "4bcb07"
+        }
+      }
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -6.1554656,
+        "posY": 1.11775577,
+        "posZ": 13.1442623,
+        "rotX": 2.26657128,
+        "rotY": 134.976151,
+        "rotZ": 0.004988927,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://i.imgur.com/JES7gEu.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "84144a",
+      "States": {
+        "2": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -3.2149334,
+            "posY": 1.06000042,
+            "posZ": 13.9495249,
+            "rotX": 3.29972977E-06,
+            "rotY": 179.99054,
+            "rotZ": -8.57305963E-07,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/BRA3eUS.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "0a3e52"
+        },
+        "3": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -3.21493244,
+            "posY": 1.0600003,
+            "posZ": 13.9495268,
+            "rotX": 9.560928E-07,
+            "rotY": 179.990631,
+            "rotZ": 3.78906378E-07,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/79SbF4Q.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "4bcb07"
+        },
+        "4": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -3.21493649,
+            "posY": 1.06000042,
+            "posZ": 13.9495335,
+            "rotX": 6.53093957E-06,
+            "rotY": 179.990662,
+            "rotZ": -1.93242727E-06,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/p03KWVC.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "568258"
+        }
+      }
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -8.236518,
+        "posY": 1.20848143,
+        "posZ": -15.6564636,
+        "rotX": -0.0006415837,
+        "rotY": 15.0273008,
+        "rotZ": -0.000710589055,
+        "scaleX": 1.70316041,
+        "scaleY": 1.0,
+        "scaleZ": 1.70316041
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://i.imgur.com/QGBCovg.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.496875465,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "4a8c08",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": -0.0517793968,
+          "y": -0.0210374165,
+          "z": -0.00146364945
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "8e5dc0",
+      "States": {
+        "2": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -11.7044725,
+            "posY": 1.208438,
+            "posZ": 1.92718375,
+            "rotX": 1.07151209E-05,
+            "rotY": 344.7246,
+            "rotZ": 1.3605516E-05,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/ijI56PN.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.4968753,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "b18729"
+        },
+        "3": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -11.70463,
+            "posY": 1.20843852,
+            "posZ": 1.92771173,
+            "rotX": -7.682615E-06,
+            "rotY": 344.70874,
+            "rotZ": 9.465617E-06,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/Mwhr1UN.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.496875465,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "5fe70b"
+        }
+      }
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -3.32969546,
+        "posY": 1.04503155,
+        "posZ": -17.0623455,
+        "rotX": 357.90625,
+        "rotY": 104.790993,
+        "rotZ": 9.643408E-05,
+        "scaleX": 11.800025,
+        "scaleY": 11.800025,
+        "scaleZ": 11.800025
+      },
+      "Nickname": "Goblin Sling ",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/872998007405672275/EB41667BC0AEC593EE9E51165594CE244841AF3D/",
+        "DiffuseURL": "https://i.imgur.com/sdIhRca.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/876375900177870061/C02739AA37CC654750E1D0DEEAAB81E76B4E2C84/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "b8bb9b"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -3.457721,
+        "posY": 1.13138318,
+        "posZ": -13.3173418,
+        "rotX": 2.39582253,
+        "rotY": 29.9660683,
+        "rotZ": 1.410985,
+        "scaleX": 0.9925453,
+        "scaleY": 1.0,
+        "scaleZ": 0.9925453
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://i.imgur.com/QGBCovg.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "7e4013",
+      "States": {
+        "3": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -3.41467786,
+            "posY": 1.06000078,
+            "posZ": 9.768366,
+            "rotX": 2.30584137E-05,
+            "rotY": 344.996521,
+            "rotZ": 1.24898379E-05,
+            "scaleX": 0.9925453,
+            "scaleY": 1.0,
+            "scaleZ": 0.9925453
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/Mwhr1UN.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "5fe70b"
+        },
+        "2": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -3.41468334,
+            "posY": 1.06000078,
+            "posZ": 9.768367,
+            "rotX": 2.14547526E-05,
+            "rotY": 344.996521,
+            "rotZ": 1.52382072E-05,
+            "scaleX": 0.9925453,
+            "scaleY": 1.0,
+            "scaleZ": 0.9925453
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/ijI56PN.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "b18729"
+        }
+      }
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 7.178117,
+        "posY": 1.4590714,
+        "posZ": -18.122282,
+        "rotX": -0.00202302332,
+        "rotY": 73.84065,
+        "rotZ": 359.905853,
+        "scaleX": 11.800025,
+        "scaleY": 11.800025,
+        "scaleZ": 11.800025
+      },
+      "Nickname": "Goblin Hexer ",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/872998007405509477/DF9EBE29B741333183040EED1905AAD02BB35C5C/",
+        "DiffuseURL": "https://i.imgur.com/T3S2Fej.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/876375900177870061/C02739AA37CC654750E1D0DEEAAB81E76B4E2C84/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "ed4a5a"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 14.9734516,
+        "posY": 1.20844841,
+        "posZ": -9.910448,
+        "rotX": 3.816501E-05,
+        "rotY": 269.32074,
+        "rotZ": -0.000170340689,
+        "scaleX": 1.70316041,
+        "scaleY": 1.0,
+        "scaleZ": 1.70316041
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://i.imgur.com/QGBCovg.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.496875465,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "9d6182",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": -0.03816639,
+          "y": -0.0210158266,
+          "z": -0.0247086026
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "ba53e3",
+      "States": {
+        "2": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 14.9704666,
+            "posY": 1.208449,
+            "posZ": -9.909002,
+            "rotX": -0.000258763757,
+            "rotY": 269.3043,
+            "rotZ": 9.586935E-06,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/ijI56PN.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.4968753,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "b18729"
+        },
+        "3": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 14.9707842,
+            "posY": 1.2084794,
+            "posZ": -9.909321,
+            "rotX": 0.0009119735,
+            "rotY": 269.3151,
+            "rotZ": 0.000116072326,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/Mwhr1UN.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.496875465,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "5fe70b"
+        }
+      }
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 12.2672453,
+        "posY": 1.21105254,
+        "posZ": 12.4828529,
+        "rotX": 1.36363687E-05,
+        "rotY": 255.011108,
+        "rotZ": -0.000199068963,
+        "scaleX": 1.76113939,
+        "scaleY": 1.0,
+        "scaleZ": 1.76113939
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://i.imgur.com/JES7gEu.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.5020837,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "3922f6",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.00587682,
+          "y": -0.0200780146,
+          "z": -0.0273513086
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "f42f6f",
+      "States": {
+        "4": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 18.0995274,
+            "posY": 1.21108687,
+            "posZ": 0.7599901,
+            "rotX": -0.000440549979,
+            "rotY": 255.136154,
+            "rotZ": -0.000684043742,
+            "scaleX": 1.76113939,
+            "scaleY": 1.0,
+            "scaleZ": 1.76113939
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/p03KWVC.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.5020837,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "568258"
+        },
+        "3": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 12.267354,
+            "posY": 1.20845127,
+            "posZ": 12.4826193,
+            "rotX": 0.000238809982,
+            "rotY": 255.008667,
+            "rotZ": -1.23182544E-05,
+            "scaleX": 1.76113939,
+            "scaleY": 1.0,
+            "scaleZ": 1.76113939
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/79SbF4Q.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.4968753,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "4bcb07"
+        },
+        "2": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 12.2668915,
+            "posY": 1.2110672,
+            "posZ": 12.482851,
+            "rotX": -2.047823E-05,
+            "rotY": 255.0113,
+            "rotZ": -0.0004304833,
+            "scaleX": 1.76113939,
+            "scaleY": 1.0,
+            "scaleZ": 1.76113939
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/BRA3eUS.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.5020837,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "0a3e52"
+        }
+      }
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 6.80451965,
+        "posY": 1.21153986,
+        "posZ": -16.5056515,
+        "rotX": -0.00299505331,
+        "rotY": 328.83313,
+        "rotZ": 0.007960326,
+        "scaleX": 1.76113939,
+        "scaleY": 1.0,
+        "scaleZ": 1.76113939
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://i.imgur.com/JES7gEu.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.5020837,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "ed4a5a",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": -0.140365973,
+          "y": -0.0212407634,
+          "z": 0.00772162341
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "c0bdee",
+      "States": {
+        "4": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 18.0995274,
+            "posY": 1.21108687,
+            "posZ": 0.7599901,
+            "rotX": -0.000440549979,
+            "rotY": 255.136154,
+            "rotZ": -0.000684043742,
+            "scaleX": 1.76113939,
+            "scaleY": 1.0,
+            "scaleZ": 1.76113939
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/p03KWVC.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.5020837,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "568258"
+        },
+        "3": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 12.267354,
+            "posY": 1.20845127,
+            "posZ": 12.4826193,
+            "rotX": 0.000238809982,
+            "rotY": 255.008667,
+            "rotZ": -1.23182544E-05,
+            "scaleX": 1.76113939,
+            "scaleY": 1.0,
+            "scaleZ": 1.76113939
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/79SbF4Q.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.4968753,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "4bcb07"
+        },
+        "2": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 12.2668915,
+            "posY": 1.2110672,
+            "posZ": 12.482851,
+            "rotX": -2.047823E-05,
+            "rotY": 255.0113,
+            "rotZ": -0.0004304833,
+            "scaleX": 1.76113939,
+            "scaleY": 1.0,
+            "scaleZ": 1.76113939
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/BRA3eUS.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.5020837,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "0a3e52"
+        }
+      }
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 1.04358828,
+        "posY": 1.11270773,
+        "posZ": -15.8806524,
+        "rotX": 1.78159094,
+        "rotY": 330.015961,
+        "rotZ": 359.081482,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://i.imgur.com/JES7gEu.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "d445bd",
+      "States": {
+        "2": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -3.2149334,
+            "posY": 1.06000042,
+            "posZ": 13.9495249,
+            "rotX": 3.29972977E-06,
+            "rotY": 179.99054,
+            "rotZ": -8.57305963E-07,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/BRA3eUS.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "0a3e52"
+        },
+        "3": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -3.21493244,
+            "posY": 1.0600003,
+            "posZ": 13.9495268,
+            "rotX": 9.560928E-07,
+            "rotY": 179.990631,
+            "rotZ": 3.78906378E-07,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/79SbF4Q.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "4bcb07"
+        },
+        "4": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -3.21493649,
+            "posY": 1.06000042,
+            "posZ": 13.9495335,
+            "rotX": 6.53093957E-06,
+            "rotY": 179.990662,
+            "rotZ": -1.93242727E-06,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/p03KWVC.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "568258"
+        }
+      }
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -2.48883724,
+        "posY": 1.35433364,
+        "posZ": 4.3585,
+        "rotX": 7.859082E-06,
+        "rotY": 359.991028,
+        "rotZ": -4.578838E-06,
+        "scaleX": 0.9925453,
+        "scaleY": 1.0,
+        "scaleZ": 0.9925453
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://i.imgur.com/Fov9a1Z.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "124ad5",
+      "States": {
+        "2": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -2.86366963,
+            "posY": 1.35433376,
+            "posZ": 3.639899,
+            "rotX": 6.30352224E-06,
+            "rotY": 285.0255,
+            "rotZ": -9.530082E-06,
+            "scaleX": 0.9925453,
+            "scaleY": 1.0,
+            "scaleZ": 0.9925453
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/FtuhKYR.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "8587ab"
+        },
+        "3": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -2.863671,
+            "posY": 1.35433388,
+            "posZ": 3.63989925,
+            "rotX": 5.641826E-08,
+            "rotY": 285.025482,
+            "rotZ": -2.635319E-06,
+            "scaleX": 0.9925453,
+            "scaleY": 1.0,
+            "scaleZ": 0.9925453
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/ezjTVf1.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "31894a"
+        },
+        "4": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -2.86367345,
+            "posY": 1.3543334,
+            "posZ": 3.63989854,
+            "rotX": -5.05699347E-07,
+            "rotY": 285.025543,
+            "rotZ": 9.724156E-07,
+            "scaleX": 0.9925453,
+            "scaleY": 1.0,
+            "scaleZ": 0.9925453
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/jnljHuz.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "3490cb"
+        },
+        "5": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -2.863687,
+            "posY": 1.3543334,
+            "posZ": 3.63989615,
+            "rotX": -1.50837E-06,
+            "rotY": 285.025574,
+            "rotZ": -4.37164363E-06,
+            "scaleX": 0.9925453,
+            "scaleY": 1.0,
+            "scaleZ": 0.9925453
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/pCcjR43.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "2673fe"
+        },
+        "6": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -2.86370468,
+            "posY": 1.35433352,
+            "posZ": 3.6398952,
+            "rotX": -9.917584E-07,
+            "rotY": 285.025452,
+            "rotZ": -2.25026361E-06,
+            "scaleX": 0.9925453,
+            "scaleY": 1.0,
+            "scaleZ": 0.9925453
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/vkiciKg.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "aec2d0"
+        },
+        "7": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -2.86370564,
+            "posY": 1.3543334,
+            "posZ": 3.63989568,
+            "rotX": 2.19159915E-06,
+            "rotY": 285.025421,
+            "rotZ": -1.69181419E-06,
+            "scaleX": 0.9925453,
+            "scaleY": 1.0,
+            "scaleZ": 0.9925453
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/wH4nrqu.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "f6b622"
+        }
+      }
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 3.04744864,
+        "posY": 1.50537956,
+        "posZ": -2.67851973,
+        "rotX": -1.35118544E-05,
+        "rotY": 359.979,
+        "rotZ": -3.21819134E-05,
+        "scaleX": 2.260746,
+        "scaleY": 1.0,
+        "scaleZ": 2.260746
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://i.imgur.com/Fov9a1Z.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.5020837,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "1e2041",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": -0.02918264,
+          "y": -0.021263916,
+          "z": -0.060480848
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "7752f1",
+      "States": {
+        "2": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -3.9046917,
+            "posY": 1.5027715,
+            "posZ": 1.76200652,
+            "rotX": -2.132001E-06,
+            "rotY": -0.005107274,
+            "rotZ": 2.93102153E-06,
+            "scaleX": 2.260746,
+            "scaleY": 1.0,
+            "scaleZ": 2.260746
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/FtuhKYR.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.4968753,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "8587ab"
+        },
+        "3": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -3.904706,
+            "posY": 1.5027715,
+            "posZ": 1.7620095,
+            "rotX": 7.408637E-06,
+            "rotY": -0.00495017972,
+            "rotZ": 6.365614E-06,
+            "scaleX": 2.260746,
+            "scaleY": 1.0,
+            "scaleZ": 2.260746
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/ezjTVf1.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.496875465,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "31894a"
+        },
+        "4": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -3.90471482,
+            "posY": 1.50277245,
+            "posZ": 1.76201165,
+            "rotX": -2.129046E-06,
+            "rotY": -0.00499116024,
+            "rotZ": -3.710907E-05,
+            "scaleX": 2.260746,
+            "scaleY": 1.0,
+            "scaleZ": 2.260746
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/jnljHuz.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.4968753,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "3490cb"
+        },
+        "5": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -3.90472674,
+            "posY": 1.50277185,
+            "posZ": 1.762014,
+            "rotX": -8.294064E-06,
+            "rotY": -0.004979208,
+            "rotZ": -4.99501766E-06,
+            "scaleX": 2.260746,
+            "scaleY": 1.0,
+            "scaleZ": 2.260746
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/pCcjR43.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.4968753,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "2673fe"
+        },
+        "6": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -3.904728,
+            "posY": 1.505376,
+            "posZ": 1.762015,
+            "rotX": -2.25787517E-05,
+            "rotY": -0.004948472,
+            "rotZ": 2.42336955E-06,
+            "scaleX": 2.260746,
+            "scaleY": 1.0,
+            "scaleZ": 2.260746
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/vkiciKg.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.5020837,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "aec2d0"
+        },
+        "7": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -3.05916977,
+            "posY": 1.50540733,
+            "posZ": 0.481114745,
+            "rotX": 0.0002291957,
+            "rotY": 0.14876838,
+            "rotZ": -0.000566224568,
+            "scaleX": 2.260746,
+            "scaleY": 1.0,
+            "scaleZ": 2.260746
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/wH4nrqu.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.50208354,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "f6b622"
+        }
+      }
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -4.188969,
+        "posY": 1.25433183,
+        "posZ": -1.65601313,
+        "rotX": -2.20506791E-07,
+        "rotY": 104.993805,
+        "rotZ": -6.3793226E-07,
+        "scaleX": 11.800025,
+        "scaleY": 11.800025,
+        "scaleZ": 11.800025
+      },
+      "Nickname": "Hobgoblin Commander ",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/872998007405811072/B7B06AC8E52B6335D745B2F7020A6F5E4B913020/",
+        "DiffuseURL": "https://i.imgur.com/H3Sci8C.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/876375900177870061/C02739AA37CC654750E1D0DEEAAB81E76B4E2C84/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "c8d296"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -0.2333357,
+        "posY": 1.2110796,
+        "posZ": 17.5419655,
+        "rotX": 0.000193540924,
+        "rotY": 195.3295,
+        "rotZ": -0.0007907885,
+        "scaleX": 1.76113939,
+        "scaleY": 1.0,
+        "scaleZ": 1.76113939
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://i.imgur.com/JES7gEu.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.5020837,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "c53d63",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": -0.0562907122,
+          "y": -0.021261517,
+          "z": 0.00225823326
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      },
+      "GUID": "8ead52",
+      "States": {
+        "4": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 18.0995274,
+            "posY": 1.21108687,
+            "posZ": 0.7599901,
+            "rotX": -0.000440549979,
+            "rotY": 255.136154,
+            "rotZ": -0.000684043742,
+            "scaleX": 1.76113939,
+            "scaleY": 1.0,
+            "scaleZ": 1.76113939
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/p03KWVC.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.5020837,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "568258"
+        },
+        "3": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 12.2673979,
+            "posY": 1.20844769,
+            "posZ": 12.4825993,
+            "rotX": -7.052638E-05,
+            "rotY": 255.00415,
+            "rotZ": -0.000137439521,
+            "scaleX": 1.76113939,
+            "scaleY": 1.0,
+            "scaleZ": 1.76113939
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/79SbF4Q.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.4968753,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "4bcb07"
+        },
+        "2": {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -0.233310729,
+            "posY": 1.21105409,
+            "posZ": 17.5419521,
+            "rotX": -0.000216582237,
+            "rotY": 195.329559,
+            "rotZ": 6.03361241E-06,
+            "scaleX": 1.76113939,
+            "scaleY": 1.0,
+            "scaleZ": 1.76113939
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/BRA3eUS.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.5020837,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "0a3e52"
+        }
+      }
+    }
+  ],
+  "DecalPallet": [],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": "v9.9"
+}

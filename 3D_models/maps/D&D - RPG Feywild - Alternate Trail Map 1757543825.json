@@ -1,0 +1,3963 @@
+{
+  "SaveName": "D&D - RPG Feywild - Alternate Trail Map",
+  "GameMode": "Feywild Alternate Trail",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "5/31/2019 9:26:59 PM",
+  "Table": "Table_Custom",
+  "TableURL": "https://sites.google.com/site/rolesystemssky/table_wood.jpg",
+  "Sky": "Sky_Sunset",
+  "SkyURL": "https://andrewcrawford.me/ivr/AutumnTrail/AutumnTrail.jpg",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
+  "LuaScript": "--[[ Lua code. See documentation: https://api.tabletopsimulator.com/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate()\n    --[[ print('onUpdate loop!') --]]\nend",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.5559961,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.539997,
+    "AmbientType": 1,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 0.296000719,
+    "LutIndex": 59,
+    "LutContribution": 0.192000717,
+    "LutURL": ""
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 23.6700039,
+          "posY": 2.90961123,
+          "posZ": 34.4527626,
+          "rotX": 0.0,
+          "rotY": 179.8,
+          "rotZ": 0.0,
+          "scaleX": 15.32815,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35077763
+        }
+      },
+      {
+        "Color": "Brown",
+        "Transform": {
+          "posX": 0.0,
+          "posY": 2.90961123,
+          "posZ": -34.42515,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 15.3268919,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014534
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": -23.6700039,
+          "posY": 2.90961123,
+          "posZ": 34.43159,
+          "rotX": 0.0,
+          "rotY": 180.0,
+          "rotZ": 0.0,
+          "scaleX": 15.3268747,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014534
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -51.6596222,
+          "posY": 2.90961123,
+          "posZ": -11.7324,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 15.1951561,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.40629
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 51.64263,
+          "posY": 2.90961123,
+          "posZ": -11.7324,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 15.1951408,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.40629
+        }
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 51.5785675,
+          "posY": 2.90961123,
+          "posZ": 11.7324,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 15.1951427,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.40629
+        }
+      },
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -23.6700039,
+          "posY": 2.90961123,
+          "posZ": -34.42515,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 15.3268948,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014534
+        }
+      },
+      {
+        "Color": "Teal",
+        "Transform": {
+          "posX": 0.0,
+          "posY": 2.90961123,
+          "posZ": 34.4527626,
+          "rotX": 0.0,
+          "rotY": 179.800049,
+          "rotZ": 0.0,
+          "scaleX": 15.3281517,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35077763
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 23.6700039,
+          "posY": 2.90961123,
+          "posZ": -34.2558136,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 15.3268747,
+          "scaleY": 11.8970547,
+          "scaleZ": 6.705048
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -51.6596222,
+          "posY": 2.90961123,
+          "posZ": 11.7324,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 15.1951532,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.40629
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "ObjectStates": [
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -9.0,
+        "posY": -39.0,
+        "posZ": 9.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "_OW_sBase",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://sites.google.com/site/rolesystemssky/table_wood.jpg",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "90cb64"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 85.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "_OW_cBase",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://sites.google.com/site/rolesystemssky/cloud.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.5,
+          "MergeDistancePixels": 5.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "0e615d"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 0.91,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 18.09,
+        "scaleY": 1.0,
+        "scaleZ": 18.09
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/790858250848357128/A71E96F8CE3B607C41B14BB9CEA9E841E011A959/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 5.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "--27ec04@",
+      "LuaScriptState": "",
+      "GUID": "27ec04"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -13.5885916,
+        "posY": 0.7532719,
+        "posZ": -15.7180681,
+        "rotX": 357.3143,
+        "rotY": 0.00367482658,
+        "rotZ": -0.004973204,
+        "scaleX": 9.962113,
+        "scaleY": 1.0,
+        "scaleZ": 9.962113
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/790858250848360781/40BFDE55D6D22C058426C7B80C9D8A65A3262C3F/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 1.0,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "fc19e3"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 37.0805,
+        "posY": 3.02366352,
+        "posZ": 20.3849621,
+        "rotX": 4.36154032,
+        "rotY": 359.556824,
+        "rotZ": 358.482361,
+        "scaleX": 3.77516055,
+        "scaleY": 1.0,
+        "scaleZ": 3.77516055
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/790858250848362306/34BD2A7B314DAA1BE9513355B7D9B7699054F5FB/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 1.0,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "81a564"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 1.51241243,
+        "posY": 0.495542139,
+        "posZ": 8.124022,
+        "rotX": 359.603546,
+        "rotY": 0.0178108178,
+        "rotZ": 1.2410816,
+        "scaleX": 15.1516809,
+        "scaleY": 1.0,
+        "scaleZ": 15.1516809
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/790858250848362932/7BE665525B7F23A0635277D21EEE3E4CF9294A09/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 1.0,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "1efffe"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -13.5900564,
+        "posY": 1.7524246,
+        "posZ": -15.7601366,
+        "rotX": 357.31424,
+        "rotY": 0.0035410542,
+        "rotZ": -0.00495672,
+        "scaleX": 9.962113,
+        "scaleY": 1.0,
+        "scaleZ": 9.962113
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/790858250848360781/40BFDE55D6D22C058426C7B80C9D8A65A3262C3F/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 1.0,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "a0c26c"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 1.48970473,
+        "posY": 1.49523413,
+        "posZ": 8.113137,
+        "rotX": 359.603546,
+        "rotY": 0.0173762236,
+        "rotZ": 1.24108613,
+        "scaleX": 15.1516809,
+        "scaleY": 1.0,
+        "scaleZ": 15.1516809
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/790858250848362932/7BE665525B7F23A0635277D21EEE3E4CF9294A09/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 1.0,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "8ab019"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -34.498188,
+        "posY": 0.961529,
+        "posZ": -5.12374067,
+        "rotX": -0.000288999174,
+        "rotY": 324.76062,
+        "rotZ": 0.0001899486,
+        "scaleX": 1.89999938,
+        "scaleY": 1.89999938,
+        "scaleZ": 1.89999938
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.96,
+        "g": 0.438999176,
+        "b": 0.807
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/0vxBh",
+        "DiffuseURL": "http://i.imgur.com/Vf9O43i.png",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/AnDaP",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "e2c75b"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -32.00322,
+        "posY": 0.9620116,
+        "posZ": -5.39660168,
+        "rotX": -0.000289861317,
+        "rotY": 8.715434,
+        "rotZ": 0.0001660798,
+        "scaleX": 2.499999,
+        "scaleY": 2.499999,
+        "scaleZ": 2.499999
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.627,
+        "g": 0.124999158,
+        "b": 0.941
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/0vxBh",
+        "DiffuseURL": "http://i.imgur.com/Vf9O43i.png",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/AnDaP",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "54a6df"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -19.5821362,
+        "posY": 0.9611668,
+        "posZ": 11.1905107,
+        "rotX": -0.0003271162,
+        "rotY": 120.034126,
+        "rotZ": -6.7236484E-05,
+        "scaleX": 1.44999981,
+        "scaleY": 1.44999981,
+        "scaleZ": 1.44999981
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.856,
+        "g": 0.09999924,
+        "b": 0.0939992145
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/0vxBh",
+        "DiffuseURL": "http://i.imgur.com/Vf9O43i.png",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/AnDaP",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "119735"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -20.495409,
+        "posY": 1.010834,
+        "posZ": -8.373842,
+        "rotX": -1.37010943E-06,
+        "rotY": 285.000031,
+        "rotZ": -3.93644626E-07,
+        "scaleX": 0.6500004,
+        "scaleY": 0.6500004,
+        "scaleZ": 0.6500004
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992165,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/okEaf",
+        "DiffuseURL": "http://i.imgur.com/QTXt3Hd.png",
+        "NormalURL": "http://i.imgur.com/c7ofYir.png",
+        "ColliderURL": "https://paste.ee/r/dqmrV",
+        "Convex": false,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "357f06"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -14.7759724,
+        "posY": 1.00355327,
+        "posZ": -10.1797953,
+        "rotX": -0.000157519258,
+        "rotY": 254.475632,
+        "rotZ": -0.0002536959,
+        "scaleX": 1.17782032,
+        "scaleY": 0.55693,
+        "scaleZ": 1.06572652
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992165,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/JyqAm",
+        "DiffuseURL": "http://i.imgur.com/QTXt3Hd.png",
+        "NormalURL": "http://i.imgur.com/c7ofYir.png",
+        "ColliderURL": "https://paste.ee/r/dqmrV",
+        "Convex": false,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "ee7b2a"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -17.11437,
+        "posY": 1.99885571,
+        "posZ": -9.080647,
+        "rotX": -6.83018925E-06,
+        "rotY": 327.037842,
+        "rotZ": 255.656738,
+        "scaleX": 1.15,
+        "scaleY": 1.15,
+        "scaleZ": 1.15
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992165,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/H93E7",
+        "DiffuseURL": "http://i.imgur.com/QTXt3Hd.png",
+        "NormalURL": "http://i.imgur.com/c7ofYir.png",
+        "ColliderURL": "https://paste.ee/r/dqmrV",
+        "Convex": false,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "57d695"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -37.227066,
+        "posY": 1.02451992,
+        "posZ": -8.523433,
+        "rotX": 2.63645943E-05,
+        "rotY": 234.850891,
+        "rotZ": -2.63835932E-06,
+        "scaleX": 0.825000346,
+        "scaleY": 0.825000346,
+        "scaleZ": 0.825000346
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992165,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/Nqvzb",
+        "DiffuseURL": "http://i.imgur.com/QTXt3Hd.png",
+        "NormalURL": "http://i.imgur.com/c7ofYir.png",
+        "ColliderURL": "https://paste.ee/r/dqmrV",
+        "Convex": false,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "e661a3"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -16.0432186,
+        "posY": 0.9592942,
+        "posZ": -2.8593657,
+        "rotX": -6.957713E-07,
+        "rotY": 195.00148,
+        "rotZ": 2.40874641E-07,
+        "scaleX": 1.57555807,
+        "scaleY": 0.193846539,
+        "scaleZ": 1.5414294
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=puXqPTsh",
+        "DiffuseURL": "http://i.imgur.com/fpfKvmd.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/small_base_collider.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.8745098,
+            "g": 0.8117647,
+            "b": 0.745098054
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 3.0,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "611604"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -2.14463782,
+        "posY": 2.11560154,
+        "posZ": 15.5020142,
+        "rotX": 0.607967,
+        "rotY": 314.5412,
+        "rotZ": 1.15470338,
+        "scaleX": 0.4000001,
+        "scaleY": 0.4000001,
+        "scaleZ": 0.4000001
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.8223383,
+        "g": 0.5408671,
+        "b": 0.9982576
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=EAtAy958",
+        "DiffuseURL": "http://i.imgur.com/qbNu4q8.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/shrub_01_collision.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.8745098,
+            "g": 0.8117647,
+            "b": 0.745098054
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 3.0,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "363114"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -0.831835449,
+        "posY": 2.16860175,
+        "posZ": 20.39153,
+        "rotX": 358.722168,
+        "rotY": 60.4420052,
+        "rotZ": 0.2678106,
+        "scaleX": 0.3750001,
+        "scaleY": 0.3750001,
+        "scaleZ": 0.3750001
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.96,
+        "g": 0.438999236,
+        "b": 0.807
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=EAtAy958",
+        "DiffuseURL": "http://i.imgur.com/qbNu4q8.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/shrub_01_collision.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.8745098,
+            "g": 0.8117647,
+            "b": 0.745098054
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 3.0,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "8d68a6"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 11.8377361,
+        "posY": 0.962012,
+        "posZ": 5.39567041,
+        "rotX": -0.000376609067,
+        "rotY": 329.975647,
+        "rotZ": 1.25087172E-05,
+        "scaleX": 2.499999,
+        "scaleY": 2.499999,
+        "scaleZ": 2.499999
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.627,
+        "g": 0.124999158,
+        "b": 0.941
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/0vxBh",
+        "DiffuseURL": "http://i.imgur.com/Vf9O43i.png",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/AnDaP",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "6e7bd2"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -36.71347,
+        "posY": 2.07539463,
+        "posZ": -20.77565,
+        "rotX": 357.669617,
+        "rotY": 329.92746,
+        "rotZ": 1.34308958,
+        "scaleX": 2.29999924,
+        "scaleY": 2.29999924,
+        "scaleZ": 2.29999924
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992164552,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/MioXo",
+        "DiffuseURL": "http://i.imgur.com/8WONiI9.png",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/NRsuU",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "60e0d6"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 22.3892155,
+        "posY": 2.51803851,
+        "posZ": 9.446844,
+        "rotX": 359.6121,
+        "rotY": 359.9347,
+        "rotZ": 1.2426666,
+        "scaleX": 2.499999,
+        "scaleY": 2.499999,
+        "scaleZ": 2.499999
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992167056,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/MioXo",
+        "DiffuseURL": "http://i.imgur.com/fL7zVb5.png",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/NRsuU",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "84c697"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 13.5441132,
+        "posY": 2.414484,
+        "posZ": 18.529108,
+        "rotX": 359.2724,
+        "rotY": 128.790161,
+        "rotZ": 358.922516,
+        "scaleX": 11.9738445,
+        "scaleY": 8.158844,
+        "scaleZ": 11.9738445
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992164552,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/6Tf1s",
+        "DiffuseURL": "http://i.imgur.com/8WONiI9.png",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/AAPd6",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "0f4ac2"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -5.26101,
+        "posY": 1.89903808,
+        "posZ": -24.2510014,
+        "rotX": 0.685591936,
+        "rotY": 255.126984,
+        "rotZ": 2.60014,
+        "scaleX": 6.949121,
+        "scaleY": 4.269527,
+        "scaleZ": 6.949121
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921641,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/6Tf1s",
+        "DiffuseURL": "http://i.imgur.com/GM6Y1yv.png",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/AAPd6",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "560b60"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -11.5031452,
+        "posY": 2.12149954,
+        "posZ": -20.0634212,
+        "rotX": 357.4134,
+        "rotY": 344.490326,
+        "rotZ": 0.78368634,
+        "scaleX": 2.89999843,
+        "scaleY": 2.89999843,
+        "scaleZ": 2.89999843
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921641,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/MioXo",
+        "DiffuseURL": "http://i.imgur.com/mTuEZUu.png",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/NRsuU",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "dac69c"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 9.466413,
+        "posY": 0.12160635,
+        "posZ": -16.5929852,
+        "rotX": 1.62711E-05,
+        "rotY": 149.9942,
+        "rotZ": -2.83366E-05,
+        "scaleX": 3.777786,
+        "scaleY": 2.492238,
+        "scaleZ": 3.777786
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992167056,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/MioXo",
+        "DiffuseURL": "http://i.imgur.com/xOpPgNH.png",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/NRsuU",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "0acf87"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -22.8269634,
+        "posY": 1.6322031,
+        "posZ": 23.0288048,
+        "rotX": 358.7805,
+        "rotY": 93.34834,
+        "rotZ": 359.533783,
+        "scaleX": 2.499999,
+        "scaleY": 2.499999,
+        "scaleZ": 2.499999
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921641,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/MioXo",
+        "DiffuseURL": "http://i.imgur.com/mTuEZUu.png",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/NRsuU",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "f5332a"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -30.87789,
+        "posY": 2.290671,
+        "posZ": -15.0659065,
+        "rotX": 2.70845962,
+        "rotY": 171.029617,
+        "rotZ": 359.531,
+        "scaleX": 3.09999824,
+        "scaleY": 3.09999824,
+        "scaleZ": 3.09999824
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992167056,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/wrNnl",
+        "DiffuseURL": "http://i.imgur.com/xOpPgNH.png",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/fWBIP",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "11236f"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 27.3380165,
+        "posY": 2.70792627,
+        "posZ": 20.9592419,
+        "rotX": 359.6042,
+        "rotY": 359.944153,
+        "rotZ": 1.24347043,
+        "scaleX": 2.499999,
+        "scaleY": 2.499999,
+        "scaleZ": 2.499999
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921641,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/YDI9x",
+        "DiffuseURL": "http://i.imgur.com/mTuEZUu.png",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/mGVRq",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "ff772a"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -14.4452477,
+        "posY": 2.30702519,
+        "posZ": -14.73243,
+        "rotX": 2.330582,
+        "rotY": 149.960587,
+        "rotZ": 358.659,
+        "scaleX": 3.69999647,
+        "scaleY": 3.69999647,
+        "scaleZ": 3.69999647
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992167056,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/1siIk",
+        "DiffuseURL": "http://i.imgur.com/Sd1C6l5.png",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/VZzpf",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "db15c9"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -21.015913,
+        "posY": 2.39232635,
+        "posZ": -12.9357767,
+        "rotX": 359.979,
+        "rotY": 89.9514542,
+        "rotZ": 357.250854,
+        "scaleX": 3.69999647,
+        "scaleY": 3.69999647,
+        "scaleZ": 3.69999647
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992167056,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/1siIk",
+        "DiffuseURL": "http://i.imgur.com/fL7zVb5.png",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/VZzpf",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "a1effc"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 39.87973,
+        "posY": 2.84554768,
+        "posZ": 5.52411032,
+        "rotX": 359.937531,
+        "rotY": 345.0317,
+        "rotZ": 1.30304861,
+        "scaleX": 4.04999638,
+        "scaleY": 4.04999638,
+        "scaleZ": 4.04999638
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992165,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/P1a6D",
+        "DiffuseURL": "http://i.imgur.com/eQ5CCVH.png",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/4ptvi",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "3f302b"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -3.79448318,
+        "posY": 1.9812535,
+        "posZ": 19.2602673,
+        "rotX": 1.09792459,
+        "rotY": 285.061523,
+        "rotZ": 0.7054928,
+        "scaleX": 2.59999871,
+        "scaleY": 2.59999871,
+        "scaleZ": 2.59999871
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992164552,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/P1a6D",
+        "DiffuseURL": "http://i.imgur.com/8WONiI9.png",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/4ptvi",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "9cb85c"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 35.6648521,
+        "posY": 2.90083933,
+        "posZ": 2.55933332,
+        "rotX": 0.23406525,
+        "rotY": 331.097473,
+        "rotZ": 1.15838516,
+        "scaleX": 0.5500001,
+        "scaleY": 0.5500001,
+        "scaleZ": 0.5500001
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.171999186
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=EAtAy958",
+        "DiffuseURL": "http://i.imgur.com/qbNu4q8.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/shrub_01_collision.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.8745098,
+            "g": 0.8117647,
+            "b": 0.745098054
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 3.0,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "3fd9dd"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 29.2228947,
+        "posY": 1.00673485,
+        "posZ": -21.6372814,
+        "rotX": 358.993774,
+        "rotY": 88.20164,
+        "rotZ": 359.990417,
+        "scaleX": 3.29999685,
+        "scaleY": 3.29999685,
+        "scaleZ": 3.29999685
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921641,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/6Tf1s",
+        "DiffuseURL": "http://i.imgur.com/GM6Y1yv.png",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/AAPd6",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "3e53ea"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 34.2089272,
+        "posY": 5.06755829,
+        "posZ": 5.395862,
+        "rotX": 0.6646278,
+        "rotY": 312.664856,
+        "rotZ": 181.134811,
+        "scaleX": 4.96766853,
+        "scaleY": 6.96060753,
+        "scaleZ": 6.2673583
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921631,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/a1feP",
+        "DiffuseURL": "http://i.imgur.com/NTsK5EH.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.8745098,
+            "g": 0.8117647,
+            "b": 0.745098054
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "ea9391"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -35.603,
+        "posY": 2.982558,
+        "posZ": -7.008681,
+        "rotX": 72.43965,
+        "rotY": 105.748779,
+        "rotZ": 89.99836,
+        "scaleX": 4.44999838,
+        "scaleY": 4.44999838,
+        "scaleZ": 4.44999838
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921631,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/JwmQQ",
+        "DiffuseURL": "http://i.imgur.com/RYbRqv9.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.8745098,
+            "g": 0.8117647,
+            "b": 0.745098054
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "561b8c"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 21.7741928,
+        "posY": 2.466446,
+        "posZ": 12.796958,
+        "rotX": 0.9654669,
+        "rotY": 210.118088,
+        "rotZ": 359.1251,
+        "scaleX": 1.78970373,
+        "scaleY": 0.220193654,
+        "scaleZ": 1.75093639
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=puXqPTsh",
+        "DiffuseURL": "http://i.imgur.com/fpfKvmd.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/small_base_collider.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.8745098,
+            "g": 0.8117647,
+            "b": 0.745098054
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 3.0,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "750fb6"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -25.269453,
+        "posY": 2.53657484,
+        "posZ": -13.08819,
+        "rotX": 357.671539,
+        "rotY": 329.854553,
+        "rotZ": 1.34605134,
+        "scaleX": 0.4250001,
+        "scaleY": 0.4250001,
+        "scaleZ": 0.4250001
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.171999186
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=EAtAy958",
+        "DiffuseURL": "http://i.imgur.com/qbNu4q8.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/shrub_01_collision.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.8745098,
+            "g": 0.8117647,
+            "b": 0.745098054
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 3.0,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "3798dc"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -23.4481564,
+        "posY": 2.84222221,
+        "posZ": -22.56308,
+        "rotX": 2.84292364,
+        "rotY": 162.995911,
+        "rotZ": 359.135132,
+        "scaleX": 13.1000338,
+        "scaleY": 7.743582,
+        "scaleZ": 13.1000338
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.99216336,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/ecQdh",
+        "DiffuseURL": "http://i.imgur.com/TbDyg5k.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/plague_pine_01_collision.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.8745098,
+            "g": 0.8117647,
+            "b": 0.745098054
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "c93303"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 22.1273,
+        "posY": 2.87811279,
+        "posZ": 17.0887,
+        "rotX": 359.94397,
+        "rotY": 344.772247,
+        "rotZ": 1.30247545,
+        "scaleX": 3.24999785,
+        "scaleY": 3.24999785,
+        "scaleZ": 3.24999785
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.99216336,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/ecQdh",
+        "DiffuseURL": "http://i.imgur.com/nNZYFlm.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/plague_pine_01_collision.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.8745098,
+            "g": 0.8117647,
+            "b": 0.745098054
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "a6ca3a"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 32.5067024,
+        "posY": 2.98697019,
+        "posZ": 12.7726259,
+        "rotX": 359.9386,
+        "rotY": 344.982178,
+        "rotZ": 1.30248356,
+        "scaleX": 2.499999,
+        "scaleY": 2.499999,
+        "scaleZ": 2.499999
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.99216336,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/uBLaa",
+        "DiffuseURL": "http://i.imgur.com/LOnfjEg.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/plague_pine_01_collision.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.8745098,
+            "g": 0.8117647,
+            "b": 0.745098054
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "c53323"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 30.2154884,
+        "posY": 3.00165129,
+        "posZ": 9.608368,
+        "rotX": 0.237857178,
+        "rotY": 331.778778,
+        "rotZ": 1.28181422,
+        "scaleX": 3.24999785,
+        "scaleY": 3.24999785,
+        "scaleZ": 3.24999785
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.99216336,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/6AKdX",
+        "DiffuseURL": "http://i.imgur.com/M14Tede.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/plague_pine_01_collision.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.8745098,
+            "g": 0.8117647,
+            "b": 0.745098054
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "2d607d"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 29.5302429,
+        "posY": 2.89178872,
+        "posZ": 12.455986,
+        "rotX": 359.940948,
+        "rotY": 344.9615,
+        "rotZ": 1.30233932,
+        "scaleX": 0.699999869,
+        "scaleY": 0.699999869,
+        "scaleZ": 0.699999869
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9912891,
+        "g": 0.485820353,
+        "b": 0.236595333
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=Vcp3Rg4V",
+        "DiffuseURL": "http://i.imgur.com/Yf1UI12.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/shrub_01_collision.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.8745098,
+            "g": 0.8117647,
+            "b": 0.745098054
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 3.0,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "751f92"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -14.73094,
+        "posY": 1.88232875,
+        "posZ": 21.7797813,
+        "rotX": 358.839966,
+        "rotY": 45.1549377,
+        "rotZ": 0.5946017,
+        "scaleX": 5.04999971,
+        "scaleY": 5.04999971,
+        "scaleZ": 5.04999971
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9559999,
+        "g": 0.391999125,
+        "b": 0.112999149
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/GETuG",
+        "DiffuseURL": "http://i.imgur.com/zIcMBDh.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/duskwood_gnarly_01_collision.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.8745098,
+            "g": 0.8117647,
+            "b": 0.745098054
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "b146a5"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 16.0840759,
+        "posY": 1.13382,
+        "posZ": 2.247249,
+        "rotX": -3.87242551E-07,
+        "rotY": 151.166214,
+        "rotZ": 180.0,
+        "scaleX": 1.22499943,
+        "scaleY": 1.22499943,
+        "scaleZ": 1.22499943
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921631,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=grJt5Tbs",
+        "DiffuseURL": "http://i.imgur.com/zhCzTUr.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/small_base_collider.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.8745098,
+            "g": 0.8117647,
+            "b": 0.745098054
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 3.0,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "744634"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -24.50547,
+        "posY": 2.29884648,
+        "posZ": -14.7424068,
+        "rotX": 358.0739,
+        "rotY": 315.858643,
+        "rotZ": 1.857978,
+        "scaleX": 0.7499998,
+        "scaleY": 0.7499998,
+        "scaleZ": 0.7499998
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921631,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=0Tf8hV4h",
+        "DiffuseURL": "http://i.imgur.com/xyKiBe7.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/small_base_collider.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.8745098,
+            "g": 0.8117647,
+            "b": 0.745098054
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 3.0,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "4829cf"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -8.872437,
+        "posY": 1.06815517,
+        "posZ": -4.6132884,
+        "rotX": 0.0112585,
+        "rotY": 89.93122,
+        "rotZ": 7.07907963,
+        "scaleX": 1.54999971,
+        "scaleY": 1.54999971,
+        "scaleZ": 1.54999971
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921631,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/p/CJVB9",
+        "DiffuseURL": "http://i.imgur.com/rZYazrJ.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/small_base_collider.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "fe759f"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -37.8602448,
+        "posY": 0.9550845,
+        "posZ": 22.07428,
+        "rotX": -1.13465721E-05,
+        "rotY": 303.192871,
+        "rotZ": -8.988233E-07,
+        "scaleX": 1.35000014,
+        "scaleY": 1.35000014,
+        "scaleZ": 1.35000014
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921631,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/p/rMyyR",
+        "DiffuseURL": "http://i.imgur.com/OnWVYu4.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/small_base_collider.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "a63ade"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -21.9540424,
+        "posY": 0.9555403,
+        "posZ": -6.520288,
+        "rotX": -2.03916679E-05,
+        "rotY": 60.2735176,
+        "rotZ": -8.235437E-06,
+        "scaleX": 1.22499943,
+        "scaleY": 1.22499943,
+        "scaleZ": 1.22499943
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921631,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=XedZPcKC",
+        "DiffuseURL": "http://i.imgur.com/8FnJEPH.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/small_base_collider.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.8745098,
+            "g": 0.8117647,
+            "b": 0.745098054
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 3.0,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "2b0787"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -13.8763857,
+        "posY": 2.01868463,
+        "posZ": -20.7380371,
+        "rotX": 357.4108,
+        "rotY": 15.3199234,
+        "rotZ": 359.28598,
+        "scaleX": 1.78970373,
+        "scaleY": 0.220193654,
+        "scaleZ": 1.75093639
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=puXqPTsh",
+        "DiffuseURL": "http://i.imgur.com/fpfKvmd.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/small_base_collider.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.8745098,
+            "g": 0.8117647,
+            "b": 0.745098054
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 3.0,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "fa41a4"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -20.6035042,
+        "posY": 2.10410666,
+        "posZ": -18.9327831,
+        "rotX": 359.993866,
+        "rotY": 270.138947,
+        "rotZ": 2.689874,
+        "scaleX": 1.78970373,
+        "scaleY": 0.220193654,
+        "scaleZ": 1.75093639
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=puXqPTsh",
+        "DiffuseURL": "http://i.imgur.com/fpfKvmd.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/small_base_collider.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.8745098,
+            "g": 0.8117647,
+            "b": 0.745098054
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 3.0,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "2e2bf1"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 22.9350262,
+        "posY": 1.00963628,
+        "posZ": -21.7896156,
+        "rotX": -1.12805246E-05,
+        "rotY": 19.9498539,
+        "rotZ": -1.65718957E-05,
+        "scaleX": 2.04999948,
+        "scaleY": 2.04999948,
+        "scaleZ": 2.04999948
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992164552,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/MioXo",
+        "DiffuseURL": "http://i.imgur.com/8WONiI9.png",
+        "NormalURL": "",
+        "ColliderURL": "https://paste.ee/r/NRsuU",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "811500"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -7.40124369,
+        "posY": 2.097727,
+        "posZ": -21.9996586,
+        "rotX": 353.02948,
+        "rotY": 14.5183134,
+        "rotZ": 3.69870758,
+        "scaleX": 1.54999971,
+        "scaleY": 1.54999971,
+        "scaleZ": 1.54999971
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921631,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/p/CJVB9",
+        "DiffuseURL": "http://i.imgur.com/rZYazrJ.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/small_base_collider.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "afb460"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -29.209898,
+        "posY": 2.33748674,
+        "posZ": -14.3035412,
+        "rotX": 359.9915,
+        "rotY": 89.47258,
+        "rotZ": 358.6229,
+        "scaleX": 1.54999971,
+        "scaleY": 1.54999971,
+        "scaleZ": 1.54999971
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921631,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/p/CJVB9",
+        "DiffuseURL": "http://i.imgur.com/rZYazrJ.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/small_base_collider.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "a1e710"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -10.7765532,
+        "posY": 2.52874565,
+        "posZ": -18.537117,
+        "rotX": 1.81192434,
+        "rotY": 130.050812,
+        "rotZ": 24.5264587,
+        "scaleX": 1.54999971,
+        "scaleY": 1.54999971,
+        "scaleZ": 1.54999971
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921631,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/p/CJVB9",
+        "DiffuseURL": "http://i.imgur.com/rZYazrJ.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/small_base_collider.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "c0c257"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -5.84953976,
+        "posY": 1.9794085,
+        "posZ": -21.4584866,
+        "rotX": 358.6413,
+        "rotY": 59.61067,
+        "rotZ": 357.679047,
+        "scaleX": 1.54999971,
+        "scaleY": 1.54999971,
+        "scaleZ": 1.54999971
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921631,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/p/CJVB9",
+        "DiffuseURL": "http://i.imgur.com/rZYazrJ.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/small_base_collider.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "4383b9"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -15.8200607,
+        "posY": 2.39454579,
+        "posZ": -12.6269464,
+        "rotX": 359.320923,
+        "rotY": 75.33583,
+        "rotZ": 357.408844,
+        "scaleX": 1.54999971,
+        "scaleY": 1.54999971,
+        "scaleZ": 1.54999971
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921631,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/p/CJVB9",
+        "DiffuseURL": "http://i.imgur.com/rZYazrJ.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/small_base_collider.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "50043f"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 28.0531025,
+        "posY": 0.954355538,
+        "posZ": -1.14709866,
+        "rotX": 3.68904438E-07,
+        "rotY": 90.03945,
+        "rotZ": 4.14706847E-05,
+        "scaleX": 1.54999971,
+        "scaleY": 1.54999971,
+        "scaleZ": 1.54999971
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921631,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/p/CJVB9",
+        "DiffuseURL": "http://i.imgur.com/rZYazrJ.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/small_base_collider.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "30b5ec"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 37.900486,
+        "posY": 2.76751661,
+        "posZ": 6.505181,
+        "rotX": 359.381256,
+        "rotY": 10.7479267,
+        "rotZ": 1.144435,
+        "scaleX": 1.54999971,
+        "scaleY": 1.54999971,
+        "scaleZ": 1.54999971
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921631,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/p/CJVB9",
+        "DiffuseURL": "http://i.imgur.com/rZYazrJ.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/small_base_collider.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "c5b204"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 38.5809135,
+        "posY": 2.92579222,
+        "posZ": 5.04045534,
+        "rotX": 9.632498,
+        "rotY": 180.0109,
+        "rotZ": 358.726,
+        "scaleX": 1.54999971,
+        "scaleY": 1.54999971,
+        "scaleZ": 1.54999971
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921631,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/p/CJVB9",
+        "DiffuseURL": "http://i.imgur.com/rZYazrJ.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/small_base_collider.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "0e8ee1"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 42.21987,
+        "posY": 2.85735321,
+        "posZ": 5.96242142,
+        "rotX": 358.758881,
+        "rotY": 90.0209656,
+        "rotZ": 359.6037,
+        "scaleX": 1.54999971,
+        "scaleY": 1.54999971,
+        "scaleZ": 1.54999971
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921631,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/p/CJVB9",
+        "DiffuseURL": "http://i.imgur.com/rZYazrJ.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/small_base_collider.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "fd02a5"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 24.2317047,
+        "posY": 0.9543557,
+        "posZ": -19.606411,
+        "rotX": -9.393256E-06,
+        "rotY": 90.03945,
+        "rotZ": 3.14535623E-06,
+        "scaleX": 1.54999971,
+        "scaleY": 1.54999971,
+        "scaleZ": 1.54999971
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921631,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/p/CJVB9",
+        "DiffuseURL": "http://i.imgur.com/rZYazrJ.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/small_base_collider.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "98f409"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -18.4681854,
+        "posY": 1.634612,
+        "posZ": 19.2978363,
+        "rotX": 358.758667,
+        "rotY": 89.99352,
+        "rotZ": 359.604218,
+        "scaleX": 1.54999971,
+        "scaleY": 1.54999971,
+        "scaleZ": 1.54999971
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921631,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/p/CJVB9",
+        "DiffuseURL": "http://i.imgur.com/rZYazrJ.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/small_base_collider.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "fbed00"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -34.7751427,
+        "posY": 1.10523951,
+        "posZ": 21.3208866,
+        "rotX": 0.45943886,
+        "rotY": 111.382271,
+        "rotZ": 10.2512951,
+        "scaleX": 1.35000014,
+        "scaleY": 1.35000014,
+        "scaleZ": 1.35000014
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921631,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/p/rMyyR",
+        "DiffuseURL": "http://i.imgur.com/OnWVYu4.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/small_base_collider.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "d662b4"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -35.0906067,
+        "posY": 0.9550827,
+        "posZ": 20.32301,
+        "rotX": 359.992,
+        "rotY": 24.5325432,
+        "rotZ": -0.00572180748,
+        "scaleX": 1.35000014,
+        "scaleY": 1.35000014,
+        "scaleZ": 1.35000014
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921631,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/p/rMyyR",
+        "DiffuseURL": "http://i.imgur.com/OnWVYu4.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/small_base_collider.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "e61df7"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -39.7594032,
+        "posY": 0.95508486,
+        "posZ": -9.874954,
+        "rotX": -3.64745733E-06,
+        "rotY": 180.00441,
+        "rotZ": -7.995676E-06,
+        "scaleX": 1.35000014,
+        "scaleY": 1.35000014,
+        "scaleZ": 1.35000014
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921631,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/p/rMyyR",
+        "DiffuseURL": "http://i.imgur.com/OnWVYu4.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/small_base_collider.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "73783c"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -10.3125753,
+        "posY": 0.955086648,
+        "posZ": -6.034983,
+        "rotX": 5.23753843E-05,
+        "rotY": 179.629913,
+        "rotZ": -0.0001219132,
+        "scaleX": 1.35000014,
+        "scaleY": 1.35000014,
+        "scaleZ": 1.35000014
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921631,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/p/rMyyR",
+        "DiffuseURL": "http://i.imgur.com/OnWVYu4.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/small_base_collider.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "6271fc"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -19.9395275,
+        "posY": 2.56249762,
+        "posZ": -13.7297869,
+        "rotX": 0.394143462,
+        "rotY": 261.625854,
+        "rotZ": 18.6118927,
+        "scaleX": 1.35000014,
+        "scaleY": 1.35000014,
+        "scaleZ": 1.35000014
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921631,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/p/rMyyR",
+        "DiffuseURL": "http://i.imgur.com/OnWVYu4.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/small_base_collider.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "fa40e9"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -21.6532173,
+        "posY": 2.615905,
+        "posZ": -11.5996447,
+        "rotX": 350.426361,
+        "rotY": 152.089645,
+        "rotZ": 358.753082,
+        "scaleX": 1.35000014,
+        "scaleY": 1.35000014,
+        "scaleZ": 1.35000014
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921631,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/p/rMyyR",
+        "DiffuseURL": "http://i.imgur.com/OnWVYu4.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/small_base_collider.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "99501a"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 29.8041573,
+        "posY": 1.38020027,
+        "posZ": -21.1361446,
+        "rotX": 0.008860463,
+        "rotY": 177.777939,
+        "rotZ": 31.9932175,
+        "scaleX": 1.35000014,
+        "scaleY": 1.35000014,
+        "scaleZ": 1.35000014
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921631,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/p/rMyyR",
+        "DiffuseURL": "http://i.imgur.com/OnWVYu4.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/small_base_collider.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "3c4c70"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 33.84544,
+        "posY": 3.006078,
+        "posZ": 2.50432658,
+        "rotX": 18.38668,
+        "rotY": 161.311127,
+        "rotZ": 350.4527,
+        "scaleX": 1.35000014,
+        "scaleY": 1.35000014,
+        "scaleZ": 1.35000014
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921631,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/p/rMyyR",
+        "DiffuseURL": "http://i.imgur.com/OnWVYu4.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/small_base_collider.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "523a03"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 13.2384768,
+        "posY": 2.2881813,
+        "posZ": 14.3058472,
+        "rotX": 0.384455651,
+        "rotY": 179.025223,
+        "rotZ": 358.715637,
+        "scaleX": 1.35000014,
+        "scaleY": 1.35000014,
+        "scaleZ": 1.35000014
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921631,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/p/rMyyR",
+        "DiffuseURL": "http://i.imgur.com/OnWVYu4.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/small_base_collider.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "f14236"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.628612936,
+        "posY": 2.04960656,
+        "posZ": 19.3655853,
+        "rotX": 1.26743448,
+        "rotY": 240.041077,
+        "rotZ": 359.730072,
+        "scaleX": 1.35000014,
+        "scaleY": 1.35000014,
+        "scaleZ": 1.35000014
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921631,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/p/rMyyR",
+        "DiffuseURL": "http://i.imgur.com/OnWVYu4.png",
+        "NormalURL": "",
+        "ColliderURL": "www.michaelbrandeberry.com/images/Minis/Trees/small_base_collider.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "c4c9ca"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -40.9747276,
+        "posY": 1.04993761,
+        "posZ": 17.3449116,
+        "rotX": -1.976343E-05,
+        "rotY": 40.66938,
+        "rotZ": 1.3052002E-05,
+        "scaleX": 1.15,
+        "scaleY": 1.15,
+        "scaleZ": 1.15
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992165,
+        "b": 0.9999998
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/H93E7",
+        "DiffuseURL": "http://i.imgur.com/QTXt3Hd.png",
+        "NormalURL": "http://i.imgur.com/c7ofYir.png",
+        "ColliderURL": "https://paste.ee/r/dqmrV",
+        "Convex": false,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "27ec3f"
+    }
+  ],
+  "DecalPallet": [],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": "v12.0.4"
+}

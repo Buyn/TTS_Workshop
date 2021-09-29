@@ -1,0 +1,1259 @@
+{
+  "SaveName": "Fires and Flames animations",
+  "GameMode": "Epic Spell Wars I",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "10/13/2017 11:07:05 PM",
+  "Table": "Table_None",
+  "Sky": "Sky_Cathedral",
+  "SkyURL": "http://i.imgur.com/gKHqxtA.jpg",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "",
+  "LuaScript": "--[[ Lua code. See documentation: http://berserk-games.com/knowledgebase/scripting/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate ()\n    --[[ print('onUpdate loop!') --]]\nend",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 0.5,
+    "ySize": 0.5,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.6239975,
+    "LightColor": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0
+    },
+    "AmbientIntensity": 0.0,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 0.7319994,
+    "LutIndex": 110,
+    "LutContribution": 1.0,
+    "LutURL": ""
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": 0.0,
+          "posY": 3.34820342,
+          "posZ": 34.4527626,
+          "rotX": 0.0,
+          "rotY": 179.800049,
+          "rotZ": 0.0,
+          "scaleX": 15.4223328,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.38439846
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 0.0,
+          "posY": 3.34820342,
+          "posZ": -34.42515,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 15.3268919,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014534
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 29.5204582,
+          "posY": 4.461135,
+          "posZ": -16.1931973,
+          "rotX": 0.0,
+          "rotY": 299.856537,
+          "rotZ": 0.0,
+          "scaleX": 23.9110832,
+          "scaleY": 7.0,
+          "scaleZ": 6.319061
+        }
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 28.4898682,
+          "posY": 4.461135,
+          "posZ": 17.3548,
+          "rotX": 0.0,
+          "rotY": 240.0468,
+          "rotZ": 0.0,
+          "scaleX": 23.9812469,
+          "scaleY": 7.0,
+          "scaleZ": 6.668296
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -30.0942631,
+          "posY": 4.461135,
+          "posZ": 17.5091,
+          "rotX": 0.0,
+          "rotY": 120.261711,
+          "rotZ": 0.0,
+          "scaleX": 24.576498,
+          "scaleY": 7.0,
+          "scaleZ": 6.39261341
+        }
+      },
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -30.3944626,
+          "posY": 4.461135,
+          "posZ": -17.38219,
+          "rotX": 0.0,
+          "rotY": 59.9527779,
+          "rotZ": 0.0,
+          "scaleX": 24.0437622,
+          "scaleY": 7.0,
+          "scaleZ": 7.38573456
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "VectorLines": [],
+  "ObjectStates": [
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -0.01,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 240.0,
+        "rotZ": 0.0,
+        "scaleX": 18.1367817,
+        "scaleY": 1.0,
+        "scaleZ": 18.1367817
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "Autoraise": false,
+      "Sticky": false,
+      "Tooltip": false,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/858354911724785232/21C86BDADA4B66A71A536898D31F3BAB56C7B67E/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.495000064,
+          "MergeDistancePixels": 5.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.6,
+        "DynamicFriction": 0.6,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 3.85613,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": false
+      },
+      "GUID": "e68d3e"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -0.01,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 60.0000038,
+        "rotZ": 0.0,
+        "scaleX": 18.1367817,
+        "scaleY": 1.0,
+        "scaleZ": 18.14
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "Autoraise": false,
+      "Sticky": false,
+      "Tooltip": false,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/858354911724785232/21C86BDADA4B66A71A536898D31F3BAB56C7B67E/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.495000064,
+          "MergeDistancePixels": 5.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.6,
+        "DynamicFriction": 0.6,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 3.85613,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": false
+      },
+      "GUID": "79013d"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": -4.945494,
+        "posY": 0.7375001,
+        "posZ": 14.4785089,
+        "rotX": 5.05851131E-05,
+        "rotY": -4.42873279E-05,
+        "rotZ": 3.31058254E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Camp fire",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/867365840805086295/F1F34D180356AA71B5EEF3033EB9A92BFEA39253/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "d22a5c"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": -5.83978033,
+        "posY": 0.737500131,
+        "posZ": 21.2885742,
+        "rotX": 3.79327867E-05,
+        "rotY": 0.000123727921,
+        "rotZ": 1.67432354E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Ring of Fire",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/867365840805087788/BDEE741032E2F7B45F3327006993EC5AC343559A/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "14bb3f"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": -7.860585,
+        "posY": 0.737499952,
+        "posZ": 14.47256,
+        "rotX": -5.19770656E-05,
+        "rotY": -0.0004081328,
+        "rotZ": -4.0065217E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Small fire",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/867365840805090113/0B3D5F79BFA4C3F4509FA5DD9E2F3B91F4B389A0/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "37c8e4"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 2.34431887,
+        "posY": 0.7375001,
+        "posZ": 14.6194153,
+        "rotX": 2.47350345E-05,
+        "rotY": 4.64614059E-05,
+        "rotZ": 3.3836E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Small fire 2",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/867365840805092358/9D3FD46C05BA806727DF2355BDF22131B862C76C/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "fd5ad4"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 0.221682772,
+        "posY": 0.7375001,
+        "posZ": 14.6167965,
+        "rotX": 1.05538256E-05,
+        "rotY": -8.618236E-05,
+        "rotZ": 1.17058207E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Small fire Plain",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/867365840805093829/57C1819AE1A7EC8C428A88DA749AFD3F71B0C56B/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "19b2f6"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": -2.38626361,
+        "posY": 0.7375001,
+        "posZ": 14.5070305,
+        "rotX": -1.36892886E-05,
+        "rotY": 9.049774E-06,
+        "rotZ": -8.833068E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Small fire plain big",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/867365840805095482/103ED7C68BD6B03789A610904FB2931CABCF86AF/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "afc456"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 3.98795581,
+        "posY": 0.737499952,
+        "posZ": 19.8291035,
+        "rotX": -4.68718536E-05,
+        "rotY": -0.000174146044,
+        "rotZ": -2.359958E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Wall of fire",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/867365840805097679/560653E1E89DE78650125B30EDBFE0C9757ECBE9/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "c23d59"
+    }
+  ],
+  "SnapPoints": [
+    {
+      "Position": {
+        "x": 7.32362938,
+        "y": 0.9611347,
+        "z": -25.1533642
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "Position": {
+        "x": 0.004183486,
+        "y": 0.9611347,
+        "z": -18.7727261
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "Position": {
+        "x": 5.827839,
+        "y": 0.9611347,
+        "z": -19.557
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 195.0,
+        "z": 0.0
+      }
+    },
+    {
+      "Position": {
+        "x": -5.77486,
+        "y": 0.9611347,
+        "z": -19.533535
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 165.0,
+        "z": 0.0
+      }
+    },
+    {
+      "Position": {
+        "x": 0.0419386029,
+        "y": 0.9611347,
+        "z": -27.1973877
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "Position": {
+        "x": 16.1820812,
+        "y": 0.9611347,
+        "z": -9.420513
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 120.000008,
+        "z": 0.0
+      }
+    },
+    {
+      "Position": {
+        "x": 23.5158386,
+        "y": 0.9611347,
+        "z": -13.57372
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 120.000008,
+        "z": 0.0
+      }
+    },
+    {
+      "Position": {
+        "x": 16.27289,
+        "y": 0.9611347,
+        "z": 9.392997
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 60.0000076,
+        "z": 0.0
+      }
+    },
+    {
+      "Position": {
+        "x": 23.4828739,
+        "y": 0.9611347,
+        "z": 13.6190882
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 60.0000076,
+        "z": 0.0
+      }
+    },
+    {
+      "Position": {
+        "x": 0.0274592787,
+        "y": 0.9611347,
+        "z": 27.1891422
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": -4.46236E-05,
+        "z": 0.0
+      }
+    },
+    {
+      "Position": {
+        "x": -23.5547314,
+        "y": 0.9611347,
+        "z": 13.5775642
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 300.0,
+        "z": 0.0
+      }
+    },
+    {
+      "Position": {
+        "x": -23.5289917,
+        "y": 0.9611347,
+        "z": -13.6129665
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 239.999985,
+        "z": 0.0
+      }
+    },
+    {
+      "Position": {
+        "x": 19.7659512,
+        "y": 0.9611347,
+        "z": -4.763829
+      },
+      "Rotation": {
+        "x": -1.14207666E-07,
+        "y": 135.019592,
+        "z": 180.0
+      }
+    },
+    {
+      "Position": {
+        "x": 13.9309835,
+        "y": 0.9611347,
+        "z": -14.8065681
+      },
+      "Rotation": {
+        "x": -1.31014019E-07,
+        "y": 105.009888,
+        "z": 180.0
+      }
+    },
+    {
+      "Position": {
+        "x": 19.7937832,
+        "y": 0.9611347,
+        "z": 4.711602
+      },
+      "Rotation": {
+        "x": -9.713019E-07,
+        "y": 45.0000038,
+        "z": 180.0
+      }
+    },
+    {
+      "Position": {
+        "x": 0.103617541,
+        "y": 0.9611347,
+        "z": 18.8254375
+      },
+      "Rotation": {
+        "x": 6.36037E-08,
+        "y": -4.47228376E-05,
+        "z": 180.0
+      }
+    },
+    {
+      "Position": {
+        "x": 0.0001621706,
+        "y": 0.9611347,
+        "z": 0.009960162
+      },
+      "Rotation": {
+        "x": 5.63139864E-08,
+        "y": 179.961533,
+        "z": 180.0
+      }
+    },
+    {
+      "Position": {
+        "x": 13.9957237,
+        "y": 0.9611347,
+        "z": 14.7838249
+      },
+      "Rotation": {
+        "x": 6.84595847E-08,
+        "y": 75.00001,
+        "z": 180.0
+      }
+    },
+    {
+      "Position": {
+        "x": 5.86697674,
+        "y": 0.9611347,
+        "z": 19.5460873
+      },
+      "Rotation": {
+        "x": -2.08849471E-08,
+        "y": 344.999969,
+        "z": 180.0
+      }
+    },
+    {
+      "Position": {
+        "x": -5.73083639,
+        "y": 0.9611347,
+        "z": 19.57803
+      },
+      "Rotation": {
+        "x": -6.449534E-08,
+        "y": 14.99996,
+        "z": 180.0
+      }
+    },
+    {
+      "Position": {
+        "x": -13.99403,
+        "y": 0.9611347,
+        "z": 14.8262968
+      },
+      "Rotation": {
+        "x": -1.422625E-07,
+        "y": 285.0,
+        "z": 180.0
+      }
+    },
+    {
+      "Position": {
+        "x": -16.2735958,
+        "y": 0.9611347,
+        "z": 9.441428
+      },
+      "Rotation": {
+        "x": 1.84421278E-08,
+        "y": 299.999969,
+        "z": 180.0
+      }
+    },
+    {
+      "Position": {
+        "x": -19.8065453,
+        "y": 0.9611347,
+        "z": 4.73540163
+      },
+      "Rotation": {
+        "x": 4.75749928E-09,
+        "y": 314.999969,
+        "z": 180.0
+      }
+    },
+    {
+      "Position": {
+        "x": -19.7945538,
+        "y": 0.9611347,
+        "z": -4.74054861
+      },
+      "Rotation": {
+        "x": 8.10967151E-08,
+        "y": 224.999985,
+        "z": 180.0
+      }
+    },
+    {
+      "Position": {
+        "x": -16.2890568,
+        "y": 0.9611347,
+        "z": -9.367007
+      },
+      "Rotation": {
+        "x": -7.241351E-07,
+        "y": 239.999985,
+        "z": 180.0
+      }
+    },
+    {
+      "Position": {
+        "x": -14.0316677,
+        "y": 0.9611347,
+        "z": -14.7554979
+      },
+      "Rotation": {
+        "x": -3.80817724E-08,
+        "y": 254.999969,
+        "z": 180.0
+      }
+    },
+    {
+      "Position": {
+        "x": -7.22149229,
+        "y": 0.9611347,
+        "z": 25.1801071
+      },
+      "Rotation": {
+        "x": -4.04715941E-08,
+        "y": -4.34420981E-05,
+        "z": 5.588994E-08
+      }
+    },
+    {
+      "Position": {
+        "x": -25.45041,
+        "y": 0.9611347,
+        "z": 6.2673564
+      },
+      "Rotation": {
+        "x": -1.294224E-06,
+        "y": 299.999939,
+        "z": 1.03229024E-06
+      }
+    },
+    {
+      "Position": {
+        "x": -18.1243725,
+        "y": 0.9611347,
+        "z": -18.8971825
+      },
+      "Rotation": {
+        "x": -4.022634E-07,
+        "y": 239.999985,
+        "z": -3.882381E-07
+      }
+    },
+    {
+      "Position": {
+        "x": 25.3872013,
+        "y": 0.9611347,
+        "z": -6.277715
+      },
+      "Rotation": {
+        "x": -4.17150346E-07,
+        "y": 120.000008,
+        "z": 1.85044343E-07
+      }
+    },
+    {
+      "Position": {
+        "x": 18.0840054,
+        "y": 0.9611347,
+        "z": 18.89796
+      },
+      "Rotation": {
+        "x": -8.83666E-08,
+        "y": 60.0000076,
+        "z": 8.974663E-08
+      }
+    },
+    {
+      "Position": {
+        "x": -20.5326157,
+        "y": 0.9611347,
+        "z": -20.2888184
+      },
+      "Rotation": {
+        "x": -3.51522232E-07,
+        "y": 239.999985,
+        "z": 1.79915787E-07
+      }
+    },
+    {
+      "Position": {
+        "x": -27.8205,
+        "y": 0.9611347,
+        "z": 7.6661334
+      },
+      "Rotation": {
+        "x": 0.35790512,
+        "y": 299.9987,
+        "z": 359.758331
+      }
+    },
+    {
+      "Position": {
+        "x": 7.324949,
+        "y": 0.9611347,
+        "z": -27.9613323
+      },
+      "Rotation": {
+        "x": 1.05615811E-07,
+        "y": 180.0,
+        "z": -3.94372137E-07
+      }
+    },
+    {
+      "Position": {
+        "x": 27.7763519,
+        "y": 0.9611347,
+        "z": -7.693722
+      },
+      "Rotation": {
+        "x": 0.341701746,
+        "y": 119.9997,
+        "z": 359.918274
+      }
+    },
+    {
+      "Position": {
+        "x": 20.5076046,
+        "y": 0.9611347,
+        "z": 20.2639351
+      },
+      "Rotation": {
+        "x": -6.391959E-08,
+        "y": 59.99999,
+        "z": -6.284954E-08
+      }
+    },
+    {
+      "Position": {
+        "x": -7.245965,
+        "y": 0.9611347,
+        "z": 27.967205
+      },
+      "Rotation": {
+        "x": 1.37173046E-08,
+        "y": -3.24409448E-05,
+        "z": -1.058085E-07
+      }
+    },
+    {
+      "Position": {
+        "x": -5.506752,
+        "y": 0.9611347,
+        "z": -0.00311302627
+      },
+      "Rotation": {
+        "x": -2.981272E-07,
+        "y": 269.991333,
+        "z": 180.0
+      }
+    },
+    {
+      "Position": {
+        "x": 5.50694275,
+        "y": 0.9611347,
+        "z": 0.003841402
+      },
+      "Rotation": {
+        "x": 5.535183E-08,
+        "y": 89.99167,
+        "z": 180.0
+      }
+    },
+    {
+      "Position": {
+        "x": -7.57556248,
+        "y": 0.9611347,
+        "z": -26.8002949
+      },
+      "Rotation": {
+        "x": -8.82215545E-09,
+        "y": 179.97229,
+        "z": -1.0086E-07
+      }
+    },
+    {
+      "Position": {
+        "x": 19.53053,
+        "y": 0.9611347,
+        "z": -20.2060356
+      },
+      "Rotation": {
+        "x": -7.136927E-08,
+        "y": 120.013504,
+        "z": -1.281953E-07
+      }
+    },
+    {
+      "Position": {
+        "x": 26.9626923,
+        "y": 0.9611347,
+        "z": 6.66228
+      },
+      "Rotation": {
+        "x": 2.43089119E-07,
+        "y": 59.9912949,
+        "z": -3.75921843E-07
+      }
+    },
+    {
+      "Position": {
+        "x": 7.68840075,
+        "y": 0.9611347,
+        "z": 26.8544483
+      },
+      "Rotation": {
+        "x": -8.2721463E-10,
+        "y": -0.00330275344,
+        "z": -1.35341239E-07
+      }
+    },
+    {
+      "Position": {
+        "x": -19.3509521,
+        "y": 0.9611347,
+        "z": 20.025465
+      },
+      "Rotation": {
+        "x": -1.83435915E-07,
+        "y": 299.984467,
+        "z": -6.501485E-08
+      }
+    },
+    {
+      "Position": {
+        "x": -27.08195,
+        "y": 0.9611347,
+        "z": -6.48708868
+      },
+      "Rotation": {
+        "x": 3.01399545E-08,
+        "y": 239.994736,
+        "z": -1.52948144E-06
+      }
+    }
+  ],
+  "DecalPallet": [],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": "v9.9"
+}

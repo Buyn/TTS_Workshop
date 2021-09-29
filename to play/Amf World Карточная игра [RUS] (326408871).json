@@ -1,0 +1,2435 @@
+{
+  "SaveName": "Amf World Карточная игра [RUS]",
+  "GameMode": "Felt",
+  "Date": "11/27/2014 10:01:29 PM",
+  "Table": "Table_Custom",
+  "TableURL": "http://s005.radikal.ru/i211/1410/fa/dfc359f818c4.jpg",
+  "Sky": "Sky_Forest",
+  "Note": "",
+  "Rules": "",
+  "PlayerTurn": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Snapping": false,
+    "Offset": false,
+    "xSize": 0.5,
+    "ySize": 0.5
+  },
+  "DrawImage": "iVBORw0KGgoAAAANSUhEUgAAALAAAABoCAYAAABR2nocAAABV0lEQVR4Ae3QMQEAAADCoPVPbQZ/iEBhwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwICBb2AedwABqCI4UwAAAABJRU5ErkJggg==",
+  "ObjectStates": [
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -8.323636,
+        "posY": 1.10925877,
+        "posZ": 17.66772,
+        "rotX": 2.46939265E-07,
+        "rotY": 0.123142779,
+        "rotZ": 1.77262308E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9568973,
+        "g": 0.01568628,
+        "b": 0.168904632
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -6.87682629,
+        "posY": 1.10925889,
+        "posZ": 17.66525,
+        "rotX": 1.530672E-07,
+        "rotY": 0.150141358,
+        "rotZ": 2.02633487E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.14928709,
+        "g": 0.164980888,
+        "b": 0.9451396
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -6.92073727,
+        "posY": 1.10925889,
+        "posZ": 16.1400661,
+        "rotX": 3.64028747E-05,
+        "rotY": 0.189432517,
+        "rotZ": 2.37618569E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921636,
+        "b": 0.341485977
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -8.374552,
+        "posY": 1.10925865,
+        "posZ": 16.2156277,
+        "rotX": -1.17638619E-05,
+        "rotY": 0.171277672,
+        "rotZ": -4.317258E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.05117451,
+        "g": 0.706080258,
+        "b": 0.03921569
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6",
+      "Transform": {
+        "posX": -10.6959677,
+        "posY": 1.32420826,
+        "posZ": 16.4222317,
+        "rotX": 90.0,
+        "rotY": 270.5176,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6",
+      "Transform": {
+        "posX": -13.22938,
+        "posY": 1.32420766,
+        "posZ": 16.5591831,
+        "rotX": 7.55723067E-06,
+        "rotY": 359.855865,
+        "rotZ": 90.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6",
+      "Transform": {
+        "posX": -12.0453825,
+        "posY": 1.324208,
+        "posZ": 18.2934284,
+        "rotX": 8.666598E-06,
+        "rotY": 0.114578694,
+        "rotZ": 3.00827414E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6",
+      "Transform": {
+        "posX": -10.7302322,
+        "posY": 1.32420731,
+        "posZ": 18.2255726,
+        "rotX": -0.000103626779,
+        "rotY": 0.4952202,
+        "rotZ": 270.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6",
+      "Transform": {
+        "posX": -12.0414963,
+        "posY": 1.32420719,
+        "posZ": 16.4906654,
+        "rotX": 5.40119527E-06,
+        "rotY": 359.200958,
+        "rotZ": 180.000076,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": ""
+    },
+    {
+      "Name": "go_game_bowl_white",
+      "Transform": {
+        "posX": -28.4907513,
+        "posY": 0.73515594,
+        "posZ": -4.497012,
+        "rotX": 4.88252726E-06,
+        "rotY": 0.116079986,
+        "rotZ": -3.0577296E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8941494,
+        "g": 0.7138035,
+        "b": 0.03921569
+      },
+      "Grid": true,
+      "Locked": true,
+      "MeshIndex": -1,
+      "Number": 99,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": -14.1060715,
+        "posY": 1.12985075,
+        "posZ": -10.1505,
+        "rotX": 6.12592066E-06,
+        "rotY": 0.08138667,
+        "rotZ": -5.072358E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7766149,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": -14.1453819,
+        "posY": 1.12985086,
+        "posZ": -11.8521547,
+        "rotX": 5.162985E-07,
+        "rotY": 0.087846,
+        "rotZ": 4.74816829E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.776621163,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": -11.820405,
+        "posY": 1.12985086,
+        "posZ": -10.1387882,
+        "rotX": 4.74360235E-07,
+        "rotY": 0.09033971,
+        "rotZ": -1.52019581E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.776621163,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": -11.8362589,
+        "posY": 1.129851,
+        "posZ": -11.814868,
+        "rotX": -1.01671822E-06,
+        "rotY": 0.0887152,
+        "rotZ": -1.0368236E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.776627362,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": -21.3032475,
+        "posY": 0.8089732,
+        "posZ": 10.2353849,
+        "rotX": -4.681595E-07,
+        "rotY": 0.0602012761,
+        "rotZ": -4.36187338E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": true,
+      "MeshIndex": -1,
+      "Number": 0,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": -38.49717,
+        "posY": 1.12985086,
+        "posZ": -22.5542,
+        "rotX": -3.90375826E-05,
+        "rotY": 359.970428,
+        "rotZ": -4.047122E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921617,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": -36.2307549,
+        "posY": 1.12985086,
+        "posZ": -22.5396881,
+        "rotX": 1.94714339E-05,
+        "rotY": 359.904022,
+        "rotZ": 2.48448141E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921617,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": -33.88802,
+        "posY": 1.12985086,
+        "posZ": -22.5390778,
+        "rotX": -3.93580231E-05,
+        "rotY": 359.959442,
+        "rotZ": -4.107397E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921617,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": -31.66299,
+        "posY": 1.12985086,
+        "posZ": -22.5841961,
+        "rotX": -1.496381E-05,
+        "rotY": 359.9553,
+        "rotZ": 1.20927116E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921617,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": -29.4763,
+        "posY": 1.129851,
+        "posZ": -22.5657215,
+        "rotX": 2.274842E-07,
+        "rotY": 359.907257,
+        "rotZ": 4.11723448E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921617,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6",
+      "Transform": {
+        "posX": -13.3629255,
+        "posY": 1.32420707,
+        "posZ": 18.1553421,
+        "rotX": 270.0,
+        "rotY": 0.01158555,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": -14.0447836,
+        "posY": 1.12985086,
+        "posZ": -20.0185547,
+        "rotX": 1.12718093E-08,
+        "rotY": 0.0657471344,
+        "rotZ": 3.2249676E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7766149,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": -14.0840693,
+        "posY": 1.12985086,
+        "posZ": -21.719593,
+        "rotX": 8.546514E-08,
+        "rotY": 0.06515532,
+        "rotZ": -1.86800165E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.776621163,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": -11.7591238,
+        "posY": 1.12985086,
+        "posZ": -20.00621,
+        "rotX": 1.96450713E-08,
+        "rotY": 0.06486105,
+        "rotZ": 3.08027346E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.776621163,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": -11.7752275,
+        "posY": 1.12985075,
+        "posZ": -21.6824,
+        "rotX": 1.15322086E-06,
+        "rotY": 0.0408919863,
+        "rotZ": 1.29167311E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.776627362,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": -14.05415,
+        "posY": 1.12985086,
+        "posZ": -0.355544835,
+        "rotX": 3.2909395E-06,
+        "rotY": 0.0941982046,
+        "rotZ": 1.14572913E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7766149,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": -14.0935631,
+        "posY": 1.12985086,
+        "posZ": -2.0565567,
+        "rotX": -1.07385915E-06,
+        "rotY": 0.09197328,
+        "rotZ": 2.22584185E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.776621163,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": -11.7684956,
+        "posY": 1.12985086,
+        "posZ": -0.343196452,
+        "rotX": 2.97042266E-06,
+        "rotY": 0.09419275,
+        "rotZ": 1.13563956E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.776621163,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": -11.7843561,
+        "posY": 1.12985086,
+        "posZ": -2.01927352,
+        "rotX": -3.14696058E-06,
+        "rotY": 0.08729544,
+        "rotZ": -1.09013163E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.776627362,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": -14.0352793,
+        "posY": 1.12985075,
+        "posZ": 9.624351,
+        "rotX": -1.61475259E-06,
+        "rotY": 0.08832986,
+        "rotZ": -1.16198926E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7766149,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": -14.0750418,
+        "posY": 1.12985086,
+        "posZ": 7.92351246,
+        "rotX": 3.52073442E-07,
+        "rotY": 0.083417,
+        "rotZ": 3.33476635E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.776621163,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": -11.7493572,
+        "posY": 1.12985086,
+        "posZ": 9.636698,
+        "rotX": 6.1383E-07,
+        "rotY": 0.107951604,
+        "rotZ": -3.7405254E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.776621163,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": -11.7665777,
+        "posY": 1.129851,
+        "posZ": 7.960904,
+        "rotX": -7.313404E-06,
+        "rotY": 0.08173229,
+        "rotZ": 9.928157E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.776627362,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": -21.2688122,
+        "posY": 0.8089731,
+        "posZ": 0.526625037,
+        "rotX": 4.46959348E-07,
+        "rotY": 0.06419027,
+        "rotZ": 2.62260869E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": true,
+      "MeshIndex": -1,
+      "Number": 0,
+      "GUID": ""
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": -21.361515,
+        "posY": 0.8089727,
+        "posZ": -9.236939,
+        "rotX": 2.74500126E-05,
+        "rotY": 0.0386640541,
+        "rotZ": 9.096438E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": true,
+      "MeshIndex": -1,
+      "Number": 0,
+      "GUID": ""
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": -21.3155231,
+        "posY": 0.808972836,
+        "posZ": -19.1461239,
+        "rotX": 2.95269183E-05,
+        "rotY": 0.129709587,
+        "rotZ": -1.21294279E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": true,
+      "MeshIndex": -1,
+      "Number": 0,
+      "GUID": ""
+    },
+    {
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": 38.058445,
+        "posY": 1.49404621,
+        "posZ": -7.1607666,
+        "rotX": 359.992767,
+        "rotY": 89.8636551,
+        "rotZ": 179.999237,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.937273741,
+        "g": 0.278553873,
+        "b": 0.03921568
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": 40.1137924,
+        "posY": 1.49323118,
+        "posZ": -7.984093,
+        "rotX": 0.0216452368,
+        "rotY": 315.554,
+        "rotZ": 0.2579632,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.937273741,
+        "g": 0.278553873,
+        "b": 0.03921568
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": 36.0491142,
+        "posY": 1.49428308,
+        "posZ": -8.091364,
+        "rotX": 0.03455194,
+        "rotY": 45.7155876,
+        "rotZ": 0.05272152,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.937273741,
+        "g": 0.278553873,
+        "b": 0.03921568
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": 40.9121552,
+        "posY": 1.49475551,
+        "posZ": -10.0455961,
+        "rotX": 359.857056,
+        "rotY": 0.321747869,
+        "rotZ": 359.578766,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.937273741,
+        "g": 0.278553873,
+        "b": 0.03921568
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": 35.2516861,
+        "posY": 1.49400878,
+        "posZ": -10.1452684,
+        "rotX": -2.45750325E-05,
+        "rotY": 179.897018,
+        "rotZ": 180.000183,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.937273741,
+        "g": 0.278553873,
+        "b": 0.03921568
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": 40.10655,
+        "posY": 1.49400663,
+        "posZ": -12.1778793,
+        "rotX": -0.0010891977,
+        "rotY": 44.87131,
+        "rotZ": 180.006927,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.937273741,
+        "g": 0.278553873,
+        "b": 0.03921568
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": 38.1270561,
+        "posY": 1.4940058,
+        "posZ": -13.1738129,
+        "rotX": 8.273676E-05,
+        "rotY": 89.876915,
+        "rotZ": 179.999863,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.937273741,
+        "g": 0.278553873,
+        "b": 0.03921568
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": 36.1092262,
+        "posY": 1.494008,
+        "posZ": -12.2127962,
+        "rotX": 4.55320878E-05,
+        "rotY": 314.953674,
+        "rotZ": 180.000229,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.937273741,
+        "g": 0.278553873,
+        "b": 0.03921568
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Quarter",
+      "Transform": {
+        "posX": 38.6440735,
+        "posY": 0.994864941,
+        "posZ": -8.790943,
+        "rotX": 5.110011E-07,
+        "rotY": 168.0142,
+        "rotZ": 1.37813E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Quarter",
+      "Transform": {
+        "posX": 35.20884,
+        "posY": 1.16241062,
+        "posZ": -20.9164085,
+        "rotX": 357.184631,
+        "rotY": 184.91806,
+        "rotZ": 348.397369,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Quarter",
+      "Transform": {
+        "posX": 40.37511,
+        "posY": 0.9949215,
+        "posZ": -22.36141,
+        "rotX": 359.988342,
+        "rotY": 264.415833,
+        "rotZ": 0.00116290851,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Quarter",
+      "Transform": {
+        "posX": 33.3985367,
+        "posY": 1.09315014,
+        "posZ": -21.2999268,
+        "rotX": 3.16325924E-07,
+        "rotY": 89.28833,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Quarter",
+      "Transform": {
+        "posX": 33.0960922,
+        "posY": 1.09315026,
+        "posZ": -22.8519173,
+        "rotX": 2.35880165E-07,
+        "rotY": 89.1953,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Quarter",
+      "Transform": {
+        "posX": 37.8978157,
+        "posY": 1.26895237,
+        "posZ": -22.29147,
+        "rotX": 5.05855036,
+        "rotY": 211.711838,
+        "rotZ": 176.82399,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Quarter",
+      "Transform": {
+        "posX": 36.9207954,
+        "posY": 1.13570142,
+        "posZ": -21.40255,
+        "rotX": 7.41052675,
+        "rotY": 188.922653,
+        "rotZ": 4.62635,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Quarter",
+      "Transform": {
+        "posX": 37.39431,
+        "posY": 1.385506,
+        "posZ": -20.3861465,
+        "rotX": 4.493058,
+        "rotY": 102.2018,
+        "rotZ": 181.3211,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Quarter",
+      "Transform": {
+        "posX": 37.69548,
+        "posY": 1.09264827,
+        "posZ": -20.2544613,
+        "rotX": 359.881683,
+        "rotY": 87.36571,
+        "rotZ": 179.8925,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Quarter",
+      "Transform": {
+        "posX": 35.8535652,
+        "posY": 1.09026372,
+        "posZ": -19.4110641,
+        "rotX": 0.208983734,
+        "rotY": 105.420921,
+        "rotZ": 179.983231,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Quarter",
+      "Transform": {
+        "posX": 38.4080124,
+        "posY": 1.09238136,
+        "posZ": -22.9488277,
+        "rotX": -0.00113539887,
+        "rotY": 72.50371,
+        "rotZ": 180.13443,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Quarter",
+      "Transform": {
+        "posX": 38.9988136,
+        "posY": 1.09079826,
+        "posZ": -22.5603657,
+        "rotX": 0.034206856,
+        "rotY": 57.80127,
+        "rotZ": 0.129828826,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Quarter",
+      "Transform": {
+        "posX": 36.08579,
+        "posY": 1.19767022,
+        "posZ": -19.3940525,
+        "rotX": 358.516632,
+        "rotY": 306.253418,
+        "rotZ": 179.429352,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Quarter",
+      "Transform": {
+        "posX": 37.1101036,
+        "posY": 1.11876786,
+        "posZ": -18.88678,
+        "rotX": 1.90732563,
+        "rotY": 125.587265,
+        "rotZ": 8.729237,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Quarter",
+      "Transform": {
+        "posX": 34.9330139,
+        "posY": 1.09299493,
+        "posZ": -22.1814289,
+        "rotX": 359.992065,
+        "rotY": 80.41242,
+        "rotZ": 180.03154,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Quarter",
+      "Transform": {
+        "posX": 36.3367577,
+        "posY": 1.20199752,
+        "posZ": -20.9928,
+        "rotX": 355.6982,
+        "rotY": 38.2199059,
+        "rotZ": 174.753052,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": 38.05944,
+        "posY": 2.49104667,
+        "posZ": -7.134973,
+        "rotX": 359.9927,
+        "rotY": 90.5448761,
+        "rotZ": -0.0008553201,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": 40.1714859,
+        "posY": 3.48910356,
+        "posZ": -7.15138769,
+        "rotX": 359.963379,
+        "rotY": 269.9872,
+        "rotZ": 179.935043,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": 35.9311829,
+        "posY": 2.49080944,
+        "posZ": -7.04531431,
+        "rotX": 359.964417,
+        "rotY": 94.21642,
+        "rotZ": 0.06527289,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": 40.19107,
+        "posY": 2.49208856,
+        "posZ": -7.146408,
+        "rotX": 359.963226,
+        "rotY": 269.601166,
+        "rotZ": 179.9392,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": 38.04957,
+        "posY": 3.48804665,
+        "posZ": -7.13228035,
+        "rotX": 0.0072558336,
+        "rotY": 269.2236,
+        "rotZ": 180.000778,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.588327,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": 35.9279366,
+        "posY": 3.48786545,
+        "posZ": -7.09362364,
+        "rotX": 0.030712327,
+        "rotY": 269.942566,
+        "rotZ": 179.931641,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": 39.99775,
+        "posY": 4.48612261,
+        "posZ": -7.06935549,
+        "rotX": 359.965637,
+        "rotY": 272.098816,
+        "rotZ": 179.9331,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": 37.9693069,
+        "posY": 4.485036,
+        "posZ": -7.12362576,
+        "rotX": 0.007321131,
+        "rotY": 270.007782,
+        "rotZ": 180.001,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.588327,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": 35.9397964,
+        "posY": 4.4849143,
+        "posZ": -7.127793,
+        "rotX": 0.0319910049,
+        "rotY": 270.8794,
+        "rotZ": 179.931534,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": 40.02323,
+        "posY": 5.48314333,
+        "posZ": -7.10088,
+        "rotX": 359.963043,
+        "rotY": 269.994049,
+        "rotZ": 179.933853,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": 37.972187,
+        "posY": 5.4820385,
+        "posZ": -7.106168,
+        "rotX": 0.00726835,
+        "rotY": 270.542877,
+        "rotZ": 180.001068,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "BlockRectangle",
+      "Transform": {
+        "posX": 35.9580421,
+        "posY": 5.48190832,
+        "posZ": -7.11352444,
+        "rotX": 0.0305422116,
+        "rotY": 269.653717,
+        "rotZ": 179.930176,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": -38.4212227,
+        "posY": 1.12985086,
+        "posZ": -20.5067253,
+        "rotX": -8.41832559E-08,
+        "rotY": 1.0008564,
+        "rotZ": -1.81138162E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992162049,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": -36.15336,
+        "posY": 1.12985086,
+        "posZ": -20.4907246,
+        "rotX": -7.967527E-06,
+        "rotY": 0.998241246,
+        "rotZ": -4.96450266E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992162049,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": -33.8122826,
+        "posY": 1.12985086,
+        "posZ": -20.490181,
+        "rotX": 1.471875E-07,
+        "rotY": 1.014037,
+        "rotZ": -5.11515852E-09,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992162049,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": -31.58767,
+        "posY": 1.12985086,
+        "posZ": -20.5347366,
+        "rotX": -1.93526939E-05,
+        "rotY": 1.02712381,
+        "rotZ": 1.12859234E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992162049,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": -29.3999977,
+        "posY": 1.12985086,
+        "posZ": -20.5173416,
+        "rotX": 3.613741E-05,
+        "rotY": 359.935,
+        "rotZ": -2.39246438E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992162049,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -28.08265,
+        "posY": 1.40089965,
+        "posZ": 7.60271358,
+        "rotX": 9.406375E-06,
+        "rotY": 179.9004,
+        "rotZ": 179.999985,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713262558,
+        "g": 0.713262558,
+        "b": 0.713262558
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        136,
+        140,
+        130,
+        121,
+        128,
+        132,
+        117,
+        129,
+        107,
+        153,
+        122,
+        123,
+        105,
+        115,
+        108,
+        125,
+        101,
+        154,
+        155,
+        126,
+        134,
+        111,
+        150,
+        138,
+        143,
+        112,
+        113,
+        147,
+        142,
+        110,
+        145,
+        102,
+        103,
+        133,
+        156,
+        120,
+        124,
+        135,
+        125,
+        146,
+        158,
+        116,
+        126,
+        132,
+        149,
+        106,
+        159,
+        139,
+        107,
+        137,
+        144,
+        118,
+        131,
+        141,
+        157,
+        153,
+        123,
+        127,
+        114,
+        151,
+        103,
+        152,
+        142,
+        148,
+        109,
+        111,
+        100,
+        104,
+        109,
+        114,
+        115,
+        119
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "http://s017.radikal.ru/i425/1411/b5/964e1fe10f3c.jpg",
+          "BackURL": "http://i056.radikal.ru/1411/7d/fbce90de9631.jpg"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 1.9802742,
+        "posY": 1.06572115,
+        "posZ": -7.46467972,
+        "rotX": 2.049205E-07,
+        "rotY": 180.030975,
+        "rotZ": -6.943812E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.71325475,
+        "g": 0.71325475,
+        "b": 0.71325475
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 200,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "http://s019.radikal.ru/i627/1411/82/67b3e64c1349.jpg",
+          "BackURL": "http://i056.radikal.ru/1411/7d/fbce90de9631.jpg"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "DeckCustom",
+      "Transform": {
+        "posX": -37.7615623,
+        "posY": 1.182392,
+        "posZ": -1.18397141,
+        "rotX": -2.91269657E-07,
+        "rotY": 179.957748,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713246942,
+        "g": 0.713246942,
+        "b": 0.713246942
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        316,
+        324,
+        307,
+        305,
+        330,
+        332,
+        331,
+        328,
+        319,
+        333,
+        315,
+        317,
+        314,
+        309,
+        320,
+        321,
+        303,
+        304,
+        318,
+        311,
+        325,
+        329,
+        308,
+        312,
+        326,
+        313,
+        323,
+        310,
+        306,
+        322,
+        327
+      ],
+      "CustomDeck": {
+        "3": {
+          "FaceURL": "http://s013.radikal.ru/i325/1411/a5/2181255c40dc.jpg",
+          "BackURL": "http://s61.radikal.ru/i171/1411/a4/9b3a488389c2.jpg"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -35.8570824,
+        "posY": 1.09179127,
+        "posZ": 7.71803,
+        "rotX": -2.421531E-06,
+        "rotY": 179.306671,
+        "rotZ": 179.999969,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7132782,
+        "g": 0.7132782,
+        "b": 0.7132782
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        414,
+        431,
+        431,
+        400,
+        424,
+        426,
+        434,
+        401,
+        400,
+        401,
+        402,
+        430,
+        409,
+        402
+      ],
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "http://i047.radikal.ru/1411/b7/c4e4b310f3ba.jpg",
+          "BackURL": "http://s009.radikal.ru/i310/1411/26/43bd52d8bcab.jpg"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -38.4861641,
+        "posY": 1.06854415,
+        "posZ": 20.7800674,
+        "rotX": 1.16154331E-06,
+        "rotY": 179.998474,
+        "rotZ": 180.000015,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713270366,
+        "g": 0.713270366,
+        "b": 0.713270366
+      },
+      "Grid": true,
+      "Locked": true,
+      "CardID": 503,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "5": {
+          "FaceURL": "http://s009.radikal.ru/i307/1411/ae/79599c24622b.jpg",
+          "BackURL": "http://s009.radikal.ru/i307/1411/ae/79599c24622b.jpg{Unique}"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -34.10724,
+        "posY": 1.068544,
+        "posZ": 20.79455,
+        "rotX": 1.55852933E-06,
+        "rotY": 179.99762,
+        "rotZ": 180.000031,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713270366,
+        "g": 0.713270366,
+        "b": 0.713270366
+      },
+      "Grid": true,
+      "Locked": true,
+      "CardID": 504,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "5": {
+          "FaceURL": "http://s009.radikal.ru/i307/1411/ae/79599c24622b.jpg",
+          "BackURL": "http://s009.radikal.ru/i307/1411/ae/79599c24622b.jpg{Unique}"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -29.72756,
+        "posY": 1.06854391,
+        "posZ": 20.7524376,
+        "rotX": -1.23462371E-06,
+        "rotY": 179.986313,
+        "rotZ": 180.000015,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713270366,
+        "g": 0.713270366,
+        "b": 0.713270366
+      },
+      "Grid": true,
+      "Locked": true,
+      "CardID": 501,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "5": {
+          "FaceURL": "http://s009.radikal.ru/i307/1411/ae/79599c24622b.jpg",
+          "BackURL": "http://s009.radikal.ru/i307/1411/ae/79599c24622b.jpg{Unique}"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -38.49,
+        "posY": 1.06854391,
+        "posZ": 14.5703955,
+        "rotX": 3.81106446E-07,
+        "rotY": 179.986969,
+        "rotZ": 180.000031,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713270366,
+        "g": 0.713270366,
+        "b": 0.713270366
+      },
+      "Grid": true,
+      "Locked": true,
+      "CardID": 502,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "5": {
+          "FaceURL": "http://s009.radikal.ru/i307/1411/ae/79599c24622b.jpg",
+          "BackURL": "http://s009.radikal.ru/i307/1411/ae/79599c24622b.jpg{Unique}"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -29.8071117,
+        "posY": 1.068544,
+        "posZ": 14.5578918,
+        "rotX": 8.866024E-08,
+        "rotY": 180.014389,
+        "rotZ": 180.000015,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7132859,
+        "g": 0.7132859,
+        "b": 0.7132859
+      },
+      "Grid": true,
+      "Locked": true,
+      "CardID": 505,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "5": {
+          "FaceURL": "http://s009.radikal.ru/i307/1411/ae/79599c24622b.jpg",
+          "BackURL": "http://s009.radikal.ru/i307/1411/ae/79599c24622b.jpg{Unique}"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -34.1349525,
+        "posY": 1.068544,
+        "posZ": 14.5943642,
+        "rotX": -2.026422E-06,
+        "rotY": 180.014221,
+        "rotZ": 180.000015,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7132859,
+        "g": 0.7132859,
+        "b": 0.7132859
+      },
+      "Grid": true,
+      "Locked": true,
+      "CardID": 500,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "5": {
+          "FaceURL": "http://s009.radikal.ru/i307/1411/ae/79599c24622b.jpg",
+          "BackURL": "http://s009.radikal.ru/i307/1411/ae/79599c24622b.jpg{Unique}"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 39.4895935,
+        "posY": 1.068544,
+        "posZ": 19.535696,
+        "rotX": 7.062035E-08,
+        "rotY": 179.97905,
+        "rotZ": 180.000015,
+        "scaleX": 3.0,
+        "scaleY": 3.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.71325475,
+        "g": 0.71325475,
+        "b": 0.71325475
+      },
+      "Grid": true,
+      "Locked": true,
+      "CardID": 600,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "6": {
+          "FaceURL": "http://s017.radikal.ru/i410/1411/c6/51bd567225b4.jpg",
+          "BackURL": "http://s017.radikal.ru/i410/1411/c6/51bd567225b4.jpg{Unique}"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "DeckCustom",
+      "Transform": {
+        "posX": -31.9953957,
+        "posY": 1.25167489,
+        "posZ": 7.601838,
+        "rotX": 1.59766091E-06,
+        "rotY": 179.877853,
+        "rotZ": 180.000031,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713246942,
+        "g": 0.713246942,
+        "b": 0.713246942
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        734,
+        702,
+        711,
+        733,
+        704,
+        700,
+        736,
+        740,
+        717,
+        732,
+        716,
+        737,
+        742,
+        727,
+        708,
+        722,
+        729,
+        730,
+        725,
+        705,
+        703,
+        701,
+        731,
+        706,
+        713,
+        709,
+        714,
+        723,
+        707,
+        724,
+        715,
+        739,
+        735,
+        718,
+        743,
+        712,
+        710,
+        738,
+        720,
+        741,
+        721,
+        719,
+        728,
+        726
+      ],
+      "CustomDeck": {
+        "7": {
+          "FaceURL": "http://s50.radikal.ru/i130/1411/64/3b4ace77f2d7.jpg",
+          "BackURL": "http://s016.radikal.ru/i334/1411/ca/1dd3cbe518ae.jpg"
+        }
+      },
+      "GUID": ""
+    }
+  ]
+}

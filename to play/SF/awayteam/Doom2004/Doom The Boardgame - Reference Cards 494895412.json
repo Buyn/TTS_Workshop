@@ -1,0 +1,171 @@
+{
+  "SaveName": "Doom: The Boardgame - Reference Cards",
+  "GameMode": "None",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "8/6/2015 6:16:02 AM",
+  "Table": "Table_Circular",
+  "Sky": "Sky_Tunnel",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "",
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": true,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0
+  },
+  "ObjectStates": [
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -1.16266638E-05,
+        "posY": 1.32588053,
+        "posZ": 1.99999571,
+        "rotX": 2.64552764E-05,
+        "rotY": 179.999939,
+        "rotZ": 180.0,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713262558,
+        "g": 0.713262558,
+        "b": 0.713262558
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CardID": 300,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "3": {
+          "FaceURL": "https://dl.dropboxusercontent.com/s/8m1rjcc3r4a3nkw/refcardsface.jpg?dl=0",
+          "BackURL": "https://dl.dropboxusercontent.com/s/w7kgti1su6tgwcp/ref0back.jpg?dl=0",
+          "BackIsHidden": false,
+          "UniqueBack": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "9dcd60"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 1.999999,
+        "posY": 1.32588172,
+        "posZ": -2.00000334,
+        "rotX": 2.22278268E-05,
+        "rotY": 179.999939,
+        "rotZ": 180.0,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713262558,
+        "g": 0.713262558,
+        "b": 0.713262558
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CardID": 200,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "https://dl.dropboxusercontent.com/s/8m1rjcc3r4a3nkw/refcardsface.jpg?dl=0",
+          "BackURL": "https://dl.dropboxusercontent.com/s/3olego64luqiq0m/ref2back.png?dl=0",
+          "BackIsHidden": false,
+          "UniqueBack": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "f70cf4"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -1.9991976,
+        "posY": 1.32588112,
+        "posZ": -2.0015645,
+        "rotX": 1.91936033E-05,
+        "rotY": 180.009323,
+        "rotZ": 180.0,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713262558,
+        "g": 0.713262558,
+        "b": 0.713262558
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CardID": 100,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "https://dl.dropboxusercontent.com/s/8m1rjcc3r4a3nkw/refcardsface.jpg?dl=0",
+          "BackURL": "https://dl.dropboxusercontent.com/s/efx0uq4b46hap2i/ref1back.png?dl=0",
+          "BackIsHidden": false,
+          "UniqueBack": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "f7787f"
+    }
+  ],
+  "TabStates": {},
+  "VersionNumber": ""
+}

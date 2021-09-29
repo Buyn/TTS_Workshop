@@ -1,0 +1,3333 @@
+{
+  "SaveName": "Android Netrunner table (without cards)",
+  "GameMode": "Custom",
+  "Date": "1/17/2015 7:22:07 PM",
+  "Table": "Table_Custom",
+  "TableURL": "http://i.imgur.com/EYYvXA7.jpg",
+  "Sky": "Sky_Forest",
+  "Note": "No cards here, I use my deck merger..\n\nhttp://www.nexusmods.com/tabletopsimulator/mods/232/?\n\n..in conjunction with cards saved from netrunnerdb or meteor (just drag the images from the deck window into an explorer window, then copypasta for multiple copies in a deck), this takes like 1 minute to turn an online deck into a TTS deck.\n\n",
+  "Rules": "See http://netrunnerdb.com/en/rules\n\n\n\nDECKBUILDING\n\nWhen building a deck for organized play, players must observe the following restrictions:\r\n\r\nA deck must be associated with a single identity card, and cannot contain fewer cards than the minimum deck size value listed on the chosen identity card. There is no maximum deck size, but the deck must be able to be sufficiently randomized in a short period of time. Identity cards, reference cards, and click tracker cards are never counted as part of a deck and do not count against the minimum deck size.\n\r\nA deck cannot have more than three copies of a single card (by title) in it.\n\r\nA deck associated with a Runner identity can never contain Corporation cards, and vice versa.\n\r\nA deck cannot contain out-of-faction cards with a total influence value that exceeds the influence limit listed on the chosen identity card (see Influence below). Cards that match the faction of the identity card do not count against this limit.\r\nA Corporation deck must have a specific number of agenda points in it based on the size of the deck, as follows:\n\r\n40 to 44 cards requires 18 or 19 agenda points. \n(Note: Identities in this set have a 45 card minimum)\r\n45 to 49 cards requires 20 or 21 agenda points.\r\n50 to 54 cards requires 22 or 23 agenda points.\n\r\nFor decks larger than this, add 2 additional agenda points to the 54 card deck requirements each time the number of cards in the deck reaches a multiple of 5 (55, 60, 65, etc.).\r\n\r\nFor example, a 66 card deck requires 6 additional agenda points (2 at 55, 2 at 60, and 2 at 65 cards). This gives a final requirement of either 28 or 29 agenda points.\r\n\r\nInfluence\n\r\nA player may wish to include cards in his deck that do not match the faction of his identity card. He is restricted, however, by the influence limit on his identity card. The combined influence value of out-of-faction cards in his deck cannot exceed this limit. Each card's influence value is represented by small blue orbs near the bottom of the card.\r\n\r\nNeutral cards are not part of any faction, can be used in any deck of the side they are affiliated with, and generally have an influence value of zero.\r\n\r\nNote: \nSome cards do not have any influence value (this is different than a card that has an influence value of zero). These cards are identified by their lack of an influence box. A card without an influence value cannot be used with an identity card that has a different faction affiliation.\n\n\n\n\nCards from acoo.net with Stylish re-style for 10 wide display\n\n\n\n",
+  "PlayerTurn": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Snapping": false,
+    "Offset": false,
+    "xSize": 2.0,
+    "ySize": 2.0
+  },
+  "DrawImage": "iVBORw0KGgoAAAANSUhEUgAAALAAAABoCAYAAABR2nocAAABV0lEQVR4Ae3QMQEAAADCoPVPbQZ/iEBhwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwICBb2AedwABqCI4UwAAAABJRU5ErkJggg==",
+  "ObjectStates": [
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": -35.45697,
+        "posY": 1.12985086,
+        "posZ": 11.0503407,
+        "rotX": 3.593013E-07,
+        "rotY": 1.030026,
+        "rotZ": 5.76897037E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.75741744,
+        "g": 0.75741744,
+        "b": 0.75741744
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": -20.2166424,
+        "posY": 1.12985086,
+        "posZ": -1.21931422,
+        "rotX": 6.67934E-07,
+        "rotY": 359.947784,
+        "rotZ": 3.987666E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.75741744,
+        "g": 0.75741744,
+        "b": 0.75741744
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": -28.9982777,
+        "posY": 1.12985086,
+        "posZ": -2.556893,
+        "rotX": 5.532661E-06,
+        "rotY": 359.9359,
+        "rotZ": -1.7153742E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.75741744,
+        "g": 0.75741744,
+        "b": 0.75741744
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Quarter",
+      "Transform": {
+        "posX": -49.25894,
+        "posY": 1.37184811,
+        "posZ": 0.2909028,
+        "rotX": 0.00082450523,
+        "rotY": 65.8892746,
+        "rotZ": 359.7446,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "Alternative Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.481756777,
+        "b": 0.665755153
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Quarter",
+      "Transform": {
+        "posX": -49.23585,
+        "posY": 1.2510705,
+        "posZ": 0.3210982,
+        "rotX": 0.165471733,
+        "rotY": 200.706573,
+        "rotZ": 0.197763622,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "Alternative Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.481756777,
+        "b": 0.665755153
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Quarter",
+      "Transform": {
+        "posX": -49.866,
+        "posY": 1.13671339,
+        "posZ": 0.696628869,
+        "rotX": 359.975861,
+        "rotY": 348.13797,
+        "rotZ": 180.0066,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "Alternative Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.481756777,
+        "b": 0.665755153
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Quarter",
+      "Transform": {
+        "posX": -49.8417168,
+        "posY": 1.255984,
+        "posZ": 0.6440178,
+        "rotX": 0.00279597542,
+        "rotY": 259.2637,
+        "rotZ": 180.131,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "Alternative Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.481756777,
+        "b": 0.665755153
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -45.09412,
+        "posY": 1.90277481,
+        "posZ": -0.74534297,
+        "rotX": 22.4690437,
+        "rotY": 352.945862,
+        "rotZ": 359.660126,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.549041033,
+        "g": 0.0156862754,
+        "b": 0.90588814
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": -38.20598,
+        "posY": 1.12985086,
+        "posZ": 12.0676165,
+        "rotX": 2.52606782E-07,
+        "rotY": 1.03113759,
+        "rotZ": 3.88982855E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.757410645,
+        "g": 0.757410645,
+        "b": 0.757410645
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": -41.392704,
+        "posY": 1.12985086,
+        "posZ": 11.1228895,
+        "rotX": 9.413211E-06,
+        "rotY": 1.08162451,
+        "rotZ": 5.00635069E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.757410645,
+        "g": 0.757410645,
+        "b": 0.757410645
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": -37.9862633,
+        "posY": 1.129217,
+        "posZ": 10.0310926,
+        "rotX": 2.92273068E-08,
+        "rotY": 179.995987,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.757410645,
+        "g": 0.757410645,
+        "b": 0.757410645
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": 23.671072,
+        "posY": 1.12921715,
+        "posZ": -11.0103617,
+        "rotX": -1.59631327E-05,
+        "rotY": 179.9644,
+        "rotZ": 180.000015,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.757410645,
+        "g": 0.757410645,
+        "b": 0.757410645
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": 26.3403988,
+        "posY": 1.12985086,
+        "posZ": -10.0712576,
+        "rotX": 6.971438E-07,
+        "rotY": 359.986176,
+        "rotZ": 1.83524648E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7574242,
+        "g": 0.7574242,
+        "b": 0.7574242
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": 26.23298,
+        "posY": 1.12985075,
+        "posZ": -12.1748295,
+        "rotX": -2.527371E-08,
+        "rotY": 0.007882229,
+        "rotZ": 6.289037E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7574242,
+        "g": 0.7574242,
+        "b": 0.7574242
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": 23.18514,
+        "posY": 1.12985075,
+        "posZ": -13.1390066,
+        "rotX": 6.889657E-07,
+        "rotY": 0.0476094857,
+        "rotZ": -2.17659789E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7574242,
+        "g": 0.7574242,
+        "b": 0.7574242
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "reversi_chip",
+      "Transform": {
+        "posX": 20.8429775,
+        "posY": 1.12985086,
+        "posZ": -11.927002,
+        "rotX": 3.39220122E-07,
+        "rotY": 0.02457942,
+        "rotZ": -1.07327956E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7574242,
+        "g": 0.7574242,
+        "b": 0.7574242
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Digital_Clock",
+      "Transform": {
+        "posX": 50.0351219,
+        "posY": 2.91566682,
+        "posZ": 4.13586,
+        "rotX": 90.0,
+        "rotY": 299.8942,
+        "rotZ": 0.0,
+        "scaleX": 2.0,
+        "scaleY": 2.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7794648,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "Clock": {
+        "ClockState": 0,
+        "SecondsPassed": 0,
+        "Paused": false
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "BlockTriangle",
+      "Transform": {
+        "posX": 44.9437828,
+        "posY": 1.24279714,
+        "posZ": -5.58128,
+        "rotX": 5.57906533E-05,
+        "rotY": 86.1027756,
+        "rotZ": 0.000164341734,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.00539905,
+        "g": 0.772119761,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "BlockTriangle",
+      "Transform": {
+        "posX": 47.0794754,
+        "posY": 1.58304358,
+        "posZ": -4.31493235,
+        "rotX": 0.339604139,
+        "rotY": 216.471527,
+        "rotZ": 33.22876,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.00539905,
+        "g": 0.772119761,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "BlockTriangle",
+      "Transform": {
+        "posX": 48.1386757,
+        "posY": 1.490325,
+        "posZ": -5.77672434,
+        "rotX": 9.83173741E-05,
+        "rotY": 269.998627,
+        "rotZ": 179.526031,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.00539905,
+        "g": 0.772119761,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "BlockTriangle",
+      "Transform": {
+        "posX": 46.44566,
+        "posY": 1.72015452,
+        "posZ": -5.986129,
+        "rotX": 359.86322,
+        "rotY": 102.574905,
+        "rotZ": 306.9168,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.00539905,
+        "g": 0.772119761,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "BlockTriangle",
+      "Transform": {
+        "posX": 46.06239,
+        "posY": 1.34635079,
+        "posZ": -4.91658449,
+        "rotX": 7.171699E-05,
+        "rotY": 296.635345,
+        "rotZ": 135.000168,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.00539905,
+        "g": 0.772119761,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 45.50891,
+        "posY": 1.45054317,
+        "posZ": -2.07306075,
+        "rotX": -2.12965574E-06,
+        "rotY": 44.7153,
+        "rotZ": 180.0,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.996079743,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 47.0721664,
+        "posY": 1.45054007,
+        "posZ": -2.09660029,
+        "rotX": 270.0,
+        "rotY": 200.0542,
+        "rotZ": 0.0,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.996079743,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 48.99944,
+        "posY": 1.45054162,
+        "posZ": -3.08389139,
+        "rotX": -2.57778756E-05,
+        "rotY": 359.526,
+        "rotZ": 5.460133E-05,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.996079743,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 48.1241875,
+        "posY": 1.45054281,
+        "posZ": -3.31061316,
+        "rotX": 1.60134441E-05,
+        "rotY": 359.295441,
+        "rotZ": 179.999878,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.996079743,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 46.1036453,
+        "posY": 1.45054018,
+        "posZ": -3.383755,
+        "rotX": 1.70754738E-05,
+        "rotY": 350.7969,
+        "rotZ": 269.999725,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.996079743,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": 44.2547531,
+        "posY": 1.45053947,
+        "posZ": -2.82498741,
+        "rotX": 90.0,
+        "rotY": 71.3822,
+        "rotZ": 0.0,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.996079743,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 1,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -45.7663651,
+        "posY": 1.4505434,
+        "posZ": 12.0778208,
+        "rotX": -4.928042E-06,
+        "rotY": 331.356384,
+        "rotZ": 7.498115E-06,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "Use as advance tokens",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.423668116,
+        "b": 0.996079862
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 3,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -47.649765,
+        "posY": 1.4505434,
+        "posZ": 11.8627443,
+        "rotX": -9.92023E-06,
+        "rotY": 180.0078,
+        "rotZ": 180.000015,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "Use as advance tokens",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.423668116,
+        "b": 0.996079862
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 3,
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 38.736042,
+        "posY": 1.01766276,
+        "posZ": -20.4118214,
+        "rotX": 359.870819,
+        "rotY": 179.829422,
+        "rotZ": 180.0,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "DiffuseURL": "http://i.imgur.com/5ZJMocU.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 42.29375,
+        "posY": 1.01766276,
+        "posZ": -20.8644733,
+        "rotX": 359.870819,
+        "rotY": 180.022141,
+        "rotZ": 180.0,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "DiffuseURL": "http://i.imgur.com/5ZJMocU.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 40.4130859,
+        "posY": 1.01766264,
+        "posZ": -18.3532047,
+        "rotX": 359.870819,
+        "rotY": 179.829208,
+        "rotZ": 180.0,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "DiffuseURL": "http://i.imgur.com/5ZJMocU.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model_Stack",
+      "Transform": {
+        "posX": 35.5015755,
+        "posY": 1.05386758,
+        "posZ": -12.772728,
+        "rotX": -0.004243718,
+        "rotY": 90.31897,
+        "rotZ": -0.005162748,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "Number": 2,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=4r4ft5FK",
+        "DiffuseURL": "http://i.imgur.com/i008FR1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 5
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 32.70814,
+        "posY": 1.12068748,
+        "posZ": -10.925808,
+        "rotX": 0.0148565155,
+        "rotY": 87.98548,
+        "rotZ": 4.147323,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=4r4ft5FK",
+        "DiffuseURL": "http://i.imgur.com/i008FR1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 5
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 31.0994778,
+        "posY": 1.05391383,
+        "posZ": -14.3293438,
+        "rotX": -6.83223152E-06,
+        "rotY": 89.91921,
+        "rotZ": 3.51496055E-06,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=4r4ft5FK",
+        "DiffuseURL": "http://i.imgur.com/i008FR1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 5
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 33.136097,
+        "posY": 1.05378842,
+        "posZ": -12.55251,
+        "rotX": 359.9747,
+        "rotY": 90.08949,
+        "rotZ": 0.0320701636,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=4r4ft5FK",
+        "DiffuseURL": "http://i.imgur.com/i008FR1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 5
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 43.2452,
+        "posY": 1.03210759,
+        "posZ": -18.4674435,
+        "rotX": 0.116308615,
+        "rotY": 1.00513422,
+        "rotZ": 0.6381334,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "DiffuseURL": "http://i.imgur.com/5ZJMocU.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -45.4534569,
+        "posY": 1.6858896,
+        "posZ": 0.4722033,
+        "rotX": 39.5759544,
+        "rotY": 354.431732,
+        "rotZ": 0.5647121,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.549041033,
+        "g": 0.0156862754,
+        "b": 0.90588814
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -44.5314064,
+        "posY": 2.802481,
+        "posZ": -3.4419744,
+        "rotX": 341.8472,
+        "rotY": 341.724,
+        "rotZ": 276.3894,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.549041033,
+        "g": 0.0156862754,
+        "b": 0.90588814
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 34.9725151,
+        "posY": 0.9940061,
+        "posZ": -21.13515,
+        "rotX": -3.999668E-05,
+        "rotY": 285.1579,
+        "rotZ": -3.32882519E-05,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Virus Counter",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7960959,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "https://dl.dropboxusercontent.com/u/1763962/Tabletop%20Sim/Phage-T4.obj",
+        "DiffuseURL": "http://wallpapercolor.net/wallpapers/red-black-background-wallpaper-15536.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 35.2830772,
+        "posY": 0.994008362,
+        "posZ": -16.085001,
+        "rotX": -1.561535E-05,
+        "rotY": 15.1187315,
+        "rotZ": 3.34251636E-05,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Virus Counter",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7960959,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "https://dl.dropboxusercontent.com/u/1763962/Tabletop%20Sim/Phage-T4.obj",
+        "DiffuseURL": "http://wallpapercolor.net/wallpapers/red-black-background-wallpaper-15536.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 32.0679359,
+        "posY": 0.994008,
+        "posZ": -19.06516,
+        "rotX": 2.735938E-05,
+        "rotY": 104.397179,
+        "rotZ": 2.247976E-05,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Virus Counter",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7960959,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "https://dl.dropboxusercontent.com/u/1763962/Tabletop%20Sim/Phage-T4.obj",
+        "DiffuseURL": "http://wallpapercolor.net/wallpapers/red-black-background-wallpaper-15536.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 34.7492676,
+        "posY": 0.9940074,
+        "posZ": -18.7063885,
+        "rotX": -8.03384E-05,
+        "rotY": 90.12565,
+        "rotZ": -2.1889864E-05,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Virus Counter",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7960959,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "https://dl.dropboxusercontent.com/u/1763962/Tabletop%20Sim/Phage-T4.obj",
+        "DiffuseURL": "http://wallpapercolor.net/wallpapers/red-black-background-wallpaper-15536.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 32.388752,
+        "posY": 0.9940095,
+        "posZ": -17.142849,
+        "rotX": -1.28899355E-05,
+        "rotY": 105.067139,
+        "rotZ": -3.92743E-05,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Virus Counter",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7960959,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "https://dl.dropboxusercontent.com/u/1763962/Tabletop%20Sim/Phage-T4.obj",
+        "DiffuseURL": "http://wallpapercolor.net/wallpapers/red-black-background-wallpaper-15536.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 32.2515335,
+        "posY": 0.994006753,
+        "posZ": -20.8894577,
+        "rotX": -3.465575E-05,
+        "rotY": 118.12101,
+        "rotZ": -2.72998568E-05,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Virus Counter",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7960959,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "https://dl.dropboxusercontent.com/u/1763962/Tabletop%20Sim/Phage-T4.obj",
+        "DiffuseURL": "http://wallpapercolor.net/wallpapers/red-black-background-wallpaper-15536.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 30.95572,
+        "posY": 0.9940085,
+        "posZ": -22.4590282,
+        "rotX": 4.56642047E-05,
+        "rotY": 149.897842,
+        "rotZ": -3.37634556E-05,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Virus Counter",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7960959,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "https://dl.dropboxusercontent.com/u/1763962/Tabletop%20Sim/Phage-T4.obj",
+        "DiffuseURL": "http://wallpapercolor.net/wallpapers/red-black-background-wallpaper-15536.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -46.11911,
+        "posY": 1.45054317,
+        "posZ": 11.0261555,
+        "rotX": 1.37244365E-06,
+        "rotY": 119.489159,
+        "rotZ": 180.0,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "Use as advance tokens",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.4236802,
+        "b": 0.996080041
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 3,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -46.64307,
+        "posY": 1.4505434,
+        "posZ": 10.0167208,
+        "rotX": -3.07358532E-05,
+        "rotY": 194.909286,
+        "rotZ": 270.000122,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "Use as advance tokens",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.4236802,
+        "b": 0.996080041
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 3,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -47.771183,
+        "posY": 1.45053983,
+        "posZ": 10.12593,
+        "rotX": 1.70754738E-05,
+        "rotY": 212.353088,
+        "rotZ": 270.000031,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "Use as advance tokens",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.423692256,
+        "b": 0.99608016
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 3,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6_Rounded",
+      "Transform": {
+        "posX": -45.5292,
+        "posY": 1.4505434,
+        "posZ": 13.42018,
+        "rotX": 6.462813E-05,
+        "rotY": 18.70823,
+        "rotZ": -0.000137165363,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "Use as advance tokens",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.4236802,
+        "b": 0.996080041
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 3,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -43.20311,
+        "posY": 1.614143,
+        "posZ": -1.41528165,
+        "rotX": 359.6283,
+        "rotY": 359.894165,
+        "rotZ": 0.02923575,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.549041033,
+        "g": 0.0156862754,
+        "b": 0.90588814
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -44.97963,
+        "posY": 1.61081362,
+        "posZ": -1.84996808,
+        "rotX": 359.434021,
+        "rotY": 354.098846,
+        "rotZ": 0.573171735,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.549041033,
+        "g": 0.0156862754,
+        "b": 0.90588814
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -43.775383,
+        "posY": 1.21195281,
+        "posZ": -1.649755,
+        "rotX": 359.628845,
+        "rotY": 7.514604,
+        "rotZ": 359.979767,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.549041033,
+        "g": 0.0156862754,
+        "b": 0.90588814
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -43.7992744,
+        "posY": 2.597396,
+        "posZ": -2.10181642,
+        "rotX": 303.203918,
+        "rotY": 176.6116,
+        "rotZ": 180.718979,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.549041033,
+        "g": 0.0156862754,
+        "b": 0.90588814
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -45.36502,
+        "posY": 1.917296,
+        "posZ": -2.36304712,
+        "rotX": 359.38916,
+        "rotY": 9.821607,
+        "rotZ": 0.319333225,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.549041033,
+        "g": 0.0156862754,
+        "b": 0.90588814
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -44.1385765,
+        "posY": 1.86983311,
+        "posZ": -3.090186,
+        "rotX": 19.0717773,
+        "rotY": 184.051559,
+        "rotZ": 180.866913,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.549041033,
+        "g": 0.0156862754,
+        "b": 0.90588814
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -43.94305,
+        "posY": 1.216832,
+        "posZ": -3.39203453,
+        "rotX": 359.8309,
+        "rotY": 356.304047,
+        "rotZ": 358.9835,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.549041033,
+        "g": 0.0156862754,
+        "b": 0.90588814
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -42.40002,
+        "posY": 1.42713058,
+        "posZ": -3.22501683,
+        "rotX": 4.053105,
+        "rotY": 13.8605566,
+        "rotZ": 166.8617,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.549041033,
+        "g": 0.0156862754,
+        "b": 0.90588814
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -42.76838,
+        "posY": 1.50519443,
+        "posZ": 1.389179,
+        "rotX": 335.864319,
+        "rotY": 221.519913,
+        "rotZ": 180.006363,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.549041033,
+        "g": 0.0156862754,
+        "b": 0.90588814
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -43.53283,
+        "posY": 2.050933,
+        "posZ": -0.31970486,
+        "rotX": 36.4685249,
+        "rotY": 18.4364643,
+        "rotZ": 359.252075,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.549041033,
+        "g": 0.0156862754,
+        "b": 0.90588814
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -43.50524,
+        "posY": 1.20995033,
+        "posZ": 0.198459178,
+        "rotX": 0.0176621545,
+        "rotY": 359.5979,
+        "rotZ": 358.981018,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.549041033,
+        "g": 0.0156862754,
+        "b": 0.90588814
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -45.3694839,
+        "posY": 1.6866287,
+        "posZ": 1.14658844,
+        "rotX": 39.56668,
+        "rotY": 350.0241,
+        "rotZ": 359.3066,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.549041033,
+        "g": 0.0156862754,
+        "b": 0.90588814
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -45.3922653,
+        "posY": 1.21423149,
+        "posZ": -0.547453642,
+        "rotX": 359.9091,
+        "rotY": 9.737349,
+        "rotZ": 359.90567,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.549041033,
+        "g": 0.0156862754,
+        "b": 0.90588814
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -40.8818741,
+        "posY": 1.19569755,
+        "posZ": -1.41730666,
+        "rotX": 1.26654732E-05,
+        "rotY": 21.0156746,
+        "rotZ": 179.999939,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.549041033,
+        "g": 0.0156862754,
+        "b": 0.90588814
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "ChipStack",
+      "Transform": {
+        "posX": 39.84251,
+        "posY": 1.28919923,
+        "posZ": -0.271558642,
+        "rotX": 359.963318,
+        "rotY": 284.192,
+        "rotZ": 179.962845,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "Alternative Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": 10,
+      "Number": 3,
+      "GUID": ""
+    },
+    {
+      "Name": "Chip_10",
+      "Transform": {
+        "posX": 39.7581139,
+        "posY": 1.49683654,
+        "posZ": -1.37219918,
+        "rotX": 6.20183754,
+        "rotY": 89.99442,
+        "rotZ": 181.026047,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "Alternative Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "ChipStack",
+      "Transform": {
+        "posX": 40.3316078,
+        "posY": 1.15665317,
+        "posZ": -1.69884884,
+        "rotX": 9.519212,
+        "rotY": 79.08574,
+        "rotZ": 359.838837,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "Alternative Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": 10,
+      "Number": 2,
+      "GUID": ""
+    },
+    {
+      "Name": "Chip_10",
+      "Transform": {
+        "posX": 39.55227,
+        "posY": 1.06590044,
+        "posZ": -2.84938931,
+        "rotX": 359.922729,
+        "rotY": 90.95767,
+        "rotZ": 0.07267308,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "Alternative Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Chip_10",
+      "Transform": {
+        "posX": 41.1152649,
+        "posY": 1.3135277,
+        "posZ": -2.53173828,
+        "rotX": 23.4212379,
+        "rotY": 81.30581,
+        "rotZ": 359.902985,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "Alternative Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Chip_10",
+      "Transform": {
+        "posX": 42.1270027,
+        "posY": 1.16726327,
+        "posZ": -1.90503335,
+        "rotX": 9.271379,
+        "rotY": 77.4433441,
+        "rotZ": 0.0622944757,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "Alternative Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Chip_10",
+      "Transform": {
+        "posX": 41.4607048,
+        "posY": 1.066195,
+        "posZ": -0.43546617,
+        "rotX": 1.0433032E-05,
+        "rotY": 102.429237,
+        "rotZ": -1.82456624E-05,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "Alternative Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Chip_10",
+      "Transform": {
+        "posX": 40.39469,
+        "posY": 1.06615984,
+        "posZ": 1.01352191,
+        "rotX": 359.902863,
+        "rotY": 116.865509,
+        "rotZ": 1.10457122E-05,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "Alternative Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Chip_10",
+      "Transform": {
+        "posX": 39.8177719,
+        "posY": 1.20655167,
+        "posZ": 1.1587863,
+        "rotX": 359.905029,
+        "rotY": 103.730942,
+        "rotZ": 0.0222402327,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "Alternative Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Chip_50",
+      "Transform": {
+        "posX": 30.8836269,
+        "posY": 1.11484838,
+        "posZ": -0.574572265,
+        "rotX": 359.987885,
+        "rotY": 90.51852,
+        "rotZ": 359.899,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Alternative Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Chip_50",
+      "Transform": {
+        "posX": 31.363596,
+        "posY": 1.32068229,
+        "posZ": -1.92181611,
+        "rotX": 359.991058,
+        "rotY": 90.831604,
+        "rotZ": 351.391479,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Alternative Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Chip_50",
+      "Transform": {
+        "posX": 34.1711349,
+        "posY": 1.5146172,
+        "posZ": -2.38830566,
+        "rotX": 359.9593,
+        "rotY": 85.13729,
+        "rotZ": 359.8082,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Alternative Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Chip_50",
+      "Transform": {
+        "posX": 33.9606323,
+        "posY": 1.51431835,
+        "posZ": -0.052299764,
+        "rotX": 359.97876,
+        "rotY": 91.12973,
+        "rotZ": 0.9807406,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Alternative Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Chip_50",
+      "Transform": {
+        "posX": 32.3073959,
+        "posY": 1.30491185,
+        "posZ": 0.8506345,
+        "rotX": 7.83362532,
+        "rotY": 88.79579,
+        "rotZ": 2.09020281,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Alternative Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "ChipStack",
+      "Transform": {
+        "posX": 33.75205,
+        "posY": 1.2951622,
+        "posZ": -1.408772,
+        "rotX": 0.008263545,
+        "rotY": 269.785553,
+        "rotZ": 180.097061,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Alternative Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": 50,
+      "Number": 2,
+      "GUID": ""
+    },
+    {
+      "Name": "Chip_50",
+      "Transform": {
+        "posX": 30.192152,
+        "posY": 1.46242392,
+        "posZ": 0.373046637,
+        "rotX": 345.9874,
+        "rotY": 93.38968,
+        "rotZ": 359.208984,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Alternative Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Chip_50",
+      "Transform": {
+        "posX": 30.1029644,
+        "posY": 1.55959153,
+        "posZ": -1.87954712,
+        "rotX": 338.138153,
+        "rotY": 82.31336,
+        "rotZ": 357.427551,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Alternative Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Chip_50",
+      "Transform": {
+        "posX": 32.4100456,
+        "posY": 1.98581469,
+        "posZ": -0.746444643,
+        "rotX": 12.1707163,
+        "rotY": 358.436646,
+        "rotZ": 182.471085,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Alternative Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -39.1379776,
+        "posY": 1.19569826,
+        "posZ": 19.85768,
+        "rotX": 8.62294E-08,
+        "rotY": 180.7702,
+        "rotZ": 180.0,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7960959,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -37.14148,
+        "posY": 1.19569755,
+        "posZ": 17.9868755,
+        "rotX": 5.35138838E-07,
+        "rotY": 2.935054,
+        "rotZ": 1.01852528E-07,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7960959,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -37.31199,
+        "posY": 1.55647659,
+        "posZ": 20.4336586,
+        "rotX": 28.3908825,
+        "rotY": 179.765717,
+        "rotZ": 179.781769,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7960959,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -37.20764,
+        "posY": 1.19569826,
+        "posZ": 21.3610382,
+        "rotX": 1.23608842E-07,
+        "rotY": 180.245117,
+        "rotZ": 180.0,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7960959,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -35.3953629,
+        "posY": 1.19569814,
+        "posZ": 20.2283688,
+        "rotX": -0.000108398643,
+        "rotY": 179.956619,
+        "rotZ": 180.000031,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7960959,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -46.6331825,
+        "posY": 1.61520362,
+        "posZ": 4.41264248,
+        "rotX": 359.980835,
+        "rotY": 4.47607374,
+        "rotZ": 0.00182692742,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7961017,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -46.23762,
+        "posY": 1.21472621,
+        "posZ": 5.625247,
+        "rotX": 0.00286061061,
+        "rotY": 0.0255900156,
+        "rotZ": 0.000794769556,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7961017,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -47.8432579,
+        "posY": 1.21472168,
+        "posZ": 4.27913427,
+        "rotX": 0.00592181552,
+        "rotY": 359.2624,
+        "rotZ": -0.00536139356,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7961017,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -46.2083168,
+        "posY": 1.214734,
+        "posZ": 3.99507833,
+        "rotX": 359.98053,
+        "rotY": 359.8061,
+        "rotZ": 0.0062973164,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7961017,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -44.4403343,
+        "posY": 1.21473324,
+        "posZ": 4.56154251,
+        "rotX": 1.04895053E-05,
+        "rotY": 359.938782,
+        "rotZ": 2.66041043E-05,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7961017,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -46.5687943,
+        "posY": 2.549747,
+        "posZ": 4.42817545,
+        "rotX": 0.0672649443,
+        "rotY": 2.73777652,
+        "rotZ": 358.8626,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7961017,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -46.24447,
+        "posY": 1.88652182,
+        "posZ": 5.58990335,
+        "rotX": 19.5278873,
+        "rotY": 1.08173347,
+        "rotZ": 358.7828,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7961017,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -47.88155,
+        "posY": 1.88758361,
+        "posZ": 4.22118664,
+        "rotX": 359.986023,
+        "rotY": 357.836853,
+        "rotZ": 21.090498,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7961017,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -46.2077942,
+        "posY": 2.01545334,
+        "posZ": 3.942548,
+        "rotX": 359.980957,
+        "rotY": 0.2206317,
+        "rotZ": 0.00324403052,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7961017,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -44.427166,
+        "posY": 1.61511385,
+        "posZ": 4.488978,
+        "rotX": 1.0394373E-05,
+        "rotY": 0.0377903171,
+        "rotZ": 2.67576161E-05,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7961017,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 16.2752,
+        "posY": 1.59620547,
+        "posZ": 0.8270006,
+        "rotX": -0.00108568254,
+        "rotY": 359.723267,
+        "rotZ": 359.9891,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7961017,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 16.58777,
+        "posY": 1.1956929,
+        "posZ": 1.93781757,
+        "rotX": -0.0009636218,
+        "rotY": 0.490871459,
+        "rotZ": -0.0003992132,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7961017,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 14.9793663,
+        "posY": 1.19569814,
+        "posZ": 0.5871161,
+        "rotX": 0.00389648718,
+        "rotY": 359.4064,
+        "rotZ": 0.0111031542,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7961017,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 16.5878,
+        "posY": 1.19572365,
+        "posZ": 0.257517546,
+        "rotX": -0.002949257,
+        "rotY": 359.849,
+        "rotZ": 359.989471,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7961017,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 18.3938332,
+        "posY": 1.19569731,
+        "posZ": 0.8741045,
+        "rotX": -2.43668467E-07,
+        "rotY": 0.0312824,
+        "rotZ": 2.36574678E-07,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7961017,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 11.2757635,
+        "posY": 1.59605074,
+        "posZ": 0.9433842,
+        "rotX": 0.00768432627,
+        "rotY": 359.374451,
+        "rotZ": 0.0171636362,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7961017,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 11.6097488,
+        "posY": 1.19569612,
+        "posZ": 2.0536716,
+        "rotX": 0.0184649657,
+        "rotY": 0.6682184,
+        "rotZ": 0.0208130591,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7961017,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 10.0083895,
+        "posY": 1.19574034,
+        "posZ": 0.708094,
+        "rotX": 359.968658,
+        "rotY": 358.950073,
+        "rotZ": 359.9638,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7961017,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 11.6332359,
+        "posY": 1.195653,
+        "posZ": 0.381712347,
+        "rotX": -0.00459015043,
+        "rotY": 0.108306363,
+        "rotZ": 0.0183866322,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7961017,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 13.351161,
+        "posY": 1.36976445,
+        "posZ": 0.985868,
+        "rotX": 0.01508589,
+        "rotY": 359.5293,
+        "rotZ": 13.2760754,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7961017,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 23.8439026,
+        "posY": 1.19569731,
+        "posZ": -22.7377071,
+        "rotX": 3.56383971E-05,
+        "rotY": 359.919922,
+        "rotZ": 5.84150939E-06,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7961017,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 23.3510876,
+        "posY": 1.19568872,
+        "posZ": -19.32477,
+        "rotX": 0.000757582951,
+        "rotY": 0.862169445,
+        "rotZ": -0.0022257634,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7961017,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 21.74389,
+        "posY": 1.19570231,
+        "posZ": -20.68301,
+        "rotX": -0.00342921261,
+        "rotY": 359.650726,
+        "rotZ": 0.00541557837,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7961017,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 23.3650589,
+        "posY": 1.19569731,
+        "posZ": -20.9937954,
+        "rotX": -1.02767426E-05,
+        "rotY": 0.06774873,
+        "rotZ": 9.418335E-06,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7961017,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 25.1578236,
+        "posY": 1.19569731,
+        "posZ": -20.4015942,
+        "rotX": 2.85413819E-07,
+        "rotY": 0.03169009,
+        "rotZ": 2.00079143E-07,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7961017,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 5.37585545,
+        "posY": 1.91199422,
+        "posZ": 1.79240525,
+        "rotX": 24.4176083,
+        "rotY": 350.6982,
+        "rotZ": 0.3038631,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.549051762,
+        "g": 0.0156862754,
+        "b": 0.905891061
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 5.11502075,
+        "posY": 1.69330287,
+        "posZ": 3.12112164,
+        "rotX": 43.68102,
+        "rotY": 3.90120387,
+        "rotZ": 359.9935,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.549051762,
+        "g": 0.0156862754,
+        "b": 0.905891061
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 4.978606,
+        "posY": 2.23673248,
+        "posZ": -0.0214385428,
+        "rotX": 337.6602,
+        "rotY": 15.3108711,
+        "rotZ": 11.4157982,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.549051762,
+        "g": 0.0156862754,
+        "b": 0.905891061
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 7.248126,
+        "posY": 1.59652007,
+        "posZ": 1.16750038,
+        "rotX": 359.674164,
+        "rotY": 1.77135575,
+        "rotZ": 0.204983324,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.549051762,
+        "g": 0.0156862754,
+        "b": 0.905891061
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 5.53317928,
+        "posY": 1.58153,
+        "posZ": 0.674077868,
+        "rotX": 357.6311,
+        "rotY": 352.1421,
+        "rotZ": 3.25795341,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.549051762,
+        "g": 0.0156862754,
+        "b": 0.905891061
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 6.84276152,
+        "posY": 1.19317079,
+        "posZ": 0.9631821,
+        "rotX": 359.7083,
+        "rotY": 4.51283836,
+        "rotZ": 0.2304337,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.549051762,
+        "g": 0.0156862754,
+        "b": 0.905891061
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 6.331406,
+        "posY": 3.269187,
+        "posZ": 0.920326948,
+        "rotX": 13.0347919,
+        "rotY": 350.018555,
+        "rotZ": 336.738434,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.549051762,
+        "g": 0.0156862754,
+        "b": 0.905891061
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 4.523196,
+        "posY": 1.46325767,
+        "posZ": 0.5879614,
+        "rotX": 359.818542,
+        "rotY": 350.718781,
+        "rotZ": 81.22166,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.549051762,
+        "g": 0.0156862754,
+        "b": 0.905891061
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 6.36288929,
+        "posY": 1.84829354,
+        "posZ": -0.472506642,
+        "rotX": 19.26283,
+        "rotY": 181.77565,
+        "rotZ": 179.962372,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.549051762,
+        "g": 0.0156862754,
+        "b": 0.905891061
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 6.67522669,
+        "posY": 1.195156,
+        "posZ": -0.807484031,
+        "rotX": 359.896729,
+        "rotY": 353.709625,
+        "rotZ": 359.9891,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.549051762,
+        "g": 0.0156862754,
+        "b": 0.905891061
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 6.176695,
+        "posY": 2.6871438,
+        "posZ": -0.223813117,
+        "rotX": 336.574036,
+        "rotY": 12.7140636,
+        "rotZ": 337.3986,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.549051762,
+        "g": 0.0156862754,
+        "b": 0.905891061
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 7.287784,
+        "posY": 2.06744027,
+        "posZ": 2.814972,
+        "rotX": 324.839142,
+        "rotY": 206.103378,
+        "rotZ": 175.550476,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.549051762,
+        "g": 0.0156862754,
+        "b": 0.905891061
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 7.019405,
+        "posY": 2.021619,
+        "posZ": 2.24263239,
+        "rotX": 35.3143044,
+        "rotY": 18.20502,
+        "rotZ": 359.892,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.549051762,
+        "g": 0.0156862754,
+        "b": 0.905891061
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 7.16432953,
+        "posY": 1.194919,
+        "posZ": 2.78789,
+        "rotX": 359.982544,
+        "rotY": 356.903564,
+        "rotZ": 359.849457,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.549051762,
+        "g": 0.0156862754,
+        "b": 0.905891061
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 2.49171019,
+        "posY": 1.19569945,
+        "posZ": 0.423380166,
+        "rotX": 4.64366167E-06,
+        "rotY": 20.386467,
+        "rotZ": 179.999985,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.549051762,
+        "g": 0.0156862754,
+        "b": 0.905891061
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 5.189274,
+        "posY": 1.19481158,
+        "posZ": 2.22797465,
+        "rotX": 359.935059,
+        "rotY": 12.1151915,
+        "rotZ": 0.02387223,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.549051762,
+        "g": 0.0156862754,
+        "b": 0.905891061
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 6.43364763,
+        "posY": 3.66774,
+        "posZ": 0.9480843,
+        "rotX": 15.9388256,
+        "rotY": 357.160034,
+        "rotZ": 338.458,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.549051762,
+        "g": 0.0156862754,
+        "b": 0.905891061
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "ChipStack",
+      "Transform": {
+        "posX": 32.5112,
+        "posY": 1.88334036,
+        "posZ": -2.28503585,
+        "rotX": 358.002472,
+        "rotY": 85.0929642,
+        "rotZ": 10.6955261,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Alternative Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": 50,
+      "Number": 2,
+      "GUID": ""
+    }
+  ]
+}

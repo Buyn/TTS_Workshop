@@ -1,0 +1,4468 @@
+{
+  "SaveName": "Aliens: This Time it's War!",
+  "GameMode": "None",
+  "Date": "2/17/2015 7:24:36 AM",
+  "Table": "Table_RPG",
+  "Sky": "Sky_Cathedral",
+  "Note": "",
+  "Rules": "",
+  "PlayerTurn": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Snapping": false,
+    "Offset": false,
+    "xSize": 1.25,
+    "ySize": 1.25
+  },
+  "DrawImage": "iVBORw0KGgoAAAANSUhEUgAAAWAAAADQCAYAAAA53LuNAAAFFElEQVR4Ae3QgQAAAADDoPlTH+SFUGHAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgy8DQx5DAABHyNK3wAAAABJRU5ErkJggg==",
+  "ObjectStates": [
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -10.0001154,
+        "posY": 1.02277911,
+        "posZ": -0.0001809797,
+        "rotX": 1.173884E-06,
+        "rotY": 179.98378,
+        "rotZ": 180.000031,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713301539,
+        "g": 0.713301539,
+        "b": 0.713301539
+      },
+      "Grid": true,
+      "Locked": true,
+      "CardID": 500,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "5": {
+          "FaceURL": "https://www.dropbox.com/s/vtunr2819jevozp/misc%20b2.jpg?dl=1",
+          "BackURL": "https://www.dropbox.com/s/97jju98hwvw0ap8/misc%20f2.jpg?dl=1{Unique}"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 10.0001068,
+        "posY": 1.01995623,
+        "posZ": -0.000181877258,
+        "rotX": 1.50929878E-07,
+        "rotY": 180.0214,
+        "rotZ": 9.00538453E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713301539,
+        "g": 0.713301539,
+        "b": 0.713301539
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 501,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "5": {
+          "FaceURL": "https://www.dropbox.com/s/vtunr2819jevozp/misc%20b2.jpg?dl=1",
+          "BackURL": "https://www.dropbox.com/s/97jju98hwvw0ap8/misc%20f2.jpg?dl=1{Unique}"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -8.750112,
+        "posY": 0.9857427,
+        "posZ": 16.250061,
+        "rotX": 1.29288183E-05,
+        "rotY": 0.0202487651,
+        "rotZ": -2.863734E-06,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": true,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+        "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": 0.0002415876,
+        "posY": 1.30184007,
+        "posZ": 15.0007849,
+        "rotX": -3.48352637E-06,
+        "rotY": 359.951782,
+        "rotZ": 180.000015,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Aliens",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713356137,
+        "g": 0.713356137,
+        "b": 0.713356137
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        103,
+        109,
+        104,
+        105,
+        104,
+        109,
+        102,
+        106,
+        114,
+        101,
+        123,
+        101,
+        105,
+        107,
+        107,
+        104,
+        101,
+        113,
+        113,
+        106,
+        118,
+        106,
+        106,
+        105,
+        109,
+        104,
+        109,
+        105,
+        111,
+        119,
+        118,
+        113,
+        113,
+        124,
+        118,
+        109,
+        107,
+        121,
+        120,
+        107,
+        109,
+        109,
+        115,
+        110,
+        117,
+        109,
+        116,
+        118,
+        119,
+        113,
+        109,
+        125,
+        107,
+        101,
+        107,
+        113,
+        112,
+        108,
+        122,
+        125,
+        109,
+        117
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "https://www.dropbox.com/s/4podlew5ijyvj27/alien%20deck%201f.jpg?dl=1",
+          "BackURL": "https://www.dropbox.com/s/6bkzqog33qurarc/alien%20deck%201b.jpg?dl=1"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -0.00141213753,
+        "posY": 1.30184019,
+        "posZ": -15.0001764,
+        "rotX": -2.051607E-06,
+        "rotY": 179.938843,
+        "rotZ": 180.000015,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Colonial Marines",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7133327,
+        "g": 0.7133327,
+        "b": 0.7133327
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        301,
+        304,
+        319,
+        319,
+        309,
+        323,
+        310,
+        316,
+        302,
+        303,
+        310,
+        316,
+        310,
+        325,
+        316,
+        322,
+        320,
+        310,
+        310,
+        302,
+        307,
+        324,
+        305,
+        315,
+        300,
+        311,
+        315,
+        312,
+        322,
+        303,
+        316,
+        307,
+        320,
+        319,
+        310,
+        310,
+        317,
+        311,
+        323,
+        300,
+        311,
+        306,
+        313,
+        321,
+        318,
+        316,
+        322,
+        318,
+        306,
+        308,
+        311,
+        310,
+        314,
+        312,
+        310,
+        309,
+        306,
+        310,
+        308,
+        313,
+        304,
+        320
+      ],
+      "CustomDeck": {
+        "3": {
+          "FaceURL": "https://www.dropbox.com/s/pfw0esmkj3qfsg4/marines%201f.jpg?dl=1",
+          "BackURL": "https://www.dropbox.com/s/eafeyx6enn7vki0/marines%201b.jpg?dl=1"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -3.60000181,
+        "posY": 1.02277911,
+        "posZ": -1.31111847E-06,
+        "rotX": 3.19850848E-08,
+        "rotY": 269.97934,
+        "rotZ": 180.000031,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7133405,
+        "g": 0.7133405,
+        "b": 0.7133405
+      },
+      "Grid": true,
+      "Locked": true,
+      "CardID": 402,
+      "SidewaysCard": true,
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "https://www.dropbox.com/s/49vljfmx2bdb0uk/misc%20b1.jpg?dl=1",
+          "BackURL": "https://www.dropbox.com/s/ejt8zcue7329s9o/misc%20f1.jpg?dl=1{Unique}"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -7.19999933,
+        "posY": 1.02277923,
+        "posZ": 6.622322E-07,
+        "rotX": -7.91947343E-07,
+        "rotY": 269.9926,
+        "rotZ": 180.000031,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7133405,
+        "g": 0.7133405,
+        "b": 0.7133405
+      },
+      "Grid": true,
+      "Locked": true,
+      "CardID": 405,
+      "SidewaysCard": true,
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "https://www.dropbox.com/s/49vljfmx2bdb0uk/misc%20b1.jpg?dl=1",
+          "BackURL": "https://www.dropbox.com/s/ejt8zcue7329s9o/misc%20f1.jpg?dl=1{Unique}"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 2.01653984E-06,
+        "posY": 1.02277923,
+        "posZ": 1.15409193E-06,
+        "rotX": -1.39859722E-07,
+        "rotY": 269.996521,
+        "rotZ": 180.000031,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7133405,
+        "g": 0.7133405,
+        "b": 0.7133405
+      },
+      "Grid": true,
+      "Locked": true,
+      "CardID": 403,
+      "SidewaysCard": true,
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "https://www.dropbox.com/s/49vljfmx2bdb0uk/misc%20b1.jpg?dl=1",
+          "BackURL": "https://www.dropbox.com/s/ejt8zcue7329s9o/misc%20f1.jpg?dl=1{Unique}"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 7.19999933,
+        "posY": 1.022779,
+        "posZ": -2.04408025E-07,
+        "rotX": -1.35145385E-07,
+        "rotY": 269.983856,
+        "rotZ": 180.000031,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7133405,
+        "g": 0.7133405,
+        "b": 0.7133405
+      },
+      "Grid": true,
+      "Locked": true,
+      "CardID": 401,
+      "SidewaysCard": true,
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "https://www.dropbox.com/s/49vljfmx2bdb0uk/misc%20b1.jpg?dl=1",
+          "BackURL": "https://www.dropbox.com/s/ejt8zcue7329s9o/misc%20f1.jpg?dl=1{Unique}"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": 3.60000062,
+        "posY": 1.0331732,
+        "posZ": 4.03335434E-07,
+        "rotX": -7.95853168E-07,
+        "rotY": 269.975983,
+        "rotZ": 180.000031,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7133483,
+        "g": 0.7133483,
+        "b": 0.7133483
+      },
+      "Grid": true,
+      "Locked": true,
+      "SidewaysCard": true,
+      "DeckIDs": [
+        400,
+        404
+      ],
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "https://www.dropbox.com/s/49vljfmx2bdb0uk/misc%20b1.jpg?dl=1",
+          "BackURL": "https://www.dropbox.com/s/ejt8zcue7329s9o/misc%20f1.jpg?dl=1{Unique}"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -8.225506,
+        "posY": 1.13471222,
+        "posZ": 0.85346514,
+        "rotX": -1.85561148E-05,
+        "rotY": 0.05707385,
+        "rotZ": -1.87651082E-07,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Turn Marker",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.945103049,
+        "g": 0.0156862754,
+        "b": 0.149051681
+      },
+      "Grid": false,
+      "Locked": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 13.7499933,
+        "posY": 1.01995635,
+        "posZ": -11.2500048,
+        "rotX": 1.66686118E-06,
+        "rotY": 179.998383,
+        "rotZ": -1.77082643E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713317156,
+        "g": 0.713317156,
+        "b": 0.713317156
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 503,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "5": {
+          "FaceURL": "https://www.dropbox.com/s/vtunr2819jevozp/misc%20b2.jpg?dl=1",
+          "BackURL": "https://www.dropbox.com/s/97jju98hwvw0ap8/misc%20f2.jpg?dl=1{Unique}"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 16.2499962,
+        "posY": 1.01995623,
+        "posZ": -11.250001,
+        "rotX": 6.010388E-07,
+        "rotY": 180.020126,
+        "rotZ": -5.80594951E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713317156,
+        "g": 0.713317156,
+        "b": 0.713317156
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 502,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "5": {
+          "FaceURL": "https://www.dropbox.com/s/vtunr2819jevozp/misc%20b2.jpg?dl=1",
+          "BackURL": "https://www.dropbox.com/s/97jju98hwvw0ap8/misc%20f2.jpg?dl=1{Unique}"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 13.7499971,
+        "posY": 1.01995623,
+        "posZ": 3.750001,
+        "rotX": 1.65330263E-07,
+        "rotY": 180.0423,
+        "rotZ": 3.67477924E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713317156,
+        "g": 0.713317156,
+        "b": 0.713317156
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 204,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "https://www.dropbox.com/s/um516584afkagv2/character%201f.jpg?dl=1",
+          "BackURL": "https://www.dropbox.com/s/x3hxy7fu0s2nodk/character%201b.jpg?dl=1"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 13.7499971,
+        "posY": 1.01995623,
+        "posZ": -3.75,
+        "rotX": -3.15078438E-07,
+        "rotY": 180.041626,
+        "rotZ": 9.32016746E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713317156,
+        "g": 0.713317156,
+        "b": 0.713317156
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 203,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "https://www.dropbox.com/s/um516584afkagv2/character%201f.jpg?dl=1",
+          "BackURL": "https://www.dropbox.com/s/x3hxy7fu0s2nodk/character%201b.jpg?dl=1"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 16.25,
+        "posY": 1.01995623,
+        "posZ": 3.74999785,
+        "rotX": -1.28276065E-06,
+        "rotY": 180.020874,
+        "rotZ": 3.56629857E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713317156,
+        "g": 0.713317156,
+        "b": 0.713317156
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 205,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "https://www.dropbox.com/s/um516584afkagv2/character%201f.jpg?dl=1",
+          "BackURL": "https://www.dropbox.com/s/x3hxy7fu0s2nodk/character%201b.jpg?dl=1"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 18.7500019,
+        "posY": 1.01995623,
+        "posZ": 3.75000262,
+        "rotX": 2.93247755E-08,
+        "rotY": 179.979584,
+        "rotZ": 8.679774E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713317156,
+        "g": 0.713317156,
+        "b": 0.713317156
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 202,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "https://www.dropbox.com/s/um516584afkagv2/character%201f.jpg?dl=1",
+          "BackURL": "https://www.dropbox.com/s/x3hxy7fu0s2nodk/character%201b.jpg?dl=1"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 13.7499943,
+        "posY": 1.01995635,
+        "posZ": -15.0,
+        "rotX": -1.26190434E-06,
+        "rotY": 180.010574,
+        "rotZ": -1.18502008E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713317156,
+        "g": 0.713317156,
+        "b": 0.713317156
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 201,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "https://www.dropbox.com/s/um516584afkagv2/character%201f.jpg?dl=1",
+          "BackURL": "https://www.dropbox.com/s/x3hxy7fu0s2nodk/character%201b.jpg?dl=1"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 21.2500038,
+        "posY": 1.01995623,
+        "posZ": 3.750003,
+        "rotX": 1.99748939E-07,
+        "rotY": 179.979645,
+        "rotZ": -7.062059E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713317156,
+        "g": 0.713317156,
+        "b": 0.713317156
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 200,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "https://www.dropbox.com/s/um516584afkagv2/character%201f.jpg?dl=1",
+          "BackURL": "https://www.dropbox.com/s/x3hxy7fu0s2nodk/character%201b.jpg?dl=1"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 13.7499971,
+        "posY": 1.01995623,
+        "posZ": 2.4582198E-06,
+        "rotX": 1.06357334E-06,
+        "rotY": 179.979523,
+        "rotZ": -2.42950182E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713317156,
+        "g": 0.713317156,
+        "b": 0.713317156
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 212,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "https://www.dropbox.com/s/um516584afkagv2/character%201f.jpg?dl=1",
+          "BackURL": "https://www.dropbox.com/s/x3hxy7fu0s2nodk/character%201b.jpg?dl=1"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 23.75,
+        "posY": 1.01995635,
+        "posZ": 3.75000119,
+        "rotX": -1.82229235E-06,
+        "rotY": 179.978973,
+        "rotZ": 4.71935346E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713317156,
+        "g": 0.713317156,
+        "b": 0.713317156
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 208,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "https://www.dropbox.com/s/um516584afkagv2/character%201f.jpg?dl=1",
+          "BackURL": "https://www.dropbox.com/s/x3hxy7fu0s2nodk/character%201b.jpg?dl=1"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 13.749999,
+        "posY": 1.01995623,
+        "posZ": -7.49999857,
+        "rotX": 1.25376437E-06,
+        "rotY": 180.020889,
+        "rotZ": -1.63363254E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713317156,
+        "g": 0.713317156,
+        "b": 0.713317156
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 209,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "https://www.dropbox.com/s/um516584afkagv2/character%201f.jpg?dl=1",
+          "BackURL": "https://www.dropbox.com/s/x3hxy7fu0s2nodk/character%201b.jpg?dl=1"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 16.25,
+        "posY": 1.01995623,
+        "posZ": 2.048208E-06,
+        "rotX": 4.67935877E-07,
+        "rotY": 179.979477,
+        "rotZ": 1.59924014E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713317156,
+        "g": 0.713317156,
+        "b": 0.713317156
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 207,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "https://www.dropbox.com/s/um516584afkagv2/character%201f.jpg?dl=1",
+          "BackURL": "https://www.dropbox.com/s/x3hxy7fu0s2nodk/character%201b.jpg?dl=1"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 18.7499981,
+        "posY": 1.01995623,
+        "posZ": -11.2500019,
+        "rotX": -1.00888929E-06,
+        "rotY": 179.989212,
+        "rotZ": 1.32920434E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713317156,
+        "g": 0.713317156,
+        "b": 0.713317156
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 210,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "https://www.dropbox.com/s/um516584afkagv2/character%201f.jpg?dl=1",
+          "BackURL": "https://www.dropbox.com/s/x3hxy7fu0s2nodk/character%201b.jpg?dl=1"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 18.7500019,
+        "posY": 1.01995623,
+        "posZ": 3.27498879E-06,
+        "rotX": 1.06457458E-06,
+        "rotY": 179.978638,
+        "rotZ": -8.047664E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713317156,
+        "g": 0.713317156,
+        "b": 0.713317156
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 206,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "https://www.dropbox.com/s/um516584afkagv2/character%201f.jpg?dl=1",
+          "BackURL": "https://www.dropbox.com/s/x3hxy7fu0s2nodk/character%201b.jpg?dl=1"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 16.25,
+        "posY": 1.01995623,
+        "posZ": -7.5,
+        "rotX": 8.004351E-08,
+        "rotY": 179.98851,
+        "rotZ": 3.237966E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7133327,
+        "g": 0.7133327,
+        "b": 0.7133327
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 211,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "https://www.dropbox.com/s/um516584afkagv2/character%201f.jpg?dl=1",
+          "BackURL": "https://www.dropbox.com/s/x3hxy7fu0s2nodk/character%201b.jpg?dl=1"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 18.7500038,
+        "posY": 1.01995623,
+        "posZ": -7.499999,
+        "rotX": 1.5976012E-07,
+        "rotY": 179.981171,
+        "rotZ": 4.99045747E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7133327,
+        "g": 0.7133327,
+        "b": 0.7133327
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 213,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "https://www.dropbox.com/s/um516584afkagv2/character%201f.jpg?dl=1",
+          "BackURL": "https://www.dropbox.com/s/x3hxy7fu0s2nodk/character%201b.jpg?dl=1"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -11.25001,
+        "posY": 0.985742748,
+        "posZ": 16.2498245,
+        "rotX": -1.26362975E-05,
+        "rotY": 180.015839,
+        "rotZ": 180.000031,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": true,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+        "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": -8.751781,
+        "posY": 0.809467256,
+        "posZ": 15.0017166,
+        "rotX": 2.585013E-05,
+        "rotY": 0.1421003,
+        "rotZ": -1.00042744E-05,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Toughness",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.941182733,
+        "g": 0.488729417,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -14.9998236,
+            "posY": 2.52001739,
+            "posZ": 0.00097183563,
+            "rotX": 0.257748,
+            "rotY": 90.4302444,
+            "rotZ": 1.48683441,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -8.749789,
+            "posY": 2.53204274,
+            "posZ": 15.0009317,
+            "rotX": 0.322736263,
+            "rotY": 90.00415,
+            "rotZ": 1.4231447,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/u3b5asjd5u3mrhf/token%202.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        }
+      ],
+      "GUID": ""
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": -11.2517853,
+        "posY": 0.8094667,
+        "posZ": 15.0017176,
+        "rotX": -2.036534E-05,
+        "rotY": 0.142010227,
+        "rotZ": -1.29263281E-05,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Power",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.941182733,
+        "g": 0.488729417,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4998245,
+            "posY": 2.52001762,
+            "posZ": 0.0009718132,
+            "rotX": 1.48437321,
+            "rotY": 359.910217,
+            "rotZ": 179.728317,
+            "scaleX": 0.375,
+            "scaleY": 0.375,
+            "scaleZ": 0.375
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9999999,
+            "b": 0.9999999
+          },
+          "Grid": true,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/kptoys1nrmp05lp/token%201.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 0
+          },
+          "GUID": ""
+        }
+      ],
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model_Stack",
+      "Transform": {
+        "posX": -12.5005913,
+        "posY": 0.9857427,
+        "posZ": -0.000262950984,
+        "rotX": -2.45130821E-07,
+        "rotY": 359.96933,
+        "rotZ": -4.33049422E-07,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "Number": 10,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+        "DiffuseURL": "https://www.dropbox.com/s/zo21w3hqa7uaprv/token%203.jpg?dl=1",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 5
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model_Stack",
+      "Transform": {
+        "posX": -10.00112,
+        "posY": 1.1289928,
+        "posZ": -0.000252810074,
+        "rotX": 2.25232839E-07,
+        "rotY": 359.98407,
+        "rotZ": -1.81031864E-05,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "Number": 10,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/32ujmkxy72ksw7b/token.obj?dl=1",
+        "DiffuseURL": "https://www.dropbox.com/s/zo21w3hqa7uaprv/token%203.jpg?dl=1",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 5
+      },
+      "GUID": ""
+    }
+  ]
+}

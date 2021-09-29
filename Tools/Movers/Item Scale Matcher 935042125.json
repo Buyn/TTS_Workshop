@@ -1,0 +1,605 @@
+{
+  "SaveName": "Item Scale Matcher",
+  "GameMode": "Scaler",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "5/29/2017 12:57:09 AM",
+  "Table": "Table_Octagon",
+  "Sky": "Sky_Sunset",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "",
+  "LuaScript": "--[[ Lua code. See documentation: http://berserk-games.com/knowledgebase/scripting/ --]]\n\n--[[ The OnLoad function. This is called after everything in the game save finishes loading.\nMost of your script code goes here. --]]\nfunction onload()\n    --[[ print('Onload!') --]]\nend\n\n--[[ The Update function. This is called once per frame. --]]\nfunction update ()\n    --[[ print('Update loop!') --]]\nend\n",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 0.5,
+    "ySize": 0.5,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -12.3078947,
+          "posY": 3.66349673,
+          "posZ": -12.4467239,
+          "rotX": 3.267251E-07,
+          "rotY": 44.9999962,
+          "rotZ": -7.88784E-07,
+          "scaleX": 9.413967,
+          "scaleY": 8.961139,
+          "scaleZ": 5.465846
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -12.3997478,
+          "posY": 3.66349769,
+          "posZ": 12.1996918,
+          "rotX": -3.94392E-07,
+          "rotY": 135.0,
+          "rotZ": 1.63362529E-07,
+          "scaleX": 9.413923,
+          "scaleY": 8.961139,
+          "scaleZ": 5.465826
+        }
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 17.39027,
+          "posY": 3.66364121,
+          "posZ": 0.0449385643,
+          "rotX": -3.01854584E-07,
+          "rotY": 270.0,
+          "rotZ": -3.01854556E-07,
+          "scaleX": 9.414001,
+          "scaleY": 8.961139,
+          "scaleZ": 5.46584749
+        }
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 12.3691387,
+          "posY": 3.66356921,
+          "posZ": 12.2303019,
+          "rotX": 0.0,
+          "rotY": 225.0002,
+          "rotZ": 0.0,
+          "scaleX": 9.413778,
+          "scaleY": 8.961139,
+          "scaleZ": 5.46581554
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 2.861023E-06,
+          "posY": 3.66356826,
+          "posZ": -17.3454037,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 9.413987,
+          "scaleY": 8.961141,
+          "scaleZ": 5.46584
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": 5.48362732E-05,
+          "posY": 3.66356921,
+          "posZ": 17.1987381,
+          "rotX": 6.403293E-07,
+          "rotY": 179.8,
+          "rotZ": -1.11756726E-09,
+          "scaleX": 9.414,
+          "scaleY": 8.961139,
+          "scaleZ": 5.46593761
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 12.3691282,
+          "posY": 3.663633,
+          "posZ": -12.1405792,
+          "rotX": 0.0,
+          "rotY": 315.000031,
+          "rotZ": 0.0,
+          "scaleX": 9.413872,
+          "scaleY": 8.961139,
+          "scaleZ": 5.46583748
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -17.420887,
+          "posY": 3.66349721,
+          "posZ": -0.169384956,
+          "rotX": -9.05563752E-07,
+          "rotY": 90.0,
+          "rotZ": 1.50927281E-06,
+          "scaleX": 9.414011,
+          "scaleY": 8.961139,
+          "scaleZ": 5.46585369
+        }
+      }
+    ]
+  },
+  "VectorLines": [],
+  "ObjectStates": [
+    {
+      "Name": "Checker_Board",
+      "Transform": {
+        "posX": 1.17990446,
+        "posY": 1.55009019,
+        "posZ": 1.16817093,
+        "rotX": -7.058801E-07,
+        "rotY": 3.818301E-05,
+        "rotZ": 180.00029,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Scaling Tool",
+      "Description": "Place item on pad, click \"Set Selection\", then pile on items you want to have that item's scale onto the pad. click \"Resize\" and you're done.\n\nThis tool works off of item distance from the tool's center. Be careful what you put this item on top of, or you may find it re-sizing objects underneath it.\n\nIt works this way due to my lazyness. Oops.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "--Distance to look for an object\r\nsearchDistance = 7\r\n\r\nfunction onload()\r\n    createButtonsAndDisplay()\r\nend\r\n\r\nfunction buttonClick_select()\r\n    local localPos = self.getPosition()\r\n    local scaleFactor = self.getScale().x\r\n    local objFound = false\r\n    for _, obj in ipairs(getAllObjects()) do\r\n        if obj~=self and findProximity(localPos,obj)<searchDistance*scaleFactor then\r\n            targetScale = obj.getScale()\r\n            local objName = obj.name\r\n            if obj.getName() ~= \"\" then\r\n                objName = obj.getName()\r\n            end\r\n            self.editButton({index=0, label=objName})\r\n            objFound = true\r\n            break\r\n        end\r\n    end\r\n    if objFound == false then\r\n        broadcastToAll(\"No object was found to select. Place object onto pad.\", {1,1,1})\r\n        self.editButton({index=0, label='No Current Selection'})\r\n        targetScale = nil\r\n    end\r\nend\r\n\r\nfunction buttonClick_resize()\r\n    local localPos = self.getPosition()\r\n    local scaleFactor = self.getScale().x\r\n    for _, obj in ipairs(getAllObjects()) do\r\n        if obj~=self and findProximity(localPos,obj)<searchDistance*scaleFactor then\r\n            if targetScale ~= nil then\r\n                obj.setScale(targetScale)\r\n            else\r\n                broadcastToAll(\"Error: Must Set Selection.\", {1,0,0})\r\n                break\r\n            end\r\n        end\r\n    end\r\nend\r\n\r\n--Finds linear distance on the x/z axis between object and position\r\nfunction findProximity(targetPos, object)\r\n    local objectPos = object.getPosition()\r\n    local xDistance = math.abs(targetPos.x - objectPos.x)\r\n    local zDistance = math.abs(targetPos.z - objectPos.z)\r\n    local distance = xDistance^2 + zDistance^2\r\n    return math.sqrt(distance)\r\nend\r\n\r\n--Creates buttons\r\nfunction createButtonsAndDisplay()\r\n    self.createButton({\r\n        label='No Current Selection', click_function=\"none\",\r\n        function_owner=self, position={0,0,8}, rotation={180,0,0},\r\n        width=0, height=0, font_size=300, font_color={1,1,1}, color={0,0,0}\r\n    })\r\n    self.createButton({\r\n        label=\"Set Selection\", click_function=\"buttonClick_select\",\r\n        function_owner=self, position={-6,0,-8}, rotation={180,0,0},\r\n        width=2000, height=500, font_size=300, font_color={1,1,1}, color={0.5,0.5,0.5}\r\n    })\r\n    self.createButton({\r\n        label=\"Resize\", click_function=\"buttonClick_resize\",\r\n        function_owner=self, position={6,0,-8}, rotation={180,0,0},\r\n        width=2000, height=500, font_size=300, font_color={1,1,1}, color={0.5,0.5,0.5}\r\n    })\r\nend\r\n",
+      "LuaScriptState": "",
+      "GUID": "ca5056"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -10.8818874,
+        "posY": 0.961833,
+        "posZ": 3.69691658,
+        "rotX": 1.18419257E-05,
+        "rotY": 89.99744,
+        "rotZ": 1.31445256E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.8602941,
+        "g": 0.8602941,
+        "b": 0.8602941
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "MaterialIndex": 0,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "4b6120"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -11.2903223,
+        "posY": 0.962016463,
+        "posZ": -2.25898051,
+        "rotX": -2.76218234E-05,
+        "rotY": 89.99888,
+        "rotZ": 2.28256631E-05,
+        "scaleX": 1.0999999,
+        "scaleY": 1.0999999,
+        "scaleZ": 1.0999999
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.838235259,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "MaterialIndex": 1,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "b6f8cb"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -11.0028324,
+        "posY": 0.96068716,
+        "posZ": 0.420138776,
+        "rotX": 9.634539E-06,
+        "rotY": 90.00019,
+        "rotZ": 2.6953503E-05,
+        "scaleX": 0.375000447,
+        "scaleY": 0.375000447,
+        "scaleZ": 0.375000447
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.7867647,
+        "g": 0.732506037,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "MaterialIndex": 3,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "5de9b5"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -12.9696712,
+        "posY": 0.9665092,
+        "posZ": 5.06473064,
+        "rotX": -2.22346134E-05,
+        "rotY": 89.99935,
+        "rotZ": 6.856704E-06,
+        "scaleX": 3.54999733,
+        "scaleY": 3.54999733,
+        "scaleZ": 3.54999733
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.1724138,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "MaterialIndex": 5,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "2cda4f"
+    },
+    {
+      "Name": "Chip_100",
+      "Transform": {
+        "posX": -13.5762844,
+        "posY": 1.08787477,
+        "posZ": 0.651863,
+        "rotX": 2.36189209E-07,
+        "rotY": 89.58049,
+        "rotZ": 1.67995393E-06,
+        "scaleX": 1.54999959,
+        "scaleY": 1.54999959,
+        "scaleZ": 1.54999959
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "bd9ac2"
+    },
+    {
+      "Name": "Chip_50",
+      "Transform": {
+        "posX": -10.3883982,
+        "posY": 1.0239377,
+        "posZ": -5.12542629,
+        "rotX": 2.57671945E-06,
+        "rotY": 89.99993,
+        "rotZ": 1.07537317E-05,
+        "scaleX": 0.7750002,
+        "scaleY": 0.7750002,
+        "scaleZ": 0.7750002
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "293a99"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -13.3958158,
+        "posY": 1.03171372,
+        "posZ": -3.36204815,
+        "rotX": -4.08284041E-06,
+        "rotY": 179.982483,
+        "rotZ": -1.37800043E-05,
+        "scaleX": 0.7602123,
+        "scaleY": 1.0,
+        "scaleZ": 0.7602123
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CardID": 23,
+      "SidewaysCard": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "14686a"
+    },
+    {
+      "Name": "Chip_100",
+      "Transform": {
+        "posX": -9.851038,
+        "posY": 1.00331259,
+        "posZ": -2.88518429,
+        "rotX": -1.56863589E-05,
+        "rotY": 89.9997,
+        "rotZ": -1.26426867E-05,
+        "scaleX": 0.5250005,
+        "scaleY": 0.5250005,
+        "scaleZ": 0.5250005
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "d9e414"
+    }
+  ],
+  "DecalPallet": [],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": ""
+}

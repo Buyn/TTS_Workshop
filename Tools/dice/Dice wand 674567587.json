@@ -1,0 +1,431 @@
+{
+  "SaveName": "Dice wand",
+  "GameMode": "Dice wand",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "3/29/2020 12:45:02 PM",
+  "Table": "Table_Hexagon",
+  "Sky": "Sky_Tunnel",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
+  "LuaScript": "--[[ Lua code. See documentation: http://berserk-games.com/knowledgebase/scripting/ --]]\n\n--[[ The OnLoad function. This is called after everything in the game save finishes loading.\nMost of your script code goes here. --]]\nfunction onload()\n    --[[ print('Onload!') --]]\nend\n\n--[[ The Update function. This is called once per frame. --]]\nfunction update ()\n    --[[ print('Update loop!') --]]\nend\n",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -13.6426582,
+          "posY": 3.567666,
+          "posZ": -7.488783,
+          "rotX": 0.0,
+          "rotY": 60.0000038,
+          "rotZ": 0.0,
+          "scaleX": 10.2682438,
+          "scaleY": 6.63397646,
+          "scaleZ": 4.89333153
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -13.3162861,
+          "posY": 3.56766415,
+          "posZ": 8.302431,
+          "rotX": 0.0,
+          "rotY": 119.999992,
+          "rotZ": 0.0,
+          "scaleX": 10.26889,
+          "scaleY": 6.63397646,
+          "scaleZ": 4.89353037
+        }
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 13.572917,
+          "posY": 3.568512,
+          "posZ": 7.74973,
+          "rotX": 0.0,
+          "rotY": 240.0,
+          "rotZ": 0.0,
+          "scaleX": 10.2683334,
+          "scaleY": 6.63397646,
+          "scaleZ": 4.89335632
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": -0.000389575958,
+          "posY": 3.56825924,
+          "posZ": -15.53434,
+          "rotX": 2.5444431E-14,
+          "rotY": 1.70754709E-06,
+          "rotZ": -1.70754709E-06,
+          "scaleX": 10.2680645,
+          "scaleY": 6.63397646,
+          "scaleZ": 4.89331436
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": 0.00185441971,
+          "posY": 3.568078,
+          "posZ": 15.5957718,
+          "rotX": 0.0,
+          "rotY": 180.000336,
+          "rotZ": 0.0,
+          "scaleX": 10.2683964,
+          "scaleY": 6.63397646,
+          "scaleZ": 4.893462
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 13.6819582,
+          "posY": 3.56851959,
+          "posZ": -7.40805674,
+          "rotX": 0.0,
+          "rotY": 299.999969,
+          "rotZ": 0.0,
+          "scaleX": 10.2682362,
+          "scaleY": 6.63397646,
+          "scaleZ": 4.89322662
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true
+  },
+  "ObjectStates": [
+    {
+      "Name": "Notecard",
+      "Transform": {
+        "posX": 0.08146714,
+        "posY": 1.02999926,
+        "posZ": 5.10429764,
+        "rotX": 6.90807647E-05,
+        "rotY": 359.990448,
+        "rotZ": -4.360172E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Hello",
+      "Description": "Dice wand round uses different dice type",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "43b3d7"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 0.0366349481,
+        "posY": 1.0600009,
+        "posZ": -0.0155561939,
+        "rotX": 2.22324184E-06,
+        "rotY": 269.98877,
+        "rotZ": -9.21156E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Dice wand",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.999262154,
+        "g": 0.997806,
+        "b": 0.99901
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/94979895601480500/7177468691A53D6232000ED28024D5759EA3EF4F/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "\r\n-- http://steamcommunity.com/profiles/76561197968345269\r\n\r\nlocal diceTable={}\r\n\r\nfunction onload()\r\n  self.createButton({\tclick_function = 'rollDice',\r\n  \t\t\t\t\tlabel = 'R',\r\n  \t\t\t\t\tfunction_owner = self,\r\n  \t\t\t\t\tposition = {0, 0.18, 0},\r\n  \t\t\t\t\trotation = {0, 270, 0},\r\n  \t\t\t\t\twidth = 800,\r\n  \t\t\t\t\theight = 800,\r\n  \t\t\t\t\tfont_size = 250})\r\n  self.createButton({\tclick_function = 'addDice',\r\n  \t\t\t\t\tlabel = '+',\r\n  \t\t\t\t\tfunction_owner = self,\r\n  \t\t\t\t\tposition = {0, 0.18, -1.35},\r\n  \t\t\t\t\trotation = {0, 270, 0},\r\n  \t\t\t\t\twidth = 400,\r\n  \t\t\t\t\theight = 400,\r\n  \t\t\t\t\tfont_size = 250})\r\n  self.createButton({\tclick_function = 'removeDice',\r\n  \t\t\t\t\tlabel = '-',\r\n  \t\t\t\t\tfunction_owner = self,\r\n  \t\t\t\t\tposition = {0, 0.18, 1.35},\r\n  \t\t\t\t\trotation = {0, 270, 0},\r\n  \t\t\t\t\twidth = 400,\r\n  \t\t\t\t\theight = 400,\r\n  \t\t\t\t\tfont_size = 250})\r\n  --self.setName('Dice wand')\r\n  updateTint()\r\nend\r\n\r\nfunction rollDice(clicked_object, player)\r\n  checkDice()\r\n  updateTint()\r\n  local result=Player[player].steam_name .. ' rolled '\r\n\r\n  if diceTable !=nil then\r\n    if #diceTable>0 then\r\n      for k,v in pairs(diceTable) do\r\n        local x = math.random(6)\r\n        result = result .. x .. ' '\r\n        v.setValue(x)\r\n      end\r\n      printToAll(result, {self.getColorTint().r,self.getColorTint().g,self.getColorTint().b})\r\n    end\r\n  end\r\nend\r\n\r\nfunction tableContains(table, element)\r\n  for k,v in pairs(table) do\r\n    if v==element then\r\n      return true\r\n    end\r\n  end\r\n  return false\r\nend\r\n\r\nfunction checkDice()\r\n  local pruned=false\r\n  while tableContains(diceTable, nil) do\r\n    for k,v in pairs(diceTable) do\r\n      if v == nil then\r\n        --print('pruning dice' .. k)\r\n        table.remove(diceTable, k)\r\n        pruned=true\r\n        break\r\n      end\r\n    end\r\n  end\r\n  return pruned\r\nend\r\n\r\nfunction updateLabel()\r\n  self.editButton({index=0, label =  # diceTable})\r\nend\r\n\r\nfunction addDice()\r\n  if checkDice() then\r\n    allignDice()\r\n  end\r\n  local position = self.getPosition()\r\n  local rotation = self.getRotation()\r\n  local dNumber = #diceTable\r\n\r\n  local params = {}\r\n  params.type = 'Die_6'\r\n  params.position = { position.x+(((-1)*math.sin(rotation.y*math.pi/180))*(dNumber+3)*1.5),\r\n                      position.y+1,\r\n                      position.z+(((-1)*math.cos(rotation.y*math.pi/180))*(dNumber+3)*1.5)}\r\n  params.rotation = {rotation.x, rotation.y, rotation.z}\r\n  local dice = spawnObject(params)\r\n\r\n  table.insert(diceTable,dice)\r\n\r\n  updateLabel()\r\n  updateTint()\r\nend\r\n\r\nfunction removeDice()\r\n  checkDice()\r\n  if diceTable !=nil then\r\n    if #diceTable >0 then\r\n      local dice = diceTable[#diceTable]\r\n      table.remove(diceTable, # diceTable)\r\n      destroyObject(dice)\r\n    end\r\n  end\r\n\r\n  updateLabel()\r\n  updateTint()\r\nend\r\n\r\nfunction updateTint()\r\n  if diceTable !=nil then\r\n    for k,v in pairs(diceTable) do\r\n      v.setColorTint({self.getColorTint().r,self.getColorTint().g,self.getColorTint().b})\r\n    end\r\n  end\r\nend\r\n\r\n\r\nfunction allignDice()\r\n  checkDice()\r\n  local position = self.getPosition()\r\n  local rotation = self.getRotation()\r\n  local dNumber = #diceTable\r\n\r\n  if diceTable !=nil then\r\n    if #diceTable >0 then\r\n      for i=1,#diceTable,1 do\r\n        --  position\r\n        diceTable[i].setPositionSmooth(    { position.x+(((-1)*math.sin(rotation.y*math.pi/180))*(i+2)*1.5),\r\n                            position.y+1,\r\n                            position.z+(((-1)*math.cos(rotation.y*math.pi/180))*(i+2)*1.5)})\r\n        -- rotation\r\n        --diceTable[i].setRotation({rotation.x, rotation.y, rotation.z})\r\n        --diceTable[i].setValue(((i-1)%6)+1)\r\n      end\r\n    end\r\n  end\r\nend\r\n\r\nfunction onDropped()\r\n  allignDice()\r\n  updateTint()\r\n  updateLabel()\r\nend\r\n",
+      "LuaScriptState": "",
+      "GUID": "923b88"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 0.0225980021,
+        "posY": 1.06000113,
+        "posZ": -4.18227863,
+        "rotX": -6.3112825E-06,
+        "rotY": 269.988,
+        "rotZ": -5.57084568E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Dice wand round",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.856,
+        "g": 0.09999991,
+        "b": 0.0939999
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/94979895601480500/7177468691A53D6232000ED28024D5759EA3EF4F/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "\r\n-- http://steamcommunity.com/profiles/76561197968345269\r\n\r\nlocal diceTable={}\r\n\r\nfunction onload()\r\n  self.createButton({\tclick_function = 'rollDice',\r\n  \t\t\t\t\tlabel = 'R',\r\n  \t\t\t\t\tfunction_owner = self,\r\n  \t\t\t\t\tposition = {0, 0.18, 0},\r\n  \t\t\t\t\trotation = {0, 270, 0},\r\n  \t\t\t\t\twidth = 800,\r\n  \t\t\t\t\theight = 800,\r\n  \t\t\t\t\tfont_size = 250})\r\n  self.createButton({\tclick_function = 'addDice',\r\n  \t\t\t\t\tlabel = '+',\r\n  \t\t\t\t\tfunction_owner = self,\r\n  \t\t\t\t\tposition = {0, 0.18, -1.35},\r\n  \t\t\t\t\trotation = {0, 270, 0},\r\n  \t\t\t\t\twidth = 400,\r\n  \t\t\t\t\theight = 400,\r\n  \t\t\t\t\tfont_size = 250})\r\n  self.createButton({\tclick_function = 'removeDice',\r\n  \t\t\t\t\tlabel = '-',\r\n  \t\t\t\t\tfunction_owner = self,\r\n  \t\t\t\t\tposition = {0, 0.18, 1.35},\r\n  \t\t\t\t\trotation = {0, 270, 0},\r\n  \t\t\t\t\twidth = 400,\r\n  \t\t\t\t\theight = 400,\r\n  \t\t\t\t\tfont_size = 250})\r\n  --self.setName('Dice wand')\r\n  updateTint()\r\nend\r\n\r\nfunction rollDice(clicked_object, player)\r\n  checkDice()\r\n  updateTint()\r\n  local result=Player[player].steam_name .. ' rolled '\r\n\r\n  if diceTable !=nil then\r\n    if #diceTable>0 then\r\n      for k,v in pairs(diceTable) do\r\n        local x = math.random(6)\r\n        result = result .. x .. ' '\r\n        v.setValue(x)\r\n      end\r\n      printToAll(result, {self.getColorTint().r,self.getColorTint().g,self.getColorTint().b})\r\n    end\r\n  end\r\nend\r\n\r\nfunction tableContains(table, element)\r\n  for k,v in pairs(table) do\r\n    if v==element then\r\n      return true\r\n    end\r\n  end\r\n  return false\r\nend\r\n\r\nfunction checkDice()\r\n  local pruned=false\r\n  while tableContains(diceTable, nil) do\r\n    for k,v in pairs(diceTable) do\r\n      if v == nil then\r\n        --print('pruning dice' .. k)\r\n        table.remove(diceTable, k)\r\n        pruned=true\r\n        break\r\n      end\r\n    end\r\n  end\r\n  return pruned\r\nend\r\n\r\nfunction updateLabel()\r\n  self.editButton({index=0, label =  # diceTable})\r\nend\r\n\r\nfunction addDice()\r\n  if checkDice() then\r\n    allignDice()\r\n  end\r\n  local position = self.getPosition()\r\n  local rotation = self.getRotation()\r\n  local dNumber = #diceTable\r\n\r\n  local params = {}\r\n  --params.type = 'Die_6'\r\n  params.type = 'Die_6_Rounded'\r\n  params.position = { position.x+(((-1)*math.sin(rotation.y*math.pi/180))*(dNumber+3)*1.5),\r\n                      position.y+1,\r\n                      position.z+(((-1)*math.cos(rotation.y*math.pi/180))*(dNumber+3)*1.5)}\r\n  params.rotation = {rotation.x, rotation.y, rotation.z}\r\n  local dice = spawnObject(params)\r\n\r\n  table.insert(diceTable,dice)\r\n\r\n  updateLabel()\r\n  updateTint()\r\nend\r\n\r\nfunction removeDice()\r\n  checkDice()\r\n  if diceTable !=nil then\r\n    if #diceTable >0 then\r\n      local dice = diceTable[#diceTable]\r\n      table.remove(diceTable, # diceTable)\r\n      destroyObject(dice)\r\n    end\r\n  end\r\n\r\n  updateLabel()\r\n  updateTint()\r\nend\r\n\r\nfunction updateTint()\r\n  if diceTable !=nil then\r\n    for k,v in pairs(diceTable) do\r\n      v.setColorTint({self.getColorTint().r,self.getColorTint().g,self.getColorTint().b})\r\n    end\r\n  end\r\nend\r\n\r\n\r\nfunction allignDice()\r\n  checkDice()\r\n  local position = self.getPosition()\r\n  local rotation = self.getRotation()\r\n  local dNumber = #diceTable\r\n\r\n  if diceTable !=nil then\r\n    if #diceTable >0 then\r\n      for i=1,#diceTable,1 do\r\n        --  position\r\n        diceTable[i].setPositionSmooth(    { position.x+(((-1)*math.sin(rotation.y*math.pi/180))*(i+2)*1.5),\r\n                            position.y+1,\r\n                            position.z+(((-1)*math.cos(rotation.y*math.pi/180))*(i+2)*1.5)})\r\n        -- rotation\r\n        --diceTable[i].setRotation({rotation.x, rotation.y, rotation.z})\r\n        --diceTable[i].setValue(((i-1)%6)+1)\r\n      end\r\n    end\r\n  end\r\nend\r\n\r\nfunction onDropped()\r\n  allignDice()\r\n  updateTint()\r\n  updateLabel()\r\nend\r\n",
+      "LuaScriptState": "",
+      "GUID": "55c208"
+    }
+  ],
+  "DecalPallet": [],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": "v12.2.3"
+}

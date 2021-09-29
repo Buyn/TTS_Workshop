@@ -1,0 +1,678 @@
+{
+  "SaveName": "Resizable, Recolorable Cards with Text!",
+  "GameMode": "Test",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "12/26/2019 9:17:21 PM",
+  "Table": "Table_Square",
+  "Sky": "Sky_Tunnel",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
+  "LuaScript": "--[[ Lua code. See documentation: https://api.tabletopsimulator.com/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate()\n    --[[ print('onUpdate loop!') --]]\nend",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 1.0,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": true,
+    "xSize": 0.5,
+    "ySize": 0.5,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 14.3801212,
+          "posY": 3.154705,
+          "posZ": 0.141296387,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 9.401819,
+          "scaleY": 6.635493,
+          "scaleZ": 3.52506471
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 0.03270387,
+          "posY": 3.154541,
+          "posZ": -14.3743362,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 9.392744,
+          "scaleY": 6.635493,
+          "scaleZ": 3.52314
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": 0.03270387,
+          "posY": 3.153778,
+          "posZ": 14.2803726,
+          "rotX": 0.0,
+          "rotY": 180.0,
+          "rotZ": 0.0,
+          "scaleX": 9.397577,
+          "scaleY": 6.635493,
+          "scaleZ": 3.52482629
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -14.2912292,
+          "posY": 3.154705,
+          "posZ": -0.05830002,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 9.401819,
+          "scaleY": 6.635493,
+          "scaleZ": 3.52506471
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "ObjectStates": [
+    {
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": 0.249018,
+        "posY": 0.942991555,
+        "posZ": -0.4418289,
+        "rotX": 1.19153219E-05,
+        "rotY": 179.9734,
+        "rotZ": -1.34836328E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.3058885,
+        "g": 0.372555166,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -0.402490616,
+            "posY": 2.042838,
+            "posZ": 0.35118103,
+            "rotX": -1.12468906E-05,
+            "rotY": 0.0246006045,
+            "rotZ": -4.91018254E-05,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 1700,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "17": {
+              "FaceURL": "https://i.imgur.com/VCeaZ8c.png",
+              "BackURL": "https://i.imgur.com/VCeaZ8c.png",
+              "NumWidth": 2,
+              "NumHeight": 2,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "function onLoad(save_data)\r\n  objectScale = self.getScale()\r\n  if save_data ~= '' and save_data ~= nil then\r\n    load_data = JSON.decode(save_data)\r\n    text = load_data.text\r\n    textAlign = load_data.textAlign\r\n    textSize = load_data.textSize\r\n    cardColor = load_data.cardColor\r\n    textColor = load_data.textColor\r\n    editMode = load_data.editMode\r\n  else\r\n    text = 'Text goes here...'\r\n    textAlign = 2\r\n    cardColor = 'FFFFFF'\r\n    textColor = '000000'\r\n    textSize = 100\r\n    editMode = false\r\n  end\r\n\r\n  if editMode then\r\n    rotation = {0,0,180}\r\n    scale = {1/objectScale[1],0.25,1/objectScale[3]}\r\n  else\r\n    rotation = {0,0,180}\r\n    scale = {-1/objectScale[1],0.25,1/objectScale[3]}\r\n  end\r\n  function updateInput(first)\r\n    destroyUI()\r\n    if not first then\r\n      self.removeInput(0)\r\n    end\r\n    objectScale = self.getScale()\r\n\r\n    self.createInput({\r\n      function_owner = self;\r\n      input_function = 'onInput';\r\n      position = {0,0.25,0};\r\n      rotation = rotation;\r\n      tab = 3;\r\n      color = HextoRGB(cardColor);\r\n      font_color = HextoRGB(textColor);\r\n      font_size = textSize;\r\n      alignment = textAlign;\r\n      value = text;\r\n      tooltip = text;\r\n      width = 950*objectScale[1];\r\n      height = 1400*objectScale[3];\r\n      scale = scale;\r\n      interactable = false;\r\n      readOnly = true;\r\n    })\r\n    if editMode then\r\n      createUI()\r\n    end\r\n  end\r\n\r\n  -- We use the newly created updateInput() function with a customized argument specifically for this first creation of the input. This is to cut down on line count and reduce redundancy in the code.\r\n  updateInput(true)\r\nend\r\n\r\nfunction onInput(obj, color, input, stillEditing)\r\n  if editMode == false then\r\n    updateInput()\r\n    return\r\n  else\r\n    text = input\r\n    if stillEditing == false then\r\n      updateInput()\r\n      self.script_state =  JSON.encode({text=text, textAlign=textAlign, textSize=textSize, cardColor = cardColor, textColor = textColor, editMode = editMode})\r\n    end\r\n  end\r\nend\r\n\r\nfunction leftAlignButton(obj, player_clicker_color, alt_click)\r\n  textAlign = 2\r\n  updateInput()\r\nend\r\n\r\nfunction rightAlignButton(obj, player_clicker_color, alt_click)\r\n  textAlign = 4\r\n  updateInput()\r\nend\r\n\r\nfunction centerAlignButton(obj, player_clicker_color, alt_click)\r\n  textAlign = 3\r\n  updateInput()\r\nend\r\n\r\nfunction justifyAlignButton(obj, player_clicker_color, alt_click)\r\n  textAlign = 5\r\n  updateInput()\r\nend\r\n\r\nfunction textColorInput(obj, color, input, stillEditing)\r\n  if stillEditing == false then\r\n    -- Checking if the input is using valid hexadecimal characters, if it has invalid characters in it, we show an error message.\r\n    if string.match(input, '[0123456789ABCDEFabcdef]+') ~= input then\r\n      broadcastToColor('Invalid characters used, please only use 0-9 and A-F.', color, {0.856, 0.1, 0.094})\r\n      -- Checking if the input is atleast 6 characters, the HextoRGB() function can take more than 6 characters, it'll just ignore them.\r\n    elseif #input < 6 then\r\n      broadcastToColor('Invalid length of color code, please check that the code is 6 characters long.', color, {0.856, 0.1, 0.094})\r\n    else\r\n      textColor = input\r\n    end\r\n    updateInput()\r\n  end\r\nend\r\n\r\nfunction cardColorInput(obj, color, input, stillEditing)\r\n  if stillEditing == false then\r\n    if string.match(input, '[0123456789ABCDEFabcdef]+') ~= input then\r\n      broadcastToColor('Invalid characters used, please only use 0-9 and A-F.', color, {0.856, 0.1, 0.094})\r\n    elseif #input < 6 then\r\n      broadcastToColor('Invalid length of color code, please check that the code is 6 characters long.', color, {0.856, 0.1, 0.094})\r\n    else\r\n      cardColor = input\r\n    end\r\n    updateInput()\r\n  end\r\nend\r\n\r\nfunction textSizeInput(obj, color, input, stillEditing)\r\n  if stillEditing == false then\r\n    if input ~= \"\" then\r\n      textSize = tonumber(input)\r\n    end\r\n    updateInput()\r\n  end\r\nend\r\n\r\nfunction createUI()\r\n  self.createButton({function_owner = self; tooltip = 'Text Align: Left'; label = '<'; click_function = 'leftAlignButton'; scale = {1,1,1}; width = 100; height = 82.5; position = {-0.875,0,1.7}})\r\n  self.createButton({function_owner = self; tooltip = 'Text Align: Center'; label = '-'; click_function = 'centerAlignButton'; scale = {1,1,1}; width = 100; height = 82.5; position = {-0.675,0,1.7}})\r\n  self.createButton({function_owner = self; tooltip = 'Text Align: Right'; label = '>'; click_function = 'rightAlignButton'; scale = {1,1,1}; width = 100; height = 82.5; position = {-0.275,0,1.7}})\r\n  self.createButton({function_owner = self; tooltip = 'Text Align: Justified'; label = '='; click_function = 'justifyAlignButton'; scale = {1,1,1}; width = 100; height = 82.5; position = {-0.475,0,1.7}})\r\n  self.createInput ({function_owner = self; font_size = 50; validation = 4; tooltip = 'Font Color (0-F)'; label = 'RRGGBB'; value = tostring(textColor); input_function = 'textColorInput'; scale = {1,1,1}; width = 205; height = 75; position = {0.30,0,1.7025}})\r\n  self.createInput ({function_owner = self; font_size = 50; validation = 4; tooltip = 'Card Color (0-F)'; label = 'RRGGBB'; value = tostring(cardColor); input_function = 'cardColorInput'; scale = {1,1,1}; width = 205; height = 75; position = {0.75,0,1.7025}})\r\n  self.createInput ({function_owner = self; font_size = 50; validation = 3; tooltip = 'Font Size'; value = textSize; input_function = 'textSizeInput'; scale = {1,1,1}; width = 115; height = 75; position = {-0.05,0,1.7025}})\r\nend\r\n\r\nfunction destroyUI()\r\n  if self.getButtons() ~= nil then\r\n    for i=0,#self.getButtons()-1 do\r\n      self.removeButton(i)\r\n    end\r\n    for i=1,#self.getInputs()-1 do\r\n      self.removeInput(i)\r\n    end\r\n  end\r\nend\r\n\r\nfunction onObjectEnterScriptingZone(zone, obj)\r\n  if obj == self then\r\n    editMode = true\r\n    rotation = {0,0,0}\r\n    scale = {1/objectScale[1],0.25,1/objectScale[3]}\r\n    if updateInput ~= nil then\r\n      updateInput()\r\n    end\r\n  end\r\nend\r\n\r\nfunction onObjectLeaveContainer(container, obj)\r\n  if obj == self then\r\n    editMode = false\r\n    rotation = {0,0,180}\r\n    scale = {-1/objectScale[1],0.25,1/objectScale[3]}\r\n    if updateInput ~= nil then\r\n      updateInput()\r\n    end\r\n  end\r\nend\r\n\r\nfunction onObjectLeaveScriptingZone(zone, obj)\r\n  if obj == self then\r\n    editMode = false\r\n    rotation = {0,0,180}\r\n    scale = {-1/objectScale[1],0.25,1/objectScale[3]}\r\n    if updateInput ~= nil then\r\n      updateInput()\r\n    end\r\n  end\r\nend\r\n\r\nfunction onCollisionEnter(collision_info)\r\n  objectScale = self.getScale()\r\n  if self.is_face_down then\r\n    rotation = {0,0,0}\r\n    scale = {-1/objectScale[1],0.25,1/objectScale[3]}\r\n    if editMode then\r\n      rotation = {0,0,0}\r\n      scale = {1/objectScale[1],0.25,1/objectScale[3]}\r\n    end\r\n  else\r\n    rotation = {0,0,180}\r\n    scale = {-1/objectScale[1],0.25,1/objectScale[3]}\r\n    if editMode then\r\n      rotation = {0,0,0}\r\n      scale = {1/objectScale[1],0.25,1/objectScale[3]}\r\n    end\r\n  end\r\n  if updateInput ~= nil then\r\n    updateInput()\r\n  end\r\nend\r\nfunction onCollisionExit(collision_info)\r\n  if self.is_face_down then\r\n    rotation = {0,0,180}\r\n    scale = {-1/objectScale[1],0.25,1/objectScale[3]}\r\n    if editMode then\r\n      scale = {1/objectScale[1],0.25,1/objectScale[3]}\r\n      rotation = {0,0,0}\r\n    end\r\n  end\r\n  if updateInput ~= nil then\r\n    updateInput()\r\n  end\r\nend\r\nfunction onSave ()\r\n  self.script_state = JSON.encode({text=text, textAlign=textAlign, textSize=textSize, cardColor = cardColor, textColor = textColor, editMode = editMode})\r\nend\r\n\r\nfunction HextoRGB(hex)\r\n  -- Matching the characters in hexadecimal format to variables.\r\n  local red,green,blue=hex:match('(..)(..)(..)')\r\n  -- We divide by 255 because TTS doesn't like 0-255, it likes 0-1 instead.\r\n  red, green, blue = tonumber(red, 16)/255, tonumber(green, 16)/255, tonumber(blue, 16)/255\r\n  return {red, green, blue}\r\nend\r\n",
+          "LuaScriptState": "{\"cardColor\":\"FFFFFF\",\"editMode\":false,\"text\":\"Text goes here...\",\"textAlign\":2,\"textColor\":\"000000\",\"textSize\":100}",
+          "GUID": "bc6fae"
+        }
+      ],
+      "GUID": "e9c86f"
+    },
+    {
+      "Name": "Notecard",
+      "Transform": {
+        "posX": -7.250202,
+        "posY": 1.029993,
+        "posZ": 0.7496704,
+        "rotX": -1.13748119E-05,
+        "rotY": 300.005219,
+        "rotZ": 4.461447E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Picking Colors",
+      "Description": "Colors are chosen via hex color codes, to get them, either open up the color picker for the vector paint tool, or color tint any object, when the color picker appears, choose your color, then copy the field labled #: then paste the code into the coresponding input. There are also plenty of websites that will spit out these codes.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "c331da"
+    },
+    {
+      "Name": "Notecard",
+      "Transform": {
+        "posX": 7.25009155,
+        "posY": 1.029992,
+        "posZ": 0.75000757,
+        "rotX": -1.34053671E-05,
+        "rotY": 59.9958763,
+        "rotZ": 5.025386E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "BBcode",
+      "Description": "BBcode is very useful for customizing these, as multiple text colors and sizes aren't availiable for text boxes.\nUsing BBcode you can get more colors!\nEx: [00AA00]Here's some green text![-]\nUsing [sup]superscript[/sup] and [sub]subscript[/sub] allows you to get smaller text sizes.\nEx: [sup]Here's some tiny text![/sub]\nFor more information:\n[sup]http://berserk-games.com/knowledgebase/bb-codes/",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "4727ab"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": 0.00333787454,
+        "posY": 0.990924239,
+        "posZ": 9.459268,
+        "rotX": 9.183688E-07,
+        "rotY": -0.000218457775,
+        "rotZ": -3.16044E-05,
+        "scaleX": 6.929669,
+        "scaleY": 0.0618498325,
+        "scaleZ": 3.96198082
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "83d4ee"
+    },
+    {
+      "Name": "3DText",
+      "Transform": {
+        "posX": -0.0489397049,
+        "posY": 1.02184951,
+        "posZ": 9.917799,
+        "rotX": 90.0,
+        "rotY": 4.82967243E-06,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "Text": {
+        "Text": "I'm a Scripting Zone!\n[sup] You can put cards here to edit them.",
+        "colorstate": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "fontSize": 36
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "be1490"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 0.012498498,
+        "posY": 3.571851,
+        "posZ": 9.43721,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 6.923975,
+        "scaleY": 5.1,
+        "scaleZ": 3.84943151
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "f2b951"
+    },
+    {
+      "Name": "Notecard",
+      "Transform": {
+        "posX": 0.0219569542,
+        "posY": 1.02999079,
+        "posZ": 5.0040307,
+        "rotX": -6.69540032E-06,
+        "rotY": 0.002167174,
+        "rotZ": 2.09173322E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "MojoMonkey's Custom Cards",
+      "Description": "Usage: \n1. Save either the bag or the card to the chest. \n2. Put the card into any scripting zone to edit, you can make them using Zone / Scripting. Take it out and editing controls will disappear, and the card will be uneditable.\n3. Read other notecards for details on usage.\n\nInspired by:\nEditable Card by Cyrusa.\n[sup]http://steamcommunity.com/sharedfiles/filedetails/?id=1342027938",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "ba2030"
+    },
+    {
+      "Name": "Notecard",
+      "Transform": {
+        "posX": -4.199247E-06,
+        "posY": 1.02999246,
+        "posZ": -7.500006,
+        "rotX": -1.26423884E-05,
+        "rotY": 0.00400577439,
+        "rotZ": -1.04544433E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Resizing Cards",
+      "Description": "You can now resize cards without the text warping, simply update the card in any way after resizing it. This includes pushing any buttons or interacting with the textbox.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "ee5bcc"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 0.264525354,
+        "posY": 1.03170276,
+        "posZ": -3.26814437,
+        "rotX": 1.490953E-05,
+        "rotY": 179.997986,
+        "rotZ": -9.035437E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 1700,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "17": {
+          "FaceURL": "https://i.imgur.com/VCeaZ8c.png",
+          "BackURL": "https://i.imgur.com/VCeaZ8c.png",
+          "NumWidth": 2,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "function onLoad(save_data)\r\n  objectScale = self.getScale()\r\n  if save_data ~= '' and save_data ~= nil then\r\n    load_data = JSON.decode(save_data)\r\n    text = load_data.text\r\n    textAlign = load_data.textAlign\r\n    textSize = load_data.textSize\r\n    cardColor = load_data.cardColor\r\n    textColor = load_data.textColor\r\n    editMode = load_data.editMode\r\n  else\r\n    text = 'Text goes here...'\r\n    textAlign = 2\r\n    cardColor = 'FFFFFF'\r\n    textColor = '000000'\r\n    textSize = 100\r\n    editMode = false\r\n  end\r\n\r\n  if editMode then\r\n    rotation = {0,0,180}\r\n    scale = {1/objectScale[1],0.25,1/objectScale[3]}\r\n  else\r\n    rotation = {0,0,180}\r\n    scale = {-1/objectScale[1],0.25,1/objectScale[3]}\r\n  end\r\n  function updateInput(first)\r\n    destroyUI()\r\n    if not first then\r\n      self.removeInput(0)\r\n    end\r\n    objectScale = self.getScale()\r\n\r\n    self.createInput({\r\n      function_owner = self;\r\n      input_function = 'onInput';\r\n      position = {0,0.25,0};\r\n      rotation = rotation;\r\n      tab = 3;\r\n      color = HextoRGB(cardColor);\r\n      font_color = HextoRGB(textColor);\r\n      font_size = textSize;\r\n      alignment = textAlign;\r\n      value = text;\r\n      tooltip = text;\r\n      width = 950*objectScale[1];\r\n      height = 1400*objectScale[3];\r\n      scale = scale;\r\n      interactable = false;\r\n      readOnly = true;\r\n    })\r\n    if editMode then\r\n      createUI()\r\n    end\r\n  end\r\n\r\n  -- We use the newly created updateInput() function with a customized argument specifically for this first creation of the input. This is to cut down on line count and reduce redundancy in the code.\r\n  updateInput(true)\r\nend\r\n\r\nfunction onInput(obj, color, input, stillEditing)\r\n  if editMode == false then\r\n    updateInput()\r\n    return\r\n  else\r\n    text = input\r\n    if stillEditing == false then\r\n      updateInput()\r\n      self.script_state =  JSON.encode({text=text, textAlign=textAlign, textSize=textSize, cardColor = cardColor, textColor = textColor, editMode = editMode})\r\n    end\r\n  end\r\nend\r\n\r\nfunction leftAlignButton(obj, player_clicker_color, alt_click)\r\n  textAlign = 2\r\n  updateInput()\r\nend\r\n\r\nfunction rightAlignButton(obj, player_clicker_color, alt_click)\r\n  textAlign = 4\r\n  updateInput()\r\nend\r\n\r\nfunction centerAlignButton(obj, player_clicker_color, alt_click)\r\n  textAlign = 3\r\n  updateInput()\r\nend\r\n\r\nfunction justifyAlignButton(obj, player_clicker_color, alt_click)\r\n  textAlign = 5\r\n  updateInput()\r\nend\r\n\r\nfunction textColorInput(obj, color, input, stillEditing)\r\n  if stillEditing == false then\r\n    -- Checking if the input is using valid hexadecimal characters, if it has invalid characters in it, we show an error message.\r\n    if string.match(input, '[0123456789ABCDEFabcdef]+') ~= input then\r\n      broadcastToColor('Invalid characters used, please only use 0-9 and A-F.', color, {0.856, 0.1, 0.094})\r\n      -- Checking if the input is atleast 6 characters, the HextoRGB() function can take more than 6 characters, it'll just ignore them.\r\n    elseif #input < 6 then\r\n      broadcastToColor('Invalid length of color code, please check that the code is 6 characters long.', color, {0.856, 0.1, 0.094})\r\n    else\r\n      textColor = input\r\n    end\r\n    updateInput()\r\n  end\r\nend\r\n\r\nfunction cardColorInput(obj, color, input, stillEditing)\r\n  if stillEditing == false then\r\n    if string.match(input, '[0123456789ABCDEFabcdef]+') ~= input then\r\n      broadcastToColor('Invalid characters used, please only use 0-9 and A-F.', color, {0.856, 0.1, 0.094})\r\n    elseif #input < 6 then\r\n      broadcastToColor('Invalid length of color code, please check that the code is 6 characters long.', color, {0.856, 0.1, 0.094})\r\n    else\r\n      cardColor = input\r\n    end\r\n    updateInput()\r\n  end\r\nend\r\n\r\nfunction textSizeInput(obj, color, input, stillEditing)\r\n  if stillEditing == false then\r\n    if input ~= \"\" then\r\n      textSize = tonumber(input)\r\n    end\r\n    updateInput()\r\n  end\r\nend\r\n\r\nfunction createUI()\r\n  self.createButton({function_owner = self; tooltip = 'Text Align: Left'; label = '<'; click_function = 'leftAlignButton'; scale = {1,1,1}; width = 100; height = 82.5; position = {-0.875,0,1.7}})\r\n  self.createButton({function_owner = self; tooltip = 'Text Align: Center'; label = '-'; click_function = 'centerAlignButton'; scale = {1,1,1}; width = 100; height = 82.5; position = {-0.675,0,1.7}})\r\n  self.createButton({function_owner = self; tooltip = 'Text Align: Right'; label = '>'; click_function = 'rightAlignButton'; scale = {1,1,1}; width = 100; height = 82.5; position = {-0.275,0,1.7}})\r\n  self.createButton({function_owner = self; tooltip = 'Text Align: Justified'; label = '='; click_function = 'justifyAlignButton'; scale = {1,1,1}; width = 100; height = 82.5; position = {-0.475,0,1.7}})\r\n  self.createInput ({function_owner = self; font_size = 50; validation = 4; tooltip = 'Font Color (0-F)'; label = 'RRGGBB'; value = tostring(textColor); input_function = 'textColorInput'; scale = {1,1,1}; width = 205; height = 75; position = {0.30,0,1.7025}})\r\n  self.createInput ({function_owner = self; font_size = 50; validation = 4; tooltip = 'Card Color (0-F)'; label = 'RRGGBB'; value = tostring(cardColor); input_function = 'cardColorInput'; scale = {1,1,1}; width = 205; height = 75; position = {0.75,0,1.7025}})\r\n  self.createInput ({function_owner = self; font_size = 50; validation = 3; tooltip = 'Font Size'; value = textSize; input_function = 'textSizeInput'; scale = {1,1,1}; width = 115; height = 75; position = {-0.05,0,1.7025}})\r\nend\r\n\r\nfunction destroyUI()\r\n  if self.getButtons() ~= nil then\r\n    for i=0,#self.getButtons()-1 do\r\n      self.removeButton(i)\r\n    end\r\n    for i=1,#self.getInputs()-1 do\r\n      self.removeInput(i)\r\n    end\r\n  end\r\nend\r\n\r\nfunction onObjectEnterScriptingZone(zone, obj)\r\n  if obj == self then\r\n    editMode = true\r\n    rotation = {0,0,0}\r\n    scale = {1/objectScale[1],0.25,1/objectScale[3]}\r\n    if updateInput ~= nil then\r\n      updateInput()\r\n    end\r\n  end\r\nend\r\n\r\nfunction onObjectLeaveContainer(container, obj)\r\n  if obj == self then\r\n    editMode = false\r\n    rotation = {0,0,180}\r\n    scale = {-1/objectScale[1],0.25,1/objectScale[3]}\r\n    if updateInput ~= nil then\r\n      updateInput()\r\n    end\r\n  end\r\nend\r\n\r\nfunction onObjectLeaveScriptingZone(zone, obj)\r\n  if obj == self then\r\n    editMode = false\r\n    rotation = {0,0,180}\r\n    scale = {-1/objectScale[1],0.25,1/objectScale[3]}\r\n    if updateInput ~= nil then\r\n      updateInput()\r\n    end\r\n  end\r\nend\r\n\r\nfunction onCollisionEnter(collision_info)\r\n  objectScale = self.getScale()\r\n  if self.is_face_down then\r\n    rotation = {0,0,0}\r\n    scale = {-1/objectScale[1],0.25,1/objectScale[3]}\r\n    if editMode then\r\n      rotation = {0,0,0}\r\n      scale = {1/objectScale[1],0.25,1/objectScale[3]}\r\n    end\r\n  else\r\n    rotation = {0,0,180}\r\n    scale = {-1/objectScale[1],0.25,1/objectScale[3]}\r\n    if editMode then\r\n      rotation = {0,0,0}\r\n      scale = {1/objectScale[1],0.25,1/objectScale[3]}\r\n    end\r\n  end\r\n  if updateInput ~= nil then\r\n    updateInput()\r\n  end\r\nend\r\nfunction onCollisionExit(collision_info)\r\n  if self.is_face_down then\r\n    rotation = {0,0,180}\r\n    scale = {-1/objectScale[1],0.25,1/objectScale[3]}\r\n    if editMode then\r\n      scale = {1/objectScale[1],0.25,1/objectScale[3]}\r\n      rotation = {0,0,0}\r\n    end\r\n  end\r\n  if updateInput ~= nil then\r\n    updateInput()\r\n  end\r\nend\r\nfunction onSave ()\r\n  self.script_state = JSON.encode({text=text, textAlign=textAlign, textSize=textSize, cardColor = cardColor, textColor = textColor, editMode = editMode})\r\nend\r\n\r\nfunction HextoRGB(hex)\r\n  -- Matching the characters in hexadecimal format to variables.\r\n  local red,green,blue=hex:match('(..)(..)(..)')\r\n  -- We divide by 255 because TTS doesn't like 0-255, it likes 0-1 instead.\r\n  red, green, blue = tonumber(red, 16)/255, tonumber(green, 16)/255, tonumber(blue, 16)/255\r\n  return {red, green, blue}\r\nend\r\n",
+      "LuaScriptState": "{\"cardColor\":\"FFFFFF\",\"editMode\":false,\"text\":\"Text goes here...\",\"textAlign\":2,\"textColor\":\"000000\",\"textSize\":100}",
+      "GUID": "bc6fae"
+    }
+  ],
+  "DecalPallet": [
+    {
+      "Name": "IDK",
+      "ImageURL": "https://api.tabletopsimulator.com/img/TSIcon.png",
+      "Size": 1.0
+    }
+  ],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": "v12.2.2"
+}

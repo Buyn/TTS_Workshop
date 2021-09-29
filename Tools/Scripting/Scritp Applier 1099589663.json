@@ -1,0 +1,1784 @@
+{
+  "SaveName": "Scritp Applier",
+  "GameMode": "Custom",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "8/3/2017 2:50:09 PM",
+  "Table": "Table_RPG",
+  "Sky": "Sky_Regal",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "",
+  "LuaScript": "--[[ Lua code. See documentation: http://berserk-games.com/knowledgebase/scripting/ --]]\n\n--[[ The OnLoad function. This is called after everything in the game save finishes loading.\nMost of your script code goes here. --]]\nfunction onload()\n    --[[ print('Onload!') --]]\nend\n\n--[[ The Update function. This is called once per frame. --]]\nfunction update ()\n    --[[ print('Update loop!') --]]\nend\n",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -15.1107731,
+          "posY": 4.81034231,
+          "posZ": -20.1076221,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 11.771986,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -30.2150211,
+          "posY": 4.81034231,
+          "posZ": 10.17524,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6579666,
+          "scaleY": 9.174497,
+          "scaleZ": 4.92121935
+        }
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 30.2511711,
+          "posY": 4.81034231,
+          "posZ": 9.59069252,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 11.65796,
+          "scaleY": 9.174497,
+          "scaleZ": 4.92121935
+        }
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 15.4749184,
+          "posY": 4.81034231,
+          "posZ": 19.8365288,
+          "rotX": 0.0,
+          "rotY": 179.8,
+          "rotZ": 0.0,
+          "scaleX": 11.7744608,
+          "scaleY": 9.174497,
+          "scaleZ": 4.872742
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 15.1961212,
+          "posY": 4.81034231,
+          "posZ": -20.1400986,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 11.7719679,
+          "scaleY": 9.17449951,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": -15.1927719,
+          "posY": 4.81034231,
+          "posZ": 19.787817,
+          "rotX": 0.0,
+          "rotY": 180.000778,
+          "rotZ": 0.0,
+          "scaleX": 11.7719679,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 30.1035728,
+          "posY": 4.81034231,
+          "posZ": -8.449126,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 11.65796,
+          "scaleY": 9.174497,
+          "scaleZ": 4.92121935
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -30.247818,
+          "posY": 4.81034231,
+          "posZ": -8.822588,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6579723,
+          "scaleY": 9.174497,
+          "scaleZ": 4.92121935
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "VectorLines": [],
+  "ObjectStates": [
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -2.45752883,
+        "posY": 0.959999859,
+        "posZ": -1.65917432,
+        "rotX": -2.656471E-06,
+        "rotY": 179.969284,
+        "rotZ": 4.399692E-06,
+        "scaleX": 2.0,
+        "scaleY": 1.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "ScriptDuper",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/832454253660774387/177505E6B1462AA355EB40344D1AE6BA3663127B/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 1,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "local PasserGuid =\"\"\r\nlocal RecieverGuid =\"\"\r\nlocal PasserBag\r\nlocal RecieverBag\r\nlocal ListenForPasser = false\r\nlocal ListerForReciever = false\r\nlocal ListenForScriptHolder = false\r\nlocal ReadyToClone = false\r\nlocal AddToExistingScript = false\r\nlocal quantity\r\nlocal RecieverExistingQuantity\r\nlocal Clone = false\r\nlocal LUAscript = \"\"\r\nfunction onload()\r\n  self.createButton({ click_function = 'LinkPasser',\r\n                        label = \"Link Bag with objects to get script\",\r\n                        function_owner = self,\r\n                        position = {-1.9, 0.18, -1},\r\n                        rotation = {0, 0, 0},\r\n                        scale ={1,1,1},\r\n                        width = 1600,\r\n                        height = 100,\r\n                        font_size = 100})\r\n\r\n                        self.createButton({ click_function = 'Clicked',\r\n                                              label = \"Passer Display\",\r\n                                              function_owner = self,\r\n                                              position = {0.5, 0.18, -1},\r\n                                              rotation = {0, 0, 0},\r\n                                              scale ={1,1,1},\r\n                                              width = 700,\r\n                                              height = 100,\r\n                                              font_size = 100})\r\n\r\n  self.createButton({ click_function = 'LinkReciever',\r\n                        label = \"Link Bag to hold objects \",\r\n                        function_owner = self,\r\n                        position = {-2, 0.18, 1},\r\n                        rotation = {0, 0, 0},\r\n                        scale ={1,1,1},\r\n                        width = 1600,\r\n                        height = 100,\r\n                        font_size = 100})\r\n\r\n                        self.createButton({ click_function = 'Clicked',\r\n                                              label = \"Reciever Display\",\r\n                                              function_owner = self,\r\n                                              position = {0.5, 0.18, 1},\r\n                                              rotation = {0, 0, 0},\r\n                                              scale ={1,1,1},\r\n                                              width = 800,\r\n                                              height = 100,\r\n                                              font_size = 100})\r\nself.createButton({ click_function = 'StartClone',\r\n                    label = \"Ready\",\r\n                    function_owner = self,\r\n                    position = {-2.5, 0.18, -0.5},\r\n                    rotation = {0, 0, 0},\r\n                    scale ={1,1,1},\r\n                    width = 1300,\r\n                    height = 100,\r\n                    color = {r=1,g=0,b=0},\r\n                    font_size = 100})\r\n\r\nself.createButton({ click_function = 'Clicked',\r\n                    label = \"0%\",\r\n                    function_owner = self,\r\n                    position = {-2.5, 0.18, 0},\r\n                    rotation = {0, 0, 0},\r\n                    scale ={1,1,1},\r\n                    width = 1300,\r\n                    height = 100,\r\n                    font_size = 100})\r\nself.createButton({ click_function = 'Reset',\r\n                    label = \"Reset\",\r\n                    function_owner = self,\r\n                    position = {-3.3, 0.18, 0.5},\r\n                    rotation = {0, 0, 0},\r\n                    scale ={1,1,1},\r\n                    width = 700,\r\n                    height = 100,\r\n                    color = {r=1,g=1,b=1},\r\n                    font_size = 100})\r\n                    self.createButton({ click_function = 'SetCloneStatus',\r\n                                        label = \"Clone?\",\r\n                                        function_owner = self,\r\n                                        position = {-1.9, 0.18, 0.5},\r\n                                        rotation = {0, 0, 0},\r\n                                        scale ={1,1,1},\r\n                                        width = 700,\r\n                                        height = 100,\r\n                                        color = {r=1,g=0,b=0},\r\n                                        font_size = 100})\r\n\r\n                                        self.createButton({ click_function = 'LinkScriptHolder',\r\n                                                              label = \"Link Object with Script \",\r\n                                                              function_owner = self,\r\n                                                              position = {-2, 0.18, 1.5},\r\n                                                              rotation = {0, 0, 0},\r\n                                                              scale ={1,1,1},\r\n                                                              width = 1600,\r\n                                                              height = 100,\r\n                                                              font_size = 100})\r\n\r\n                                                              self.createButton({ click_function = 'Clicked',\r\n                                                                                    label = \"Script Holder\",\r\n                                                                                    function_owner = self,\r\n                                                                                    position = {0.5, 0.18, 1.5},\r\n                                                                                    rotation = {0, 0, 0},\r\n                                                                                    scale ={1,1,1},\r\n                                                                                    width = 800,\r\n                                                                                    height = 100,\r\n                                                                                    font_size = 100})\r\nend\r\n\r\n\r\nfunction SetCloneStatus()\r\nif Clone == false then\r\nClone = true\r\nbutton_parameters ={}\r\nbutton_parameters.index = 7\r\nbutton_parameters.color = {r=0,g=1,b=0}\r\nself.editButton(button_parameters)\r\nelse\r\n  Clone = false\r\n  button_parameters ={}\r\n  button_parameters.index = 7\r\n  button_parameters.color = {r=1,g=0,b=0}\r\n  self.editButton(button_parameters)\r\nend\r\nend\r\n\r\nfunction LinkPasser()\r\n-- sets the guid of the passer and displays the name\r\n  ListenForPasser = true\r\n  ListenForReciever = false\r\n  ListenForScriptHolder = false\r\n  print(\"Drop The bag on the Inventory Cloner/Transfer\")\r\nend\r\nfunction LinkReciever()\r\n-- sets the guid of the Reciever and displays the name\r\nListenForPasser = false\r\nListenForReciever = true\r\nListenForScriptHolder = false\r\n  print(\"Drop The bag on the Inventory Cloner/Transfer\")\r\nend\r\nfunction LinkScriptHolder()\r\n  ListenForPasser = false\r\n  ListenForReciever = false\r\n  ListenForScriptHolder = true\r\n  print(\"Drop The object on the Inventory Cloner/Transfer\")\r\nend\r\n\r\nfunction onCollisionEnter(collision_info)\r\n if collision_info.collision_object.tag ~= 'Surface' then\r\n  if collision_info.collision_object.tag == 'Bag' then\r\n      if ListenForPasser == true then\r\n      PasserGuid = collision_info.collision_object.getGUID()\r\n      PasserBag = getObjectFromGUID(PasserGuid)\r\n      ListenForPasser = false\r\n      button_parameters ={}\r\n      button_parameters.index = 1\r\n      button_parameters.label = collision_info.collision_object.getName()\r\n      self.editButton(button_parameters)\r\n    --  print(PasserGuid)\r\n      end\r\n      if ListenForReciever == true then\r\n      RecieverGuid = collision_info.collision_object.getGUID()\r\n      RecieverBag= getObjectFromGUID(RecieverGuid)\r\n      button_parameters ={}\r\n      button_parameters.index = 3\r\n      button_parameters.label = collision_info.collision_object.getName()\r\n      self.editButton(button_parameters)\r\n      ListenForReciever = false\r\n      --print(RecieverGuid)\r\n      end\r\n    end\r\n  end\r\n  if ListenForScriptHolder == true then\r\n      LUAscript = collision_info.collision_object.getLuaScript()\r\n      print(LUAscript)\r\n      button_parameters ={}\r\n      button_parameters.index = 9\r\n      button_parameters.label = collision_info.collision_object.getName()\r\n      self.editButton(button_parameters)\r\n      ListenForScriptHolder = false\r\n  end\r\n    if PasserGuid ~= \"\" and RecieverGuid ~=\"\" and LUAscript ~=\"\" then\r\n      --  print(PasserGuid)\r\n    button_parameters ={}\r\n    button_parameters.index = 4\r\n    button_parameters.color = {r=0,g=1,b=0}\r\n    self.editButton(button_parameters)\r\n    ReadyToClone = true\r\n    end\r\nend\r\n\r\n\r\nfunction StartClone()\r\n  if ReadyToClone == true then\r\n    -- set it to false so we dont get multipel instances running at the same time\r\n    ReadyToClone = false\r\n    quantity = PasserBag.getQuantity()-1\r\n    RecieverExistingQuantity = RecieverBag.getQuantity()\r\n    startLuaCoroutine(self,'CloneInventory')\r\nend\r\nend\r\nfunction CloneInventory()\r\n\r\nparams={}\r\nparams.index = 0\r\n\r\nfor i =0,quantity do\r\n  -- check if our quantity in bag is more than 0\r\n  if PasserBag.getQuantity() >0 then\r\n\r\n  TheObject = PasserBag.takeObject(params)\r\n\r\n  coroutine.yield(0)\r\n\r\n  -- if we want to clone the itmes do it\r\n  if Clone == true then\r\n    PasserBag.putObject(TheObject.clone())\r\n  end\r\n  TheObject.setLuaScript(LUAscript)\r\n   RecieverBag.putObject(TheObject)\r\n  UpdatProgress()\r\nend\r\n\r\nend\r\n-- finished ready to start the coroutine again\r\n  ReadyToClone = true\r\nreturn 1\r\nend\r\nfunction UpdatProgress()\r\n  ReciverCount = RecieverBag.getQuantity() - RecieverExistingQuantity\r\n  PercentComplete = (ReciverCount / (quantity+1))*100\r\n\r\n  button_parameters ={}\r\n  button_parameters.index = 5\r\n  button_parameters.label = math.ceil(PercentComplete) ..\"%\"\r\n  self.editButton(button_parameters)\r\nend\r\nfunction Reset()\r\n   PasserGuid =\"\"\r\n   RecieverGuid =\"\"\r\n   PasserBag = nil\r\n   RecieverBag = nil\r\n   ListenForPasser = false\r\n   ListerForReciever = false\r\n   ReadyToClone = false\r\n   quantity = 0\r\n   Clone = false\r\n   LUAscript = \"\"\r\n   ListenForScriptHolder = false\r\n  button_parameters ={}\r\n  button_parameters.index = 1\r\n  button_parameters.label = \"Passer Display\"\r\n  self.editButton(button_parameters)\r\n  button_parameters ={}\r\n  button_parameters.index = 3\r\n  button_parameters.label = \"Reciever Display\"\r\n  self.editButton(button_parameters)\r\n  button_parameters ={}\r\n  button_parameters.index = 4\r\n  button_parameters.color = {r=1,g=0,b=0}\r\n  self.editButton(button_parameters)\r\n  button_parameters ={}\r\n  button_parameters.index = 5\r\n  button_parameters.label = 0 ..\"%\"\r\n  self.editButton(button_parameters)\r\n  button_parameters ={}\r\n  button_parameters.index = 7\r\n  button_parameters.color = {r=1,g=0,b=0}\r\n  self.editButton(button_parameters)\r\n  button_parameters ={}\r\n  button_parameters.index = 9\r\n  button_parameters.label =\"Script Holder\"\r\n  self.editButton(button_parameters)\r\nend\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n--Space\r\n",
+      "LuaScriptState": "",
+      "GUID": "fa5e9d"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 1.61070859,
+        "posY": 0.7749663,
+        "posZ": 2.931325,
+        "rotX": -2.389736E-06,
+        "rotY": 359.972015,
+        "rotZ": -6.96442555E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "SweetNewBag",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.8420081,
+        "g": 0.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "Number": 0,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "e12bda"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": -9.124224,
+        "posY": 0.7749659,
+        "posZ": 3.13017035,
+        "rotX": -2.35954167E-06,
+        "rotY": 0.00032624157,
+        "rotZ": -2.92985078E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "LameOldBag",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.7058823,
+        "g": 0.366520882,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "go_game_piece_white",
+          "Transform": {
+            "posX": 3.61070967,
+            "posY": 1.012992,
+            "posZ": 2.93132734,
+            "rotX": 357.8208,
+            "rotY": 0.118908338,
+            "rotZ": 354.8602,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.6617647,
+            "g": 0.6617647,
+            "b": 0.6617647
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "33c4f4"
+        },
+        {
+          "Name": "go_game_piece_white",
+          "Transform": {
+            "posX": 3.61070967,
+            "posY": 0.9985505,
+            "posZ": 2.93132758,
+            "rotX": 359.538666,
+            "rotY": 1.05007493,
+            "rotZ": 354.976654,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.6617647,
+            "g": 0.6617647,
+            "b": 0.6617647
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "373856"
+        },
+        {
+          "Name": "go_game_piece_white",
+          "Transform": {
+            "posX": 3.61070967,
+            "posY": 1.02424812,
+            "posZ": 2.93132782,
+            "rotX": 6.70717859,
+            "rotY": 358.453125,
+            "rotZ": 357.851135,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.6617647,
+            "g": 0.6617647,
+            "b": 0.6617647
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "641e1f"
+        },
+        {
+          "Name": "go_game_piece_white",
+          "Transform": {
+            "posX": 3.61070967,
+            "posY": 0.9894867,
+            "posZ": 2.93132758,
+            "rotX": 2.308724,
+            "rotY": 1.15609074,
+            "rotZ": 1.89598119,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.6617647,
+            "g": 0.6617647,
+            "b": 0.6617647
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "e3e3e7"
+        },
+        {
+          "Name": "go_game_piece_white",
+          "Transform": {
+            "posX": 3.61070967,
+            "posY": 1.00549817,
+            "posZ": 2.93132758,
+            "rotX": 2.8609302,
+            "rotY": 0.7346926,
+            "rotZ": 356.573364,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.6617647,
+            "g": 0.6617647,
+            "b": 0.6617647
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "794943"
+        },
+        {
+          "Name": "go_game_piece_white",
+          "Transform": {
+            "posX": 3.61070967,
+            "posY": 0.971768439,
+            "posZ": 2.93132758,
+            "rotX": 0.320120931,
+            "rotY": 0.7069536,
+            "rotZ": 1.518548,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.6617647,
+            "g": 0.6617647,
+            "b": 0.6617647
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "aec2a8"
+        },
+        {
+          "Name": "go_game_piece_white",
+          "Transform": {
+            "posX": 3.61070967,
+            "posY": 0.9702656,
+            "posZ": 2.93132758,
+            "rotX": 359.933319,
+            "rotY": 0.646644235,
+            "rotZ": 1.55161476,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.6617647,
+            "g": 0.6617647,
+            "b": 0.6617647
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "0bf467"
+        },
+        {
+          "Name": "go_game_piece_white",
+          "Transform": {
+            "posX": 3.61070967,
+            "posY": 0.9841596,
+            "posZ": 2.93132758,
+            "rotX": 1.07698989,
+            "rotY": 1.60614491,
+            "rotZ": 2.27885723,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.6617647,
+            "g": 0.6617647,
+            "b": 0.6617647
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "cf7eb5"
+        },
+        {
+          "Name": "go_game_piece_white",
+          "Transform": {
+            "posX": 3.61070967,
+            "posY": 1.0258863,
+            "posZ": 2.93132758,
+            "rotX": 4.391862,
+            "rotY": 359.6186,
+            "rotZ": 355.348358,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.6617647,
+            "g": 0.6617647,
+            "b": 0.6617647
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "bf7b2f"
+        },
+        {
+          "Name": "go_game_piece_white",
+          "Transform": {
+            "posX": 3.61070967,
+            "posY": 1.0072279,
+            "posZ": 2.93132734,
+            "rotX": 0.07832985,
+            "rotY": 359.8908,
+            "rotZ": 6.637823,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.6617647,
+            "g": 0.6617647,
+            "b": 0.6617647
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "2f0a7c"
+        },
+        {
+          "Name": "Die_4",
+          "Transform": {
+            "posX": 3.61070967,
+            "posY": 1.47349465,
+            "posZ": 2.93132758,
+            "rotX": 326.833344,
+            "rotY": 59.7727356,
+            "rotZ": 15.6113091,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.149030268,
+            "g": 0.301973075,
+            "b": 0.4431491
+          },
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "AltSound": true,
+          "MaterialIndex": 1,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "e15111"
+        },
+        {
+          "Name": "Die_4",
+          "Transform": {
+            "posX": 3.61070967,
+            "posY": 1.37602448,
+            "posZ": 2.93132758,
+            "rotX": 21.2749615,
+            "rotY": 273.9925,
+            "rotZ": 3.27956057,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.149030268,
+            "g": 0.301973075,
+            "b": 0.4431491
+          },
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "AltSound": true,
+          "MaterialIndex": 1,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "42d649"
+        },
+        {
+          "Name": "Die_4",
+          "Transform": {
+            "posX": 3.61070967,
+            "posY": 1.48939443,
+            "posZ": 2.93132734,
+            "rotX": 352.893555,
+            "rotY": 59.1978378,
+            "rotZ": 243.462,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.149030268,
+            "g": 0.301973075,
+            "b": 0.4431491
+          },
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "AltSound": true,
+          "MaterialIndex": 1,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "b145a2"
+        },
+        {
+          "Name": "Die_4",
+          "Transform": {
+            "posX": 3.61070967,
+            "posY": 1.54182363,
+            "posZ": 2.93132758,
+            "rotX": 44.65393,
+            "rotY": 272.7522,
+            "rotZ": 289.143555,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.149030268,
+            "g": 0.301973075,
+            "b": 0.4431491
+          },
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "AltSound": true,
+          "MaterialIndex": 1,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "2d29aa"
+        },
+        {
+          "Name": "Die_4",
+          "Transform": {
+            "posX": 3.61070967,
+            "posY": 1.27053738,
+            "posZ": 2.93132734,
+            "rotX": 280.171448,
+            "rotY": 29.8962841,
+            "rotZ": 354.9307,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.149030268,
+            "g": 0.301973075,
+            "b": 0.4431491
+          },
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "AltSound": true,
+          "MaterialIndex": 1,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "390918"
+        },
+        {
+          "Name": "Die_8",
+          "Transform": {
+            "posX": 3.61070967,
+            "posY": 1.567795,
+            "posZ": 2.93132758,
+            "rotX": 61.2354279,
+            "rotY": 310.2808,
+            "rotZ": 206.15564,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.149030268,
+            "g": 0.301973075,
+            "b": 0.4431491
+          },
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "AltSound": true,
+          "MaterialIndex": 1,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "c5bcfa"
+        },
+        {
+          "Name": "Die_8",
+          "Transform": {
+            "posX": 3.61070967,
+            "posY": 1.50951493,
+            "posZ": 2.93132758,
+            "rotX": 306.484,
+            "rotY": 283.5393,
+            "rotZ": 271.762482,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.149030268,
+            "g": 0.301973075,
+            "b": 0.4431491
+          },
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "AltSound": true,
+          "MaterialIndex": 1,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "e00dc8"
+        },
+        {
+          "Name": "Die_8",
+          "Transform": {
+            "posX": 3.61070967,
+            "posY": 1.35444617,
+            "posZ": 2.93132758,
+            "rotX": 12.20833,
+            "rotY": 78.9511261,
+            "rotZ": 352.1322,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.149030268,
+            "g": 0.301973075,
+            "b": 0.4431491
+          },
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "AltSound": true,
+          "MaterialIndex": 1,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "e1f4b1"
+        },
+        {
+          "Name": "Die_6",
+          "Transform": {
+            "posX": 3.61070967,
+            "posY": 1.26009262,
+            "posZ": 2.93132734,
+            "rotX": 296.850922,
+            "rotY": 43.2027245,
+            "rotZ": 111.4328,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.149030268,
+            "g": 0.301973075,
+            "b": 0.4431491
+          },
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "AltSound": true,
+          "MaterialIndex": 1,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "0a525d"
+        },
+        {
+          "Name": "Die_6",
+          "Transform": {
+            "posX": 3.61070967,
+            "posY": 1.333528,
+            "posZ": 2.93132758,
+            "rotX": 337.0109,
+            "rotY": 357.4164,
+            "rotZ": 223.791672,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.149030268,
+            "g": 0.301973075,
+            "b": 0.4431491
+          },
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "AltSound": true,
+          "MaterialIndex": 1,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "3993ed"
+        },
+        {
+          "Name": "Die_6",
+          "Transform": {
+            "posX": 3.61070967,
+            "posY": 1.27650523,
+            "posZ": 2.93132782,
+            "rotX": 15.48025,
+            "rotY": 60.778904,
+            "rotZ": 291.797852,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.149030268,
+            "g": 0.301973075,
+            "b": 0.4431491
+          },
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "AltSound": true,
+          "MaterialIndex": 1,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "8f1818"
+        },
+        {
+          "Name": "Die_12",
+          "Transform": {
+            "posX": 3.61070967,
+            "posY": 1.55732608,
+            "posZ": 2.93132758,
+            "rotX": 320.022858,
+            "rotY": 170.4796,
+            "rotZ": 217.221,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.149030268,
+            "g": 0.301973075,
+            "b": 0.4431491
+          },
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "AltSound": true,
+          "MaterialIndex": 1,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "f59fbf"
+        },
+        {
+          "Name": "Die_12",
+          "Transform": {
+            "posX": 3.61070967,
+            "posY": 1.24063325,
+            "posZ": 2.93132758,
+            "rotX": 275.3234,
+            "rotY": 60.12836,
+            "rotZ": 227.5035,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.149030268,
+            "g": 0.301973075,
+            "b": 0.4431491
+          },
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "AltSound": true,
+          "MaterialIndex": 1,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "7b2642"
+        },
+        {
+          "Name": "Die_12",
+          "Transform": {
+            "posX": 3.61070967,
+            "posY": 1.41645551,
+            "posZ": 2.93132758,
+            "rotX": 16.3314667,
+            "rotY": 115.26,
+            "rotZ": 352.227936,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.149030268,
+            "g": 0.301973075,
+            "b": 0.4431491
+          },
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "AltSound": true,
+          "MaterialIndex": 1,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "0fdf22"
+        },
+        {
+          "Name": "Die_20",
+          "Transform": {
+            "posX": 3.61070967,
+            "posY": 1.50519943,
+            "posZ": 2.93132758,
+            "rotX": 56.3029861,
+            "rotY": 128.235428,
+            "rotZ": 186.489609,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.149030268,
+            "g": 0.301973075,
+            "b": 0.4431491
+          },
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "AltSound": true,
+          "MaterialIndex": 1,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "0dca44"
+        },
+        {
+          "Name": "Die_20",
+          "Transform": {
+            "posX": 3.61070967,
+            "posY": 1.5804491,
+            "posZ": 2.93132758,
+            "rotX": 44.3621826,
+            "rotY": 18.7774162,
+            "rotZ": 112.01503,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.149030268,
+            "g": 0.301973075,
+            "b": 0.4431491
+          },
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "AltSound": true,
+          "MaterialIndex": 1,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "f48949"
+        },
+        {
+          "Name": "Die_10",
+          "Transform": {
+            "posX": 3.61070967,
+            "posY": 1.50037789,
+            "posZ": 2.93132758,
+            "rotX": 355.12738,
+            "rotY": 234.9531,
+            "rotZ": 57.0899277,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.149030268,
+            "g": 0.301973075,
+            "b": 0.4431491
+          },
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "AltSound": true,
+          "MaterialIndex": 1,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "3f0546"
+        },
+        {
+          "Name": "Die_10",
+          "Transform": {
+            "posX": 3.61070967,
+            "posY": 1.58514142,
+            "posZ": 2.93132758,
+            "rotX": 14.4695616,
+            "rotY": 317.969574,
+            "rotZ": 328.257782,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.149030268,
+            "g": 0.301973075,
+            "b": 0.4431491
+          },
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "AltSound": true,
+          "MaterialIndex": 1,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "ca2a37"
+        },
+        {
+          "Name": "Die_20",
+          "Transform": {
+            "posX": 3.61070967,
+            "posY": 1.47158122,
+            "posZ": 2.93132758,
+            "rotX": 68.2444839,
+            "rotY": 199.2728,
+            "rotZ": 284.277283,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.149030268,
+            "g": 0.301973075,
+            "b": 0.4431491
+          },
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "AltSound": true,
+          "MaterialIndex": 1,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "534f64"
+        },
+        {
+          "Name": "Die_10",
+          "Transform": {
+            "posX": 3.61070967,
+            "posY": 1.68269587,
+            "posZ": 2.93132758,
+            "rotX": 316.560272,
+            "rotY": 326.000031,
+            "rotZ": 139.321976,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.149030268,
+            "g": 0.301973075,
+            "b": 0.4431491
+          },
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "AltSound": true,
+          "MaterialIndex": 1,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "417b0d"
+        },
+        {
+          "Name": "Figurine_Card_Bot",
+          "Transform": {
+            "posX": 3.61070967,
+            "posY": 1.13961291,
+            "posZ": 2.93132758,
+            "rotX": 352.139923,
+            "rotY": 327.4269,
+            "rotZ": 359.101074,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.441176444,
+            "g": 0.441176444,
+            "b": 0.441176444
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "522414"
+        },
+        {
+          "Name": "Figurine_Zomblor",
+          "Transform": {
+            "posX": 3.61070967,
+            "posY": 1.25126171,
+            "posZ": 2.93132758,
+            "rotX": 42.1893044,
+            "rotY": 337.755646,
+            "rotZ": 29.9876728,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.367647022,
+            "g": 0.367647022,
+            "b": 0.367647022
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "86f08e"
+        },
+        {
+          "Name": "Figurine_Mara",
+          "Transform": {
+            "posX": 3.61070967,
+            "posY": 0.9771411,
+            "posZ": 2.93132758,
+            "rotX": 5.64364958,
+            "rotY": 44.3501778,
+            "rotZ": 338.826172,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.367647022,
+            "g": 0.367647022,
+            "b": 0.367647022
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "759a6c"
+        },
+        {
+          "Name": "Figurine_Sir_Loin",
+          "Transform": {
+            "posX": 3.61070967,
+            "posY": 1.19879889,
+            "posZ": 2.93132758,
+            "rotX": 12.812007,
+            "rotY": 341.703339,
+            "rotZ": 1.55799258,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "c82d22"
+        },
+        {
+          "Name": "Figurine_Kimi_Kat",
+          "Transform": {
+            "posX": 3.61070967,
+            "posY": 0.829084754,
+            "posZ": 2.93132758,
+            "rotX": 3.58309627,
+            "rotY": 317.567627,
+            "rotZ": 358.584473,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.536764741,
+            "g": 0.536764741,
+            "b": 0.536764741
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "7b8939"
+        },
+        {
+          "Name": "Figurine_Knil",
+          "Transform": {
+            "posX": -6.633038,
+            "posY": 3.02561641,
+            "posZ": 2.88015652,
+            "rotX": 358.194824,
+            "rotY": 329.891357,
+            "rotZ": 0.8839327,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.367647022,
+            "g": 0.367647022,
+            "b": 0.367647022
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "XmlUI": "",
+          "LuaScript": "--EMPTY\r\n",
+          "LuaScriptState": "",
+          "GUID": "f1a99e"
+        }
+      ],
+      "GUID": "40d2f3"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -3.98054314,
+        "posY": 1.45999992,
+        "posZ": 3.13661957,
+        "rotX": 3.25304131E-06,
+        "rotY": 0.003131075,
+        "rotZ": -6.97813334E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Script Cube",
+      "Description": "prints name onLoad",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.06271777,
+        "g": 0.5714286,
+        "b": 0.338820726
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "function one()print(self.name)end\r\n\r\nfunction onLoad(save_state)\r\n  one()\r\nend\r\n",
+      "LuaScriptState": "",
+      "GUID": "eb400f"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": 4.25661945,
+        "posY": 1.45999992,
+        "posZ": -1.56055939,
+        "rotX": 3.213074E-07,
+        "rotY": 0.00350835267,
+        "rotZ": -5.208468E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "EmptyScriptCube",
+      "Description": "Empty to clear Scripts ",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "--EMPTY\r\n",
+      "LuaScriptState": "",
+      "GUID": "9d4cbd"
+    }
+  ],
+  "DecalPallet": [],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": ""
+}

@@ -1,0 +1,1303 @@
+{
+  "SaveName": "Battlestations - Used Marker Removal Button",
+  "GameMode": "Custom",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "3/11/2019 3:09:44 PM",
+  "Table": "Table_Custom",
+  "TableURL": "http://cloud-3.steamusercontent.com/ugc/950724431495404463/42C891AC2CF45668EF535F57A4A847F0D2C66C20/",
+  "Sky": "Sky_Field",
+  "SkyURL": "http://i.imgur.com/AAcxVDL.jpg",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
+  "LuaScript": "--[[ Lua code. See documentation: https://api.tabletopsimulator.com/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate()\n    --[[ print('onUpdate loop!') --]]\nend",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": -60.0000076,
+          "posY": -6.015377,
+          "posZ": -15.0,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 15.6869268,
+          "scaleY": 5.187011,
+          "scaleZ": 10.5437164
+        }
+      },
+      {
+        "Color": "Brown",
+        "Transform": {
+          "posX": 60.0000076,
+          "posY": -6.015377,
+          "posZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 15.6859941,
+          "scaleY": 5.187011,
+          "scaleZ": 10.5432205
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": -13.8164587,
+          "posY": -6.057052,
+          "posZ": -40.0984421,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 15.7800007,
+          "scaleY": 5.187011,
+          "scaleZ": 10.4287987
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": 5.0,
+          "posY": -6.015377,
+          "posZ": -40.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 15.7800007,
+          "scaleY": 5.187011,
+          "scaleZ": 10.4287987
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": -15.0000019,
+          "posY": -6.015377,
+          "posZ": 40.0,
+          "rotX": 0.0,
+          "rotY": 180.0,
+          "rotZ": 0.0,
+          "scaleX": 15.7800007,
+          "scaleY": 5.187011,
+          "scaleZ": 10.4287987
+        }
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 5.0,
+          "posY": -6.015377,
+          "posZ": 40.0,
+          "rotX": 0.0,
+          "rotY": 180.0,
+          "rotZ": 0.0,
+          "scaleX": 15.7800007,
+          "scaleY": 5.187011,
+          "scaleZ": 10.4287987
+        }
+      },
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -34.76886,
+          "posY": -6.057052,
+          "posZ": -40.2136154,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 15.7800007,
+          "scaleY": 5.187011,
+          "scaleZ": 10.4287987
+        }
+      },
+      {
+        "Color": "Teal",
+        "Transform": {
+          "posX": -35.0,
+          "posY": -6.015377,
+          "posZ": 40.0,
+          "rotX": 0.0,
+          "rotY": 180.0,
+          "rotZ": 0.0,
+          "scaleX": 15.7800007,
+          "scaleY": 5.187011,
+          "scaleZ": 10.4287987
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -60.0000076,
+          "posY": -7.01537657,
+          "posZ": 15.0,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 15.6867018,
+          "scaleY": 5.187011,
+          "scaleZ": 10.5436039
+        }
+      },
+      {
+        "Color": "Black",
+        "Transform": {
+          "posX": 54.6603432,
+          "posY": 2.10368729,
+          "posZ": 46.27393,
+          "rotX": 0.0,
+          "rotY": -3.33959761E-05,
+          "rotZ": 0.0,
+          "scaleX": 36.9921761,
+          "scaleY": 7.0,
+          "scaleZ": 15.63714
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true
+  },
+  "ObjectStates": [
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 4.961217,
+        "posZ": 0.0,
+        "rotX": 3.0336123E-06,
+        "rotY": 180.000046,
+        "rotZ": -3.48887681E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "UMR",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://i.imgur.com/kxD7CdS.png",
+        "ImageSecondaryURL": "https://i.imgur.com/2A7ipod.png",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 2,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "function onload()\r\nself.createButton({click_function = \"removeUsedMarkers\", function_owner = self, label = \"X\", position = {0.0, 0.0, 0.0}, scale = {1.8, 1.8, 1.8}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Remove Used Markers\"})\r\nend\r\n\r\nfunction removeUsedMarkers()\r\n  for _,obj in ipairs(getAllObjects()) do\r\n           if string.lower(obj.getName()) == \"used\" then\r\n               obj.destruct()\r\n           end\r\n         end\r\n       end\r\n",
+      "LuaScriptState": "",
+      "GUID": "5eb8c8"
+    },
+    {
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": 9.552876,
+        "posY": 0.943,
+        "posZ": 6.9061985,
+        "rotX": 9.088109E-07,
+        "rotY": 0.00121504767,
+        "rotZ": 5.024757E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.3058885,
+        "g": 0.372555166,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 28.2500172,
+            "posY": 3.036079,
+            "posZ": 29.24972,
+            "rotX": 0.0324046351,
+            "rotY": -0.00127064623,
+            "rotZ": 0.003129224,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "USED",
+          "Description": "+3 Difficulty",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1004771425863759135/FF3D35EB3BE15194DE33F8D3EDBE3ED9E49CFBDC/",
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1004771425863736260/10176EA475B6024F601AD5D79BC0AE8598C884FF/",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 1,
+            "CastShadows": true
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "aea3bd"
+        }
+      ],
+      "GUID": "a4577e"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 9.532789,
+        "posY": 0.960000753,
+        "posZ": -2.64725184,
+        "rotX": 9.187782E-07,
+        "rotY": 180.012833,
+        "rotZ": 3.16273265E-08,
+        "scaleX": 3.0,
+        "scaleY": 1.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "Replicator pg2",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://i.imgur.com/NxO52VV.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "page = 2\r\nmaxpage = 8\r\nfunction onload()\r\nself.createButton({click_function = \"index\", index = 0, function_owner = self, label = page, position = {0.25, 0.2, 0.85}, scale = {0.5, 0.5, 0.5}, width = 0, height = 0, font_size = 250, font_color={1,1,1,1}, tooltip = \"Page\"})\r\nself.createButton({click_function = \"pagedn\", index = 1, function_owner = self, label = \"1\", position = {0.75, 0.1, 0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Prev\"})\r\nself.createButton({click_function = \"pageup\", index = 2, function_owner = self, label = \"2\", position = {1.25, 0.1, 0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Next\"})\r\ncreatePage()\r\nend\r\n\r\nfunction pagedn() print(page) self.setState(page-1) end\r\nfunction pageup() print(page) self.setState(page+1) end\r\n--function pageup()  page=page+1  if page > maxpage then page = 1 end print(\"Replicator page \" .. page)  self.editButton({index=0, label=page}) changepage() end\r\n--function pagedn()  page=page-1  if page < 1 then page = maxpage end print(\"Replicator page \" .. page)  self.editButton({index=0, label=page}) changepage() end\r\n\r\n--function deletePage()\r\n--end\r\n\r\nfunction createPage()\r\nself.createButton({click_function = \"spawn1\", function_owner = self, label = \"3\", position = {0.25, 0.1, -0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Used\"})\r\nself.createButton({click_function = \"spawn2\", function_owner = self, label = \"4\", position = {0.75, 0.1, -0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Damage\"})\r\nself.createButton({click_function = \"spawn3\", function_owner = self, label = \"5\", position = {1.25, 0.1, -0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Configure\"})\r\nself.createButton({click_function = \"spawn4\", function_owner = self, label = \"6\", position = {1.75, 0.1, -0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Program\"})\r\nself.createButton({click_function = \"spawn5\", function_owner = self, label = \"7\", position = {0.25, 0.1, -0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Prepare\"})\r\nself.createButton({click_function = \"spawn6\", function_owner = self, label = \"8\", position = {0.75, 0.1, -0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Overwatch\"})\r\nself.createButton({click_function = \"spawn7\", function_owner = self, label = \"9\", position = {1.25, 0.1, -0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Fire\"})\r\nself.createButton({click_function = \"spawn8\", function_owner = self, label = \"a\", position = {1.75, 0.1, -0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Upgrade\"})\r\nself.createButton({click_function = \"spawn9\", function_owner = self, label = \"b\", position = {0.25, 0.1, 0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Fighter\"})\r\nself.createButton({click_function = \"spawn10\", function_owner = self, label = \"c\", position = {0.75, 0.1, 0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Mine\"})\r\nself.createButton({click_function = \"spawn11\", function_owner = self, label = \"d\", position = {1.25, 0.1, 0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Star\"})\r\nself.createButton({click_function = \"spawn12\", function_owner = self, label = \"e\", position = {1.75, 0.1, 0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Planet adw\"})\r\nself.createButton({click_function = \"pgindex\", function_owner = self, label = \"Index\", position = {1.75, 0.2, 0.75}, scale = {0.5, 0.5, 0.5}, width = 0, height = 0, font_size = 160, font_color = {1,1,1,1}, tooltip = \"Index\"})\r\nself.createButton({click_function = \"pgindex\", function_owner = self, label = \"f\", position = {1.75, 0.1, 0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"Index\"})\r\n\r\nend\r\n\r\nfunction pgindex() self.setState(maxpage) end\r\n\r\n\r\n\r\nfunction spawn1() --used\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Tile',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=0.5, y=1, z=0.5},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    image = \"https://i.imgur.com/kxD7CdS.png\",\r\n    image_bottom = \"https://i.imgur.com/2A7ipod.png\",\r\n    type = 3,\r\n    thickness = 0.1,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setName(\"Used\")\r\nend\r\n\r\n\r\nfunction spawn2() --damaged\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Tile',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=0.5, y=1, z=0.5},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    image = \"https://i.imgur.com/y9AyKj2.png\",\r\n    type = 3,\r\n    thickness = 0.2,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint({1,0,0,1})\r\nend\r\n\r\n\r\nfunction spawn3() --configuration\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Tile',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=0.5, y=1, z=0.5},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    image = \"https://i.imgur.com/PmCmQfl.png\",\r\n    image_bottom = \"https://i.imgur.com/PpOLnR5.png\",\r\n    type = 3,\r\n    thickness = 0.2,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint({0.4,0.4,1,1})\r\nend\r\n\r\n\r\nfunction spawn4() --Program\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Tile',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=0.5, y=1, z=0.5},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    image = \"https://i.imgur.com/D5BFVjB.png\",\r\n    --image_bottom = \"https://i.imgur.com/PpOLnR5.png\",\r\n    type = 3,\r\n    thickness = 0.2,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint({0.2,1,0.2,1})\r\nend\r\n\r\n\r\nfunction spawn5() --Prepare\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Tile',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=0.5, y=1, z=0.5},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    image = \"https://i.imgur.com/pzMaLiw.png\",\r\n    image_bottom = \"https://i.imgur.com/HOWDmld.png\",\r\n    type = 1,\r\n    thickness = 0.2,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint({0.6,0.6,0.6,1})\r\nend\r\n\r\n\r\nfunction spawn6() --Overwatch\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Tile',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=0.5, y=1, z=0.5},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    image = \"https://i.imgur.com/Gtqpn3g.png\",\r\n    --image_bottom = \"https://i.imgur.com/HOWDmld.png\",\r\n    type = 1,\r\n    thickness = 0.2,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint({0.6,0.6,0.6,1})\r\nend\r\n\r\n\r\nfunction spawn7() --fire\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Assetbundle',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=0.1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    assetbundle = \"https://drive.google.com/uc?export=download&id=0BxvLXJFgtJJ8dnZYOHE2SnJOX1k\",\r\n    --image_bottom = \"https://i.imgur.com/HOWDmld.png\",\r\n    type = 0,\r\n    material = 1,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.AssetBundle.playLoopingEffect(2)\r\nend\r\n\r\nfunction spawn8() --Upgrade\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Tile',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=0.5, y=1, z=0.5},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    image = \"https://i.imgur.com/pQDUSES.png\",\r\n    --image_bottom = \"https://i.imgur.com/HOWDmld.png\",\r\n    type = 2,\r\n    thickness = 0.2,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint({0.4,0.4,1,1})\r\nend\r\n\r\n\r\nfunction spawn9() --fighter\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+3,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1.5, y=1, z=1.5},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/1004771069904331659/5966B9333DB1B23272F7F5C736C23ED144D7F8A5/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/967616059748912163/706F2DCB160DFCD455616DA015F4253AFF341A95/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint({1,0.4,0.4,1})\r\nend\r\n\r\n\r\nfunction spawn10() --mine\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+2,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1.5, y=1.5, z=1.5},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/1004771069915424703/6CA08E37CDACE1EF17888D179C17D304292723DA/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/967616059748912163/706F2DCB160DFCD455616DA015F4253AFF341A95/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint({0.4,0.4,1,1})\r\nend\r\n\r\n\r\nfunction spawn11() --star\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Assetbundle',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    assetbundle = \"http://cloud-3.steamusercontent.com/ugc/967615741397066906/7B9E1FFE605F5A29900BE050D26DEEEFAD956D85/\",\r\n    --image_bottom = \"https://i.imgur.com/HOWDmld.png\",\r\n    type = 0,\r\n    material = 1,\r\n  }\r\n  object.setCustomObject(params)\r\nend\r\n\r\n\r\nfunction spawn12() --planet earth\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Assetbundle',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    assetbundle = \"http://cloud-3.steamusercontent.com/ugc/967615741397119040/FF211AC4C317DFDE919F0ADF1FC4A53AD6F2F98E/\",\r\n    --image_bottom = \"https://i.imgur.com/HOWDmld.png\",\r\n    type = 0,\r\n    material = 1,\r\n  }\r\n  object.setCustomObject(params)\r\nend",
+      "LuaScriptState": "",
+      "GUID": "4c2d12",
+      "States": {
+        "1": {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 0.75,
+            "posY": 0.9600002,
+            "posZ": 16.75,
+            "rotX": -2.21116761E-06,
+            "rotY": 180.012878,
+            "rotZ": 5.840959E-07,
+            "scaleX": 3.0,
+            "scaleY": 1.0,
+            "scaleZ": 3.0
+          },
+          "Nickname": "Replicator pg1",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/zrU8QDf.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 0,
+              "Thickness": 0.2,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "page = 1\r\nmaxpage = 8\r\nfunction onload()\r\nself.createButton({click_function = \"index\", index = 0, function_owner = self, label = page, position = {0.25, 0.2, 0.85}, scale = {0.5, 0.5, 0.5}, width = 0, height = 0, font_size = 250, font_color={1,1,1,1}, tooltip = \"Page\"})\r\nself.createButton({click_function = \"pagedn\", index = 1, function_owner = self, label = \"1\", position = {0.75, 0.1, 0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"Prev\"})\r\nself.createButton({click_function = \"pageup\", index = 2, function_owner = self, label = \"2\", position = {1.25, 0.1, 0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"Next\"})\r\ncreatePage()\r\nend\r\n\r\nfunction pagedn() self.setState(maxpage) end\r\nfunction pageup() self.setState(page+1) end\r\n\r\n--function pageup()  page=page+1  if page > maxpage then page = 1 end print(\"Replicator page \" .. page)  self.editButton({index=0, label=page}) changepage() end\r\n--function pagedn()  page=page-1  if page < 1 then page = maxpage end print(\"Replicator page \" .. page)  self.editButton({index=0, label=page}) changepage() end\r\n\r\n--function deletePage()\r\n--end\r\n\r\nfunction createPage()\r\nself.createButton({click_function = \"spawn1\", function_owner = self, label = \"3\", position = {0.25, 0.1, -0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"Cannon\"})\r\nself.createButton({click_function = \"spawn2\", function_owner = self, label = \"4\", position = {0.75, 0.1, -0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"Cargo\"})\r\nself.createButton({click_function = \"spawn3\", function_owner = self, label = \"5\", position = {1.25, 0.1, -0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"Cloak\"})\r\nself.createButton({click_function = \"spawn4\", function_owner = self, label = \"6\", position = {1.75, 0.1, -0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"Engine\"})\r\nself.createButton({click_function = \"spawn5\", function_owner = self, label = \"7\", position = {0.25, 0.1, -0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"Helm\"})\r\nself.createButton({click_function = \"spawn6\", function_owner = self, label = \"8\", position = {0.75, 0.1, -0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"HD\"})\r\nself.createButton({click_function = \"spawn7\", function_owner = self, label = \"9\", position = {1.25, 0.1, -0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"LS\"})\r\nself.createButton({click_function = \"spawn8\", function_owner = self, label = \"a\", position = {1.75, 0.1, -0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"Mine\"})\r\nself.createButton({click_function = \"spawn9\", function_owner = self, label = \"b\", position = {0.25, 0.1, 0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"Missile\"})\r\nself.createButton({click_function = \"spawn10\", function_owner = self, label = \"c\", position = {0.75, 0.1, 0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"Science\"})\r\nself.createButton({click_function = \"spawn11\", function_owner = self, label = \"d\", position = {1.25, 0.1, 0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"Med\"})\r\nself.createButton({click_function = \"spawn12\", function_owner = self, label = \"e\", position = {1.75, 0.1, 0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"Teleport\"})\r\nself.createButton({click_function = \"pgindex\", function_owner = self, label = \"Index\", position = {1.75, 0.2, 0.75}, scale = {0.5, 0.5, 0.5}, width = 0, height = 0, font_size = 160, font_color = {1,1,1,1}, tooltip = \"Index\"})\r\nself.createButton({click_function = \"pgindex\", function_owner = self, label = \"f\", position = {1.75, 0.1, 0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"Index\"})\r\n\r\nend\r\n\r\nfunction pgindex() self.setState(maxpage) end\r\n\r\n\r\n\r\n\r\nfunction spawn1() --Cannon\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Tile',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=2.48, y=1, z=2.48},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    image = \"http://cloud-3.steamusercontent.com/ugc/957479782091420328/A92177A10BAB2109AF126C40A9026731046FFF32/\",\r\n    image_bottom = \"http://cloud-3.steamusercontent.com/ugc/956354469471228723/AAD0A75AD9780E06B715041F5B8360E7F8CCBE89/\",\r\n    type = 0,\r\n    thickness = 0.1,\r\n  }\r\n  object.setCustomObject(params)\r\nend\r\n\r\n\r\nfunction spawn2() --Cargo\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Tile',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=2.48, y=1, z=2.48},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    image = \"http://cloud-3.steamusercontent.com/ugc/957479782091454330/B552290D117AA6CE63B6E2C24900AB469B870856/\",\r\n    image_bottom = \"http://cloud-3.steamusercontent.com/ugc/956354469471390738/7F2383D6F02B9C843A4C6731749D31FBFCB49633/\",\r\n    type = 0,\r\n    thickness = 0.1,\r\n  }\r\n  object.setCustomObject(params)\r\nend\r\n\r\n\r\nfunction spawn3() --Cloak\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Tile',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=2.48, y=1, z=2.48},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    image = \"http://cloud-3.steamusercontent.com/ugc/957479782091455632/20E25CEF02196CB60DFF8B442970F0FDADABB920/\",\r\n    image_bottom = \"http://cloud-3.steamusercontent.com/ugc/956354469471395095/8A73ADEF82F539105B2957518080586158033C5F/\",\r\n    type = 0,\r\n    thickness = 0.1,\r\n  }\r\n  object.setCustomObject(params)\r\nend\r\n\r\n\r\nfunction spawn4() --Engine\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Tile',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=2.48, y=1, z=2.48},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    image = \"http://cloud-3.steamusercontent.com/ugc/957479782091457057/53E106C0939DBF2D37D6F1400FD9909B487D3C9D/\",\r\n    image_bottom = \"http://cloud-3.steamusercontent.com/ugc/956354469471386389/34FB0EE81672837B7E4F79F7833D33FD76C9F15C/\",\r\n    type = 0,\r\n    thickness = 0.1,\r\n  }\r\n  object.setCustomObject(params)\r\nend\r\n\r\n\r\nfunction spawn5() --Helm\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Tile',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=2.48, y=1, z=2.48},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    image = \"http://cloud-3.steamusercontent.com/ugc/957479782091457803/07B16B14B1F1EF262C9DEBAF6E17A803BACA8227/\",\r\n    image_bottom = \"http://cloud-3.steamusercontent.com/ugc/956354469471389243/CC2D87E3B281738982AF45CE7A35490EEE141F37/\",\r\n    type = 0,\r\n    thickness = 0.1,\r\n  }\r\n  object.setCustomObject(params)\r\nend\r\n\r\n\r\nfunction spawn6() --HD\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Tile',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=2.48, y=1, z=2.48},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    image = \"http://cloud-3.steamusercontent.com/ugc/957479782091458738/0243B4FEC450BC4F58F05CCBF97422A6DF059191/\",\r\n    image_bottom = \"http://cloud-3.steamusercontent.com/ugc/956354469471397920/822043512980E7B38EB98F73A76D403B976190C9/\",\r\n    type = 0,\r\n    thickness = 0.1,\r\n  }\r\n  object.setCustomObject(params)\r\nend\r\n\r\n\r\nfunction spawn7() --LS\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Tile',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=2.48, y=1, z=2.48},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    image = \"http://cloud-3.steamusercontent.com/ugc/957479782091459536/3A443A26CF01E70ADF52A1E190BCB62CBBC134CA/\",\r\n    image_bottom = \"http://cloud-3.steamusercontent.com/ugc/956354469471391584/898C589986BA24221DD57863CE82F5058095E5B1/\",\r\n    type = 0,\r\n    thickness = 0.1,\r\n  }\r\n  object.setCustomObject(params)\r\nend\r\n\r\n\r\nfunction spawn8() --Mine\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Tile',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=2.48, y=1, z=2.48},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    image = \"http://cloud-3.steamusercontent.com/ugc/957479782091460615/0537D9275A6966D5F6E5A55BFF46B1ABCCC7129C/\",\r\n    image_bottom = \"http://cloud-3.steamusercontent.com/ugc/956354469471388153/F5EC78D15669B5937734D3887294BE346DF583D8/\",\r\n    type = 0,\r\n    thickness = 0.1,\r\n  }\r\n  object.setCustomObject(params)\r\nend\r\n\r\n\r\nfunction spawn9() --Missile\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Tile',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=2.48, y=1, z=2.48},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    image = \"http://cloud-3.steamusercontent.com/ugc/957479782091461753/87BA03C8706EE42A60C7CA1B0A6F3EAC4944EE4F/\",\r\n    image_bottom = \"http://cloud-3.steamusercontent.com/ugc/956354469471385213/CEF136F57799705F7F1BABFF12EF328BF19F58E1/\",\r\n    type = 0,\r\n    thickness = 0.1,\r\n  }\r\n  object.setCustomObject(params)\r\nend\r\n\r\n\r\nfunction spawn10() --Science\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Tile',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=2.48, y=1, z=2.48},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    image = \"http://cloud-3.steamusercontent.com/ugc/957479782091462679/0FFAB7ECE030B2F58C7E9AC85008B99F4D1D781E/\",\r\n    image_bottom = \"http://cloud-3.steamusercontent.com/ugc/956354469471421036/BA1C949EFAAFD85C77D0213DA8840DA66AE6E998/\",\r\n    type = 0,\r\n    thickness = 0.1,\r\n  }\r\n  object.setCustomObject(params)\r\nend\r\n\r\n\r\nfunction spawn11() --Sickbay\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Tile',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=2.48, y=1, z=2.48},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    image = \"http://cloud-3.steamusercontent.com/ugc/957479782091463602/9930E16CC4CB72D8C45ACA2354C61AB25F8A8A34/\",\r\n    image_bottom = \"http://cloud-3.steamusercontent.com/ugc/956354469471393591/AFA549EF873635C5D0B1D5E24939745DF538223F/\",\r\n    type = 0,\r\n    thickness = 0.1,\r\n  }\r\n  object.setCustomObject(params)\r\nend\r\n\r\n\r\nfunction spawn12() --Teleporter\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Tile',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=2.48, y=1, z=2.48},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    image = \"http://cloud-3.steamusercontent.com/ugc/957479782091464226/BEEBA5B6D99C1C21ADFD72AAF09F51F1AA34F1EB/\",\r\n    image_bottom = \"http://cloud-3.steamusercontent.com/ugc/956354469471396245/802720959C577A4B87AE9ABC21572A95C024657D/\",\r\n    type = 0,\r\n    thickness = 0.1,\r\n  }\r\n  object.setCustomObject(params)\r\nend\r\n",
+          "LuaScriptState": "",
+          "GUID": "d815a4"
+        },
+        "4": {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 0.75,
+            "posY": 0.9600002,
+            "posZ": 16.75,
+            "rotX": -2.21116761E-06,
+            "rotY": 180.012878,
+            "rotZ": 5.840959E-07,
+            "scaleX": 3.0,
+            "scaleY": 1.0,
+            "scaleZ": 3.0
+          },
+          "Nickname": "Replicator pg4",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/8OVvbNR.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 0,
+              "Thickness": 0.2,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "page = 4\r\nmaxpage = 8\r\nfunction onload()\r\nself.createButton({click_function = \"index\", index = 0, function_owner = self, label = page, position = {0.25, 0.2, 0.85}, scale = {0.5, 0.5, 0.5}, width = 0, height = 0, font_size = 250, font_color={1,1,1,1}, tooltip = \"Page\"})\r\nself.createButton({click_function = \"pagedn\", index = 1, function_owner = self, label = \"1\", position = {0.75, 0.1, 0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Prev\"})\r\nself.createButton({click_function = \"pageup\", index = 2, function_owner = self, label = \"2\", position = {1.25, 0.1, 0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Next\"})\r\ncreatePage()\r\nend\r\n\r\nfunction pagedn() print(page) self.setState(page-1) end\r\nfunction pageup() print(page)\r\n  if page == maxpage then self.setState(1) else self.setState(page+1) end\r\nend\r\n--function pageup()  page=page+1  if page > maxpage then page = 1 end print(\"Replicator page \" .. page)  self.editButton({index=0, label=page}) changepage() end\r\n--function pagedn()  page=page-1  if page < 1 then page = maxpage end print(\"Replicator page \" .. page)  self.editButton({index=0, label=page}) changepage() end\r\n\r\n--function deletePage()\r\n--end\r\n\r\nfunction createPage()\r\nself.createButton({click_function = \"spawn1\", function_owner = self, label = \"3\", position = {0.25, 0.1, -0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Power Armor\"})\r\nself.createButton({click_function = \"spawn2\", function_owner = self, label = \"4\", position = {0.75, 0.1, -0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Bot\"})\r\nself.createButton({click_function = \"spawn3\", function_owner = self, label = \"5\", position = {1.25, 0.1, -0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Blootian\"})\r\nself.createButton({click_function = \"spawn4\", function_owner = self, label = \"6\", position = {1.75, 0.1, -0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Canosian\"})\r\nself.createButton({click_function = \"spawn5\", function_owner = self, label = \"7\", position = {0.25, 0.1, -0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Diploid\"})\r\nself.createButton({click_function = \"spawn6\", function_owner = self, label = \"8\", position = {0.75, 0.1, -0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Human (male)\"})\r\nself.createButton({click_function = \"spawn7\", function_owner = self, label = \"9\", position = {1.25, 0.1, -0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Human (female)\"})\r\nself.createButton({click_function = \"spawn8\", function_owner = self, label = \"a\", position = {1.75, 0.1, -0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Kerbite\"})\r\nself.createButton({click_function = \"spawn9\", function_owner = self, label = \"b\", position = {0.25, 0.1, 0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Fungaloid\"})\r\nself.createButton({click_function = \"spawn10\", function_owner = self, label = \"c\", position = {0.75, 0.1, 0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Tentac\"})\r\nself.createButton({click_function = \"spawn11\", function_owner = self, label = \"d\", position = {1.25, 0.1, 0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Silicoid\"})\r\nself.createButton({click_function = \"spawn12\", function_owner = self, label = \"e\", position = {1.75, 0.1, 0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Trundlian\"})\r\nself.createButton({click_function = \"pgindex\", function_owner = self, label = \"Index\", position = {1.75, 0.2, 0.75}, scale = {0.5, 0.5, 0.5}, width = 0, height = 0, font_size = 160, font_color = {1,1,1,1}, tooltip = \"Index\"})\r\nself.createButton({click_function = \"pgindex\", function_owner = self, label = \"f\", position = {1.75, 0.1, 0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"Index\"})\r\n\r\nend\r\n\r\nfunction pgindex() self.setState(maxpage) end\r\n\r\n\r\n\r\nfunction spawn1(obj, color, alt_click) --power armor\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/954104002476322687/917112430298FF370C1E3F15E52E942FC60FB508/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/1004771069908980106/5B79587E5AECC3DFC3AADA55B4C6961760E6E9DF/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint(color)\r\n  object.setVar('hl', color)\r\n  object.setVar('hero', true)\r\nend\r\n\r\nfunction spawn2(obj, color, alt_click) --bot\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/954103694725392206/4FD3F2525394A3696238D05453BEBB0DD71F40C4/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/1004771069908980106/5B79587E5AECC3DFC3AADA55B4C6961760E6E9DF/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint(color)\r\n  object.setVar('hl', color)\r\n  object.setVar('hero', true)\r\nend\r\n\r\nfunction spawn3(obj, color, alt_click) --blootian\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/967615741397353201/6653A3A9B70008584CCE8BB494B0D943E0252952/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/1004771069908980106/5B79587E5AECC3DFC3AADA55B4C6961760E6E9DF/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint(color)\r\n  object.setVar('hl', color)\r\n  object.setVar('hero', true)\r\nend\r\n\r\nfunction spawn4(obj, color, alt_click) --canosian\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/954103694725393129/51AC1F6CC6FE9EC4228170E1E70592E01F5E1CC7/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/1004771069908980106/5B79587E5AECC3DFC3AADA55B4C6961760E6E9DF/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint(color)\r\n  object.setVar('hl', color)\r\n  object.setVar('hero', true)\r\nend\r\n\r\nfunction spawn5(obj, color, alt_click) --diploid\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/954103694725429278/EDF9853EB166418380C5E0AD0DF72903FCF31D45/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/1004771069908980106/5B79587E5AECC3DFC3AADA55B4C6961760E6E9DF/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint(color)\r\n  object.setVar('hl', color)\r\n  object.setVar('hero', true)\r\nend\r\n\r\nfunction spawn6(obj, color, alt_click) --human male\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/954104002476300277/1352927A9DF8F49D544F6DBB9F554F3B948C83B5/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/1004771069908980106/5B79587E5AECC3DFC3AADA55B4C6961760E6E9DF/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint(color)\r\n  object.setVar('hl', color)\r\n  object.setVar('hero', true)\r\nend\r\n\r\nfunction spawn7(obj, color, alt_click) --human female\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/954104002476295362/40A6C1B4A3DFF6F6F7F0F676866E4C93AF7DDF73/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/1004771069908980106/5B79587E5AECC3DFC3AADA55B4C6961760E6E9DF/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint(color)\r\n  object.setVar('hl', color)\r\n  object.setVar('hero', true)\r\nend\r\n\r\nfunction spawn8(obj, color, alt_click) --kerbite\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/954104002476298025/B72F75CBD52E7E25C7A0ADF53F0F4D1B8FC43DD4/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/1004771069908980106/5B79587E5AECC3DFC3AADA55B4C6961760E6E9DF/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint(color)\r\n  object.setVar('hl', color)\r\n  object.setVar('hero', true)\r\nend\r\n\r\nfunction spawn9(obj, color, alt_click) --fungaloid\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/954104002476307918/FCB587D564C98B474227087B07754FF2A81D967F/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/1004771069908980106/5B79587E5AECC3DFC3AADA55B4C6961760E6E9DF/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint(color)\r\n  object.setVar('hl', color)\r\n  object.setVar('hero', true)\r\nend\r\n\r\nfunction spawn10(obj, color, alt_click) --tentac\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/954104002476309950/516183C887274664733697286EB217FCC40F3BCA/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/1004771069908980106/5B79587E5AECC3DFC3AADA55B4C6961760E6E9DF/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint(color)\r\n  object.setVar('hl', color)\r\n  object.setVar('hero', true)\r\nend\r\n\r\nfunction spawn11(obj, color, alt_click) --silicoid\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/954104002476302887/447DF46C0744EB7DFE161E872DBB5B48320F9AAE/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/1004771069908980106/5B79587E5AECC3DFC3AADA55B4C6961760E6E9DF/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint(color)\r\n  object.setVar('hl', color)\r\n  object.setVar('hero', true)\r\nend\r\n\r\nfunction spawn12(obj, color, alt_click) --trundlian\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/954104002476311004/D2EA7862B42FFE0B12C3B277D31C1818CF182EFB/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/1004771069908980106/5B79587E5AECC3DFC3AADA55B4C6961760E6E9DF/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint(color)\r\n  object.setVar('hl', color)\r\n  object.setVar('hero', true)\r\nend\r\n",
+          "LuaScriptState": "",
+          "GUID": "626dda"
+        },
+        "5": {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 0.75,
+            "posY": 0.9600002,
+            "posZ": 16.75,
+            "rotX": -2.21116761E-06,
+            "rotY": 180.012878,
+            "rotZ": 5.840959E-07,
+            "scaleX": 3.0,
+            "scaleY": 1.0,
+            "scaleZ": 3.0
+          },
+          "Nickname": "Replicator pg5",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/PNQaLHL.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 0,
+              "Thickness": 0.2,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "page = 5\r\nmaxpage = 8\r\nfunction onload()\r\nself.createButton({click_function = \"index\", index = 0, function_owner = self, label = page, position = {0.25, 0.2, 0.85}, scale = {0.5, 0.5, 0.5}, width = 0, height = 0, font_size = 250, font_color={1,1,1,1}, tooltip = \"Page\"})\r\nself.createButton({click_function = \"pagedn\", index = 1, function_owner = self, label = \"1\", position = {0.75, 0.1, 0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Prev\"})\r\nself.createButton({click_function = \"pageup\", index = 2, function_owner = self, label = \"2\", position = {1.25, 0.1, 0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Next\"})\r\ncreatePage()\r\nend\r\n\r\nfunction pagedn() print(page) self.setState(page-1) end\r\nfunction pageup() print(page)\r\n  if page == maxpage then self.setState(1) else self.setState(page+1) end\r\nend\r\n--function pageup()  page=page+1  if page > maxpage then page = 1 end print(\"Replicator page \" .. page)  self.editButton({index=0, label=page}) changepage() end\r\n--function pagedn()  page=page-1  if page < 1 then page = maxpage end print(\"Replicator page \" .. page)  self.editButton({index=0, label=page}) changepage() end\r\n\r\n--function deletePage()\r\n--end\r\n\r\nfunction createPage()\r\nself.createButton({click_function = \"spawn1\", function_owner = self, label = \"3\", position = {0.25, 0.1, -0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Whistler\"})\r\nself.createButton({click_function = \"spawn2\", function_owner = self, label = \"4\", position = {0.75, 0.1, -0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Xeloxian\"})\r\nself.createButton({click_function = \"spawn3\", function_owner = self, label = \"5\", position = {1.25, 0.1, -0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Zoallan\"})\r\n--self.createButton({click_function = \"spawn4\", function_owner = self, label = \"6\", position = {1.75, 0.1, -0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Canosian\"})\r\n--self.createButton({click_function = \"spawn5\", function_owner = self, label = \"7\", position = {0.25, 0.1, -0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Diploid\"})\r\n--self.createButton({click_function = \"spawn6\", function_owner = self, label = \"8\", position = {0.75, 0.1, -0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Human (male)\"})\r\n--self.createButton({click_function = \"spawn7\", function_owner = self, label = \"9\", position = {1.25, 0.1, -0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Human (female)\"})\r\n--self.createButton({click_function = \"spawn8\", function_owner = self, label = \"a\", position = {1.75, 0.1, -0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Kerbite\"})\r\n--self.createButton({click_function = \"spawn9\", function_owner = self, label = \"b\", position = {0.25, 0.1, 0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Fungaloid\"})\r\n--self.createButton({click_function = \"spawn10\", function_owner = self, label = \"c\", position = {0.75, 0.1, 0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Tentac\"})\r\n--self.createButton({click_function = \"spawn11\", function_owner = self, label = \"d\", position = {1.25, 0.1, 0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Silicoid\"})\r\n--self.createButton({click_function = \"spawn12\", function_owner = self, label = \"e\", position = {1.75, 0.1, 0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Trundlian\"})\r\nself.createButton({click_function = \"pgindex\", function_owner = self, label = \"Index\", position = {1.75, 0.2, 0.75}, scale = {0.5, 0.5, 0.5}, width = 0, height = 0, font_size = 160, font_color = {1,1,1,1}, tooltip = \"Index\"})\r\nself.createButton({click_function = \"pgindex\", function_owner = self, label = \"f\", position = {1.75, 0.1, 0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"Index\"})\r\n\r\nend\r\n\r\nfunction pgindex() self.setState(maxpage) end\r\n\r\n\r\n\r\nfunction spawn1(obj, color, alt_click) --Whistler\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/954104002476318316/4E3073B92E5C97F79E9F66820B1A572A8F9EE61F/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/1004771069908980106/5B79587E5AECC3DFC3AADA55B4C6961760E6E9DF/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint(color)\r\n  object.setVar('hl', color)\r\n  object.setVar('hero', true)\r\nend\r\n\r\nfunction spawn2(obj, color, alt_click) --Xeloxian\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/954104002476323905/347A163964B8C6BAC448555456EFA6E28CB685C3/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/1004771069908980106/5B79587E5AECC3DFC3AADA55B4C6961760E6E9DF/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint(color)\r\n  object.setVar('hl', color)\r\n  object.setVar('hero', true)\r\nend\r\n\r\nfunction spawn3(obj, color, alt_click) --Zoallan\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/954104002476324727/B418E3AE8AAF44063992916733DD86E32AAF844A/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/1004771069908980106/5B79587E5AECC3DFC3AADA55B4C6961760E6E9DF/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint(color)\r\n  object.setVar('hl', color)\r\n  object.setVar('hero', true)\r\nend\r\n",
+          "LuaScriptState": "",
+          "GUID": "1b8b2c"
+        },
+        "6": {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 0.75,
+            "posY": 0.9600002,
+            "posZ": 16.75,
+            "rotX": -2.21116761E-06,
+            "rotY": 180.012878,
+            "rotZ": 5.840959E-07,
+            "scaleX": 3.0,
+            "scaleY": 1.0,
+            "scaleZ": 3.0
+          },
+          "Nickname": "Replicator pg6",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/1hYbwFB.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 0,
+              "Thickness": 0.2,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "page = 6\r\nmaxpage = 8\r\nfunction onload()\r\nself.createButton({click_function = \"index\", index = 0, function_owner = self, label = page, position = {0.25, 0.2, 0.85}, scale = {0.5, 0.5, 0.5}, width = 0, height = 0, font_size = 250, font_color={1,1,1,1}, tooltip = \"Page\"})\r\nself.createButton({click_function = \"pagedn\", index = 1, function_owner = self, label = \"1\", position = {0.75, 0.1, 0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Prev\"})\r\nself.createButton({click_function = \"pageup\", index = 2, function_owner = self, label = \"2\", position = {1.25, 0.1, 0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Next\"})\r\ncreatePage()\r\nend\r\n\r\nfunction pagedn() print(page) self.setState(page-1) end\r\nfunction pageup() print(page)\r\n  if page == maxpage then self.setState(1) else self.setState(page+1) end\r\nend\r\n--function pageup()  page=page+1  if page > maxpage then page = 1 end print(\"Replicator page \" .. page)  self.editButton({index=0, label=page}) changepage() end\r\n--function pagedn()  page=page-1  if page < 1 then page = maxpage end print(\"Replicator page \" .. page)  self.editButton({index=0, label=page}) changepage() end\r\n\r\n--function deletePage()\r\n--end\r\n\r\nfunction createPage()\r\nself.createButton({click_function = \"spawn1\", function_owner = self, label = \"3\", position = {0.25, 0.1, -0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Avianoid\"})\r\nself.createButton({click_function = \"spawn2\", function_owner = self, label = \"4\", position = {0.75, 0.1, -0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Cheetahoid\"})\r\nself.createButton({click_function = \"spawn3\", function_owner = self, label = \"5\", position = {1.25, 0.1, -0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Crocodilian\"})\r\nself.createButton({click_function = \"spawn4\", function_owner = self, label = \"6\", position = {1.75, 0.1, -0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Elephantoid\"})\r\nself.createButton({click_function = \"spawn5\", function_owner = self, label = \"7\", position = {0.25, 0.1, -0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Felinoid\"})\r\nself.createButton({click_function = \"spawn6\", function_owner = self, label = \"8\", position = {0.75, 0.1, -0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Gorilloid\"})\r\nself.createButton({click_function = \"spawn7\", function_owner = self, label = \"9\", position = {1.25, 0.1, -0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Lupinoid\"})\r\nself.createButton({click_function = \"spawn8\", function_owner = self, label = \"a\", position = {1.75, 0.1, -0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Lapinoid\"})\r\nself.createButton({click_function = \"spawn9\", function_owner = self, label = \"b\", position = {0.25, 0.1, 0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Rhinoceroid\"})\r\nself.createButton({click_function = \"spawn10\", function_owner = self, label = \"c\", position = {0.75, 0.1, 0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Reptilianoid\"})\r\nself.createButton({click_function = \"spawn11\", function_owner = self, label = \"d\", position = {1.25, 0.1, 0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Tetsudinoid\"})\r\nself.createButton({click_function = \"spawn12\", function_owner = self, label = \"e\", position = {1.75, 0.1, 0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Ursinoid\"})\r\nself.createButton({click_function = \"pgindex\", function_owner = self, label = \"Index\", position = {1.75, 0.2, 0.75}, scale = {0.5, 0.5, 0.5}, width = 0, height = 0, font_size = 160, font_color = {1,1,1,1}, tooltip = \"Index\"})\r\nself.createButton({click_function = \"pgindex\", function_owner = self, label = \"f\", position = {1.75, 0.1, 0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"Index\"})\r\n\r\nend\r\n\r\nfunction pgindex() self.setState(maxpage) end\r\n\r\n\r\nfunction spawn1(obj, color, alt_click) --avianoid\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/954104002476390792/D79004367CC0DC2F4BDD611BF73255F60D3CCCAA/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/1004771069908980106/5B79587E5AECC3DFC3AADA55B4C6961760E6E9DF/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint(color)\r\n  object.setVar('hl', color)\r\n  object.setVar('hero', true)\r\nend\r\n\r\nfunction spawn2(obj, color, alt_click) --cheetahoid\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/954103694725407415/01B684B01FC2858DD9DB34C35C41B2A6152068D9/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/1004771069908980106/5B79587E5AECC3DFC3AADA55B4C6961760E6E9DF/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint(color)\r\n  object.setVar('hl', color)\r\n  object.setVar('hero', true)\r\nend\r\n\r\nfunction spawn3(obj, color, alt_click) --Crocodilian\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/954103694725414278/391FFEAAC3958ABB887FE85DE56E2A14FD79562B/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/1004771069908980106/5B79587E5AECC3DFC3AADA55B4C6961760E6E9DF/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint(color)\r\n  object.setVar('hl', color)\r\n  object.setVar('hero', true)\r\nend\r\n\r\nfunction spawn4(obj, color, alt_click) --Elephantoid\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/954104002476317104/7D7D441DBE003CCC31AAC07D7D55856C106FD068/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/1004771069908980106/5B79587E5AECC3DFC3AADA55B4C6961760E6E9DF/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint(color)\r\n  object.setVar('hl', color)\r\n  object.setVar('hero', true)\r\nend\r\n\r\nfunction spawn5(obj, color, alt_click) --Felinoid\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/954104002476299341/CF063C26A8D511CAEAAEEEDBBD8F1472BA6C5707/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/1004771069908980106/5B79587E5AECC3DFC3AADA55B4C6961760E6E9DF/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint(color)\r\n  object.setVar('hl', color)\r\n  object.setVar('hero', true)\r\nend\r\n\r\nfunction spawn6(obj, color, alt_click) --Gorilloid\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/954104002476296111/A52E70BA9D3B92484EA21287A155147AC4D4DF3E/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/1004771069908980106/5B79587E5AECC3DFC3AADA55B4C6961760E6E9DF/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint(color)\r\n  object.setVar('hl', color)\r\n  object.setVar('hero', true)\r\nend\r\n\r\nfunction spawn7(obj, color, alt_click) --Lupinoid\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/954104002476319088/0B15ECBA8BB15F97E4B2EEC3F4D4A3C4E6DB9405/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/1004771069908980106/5B79587E5AECC3DFC3AADA55B4C6961760E6E9DF/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint(color)\r\n  object.setVar('hl', color)\r\n  object.setVar('hero', true)\r\nend\r\n\r\nfunction spawn8(obj, color, alt_click) --Lapinoid\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/967616059749348735/0A71325C143FA517CA717253F244B73B344E4902/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/1004771069908980106/5B79587E5AECC3DFC3AADA55B4C6961760E6E9DF/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint(color)\r\n  object.setVar('hl', color)\r\n  object.setVar('hero', true)\r\nend\r\n\r\nfunction spawn9(obj, color, alt_click) --Rhinoceroid\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/954104002476350646/61CE09A2912CE6060C72FA4CD20F882747F2F45E/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/1004771069908980106/5B79587E5AECC3DFC3AADA55B4C6961760E6E9DF/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint(color)\r\n  object.setVar('hl', color)\r\n  object.setVar('hero', true)\r\nend\r\n\r\nfunction spawn10(obj, color, alt_click) --Reptilianoid\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/954104002476498357/0C7154B7FEB0C6E619ACAEAB9F4E5231EF164067/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/1004771069908980106/5B79587E5AECC3DFC3AADA55B4C6961760E6E9DF/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint(color)\r\n  object.setVar('hl', color)\r\n  object.setVar('hero', true)\r\nend\r\n\r\n\r\nfunction spawn11(obj, color, alt_click) --Tetsudinoid\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/954104002476564795/937C7250299EB475C3678CAB46CDD475399FE225/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/1004771069908980106/5B79587E5AECC3DFC3AADA55B4C6961760E6E9DF/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint(color)\r\n  object.setVar('hl', color)\r\n  object.setVar('hero', true)\r\nend\r\n\r\n\r\nfunction spawn12(obj, color, alt_click) --Ursinoid\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/954104002476316004/97D3B4D5D5976581DBEB9BFFB93F617EBE4D1782/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/1004771069908980106/5B79587E5AECC3DFC3AADA55B4C6961760E6E9DF/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint(color)\r\n  object.setVar('hl', color)\r\n  object.setVar('hero', true)\r\nend\r\n",
+          "LuaScriptState": "",
+          "GUID": "18ab69"
+        },
+        "7": {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 0.75,
+            "posY": 0.9600002,
+            "posZ": 16.75,
+            "rotX": -2.21116761E-06,
+            "rotY": 180.012878,
+            "rotZ": 5.840959E-07,
+            "scaleX": 3.0,
+            "scaleY": 1.0,
+            "scaleZ": 3.0
+          },
+          "Nickname": "Replicator pg7",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/VeXnwBL.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 0,
+              "Thickness": 0.2,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "page = 7\r\nmaxpage = 8\r\nfunction onload()\r\nself.createButton({click_function = \"index\", index = 0, function_owner = self, label = page, position = {0.25, 0.2, 0.85}, scale = {0.5, 0.5, 0.5}, width = 0, height = 0, font_size = 250, font_color={1,1,1,1}, tooltip = \"Page\"})\r\nself.createButton({click_function = \"pagedn\", index = 1, function_owner = self, label = \"1\", position = {0.75, 0.1, 0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Prev\"})\r\nself.createButton({click_function = \"pageup\", index = 2, function_owner = self, label = \"2\", position = {1.25, 0.1, 0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Next\"})\r\ncreatePage()\r\nend\r\n\r\nfunction pagedn() print(page) self.setState(page-1) end\r\nfunction pageup() print(page)\r\n  if page == maxpage then self.setState(1) else self.setState(page+1) end\r\nend\r\n--function pageup()  page=page+1  if page > maxpage then page = 1 end print(\"Replicator page \" .. page)  self.editButton({index=0, label=page}) changepage() end\r\n--function pagedn()  page=page-1  if page < 1 then page = maxpage end print(\"Replicator page \" .. page)  self.editButton({index=0, label=page}) changepage() end\r\n\r\n--function deletePage()\r\n--end\r\n\r\nfunction createPage()\r\nself.createButton({click_function = \"spawn1\", function_owner = self, label = \"3\", position = {0.25, 0.1, -0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Fighter\"})\r\nself.createButton({click_function = \"spawn2\", function_owner = self, label = \"4\", position = {0.75, 0.1, -0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Canosian 3\"})\r\nself.createButton({click_function = \"spawn3\", function_owner = self, label = \"5\", position = {1.25, 0.1, -0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Human 4\"})\r\nself.createButton({click_function = \"spawn4\", function_owner = self, label = \"6\", position = {1.75, 0.1, -0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Silicoid 4\"})\r\nself.createButton({click_function = \"spawn5\", function_owner = self, label = \"7\", position = {0.25, 0.1, -0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Tentac 5\"})\r\nself.createButton({click_function = \"spawn6\", function_owner = self, label = \"8\", position = {0.75, 0.1, -0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Xeloxian 6\"})\r\nself.createButton({click_function = \"spawn7\", function_owner = self, label = \"9\", position = {1.25, 0.1, -0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Zoallan 4\"})\r\n--self.createButton({click_function = \"spawn8\", function_owner = self, label = \"a\", position = {1.75, 0.1, -0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Kerbite\"})\r\n--self.createButton({click_function = \"spawn9\", function_owner = self, label = \"b\", position = {0.25, 0.1, 0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Fungaloid\"})\r\n--self.createButton({click_function = \"spawn10\", function_owner = self, label = \"c\", position = {0.75, 0.1, 0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Tentac\"})\r\n--self.createButton({click_function = \"spawn11\", function_owner = self, label = \"d\", position = {1.25, 0.1, 0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Silicoid\"})\r\n--self.createButton({click_function = \"spawn12\", function_owner = self, label = \"e\", position = {1.75, 0.1, 0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Trundlian\"})\r\nself.createButton({click_function = \"pgindex\", function_owner = self, label = \"Index\", position = {1.75, 0.2, 0.75}, scale = {0.5, 0.5, 0.5}, width = 0, height = 0, font_size = 160, font_color = {1,1,1,1}, tooltip = \"Index\"})\r\nself.createButton({click_function = \"pgindex\", function_owner = self, label = \"f\", position = {1.75, 0.1, 0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"Index\"})\r\n\r\nend\r\n\r\nfunction pgindex() self.setState(maxpage) end\r\n\r\n\r\nfunction spawn1(obj, color, alt_click) --fighter\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/1004771069904331659/5966B9333DB1B23272F7F5C736C23ED144D7F8A5/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/967616059748912163/706F2DCB160DFCD455616DA015F4253AFF341A95/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint(color)\r\n  object.setVar('hl', color)\r\n  object.setVar('hero', true)\r\nend\r\n\r\nfunction spawn2(obj, color, alt_click) --Canosian\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/956354469473346114/6FD950FDEDCBE4919E66C88252D9CA8E87C7E2B3/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/967616059748912163/706F2DCB160DFCD455616DA015F4253AFF341A95/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint(color)\r\n  object.setVar('hl', color)\r\n  object.setVar('ship', true)\r\nend\r\n\r\nfunction spawn3(obj, color, alt_click) --Human\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/956354469473367659/511DD0A321146CC053729F8DFF304BC7AA166C50/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/967616059748912163/706F2DCB160DFCD455616DA015F4253AFF341A95/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint(color)\r\n  object.setVar('hl', color)\r\n  object.setVar('ship', true)\r\nend\r\n\r\nfunction spawn4(obj, color, alt_click) --Silicoid\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/956354469473317186/300F4A9360737FA6773D0427837C77B6AD4550A6/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/967616059748912163/706F2DCB160DFCD455616DA015F4253AFF341A95/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint(color)\r\n  object.setVar('hl', color)\r\n  object.setVar('ship', true)\r\nend\r\n\r\nfunction spawn5(obj, color, alt_click) --Tentac\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/967616059748947987/DC38053B3D4B8169192DB6C455345DD34D773504/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/967616059748912163/706F2DCB160DFCD455616DA015F4253AFF341A95/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint(color)\r\n  object.setVar('hl', color)\r\n  object.setVar('ship', true)\r\nend\r\n\r\nfunction spawn6(obj, color, alt_click) --Xeloxian\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/956354469473338002/ED262DBC55BFE21E2AB2D089F5A52A64839ADEDD/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/967616059748912163/706F2DCB160DFCD455616DA015F4253AFF341A95/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint(color)\r\n  object.setVar('hl', color)\r\n  object.setVar('ship', true)\r\nend\r\n\r\nfunction spawn7(obj, color, alt_click) --Zoallan\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Model',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=1, y=1, z=1},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    mesh = \"http://cloud-3.steamusercontent.com/ugc/967616059748947349/1420EDF7FE559C27D75ECF3340265A586B8A573F/\",\r\n    collider = \"http://cloud-3.steamusercontent.com/ugc/967616059748912163/706F2DCB160DFCD455616DA015F4253AFF341A95/\",\r\n    type = 1,\r\n    material = 0,\r\n  }\r\n  object.setCustomObject(params)\r\n  object.setColorTint(color)\r\n  object.setVar('hl', color)\r\n  object.setVar('ship', true)\r\nend\r\n",
+          "LuaScriptState": "",
+          "GUID": "b1683e"
+        },
+        "3": {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 8.736082,
+            "posY": 1.92113566,
+            "posZ": 14.5707417,
+            "rotX": -3.73019219E-07,
+            "rotY": 180.012848,
+            "rotZ": -4.32296368E-08,
+            "scaleX": 3.0,
+            "scaleY": 1.0,
+            "scaleZ": 3.0
+          },
+          "Nickname": "Replicator pg3",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/qfWWNDf.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 0,
+              "Thickness": 0.2,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "page = 3\r\nmaxpage = 8\r\nfunction onload()\r\nself.createButton({click_function = \"index\", index = 0, function_owner = self, label = page, position = {0.25, 0.2, 0.85}, scale = {0.5, 0.5, 0.5}, width = 0, height = 0, font_size = 250, font_color={1,1,1,1}, tooltip = \"Page\"})\r\nself.createButton({click_function = \"pagedn\", index = 1, function_owner = self, label = \"1\", position = {0.75, 0.1, 0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Prev\"})\r\nself.createButton({click_function = \"pageup\", index = 2, function_owner = self, label = \"2\", position = {1.25, 0.1, 0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Next\"})\r\ncreatePage()\r\nend\r\n\r\nfunction pagedn() print(page) self.setState(page-1) end\r\nfunction pageup() print(page)\r\n  if page == maxpage then self.setState(1) else self.setState(page+1) end\r\nend\r\n--function pageup()  page=page+1  if page > maxpage then page = 1 end print(\"Replicator page \" .. page)  self.editButton({index=0, label=page}) changepage() end\r\n--function pagedn()  page=page-1  if page < 1 then page = maxpage end print(\"Replicator page \" .. page)  self.editButton({index=0, label=page}) changepage() end\r\n\r\n--function deletePage()\r\n--end\r\n\r\nfunction createPage()\r\nself.createButton({click_function = \"spawn1\", function_owner = self, label = \"3\", position = {0.25, 0.1, -0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Space board 1 (no snap)\"})\r\nself.createButton({click_function = \"spawn2\", function_owner = self, label = \"4\", position = {0.75, 0.1, -0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Space board 2 (no snap)\"})\r\nself.createButton({click_function = \"spawn3\", function_owner = self, label = \"5\", position = {1.25, 0.1, -0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Asteroid board - sparse (no snap)\"})\r\nself.createButton({click_function = \"spawn4\", function_owner = self, label = \"6\", position = {1.75, 0.1, -0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Asteroid board - dense (no snap)\"})\r\nself.createButton({click_function = \"spawn5\", function_owner = self, label = \"7\", position = {0.25, 0.1, -0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Double space board (no snap)\"})\r\nself.createButton({click_function = \"spawn6\", function_owner = self, label = \"8\", position = {0.75, 0.1, -0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"Plot Twists\"})\r\nself.createButton({click_function = \"spawn7\", function_owner = self, label = \"9\", position = {1.25, 0.1, -0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"not working yet\"})\r\nself.createButton({click_function = \"spawn8\", function_owner = self, label = \"a\", position = {1.75, 0.1, -0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"not working yet\"})\r\nself.createButton({click_function = \"spawn9\", function_owner = self, label = \"b\", position = {0.25, 0.1, 0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"basic pregens\"})\r\nself.createButton({click_function = \"spawn10\", function_owner = self, label = \"c\", position = {0.75, 0.1, 0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"special abilities (unsearchable)\"})\r\nself.createButton({click_function = \"spawn11\", function_owner = self, label = \"d\", position = {1.25, 0.1, 0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"race stats\"})\r\nself.createButton({click_function = \"spawn12\", function_owner = self, label = \"e\", position = {1.75, 0.1, 0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, color = {0,0,0,0}, tooltip = \"equipment\"})\r\nself.createButton({click_function = \"pgindex\", function_owner = self, label = \"Index\", position = {1.75, 0.2, 0.75}, scale = {0.5, 0.5, 0.5}, width = 0, height = 0, font_size = 160, font_color = {1,1,1,1}, tooltip = \"Index\"})\r\nself.createButton({click_function = \"pgindex\", function_owner = self, label = \"f\", position = {1.75, 0.1, 0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"Index\"})\r\n\r\nend\r\n\r\nfunction pgindex() self.setState(maxpage) end\r\n\r\n\r\n\r\nfunction spawn1() --Space board 1\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Tile',\r\n    position          = {pos.x,pos.y+1,pos.z+10},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=5.5, y=1, z=5.5},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    image = \"https://i.imgur.com/SNGlJpn.jpg\",\r\n    image_bottom = \"https://i.imgur.com/hkOVYE8.jpg\",\r\n    type = 0,\r\n    thickness = 0.1,\r\n  }\r\n  object.setCustomObject(params)\r\nend\r\n\r\n\r\nfunction spawn2()  --Space board 2\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Tile',\r\n    position          = {pos.x,pos.y+1,pos.z+10},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=5.5, y=1, z=5.5},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    image = \"https://i.imgur.com/4mOcJPL.png\",\r\n    image_bottom = \"https://i.imgur.com/TGzzm10.png\",\r\n    type = 0,\r\n    thickness = 0.1,\r\n  }\r\n  object.setCustomObject(params)\r\nend\r\n\r\n\r\nfunction spawn3() --asteroid board sparse\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Tile',\r\n    position          = {pos.x,pos.y+1,pos.z+10},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=5.5, y=1, z=5.5},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    image = \"https://i.imgur.com/IlFHgce.png\",\r\n    image_bottom = \"https://i.imgur.com/s0xT6VR.png\",\r\n    type = 0,\r\n    thickness = 0.1,\r\n  }\r\n  object.setCustomObject(params)\r\nend\r\n\r\n\r\nfunction spawn4() --asteroid board sparse\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Tile',\r\n    position          = {pos.x,pos.y+1,pos.z+10},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=5.5, y=1, z=5.5},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    image = \"https://i.imgur.com/Tc2SBhq.png\",\r\n    image_bottom = \"https://i.imgur.com/eOS9wml.png\",\r\n    type = 0,\r\n    thickness = 0.1,\r\n  }\r\n  object.setCustomObject(params)\r\nend\r\n\r\n\r\nfunction spawn5() --space board double\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'Custom_Tile',\r\n    position          = {pos.x+5,pos.y+1,pos.z+10},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=5.5, y=1, z=5.5},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    image = \"https://i.imgur.com/driKbkV.jpg\",\r\n    image_bottom = \"https://i.imgur.com/TErlyWu.jpg\",\r\n    type = 0,\r\n    thickness = 0.1,\r\n  }\r\n  object.setCustomObject(params)\r\nend\r\n\r\n\r\nfunction spawn6() --plot twist deck\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'DeckCustom',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=2, y=1, z=2},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    face = \"https://i.imgur.com/I5ZCQjm.jpg\",\r\n    back = \"http://i.imgur.com/Q4Z3vCU.png\",\r\n    width = 10,\r\n    height = 7,\r\n    number = 64,\r\n  }\r\n  object.setCustomObject(params)\r\nend\r\n\r\n\r\nfunction spawn7() --notecard\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'DeckCustom',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=2, y=1, z=2},\r\n  }\r\n--  object = spawnObject(spawnparams)\r\n  params = {\r\n    face = \"https://i.imgur.com/I5ZCQjm.jpg\",\r\n    back = \"http://i.imgur.com/Q4Z3vCU.png\",\r\n    width = 10,\r\n    height = 7,\r\n    number = 64,\r\n  }\r\n--  object.setCustomObject(params)\r\nend\r\n\r\nfunction spawn8() --character sheet\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'DeckCustom',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n    scale             = {x=2, y=1, z=2},\r\n  }\r\n  --object = spawnObject(spawnparams)\r\n  params = {\r\n    face = \"https://i.imgur.com/I5ZCQjm.jpg\",\r\n    back = \"http://i.imgur.com/Q4Z3vCU.png\",\r\n    width = 10,\r\n    height = 7,\r\n    number = 64,\r\n  }\r\n  --object.setCustomObject(params)\r\nend\r\n\r\n\r\nfunction spawn9() --pregen deck\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'DeckCustom',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,0},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    face = \"https://i.imgur.com/jkjkT8I.jpg\",\r\n    unique_back = true,\r\n    back = \"https://i.imgur.com/6jZrKq3.jpg\",\r\n    width = 7,\r\n    height = 7,\r\n    number = 44,\r\n    back_is_hidden = true\r\n  }\r\n  object.setCustomObject(params)\r\nend\r\n\r\n\r\nfunction spawn10() --ability deck\r\n  pos = self.getPosition()\r\n  --deck 1 of 3 'z'\r\n  spawnparams = {\r\n    type = 'DeckCustom',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,180},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    face = \"https://i.imgur.com/tw6GRgO.jpg\",\r\n    unique_back = true,\r\n    back = \"https://i.imgur.com/tw6GRgO.jpg\",\r\n    width = 8,\r\n    height = 7,\r\n    number = 32,\r\n    back_is_hidden = true\r\n  }\r\n  object.setCustomObject(params)\r\n  --deck 2 of 3 'mid'\r\n  spawnparams = {\r\n    type = 'DeckCustom',\r\n    position          = {pos.x-3,pos.y+2,pos.z},\r\n    rotation          = {0,180,180},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    face = \"https://i.imgur.com/geYFbnw.jpg\",\r\n    unique_back = true,\r\n    back = \"https://i.imgur.com/geYFbnw.jpg\",\r\n    width = 8,\r\n    height = 7,\r\n    number = 55,\r\n    back_is_hidden = true\r\n  }\r\n  object.setCustomObject(params)\r\n  --deck 3 of 3 'a'\r\n  spawnparams = {\r\n    type = 'DeckCustom',\r\n    position          = {pos.x-3,pos.y+3,pos.z},\r\n    rotation          = {0,180,180},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    face = \"https://i.imgur.com/vgrdvB5.jpg\",\r\n    unique_back = true,\r\n    back = \"https://i.imgur.com/vgrdvB5.jpg\",\r\n    width = 8,\r\n    height = 7,\r\n    number = 55,\r\n    back_is_hidden = true\r\n  }\r\n  object.setCustomObject(params)\r\nend\r\n\r\n\r\nfunction spawn11() --race deck\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'DeckCustom',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,180},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    face = \"https://i.imgur.com/Et3xXai.png\",\r\n    unique_back = true,\r\n    back = \"https://i.imgur.com/Et3xXai.png\",\r\n    width = 7,\r\n    height = 4,\r\n    number = 26,\r\n    back_is_hidden = true\r\n  }\r\n  object.setCustomObject(params)\r\nend\r\n\r\n\r\nfunction spawn12() --equip deck\r\n  pos = self.getPosition()\r\n  spawnparams = {\r\n    type = 'DeckCustom',\r\n    position          = {pos.x-3,pos.y+1,pos.z},\r\n    rotation          = {0,180,180},\r\n  }\r\n  object = spawnObject(spawnparams)\r\n  params = {\r\n    face = \"https://i.imgur.com/TqVkdYi.png\",\r\n    --unique_back = true,\r\n    back = \"https://i.imgur.com/LRFkydP.png\",\r\n    width = 4,\r\n    height = 4,\r\n    number = 12,\r\n    back_is_hidden = true\r\n  }\r\n  object.setCustomObject(params)\r\nend\r\n",
+          "LuaScriptState": "",
+          "GUID": "0953b4"
+        },
+        "8": {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 9.532789,
+            "posY": 0.960000753,
+            "posZ": -2.64725184,
+            "rotX": 9.187782E-07,
+            "rotY": 180.012833,
+            "rotZ": 3.16272981E-08,
+            "scaleX": 3.0,
+            "scaleY": 1.0,
+            "scaleZ": 3.0
+          },
+          "Nickname": "Replicator index",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/VHhNC2O.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 0,
+              "Thickness": 0.2,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "page = 8\r\nmaxpage = 8\r\nfunction onload()\r\nself.createButton({click_function = \"Index\", index = 0, function_owner = self, label = \"index\", position = {0.25, 0.2, 0.85}, scale = {0.5, 0.5, 0.5}, width = 0, height = 0, font_size = 140, font_color={1,1,1,1}, tooltip = \"Page 8\"})\r\nself.createButton({click_function = \"pagedn\", index = 1, function_owner = self, label = \"1\", position = {0.75, 0.1, 0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"Prev\"})\r\nself.createButton({click_function = \"pageup\", index = 2, function_owner = self, label = \"2\", position = {1.25, 0.1, 0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"Next\"})\r\ncreatePage()\r\nend\r\n\r\nfunction pagedn() self.setState(page-1) end\r\nfunction pageup() self.setState(1) end\r\n\r\n--function pageup()  page=page+1  if page > maxpage then page = 1 end print(\"Replicator page \" .. page)  self.editButton({index=0, label=page}) changepage() end\r\n--function pagedn()  page=page-1  if page < 1 then page = maxpage end print(\"Replicator page \" .. page)  self.editButton({index=0, label=page}) changepage() end\r\n\r\n--function deletePage()\r\n--end\r\n\r\nfunction createPage()\r\nself.createButton({click_function = \"pg1\", function_owner = self, label = \"3\", position = {0.25, 0.1, -0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"Modules\"})\r\nself.createButton({click_function = \"pg2\", function_owner = self, label = \"4\", position = {0.75, 0.1, -0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"Tokens\"})\r\nself.createButton({click_function = \"pg3\", function_owner = self, label = \"5\", position = {1.25, 0.1, -0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"Setup\"})\r\nself.createButton({click_function = \"pg4\", function_owner = self, label = \"6\", position = {1.75, 0.1, -0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"Minis 1\"})\r\nself.createButton({click_function = \"pg5\", function_owner = self, label = \"7\", position = {0.25, 0.1, -0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"Minis 2\"})\r\nself.createButton({click_function = \"pg6\", function_owner = self, label = \"8\", position = {0.75, 0.1, -0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"Minis Beastmen\"})\r\nself.createButton({click_function = \"pg7\", function_owner = self, label = \"9\", position = {1.25, 0.1, -0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"Ships\"})\r\n--self.createButton({click_function = \"pg8\", function_owner = self, label = \"a\", position = {1.75, 0.1, -0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"Mine\"})\r\n--self.createButton({click_function = \"pg9\", function_owner = self, label = \"b\", position = {0.25, 0.1, 0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"Missile\"})\r\n--self.createButton({click_function = \"pg10\", function_owner = self, label = \"c\", position = {0.75, 0.1, 0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"Science\"})\r\n--self.createButton({click_function = \"pg11\", function_owner = self, label = \"d\", position = {1.25, 0.1, 0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"Med\"})\r\n--self.createButton({click_function = \"pg12\", function_owner = self, label = \"e\", position = {1.75, 0.1, 0.25}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"Teleport\"})\r\nself.createButton({click_function = \"pgindex\", function_owner = self, label = \"Index\", position = {1.75, 0.2, 0.75}, scale = {0.5, 0.5, 0.5}, width = 0, height = 0, font_size = 160, font_color = {1,1,1,1}, tooltip = \"Index\"})\r\nself.createButton({click_function = \"pgindex\", function_owner = self, label = \"f\", position = {1.75, 0.1, 0.75}, scale = {0.5, 0.5, 0.5}, width = 400, height = 400, font_size = 400, tooltip = \"Index\"})\r\n\r\nend\r\n\r\nfunction pgindex() self.setState(maxpage) end\r\n\r\nfunction pg1() self.setState(1) end\r\nfunction pg2() self.setState(2) end\r\nfunction pg3() self.setState(3) end\r\nfunction pg4() self.setState(4) end\r\nfunction pg5() self.setState(5) end\r\nfunction pg6() self.setState(6) end\r\nfunction pg7() self.setState(7) end",
+          "LuaScriptState": "",
+          "GUID": "cb8404"
+        }
+      }
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 6.53278,
+        "posY": 1.15975773,
+        "posZ": -2.64726877,
+        "rotX": 359.961365,
+        "rotY": 180.001022,
+        "rotZ": 359.989441,
+        "scaleX": 0.5,
+        "scaleY": 1.0,
+        "scaleZ": 0.5
+      },
+      "Nickname": "Used",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://i.imgur.com/kxD7CdS.png",
+        "ImageSecondaryURL": "https://i.imgur.com/2A7ipod.png",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 3,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "a2898f"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 6.5327363,
+        "posY": 1.257885,
+        "posZ": -2.647164,
+        "rotX": 359.8178,
+        "rotY": 180.004852,
+        "rotZ": 359.95462,
+        "scaleX": 0.5,
+        "scaleY": 1.0,
+        "scaleZ": 0.5
+      },
+      "Nickname": "Used",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://i.imgur.com/kxD7CdS.png",
+        "ImageSecondaryURL": "https://i.imgur.com/2A7ipod.png",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 3,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "a80e96"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 6.532787,
+        "posY": 1.35727143,
+        "posZ": -2.64762187,
+        "rotX": 359.744843,
+        "rotY": 180.009,
+        "rotZ": 359.935272,
+        "scaleX": 0.5,
+        "scaleY": 1.0,
+        "scaleZ": 0.5
+      },
+      "Nickname": "Used",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://i.imgur.com/kxD7CdS.png",
+        "ImageSecondaryURL": "https://i.imgur.com/2A7ipod.png",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 3,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "5c7d9a"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 6.53265762,
+        "posY": 1.45641,
+        "posZ": -2.64694929,
+        "rotX": 359.671234,
+        "rotY": 180.007523,
+        "rotZ": 359.9169,
+        "scaleX": 0.5,
+        "scaleY": 1.0,
+        "scaleZ": 0.5
+      },
+      "Nickname": "Used",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://i.imgur.com/kxD7CdS.png",
+        "ImageSecondaryURL": "https://i.imgur.com/2A7ipod.png",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 3,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "79a368"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 6.53287172,
+        "posY": 1.55574667,
+        "posZ": -2.646594,
+        "rotX": 359.623657,
+        "rotY": 179.98381,
+        "rotZ": 359.9056,
+        "scaleX": 0.5,
+        "scaleY": 1.0,
+        "scaleZ": 0.5
+      },
+      "Nickname": "Used",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://i.imgur.com/kxD7CdS.png",
+        "ImageSecondaryURL": "https://i.imgur.com/2A7ipod.png",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 3,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "0a8e6d"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 3.52542853,
+        "posY": 0.9594484,
+        "posZ": 6.496883,
+        "rotX": 0.000122048645,
+        "rotY": 359.983643,
+        "rotZ": -0.000205771517,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "USED",
+      "Description": "+3 Difficulty",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1004771425863759135/FF3D35EB3BE15194DE33F8D3EDBE3ED9E49CFBDC/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1004771425863736260/10176EA475B6024F601AD5D79BC0AE8598C884FF/",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "aea3bd"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 4.700319,
+        "posY": 0.959446847,
+        "posZ": 11.957798,
+        "rotX": -5.961379E-07,
+        "rotY": 359.975159,
+        "rotZ": 2.20505171E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "USED",
+      "Description": "+3 Difficulty",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1004771425863759135/FF3D35EB3BE15194DE33F8D3EDBE3ED9E49CFBDC/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1004771425863736260/10176EA475B6024F601AD5D79BC0AE8598C884FF/",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "bb1cc5"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 5.77238274,
+        "posY": 0.9594471,
+        "posZ": 1.26241028,
+        "rotX": 1.52533667E-05,
+        "rotY": -7.111691E-05,
+        "rotZ": -1.09946859E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "USED",
+      "Description": "+3 Difficulty",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1004771425863759135/FF3D35EB3BE15194DE33F8D3EDBE3ED9E49CFBDC/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1004771425863736260/10176EA475B6024F601AD5D79BC0AE8598C884FF/",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "e4411a"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 3.7867434,
+        "posY": 1.95329976,
+        "posZ": 6.48423529,
+        "rotX": 2.58736382E-05,
+        "rotY": 9.975961E-05,
+        "rotZ": -0.00158924912,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "USED",
+      "Description": "+3 Difficulty",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1004771425863759135/FF3D35EB3BE15194DE33F8D3EDBE3ED9E49CFBDC/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1004771425863736260/10176EA475B6024F601AD5D79BC0AE8598C884FF/",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "753b58"
+    }
+  ],
+  "DecalPallet": [],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": "v11.1"
+}

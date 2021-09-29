@@ -1,0 +1,3682 @@
+{
+  "SaveName": "Android: Netrunner - Cyberpunk Starter Table",
+  "GameMode": "Custom",
+  "Date": "4/6/2015 1:11:23 AM",
+  "Table": "Table_Glass",
+  "Sky": "Sky_Forest",
+  "SkyURL": "http://i.imgur.com/Vp9zgRZ.jpg",
+  "Note": "",
+  "Rules": "See http://netrunnerdb.com/en/rules\n\n\n\nDECKBUILDING\n\nWhen building a deck for organized play, players must observe the following restrictions:\r\n\r\nA deck must be associated with a single identity card, and cannot contain fewer cards than the minimum deck size value listed on the chosen identity card. There is no maximum deck size, but the deck must be able to be sufficiently randomized in a short period of time. Identity cards, reference cards, and click tracker cards are never counted as part of a deck and do not count against the minimum deck size.\n\r\nA deck cannot have more than three copies of a single card (by title) in it.\n\r\nA deck associated with a Runner identity can never contain Corporation cards, and vice versa.\n\r\nA deck cannot contain out-of-faction cards with a total influence value that exceeds the influence limit listed on the chosen identity card (see Influence below). Cards that match the faction of the identity card do not count against this limit.\r\nA Corporation deck must have a specific number of agenda points in it based on the size of the deck, as follows:\n\r\n40 to 44 cards requires 18 or 19 agenda points. \n(Note: Identities in this set have a 45 card minimum)\r\n45 to 49 cards requires 20 or 21 agenda points.\r\n50 to 54 cards requires 22 or 23 agenda points.\n\r\nFor decks larger than this, add 2 additional agenda points to the 54 card deck requirements each time the number of cards in the deck reaches a multiple of 5 (55, 60, 65, etc.).\r\n\r\nFor example, a 66 card deck requires 6 additional agenda points (2 at 55, 2 at 60, and 2 at 65 cards). This gives a final requirement of either 28 or 29 agenda points.\r\n\r\nInfluence\n\r\nA player may wish to include cards in his deck that do not match the faction of his identity card. He is restricted, however, by the influence limit on his identity card. The combined influence value of out-of-faction cards in his deck cannot exceed this limit. Each card's influence value is represented by small blue orbs near the bottom of the card.\r\n\r\nNeutral cards are not part of any faction, can be used in any deck of the side they are affiliated with, and generally have an influence value of zero.\r\n\r\nNote: \nSome cards do not have any influence value (this is different than a card that has an influence value of zero). These cards are identified by their lack of an influence box. A card without an influence value cannot be used with an identity card that has a different faction affiliation.\n\n\n\n\nCards from acoo.net with Stylish re-style for 10 wide display\n\n\n\n",
+  "PlayerTurn": "",
+  "Grid": {
+    "Type": 1,
+    "Lines": false,
+    "Snapping": false,
+    "Offset": false,
+    "xSize": 2.0,
+    "ySize": 2.0
+  },
+  "DrawImage": "iVBORw0KGgoAAAANSUhEUgAAAWAAAADQCAYAAAA53LuNAAAFFElEQVR4Ae3QgQAAAADDoPlTH+SFUGHAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgy8DQx5DAABHyNK3wAAAABJRU5ErkJggg==",
+  "ObjectStates": [
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -4.565103,
+        "posY": 1.2257055,
+        "posZ": 17.4079914,
+        "rotX": -0.00102465274,
+        "rotY": 45.8150978,
+        "rotZ": 179.999451,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Corp Deck: NBN",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713289857,
+        "g": 0.713289857,
+        "b": 0.713289857
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        827,
+        1020,
+        815,
+        1021,
+        1013,
+        1015,
+        807,
+        810,
+        1010,
+        804,
+        806,
+        1009,
+        1019,
+        1005,
+        1007,
+        820,
+        803,
+        812,
+        801,
+        821,
+        1018,
+        1000,
+        817,
+        1004,
+        1003,
+        818,
+        825,
+        813,
+        811,
+        824,
+        1016,
+        1017,
+        809,
+        1011,
+        822,
+        1006,
+        823,
+        1022,
+        816,
+        808,
+        819,
+        802,
+        826,
+        805,
+        1008,
+        814,
+        1002,
+        1012,
+        1001
+      ],
+      "CustomDeck": {
+        "8": {
+          "FaceURL": "http://i.imgur.com/1WXKfec.jpg",
+          "BackURL": "http://i.imgur.com/nH5ZP2W.jpg"
+        },
+        "10": {
+          "FaceURL": "http://i.imgur.com/vj28PvW.jpg",
+          "BackURL": "http://i.imgur.com/nH5ZP2W.jpg"
+        }
+      },
+      "GUID": "975732"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -7.811647,
+        "posY": 1.2257576,
+        "posZ": 20.6696014,
+        "rotX": -0.000513618637,
+        "rotY": 45.0261841,
+        "rotZ": 179.999847,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Corp Deck: Jinteki",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713293731,
+        "g": 0.713293731,
+        "b": 0.713293731
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        714,
+        1022,
+        712,
+        1019,
+        1018,
+        721,
+        1013,
+        701,
+        1008,
+        704,
+        702,
+        1000,
+        716,
+        724,
+        1007,
+        1021,
+        1012,
+        1004,
+        1003,
+        706,
+        720,
+        727,
+        1009,
+        1015,
+        1020,
+        1011,
+        725,
+        708,
+        723,
+        710,
+        717,
+        718,
+        705,
+        726,
+        1017,
+        1006,
+        1002,
+        719,
+        1010,
+        1005,
+        707,
+        1016,
+        1001,
+        711,
+        703,
+        722,
+        709,
+        713,
+        715
+      ],
+      "CustomDeck": {
+        "7": {
+          "FaceURL": "http://i.imgur.com/CpJ8Jwz.jpg",
+          "BackURL": "http://i.imgur.com/nH5ZP2W.jpg"
+        },
+        "10": {
+          "FaceURL": "http://i.imgur.com/vj28PvW.jpg",
+          "BackURL": "http://i.imgur.com/nH5ZP2W.jpg"
+        }
+      },
+      "GUID": "35f6a9"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -9.467294,
+        "posY": 1.22576,
+        "posZ": 22.3107185,
+        "rotX": -0.0004783855,
+        "rotY": 44.99737,
+        "rotZ": 179.999863,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Corp Deck: Haas-Bioroid",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713293731,
+        "g": 0.713293731,
+        "b": 0.713293731
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        1020,
+        1022,
+        621,
+        1009,
+        611,
+        619,
+        1008,
+        613,
+        1002,
+        623,
+        614,
+        606,
+        622,
+        1012,
+        627,
+        602,
+        1005,
+        1006,
+        1016,
+        1015,
+        1019,
+        1010,
+        1003,
+        610,
+        1011,
+        626,
+        604,
+        620,
+        608,
+        624,
+        1018,
+        618,
+        1021,
+        612,
+        617,
+        616,
+        615,
+        607,
+        1017,
+        625,
+        603,
+        1007,
+        609,
+        1001,
+        601,
+        1013,
+        1000,
+        605,
+        1004
+      ],
+      "CustomDeck": {
+        "10": {
+          "FaceURL": "http://i.imgur.com/vj28PvW.jpg",
+          "BackURL": "http://i.imgur.com/nH5ZP2W.jpg"
+        },
+        "6": {
+          "FaceURL": "http://i.imgur.com/Z0NGHCC.jpg",
+          "BackURL": "http://i.imgur.com/nH5ZP2W.jpg"
+        }
+      },
+      "GUID": "3821ef"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -21.27456,
+        "posY": 1.21504807,
+        "posZ": 7.718451,
+        "rotX": -0.0012446011,
+        "rotY": 224.955048,
+        "rotZ": 179.998825,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Runner Deck: Noise",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713289857,
+        "g": 0.713289857,
+        "b": 0.713289857
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        106,
+        506,
+        131,
+        510,
+        507,
+        102,
+        113,
+        111,
+        503,
+        103,
+        501,
+        104,
+        110,
+        101,
+        116,
+        123,
+        118,
+        105,
+        513,
+        124,
+        122,
+        121,
+        107,
+        509,
+        125,
+        112,
+        514,
+        126,
+        120,
+        127,
+        508,
+        129,
+        515,
+        511,
+        130,
+        119,
+        115,
+        109,
+        502,
+        108,
+        114,
+        500,
+        117,
+        505,
+        128,
+        132,
+        512
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "http://i.imgur.com/faRBSsD.jpg",
+          "BackURL": "http://i.imgur.com/0fX53mB.png"
+        },
+        "5": {
+          "FaceURL": "http://i.imgur.com/GrNH9sC.jpg",
+          "BackURL": "http://i.imgur.com/0lcNPcp.png"
+        }
+      },
+      "GUID": "bd8de7"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -17.8826771,
+        "posY": 1.21507287,
+        "posZ": 4.26607,
+        "rotX": -0.00184330565,
+        "rotY": 224.981247,
+        "rotZ": 179.999878,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Runner Deck: Mac",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713293731,
+        "g": 0.713293731,
+        "b": 0.713293731
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        320,
+        301,
+        508,
+        322,
+        305,
+        507,
+        316,
+        503,
+        329,
+        311,
+        321,
+        331,
+        501,
+        323,
+        314,
+        327,
+        500,
+        304,
+        505,
+        328,
+        513,
+        326,
+        315,
+        515,
+        309,
+        502,
+        324,
+        330,
+        319,
+        317,
+        303,
+        510,
+        308,
+        506,
+        511,
+        512,
+        318,
+        307,
+        325,
+        306,
+        310,
+        312,
+        313,
+        509,
+        302,
+        332,
+        514
+      ],
+      "CustomDeck": {
+        "3": {
+          "FaceURL": "http://i.imgur.com/XHxdfkl.jpg",
+          "BackURL": "http://i.imgur.com/0lcNPcp.png"
+        },
+        "5": {
+          "FaceURL": "http://i.imgur.com/GrNH9sC.jpg",
+          "BackURL": "http://i.imgur.com/0lcNPcp.png"
+        }
+      },
+      "GUID": "4d6eca"
+    },
+    {
+      "Name": "Custom_Board",
+      "Transform": {
+        "posX": -0.735772431,
+        "posY": 1.01500094,
+        "posZ": 0.487941951,
+        "rotX": -1.01066053E-05,
+        "rotY": 44.98129,
+        "rotZ": -7.34252353E-07,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.05006632
+      },
+      "Grid": true,
+      "Locked": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/ZmCexlZ.jpg",
+        "WidthScale": 0.8435348
+      },
+      "GUID": "5948fb"
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": 2.29325223,
+        "posY": 2.14927554,
+        "posZ": -11.1817694,
+        "rotX": 7.11287566E-06,
+        "rotY": 359.934326,
+        "rotZ": -2.58236651E-06,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.580433369,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": "1722b3"
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -3.9606154,
+        "posY": 2.14926744,
+        "posZ": 11.9736643,
+        "rotX": 1.622504E-05,
+        "rotY": 359.942932,
+        "rotZ": -1.00241905E-05,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0156862754,
+        "b": 0.7529686
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": "051d24"
+    },
+    {
+      "Name": "Tablet",
+      "Transform": {
+        "posX": -14.2422695,
+        "posY": 1.60140073,
+        "posZ": 13.8771591,
+        "rotX": -5.44141176E-06,
+        "rotY": 135.001389,
+        "rotZ": 2.44493049E-06,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "Tablet": {
+        "PageURL": "https://docs.google.com/file/d/0B_weuWXWSrjGbk4wc01vQzE1bXM/edit?pli=1"
+      },
+      "GUID": "bd431d"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 12.804513,
+        "posY": 1.044847,
+        "posZ": -14.910367,
+        "rotX": 351.964172,
+        "rotY": 62.4527931,
+        "rotZ": 359.9919,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Brain Damage",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=4r4ft5FK",
+        "DiffuseURL": "http://i.imgur.com/i008FR1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 5
+      },
+      "GUID": "4f9f44"
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -6.96326733,
+        "posY": 2.10605073,
+        "posZ": 4.557977,
+        "rotX": 0.000224500414,
+        "rotY": 59.6080742,
+        "rotZ": 1.37570105E-05,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.580438554,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": "505729"
+    },
+    {
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -4.352939,
+        "posY": 2.10605121,
+        "posZ": 3.06132221,
+        "rotX": -1.53285655E-05,
+        "rotY": 0.328132123,
+        "rotZ": -4.57234819E-07,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.5804437,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": "787dd4"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 5.55202055,
+        "posY": 1.03430581,
+        "posZ": -14.5446243,
+        "rotX": 0.753210068,
+        "rotY": 58.8812523,
+        "rotZ": 180.1443,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Publicity/Tag",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "DiffuseURL": "http://i.imgur.com/5ZJMocU.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "3f27a9"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 15.3868952,
+        "posY": 1.03427553,
+        "posZ": -12.6144457,
+        "rotX": 353.1219,
+        "rotY": 240.294037,
+        "rotZ": 359.927673,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Brain Damage",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=4r4ft5FK",
+        "DiffuseURL": "http://i.imgur.com/i008FR1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 5
+      },
+      "GUID": "23ef4f"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 13.1072769,
+        "posY": 1.06738889,
+        "posZ": -13.9878807,
+        "rotX": 2.80252957,
+        "rotY": 326.636871,
+        "rotZ": 8.130261,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Brain Damage",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=4r4ft5FK",
+        "DiffuseURL": "http://i.imgur.com/i008FR1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 5
+      },
+      "GUID": "876204"
+    },
+    {
+      "Name": "Checker_white",
+      "Transform": {
+        "posX": 10.3809481,
+        "posY": 1.03499222,
+        "posZ": -13.6569338,
+        "rotX": 359.972534,
+        "rotY": 1.325743,
+        "rotZ": 179.912033,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Token",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.309853256,
+        "g": 0.55690515,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": "af2e9a"
+    },
+    {
+      "Name": "Checker_white",
+      "Transform": {
+        "posX": 10.2107954,
+        "posY": 1.09955573,
+        "posZ": -13.2783489,
+        "rotX": 13.4013739,
+        "rotY": 10.5755959,
+        "rotZ": 182.109726,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Token",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.309853256,
+        "g": 0.55690515,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": "e52a41"
+    },
+    {
+      "Name": "CheckerStack",
+      "Transform": {
+        "posX": 13.9748564,
+        "posY": 1.22998989,
+        "posZ": -9.611647,
+        "rotX": 0.0832412541,
+        "rotY": 18.7799969,
+        "rotZ": 210.875885,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Token",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9568689,
+        "g": 0.0156862754,
+        "b": 0.168677211
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "MeshIndex": -1,
+      "Number": 2,
+      "GUID": "c1adad"
+    },
+    {
+      "Name": "CheckerStack",
+      "Transform": {
+        "posX": 11.2276449,
+        "posY": 0.941366732,
+        "posZ": -14.3333206,
+        "rotX": -0.000184410077,
+        "rotY": 339.941833,
+        "rotZ": 1.28584625E-05,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Token",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.309859425,
+        "g": 0.5569105,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "MeshIndex": -1,
+      "Number": 5,
+      "GUID": "e3c033"
+    },
+    {
+      "Name": "Checker_white",
+      "Transform": {
+        "posX": 10.9199734,
+        "posY": 1.0350976,
+        "posZ": -13.37591,
+        "rotX": 359.849365,
+        "rotY": 355.287384,
+        "rotZ": 179.767853,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Token",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.309853256,
+        "g": 0.55690515,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": "4a5896"
+    },
+    {
+      "Name": "Checker_white",
+      "Transform": {
+        "posX": 14.5719013,
+        "posY": 1.03494275,
+        "posZ": -9.565941,
+        "rotX": 359.705017,
+        "rotY": 358.871368,
+        "rotZ": 180.091873,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Token",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9568682,
+        "g": 0.0156862754,
+        "b": 0.1686717
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": "3b998e"
+    },
+    {
+      "Name": "CheckerStack",
+      "Transform": {
+        "posX": 11.3852177,
+        "posY": 1.18309963,
+        "posZ": -13.67756,
+        "rotX": 358.301544,
+        "rotY": 347.76123,
+        "rotZ": 168.266571,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Token",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.309859425,
+        "g": 0.5569105,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "MeshIndex": -1,
+      "Number": 2,
+      "GUID": "f9e57f"
+    },
+    {
+      "Name": "CheckerStack",
+      "Transform": {
+        "posX": 14.6203613,
+        "posY": 1.2168113,
+        "posZ": -10.2354984,
+        "rotX": 346.350647,
+        "rotY": 3.67563176,
+        "rotZ": 178.954956,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Token",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9568689,
+        "g": 0.0156862754,
+        "b": 0.168677211
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "MeshIndex": -1,
+      "Number": 2,
+      "GUID": "07ca7c"
+    },
+    {
+      "Name": "Checker_white",
+      "Transform": {
+        "posX": 9.860464,
+        "posY": 0.9897602,
+        "posZ": -14.6285248,
+        "rotX": 0.0133009395,
+        "rotY": 232.9304,
+        "rotZ": 348.820038,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Token",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.309853256,
+        "g": 0.55690515,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": "230e83"
+    },
+    {
+      "Name": "Checker_white",
+      "Transform": {
+        "posX": 10.1554155,
+        "posY": 0.941300333,
+        "posZ": -15.0942278,
+        "rotX": 359.989929,
+        "rotY": 207.6568,
+        "rotZ": 0.00338469562,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Token",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.309853256,
+        "g": 0.55690515,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": "f0ed62"
+    },
+    {
+      "Name": "CheckerStack",
+      "Transform": {
+        "posX": 9.854887,
+        "posY": 1.17219341,
+        "posZ": -13.8687134,
+        "rotX": 359.967926,
+        "rotY": 1.07400584,
+        "rotZ": 190.729126,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Token",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.309859425,
+        "g": 0.5569105,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "MeshIndex": -1,
+      "Number": 2,
+      "GUID": "e9f1e0"
+    },
+    {
+      "Name": "CheckerStack",
+      "Transform": {
+        "posX": 13.7048931,
+        "posY": 0.941367149,
+        "posZ": -11.0069609,
+        "rotX": -2.8885519E-05,
+        "rotY": 185.59903,
+        "rotZ": -3.01731916E-06,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Token",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9568689,
+        "g": 0.0156862754,
+        "b": 0.168677211
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "MeshIndex": -1,
+      "Number": 4,
+      "GUID": "549253"
+    },
+    {
+      "Name": "CheckerStack",
+      "Transform": {
+        "posX": 14.5844622,
+        "posY": 1.12904835,
+        "posZ": -10.7241879,
+        "rotX": -0.000139884258,
+        "rotY": 3.59645748,
+        "rotZ": 179.999954,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Token",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9568689,
+        "g": 0.0156862754,
+        "b": 0.168677211
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "MeshIndex": -1,
+      "Number": 2,
+      "GUID": "af6d84"
+    },
+    {
+      "Name": "Checker_white",
+      "Transform": {
+        "posX": 10.7949409,
+        "posY": 1.12535644,
+        "posZ": -13.7577095,
+        "rotX": 359.4849,
+        "rotY": 359.5566,
+        "rotZ": 179.761459,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Token",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.309853256,
+        "g": 0.55690515,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": "d39db8"
+    },
+    {
+      "Name": "Checker_white",
+      "Transform": {
+        "posX": 14.42998,
+        "posY": 1.09862375,
+        "posZ": -9.939571,
+        "rotX": 346.5668,
+        "rotY": 10.2104225,
+        "rotZ": 177.398209,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Token",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9568682,
+        "g": 0.0156862754,
+        "b": 0.1686717
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": "09ee25"
+    },
+    {
+      "Name": "CheckerStack",
+      "Transform": {
+        "posX": 13.5776739,
+        "posY": 1.12904859,
+        "posZ": -10.0857849,
+        "rotX": -6.234265E-05,
+        "rotY": 24.1564045,
+        "rotZ": 180.000046,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Token",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9568689,
+        "g": 0.0156862754,
+        "b": 0.168677211
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "MeshIndex": -1,
+      "Number": 2,
+      "GUID": "39bca7"
+    },
+    {
+      "Name": "CheckerStack",
+      "Transform": {
+        "posX": 14.00497,
+        "posY": 1.12904859,
+        "posZ": -10.5124369,
+        "rotX": -4.41123848E-05,
+        "rotY": 6.979206,
+        "rotZ": 180.000046,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Token",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9568689,
+        "g": 0.0156862754,
+        "b": 0.168677211
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "MeshIndex": -1,
+      "Number": 2,
+      "GUID": "7f024e"
+    },
+    {
+      "Name": "Custom_Model_Stack",
+      "Transform": {
+        "posX": 13.8257236,
+        "posY": 0.969423831,
+        "posZ": -13.8211184,
+        "rotX": 0.250765741,
+        "rotY": 359.9296,
+        "rotZ": 359.644,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Brain Damage",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "Number": 2,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=4r4ft5FK",
+        "DiffuseURL": "http://i.imgur.com/i008FR1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 5
+      },
+      "GUID": "4441ab"
+    },
+    {
+      "Name": "Custom_Model_Stack",
+      "Transform": {
+        "posX": 13.9605265,
+        "posY": 1.13964009,
+        "posZ": -13.5385094,
+        "rotX": 7.49092627,
+        "rotY": 39.51137,
+        "rotZ": 351.5581,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Brain Damage",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "Number": 2,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=4r4ft5FK",
+        "DiffuseURL": "http://i.imgur.com/i008FR1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 5
+      },
+      "GUID": "81c53a"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 16.3728828,
+        "posY": 0.982878864,
+        "posZ": -3.7958796,
+        "rotX": 358.3097,
+        "rotY": 240.233063,
+        "rotZ": 0.03011295,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Publicity/Tag",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "DiffuseURL": "http://i.imgur.com/5ZJMocU.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "e0cd23"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 15.79268,
+        "posY": 0.9565216,
+        "posZ": -6.63916445,
+        "rotX": 0.190867692,
+        "rotY": 75.2421,
+        "rotZ": 180.318573,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Publicity/Tag",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "DiffuseURL": "http://i.imgur.com/5ZJMocU.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "85ff96"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 5.64241743,
+        "posY": 0.998105347,
+        "posZ": -15.9640942,
+        "rotX": 357.7997,
+        "rotY": 223.748322,
+        "rotZ": 1.12394416,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Publicity/Tag",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "DiffuseURL": "http://i.imgur.com/5ZJMocU.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "064b88"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 6.680381,
+        "posY": 0.988556743,
+        "posZ": -15.7079744,
+        "rotX": 358.020264,
+        "rotY": 255.679581,
+        "rotZ": 359.72345,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Publicity/Tag",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "DiffuseURL": "http://i.imgur.com/5ZJMocU.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "013699"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 15.922718,
+        "posY": 1.11552536,
+        "posZ": -4.97192,
+        "rotX": 358.38623,
+        "rotY": 255.226379,
+        "rotZ": 356.105316,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Publicity/Tag",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "DiffuseURL": "http://i.imgur.com/5ZJMocU.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "0d30bc"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 7.84406376,
+        "posY": 1.01652527,
+        "posZ": -15.7286577,
+        "rotX": 4.42573643,
+        "rotY": 61.92768,
+        "rotZ": 179.965424,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Publicity/Tag",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "DiffuseURL": "http://i.imgur.com/5ZJMocU.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "b9d3cb"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 16.8673248,
+        "posY": 1.03995883,
+        "posZ": -6.27470875,
+        "rotX": 1.41868329,
+        "rotY": 77.41274,
+        "rotZ": 176.458008,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Publicity/Tag",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "DiffuseURL": "http://i.imgur.com/5ZJMocU.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "fcea6c"
+    },
+    {
+      "Name": "Checker_red",
+      "Transform": {
+        "posX": 10.4422464,
+        "posY": 1.03538966,
+        "posZ": -14.413312,
+        "rotX": -6.236615E-06,
+        "rotY": 358.197235,
+        "rotZ": 180.0,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Token",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.3098656,
+        "g": 0.5569158,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": "5d656e"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 11.805521,
+        "posY": 0.9899269,
+        "posZ": -7.83822727,
+        "rotX": 0.697033644,
+        "rotY": 219.614258,
+        "rotZ": 0.03385594,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.160844311,
+        "b": 0.298107028
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=eQipQa4y",
+        "DiffuseURL": "http://imagebin.ca/1tMAQy2STvAe/FinalCredit_default_color.jpg",
+        "NormalURL": "http://ibin.co/1tMAgtGvtT4D",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": "4dd33e"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 7.59839725,
+        "posY": 0.977874,
+        "posZ": -11.0870571,
+        "rotX": 0.232970312,
+        "rotY": 196.992081,
+        "rotZ": 0.6460899,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.4706641,
+        "g": 0.5922223,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=eQipQa4y",
+        "DiffuseURL": "http://imagebin.ca/1tMAQy2STvAe/FinalCredit_default_color.jpg",
+        "NormalURL": "http://ibin.co/1tMAgtGvtT4D",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": "7ea714"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 7.75264359,
+        "posY": 1.04857671,
+        "posZ": -11.3317986,
+        "rotX": 359.949677,
+        "rotY": 211.713211,
+        "rotZ": 0.472684324,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.4706641,
+        "g": 0.5922223,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=eQipQa4y",
+        "DiffuseURL": "http://imagebin.ca/1tMAQy2STvAe/FinalCredit_default_color.jpg",
+        "NormalURL": "http://ibin.co/1tMAgtGvtT4D",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": "d98d88"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 7.934579,
+        "posY": 1.11839318,
+        "posZ": -11.1374073,
+        "rotX": 359.766663,
+        "rotY": 208.694748,
+        "rotZ": 0.7159602,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.4706641,
+        "g": 0.5922223,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=eQipQa4y",
+        "DiffuseURL": "http://imagebin.ca/1tMAQy2STvAe/FinalCredit_default_color.jpg",
+        "NormalURL": "http://ibin.co/1tMAgtGvtT4D",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": "d0e316"
+    },
+    {
+      "Name": "Custom_Model_Stack",
+      "Transform": {
+        "posX": 8.250901,
+        "posY": 0.9785801,
+        "posZ": -12.303195,
+        "rotX": 0.05953099,
+        "rotY": 213.548264,
+        "rotZ": 359.852661,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.470675766,
+        "g": 0.592232347,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "Number": 2,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=eQipQa4y",
+        "DiffuseURL": "http://imagebin.ca/1tMAQy2STvAe/FinalCredit_default_color.jpg",
+        "NormalURL": "http://ibin.co/1tMAgtGvtT4D",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": "0ffbfe"
+    },
+    {
+      "Name": "Custom_Model_Stack",
+      "Transform": {
+        "posX": 7.724595,
+        "posY": 1.11161017,
+        "posZ": -12.348978,
+        "rotX": 4.24751663,
+        "rotY": 226.4675,
+        "rotZ": 342.49707,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.4706641,
+        "g": 0.5922223,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "Number": 2,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=eQipQa4y",
+        "DiffuseURL": "http://imagebin.ca/1tMAQy2STvAe/FinalCredit_default_color.jpg",
+        "NormalURL": "http://ibin.co/1tMAgtGvtT4D",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": "5dce42"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 7.03867,
+        "posY": 0.979128,
+        "posZ": -11.8300228,
+        "rotX": 359.934357,
+        "rotY": 211.686508,
+        "rotZ": 359.802,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.4706641,
+        "g": 0.5922223,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=eQipQa4y",
+        "DiffuseURL": "http://imagebin.ca/1tMAQy2STvAe/FinalCredit_default_color.jpg",
+        "NormalURL": "http://ibin.co/1tMAgtGvtT4D",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": "200527"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 7.063435,
+        "posY": 1.105291,
+        "posZ": -11.3844242,
+        "rotX": 358.272644,
+        "rotY": 206.376129,
+        "rotZ": 340.95816,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.4706641,
+        "g": 0.5922223,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=eQipQa4y",
+        "DiffuseURL": "http://imagebin.ca/1tMAQy2STvAe/FinalCredit_default_color.jpg",
+        "NormalURL": "http://ibin.co/1tMAgtGvtT4D",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": "b385ae"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 9.090286,
+        "posY": 0.979323566,
+        "posZ": -11.58542,
+        "rotX": 0.09160469,
+        "rotY": 215.179153,
+        "rotZ": 0.102096185,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.4706641,
+        "g": 0.5922223,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=eQipQa4y",
+        "DiffuseURL": "http://imagebin.ca/1tMAQy2STvAe/FinalCredit_default_color.jpg",
+        "NormalURL": "http://ibin.co/1tMAgtGvtT4D",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": "a43306"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 8.677664,
+        "posY": 1.22348607,
+        "posZ": -11.4811907,
+        "rotX": 333.6227,
+        "rotY": 247.585587,
+        "rotZ": 353.658661,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.4706641,
+        "g": 0.5922223,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=eQipQa4y",
+        "DiffuseURL": "http://imagebin.ca/1tMAQy2STvAe/FinalCredit_default_color.jpg",
+        "NormalURL": "http://ibin.co/1tMAgtGvtT4D",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": "221f3d"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 11.9915714,
+        "posY": 1.051278,
+        "posZ": -8.853042,
+        "rotX": 3.37826633,
+        "rotY": 217.050232,
+        "rotZ": 3.68706965,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.160855234,
+        "b": 0.298119336
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=eQipQa4y",
+        "DiffuseURL": "http://imagebin.ca/1tMAQy2STvAe/FinalCredit_default_color.jpg",
+        "NormalURL": "http://ibin.co/1tMAgtGvtT4D",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": "c63144"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 12.9866991,
+        "posY": 0.990351,
+        "posZ": -8.2339325,
+        "rotX": 359.813263,
+        "rotY": 200.076492,
+        "rotZ": 0.04352902,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.160855234,
+        "b": 0.298119336
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=eQipQa4y",
+        "DiffuseURL": "http://imagebin.ca/1tMAQy2STvAe/FinalCredit_default_color.jpg",
+        "NormalURL": "http://ibin.co/1tMAgtGvtT4D",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": "b14ece"
+    },
+    {
+      "Name": "Custom_Model_Stack",
+      "Transform": {
+        "posX": 12.1214418,
+        "posY": 1.19137907,
+        "posZ": -7.022463,
+        "rotX": 0.0197514966,
+        "rotY": 227.873749,
+        "rotZ": 0.07811372,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.160866141,
+        "b": 0.298131675
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "Number": 2,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=eQipQa4y",
+        "DiffuseURL": "http://imagebin.ca/1tMAQy2STvAe/FinalCredit_default_color.jpg",
+        "NormalURL": "http://ibin.co/1tMAgtGvtT4D",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": "9a38ab"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 11.2095575,
+        "posY": 1.1150049,
+        "posZ": -8.423088,
+        "rotX": 2.75542974,
+        "rotY": 212.388229,
+        "rotZ": 351.919556,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.160855234,
+        "b": 0.298119336
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=eQipQa4y",
+        "DiffuseURL": "http://imagebin.ca/1tMAQy2STvAe/FinalCredit_default_color.jpg",
+        "NormalURL": "http://ibin.co/1tMAgtGvtT4D",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": "c98b3c"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 12.8174381,
+        "posY": 1.08894145,
+        "posZ": -7.60379076,
+        "rotX": 359.844238,
+        "rotY": 233.053055,
+        "rotZ": 0.03248779,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.160855234,
+        "b": 0.298119336
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=eQipQa4y",
+        "DiffuseURL": "http://imagebin.ca/1tMAQy2STvAe/FinalCredit_default_color.jpg",
+        "NormalURL": "http://ibin.co/1tMAgtGvtT4D",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": "53f353"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 13.5283346,
+        "posY": 1.14312971,
+        "posZ": -7.933383,
+        "rotX": 355.211,
+        "rotY": 231.508636,
+        "rotZ": 13.6559525,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.160855234,
+        "b": 0.298119336
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=eQipQa4y",
+        "DiffuseURL": "http://imagebin.ca/1tMAQy2STvAe/FinalCredit_default_color.jpg",
+        "NormalURL": "http://ibin.co/1tMAgtGvtT4D",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": "233317"
+    },
+    {
+      "Name": "Custom_Model_Stack",
+      "Transform": {
+        "posX": 11.2446032,
+        "posY": 1.19094408,
+        "posZ": -7.765674,
+        "rotX": 2.39293313,
+        "rotY": 220.629517,
+        "rotZ": 352.311554,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.160866141,
+        "b": 0.298131675
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "Number": 2,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=eQipQa4y",
+        "DiffuseURL": "http://imagebin.ca/1tMAQy2STvAe/FinalCredit_default_color.jpg",
+        "NormalURL": "http://ibin.co/1tMAgtGvtT4D",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": "f4b655"
+    },
+    {
+      "Name": "Custom_Model_Stack",
+      "Transform": {
+        "posX": 11.8201122,
+        "posY": 1.48429394,
+        "posZ": -8.255377,
+        "rotX": 346.3208,
+        "rotY": 306.274658,
+        "rotZ": 183.391312,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.160866141,
+        "b": 0.298131675
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "Number": 2,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=eQipQa4y",
+        "DiffuseURL": "http://imagebin.ca/1tMAQy2STvAe/FinalCredit_default_color.jpg",
+        "NormalURL": "http://ibin.co/1tMAgtGvtT4D",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": "4caf5f"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 12.4900131,
+        "posY": 1.1699667,
+        "posZ": -8.518147,
+        "rotX": 4.22877741,
+        "rotY": 201.161621,
+        "rotZ": 2.61221814,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.160855234,
+        "b": 0.298119336
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=eQipQa4y",
+        "DiffuseURL": "http://imagebin.ca/1tMAQy2STvAe/FinalCredit_default_color.jpg",
+        "NormalURL": "http://ibin.co/1tMAgtGvtT4D",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": "8370b8"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -3.53861713,
+        "posY": 2.08653283,
+        "posZ": -15.7078829,
+        "rotX": 359.983429,
+        "rotY": 212.83284,
+        "rotZ": 359.978973,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.470675766,
+        "g": 0.592232347,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=eQipQa4y",
+        "DiffuseURL": "http://imagebin.ca/1tMAQy2STvAe/FinalCredit_default_color.jpg",
+        "NormalURL": "http://ibin.co/1tMAgtGvtT4D",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": "8544a8"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -3.183664,
+        "posY": 2.14052129,
+        "posZ": -16.04253,
+        "rotX": 0.00368744833,
+        "rotY": 213.2535,
+        "rotZ": 8.675236,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.470675766,
+        "g": 0.592232347,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=eQipQa4y",
+        "DiffuseURL": "http://imagebin.ca/1tMAQy2STvAe/FinalCredit_default_color.jpg",
+        "NormalURL": "http://ibin.co/1tMAgtGvtT4D",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": "713d20"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -2.89955878,
+        "posY": 2.15293527,
+        "posZ": -16.3058376,
+        "rotX": 359.920044,
+        "rotY": 215.0077,
+        "rotZ": 10.6749954,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.470675766,
+        "g": 0.592232347,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=eQipQa4y",
+        "DiffuseURL": "http://imagebin.ca/1tMAQy2STvAe/FinalCredit_default_color.jpg",
+        "NormalURL": "http://ibin.co/1tMAgtGvtT4D",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": "d92b98"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -2.626674,
+        "posY": 2.15162277,
+        "posZ": -16.615284,
+        "rotX": 359.990967,
+        "rotY": 216.1347,
+        "rotZ": 10.6215973,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.470675766,
+        "g": 0.592232347,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=eQipQa4y",
+        "DiffuseURL": "http://imagebin.ca/1tMAQy2STvAe/FinalCredit_default_color.jpg",
+        "NormalURL": "http://ibin.co/1tMAgtGvtT4D",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": "a24903"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -2.314807,
+        "posY": 2.152601,
+        "posZ": -16.9027786,
+        "rotX": 0.3831688,
+        "rotY": 209.544037,
+        "rotZ": 10.3360262,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.470675766,
+        "g": 0.592232347,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=eQipQa4y",
+        "DiffuseURL": "http://imagebin.ca/1tMAQy2STvAe/FinalCredit_default_color.jpg",
+        "NormalURL": "http://ibin.co/1tMAgtGvtT4D",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": "728c64"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 2.2066617,
+        "posY": 2.08649421,
+        "posZ": 16.62285,
+        "rotX": 0.0115610389,
+        "rotY": 208.5628,
+        "rotZ": 0.018945165,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.470675766,
+        "g": 0.592232347,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=eQipQa4y",
+        "DiffuseURL": "http://imagebin.ca/1tMAQy2STvAe/FinalCredit_default_color.jpg",
+        "NormalURL": "http://ibin.co/1tMAgtGvtT4D",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": "7c4f94"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 1.79519916,
+        "posY": 2.14025831,
+        "posZ": 16.9112778,
+        "rotX": 359.992157,
+        "rotY": 214.233963,
+        "rotZ": 351.340942,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.470675766,
+        "g": 0.592232347,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=eQipQa4y",
+        "DiffuseURL": "http://imagebin.ca/1tMAQy2STvAe/FinalCredit_default_color.jpg",
+        "NormalURL": "http://ibin.co/1tMAgtGvtT4D",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": "9b0ca9"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 1.51443708,
+        "posY": 2.14681315,
+        "posZ": 17.2672272,
+        "rotX": 359.980438,
+        "rotY": 211.131332,
+        "rotZ": 350.2762,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.470675766,
+        "g": 0.592232347,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=eQipQa4y",
+        "DiffuseURL": "http://imagebin.ca/1tMAQy2STvAe/FinalCredit_default_color.jpg",
+        "NormalURL": "http://ibin.co/1tMAgtGvtT4D",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": "78dbe8"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 1.20657146,
+        "posY": 2.14775157,
+        "posZ": 17.5615311,
+        "rotX": 359.984131,
+        "rotY": 212.12413,
+        "rotZ": 350.064178,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.470675766,
+        "g": 0.592232347,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=eQipQa4y",
+        "DiffuseURL": "http://imagebin.ca/1tMAQy2STvAe/FinalCredit_default_color.jpg",
+        "NormalURL": "http://ibin.co/1tMAgtGvtT4D",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": "91098e"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.7860326,
+        "posY": 2.14125371,
+        "posZ": 17.8681526,
+        "rotX": 0.009763542,
+        "rotY": 216.743271,
+        "rotZ": 351.11972,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.470675766,
+        "g": 0.592232347,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=eQipQa4y",
+        "DiffuseURL": "http://imagebin.ca/1tMAQy2STvAe/FinalCredit_default_color.jpg",
+        "NormalURL": "http://ibin.co/1tMAgtGvtT4D",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": "17c9ef"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 7.99460268,
+        "posY": 1.12789834,
+        "posZ": -13.4431849,
+        "rotX": 0.0800206959,
+        "rotY": 311.069275,
+        "rotZ": 180.008774,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.470675766,
+        "g": 0.592232347,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=eQipQa4y",
+        "DiffuseURL": "http://imagebin.ca/1tMAQy2STvAe/FinalCredit_default_color.jpg",
+        "NormalURL": "http://ibin.co/1tMAgtGvtT4D",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": "501e88"
+    },
+    {
+      "Name": "Custom_Model_Stack",
+      "Transform": {
+        "posX": 8.240193,
+        "posY": 1.055274,
+        "posZ": -13.7409554,
+        "rotX": 0.0511372052,
+        "rotY": 356.7342,
+        "rotZ": 180.065552,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.470687449,
+        "g": 0.5922424,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "Number": 2,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=eQipQa4y",
+        "DiffuseURL": "http://imagebin.ca/1tMAQy2STvAe/FinalCredit_default_color.jpg",
+        "NormalURL": "http://ibin.co/1tMAgtGvtT4D",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": "b0d322"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 6.785572,
+        "posY": 0.9795328,
+        "posZ": -12.9440746,
+        "rotX": -2.24397427E-05,
+        "rotY": 71.56417,
+        "rotZ": 180.0,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.470675766,
+        "g": 0.592232347,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=eQipQa4y",
+        "DiffuseURL": "http://imagebin.ca/1tMAQy2STvAe/FinalCredit_default_color.jpg",
+        "NormalURL": "http://ibin.co/1tMAgtGvtT4D",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": "3ee353"
+    },
+    {
+      "Name": "Custom_Model_Stack",
+      "Transform": {
+        "posX": 9.255226,
+        "posY": 1.09628987,
+        "posZ": -12.3811436,
+        "rotX": 0.0165393036,
+        "rotY": 228.839813,
+        "rotZ": 186.680649,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.470675766,
+        "g": 0.592232347,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "Number": 2,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=eQipQa4y",
+        "DiffuseURL": "http://imagebin.ca/1tMAQy2STvAe/FinalCredit_default_color.jpg",
+        "NormalURL": "http://ibin.co/1tMAgtGvtT4D",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": "8b3de6"
+    },
+    {
+      "Name": "Custom_Model_Stack",
+      "Transform": {
+        "posX": 8.32274,
+        "posY": 1.178939,
+        "posZ": -11.74952,
+        "rotX": 351.68277,
+        "rotY": 205.9929,
+        "rotZ": 12.8880014,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "1 Credit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.470675766,
+        "g": 0.592232347,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "Number": 2,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=eQipQa4y",
+        "DiffuseURL": "http://imagebin.ca/1tMAQy2STvAe/FinalCredit_default_color.jpg",
+        "NormalURL": "http://ibin.co/1tMAgtGvtT4D",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": "191391"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 11.6157694,
+        "posY": 0.941457868,
+        "posZ": -11.8081255,
+        "rotX": -2.58461969E-05,
+        "rotY": 105.261017,
+        "rotZ": 1.3025362E-05,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Virus Counter",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7961308,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "https://dl.dropboxusercontent.com/u/1763962/Tabletop%20Sim/Phage-T4.obj",
+        "DiffuseURL": "http://wallpapercolor.net/wallpapers/red-black-background-wallpaper-15536.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 0
+      },
+      "GUID": "0c36d3"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 11.9257956,
+        "posY": 0.941457868,
+        "posZ": -10.94619,
+        "rotX": -1.40070042E-05,
+        "rotY": 104.951431,
+        "rotZ": -9.311838E-06,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Virus Counter",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.796136558,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "https://dl.dropboxusercontent.com/u/1763962/Tabletop%20Sim/Phage-T4.obj",
+        "DiffuseURL": "http://wallpapercolor.net/wallpapers/red-black-background-wallpaper-15536.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 0
+      },
+      "GUID": "1cb514"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 12.478837,
+        "posY": 0.9414583,
+        "posZ": -11.727129,
+        "rotX": 5.21908E-05,
+        "rotY": 104.916481,
+        "rotZ": -3.89955239E-05,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Virus Counter",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.796136558,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "https://dl.dropboxusercontent.com/u/1763962/Tabletop%20Sim/Phage-T4.obj",
+        "DiffuseURL": "http://wallpapercolor.net/wallpapers/red-black-background-wallpaper-15536.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 0
+      },
+      "GUID": "8ad734"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 12.544445,
+        "posY": 0.941457868,
+        "posZ": -12.788166,
+        "rotX": -1.55818962E-05,
+        "rotY": 104.257034,
+        "rotZ": -2.649278E-06,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Virus Counter",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.796136558,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "https://dl.dropboxusercontent.com/u/1763962/Tabletop%20Sim/Phage-T4.obj",
+        "DiffuseURL": "http://wallpapercolor.net/wallpapers/red-black-background-wallpaper-15536.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 0
+      },
+      "GUID": "de770f"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 11.7501421,
+        "posY": 0.94145757,
+        "posZ": -12.7661543,
+        "rotX": -0.00011362174,
+        "rotY": 29.3719177,
+        "rotZ": -5.15159227E-05,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Virus Counter",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.796136558,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "https://dl.dropboxusercontent.com/u/1763962/Tabletop%20Sim/Phage-T4.obj",
+        "DiffuseURL": "http://wallpapercolor.net/wallpapers/red-black-background-wallpaper-15536.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 0
+      },
+      "GUID": "0417cf"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 10.8200531,
+        "posY": 0.941458046,
+        "posZ": -11.9265633,
+        "rotX": -1.11795271E-05,
+        "rotY": 104.951912,
+        "rotZ": -3.70449152E-06,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Virus Counter",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.796136558,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "https://dl.dropboxusercontent.com/u/1763962/Tabletop%20Sim/Phage-T4.obj",
+        "DiffuseURL": "http://wallpapercolor.net/wallpapers/red-black-background-wallpaper-15536.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 0
+      },
+      "GUID": "36f503"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 11.2298784,
+        "posY": 0.9414576,
+        "posZ": -10.7262554,
+        "rotX": -2.09930986E-05,
+        "rotY": 104.940834,
+        "rotZ": -3.52551615E-06,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Virus Counter",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.796136558,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "https://dl.dropboxusercontent.com/u/1763962/Tabletop%20Sim/Phage-T4.obj",
+        "DiffuseURL": "http://wallpapercolor.net/wallpapers/red-black-background-wallpaper-15536.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 0
+      },
+      "GUID": "9e5614"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 14.9726686,
+        "posY": 1.09306812,
+        "posZ": -13.6933994,
+        "rotX": 9.435347,
+        "rotY": 50.61085,
+        "rotZ": 357.833618,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Brain Damage",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=4r4ft5FK",
+        "DiffuseURL": "http://i.imgur.com/i008FR1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 5
+      },
+      "GUID": "332190"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 14.2811909,
+        "posY": 1.19286406,
+        "posZ": -12.9720078,
+        "rotX": 16.13771,
+        "rotY": 48.9364166,
+        "rotZ": 354.246033,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Brain Damage",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=4r4ft5FK",
+        "DiffuseURL": "http://i.imgur.com/i008FR1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 5
+      },
+      "GUID": "8922e8"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 5.29559,
+        "posY": 1.0796957,
+        "posZ": -15.51185,
+        "rotX": 0.8918973,
+        "rotY": 59.00761,
+        "rotZ": 180.00647,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Publicity/Tag",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "DiffuseURL": "http://i.imgur.com/5ZJMocU.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "545fcb"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 3.824583,
+        "posY": 1.14808369,
+        "posZ": -15.6349363,
+        "rotX": 344.728973,
+        "rotY": 246.708786,
+        "rotZ": 0.246189,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Publicity/Tag",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "DiffuseURL": "http://i.imgur.com/5ZJMocU.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "2c6737"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 5.55217075,
+        "posY": 1.05739319,
+        "posZ": -16.98863,
+        "rotX": 359.269165,
+        "rotY": 229.139816,
+        "rotZ": 0.120008811,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Publicity/Tag",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "DiffuseURL": "http://i.imgur.com/5ZJMocU.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "cb3e5c"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 7.00261641,
+        "posY": 1.05035138,
+        "posZ": -16.2566051,
+        "rotX": 5.17421436,
+        "rotY": 57.99785,
+        "rotZ": 178.578888,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Publicity/Tag",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "DiffuseURL": "http://i.imgur.com/5ZJMocU.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "f46714"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 15.6120615,
+        "posY": 0.971673131,
+        "posZ": -4.883741,
+        "rotX": 0.06543627,
+        "rotY": 75.99694,
+        "rotZ": 180.848648,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Publicity/Tag",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "DiffuseURL": "http://i.imgur.com/5ZJMocU.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "914736"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 17.0266,
+        "posY": 1.00254619,
+        "posZ": -5.38889456,
+        "rotX": 358.836243,
+        "rotY": 254.400009,
+        "rotZ": 1.6026094,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Publicity/Tag",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "DiffuseURL": "http://i.imgur.com/5ZJMocU.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "c71c9b"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 14.5673828,
+        "posY": 1.02967274,
+        "posZ": -5.29184,
+        "rotX": 356.7936,
+        "rotY": 76.00303,
+        "rotZ": 181.9125,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Publicity/Tag",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "DiffuseURL": "http://i.imgur.com/5ZJMocU.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "39bf77"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 15.4564962,
+        "posY": 1.0226754,
+        "posZ": -5.87707663,
+        "rotX": 0.169153884,
+        "rotY": 315.03833,
+        "rotZ": 1.8467927,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Publicity/Tag",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "DiffuseURL": "http://i.imgur.com/5ZJMocU.jpg",
+        "NormalURL": "",
+        "ColliderURL": "http://pastebin.com/raw.php?i=njpLQk3m",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "14cfa1"
+    },
+    {
+      "Name": "Custom_Model_Stack",
+      "Transform": {
+        "posX": 11.9328985,
+        "posY": 0.9919079,
+        "posZ": -6.663807,
+        "rotX": 0.04611628,
+        "rotY": 218.099915,
+        "rotZ": 0.08095462,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      },
+      "Nickname": "5 Credits",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.160866141,
+        "b": 0.298131675
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "Number": 2,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=eQipQa4y",
+        "DiffuseURL": "http://imagebin.ca/1tMAQy2STvAe/FinalCredit_default_color.jpg",
+        "NormalURL": "http://ibin.co/1tMAgtGvtT4D",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 5
+      },
+      "GUID": "6f5937"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -19.4687328,
+        "posY": 1.5061276,
+        "posZ": 6.03484964,
+        "rotX": 0.000275688421,
+        "rotY": 224.972565,
+        "rotZ": 0.000366860622,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713297665,
+        "g": 0.713297665,
+        "b": 0.713297665
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 200,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "http://i.imgur.com/Xj7SfIL.jpg",
+          "BackURL": "http://i.imgur.com/0lcNPcp.png"
+        }
+      },
+      "GUID": "81f9a1"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -21.2306175,
+        "posY": 1.50609016,
+        "posZ": 7.79561,
+        "rotX": 0.0004502446,
+        "rotY": 224.983337,
+        "rotZ": -0.00179460784,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713293731,
+        "g": 0.713293731,
+        "b": 0.713293731
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 100,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "http://i.imgur.com/faRBSsD.jpg",
+          "BackURL": "http://i.imgur.com/0fX53mB.png"
+        }
+      },
+      "GUID": "3597ee"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -17.8724022,
+        "posY": 1.50613773,
+        "posZ": 4.28862762,
+        "rotX": -0.00252954615,
+        "rotY": 224.95813,
+        "rotZ": 0.00022469995,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713297665,
+        "g": 0.713297665,
+        "b": 0.713297665
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 300,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "3": {
+          "FaceURL": "http://i.imgur.com/XHxdfkl.jpg",
+          "BackURL": "http://i.imgur.com/0lcNPcp.png"
+        }
+      },
+      "GUID": "29bf77"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -4.494815,
+        "posY": 1.525414,
+        "posZ": 17.4340134,
+        "rotX": 0.0005903078,
+        "rotY": 45.0555878,
+        "rotZ": 0.000133812835,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713293731,
+        "g": 0.713293731,
+        "b": 0.713293731
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 800,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "8": {
+          "FaceURL": "http://i.imgur.com/1WXKfec.jpg",
+          "BackURL": "http://i.imgur.com/nH5ZP2W.jpg"
+        }
+      },
+      "GUID": "4fbf2e"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -9.536967,
+        "posY": 1.52542329,
+        "posZ": 22.4082222,
+        "rotX": -0.004402459,
+        "rotY": 45.106926,
+        "rotZ": 0.00235752272,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713297665,
+        "g": 0.713297665,
+        "b": 0.713297665
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 600,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "6": {
+          "FaceURL": "http://i.imgur.com/Z0NGHCC.jpg",
+          "BackURL": "http://i.imgur.com/nH5ZP2W.jpg"
+        }
+      },
+      "GUID": "65d944"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -7.819563,
+        "posY": 1.52540135,
+        "posZ": 20.6313877,
+        "rotX": -0.00517295767,
+        "rotY": 44.925148,
+        "rotZ": 0.000239165849,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713297665,
+        "g": 0.713297665,
+        "b": 0.713297665
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 700,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "7": {
+          "FaceURL": "http://i.imgur.com/CpJ8Jwz.jpg",
+          "BackURL": "http://i.imgur.com/nH5ZP2W.jpg"
+        }
+      },
+      "GUID": "9fb1cc"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -6.113696,
+        "posY": 1.52546144,
+        "posZ": 19.0407829,
+        "rotX": -0.00228992128,
+        "rotY": 44.9880829,
+        "rotZ": -0.00142761564,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Corp Deck: Weyland",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713297665,
+        "g": 0.713297665,
+        "b": 0.713297665
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 900,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "9": {
+          "FaceURL": "http://i.imgur.com/4MUUeQd.jpg",
+          "BackURL": "http://i.imgur.com/nH5ZP2W.jpg"
+        }
+      },
+      "GUID": "659726"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -6.19661045,
+        "posY": 1.22572935,
+        "posZ": 19.0405426,
+        "rotX": -0.00173253135,
+        "rotY": 44.85945,
+        "rotZ": 179.998978,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Corp Deck: Weyland",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713309348,
+        "g": 0.713309348,
+        "b": 0.713309348
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        1009,
+        1007,
+        1021,
+        918,
+        1011,
+        916,
+        902,
+        1002,
+        1003,
+        925,
+        1015,
+        903,
+        1012,
+        911,
+        1020,
+        1008,
+        908,
+        922,
+        912,
+        1000,
+        1018,
+        920,
+        914,
+        926,
+        921,
+        924,
+        1004,
+        1005,
+        927,
+        1001,
+        923,
+        915,
+        905,
+        909,
+        1016,
+        907,
+        901,
+        1006,
+        913,
+        904,
+        917,
+        1010,
+        1017,
+        910,
+        1022,
+        906,
+        1019,
+        919,
+        1013
+      ],
+      "CustomDeck": {
+        "10": {
+          "FaceURL": "http://i.imgur.com/vj28PvW.jpg",
+          "BackURL": "http://i.imgur.com/nH5ZP2W.jpg"
+        },
+        "9": {
+          "FaceURL": "http://i.imgur.com/4MUUeQd.jpg",
+          "BackURL": "http://i.imgur.com/nH5ZP2W.jpg"
+        }
+      },
+      "GUID": "d0b061"
+    },
+    {
+      "Name": "FogOfWarTrigger",
+      "Transform": {
+        "posX": -15.1147194,
+        "posY": 2.69863462,
+        "posZ": -13.934885,
+        "rotX": 0.0,
+        "rotY": 44.95665,
+        "rotZ": 0.0,
+        "scaleX": 26.15347,
+        "scaleY": 3.5,
+        "scaleZ": 9.9091
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.856002152,
+        "g": 0.10000474,
+        "b": 0.09400465
+      },
+      "Grid": true,
+      "Locked": true,
+      "FogColor": "Red",
+      "FogHidePointers": false,
+      "GUID": ""
+    },
+    {
+      "Name": "FogOfWarTrigger",
+      "Transform": {
+        "posX": 13.7822628,
+        "posY": 2.69863462,
+        "posZ": 15.2413788,
+        "rotX": 0.0,
+        "rotY": 225.182983,
+        "rotZ": 0.0,
+        "scaleX": 26.1483574,
+        "scaleY": 3.5,
+        "scaleZ": 10.7525377
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.118004985,
+        "g": 0.530005455,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": true,
+      "FogColor": "Blue",
+      "FogHidePointers": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -19.55446,
+        "posY": 1.21507335,
+        "posZ": 5.995702,
+        "rotX": -0.000922352367,
+        "rotY": 224.83783,
+        "rotZ": 179.999924,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Runner Deck: Gabriel",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713309348,
+        "g": 0.713309348,
+        "b": 0.713309348
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        500,
+        515,
+        222,
+        214,
+        217,
+        218,
+        230,
+        506,
+        203,
+        201,
+        221,
+        229,
+        213,
+        204,
+        215,
+        227,
+        511,
+        212,
+        505,
+        226,
+        232,
+        211,
+        509,
+        508,
+        514,
+        231,
+        224,
+        228,
+        205,
+        501,
+        210,
+        202,
+        510,
+        513,
+        206,
+        216,
+        208,
+        207,
+        219,
+        503,
+        507,
+        512,
+        209,
+        502,
+        225,
+        220,
+        223
+      ],
+      "CustomDeck": {
+        "5": {
+          "FaceURL": "http://i.imgur.com/GrNH9sC.jpg",
+          "BackURL": "http://i.imgur.com/0lcNPcp.png"
+        },
+        "2": {
+          "FaceURL": "http://i.imgur.com/Xj7SfIL.jpg",
+          "BackURL": "http://i.imgur.com/0lcNPcp.png"
+        }
+      },
+      "GUID": "b880ab"
+    }
+  ]
+}

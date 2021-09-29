@@ -1,0 +1,298 @@
+{
+  "SaveName": "Timer 2.0 - Scripted Countdown Tool",
+  "GameMode": "Better Timer - Scripted",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "11/17/2016 8:22:14 PM",
+  "Table": "Table_Hexagon",
+  "Sky": "Sky_Sunset",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "",
+  "LuaScript": "--[[ Lua code. See documentation: http://berserk-games.com/knowledgebase/scripting/ --]]\n\n--[[ The OnLoad function. This is called after everything in the game save finishes loading.\nMost of your script code goes here. --]]\nfunction onload()\n    --[[ print('Onload!') --]]\nend\n\n--[[ The Update function. This is called once per frame. --]]\nfunction update ()\n    --[[ print('Update loop!') --]]\nend\n",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 0.5,
+    "ySize": 0.5,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -13.642622,
+          "posY": 3.57056212,
+          "posZ": -7.488898,
+          "rotX": 0.0,
+          "rotY": 60.0000076,
+          "rotZ": 0.0,
+          "scaleX": 10.268074,
+          "scaleY": 6.63386965,
+          "scaleZ": 4.89323664
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -13.3162155,
+          "posY": 3.5705626,
+          "posZ": 8.302468,
+          "rotX": 0.0,
+          "rotY": 119.999992,
+          "rotZ": 0.0,
+          "scaleX": 10.2680779,
+          "scaleY": 6.63386965,
+          "scaleZ": 4.89323139
+        }
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 13.5728779,
+          "posY": 3.5715,
+          "posZ": 7.74984455,
+          "rotX": 0.0,
+          "rotY": 240.000015,
+          "rotZ": 0.0,
+          "scaleX": 10.2680712,
+          "scaleY": 6.63386965,
+          "scaleZ": 4.89323044
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": -0.0004290771,
+          "posY": 3.57124972,
+          "posZ": -15.5344782,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 10.2680645,
+          "scaleY": 6.6338706,
+          "scaleZ": 4.89322853
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": 0.00190514873,
+          "posY": 3.57103133,
+          "posZ": 15.5959063,
+          "rotX": 0.0,
+          "rotY": 180.0003,
+          "rotZ": 0.0,
+          "scaleX": 10.2680645,
+          "scaleY": 6.63386965,
+          "scaleZ": 4.89322758
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 13.6819019,
+          "posY": 3.571502,
+          "posZ": -7.40808058,
+          "rotX": 0.0,
+          "rotY": 300.0,
+          "rotZ": 0.0,
+          "scaleX": 10.2680635,
+          "scaleY": 6.63386965,
+          "scaleZ": 4.89322662
+        }
+      }
+    ]
+  },
+  "VectorLines": [],
+  "ObjectStates": [
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -0.0242200252,
+        "posY": 1.78499973,
+        "posZ": -0.157906517,
+        "rotX": -1.97710542E-05,
+        "rotY": 179.982742,
+        "rotZ": 1.74346042E-06,
+        "scaleX": 1.64999962,
+        "scaleY": 1.64999962,
+        "scaleZ": 1.64999962
+      },
+      "Nickname": "[u]Countdown Timer[/u]",
+      "Description": "\nClick Reset to reset the timer.\n\nClick any side to start or stop the timer.\n\nClick + or - to change starting time. Timer must be reset first.\n\nFurther settings can be changed in the script (no scripting knowledge required).\n\nby: MrStump",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.199999973,
+        "g": 0.199999973,
+        "b": 0.199999973
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "--    MrStump's Scripted Countdown Timer\r\n\r\n\r\n--Variables that can be edited to change timer behavior\r\n\r\n\r\n--The default starting time for the timer in seconds.\r\n--This is what the time is if your timeMod = 0 (before you hit + or -)\r\ndefaultStartTime = 30\r\n--This is how much + or - buttons effect timeMod.\r\n--In other words, how much the time increases/decreses by\r\namountToModBy = 10\r\n--The following are colors for the timer to change to, in {R,G,B} format\r\n--RGB values should be between 0 and 1\r\n--Reset and idle color\r\ncolorReset = {0.2,0.2,0.2}\r\n--Paused color\r\ncolorPause = {0.5,0.5,0.5}\r\n--Running color\r\ncolorRun = {0.2,1,0.2}\r\n--Time has run out color\r\ncolorEnd = {1,0.2,0.2}\r\n\r\n\r\n--Setup that runs when tool is loaded/saved\r\n\r\n\r\n--Runs whenever this object is saved, individually or as part of atable\r\nfunction onSave()\r\n    local data_to_save = {tc=timeCount, tm=timeMod}\r\n    local saved_data = JSON.encode(data_to_save)\r\n    return saved_data\r\nend\r\n\r\n--Runs only when the timer is first loaded on the table\r\nfunction onload(saved_data)\r\n    if saved_data ~= nil and saved_data ~= \"\" then\r\n        local loaded_data = JSON.decode(saved_data)\r\n        timeCount = loaded_data.tc\r\n        timeMod = loaded_data.tm\r\n    else\r\n        timeCount = 0\r\n        timeMod = 0\r\n    end\r\n    if timeCount > 0 then self.setColorTint(colorPause) end\r\n    if defaultStartTime - timeCount + timeMod <= 0 then\r\n        self.setColorTint(colorEnd)\r\n    end\r\n    runTimer = false\r\n    disablePauseOrStart = false\r\n    createButtons()\r\nend\r\n\r\n\r\n--Running processes to do the actuall counting, and knowing when to stop\r\n\r\n\r\n--When runTimer is true, this does the counting to track time passing\r\nfunction update()\r\n    if runTimer == true then\r\n        calculateDelta()\r\n        timeCount = timeCount + 1 * deltaTime\r\n        updateDisplays()\r\n        if timeCount >= defaultStartTime + timeMod then\r\n            broadcastToAll(string.char(8987)..\" - Time's Up - \"..string.char(8987), {1,1,1})\r\n            self.setColorTint(colorEnd)\r\n            runTimer = false\r\n            disablePauseOrStart = true\r\n        end\r\n    end\r\nend\r\n\r\n--Determines the real time between the last update and this one to keep count accurate\r\nfunction calculateDelta()\r\n    local oldTime = newTime\r\n    newTime = os.clock()\r\n    deltaTime = newTime - oldTime\r\nend\r\n\r\n\r\n--Display/naming/color, to format the cube and buttons visually\r\n\r\n\r\n--Updates the time to the 4 side displays\r\nfunction updateDisplays()\r\n    local timeForDisplay = getTimeString()\r\n    --This if statement cuts way down on the amount of button updates being done\r\n    if self.getButtons()[1].label ~= timeForDisplay then\r\n        for i=0, 3 do\r\n            self.editButton({index=i, label=timeForDisplay})\r\n        end\r\n    end\r\nend\r\n\r\n--Converts a number in seconds only into minutes/seconds and returns it\r\nfunction getTimeString()\r\n    local timeInSeconds = math.ceil(defaultStartTime + timeMod - timeCount)\r\n    local minutes = math.floor(timeInSeconds/60)\r\n    local seconds = timeInSeconds % 60\r\n    return string.format(\"%d:%02d\",minutes,seconds)\r\nend\r\n\r\n\r\n--Click Functions (what happens when you click buttons)\r\n\r\n\r\n--Runs when a side is clicked, starts/stops timer\r\nfunction pauseOrStart()\r\n    if disablePauseOrStart == false then\r\n        if runTimer == false then\r\n            newTime = os.clock()\r\n            runTimer = true\r\n            self.setColorTint(colorRun)\r\n        else\r\n            runTimer = false\r\n            self.setColorTint(colorPause)\r\n        end\r\n    end\r\nend\r\n\r\n--Activated by the reset button, resetting and stopping it if needed\r\nfunction resetTimer()\r\n    timeCount = 0\r\n    runTimer = false\r\n    disablePauseOrStart = false\r\n    updateDisplays()\r\n    self.setColorTint(colorReset)\r\nend\r\n\r\n--The + button, adds time to timeMod to increase total timer time\r\nfunction moreTime()\r\n    if runTimer == false then\r\n        timeMod = timeMod + amountToModBy\r\n        updateDisplays()\r\n    end\r\nend\r\n\r\n--The - button, removes time from timeMod to decrease total timer time\r\nfunction lessTime()\r\n    if runTimer == false and defaultStartTime + timeMod - timeCount - amountToModBy > 0 then\r\n        timeMod = timeMod - amountToModBy\r\n        updateDisplays()\r\n    end\r\nend\r\n\r\n\r\n--Button creation area below\r\n\r\n\r\n--Creates the buttons in the start of the code\r\nfunction createButtons()\r\n    local t = getTimeString()\r\n    self.createButton({\r\n        label=t, click_function=\"pauseOrStart\", function_owner=self,\r\n        position={0,0,0.5}, rotation={-90,0,0}, height=300, width=500, font_size=210\r\n    })\r\n    self.createButton({\r\n        label=t, click_function=\"pauseOrStart\", function_owner=self,\r\n        position={0.5,0,0}, rotation={0,-90,90}, height=300, width=500, font_size=210\r\n    })\r\n    self.createButton({\r\n        label=t, click_function=\"pauseOrStart\", function_owner=self,\r\n        position={0,0,-0.5}, rotation={90,180,0}, height=300, width=500, font_size=210\r\n    })\r\n    self.createButton({\r\n        label=t, click_function=\"pauseOrStart\", function_owner=self,\r\n        position={-0.5,0,0}, rotation={0,90,-90}, height=300, width=500, font_size=210\r\n    })\r\n    self.createButton({\r\n        label=\"Reset\", click_function=\"resetTimer\", function_owner=self,\r\n        position={0,0.5,0}, height=300, width=300, font_size=80\r\n    })\r\n    self.createButton({\r\n        label=\"+\", click_function=\"moreTime\", function_owner=self,\r\n        position={0.25,-0.4,0.5}, rotation={-90,0,0}, height=60, width=60, font_size=100\r\n    })\r\n    self.createButton({\r\n        label=\"-\", click_function=\"lessTime\", function_owner=self,\r\n        position={-0.25,-0.4,0.5}, rotation={-90,0,0}, height=60, width=60, font_size=100\r\n    })\r\nend\r\n",
+      "LuaScriptState": "{\"tc\":0,\"tm\":30}",
+      "GUID": "9131db"
+    }
+  ],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": ""
+}

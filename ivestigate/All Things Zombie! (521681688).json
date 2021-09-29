@@ -1,0 +1,1695 @@
+{
+  "SaveName": "All Things Zombie!",
+  "GameMode": "Custom",
+  "Date": "9/20/2015 3:08:05 PM",
+  "Table": "Table_Custom_Square",
+  "TableURL": "http://images8.alphacoders.com/370/370799.jpg",
+  "Sky": "Sky_Tunnel",
+  "Note": "You can resize the boards and the counters as needed with the + and - buttons on your keyboard.\nIf you need more copy of anything, just use the CTRL C - CTRL V command!  \nBefore the game, don't forget to Shuffle the Loot Cards, the Zombie Cards and the Zombie Pool! ",
+  "Rules": "",
+  "PlayerTurn": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Snapping": false,
+    "Offset": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hidding": 0
+  },
+  "DrawImage": "iVBORw0KGgoAAAANSUhEUgAAAWAAAADQCAYAAAA53LuNAAAFFElEQVR4Ae3QgQAAAADDoPlTH+SFUGHAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgy8DQx5DAABHyNK3wAAAABJRU5ErkJggg==",
+  "VectorLines": [],
+  "ObjectStates": [
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 9.525987,
+        "posY": 0.9945002,
+        "posZ": -3.99553657,
+        "rotX": -1.22155616E-05,
+        "rotY": 359.99234,
+        "rotZ": -3.16713E-06,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Board 1",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.99216187,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=66dPZ5UJ",
+        "DiffuseURL": "http://i.imgur.com/ImGLkDl.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "1e030e"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -16.1279,
+        "posY": 1.00844252,
+        "posZ": -21.7914352,
+        "rotX": 0.0105562946,
+        "rotY": -0.0014382567,
+        "rotZ": 179.9936,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      },
+      "Nickname": "Buffey",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.99216187,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=feDkq7vt",
+        "DiffuseURL": "http://i.imgur.com/UHu3R2E.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": "052db0"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -9.748325,
+        "posY": 0.994500041,
+        "posZ": 13.4528484,
+        "rotX": -1.34850616E-05,
+        "rotY": -0.001313107,
+        "rotZ": -3.434634E-06,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Board 2 ",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921621,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=66dPZ5UJ",
+        "DiffuseURL": "http://i.imgur.com/TuIDWNB.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "91c5ee"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 11.4272547,
+        "posY": 1.0664866,
+        "posZ": -4.185935,
+        "rotX": -0.000140780379,
+        "rotY": 0.000572501332,
+        "rotZ": -2.929474E-05,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Board 3",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921621,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=66dPZ5UJ",
+        "DiffuseURL": "http://i.imgur.com/Gd96E3Y.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "384614"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -7.554282,
+        "posY": 1.06648564,
+        "posZ": 13.3910894,
+        "rotX": -0.000143233876,
+        "rotY": -0.0007793297,
+        "rotZ": -3.33774042E-05,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Board 4",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921621,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=66dPZ5UJ",
+        "DiffuseURL": "http://i.imgur.com/yTkaQZV.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0
+      },
+      "GUID": "3506c3"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -15.96146,
+        "posY": 1.25693727,
+        "posZ": -21.8160057,
+        "rotX": 0.0324769169,
+        "rotY": 359.938873,
+        "rotZ": 179.988037,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      },
+      "Nickname": "Bank",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992162347,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=feDkq7vt",
+        "DiffuseURL": "http://i.imgur.com/rG2xjKo.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": "e06f13"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -15.7563009,
+        "posY": 1.21985853,
+        "posZ": -21.4661484,
+        "rotX": 359.964081,
+        "rotY": 179.998825,
+        "rotZ": 0.0113685094,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      },
+      "Nickname": "Beck",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992162347,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=feDkq7vt",
+        "DiffuseURL": "http://i.imgur.com/dMXIojp.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": "397bac"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -15.9524374,
+        "posY": 1.18397534,
+        "posZ": -22.106081,
+        "rotX": 0.0438750722,
+        "rotY": 0.05867061,
+        "rotZ": 179.9893,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      },
+      "Nickname": "Jimmy",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992162347,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=feDkq7vt",
+        "DiffuseURL": "http://i.imgur.com/R30KtVu.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": "9035b7"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -16.0064087,
+        "posY": 1.04413176,
+        "posZ": -21.5832443,
+        "rotX": 0.0343053266,
+        "rotY": 359.99292,
+        "rotZ": 179.9974,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      },
+      "Nickname": "Nick",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992162347,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=feDkq7vt",
+        "DiffuseURL": "http://i.imgur.com/kCCLure.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": "5daae6"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -16.2210484,
+        "posY": 1.14798629,
+        "posZ": -21.9311581,
+        "rotX": 0.0305602718,
+        "rotY": 0.0440228842,
+        "rotZ": 179.991531,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      },
+      "Nickname": "Professor",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992162347,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=feDkq7vt",
+        "DiffuseURL": "http://i.imgur.com/BN0g1xF.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": "4e5359"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -16.39093,
+        "posY": 0.9763192,
+        "posZ": -21.619112,
+        "rotX": 359.98703,
+        "rotY": -0.00553302933,
+        "rotZ": 180.002151,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      },
+      "Nickname": "Sailor",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992162347,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=feDkq7vt",
+        "DiffuseURL": "http://i.imgur.com/0YRijw7.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": "7c4d0f"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -16.00609,
+        "posY": 1.07912743,
+        "posZ": -21.5725937,
+        "rotX": 0.0320627466,
+        "rotY": 0.02160723,
+        "rotZ": 179.995468,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      },
+      "Nickname": "Tonya",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992162347,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=feDkq7vt",
+        "DiffuseURL": "http://i.imgur.com/RE0HukT.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": "9dd769"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -16.4591084,
+        "posY": 1.1140008,
+        "posZ": -22.0429535,
+        "rotX": 0.011864922,
+        "rotY": 0.07104167,
+        "rotZ": 179.9928,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      },
+      "Nickname": "Too Tall",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992162347,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=feDkq7vt",
+        "DiffuseURL": "http://i.imgur.com/S8kptIo.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": "324f3e"
+    },
+    {
+      "Name": "Counter",
+      "Transform": {
+        "posX": -21.0744572,
+        "posY": 0.99276036,
+        "posZ": -27.9844017,
+        "rotX": 3.30270069E-07,
+        "rotY": 0.00571987266,
+        "rotZ": 3.15223545E-08,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Turn Track",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.08236187,
+        "g": 0.08236187,
+        "b": 0.08236187
+      },
+      "Grid": true,
+      "Locked": false,
+      "Counter": {
+        "value": 0
+      },
+      "GUID": "df1815"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -6.714175,
+        "posY": 1.40791929,
+        "posZ": -22.0792923,
+        "rotX": -3.07260535E-07,
+        "rotY": 180.727417,
+        "rotZ": 180.0,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "Loot Cards",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7132509,
+        "g": 0.7132509,
+        "b": 0.7132509
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        127,
+        138,
+        125,
+        133,
+        109,
+        103,
+        116,
+        114,
+        123,
+        119,
+        142,
+        110,
+        117,
+        135,
+        126,
+        107,
+        143,
+        111,
+        106,
+        108,
+        131,
+        105,
+        128,
+        104,
+        113,
+        134,
+        140,
+        115,
+        124,
+        136,
+        121,
+        120,
+        137,
+        122,
+        101,
+        130,
+        132,
+        100,
+        118,
+        139,
+        112,
+        141,
+        102,
+        129
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "http://i.imgur.com/uCt4Z97.jpg",
+          "BackURL": "http://i.imgur.com/kQRoUk3.jpg"
+        }
+      },
+      "GUID": "4ff004"
+    },
+    {
+      "Name": "DeckCustom",
+      "Transform": {
+        "posX": -2.124717,
+        "posY": 1.26802075,
+        "posZ": -22.3621635,
+        "rotX": 8.64299636E-07,
+        "rotY": 179.937042,
+        "rotZ": 180.0,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "Zombie Cards",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713243067,
+        "g": 0.713243067,
+        "b": 0.713243067
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        314,
+        319,
+        303,
+        328,
+        326,
+        306,
+        325,
+        302,
+        309,
+        323,
+        315,
+        310,
+        316,
+        304,
+        307,
+        324,
+        300,
+        317,
+        322,
+        305,
+        301,
+        312,
+        318,
+        311,
+        321,
+        327,
+        313,
+        320,
+        308
+      ],
+      "CustomDeck": {
+        "3": {
+          "FaceURL": "http://i.imgur.com/5nMWOGm.jpg",
+          "BackURL": "http://i.imgur.com/9G8pGLu.jpg"
+        }
+      },
+      "GUID": "f909e7"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -7.47076464,
+        "posY": 1.26345086,
+        "posZ": -27.74952,
+        "rotX": 6.32503861E-06,
+        "rotY": 179.8024,
+        "rotZ": 180.000015,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Zombie Pool",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7132586,
+        "g": 0.7132586,
+        "b": 0.7132586
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        507,
+        531,
+        533,
+        505,
+        501,
+        518,
+        535,
+        528,
+        517,
+        525,
+        502,
+        534,
+        530,
+        523,
+        532,
+        509,
+        526,
+        513,
+        529,
+        524,
+        522,
+        536,
+        508,
+        506,
+        516,
+        527,
+        500,
+        521,
+        537,
+        519,
+        510,
+        514,
+        504,
+        515,
+        503,
+        512,
+        520,
+        511
+      ],
+      "CustomDeck": {
+        "5": {
+          "FaceURL": "http://i.imgur.com/2YldaVx.jpg",
+          "BackURL": "http://i.imgur.com/eq4CNEB.png"
+        }
+      },
+      "GUID": "6a140b"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 11.1632872,
+        "posY": 1.03153753,
+        "posZ": -17.6375713,
+        "rotX": -1.848387E-06,
+        "rotY": 180.000061,
+        "rotZ": 180.000015,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Double Pistol",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713246942,
+        "g": 0.713246942,
+        "b": 0.713246942
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 400,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "http://i.imgur.com/uuQ2ZWV.jpg",
+          "BackURL": "http://i.imgur.com/I9ENhJz.jpg{Unique}"
+        }
+      },
+      "GUID": "5fc206"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 14.8870964,
+        "posY": 1.03153753,
+        "posZ": -17.27436,
+        "rotX": -1.12707347E-07,
+        "rotY": 180.000183,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Ammo",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713246942,
+        "g": 0.713246942,
+        "b": 0.713246942
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 401,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "http://i.imgur.com/uuQ2ZWV.jpg",
+          "BackURL": "http://i.imgur.com/I9ENhJz.jpg{Unique}"
+        }
+      },
+      "GUID": "7890df"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 18.7374268,
+        "posY": 1.03153753,
+        "posZ": -17.6819267,
+        "rotX": -8.03466037E-07,
+        "rotY": 180.0003,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Assault Rifle",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713246942,
+        "g": 0.713246942,
+        "b": 0.713246942
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 402,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "http://i.imgur.com/uuQ2ZWV.jpg",
+          "BackURL": "http://i.imgur.com/I9ENhJz.jpg{Unique}"
+        }
+      },
+      "GUID": "fc761c"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 22.2634315,
+        "posY": 1.03153741,
+        "posZ": -17.6708374,
+        "rotX": 1.146953E-07,
+        "rotY": 180.0004,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Crossbow",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713246942,
+        "g": 0.713246942,
+        "b": 0.713246942
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 403,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "http://i.imgur.com/uuQ2ZWV.jpg",
+          "BackURL": "http://i.imgur.com/I9ENhJz.jpg{Unique}"
+        }
+      },
+      "GUID": "417f13"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 22.00619,
+        "posY": 1.03153753,
+        "posZ": -21.0839958,
+        "rotX": -6.924366E-07,
+        "rotY": 180.000534,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Drugs",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713246942,
+        "g": 0.713246942,
+        "b": 0.713246942
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 404,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "http://i.imgur.com/uuQ2ZWV.jpg",
+          "BackURL": "http://i.imgur.com/I9ENhJz.jpg{Unique}"
+        }
+      },
+      "GUID": "59b676"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 17.9987183,
+        "posY": 1.02871478,
+        "posZ": -21.3028736,
+        "rotX": 2.9198618E-06,
+        "rotY": 180.004333,
+        "rotZ": 4.0130767E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Grenade",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713246942,
+        "g": 0.713246942,
+        "b": 0.713246942
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 406,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "http://i.imgur.com/uuQ2ZWV.jpg",
+          "BackURL": "http://i.imgur.com/I9ENhJz.jpg{Unique}"
+        }
+      },
+      "GUID": "b4eec7"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 14.6182051,
+        "posY": 1.03153753,
+        "posZ": -21.256916,
+        "rotX": 4.21392627E-07,
+        "rotY": 180.000473,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Hunting Rifle",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713246942,
+        "g": 0.713246942,
+        "b": 0.713246942
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 407,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "http://i.imgur.com/uuQ2ZWV.jpg",
+          "BackURL": "http://i.imgur.com/I9ENhJz.jpg{Unique}"
+        }
+      },
+      "GUID": "ac6b1a"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 22.2675228,
+        "posY": 1.03153753,
+        "posZ": -24.5716972,
+        "rotX": 4.71948951E-08,
+        "rotY": 180.0005,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Medkit",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713246942,
+        "g": 0.713246942,
+        "b": 0.713246942
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 408,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "http://i.imgur.com/uuQ2ZWV.jpg",
+          "BackURL": "http://i.imgur.com/I9ENhJz.jpg{Unique}"
+        }
+      },
+      "GUID": "ead146"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 18.366888,
+        "posY": 1.07619417,
+        "posZ": -24.973587,
+        "rotX": 358.3592,
+        "rotY": 180.005219,
+        "rotZ": 180.000229,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Out of Ammo",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713246942,
+        "g": 0.713246942,
+        "b": 0.713246942
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 409,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "http://i.imgur.com/uuQ2ZWV.jpg",
+          "BackURL": "http://i.imgur.com/I9ENhJz.jpg{Unique}"
+        }
+      },
+      "GUID": "7136b7"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 15.4038658,
+        "posY": 1.14788842,
+        "posZ": -24.8196735,
+        "rotX": 358.343719,
+        "rotY": 179.578949,
+        "rotZ": 177.323074,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Pistol",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713246942,
+        "g": 0.713246942,
+        "b": 0.713246942
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 410,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "http://i.imgur.com/uuQ2ZWV.jpg",
+          "BackURL": "http://i.imgur.com/I9ENhJz.jpg{Unique}"
+        }
+      },
+      "GUID": "57137e"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 7.21646357,
+        "posY": 1.03153753,
+        "posZ": -17.6427765,
+        "rotX": 3.65007463E-06,
+        "rotY": 180.000671,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Scope",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713246942,
+        "g": 0.713246942,
+        "b": 0.713246942
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 411,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "http://i.imgur.com/uuQ2ZWV.jpg",
+          "BackURL": "http://i.imgur.com/I9ENhJz.jpg{Unique}"
+        }
+      },
+      "GUID": "d300c8"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 7.115933,
+        "posY": 1.03153741,
+        "posZ": -21.4809132,
+        "rotX": -6.354052E-08,
+        "rotY": 179.999588,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Shotgun",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713246942,
+        "g": 0.713246942,
+        "b": 0.713246942
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 416,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "http://i.imgur.com/uuQ2ZWV.jpg",
+          "BackURL": "http://i.imgur.com/I9ENhJz.jpg{Unique}"
+        }
+      },
+      "GUID": "4e1f98"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": 2.287349,
+        "posY": 1.02825463,
+        "posZ": -16.3828239,
+        "rotX": 5.3383377E-07,
+        "rotY": 179.942627,
+        "rotZ": 1.1521804E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Shoot",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7132509,
+        "g": 0.7132509,
+        "b": 0.7132509
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        415,
+        414,
+        413
+      ],
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "http://i.imgur.com/uuQ2ZWV.jpg",
+          "BackURL": "http://i.imgur.com/I9ENhJz.jpg{Unique}"
+        }
+      },
+      "GUID": "51169f"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 10.7046814,
+        "posY": 1.03153753,
+        "posZ": -21.3668518,
+        "rotX": -1.98806765E-06,
+        "rotY": 180.0017,
+        "rotZ": 180.000015,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "SMG",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713246942,
+        "g": 0.713246942,
+        "b": 0.713246942
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 417,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "http://i.imgur.com/uuQ2ZWV.jpg",
+          "BackURL": "http://i.imgur.com/I9ENhJz.jpg{Unique}"
+        }
+      },
+      "GUID": "8b550b"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 10.7509947,
+        "posY": 1.03153753,
+        "posZ": -24.568655,
+        "rotX": 2.35668463E-08,
+        "rotY": 180.001511,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Vest",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713246942,
+        "g": 0.713246942,
+        "b": 0.713246942
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 418,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "http://i.imgur.com/uuQ2ZWV.jpg",
+          "BackURL": "http://i.imgur.com/I9ENhJz.jpg{Unique}"
+        }
+      },
+      "GUID": "c55c69"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -25.7758026,
+        "posY": 1.112297,
+        "posZ": -27.682682,
+        "rotX": -8.228723E-07,
+        "rotY": 180.001648,
+        "rotZ": 180.000031,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713246942,
+        "g": 0.713246942,
+        "b": 0.713246942
+      },
+      "Grid": true,
+      "Locked": true,
+      "CardID": 419,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "http://i.imgur.com/uuQ2ZWV.jpg",
+          "BackURL": "http://i.imgur.com/I9ENhJz.jpg{Unique}"
+        }
+      },
+      "GUID": "a2559f"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -8.623183,
+        "posY": 1.03346717,
+        "posZ": -15.1349211,
+        "rotX": -1.00322977E-08,
+        "rotY": 180.061813,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Entered",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7132509,
+        "g": 0.7132509,
+        "b": 0.7132509
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        405,
+        405,
+        405,
+        405,
+        405,
+        405,
+        405,
+        405,
+        405,
+        405
+      ],
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "http://i.imgur.com/uuQ2ZWV.jpg",
+          "BackURL": "http://i.imgur.com/I9ENhJz.jpg{Unique}"
+        }
+      },
+      "GUID": "b26d3e"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -4.25770473,
+        "posY": 1.03346741,
+        "posZ": -15.0664043,
+        "rotX": 4.73524757E-08,
+        "rotY": 180.085861,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7132509,
+        "g": 0.7132509,
+        "b": 0.7132509
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        412,
+        412,
+        412,
+        412,
+        412,
+        412,
+        412,
+        412,
+        412,
+        412
+      ],
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "http://i.imgur.com/uuQ2ZWV.jpg",
+          "BackURL": "http://i.imgur.com/I9ENhJz.jpg{Unique}"
+        }
+      },
+      "GUID": "7acd44"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": 2.18452525,
+        "posY": 1.039916,
+        "posZ": -20.8124,
+        "rotX": -1.89185766E-06,
+        "rotY": 180.037964,
+        "rotZ": 180.000015,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Wound",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7132509,
+        "g": 0.7132509,
+        "b": 0.7132509
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        425,
+        424,
+        423,
+        422,
+        421,
+        420
+      ],
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "http://i.imgur.com/uuQ2ZWV.jpg",
+          "BackURL": "http://i.imgur.com/I9ENhJz.jpg{Unique}"
+        }
+      },
+      "GUID": "34ae5b"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 6.88452673,
+        "posY": 1.07312775,
+        "posZ": -24.7666321,
+        "rotX": 358.471771,
+        "rotY": 179.983017,
+        "rotZ": 180.000488,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Baseball Bat",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713246942,
+        "g": 0.713246942,
+        "b": 0.713246942
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 426,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "http://i.imgur.com/uuQ2ZWV.jpg",
+          "BackURL": "http://i.imgur.com/I9ENhJz.jpg{Unique}"
+        }
+      },
+      "GUID": "ce7186"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -23.0009937,
+        "posY": 1.02871466,
+        "posZ": -4.21398973,
+        "rotX": 4.66536335E-07,
+        "rotY": 179.985916,
+        "rotZ": 5.479119E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Bank",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.71325475,
+        "g": 0.71325475,
+        "b": 0.71325475
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 200,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "http://i.imgur.com/gPHySkM.jpg",
+          "BackURL": "http://i.imgur.com/0opDkIj.jpg{Unique}"
+        }
+      },
+      "GUID": "48074d"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -18.8360615,
+        "posY": 1.02871466,
+        "posZ": -4.444827,
+        "rotX": -9.2332175E-07,
+        "rotY": 179.987152,
+        "rotZ": -4.36553165E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Beck",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.71325475,
+        "g": 0.71325475,
+        "b": 0.71325475
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 201,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "http://i.imgur.com/gPHySkM.jpg",
+          "BackURL": "http://i.imgur.com/0opDkIj.jpg{Unique}"
+        }
+      },
+      "GUID": "5463d2"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -14.8206129,
+        "posY": 1.02871454,
+        "posZ": -4.58086061,
+        "rotX": 3.57924137E-07,
+        "rotY": 179.98587,
+        "rotZ": -1.58028388E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Buffey",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.71325475,
+        "g": 0.71325475,
+        "b": 0.71325475
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 202,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "http://i.imgur.com/gPHySkM.jpg",
+          "BackURL": "http://i.imgur.com/0opDkIj.jpg{Unique}"
+        }
+      },
+      "GUID": "b10bf9"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -22.4663982,
+        "posY": 1.02871466,
+        "posZ": -8.852758,
+        "rotX": 1.404874E-06,
+        "rotY": 179.987122,
+        "rotZ": -2.03168634E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Survivor Female",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.71325475,
+        "g": 0.71325475,
+        "b": 0.71325475
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 203,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "http://i.imgur.com/gPHySkM.jpg",
+          "BackURL": "http://i.imgur.com/0opDkIj.jpg{Unique}"
+        }
+      },
+      "GUID": "fefeae"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -18.55071,
+        "posY": 1.02871466,
+        "posZ": -8.901583,
+        "rotX": 2.24139445E-08,
+        "rotY": 179.987183,
+        "rotZ": -9.524073E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Jimmy",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.71325475,
+        "g": 0.71325475,
+        "b": 0.71325475
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 204,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "http://i.imgur.com/gPHySkM.jpg",
+          "BackURL": "http://i.imgur.com/0opDkIj.jpg{Unique}"
+        }
+      },
+      "GUID": "6397b0"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -14.4365,
+        "posY": 1.02871466,
+        "posZ": -8.910289,
+        "rotX": 3.65759934E-06,
+        "rotY": 179.985916,
+        "rotZ": -1.017045E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Survivor Male",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.71325475,
+        "g": 0.71325475,
+        "b": 0.71325475
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 205,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "http://i.imgur.com/gPHySkM.jpg",
+          "BackURL": "http://i.imgur.com/0opDkIj.jpg{Unique}"
+        }
+      },
+      "GUID": "1fcc51"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -22.3033619,
+        "posY": 1.02871478,
+        "posZ": -12.6239071,
+        "rotX": 3.398489E-07,
+        "rotY": 179.987137,
+        "rotZ": -1.07764515E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Nick",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.71325475,
+        "g": 0.71325475,
+        "b": 0.71325475
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 206,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "http://i.imgur.com/gPHySkM.jpg",
+          "BackURL": "http://i.imgur.com/0opDkIj.jpg{Unique}"
+        }
+      },
+      "GUID": "cf894c"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -18.6272316,
+        "posY": 1.02871466,
+        "posZ": -12.6885672,
+        "rotX": 5.610865E-07,
+        "rotY": 179.985886,
+        "rotZ": 2.82155565E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Professor",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.71325475,
+        "g": 0.71325475,
+        "b": 0.71325475
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 207,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "http://i.imgur.com/gPHySkM.jpg",
+          "BackURL": "http://i.imgur.com/0opDkIj.jpg{Unique}"
+        }
+      },
+      "GUID": "f1d582"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -14.6575756,
+        "posY": 1.02871466,
+        "posZ": -12.9629564,
+        "rotX": 9.220025E-07,
+        "rotY": 179.987122,
+        "rotZ": -1.97143845E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Sailor",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.71325475,
+        "g": 0.71325475,
+        "b": 0.71325475
+      },
+      "Grid": true,
+      "Locked": false,
+      "CardID": 208,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "http://i.imgur.com/gPHySkM.jpg",
+          "BackURL": "http://i.imgur.com/0opDkIj.jpg{Unique}"
+        }
+      },
+      "GUID": "1dcfb2"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -10.6043425,
+        "posY": 1.03559077,
+        "posZ": -8.863691,
+        "rotX": -6.432073E-08,
+        "rotY": 180.005356,
+        "rotZ": 3.03584358E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7132586,
+        "g": 0.7132586,
+        "b": 0.7132586
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        210,
+        209
+      ],
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "http://i.imgur.com/gPHySkM.jpg",
+          "BackURL": "http://i.imgur.com/0opDkIj.jpg{Unique}"
+        }
+      },
+      "GUID": "b4a1a6"
+    }
+  ]
+}

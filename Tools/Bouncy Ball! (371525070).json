@@ -1,0 +1,59 @@
+{
+  "SaveName": "Bouncy Ball!",
+  "GameMode": "None",
+  "Date": "1/8/2015 4:25:12 AM",
+  "Table": "Table_Hexagon",
+  "Sky": "Sky_Museum",
+  "Note": "Bouncy Ball\n--------------\n\nIt's a bouncy ball for your chest!\n\nNote: If the ball falls off the table or the table is switched, the bouncing will break. Seems to be a bug.\n\n-Mora",
+  "Rules": "",
+  "PlayerTurn": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Snapping": false,
+    "Offset": false,
+    "xSize": 2.0,
+    "ySize": 2.0
+  },
+  "DrawImage": "iVBORw0KGgoAAAANSUhEUgAAALAAAABoCAYAAABR2nocAAABV0lEQVR4Ae3QMQEAAADCoPVPbQZ/iEBhwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwICBb2AedwABqCI4UwAAAABJRU5ErkJggg==",
+  "ObjectStates": [
+    {
+      "Name": "Chinese_Checkers_Piece",
+      "Transform": {
+        "posX": -0.000382119761,
+        "posY": 2.59370852,
+        "posZ": -0.00501676369,
+        "rotX": 359.625336,
+        "rotY": 344.999634,
+        "rotZ": 0.126620516,
+        "scaleX": 2.0,
+        "scaleY": 2.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "Bouncy Ball",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.796090066,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "PhysicsMaterial": {
+        "StaticFriction": 0.1,
+        "DynamicFriction": 1.0,
+        "Bounciness": 15.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 3
+      },
+      "Rigidbody": {
+        "Mass": 2.5,
+        "Drag": 0.25,
+        "AngularDrag": 0.0,
+        "UseGravity": true
+      },
+      "GUID": ""
+    }
+  ]
+}

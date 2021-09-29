@@ -1,0 +1,428 @@
+{
+  "SaveName": "Easy Object Editor! (position, scale, rotation)",
+  "GameMode": "Easy Object Editor",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "11/29/2016 1:31:46 PM",
+  "Table": "Table_Square",
+  "Sky": "Sky_Regal",
+  "Note": "Info on how to use this tool can be found in the Notebook as well as on the Workshop page.\n\nEnjoy!\n\n[0F4F98][b]Most recent change (28/11/2016):[/b][-]\nAdded a brand new Inspector card!\nThe Object Details Card hasn't been changed.",
+  "Rules": "",
+  "XmlUI": "",
+  "LuaScript": "--[[ Lua code. See documentation: http://berserk-games.com/knowledgebase/scripting/ --]]\n\n--[[ The OnLoad function. This is called after everything in the game save finishes loading.\nMost of your script code goes here. --]]\nfunction onload()\n    --[[ print('Onload!') --]]\nend\n\n--[[ The Update function. This is called once per frame. --]]\nfunction update ()\n    --[[ print('Update loop!') --]]\nend",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 0.5,
+    "ySize": 0.5,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 14.3612509,
+          "posY": 2.98269272,
+          "posZ": 0.05300467,
+          "rotX": 0.0,
+          "rotY": 270.337738,
+          "rotZ": 0.0,
+          "scaleX": 9.392757,
+          "scaleY": 6.63386965,
+          "scaleZ": 3.522282
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": -0.0714291,
+          "posY": 2.9885025,
+          "posZ": -14.3747,
+          "rotX": 0.0,
+          "rotY": 0.33760646,
+          "rotZ": 0.0,
+          "scaleX": 9.394485,
+          "scaleY": 6.6338706,
+          "scaleZ": 3.52227879
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": 0.09738772,
+          "posY": 2.98850632,
+          "posZ": 14.2770567,
+          "rotX": 0.0,
+          "rotY": 180.337875,
+          "rotZ": 0.0,
+          "scaleX": 9.392747,
+          "scaleY": 6.63386965,
+          "scaleZ": 3.52256846
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -14.3107786,
+          "posY": 2.98269272,
+          "posZ": 0.0218251068,
+          "rotX": 0.0,
+          "rotY": 90.337616,
+          "rotZ": 0.0,
+          "scaleX": 9.392743,
+          "scaleY": 6.63386965,
+          "scaleZ": 3.52227187
+        }
+      }
+    ]
+  },
+  "VectorLines": [
+    {
+      "points3": [
+        {
+          "x": 53.0,
+          "y": 0.99,
+          "z": -27.48
+        },
+        {
+          "x": 53.01,
+          "y": 0.99,
+          "z": -27.47
+        }
+      ],
+      "color": {
+        "r": 0.117647059,
+        "g": 0.5294118,
+        "b": 1.0
+      },
+      "thickness": 0.1
+    }
+  ],
+  "ObjectStates": [
+    {
+      "Name": "Notecard",
+      "Transform": {
+        "posX": -3.61225284E-06,
+        "posY": 1.02999973,
+        "posZ": -3.00000453,
+        "rotX": 2.96189739E-08,
+        "rotY": 359.982544,
+        "rotZ": 5.529016E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "a4843a, f6df39 and also 7f3ebf",
+      "Description": "Cube position: #, 3, #/2\nCube rotation: #+45\nCube scale: ",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "--OBJECT DETAILS BOARD 2.0\r\nXYZ = {\"x\", \"y\", \"z\"}\r\n\r\nfunction onLoad()\r\n\r\n    local buttonParams = {}\r\n    buttonParams.position = {-0.325, 3, -0.37}\r\n    buttonParams.rotation = {0, 180, 0}\r\n    buttonParams.click_function = \"editObject\"\r\n    buttonParams.function_owner = self\r\n    buttonParams.width = 200\r\n    buttonParams.height = 100\r\n    buttonParams.label = \"Commit\\nChanges\"\r\n    buttonParams.font_size = 40\r\n    \r\n    self:createButton(buttonParams)\r\nend\r\n\r\nfunction copyTable(orig)\r\n    local orig_type = type(orig)\r\n    local copy\r\n    if orig_type == 'table' then\r\n        copy = {}\r\n        for orig_key, orig_value in next, orig, nil do\r\n            copy[copyTable(orig_key)] = copyTable(orig_value)\r\n        end\r\n        setmetatable(copy, copyTable(getmetatable(orig)))\r\n    else -- number, string, boolean, etc\r\n        copy = orig\r\n    end\r\n    return copy\r\nend\r\n\r\nfunction editObject()\r\n    local myName = self:getName()\r\n    \r\n    local objGUIDs = {}\r\n    for x in string.gmatch(myName, \"%w%w%w%w%w%w\") do\r\n        table.insert(objGUIDs, x)\r\n    end\r\n    \r\n    --GET GUIDS FROM TITLE.\r\n    local objects = {}\r\n    for _, v in pairs(objGUIDs) do\r\n        local obj = getObjectFromGUID(v)\r\n        if obj ~= nil then\r\n            table.insert(objects, obj)\r\n        end\r\n    end\r\n    \r\n    if #objects == 0 then return end\r\n    \r\n    local desc = string.lower(self:getDescription())\r\n    \r\n    local posTable = findTable(desc, \"position:\")\r\n    \r\n    if #posTable ~= 0 then\r\n        for _, obj in pairs(objects) do\r\n            local posTableCopy = copyTable(posTable)\r\n            \r\n            for i, v in pairs(posTableCopy) do\r\n                if type(v) == \"table\" then\r\n                    posTableCopy[i] = processVal(obj:getPosition()[XYZ[i]], v[1], v[2])\r\n                end\r\n            end\r\n            \r\n            for i = #posTableCopy + 1, 3 do\r\n                table.insert(posTableCopy, obj:getPosition()[XYZ[i]])\r\n            end\r\n            \r\n            obj:setPosition(posTableCopy)\r\n        end\r\n    end\r\n    \r\n    local rotTable = findTable(desc, \"rotation:\")\r\n    \r\n    if #rotTable ~= 0 then\r\n        for _, obj in pairs(objects) do\r\n            local rotTableCopy = copyTable(rotTable)\r\n            \r\n            for i, v in pairs(rotTableCopy) do\r\n                if type(v) == \"table\" then\r\n                    rotTableCopy[i] = processVal(obj:getRotation()[XYZ[i]], v[1], v[2])\r\n                end\r\n            end\r\n            \r\n            for i = #rotTable + 1, 3 do\r\n                table.insert(rotTableCopy, obj:getRotation()[XYZ[i]])\r\n            end\r\n            obj:setRotation(rotTableCopy)\r\n        end\r\n    end\r\n    \r\n    local scaleTable = findTable(desc, \"scale:\")\r\n    \r\n    if #scaleTable ~= 0 then\r\n        for _, obj in pairs(objects) do\r\n            local scaleTableCopy = copyTable(scaleTable)\r\n        \r\n            for i, v in pairs(scaleTableCopy) do\r\n                if type(v) == \"table\" then\r\n                    scaleTableCopy[i] = processVal(obj:getScale()[XYZ[i]], v[1], v[2])\r\n                end\r\n            end\r\n        \r\n            for i = #scaleTableCopy + 1, 3 do\r\n                table.insert(scaleTableCopy, obj:getScale()[XYZ[i]])\r\n            end\r\n            obj:setScale(scaleTableCopy)\r\n        end\r\n    end\r\n    \r\nend\r\n\r\nfunction processVal(val1, mathFunction, val2)\r\n    if mathFunction == nil or val2 == nil then return val1 end\r\n    \r\n    if mathFunction == \"+\" then\r\n        return val1 + val2\r\n    elseif mathFunction == \"*\" then\r\n        return val1 * val2\r\n    elseif mathFunction == \"/\" then\r\n        return val1 / val2\r\n    elseif mathFunction == \"^\" then\r\n        return val1^val2\r\n    end\r\nend\r\n\r\nfunction findTable(desc, textToMatch)\r\n    local tab = {}\r\n    local pos1, pos2 = string.find(desc, textToMatch)\r\n    if pos2 == nil then return tab end --IF CAN'T FIND, THEN RETURN EMPTY TABLE.\r\n    \r\n    local searchText = desc:sub(pos2+1)\r\n    \r\n    local lineSep = searchText:find(\"\\n\")\r\n    local myText = \"\"\r\n    \r\n    if lineSep ~= nil then\r\n        myText = searchText:sub(1, lineSep-1)\r\n    else\r\n        myText = searchText\r\n    end\r\n    \r\n    --print('myText 1: \"'.. myText ..'\".')\r\n    \r\n    for i = 1, 3 do\r\n        \r\n        local num = string.match(myText, \"([-+]?%d*%.?%d+)\")\r\n        local num1, num2\r\n        \r\n        local hash1, hash2 = string.find(myText, \"#\")\r\n        \r\n        --{#, 3, #}\r\n        --CHECK IF IT'S ADDING OR TAKING FROM CURRENT POS/ROT/SCALE\r\n        if num ~= nil then --IF IT FINDS NUMBER THEN\r\n            num1, num2 = string.find(myText, num) --FIND POSITION OF NUMBER\r\n            if num1-1 == hash2 then --IF HASH IS BEFORE NUMBER (+NUM or -NUM)\r\n                table.insert(tab, {\"+\", tonumber(num)})\r\n                myText = myText:sub(1, hash1-1) .. myText:sub(num2+1)\r\n                goto continue\r\n            elseif num1-2 == hash2 then --IF THERE'S A 1 SPACE GAP, CHECK FOR MATH FUNCTION.\r\n                local mathFunction = myText:sub(num1-1, num1-1)\r\n                if mathFunction == \"*\" or mathFunction == \"/\" or mathFunction == \"^\" then\r\n                    table.insert(tab, {mathFunction, tonumber(num)})\r\n                    myText = myText:sub(1, hash1-1) .. myText:sub(num2+1)\r\n                    goto continue\r\n                end\r\n            end\r\n        end\r\n        \r\n        if (num1 ~= nil and hash1 ~= nil and num1 < hash1) or (hash1 == nil and num1 ~= nil) then\r\n            table.insert(tab, tonumber(num))\r\n            myText = myText:sub(1, num1-1) .. myText:sub(num2+1)\r\n        elseif (hash1 ~= nil and num1 ~= nil and hash1 < num1) or (num1 == nil and hash1 ~= nil) then\r\n            --table.insert(tab, object:getPosition()[XYZ[i]])\r\n            table.insert(tab, {})\r\n            myText = myText:sub(1, hash1-1) .. myText:sub(hash2+1)\r\n        else\r\n            break\r\n        end\r\n        ::continue::\r\n    end\r\n    \r\n    --print('myText 2: \"'.. myText ..'\".\\n')\r\n    \r\n    return tab\r\nend",
+      "LuaScriptState": "",
+      "GUID": "87ac7c"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -8.811753E-06,
+        "posY": 1.46000123,
+        "posZ": 3.975687,
+        "rotX": 3.22637356E-06,
+        "rotY": -0.000298463652,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.856,
+        "g": 0.09999963,
+        "b": 0.09399964
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "a4843a"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": 1.73206115,
+        "posY": 1.45999932,
+        "posZ": 0.97569,
+        "rotX": 0.000214184023,
+        "rotY": 119.999771,
+        "rotZ": 3.439925E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.191999614,
+        "g": 0.701,
+        "b": 0.167999625
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "f6df39"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -1.7320478,
+        "posY": 1.45999932,
+        "posZ": 0.9756762,
+        "rotX": -0.000220820584,
+        "rotY": 239.999741,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.117999621,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "7f3ebf"
+    },
+    {
+      "Name": "Notecard",
+      "Transform": {
+        "posX": -4.718228E-06,
+        "posY": 1.03000116,
+        "posZ": -10.0000219,
+        "rotX": -7.40067E-08,
+        "rotY": -0.0009885423,
+        "rotZ": -3.45025541E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "GUID HERE",
+      "Description": "Position: \nRotation: \nScale: ",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "--OBJECT DETAILS BOARD 2.0\r\nXYZ = {\"x\", \"y\", \"z\"}\r\n\r\nfunction onLoad()\r\n\r\n    local buttonParams = {}\r\n    buttonParams.position = {-0.325, 3, -0.37}\r\n    buttonParams.rotation = {0, 180, 0}\r\n    buttonParams.click_function = \"editObject\"\r\n    buttonParams.function_owner = self\r\n    buttonParams.width = 200\r\n    buttonParams.height = 100\r\n    buttonParams.label = \"Commit\\nChanges\"\r\n    buttonParams.font_size = 40\r\n    \r\n    self:createButton(buttonParams)\r\nend\r\n\r\nfunction copyTable(orig)\r\n    local orig_type = type(orig)\r\n    local copy\r\n    if orig_type == 'table' then\r\n        copy = {}\r\n        for orig_key, orig_value in next, orig, nil do\r\n            copy[copyTable(orig_key)] = copyTable(orig_value)\r\n        end\r\n        setmetatable(copy, copyTable(getmetatable(orig)))\r\n    else -- number, string, boolean, etc\r\n        copy = orig\r\n    end\r\n    return copy\r\nend\r\n\r\nfunction editObject()\r\n    local myName = self:getName()\r\n    \r\n    local objGUIDs = {}\r\n    for x in string.gmatch(myName, \"%w%w%w%w%w%w\") do\r\n        table.insert(objGUIDs, x)\r\n    end\r\n    \r\n    --GET GUIDS FROM TITLE.\r\n    local objects = {}\r\n    for _, v in pairs(objGUIDs) do\r\n        local obj = getObjectFromGUID(v)\r\n        if obj ~= nil then\r\n            table.insert(objects, obj)\r\n        end\r\n    end\r\n    \r\n    if #objects == 0 then return end\r\n    \r\n    local desc = string.lower(self:getDescription())\r\n    \r\n    local posTable = findTable(desc, \"position:\")\r\n    \r\n    if #posTable ~= 0 then\r\n        for _, obj in pairs(objects) do\r\n            local posTableCopy = copyTable(posTable)\r\n            \r\n            for i, v in pairs(posTableCopy) do\r\n                if type(v) == \"table\" then\r\n                    posTableCopy[i] = processVal(obj:getPosition()[XYZ[i]], v[1], v[2])\r\n                end\r\n            end\r\n            \r\n            for i = #posTableCopy + 1, 3 do\r\n                table.insert(posTableCopy, obj:getPosition()[XYZ[i]])\r\n            end\r\n            \r\n            obj:setPosition(posTableCopy)\r\n        end\r\n    end\r\n    \r\n    local rotTable = findTable(desc, \"rotation:\")\r\n    \r\n    if #rotTable ~= 0 then\r\n        for _, obj in pairs(objects) do\r\n            local rotTableCopy = copyTable(rotTable)\r\n            \r\n            for i, v in pairs(rotTableCopy) do\r\n                if type(v) == \"table\" then\r\n                    rotTableCopy[i] = processVal(obj:getRotation()[XYZ[i]], v[1], v[2])\r\n                end\r\n            end\r\n            \r\n            for i = #rotTable + 1, 3 do\r\n                table.insert(rotTableCopy, obj:getRotation()[XYZ[i]])\r\n            end\r\n            obj:setRotation(rotTableCopy)\r\n        end\r\n    end\r\n    \r\n    local scaleTable = findTable(desc, \"scale:\")\r\n    \r\n    if #scaleTable ~= 0 then\r\n        for _, obj in pairs(objects) do\r\n            local scaleTableCopy = copyTable(scaleTable)\r\n        \r\n            for i, v in pairs(scaleTableCopy) do\r\n                if type(v) == \"table\" then\r\n                    scaleTableCopy[i] = processVal(obj:getScale()[XYZ[i]], v[1], v[2])\r\n                end\r\n            end\r\n        \r\n            for i = #scaleTableCopy + 1, 3 do\r\n                table.insert(scaleTableCopy, obj:getScale()[XYZ[i]])\r\n            end\r\n            obj:setScale(scaleTableCopy)\r\n        end\r\n    end\r\n    \r\nend\r\n\r\nfunction processVal(val1, mathFunction, val2)\r\n    if mathFunction == nil or val2 == nil then return val1 end\r\n    \r\n    if mathFunction == \"+\" then\r\n        return val1 + val2\r\n    elseif mathFunction == \"*\" then\r\n        return val1 * val2\r\n    elseif mathFunction == \"/\" then\r\n        return val1 / val2\r\n    elseif mathFunction == \"^\" then\r\n        return val1^val2\r\n    end\r\nend\r\n\r\nfunction findTable(desc, textToMatch)\r\n    local tab = {}\r\n    local pos1, pos2 = string.find(desc, textToMatch)\r\n    if pos2 == nil then return tab end --IF CAN'T FIND, THEN RETURN EMPTY TABLE.\r\n    \r\n    local searchText = desc:sub(pos2+1)\r\n    \r\n    local lineSep = searchText:find(\"\\n\")\r\n    local myText = \"\"\r\n    \r\n    if lineSep ~= nil then\r\n        myText = searchText:sub(1, lineSep-1)\r\n    else\r\n        myText = searchText\r\n    end\r\n    \r\n    --print('myText 1: \"'.. myText ..'\".')\r\n    \r\n    for i = 1, 3 do\r\n        \r\n        local num = string.match(myText, \"([-+]?%d*%.?%d+)\")\r\n        local num1, num2\r\n        \r\n        local hash1, hash2 = string.find(myText, \"#\")\r\n        \r\n        --{#, 3, #}\r\n        --CHECK IF IT'S ADDING OR TAKING FROM CURRENT POS/ROT/SCALE\r\n        if num ~= nil then --IF IT FINDS NUMBER THEN\r\n            num1, num2 = string.find(myText, num) --FIND POSITION OF NUMBER\r\n            if num1-1 == hash2 then --IF HASH IS BEFORE NUMBER (+NUM or -NUM)\r\n                table.insert(tab, {\"+\", tonumber(num)})\r\n                myText = myText:sub(1, hash1-1) .. myText:sub(num2+1)\r\n                goto continue\r\n            elseif num1-2 == hash2 then --IF THERE'S A 1 SPACE GAP, CHECK FOR MATH FUNCTION.\r\n                local mathFunction = myText:sub(num1-1, num1-1)\r\n                if mathFunction == \"*\" or mathFunction == \"/\" or mathFunction == \"^\" then\r\n                    table.insert(tab, {mathFunction, tonumber(num)})\r\n                    myText = myText:sub(1, hash1-1) .. myText:sub(num2+1)\r\n                    goto continue\r\n                end\r\n            end\r\n        end\r\n        \r\n        if (num1 ~= nil and hash1 ~= nil and num1 < hash1) or (hash1 == nil and num1 ~= nil) then\r\n            table.insert(tab, tonumber(num))\r\n            myText = myText:sub(1, num1-1) .. myText:sub(num2+1)\r\n        elseif (hash1 ~= nil and num1 ~= nil and hash1 < num1) or (num1 == nil and hash1 ~= nil) then\r\n            --table.insert(tab, object:getPosition()[XYZ[i]])\r\n            table.insert(tab, {})\r\n            myText = myText:sub(1, hash1-1) .. myText:sub(hash2+1)\r\n        else\r\n            break\r\n        end\r\n        ::continue::\r\n    end\r\n    \r\n    --print('myText 2: \"'.. myText ..'\".\\n')\r\n    \r\n    return tab\r\nend",
+      "LuaScriptState": "",
+      "GUID": "9626a1"
+    },
+    {
+      "Name": "3DText",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 0.9611351,
+        "posZ": -6.438425,
+        "rotX": 90.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Text": {
+        "Text": "Save them to your chest!",
+        "colorstate": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "fontSize": 64
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "4c7397"
+    },
+    {
+      "Name": "Notecard",
+      "Transform": {
+        "posX": 6.500012,
+        "posY": 1.00899959,
+        "posZ": -2.50000238,
+        "rotX": 2.76733431E-07,
+        "rotY": -0.002907122,
+        "rotZ": 2.9294776E-07,
+        "scaleX": 0.7000003,
+        "scaleY": 0.7000003,
+        "scaleZ": 0.7000003
+      },
+      "Nickname": "Red Block, a.k.a. a4843a",
+      "Description": "[b]Name:[/b] BlockSquare\n[b]Tag:[/b] Block\n\n[b]Position:[/b] {x=0, y=1.46, z=3.98}\n[b]Rotation:[/b] {x=0, y=0, z=180}\n[b]Scale:[/b] {x=1, y=1, z=1}",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "--[[\r\nOBJECT INSPECTOR BY MARKIMUS\r\nhttp://steamcommunity.com/sharedfiles/filedetails/?id=800246408\r\n--]]\r\n\r\ndecimalPointsToRound = 2\r\n--YOU CAN CHANGE THIS IF YOU LIKE.\r\n\r\nfunction round(num)\r\n    local function doRound(n)\r\n        local am = 10^decimalPointsToRound\r\n        return math.floor(n*am+0.5)/am\r\n    end\r\n    if type(num) == \"table\" then\r\n        for i, v in pairs(num) do\r\n            num[i] = doRound(v)\r\n        end\r\n        return num\r\n    elseif tonumber(num) ~= nil then\r\n        return doRound(num)\r\n    end\r\nend\r\n\r\nfunction update()\r\n    local myName = self:getName()\r\n    local target = nil\r\n    for x in string.gmatch(myName, \"%w%w%w%w%w%w\") do\r\n        local obj = getObjectFromGUID(x)\r\n        if obj ~= nil then\r\n            target = obj\r\n            break\r\n        end\r\n    end\r\n    if target ~= nil then\r\n        local name = target.name\r\n        local tag = target.tag\r\n        local pos = round(target:getPosition())\r\n        local rot = round(target:getRotation())\r\n        local scale = round(target:getScale())\r\n        \r\n        local text = \"[b]Name:[/b] \".. name ..\"\\n[b]Tag:[/b] \".. tag ..\"\\n\\n\"\r\n        text = text .. \"[b]Position:[/b] {x=\".. pos.x ..\", y=\".. pos.y ..\", z=\".. pos.z ..\"}\\n\"\r\n        text = text .. \"[b]Rotation:[/b] {x=\".. rot.x ..\", y=\".. rot.y ..\", z=\".. rot.z ..\"}\\n\"\r\n        text = text .. \"[b]Scale:[/b] {x=\".. scale.x ..\", y=\".. scale.y ..\", z=\".. scale.z ..\"}\"\r\n        \r\n        self.setDescription(text)\r\n    else\r\n        self:setDescription('[b]GUID NOT FOUND[/b]')\r\n    end\r\nend",
+      "LuaScriptState": "{\"doRounding\":false}",
+      "GUID": "f8f5c1"
+    },
+    {
+      "Name": "Notecard",
+      "Transform": {
+        "posX": 6.50001574,
+        "posY": 1.00900126,
+        "posZ": -9.500011,
+        "rotX": -4.65193949E-07,
+        "rotY": -0.00299442839,
+        "rotZ": 3.77376978E-07,
+        "scaleX": 0.7000003,
+        "scaleY": 0.7000003,
+        "scaleZ": 0.7000003
+      },
+      "Nickname": "GUID HERE",
+      "Description": "[b]GUID NOT FOUND[/b]",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "--[[\r\nOBJECT INSPECTOR BY MARKIMUS\r\nhttp://steamcommunity.com/sharedfiles/filedetails/?id=800246408\r\n--]]\r\n\r\ndecimalPointsToRound = 2\r\n--YOU CAN CHANGE THIS IF YOU LIKE.\r\n\r\nfunction round(num)\r\n    local function doRound(n)\r\n        local am = 10^decimalPointsToRound\r\n        return math.floor(n*am+0.5)/am\r\n    end\r\n    if type(num) == \"table\" then\r\n        for i, v in pairs(num) do\r\n            num[i] = doRound(v)\r\n        end\r\n        return num\r\n    elseif tonumber(num) ~= nil then\r\n        return doRound(num)\r\n    end\r\nend\r\n\r\nfunction update()\r\n    local myName = self:getName()\r\n    local target = nil\r\n    for x in string.gmatch(myName, \"%w%w%w%w%w%w\") do\r\n        local obj = getObjectFromGUID(x)\r\n        if obj ~= nil then\r\n            target = obj\r\n            break\r\n        end\r\n    end\r\n    if target ~= nil then\r\n        local name = target.name\r\n        local tag = target.tag\r\n        local pos = round(target:getPosition())\r\n        local rot = round(target:getRotation())\r\n        local scale = round(target:getScale())\r\n        \r\n        local text = \"[b]Name:[/b] \".. name ..\"\\n[b]Tag:[/b] \".. tag ..\"\\n\\n\"\r\n        text = text .. \"[b]Position:[/b] {x=\".. pos.x ..\", y=\".. pos.y ..\", z=\".. pos.z ..\"}\\n\"\r\n        text = text .. \"[b]Rotation:[/b] {x=\".. rot.x ..\", y=\".. rot.y ..\", z=\".. rot.z ..\"}\\n\"\r\n        text = text .. \"[b]Scale:[/b] {x=\".. scale.x ..\", y=\".. scale.y ..\", z=\".. scale.z ..\"}\"\r\n        \r\n        self.setDescription(text)\r\n    else\r\n        self:setDescription('[b]GUID NOT FOUND[/b]')\r\n    end\r\nend",
+      "LuaScriptState": "{\"doRounding\":false}",
+      "GUID": "cba920"
+    }
+  ],
+  "TabStates": {
+    "0": {
+      "title": "Easy Object Editor!",
+      "body": "[u][b]What does this tool even do!?[/b][/u]\r\nThis tool is designed to easily be able to edit the scale, the position and the rotation of objects. It allows you to stretch objects on different axes, rather than scaling them up on all axes at once. It lets you move and rotate multiple objects together, which isn't currently possible with the gizmo tool.\r\n\r\n[u][b]How to use it:[/b][/u]\r\nYou can change what the card does by editing its name and description.\r\n\r\nThe card will detect GUIDs in its name, seperated by commas, dashes, spaces or whatever you want. You can edit multiple objects at once this way.\r\n\r\nXYZ values are detected after \"position:\", \"rotation:\" and \"scale:\" on the same line. All of these input lines are optional.\r\n\r\nThe XYZ values on a line can be seperated by any means; commas, spaces etc.\r\n\r\nA hash (#) will use the existing XYZ value of that object. Hashes can be modified using math functions:\r\n\r\n+ : Add to the value.\r\n- : Take away from the value.\r\n* : Multiply the value by a number.\r\n/ : Divide the value by a number.\r\n^ : Multiply by the power of a number.\r\n\r\nThis must be formatted as \"#(math function)(number)\", else it will interpret the modifying number as the next number in the XYZ list.\r\n\r\nIf a line has no values, it will ignore that line's modifying function (positioning, rotating or scaling).\r\nIf there are less than three values on the same line, it will keep the object's succeeding XYZ values the same. \r\nIf there are more than three values, it will ignore the excess.\r\n\r\n[i]Save this tool to your chest. When you get an update, be sure to update your version to the newest one from the Workshop![/i]",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "Easy Object Inspector!",
+      "body": "[u][b]What it's for[/b][/u]\nThis tool is used to track the position, the rotation and the scale of an object.\n\n[u][b]How to use it[/b][/u]\nPut a GUID anywhere in the title for the card to start tracking it. You can add little notes for yourself beside it, if you like. The note will round the values to 2 decimal places by default, but this can be changed within the script.\n",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 1
+    }
+  },
+  "VersionNumber": ""
+}

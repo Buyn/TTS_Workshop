@@ -1,0 +1,4185 @@
+{
+  "SaveName": "DOOM Board Game invaders deck [RUS]",
+  "GameMode": "None",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "7/20/2016 8:14:16 PM",
+  "Table": "Table_Octagon",
+  "Sky": "Sky_Sunset",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "",
+  "LuaScript": "--[[ Lua code. See documentation: http://berserk-games.com/knowledgebase/scripting/ --]]\n\n--[[ The OnLoad function. This is called after everything in the game save finishes loading.\nMost of your script code goes here. --]]\nfunction onload()\n    --[[ print('Onload!') --]]\nend\n\n--[[ The Update function. This is called once per frame. --]]\nfunction update ()\n    --[[ print('Update loop!') --]]\nend",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 0.0,
+    "ySize": 0.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -12.3078947,
+          "posY": 3.66349649,
+          "posZ": -12.4467278,
+          "rotX": 0.0,
+          "rotY": 44.9999962,
+          "rotZ": 0.0,
+          "scaleX": 9.413998,
+          "scaleY": 8.961139,
+          "scaleZ": 5.46584654
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -12.3997469,
+          "posY": 3.66349745,
+          "posZ": 12.1996889,
+          "rotX": 0.0,
+          "rotY": 135.0,
+          "rotZ": 0.0,
+          "scaleX": 9.413982,
+          "scaleY": 8.961139,
+          "scaleZ": 5.46584034
+        }
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 17.39027,
+          "posY": 3.66355228,
+          "posZ": 0.04493646,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 9.413989,
+          "scaleY": 8.961139,
+          "scaleZ": 5.46583939
+        }
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 12.3691387,
+          "posY": 3.66352415,
+          "posZ": 12.2303019,
+          "rotX": 0.0,
+          "rotY": 225.000015,
+          "rotZ": 0.0,
+          "scaleX": 9.413942,
+          "scaleY": 8.961139,
+          "scaleZ": 5.46584129
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 2.558877E-06,
+          "posY": 3.6635232,
+          "posZ": -17.3454037,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 9.413987,
+          "scaleY": 8.961141,
+          "scaleZ": 5.46584
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": 2.71913523E-05,
+          "posY": 3.66352415,
+          "posZ": 17.1986065,
+          "rotX": 0.0,
+          "rotY": 179.8,
+          "rotZ": 0.0,
+          "scaleX": 9.413986,
+          "scaleY": 8.961139,
+          "scaleZ": 5.465872
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 12.3691263,
+          "posY": 3.663549,
+          "posZ": -12.1405792,
+          "rotX": 0.0,
+          "rotY": 315.000031,
+          "rotZ": 0.0,
+          "scaleX": 9.413979,
+          "scaleY": 8.961139,
+          "scaleZ": 5.46583843
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -17.4208832,
+          "posY": 3.663497,
+          "posZ": -0.169387043,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 9.413999,
+          "scaleY": 8.961139,
+          "scaleZ": 5.46584558
+        }
+      }
+    ]
+  },
+  "VectorLines": [],
+  "ObjectStates": [
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": 0.5871562,
+        "posY": 1.04378641,
+        "posZ": -0.6140962,
+        "rotX": 1.596008E-06,
+        "rotY": 89.99999,
+        "rotZ": 3.772201E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        27414,
+        27413,
+        27412,
+        27411,
+        27410,
+        27409,
+        27408,
+        27407,
+        27406,
+        27405,
+        27404,
+        27403,
+        27402,
+        27401,
+        27400
+      ],
+      "CustomDeck": {
+        "274": {
+          "FaceURL": "https://www.dropbox.com/s/ri6i4gocxok496o/DOOM_deck_marines.jpg?dl=1",
+          "BackURL": "https://www.dropbox.com/s/hy42invj60w0izu/DOOM_deck_marines_back.jpg?dl=1",
+          "NumWidth": 10,
+          "NumHeight": 7,
+          "BackIsHidden": false,
+          "UniqueBack": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 14.0079288,
+            "posY": 1.21064472,
+            "posZ": 21.9436512,
+            "rotX": 359.987762,
+            "rotY": 89.9779053,
+            "rotZ": 179.995468,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 27414,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "274": {
+              "FaceURL": "https://www.dropbox.com/s/ri6i4gocxok496o/DOOM_deck_marines.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/hy42invj60w0izu/DOOM_deck_marines_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "f8683b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 28.9892616,
+            "posY": 1.17789233,
+            "posZ": 27.7377987,
+            "rotX": 359.974426,
+            "rotY": 89.94092,
+            "rotZ": 359.977325,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 27413,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "274": {
+              "FaceURL": "https://www.dropbox.com/s/ri6i4gocxok496o/DOOM_deck_marines.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/hy42invj60w0izu/DOOM_deck_marines_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "133c1a"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 27.79473,
+            "posY": 1.19002068,
+            "posZ": 27.4671326,
+            "rotX": 359.827423,
+            "rotY": 89.80716,
+            "rotZ": 359.9806,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 27412,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "274": {
+              "FaceURL": "https://www.dropbox.com/s/ri6i4gocxok496o/DOOM_deck_marines.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/hy42invj60w0izu/DOOM_deck_marines_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "677a3d"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 28.4505138,
+            "posY": 1.18144011,
+            "posZ": 27.5265732,
+            "rotX": 359.97287,
+            "rotY": 90.0201,
+            "rotZ": -0.004342248,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 27411,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "274": {
+              "FaceURL": "https://www.dropbox.com/s/ri6i4gocxok496o/DOOM_deck_marines.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/hy42invj60w0izu/DOOM_deck_marines_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "4a4e12"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 27.9034,
+            "posY": 1.1790185,
+            "posZ": 27.5722713,
+            "rotX": 359.9491,
+            "rotY": 90.06964,
+            "rotZ": 359.990631,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 27410,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "274": {
+              "FaceURL": "https://www.dropbox.com/s/ri6i4gocxok496o/DOOM_deck_marines.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/hy42invj60w0izu/DOOM_deck_marines_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "7959c7"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 28.0228176,
+            "posY": 1.18150473,
+            "posZ": 27.7717857,
+            "rotX": 359.908783,
+            "rotY": 90.04608,
+            "rotZ": 359.991119,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 27409,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "274": {
+              "FaceURL": "https://www.dropbox.com/s/ri6i4gocxok496o/DOOM_deck_marines.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/hy42invj60w0izu/DOOM_deck_marines_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "aeeae2"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 28.6783237,
+            "posY": 1.18749928,
+            "posZ": 27.6110134,
+            "rotX": 359.971558,
+            "rotY": 89.9694443,
+            "rotZ": -0.004336418,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 27408,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "274": {
+              "FaceURL": "https://www.dropbox.com/s/ri6i4gocxok496o/DOOM_deck_marines.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/hy42invj60w0izu/DOOM_deck_marines_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "873446"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 28.7416954,
+            "posY": 1.19339931,
+            "posZ": 27.9486084,
+            "rotX": 359.988434,
+            "rotY": 90.000206,
+            "rotZ": -0.004048131,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 27407,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "274": {
+              "FaceURL": "https://www.dropbox.com/s/ri6i4gocxok496o/DOOM_deck_marines.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/hy42invj60w0izu/DOOM_deck_marines_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "3483b9"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 28.4391747,
+            "posY": 1.15057361,
+            "posZ": 27.4582558,
+            "rotX": 359.965454,
+            "rotY": 90.01089,
+            "rotZ": -0.000473457621,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 27406,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "274": {
+              "FaceURL": "https://www.dropbox.com/s/ri6i4gocxok496o/DOOM_deck_marines.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/hy42invj60w0izu/DOOM_deck_marines_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "80f39c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 28.0728645,
+            "posY": 1.16015434,
+            "posZ": 27.1039143,
+            "rotX": 359.982635,
+            "rotY": 90.01134,
+            "rotZ": 359.9872,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 27405,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "274": {
+              "FaceURL": "https://www.dropbox.com/s/ri6i4gocxok496o/DOOM_deck_marines.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/hy42invj60w0izu/DOOM_deck_marines_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "617cc1"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 28.4323463,
+            "posY": 1.17019475,
+            "posZ": 27.8205318,
+            "rotX": 359.970367,
+            "rotY": 89.95607,
+            "rotZ": -0.00130354078,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 27404,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "274": {
+              "FaceURL": "https://www.dropbox.com/s/ri6i4gocxok496o/DOOM_deck_marines.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/hy42invj60w0izu/DOOM_deck_marines_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "690349"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 29.0220528,
+            "posY": 1.18039227,
+            "posZ": 27.9568233,
+            "rotX": 359.973022,
+            "rotY": 89.97326,
+            "rotZ": 0.0164056662,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 27403,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "274": {
+              "FaceURL": "https://www.dropbox.com/s/ri6i4gocxok496o/DOOM_deck_marines.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/hy42invj60w0izu/DOOM_deck_marines_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "e88b45"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 28.6100922,
+            "posY": 1.19010532,
+            "posZ": 27.7381554,
+            "rotX": 359.964722,
+            "rotY": 89.94598,
+            "rotZ": -0.00288120448,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 27402,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "274": {
+              "FaceURL": "https://www.dropbox.com/s/ri6i4gocxok496o/DOOM_deck_marines.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/hy42invj60w0izu/DOOM_deck_marines_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "ddb192"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 28.153574,
+            "posY": 1.19903421,
+            "posZ": 27.5657463,
+            "rotX": 359.9421,
+            "rotY": 90.0426,
+            "rotZ": -1.04987521E-05,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 27401,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "274": {
+              "FaceURL": "https://www.dropbox.com/s/ri6i4gocxok496o/DOOM_deck_marines.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/hy42invj60w0izu/DOOM_deck_marines_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "662cb8"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 28.2948856,
+            "posY": 1.2086817,
+            "posZ": 27.8146667,
+            "rotX": 359.953979,
+            "rotY": 90.0247,
+            "rotZ": 0.00251249317,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 27400,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "274": {
+              "FaceURL": "https://www.dropbox.com/s/ri6i4gocxok496o/DOOM_deck_marines.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/hy42invj60w0izu/DOOM_deck_marines_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "d071a3"
+        }
+      ],
+      "GUID": "e42963"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": 0.8042898,
+        "posY": 1.26464474,
+        "posZ": 2.37728977,
+        "rotX": -2.89248783E-06,
+        "rotY": 90.03351,
+        "rotZ": -4.241493E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        25929,
+        25963,
+        25945,
+        25961,
+        25954,
+        25937,
+        25913,
+        25956,
+        25912,
+        25930,
+        25903,
+        25933,
+        25949,
+        25907,
+        25908,
+        25904,
+        25944,
+        25953,
+        25928,
+        25942,
+        25957,
+        25919,
+        25902,
+        25925,
+        25950,
+        25940,
+        25951,
+        25926,
+        25900,
+        25905,
+        25924,
+        25918,
+        25947,
+        25943,
+        25948,
+        25921,
+        25946,
+        25938,
+        25901,
+        25958,
+        25955,
+        25962,
+        25965,
+        25922,
+        25934,
+        25927,
+        25917,
+        25931,
+        25952,
+        25909,
+        25910,
+        25959,
+        25960,
+        25936,
+        25915,
+        25920,
+        25939,
+        25932,
+        25935,
+        25914,
+        25964,
+        25941,
+        25911,
+        25906,
+        25916,
+        25923
+      ],
+      "CustomDeck": {
+        "259": {
+          "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+          "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+          "NumWidth": 10,
+          "NumHeight": 7,
+          "BackIsHidden": false,
+          "UniqueBack": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.26709986,
+            "posY": 1.83000422,
+            "posZ": 5.39860439,
+            "rotX": 0.4695618,
+            "rotY": 89.92756,
+            "rotZ": 0.905390441,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25929,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.02081871,
+            "posY": 1.817553,
+            "posZ": 5.807839,
+            "rotX": 359.494263,
+            "rotY": 89.7311249,
+            "rotZ": 13.955205,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25963,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.05605555,
+            "posY": 1.47294188,
+            "posZ": 5.1671896,
+            "rotX": 359.9601,
+            "rotY": 89.88373,
+            "rotZ": 0.006647094,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25945,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.27749848,
+            "posY": 1.91141808,
+            "posZ": 6.20467329,
+            "rotX": 0.0124275293,
+            "rotY": 90.07684,
+            "rotZ": 2.62197375,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25961,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "97bd99"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.48491922,
+            "posY": 1.97581744,
+            "posZ": 2.385083,
+            "rotX": 359.9909,
+            "rotY": 89.9750443,
+            "rotZ": 359.9386,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25954,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 1.65994382,
+            "posY": 1.48629892,
+            "posZ": 5.151549,
+            "rotX": 359.9276,
+            "rotY": 90.14621,
+            "rotZ": 359.908844,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25937,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.67058945,
+            "posY": 1.63195121,
+            "posZ": 5.46757936,
+            "rotX": 0.00521078752,
+            "rotY": 89.81997,
+            "rotZ": 0.15881449,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25913,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.06712627,
+            "posY": 1.51178145,
+            "posZ": 5.242807,
+            "rotX": 359.9917,
+            "rotY": 89.9778442,
+            "rotZ": 359.9837,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25956,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.51837683,
+            "posY": 1.6973151,
+            "posZ": 4.77516127,
+            "rotX": 0.00261093327,
+            "rotY": 89.97053,
+            "rotZ": 0.183805659,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25912,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.396325,
+            "posY": 1.56538594,
+            "posZ": 6.42033434,
+            "rotX": 0.101335727,
+            "rotY": 88.3631439,
+            "rotZ": 13.7464285,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25930,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.05178285,
+            "posY": 1.453587,
+            "posZ": 5.096361,
+            "rotX": 359.957123,
+            "rotY": 89.88648,
+            "rotZ": 0.0121842362,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25903,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.13622618,
+            "posY": 1.5308944,
+            "posZ": 4.989645,
+            "rotX": 359.943665,
+            "rotY": 90.03231,
+            "rotZ": 0.0025652037,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25933,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.162371,
+            "posY": 1.3259151,
+            "posZ": 5.188364,
+            "rotX": 0.00180406484,
+            "rotY": 90.00033,
+            "rotZ": -0.0028690605,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25949,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.5091157,
+            "posY": 1.95680189,
+            "posZ": 4.92399359,
+            "rotX": -0.0002527741,
+            "rotY": 89.98149,
+            "rotZ": 359.988464,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25907,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.05250144,
+            "posY": 1.4799304,
+            "posZ": 5.622152,
+            "rotX": 359.955719,
+            "rotY": 90.01825,
+            "rotZ": 0.131189853,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25908,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.32250333,
+            "posY": 1.75386071,
+            "posZ": 5.279379,
+            "rotX": 0.00245253486,
+            "rotY": 89.98791,
+            "rotZ": 0.06263454,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25904,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.0568645,
+            "posY": 1.48283315,
+            "posZ": 5.3896203,
+            "rotX": 359.9523,
+            "rotY": 89.88038,
+            "rotZ": -0.00559539348,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25944,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.1894052,
+            "posY": 1.69412148,
+            "posZ": 5.685301,
+            "rotX": -0.005011011,
+            "rotY": 89.57091,
+            "rotZ": 0.5158508,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25953,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 1.62562966,
+            "posY": 1.32599008,
+            "posZ": 5.60658836,
+            "rotX": -0.00188211864,
+            "rotY": 89.99682,
+            "rotZ": 359.98587,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25928,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.03325033,
+            "posY": 2.43060279,
+            "posZ": 5.443236,
+            "rotX": 0.268266916,
+            "rotY": 89.46882,
+            "rotZ": 329.399536,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25942,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.55409265,
+            "posY": 1.49254036,
+            "posZ": 5.177471,
+            "rotX": 0.00118141971,
+            "rotY": 89.97443,
+            "rotZ": -0.000230780584,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25957,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.3731575,
+            "posY": 1.87756515,
+            "posZ": 5.41287565,
+            "rotX": 0.610975564,
+            "rotY": 89.9395752,
+            "rotZ": 1.12107038,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25919,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.478016,
+            "posY": 1.56007421,
+            "posZ": 5.68155,
+            "rotX": 359.986359,
+            "rotY": 89.92849,
+            "rotZ": 359.984161,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25902,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.2995317,
+            "posY": 1.88535035,
+            "posZ": 5.53669,
+            "rotX": 0.7596346,
+            "rotY": 89.9481,
+            "rotZ": 1.49028885,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25925,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.591891,
+            "posY": 1.94284737,
+            "posZ": 5.412801,
+            "rotX": 0.8767105,
+            "rotY": 89.93603,
+            "rotZ": 1.50373137,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25950,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 1.82190859,
+            "posY": 1.57837129,
+            "posZ": 5.00949335,
+            "rotX": 359.964783,
+            "rotY": 89.966156,
+            "rotZ": 0.10125152,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25940,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 1.9394052,
+            "posY": 1.7710855,
+            "posZ": 5.55984449,
+            "rotX": 359.3039,
+            "rotY": 89.98963,
+            "rotZ": 1.2778219,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25951,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 1.82971084,
+            "posY": 1.47097838,
+            "posZ": 5.69636154,
+            "rotX": 0.0008445823,
+            "rotY": 89.9794159,
+            "rotZ": 359.9653,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25926,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "53cabd"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.34339046,
+            "posY": 1.89923418,
+            "posZ": 4.71041,
+            "rotX": 0.000146277947,
+            "rotY": 89.9825439,
+            "rotZ": 359.984161,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25900,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.37640452,
+            "posY": 1.463496,
+            "posZ": 5.109241,
+            "rotX": 359.980347,
+            "rotY": 90.01686,
+            "rotZ": 0.0404886864,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25905,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.59499145,
+            "posY": 1.47479641,
+            "posZ": 5.01275873,
+            "rotX": 359.991669,
+            "rotY": 89.9199753,
+            "rotZ": 0.0340559073,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25924,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.12811542,
+            "posY": 1.79147387,
+            "posZ": 6.157185,
+            "rotX": 359.910034,
+            "rotY": 90.0048141,
+            "rotZ": 0.433646768,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25918,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.21124387,
+            "posY": 1.75453782,
+            "posZ": 5.73867846,
+            "rotX": 0.978733659,
+            "rotY": 89.85466,
+            "rotZ": 2.291997,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25947,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.0061717,
+            "posY": 2.15230346,
+            "posZ": 4.888819,
+            "rotX": 1.263094,
+            "rotY": 90.9701462,
+            "rotZ": 337.0435,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25943,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "a51b9d"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.470825,
+            "posY": 1.84165645,
+            "posZ": 5.433311,
+            "rotX": 0.001012087,
+            "rotY": 89.9762,
+            "rotZ": 0.01969369,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25948,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.266965,
+            "posY": 1.685505,
+            "posZ": 4.5663476,
+            "rotX": 0.00051028817,
+            "rotY": 89.97508,
+            "rotZ": 359.976074,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25921,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.29900861,
+            "posY": 1.55032015,
+            "posZ": 5.5000267,
+            "rotX": 359.950134,
+            "rotY": 89.96821,
+            "rotZ": 0.0259572919,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25946,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.02302527,
+            "posY": 1.976568,
+            "posZ": 4.57321,
+            "rotX": -0.000873722252,
+            "rotY": 89.98685,
+            "rotZ": 0.04670764,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25938,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 1.7256881,
+            "posY": 1.80180383,
+            "posZ": 5.334896,
+            "rotX": 0.0112993261,
+            "rotY": 89.97396,
+            "rotZ": 0.009327442,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25901,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.41138768,
+            "posY": 1.470539,
+            "posZ": 4.794977,
+            "rotX": 359.991547,
+            "rotY": 90.01802,
+            "rotZ": 359.940277,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25958,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "251e8b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.14861655,
+            "posY": 1.81139493,
+            "posZ": 4.738547,
+            "rotX": 359.980347,
+            "rotY": 89.94613,
+            "rotZ": 0.028443126,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25955,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 1.91473126,
+            "posY": 1.64719129,
+            "posZ": 4.523875,
+            "rotX": 358.7822,
+            "rotY": 90.0087662,
+            "rotZ": 357.033142,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25962,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.082981,
+            "posY": 2.08144855,
+            "posZ": 5.36635828,
+            "rotX": 358.9441,
+            "rotY": 91.055336,
+            "rotZ": 13.388483,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25965,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 1.995707,
+            "posY": 1.78366637,
+            "posZ": 5.221632,
+            "rotX": 0.000615452,
+            "rotY": 89.97734,
+            "rotZ": 0.010754331,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25922,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.104125,
+            "posY": 1.4752028,
+            "posZ": 5.023783,
+            "rotX": 359.966431,
+            "rotY": 89.92796,
+            "rotZ": 0.0315476954,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25934,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.01534915,
+            "posY": 1.59761822,
+            "posZ": 5.27918243,
+            "rotX": -0.00405256357,
+            "rotY": 90.05448,
+            "rotZ": 0.1728884,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25927,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 1.98350692,
+            "posY": 1.9316684,
+            "posZ": 5.63947153,
+            "rotX": -0.00421766844,
+            "rotY": 90.14251,
+            "rotZ": 359.841858,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25917,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.1300478,
+            "posY": 1.8610183,
+            "posZ": 5.14998674,
+            "rotX": -0.005555632,
+            "rotY": 89.853035,
+            "rotZ": 0.1865254,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25931,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.38831782,
+            "posY": 1.59363282,
+            "posZ": 4.97856045,
+            "rotX": 359.9892,
+            "rotY": 89.98387,
+            "rotZ": 0.07598148,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25952,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.160184,
+            "posY": 1.82163918,
+            "posZ": 5.067789,
+            "rotX": 359.99292,
+            "rotY": 89.93177,
+            "rotZ": 0.0603705831,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25909,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.75881743,
+            "posY": 1.48797047,
+            "posZ": 4.78231,
+            "rotX": 359.993652,
+            "rotY": 89.98974,
+            "rotZ": 0.00737992348,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25910,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.23457384,
+            "posY": 1.744684,
+            "posZ": 4.855988,
+            "rotX": 0.00213871966,
+            "rotY": 89.91028,
+            "rotZ": 0.07364971,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25959,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.30119133,
+            "posY": 1.60062015,
+            "posZ": 5.603144,
+            "rotX": 0.03946824,
+            "rotY": 89.62834,
+            "rotZ": 0.352110982,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25960,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 1.94586039,
+            "posY": 1.73419213,
+            "posZ": 4.87889051,
+            "rotX": 359.9935,
+            "rotY": 89.93806,
+            "rotZ": 0.06800184,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25936,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.02140474,
+            "posY": 1.50220478,
+            "posZ": 5.2654047,
+            "rotX": 0.00044554146,
+            "rotY": 89.96626,
+            "rotZ": 359.984619,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25915,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.15783143,
+            "posY": 1.54010022,
+            "posZ": 5.28163671,
+            "rotX": 359.874756,
+            "rotY": 89.7687454,
+            "rotZ": 0.0816221461,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25920,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.34436727,
+            "posY": 1.57010055,
+            "posZ": 5.34075165,
+            "rotX": 359.97525,
+            "rotY": 89.91211,
+            "rotZ": 0.08670659,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25939,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 4.52245474,
+            "posY": 1.03171313,
+            "posZ": 1.9990344,
+            "rotX": -0.000270830438,
+            "rotY": 89.98009,
+            "rotZ": 0.00111694087,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25932,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "bbce6e"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 4.831716,
+            "posY": 1.176614,
+            "posZ": 1.873939,
+            "rotX": 359.989838,
+            "rotY": 89.8382,
+            "rotZ": 0.08359029,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25935,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "fb86e6"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 3.80661654,
+            "posY": 1.32601571,
+            "posZ": 4.823878,
+            "rotX": 0.003504326,
+            "rotY": 90.0015,
+            "rotZ": 0.0005495049,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25914,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 3.95339966,
+            "posY": 1.4707967,
+            "posZ": 4.630582,
+            "rotX": 0.00477020955,
+            "rotY": 90.00228,
+            "rotZ": 359.979553,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25964,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "27da6d"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 1.64661264,
+            "posY": 1.66178882,
+            "posZ": 2.21280026,
+            "rotX": 0.002515394,
+            "rotY": 90.0638351,
+            "rotZ": 359.949921,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25941,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "c3f166"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -0.998513341,
+            "posY": 1.575658,
+            "posZ": 6.70780039,
+            "rotX": 0.000142503384,
+            "rotY": 90.01633,
+            "rotZ": 5.05071439E-05,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25911,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "9e2623"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 1.98912919,
+            "posY": 1.65248394,
+            "posZ": 5.05096674,
+            "rotX": 2.82480669,
+            "rotY": 89.98436,
+            "rotZ": 0.000211566046,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25906,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "49966f"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.381565452,
+            "posY": 1.68476176,
+            "posZ": 2.82953358,
+            "rotX": 0.00872054,
+            "rotY": 89.88453,
+            "rotZ": 359.913666,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25916,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86b43c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.9215488,
+            "posY": 1.68187308,
+            "posZ": 3.13527775,
+            "rotX": 1.14724231,
+            "rotY": 90.05636,
+            "rotZ": 2.92338562,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 25923,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "259": {
+              "FaceURL": "https://www.dropbox.com/s/eevqqttohth06mo/DOOM_deck.jpg?dl=1",
+              "BackURL": "https://www.dropbox.com/s/39xzbpj163vi62u/DOOM_deck_back.jpg?dl=1",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "035fc7"
+        }
+      ],
+      "GUID": "c62bed"
+    }
+  ],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": ""
+}

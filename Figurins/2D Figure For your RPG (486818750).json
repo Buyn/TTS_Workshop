@@ -1,0 +1,5487 @@
+{
+  "SaveName": "2D Figure For your RPG",
+  "GameMode": "None",
+  "Date": "7/23/2015 7:33:54 PM",
+  "Table": "Table_RPG",
+  "Sky": "Sky_Tunnel",
+  "Note": "",
+  "Rules": "ROBINSON CRUSOE:\nCoop survival with missions \nfor 1-4 players.\n\nRules.png: \nhttp://imgur.com/a/s5Ca2\n\nRules.pdf download:\nhttp://tinyurl.com/robinsonrules\r\n\nTable texture:\nhttp://i.imgur.com/No0673Q.jpg\n\nDeck textures are linked in pile-description",
+  "PlayerTurn": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Snapping": false,
+    "Offset": false,
+    "xSize": 0.5,
+    "ySize": 0.5,
+    "yPosition": 0.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hidding": 0
+  },
+  "DrawImage": "iVBORw0KGgoAAAANSUhEUgAAAWAAAADQCAYAAAA53LuNAAAFFElEQVR4Ae3QgQAAAADDoPlTH+SFUGHAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgy8DQx5DAABHyNK3wAAAABJRU5ErkJggg==",
+  "ObjectStates": [
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -24.0183926,
+        "posY": 1.1988101,
+        "posZ": 17.10662,
+        "rotX": 1.68528422E-05,
+        "rotY": 348.373047,
+        "rotZ": 7.03967E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Mage",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/9SvrqbI.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "d07361"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -21.287138,
+        "posY": 1.19881058,
+        "posZ": 17.2098827,
+        "rotX": 1.2443131E-07,
+        "rotY": 359.990967,
+        "rotZ": -6.03311845E-09,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Knight",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/fakTJyz.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "d42d5d"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -18.5772152,
+        "posY": 1.19881058,
+        "posZ": 17.0751915,
+        "rotX": 2.31482787E-07,
+        "rotY": 0.125877529,
+        "rotZ": 3.86429944E-10,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Aventurier",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/VzeSEV1.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "c86617"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -15.939641,
+        "posY": 1.19881058,
+        "posZ": 17.2603188,
+        "rotX": 3.44296922E-07,
+        "rotY": 359.9887,
+        "rotZ": -1.06758257E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Barbare",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/RhKh5GU.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "d4d920"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -13.1916971,
+        "posY": 1.19881058,
+        "posZ": 17.1460514,
+        "rotX": 1.34548124E-08,
+        "rotY": 0.008944313,
+        "rotZ": 8.330273E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Knight",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/EwyZVW3.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "8395a2"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -10.4881916,
+        "posY": 1.19881058,
+        "posZ": 17.1817265,
+        "rotX": -3.932596E-07,
+        "rotY": 0.00468418142,
+        "rotZ": 8.214429E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Antipaladin",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/BT7vziO.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "c860cd"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -7.7788167,
+        "posY": 1.19881046,
+        "posZ": 17.25475,
+        "rotX": 1.069667E-07,
+        "rotY": 359.984253,
+        "rotZ": -9.62728E-08,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Druide",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/E04SH8v.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "aa9828"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -5.08677435,
+        "posY": 1.19881058,
+        "posZ": 17.2328072,
+        "rotX": 3.05938073E-07,
+        "rotY": 0.0009569204,
+        "rotZ": -3.195117E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Magus",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/yR4pMtU.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "5510ad"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -2.3512764,
+        "posY": 1.198811,
+        "posZ": 17.0637646,
+        "rotX": 3.657743E-06,
+        "rotY": 347.8514,
+        "rotZ": -6.940229E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Warrior",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/zSjQCZi.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "379be6"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 0.388078928,
+        "posY": 1.19881058,
+        "posZ": 16.992712,
+        "rotX": 3.91214172E-07,
+        "rotY": 359.9823,
+        "rotZ": 2.13364459E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Paladin",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/JTupKGV.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "232049"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 3.15365,
+        "posY": 1.19881058,
+        "posZ": 17.2784386,
+        "rotX": 3.444457E-07,
+        "rotY": 359.983826,
+        "rotZ": 4.26821231E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Mage",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/w7CbWm1.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "d7aaea"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 5.846379,
+        "posY": 1.19881058,
+        "posZ": 17.1355934,
+        "rotX": 1.0085497E-06,
+        "rotY": 359.839081,
+        "rotZ": 3.190021E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Oracle",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/anuUxPN.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "9374b3"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 8.575827,
+        "posY": 1.19881058,
+        "posZ": 17.2842979,
+        "rotX": 3.71823234E-07,
+        "rotY": 0.169562086,
+        "rotZ": -2.189345E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Monk",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/4MPbcsd.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "f4afbf"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -26.6625042,
+        "posY": 1.15704918,
+        "posZ": 16.9791737,
+        "rotX": 1.23999253E-05,
+        "rotY": 359.910858,
+        "rotZ": 1.65322017E-05,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "Warrior",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/4sCXKu6.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "25864a"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 11.3324537,
+        "posY": 1.19881058,
+        "posZ": 17.28383,
+        "rotX": 4.05046947E-08,
+        "rotY": 0.06313628,
+        "rotZ": 2.13605929E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Warrior",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/VwuD6gO.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "94f30a"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 14.0717287,
+        "posY": 1.19881058,
+        "posZ": 17.21259,
+        "rotX": 1.59759324E-07,
+        "rotY": 359.9866,
+        "rotZ": 2.13410672E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Ranger",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/sBJwGNg.png",
+        "WidthScale": 0.0
+      },
+      "GUID": "f06f25"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 16.8208981,
+        "posY": 1.19881058,
+        "posZ": 17.2020836,
+        "rotX": -1.05996314E-08,
+        "rotY": 359.951782,
+        "rotZ": 5.01373052E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Ensorceleur",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/2S6Xwy15I04dMOMfpUxNXx6tdJAmrKkfe41eWdS249w=w200-h239-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "04935f"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 19.475666,
+        "posY": 1.19881046,
+        "posZ": 17.2269554,
+        "rotX": -9.152158E-06,
+        "rotY": 359.964966,
+        "rotZ": -8.238135E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Barde",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/5oPxIOHr9CtszFdryA0iCwa773nt_GcVfnCvBj_mqg=w200-h365-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "c9c41b"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 22.1489086,
+        "posY": 1.19881058,
+        "posZ": 17.2244968,
+        "rotX": -3.42887354E-08,
+        "rotY": 359.96994,
+        "rotZ": -1.06779339E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Barbare",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/sBijEwAC7iQ6_k6OPldY-yU7GGI-OaudfJwU10FPsg=w200-h242-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "ff9196"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 24.8704758,
+        "posY": 1.19881058,
+        "posZ": 17.0554848,
+        "rotX": 1.34272332E-05,
+        "rotY": 0.0209322739,
+        "rotZ": -2.33695973E-05,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Ranger",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/6gzDXcsirbVwJONhPTMYG8keM9r9RdIkd0dozrJg-w=w200-h306-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "1a07b1"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -25.29241,
+        "posY": 1.19881058,
+        "posZ": 14.7532673,
+        "rotX": -7.29753E-06,
+        "rotY": 359.987946,
+        "rotZ": -3.94794642E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Arquebusier",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/qunNwrHCj8bONIyeP391u8WUihW3n7y9DSGdFT86Vg=w200-h321-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "ebca67"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -22.5597477,
+        "posY": 1.19881046,
+        "posZ": 14.6097889,
+        "rotX": 5.94971652E-06,
+        "rotY": 180.767014,
+        "rotZ": -7.32361923E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Warrior",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/Fvr0nQL2G3Ei12cLQWMcFeKU9oJD0ZGFjG4zNiwls1s=w200-h324-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "f1e7ac"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -19.9223747,
+        "posY": 1.19881082,
+        "posZ": 14.7942648,
+        "rotX": 1.19694278E-07,
+        "rotY": 0.013306723,
+        "rotZ": 1.06749596E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Ensorceleur",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/tWC3VXvTcyBa_NeMfst5zZhgpQI88mtnodydc-3Ano0=w283-h400-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "c4f96b"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -17.1918335,
+        "posY": 1.1988107,
+        "posZ": 14.6614285,
+        "rotX": 3.50717619E-06,
+        "rotY": 181.069977,
+        "rotZ": 4.41010252E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Assassin",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/7L2hOELATt9xT8bvNGxJC36sSxuz12ANMaN98wdt08Q=w300-h353-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "611a72"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -14.5327044,
+        "posY": 1.1988107,
+        "posZ": 14.7150354,
+        "rotX": -8.31632E-06,
+        "rotY": 359.980469,
+        "rotZ": -7.575843E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Prétre",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/6UaAszirKov7ugOdNRs4dW7MxVS1nfoS-kNACWfcVE4=w213-h236-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "bd6a14"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -11.698555,
+        "posY": 1.1988107,
+        "posZ": 15.0193443,
+        "rotX": 2.006947E-05,
+        "rotY": 359.9929,
+        "rotZ": 1.01396708E-05,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Necromancer",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/E7XL7-WD6hi9WLrQd1P9dtL0SZk85bLsQJ_r3MGW1EY=w200-h233-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "2ec5de"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -9.05139351,
+        "posY": 1.19881058,
+        "posZ": 14.964591,
+        "rotX": 1.38511621E-06,
+        "rotY": 0.0125514409,
+        "rotZ": -7.897242E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Warrior",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/mJKA3dbKqOk0osdOH7Jz8a9yq4qft0BYwRJtRkDscyQ=w200-h260-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "2c11a3"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -6.31430244,
+        "posY": 1.19881058,
+        "posZ": 14.7931147,
+        "rotX": 1.0443906E-07,
+        "rotY": 359.9789,
+        "rotZ": 1.06680361E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Warrior",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/1b-TBqL6HdiebOgmZzp3Ye0UffyhjU2DiP3nkTFxNSM=w200-h240-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "236787"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -3.64468169,
+        "posY": 1.19881058,
+        "posZ": 14.5412817,
+        "rotX": 6.32490764E-06,
+        "rotY": -0.004415443,
+        "rotZ": -2.02796082E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Mage",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/TXGCVhRvlG8QAnPsmT8jVTZPffbuJ1qUCKdG__P-qUg=w200-h393-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "16639a"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -0.940705657,
+        "posY": 1.19881058,
+        "posZ": 14.5589514,
+        "rotX": -6.86230533E-06,
+        "rotY": -0.000127316031,
+        "rotZ": -5.976371E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Necromancer",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/oRlQ8q76McSYbrBdHsrV-WnIQtdSTKq2yyQv9GBPGrU=w200-h235-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "807adc"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 1.73156738,
+        "posY": 1.19881058,
+        "posZ": 14.5788116,
+        "rotX": -8.091276E-06,
+        "rotY": 0.0366708,
+        "rotZ": -4.69830547E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Ranger",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/V1eKYrhoGFo6V44NWRSWnFXrx1r0bWVDRWxw66RKIwo=w325-h423-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "6f88c6"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 4.441741,
+        "posY": 1.19881058,
+        "posZ": 14.5583057,
+        "rotX": -7.870984E-06,
+        "rotY": 359.992981,
+        "rotZ": -3.30322814E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Warrior",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/pWEDwrVySpWIUoszLdwhRBXXFAwtva4qgA89Pfjb0Z8=w200-h159-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "7698ab"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 7.246433,
+        "posY": 1.19881082,
+        "posZ": 14.8005352,
+        "rotX": -1.85745466E-05,
+        "rotY": 180.000031,
+        "rotZ": 6.51002256E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Ensorceleur",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/sETEy4dT0pMIxmN_Uxxmv2oo0juw4CO8A032caYwsf4=w200-h320-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "1fc4af"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 10.0207138,
+        "posY": 1.19881058,
+        "posZ": 14.43183,
+        "rotX": 1.73754615E-05,
+        "rotY": 1.46216643,
+        "rotZ": -1.96862347E-05,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Mage",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/FbOY_Oh9Jp08nd9ignnnyO6P1CthEl4Q9Dr3u91sWv8=w200-h366-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "2aed46"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 12.7679863,
+        "posY": 1.19881058,
+        "posZ": 14.607707,
+        "rotX": 1.7756426E-07,
+        "rotY": 359.9695,
+        "rotZ": -1.27121979E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Mage",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/dlejSs5K115WIrER9Rg_rKHHcX8QkFP5PNCHyMp0UV0=w268-h505-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "d0deed"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 15.4890318,
+        "posY": 1.19881058,
+        "posZ": 14.5350866,
+        "rotX": -1.39995143E-06,
+        "rotY": 359.986237,
+        "rotZ": 6.404841E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Monk",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/51P_Vadl5Mw6wguMKXvN6obMPNaN4CbUn0aK6b2hrT4=w200-h414-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "e6aaf0"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 18.2895832,
+        "posY": 1.19881058,
+        "posZ": 14.4344473,
+        "rotX": 2.30846133E-08,
+        "rotY": 359.9711,
+        "rotZ": 9.54705648E-09,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Antipaladin",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/Cykd_Uuss9JYGEp3Xuwj_QYPelkFJxCsGNG90YIvZpM=w200-h151-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "36fd43"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 21.0966415,
+        "posY": 1.19881058,
+        "posZ": 14.6976137,
+        "rotX": -1.35297068E-05,
+        "rotY": 359.9704,
+        "rotZ": 2.00671129E-05,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "ArcheMage",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/uhmFcEfu5no5Gj_jcCR7hgYpQRlDSRIZjuxbTkw9G0w=w240-h400-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "083fcc"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 23.7968616,
+        "posY": 1.19881058,
+        "posZ": 14.6511326,
+        "rotX": 5.378826E-06,
+        "rotY": 359.968353,
+        "rotZ": 2.65594917E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Barde",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/GKDz1Bi2pDS6t0R_H0AnFg5u-zNEXPIAbdGEk0y5GoI=w200-h365-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "416994"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -23.7329025,
+        "posY": 1.19881058,
+        "posZ": 12.3173866,
+        "rotX": 1.906641E-06,
+        "rotY": 359.990723,
+        "rotZ": 1.24862754E-05,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Barde",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/zG7v10yIxrnSphzcZYRqPS-HdIA1d3oNAM0A59Ck2_Y=w200-h308-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "0c360e"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -21.0047588,
+        "posY": 1.19881058,
+        "posZ": 12.3181734,
+        "rotX": 3.96403948E-07,
+        "rotY": -0.0018612087,
+        "rotZ": -1.06730077E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Druide",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/_yGImMbki7g0C4VlmqNmZgdkNTqdK7hiddKXWdoRc2E=w200-h370-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "e5472b"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -18.3269787,
+        "posY": 1.19881058,
+        "posZ": 12.281908,
+        "rotX": -3.96003543E-06,
+        "rotY": 0.009964848,
+        "rotZ": 1.54743138E-05,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Ranger",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/IpHA4gTTaYX_HhRoVsGVkgq7QhgBLGfffsUJOv1OSqc=w200-h231-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "a83ee5"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -15.5523167,
+        "posY": 1.19881058,
+        "posZ": 12.1798325,
+        "rotX": 1.51687925E-06,
+        "rotY": 359.951233,
+        "rotZ": -8.538554E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Forgesort",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/JhKQ4exn3yjYAUmyn2osJLEaw_M7uP5BAswSH9V-d7s=w188-h200-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "8fdc89"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -12.7761745,
+        "posY": 1.19881058,
+        "posZ": 12.4007072,
+        "rotX": 1.0840829E-06,
+        "rotY": -0.004070718,
+        "rotZ": 7.150312E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Ensorceleur",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/PXGgCD9Cb-89nOnuAQ_-QLSQNHWwwL-pKwL5wbGgzus=w200-h346-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "c02134"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -9.952648,
+        "posY": 1.19881058,
+        "posZ": 12.40538,
+        "rotX": 1.58777357E-06,
+        "rotY": -0.00203125179,
+        "rotZ": -7.470827E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Démoniste",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/4nK5MuPHEXn0WjtJhm0wC7BrW4N2x7AEH-CU8WkIRPU=w200-h260-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "095a19"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -7.278536,
+        "posY": 1.19881058,
+        "posZ": 12.4248438,
+        "rotX": -7.07595655E-06,
+        "rotY": -0.002413716,
+        "rotZ": -6.296434E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Mage",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/TuFrFVIVG6qMrQF2cANMoIDp3LoELxWKwKS6TZCyrNA=w200-h290-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "e46c7c"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -4.56165075,
+        "posY": 1.19881058,
+        "posZ": 12.2744122,
+        "rotX": 4.9448397E-07,
+        "rotY": 0.0060783634,
+        "rotZ": -4.266803E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Monk",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/pVY_7H_G9B412c8Lt2bTXYqY7JnDRo8ZIWPV3ZMfpnk=w321-h448-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "d67090"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -1.790805,
+        "posY": 1.19881058,
+        "posZ": 12.321476,
+        "rotX": -6.22949847E-06,
+        "rotY": -0.000129729568,
+        "rotZ": 5.12261158E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Voleur",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/hjnK7G2q4rrd3us7upnX5A2apvuNvo-mEDDV92DWYgc=w200-h378-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "5956ab"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 0.929819763,
+        "posY": 1.19881058,
+        "posZ": 11.982255,
+        "rotX": 3.45297963E-07,
+        "rotY": 359.960052,
+        "rotZ": 1.06484684E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Alchimiste",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/EnfbNZN2z5yUHp_SEYKfF8Fl4HNZUho2neRGLFe7mcE=w200-h331-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "026339"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 3.68423963,
+        "posY": 1.19881058,
+        "posZ": 11.9450111,
+        "rotX": 2.14868055E-06,
+        "rotY": 359.972961,
+        "rotZ": 3.21007656E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Sorciére",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/6lzHyB3AyohG2DFgHPlnIzVoVPUmad-OtgtVJMp9KU8=w200-h432-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "5a3f52"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 6.42047453,
+        "posY": 1.1988107,
+        "posZ": 12.0716019,
+        "rotX": 1.22269748E-05,
+        "rotY": 359.9781,
+        "rotZ": 4.906837E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Duéliste",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/dsb4BzFbguU6bM0hAr7Hsq5AxNvgD6wmeRxmgif7ItI=w360-h382-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "86370c"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 9.150331,
+        "posY": 1.19881058,
+        "posZ": 11.8717785,
+        "rotX": 4.59950968E-07,
+        "rotY": 0.01760404,
+        "rotZ": -1.06632548E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Witch",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/bspJ1BDoPzclsEChT3oKY4sGJRzl4TlvM9eja1mj7-I=w200-h347-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "9f73d5"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 11.8759642,
+        "posY": 1.19881058,
+        "posZ": 12.1832428,
+        "rotX": -8.86336863E-07,
+        "rotY": 359.97168,
+        "rotZ": 8.421745E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Warrior",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/kNhBEmMgD4-DW0aPgUpDAvy16L9-OylamXQRBiJBb9c=w236-h313-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "37363f"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 14.7035227,
+        "posY": 1.19881058,
+        "posZ": 12.1473217,
+        "rotX": -1.0323688E-06,
+        "rotY": 359.982849,
+        "rotZ": -7.683812E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Barbare",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/mkvdgLisPqdl-hwWY_cwu3Drp0J300-KbqNHZX2mMRU=w200-h265-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "baac1a"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 17.46246,
+        "posY": 1.19881058,
+        "posZ": 11.8445663,
+        "rotX": 5.08870528E-08,
+        "rotY": 359.898682,
+        "rotZ": -2.6968297E-10,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Warrior",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/xzSNhtXIv3_2agE7vAY2eTY1mi94MErjvobDmtZRn7U=w249-h373-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "a2841e"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 20.24834,
+        "posY": 1.1988107,
+        "posZ": 11.8894386,
+        "rotX": -8.758199E-06,
+        "rotY": 359.975922,
+        "rotZ": -3.298533E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Ensorceleur",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/1fAr3kWiqMgxYJJUloW1OlVygg5skVMYvlNe5mp9gGQ=w200-h305-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "95cd7a"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 23.0404453,
+        "posY": 1.19881058,
+        "posZ": 12.0975876,
+        "rotX": 1.60464788E-06,
+        "rotY": 359.973267,
+        "rotZ": -1.814703E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Barbare",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/YybM3CRbBXRocOE1Uq7osAc95fF92dctuWNnRPTWdns=w200-h210-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "342b25"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -22.1129932,
+        "posY": 1.19881058,
+        "posZ": 9.926418,
+        "rotX": -2.45135243E-06,
+        "rotY": 359.9833,
+        "rotZ": 1.55817179E-05,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Pretre",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/F1R3qVQdl2ece19Nqvq7ojj0tcNz904HjUwIRmVEQ-s=w200-h309-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "a83bf1"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -19.3593349,
+        "posY": 1.19881058,
+        "posZ": 9.648049,
+        "rotX": -8.007637E-06,
+        "rotY": 0.0619639829,
+        "rotZ": 1.02617405E-05,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "arbare",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/VRy-_9Sqg7mzSFpdQUxm_xyVvGG9jQhKK7xn77DW2Eg=w236-h314-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "fa8faa"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -16.6182175,
+        "posY": 1.19881058,
+        "posZ": 9.707977,
+        "rotX": -5.97614326E-06,
+        "rotY": 359.960541,
+        "rotZ": 5.24454845E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Barde",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/NK0ikfGJHakMTv9NfHVWmpEpoaBlD9PrAAtE3Zk4iLw=w200-h263-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "635ce9"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -13.8903236,
+        "posY": 1.19881058,
+        "posZ": 9.798456,
+        "rotX": -1.31075285E-06,
+        "rotY": 359.97583,
+        "rotZ": -5.333573E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Serveuse",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/rpH7oAWjU-0cX_yS2ElqfLxdHwcyA-MOyaBeDEH-dn8=w200-h271-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "85f638"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -11.1690369,
+        "posY": 1.19881058,
+        "posZ": 9.722436,
+        "rotX": -6.778354E-06,
+        "rotY": 0.00308254547,
+        "rotZ": 1.00316611E-05,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Mage",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/-S1BQcoiDWD_cJePNoE83lXkpLbOG8QU369o5zYcV0E=w200-h226-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "86ca67"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -8.345483,
+        "posY": 1.19881058,
+        "posZ": 9.825852,
+        "rotX": -9.763412E-08,
+        "rotY": 359.986969,
+        "rotZ": -3.20170756E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Courtisane",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/iEq0eyrI_s8eAh8vNw5pptU5RkNcjNDpxXZRwPWDl84=w200-h307-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "5dee67"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -5.72677851,
+        "posY": 1.19881034,
+        "posZ": 9.846607,
+        "rotX": 4.00991325E-07,
+        "rotY": 359.976318,
+        "rotZ": -3.940933E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Witch",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/WJt3Hd797glnpJ-baqKwTRzq9cQ4Tf0J2x4-5b_wbKE=w200-h419-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "b37104"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -3.0654254,
+        "posY": 1.19881058,
+        "posZ": 9.73296,
+        "rotX": -1.68340918E-07,
+        "rotY": 359.96283,
+        "rotZ": 3.6408926E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Warrior",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/irgKb3TIT6uBiGInBsk1WZBP3nxJMKrCuqFrroHo0iU=w200-h222-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "4d50eb"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -0.358159572,
+        "posY": 1.19881058,
+        "posZ": 9.550737,
+        "rotX": 6.56669954E-06,
+        "rotY": -0.00222493359,
+        "rotZ": -3.2029314E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Ensorceleur",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/MpnWH4tYgRzNou_C1UqY1PsW0piCppEGN3dTrNgifvQ=w200-h486-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "4b55c3"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 2.41543031,
+        "posY": 1.19881058,
+        "posZ": 9.511853,
+        "rotX": -5.97418375E-06,
+        "rotY": 359.981384,
+        "rotZ": -5.008765E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Barde",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/VYs5JUWgOT0jJ1YNRbxOhXq16D3Nf2TyKwPiLkBt89c=w200-h321-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "8f74bf"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 5.22727871,
+        "posY": 1.19881058,
+        "posZ": 9.370677,
+        "rotX": 7.122927E-08,
+        "rotY": 359.8983,
+        "rotZ": -4.196982E-10,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Prétre",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/9HTL9wxjVBOJELvEDwc1rRJZha-u8cYEdrXJMCVSej8=w200-h406-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "38b8b4"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 7.9326067,
+        "posY": 1.19881058,
+        "posZ": 9.611227,
+        "rotX": -8.71090549E-07,
+        "rotY": 359.979584,
+        "rotZ": 1.0741519E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Mage",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/69RDzxZX6_LaouydgVRFD_G9ja9qd8uGvrX4NDxNrfg=w200-h238-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "00f720"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 10.6646185,
+        "posY": 1.19881058,
+        "posZ": 9.723761,
+        "rotX": 4.82648545E-07,
+        "rotY": 359.985748,
+        "rotZ": 1.06646631E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Prétre",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/ki6Vs_ZWvku3WHrfWn-QowEOZyRyUxLg8vI6v-9t9Jk=w200-h380-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "a30d3c"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 13.307641,
+        "posY": 1.19881046,
+        "posZ": 9.645002,
+        "rotX": -7.26416874E-06,
+        "rotY": 359.9802,
+        "rotZ": -5.221523E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Ranger",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/dzIfLpcw01lSK6-CsxYfLMfEIcLVwrYvOnMjZS8FFSg=w180-h223-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "adcf68"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 16.0113029,
+        "posY": 1.19881058,
+        "posZ": 9.646233,
+        "rotX": -7.790612E-06,
+        "rotY": 359.990356,
+        "rotZ": -6.29914575E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Aristocrate",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/7P3UJVd0_bTF-wmqRKWR3XbGP2wtJiPsHK6WfumqJK4=w200-h354-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "8a0d2c"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 18.7902718,
+        "posY": 1.19881058,
+        "posZ": 9.659932,
+        "rotX": 2.12636508E-07,
+        "rotY": 359.9737,
+        "rotZ": 1.06614607E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Mage",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/4x_o9ACoPZgvRLwFyvkCcBG14mshPjGUR6snRcFTLJw=w93-h196-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "d32ec4"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 21.65253,
+        "posY": 1.19881058,
+        "posZ": 9.433883,
+        "rotX": 1.09230887E-05,
+        "rotY": 359.9685,
+        "rotZ": 1.52581324E-05,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Arquebusier",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/_WIc3rWxd8HAvh8-3dklhqTKBHlvMstDg_CvaitEneM=w100-h188-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "f8e2df"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -20.8108578,
+        "posY": 1.19881058,
+        "posZ": 7.43838167,
+        "rotX": 2.120811E-07,
+        "rotY": 0.0774510056,
+        "rotZ": 3.20344583E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Ranger",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/6xjjfmT6ZPd6reejepww8ZNCE-dq9cYVCL7DjOCUBFQ=w200-h311-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "935584"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -18.0943165,
+        "posY": 1.19881058,
+        "posZ": 7.35548639,
+        "rotX": -2.05663946E-06,
+        "rotY": 359.9823,
+        "rotZ": 3.20464181E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Alchimiste",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/E2eSJYnb-SqW--LZtoQfL4al3rdmRm3_1wQOjsT_jaQ=w94-h160-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "85bd13"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -15.395071,
+        "posY": 1.1988107,
+        "posZ": 7.56769276,
+        "rotX": -5.12098541E-06,
+        "rotY": 358.084747,
+        "rotZ": -3.39321247E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Magus",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/_VbuuQQ6O6jhvQtlgAu1m8c35_B8HolTcBF7kQ1am_c=w236-h298-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "1676ee"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -12.7038059,
+        "posY": 1.19881058,
+        "posZ": 7.484371,
+        "rotX": -5.44954E-06,
+        "rotY": 0.119469628,
+        "rotZ": -5.875057E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Voleur",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/YsV5uxzf0_iu7iQV6bz0NfM-bDBQ1n81uSXNJSHvXtA=w200-h430-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "1c0b00"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -10.0329752,
+        "posY": 1.19881058,
+        "posZ": 7.46033955,
+        "rotX": 8.47462957E-07,
+        "rotY": -0.000466973346,
+        "rotZ": -8.431093E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Ranger",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/IHsNFmvWgQzXMRK09c_vYDQohmHc5a0fsTYuwBYyfxw=w429-h622-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "560607"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -7.264811,
+        "posY": 1.1988107,
+        "posZ": 7.36430264,
+        "rotX": -1.05520462E-06,
+        "rotY": 359.7263,
+        "rotZ": -4.693407E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Knight",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/p7jsEe83UvVLJjjxSnzu-An8A53rxaoPUyM371dCixY=w200-h322-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "2cc718"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -4.57979965,
+        "posY": 1.19881046,
+        "posZ": 7.196557,
+        "rotX": -2.68078247E-06,
+        "rotY": 0.179880738,
+        "rotZ": -4.089319E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Prétre",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/0-nWPCl_LpCXv8aH-aCflvLgO0Rb3PWzyHy90KzWpyA=w200-h250-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "380eda"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -1.94671392,
+        "posY": 1.19881058,
+        "posZ": 7.23587942,
+        "rotX": -7.61934871E-06,
+        "rotY": 359.982819,
+        "rotZ": -6.39205666E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Warrior",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/NHsRRsXstZP3EQMhE6nORVdj44vHyaRBp-CWl9fWCto=w200-h294-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "9f4f6b"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 0.8122049,
+        "posY": 1.19881058,
+        "posZ": 7.272113,
+        "rotX": -1.55672558E-06,
+        "rotY": 0.000155644215,
+        "rotZ": -1.70752048E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Mage",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/a4Z9R-OOkO2SZ0eWROM5c5ngBY3CG6616M2_eO8wmyc=w256-h400-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "30d8fc"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 3.55317974,
+        "posY": 1.19881058,
+        "posZ": 7.04065657,
+        "rotX": -3.034172E-06,
+        "rotY": 0.00357630616,
+        "rotZ": 6.41436259E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Witch",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/aJoxm9fl5tU6OMzFK4-FNBL8w02QvfFkdzIgF5l-2K0=w200-h220-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "bcd2d4"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 6.30280066,
+        "posY": 1.19881058,
+        "posZ": 6.93763876,
+        "rotX": 2.12328746E-06,
+        "rotY": -0.00457888329,
+        "rotZ": -8.589888E-11,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Barde",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/QCRtL55oroQPQ6UOqcCKwbHaF1FbksSOHuCIrByDet4=w236-h372-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "aff131"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 9.062152,
+        "posY": 1.19881058,
+        "posZ": 7.29213524,
+        "rotX": 6.97504356E-06,
+        "rotY": 0.001914784,
+        "rotZ": 4.37570861E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Warrior",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/P_iOFkCE0Y4JMT1W6QYHXD8Jve970ijHFhi-7VoLkwA=w200-h312-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "8635de"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 11.8089066,
+        "posY": 1.19881058,
+        "posZ": 7.17162132,
+        "rotX": 1.38461337E-06,
+        "rotY": 359.9855,
+        "rotZ": -8.220173E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Magus",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/4VIYyi3A1YvpOG_Uip2w8lTFbHssZTsi_DQvnA3VzHU=w200-h324-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "d07f02"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 14.4909353,
+        "posY": 1.19881058,
+        "posZ": 6.94419,
+        "rotX": -1.8668004E-08,
+        "rotY": 359.988281,
+        "rotZ": 2.134303E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Voleur",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/ywyhPEUN2qh9rt4w0x7uzR-Tdccj5Mr-GsAH4oDdPDQ=w236-h345-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "797b91"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 17.1743813,
+        "posY": 1.19881082,
+        "posZ": 6.96922827,
+        "rotX": 4.805271E-06,
+        "rotY": 359.863342,
+        "rotZ": 1.578895E-05,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Magus",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/29XGVCWFwdKzliyEOQGlUqQe115jtac4ql7sb_OGv00=w236-h329-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "35b305"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 19.95491,
+        "posY": 1.19881058,
+        "posZ": 7.26189041,
+        "rotX": 1.22918E-07,
+        "rotY": 0.00118140283,
+        "rotZ": 2.13246039E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "ArcheMage",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/aXqwi1x22Mx1ecAh0N_wR6m6WXnDD7hTZm0zeySctvY=w368-h600-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "a9e89d"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -19.4709129,
+        "posY": 1.19881058,
+        "posZ": 4.98450565,
+        "rotX": 4.22395118E-07,
+        "rotY": -0.00505010458,
+        "rotZ": 2.13419526E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Voleur",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/n3Udxq3eunQ3wTG5lhdDBE7Dj1GZasg1ugSekSTojsA=w200-h361-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "358509"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -16.8049335,
+        "posY": 1.19881058,
+        "posZ": 5.12146235,
+        "rotX": -6.80234143E-06,
+        "rotY": 359.986053,
+        "rotZ": 7.36693346E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Witch",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/-Xz20Top9dmrcTNgsq-gflN9nAE0_shzc7T28v0Lk8I=w200-h297-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "77142e"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -14.0821218,
+        "posY": 1.19881058,
+        "posZ": 5.26131058,
+        "rotX": -2.697854E-08,
+        "rotY": 359.991364,
+        "rotZ": 2.13434362E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Warrior",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/k1R-H7RMrPghJ2O_JVkfLVHW1WBSgLYFnA38xujh18A=w166-h213-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "2fe14c"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -11.3973761,
+        "posY": 1.19881046,
+        "posZ": 5.135882,
+        "rotX": 1.03251432E-06,
+        "rotY": 359.971375,
+        "rotZ": -3.204864E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/rCUoSKfM0mGAX-kN58Zc34Jn2Sxo5ACKTDPNTcvtQpA=w200-h270-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "5fe865"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -8.862529,
+        "posY": 1.19881058,
+        "posZ": 5.14465046,
+        "rotX": 3.38954828E-06,
+        "rotY": 359.9805,
+        "rotZ": 2.24055884E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Warrior",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/sV5JqqpaKFix29FnUR7MJyH6NRDb69ukSYpYBsD7Xz0=w200-h260-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "d6e78f"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -6.19481945,
+        "posY": 1.19881058,
+        "posZ": 5.06123,
+        "rotX": 3.600469E-06,
+        "rotY": -0.00324039627,
+        "rotZ": 6.40225039E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Mage",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/UFQvdC5VUYwcp6gBkjEp1GDQz81w5qM9rnp3G_sp1lQ=w170-h283-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "c2f01c"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -3.57283759,
+        "posY": 1.19881058,
+        "posZ": 4.96292162,
+        "rotX": 3.791654E-06,
+        "rotY": 359.979858,
+        "rotZ": 1.81693338E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Warrior",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/UZZDr_PBmF8SEnSJhCAgsR3wTLXQKf1BofPAnZiR8PA=w200-h300-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "67696d"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -0.878704,
+        "posY": 1.19881046,
+        "posZ": 5.0469594,
+        "rotX": 4.28275462E-06,
+        "rotY": 359.980438,
+        "rotZ": 4.22883829E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Aubergiste",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/OIjTvRwps6wYaRmtExK953uYYYtdlT4dAfgCuBAP1uM=w200-h282-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "b23701"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 1.84237659,
+        "posY": 1.19881058,
+        "posZ": 4.770067,
+        "rotX": 1.13209273E-06,
+        "rotY": 359.977783,
+        "rotZ": -7.43593262E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Alchimiste",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/3_9ibC_456-C_wx_cg79U7YlwRGDRiXR5fFUkGA44vI=w220-h431-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "c3aff8"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 4.616802,
+        "posY": 1.19881046,
+        "posZ": 4.71280432,
+        "rotX": -4.73537239E-06,
+        "rotY": 359.9796,
+        "rotZ": 2.03193144E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "ensorceleur",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/iFeUJmb8Vq9FMPqQKXS1jcRr2-sQYpq2Jhfmn1m5NUg=w400-h480-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "2488b7"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 7.44113827,
+        "posY": 1.19881058,
+        "posZ": 4.597077,
+        "rotX": 7.326666E-07,
+        "rotY": 359.987366,
+        "rotZ": -8.642447E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Antipaladin",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/7BlstYYVax2M-oRW5oCr1uEL71s8EVzsok0segV470I=w200-h320-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "ed84db"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 10.2155666,
+        "posY": 1.19881058,
+        "posZ": 4.744262,
+        "rotX": -9.968403E-07,
+        "rotY": 359.980743,
+        "rotZ": 8.220942E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Magus",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/hPfmps5rLcDNtiuPooKcbfIJWP6s1FVMISLn_eaXMgw=w180-h302-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "b824ad"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 12.9546738,
+        "posY": 1.1988107,
+        "posZ": 4.593109,
+        "rotX": 8.45872762E-07,
+        "rotY": 359.975983,
+        "rotZ": 5.229161E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Citadin",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/fupB-9ofWU0cMMVZufVuM4Rck6jE0rA9r6WehS5XtqQ=w200-h282-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "4ac9db"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 15.7622118,
+        "posY": 1.19881046,
+        "posZ": 4.46653,
+        "rotX": 2.524938E-07,
+        "rotY": 359.986938,
+        "rotZ": 2.15575554E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Oracle",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/OTZ0OPGTRvNEx1PDNHj8wT_wrVeyRV5SSex0myEM85Q=w200-h218-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "913a36"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 18.5253124,
+        "posY": 1.19881058,
+        "posZ": 4.679306,
+        "rotX": -1.985633E-08,
+        "rotY": -0.000464893616,
+        "rotZ": 1.06795888E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Druide",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/CDNA4wsoBUuxOZhF4-jGH83l5Y2qHexLKtKxK9ia-2w=w200-h237-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "4cf718"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -18.02339,
+        "posY": 1.19881058,
+        "posZ": 2.78594542,
+        "rotX": 1.1918617E-05,
+        "rotY": 359.380829,
+        "rotZ": -1.99152182E-05,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Noble",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/2s33lGVhtr2fcb-Ga14GoU3n8CIzJIdytg9KlzFWtwQ=w236-h327-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "662e01"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -15.2564993,
+        "posY": 1.19881058,
+        "posZ": 2.88690829,
+        "rotX": -2.40387158E-06,
+        "rotY": 0.14998,
+        "rotZ": 7.04065E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Citadin",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/kD70dCNtdeO7F33H9wL1UlgfYFux7motao7JZx6QnEs=w200-h282-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "c3ef17"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -12.5948915,
+        "posY": 1.19881058,
+        "posZ": 2.607752,
+        "rotX": -5.059703E-07,
+        "rotY": 359.908844,
+        "rotZ": 6.60946671E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Forgeron",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/fG24SEhw2O5N0zhf9oqbvAZED5tRGn1mpclf_oGcuPg=w200-h293-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "d11a65"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -9.95379,
+        "posY": 1.19881058,
+        "posZ": 2.72482,
+        "rotX": 2.555267E-06,
+        "rotY": 359.980652,
+        "rotZ": 1.38531766E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Monk",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/jT3sHpbEQHd_13bWhckjohEu2sc-sHfBel8SJ_DogSg=w236-h333-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "5b82f8"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -7.24424744,
+        "posY": 1.1988107,
+        "posZ": 2.65325332,
+        "rotX": -2.40326381E-06,
+        "rotY": 359.365448,
+        "rotZ": 1.9847048E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Citadin",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/L-QK7Eu5APlgxRUUAZb7IcAQlTMvyYvbgtQN3pdfwXs=w236-h443-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "817f81"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -4.654072,
+        "posY": 1.1988107,
+        "posZ": 2.547122,
+        "rotX": 3.77022E-08,
+        "rotY": 0.3745643,
+        "rotZ": 1.95314124E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Warrior",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/h5K0nVQHl0Lq6LuKz0Pav4qMfGsB6di1iET2HvoelXw=w200-h282-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "11e76e"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -1.93317044,
+        "posY": 1.19881058,
+        "posZ": 2.601737,
+        "rotX": -4.43143549E-08,
+        "rotY": 359.9846,
+        "rotZ": 1.28065028E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Noble",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/AhdmbMwFQ1snl5tyBBGOa0lRIBASQ8-Bcq3ARinw_us=w236-h314-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "9e20cf"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 0.8094791,
+        "posY": 1.19881058,
+        "posZ": 2.451656,
+        "rotX": -1.1975369E-06,
+        "rotY": 359.9882,
+        "rotZ": 2.12568011E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Mage",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/faPb_T3rXLKy8Lyd-9sbB8OdM-3YQphgXyfRwOxyFT0=w200-h385-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "ab5a85"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 3.501298,
+        "posY": 1.19881058,
+        "posZ": 2.1608212,
+        "rotX": -3.43354031E-06,
+        "rotY": 359.980469,
+        "rotZ": 1.17612888E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Arquebusier",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/PsyCUYP5hT2E6T8QmwzURrTpMh0MDwL8h51CbTWBFMs=w237-h335-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "349727"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 6.23288536,
+        "posY": 1.19881058,
+        "posZ": 2.087808,
+        "rotX": -1.4794075E-06,
+        "rotY": 359.985931,
+        "rotZ": 3.307368E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Dueliste",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/_06nPl7Bz_bcYKEt3hZc2mhAd99b7Muh22zuFPT5xOk=w200-h421-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "99d3fc"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 8.883639,
+        "posY": 1.19881058,
+        "posZ": 2.31273365,
+        "rotX": 3.68758333E-06,
+        "rotY": 359.9914,
+        "rotZ": -4.90948742E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Mage",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/C04nI-ynOGafLyXOGj1fDE_roBzHbYFqtrSOrpm8c1w=w283-h500-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "58d712"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 11.7227526,
+        "posY": 1.19881058,
+        "posZ": 2.12860942,
+        "rotX": 3.21195756E-07,
+        "rotY": 359.983521,
+        "rotZ": 1.05283391E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Warrior",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/ebhSU0zehT6fnd86BmpikrPQlV9E-B1akdERw_Mrpso=w200-h380-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "05d655"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 14.4745731,
+        "posY": 1.19881058,
+        "posZ": 1.87449908,
+        "rotX": -3.05334265E-06,
+        "rotY": 359.9883,
+        "rotZ": -1.28036129E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Warrior",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/Xg3Ees3lp8WCSUFDHs23CViEDqSsFxlTXSMs9HlWQQ8=w236-h433-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "84b4f9"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 17.3438148,
+        "posY": 1.19881058,
+        "posZ": 2.2237916,
+        "rotX": 3.377614E-06,
+        "rotY": 359.985382,
+        "rotZ": 1.59915828E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Barbare",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/6uDkHXVqqZRJ-jEowVq_ssVpdjVPibBJDigmKnQtyqY=w200-h163-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "2b7a05"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -16.7888451,
+        "posY": 1.19881058,
+        "posZ": 0.488010019,
+        "rotX": 8.2123853E-07,
+        "rotY": -0.00168210338,
+        "rotZ": 1.067079E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Paladin",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/C4Yf0DxCx4uAhlDZ2hcf53EqoDqBIlU4MzPezXoxfEY=w200-h309-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "2ed0fe"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -14.246357,
+        "posY": 1.19881046,
+        "posZ": 0.4495708,
+        "rotX": 3.86771535E-06,
+        "rotY": 359.979584,
+        "rotZ": -4.58974546E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Mage",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/eOYpv9LTP7ZJk4mCq7Y33rhdNYxZxKEuVtnKznPh64c=w200-h301-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "51f2db"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -11.55175,
+        "posY": 1.19881058,
+        "posZ": 0.483807355,
+        "rotX": -4.881323E-06,
+        "rotY": 359.682861,
+        "rotZ": 1.0365482E-05,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Mage",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/UNvQyzbWgngQkaLYKnwzY6kOPZ95Q93mBdt5a0SxKyo=w200-h291-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "d5fada"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -8.876635,
+        "posY": 1.19881046,
+        "posZ": 0.516257346,
+        "rotX": -1.54327182E-07,
+        "rotY": 1.09563029,
+        "rotZ": 4.174436E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Ranger",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/0-YzojI0VGSaNnYPErMSWN0cecT1JU-8gsrCOcGTTtg=w200-h337-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "45ca00"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -6.18267059,
+        "posY": 1.19881058,
+        "posZ": 0.347080827,
+        "rotX": 1.149541E-06,
+        "rotY": -0.0008188023,
+        "rotZ": -4.05543369E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Voleur",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/Etv2BUpevOkx7ey__uRf1VLOrX_UlLEhcKMCChiAeGo=w200-h350-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "619ba5"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -3.46479249,
+        "posY": 1.1988107,
+        "posZ": 0.386190265,
+        "rotX": -4.467244E-08,
+        "rotY": 359.978363,
+        "rotZ": -2.44634341E-10,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Warrior",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/acsFl3ohOR-RgJG33J8psjGFixrO2m_ZNrtUOAY1iUs=w200-h301-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "aad5c3"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -0.788019657,
+        "posY": 1.19881058,
+        "posZ": 0.187491566,
+        "rotX": -1.4554173E-06,
+        "rotY": 0.0246312246,
+        "rotZ": -2.34816321E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Voleur",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": true,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/TI7VfsTRlzj7IXf2KGGvpyonBGWPsSMlUDShmXV3SZ0=w200-h282-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "d5ea2e"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 1.93096364,
+        "posY": 1.19881058,
+        "posZ": -0.009874289,
+        "rotX": -1.03445893E-06,
+        "rotY": 359.974457,
+        "rotZ": -5.334263E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Bucheron",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/yXKsQx6mAo_ZKc0zQj9VnH08XnInItBG9vypZQIi21Y=w236-h299-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "97dfb1"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 4.62141752,
+        "posY": 1.19881058,
+        "posZ": -0.101523794,
+        "rotX": 1.12618909E-06,
+        "rotY": 359.496063,
+        "rotZ": -3.20816571E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Milice 1",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/Ee_4wL8bwQwVhXEObaD5k__OgCtNwuN2P7QHui0J3T0=w200-h249-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "9a01a6"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -14.19046,
+        "posY": 1.1988107,
+        "posZ": -4.213722,
+        "rotX": 2.28159763E-07,
+        "rotY": 345.872,
+        "rotZ": 2.90667E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Milice 2",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/J0xR4ZqIq0XzLfEFrFERo7ZEFSZUyZFUBXpRq79Ofxg=w200-h259-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "547dc4"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 7.41810846,
+        "posY": 1.19881058,
+        "posZ": -0.208434731,
+        "rotX": 1.69145756E-06,
+        "rotY": 0.009111732,
+        "rotZ": 1.06820409E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Assasssin",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/beCPCdhNm_e5mS7iUyukzICC-g6Uhnb_oqgQoyD3fPk=w236-h336-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "e9fee0"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 10.155057,
+        "posY": 1.19881058,
+        "posZ": -0.347855926,
+        "rotX": -2.13978956E-06,
+        "rotY": 0.008177083,
+        "rotZ": 7.470376E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Barde",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/tza96jqRwa7U7CADa72stmBhTHyyUWNFrC6g1WIlhe8=w200-h333-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "19d1d3"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -11.6986189,
+        "posY": 1.19881046,
+        "posZ": -3.995057,
+        "rotX": -5.8210494E-06,
+        "rotY": 359.978729,
+        "rotZ": -6.61745753E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Ranger",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/ArYeAz6dK-WjMkTSRwVFWh7ymcV_RrSJOxgX8ysBjHU=w200-h258-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "ead248"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -15.6683884,
+        "posY": 1.19881058,
+        "posZ": -1.89654851,
+        "rotX": 1.61350874E-06,
+        "rotY": 359.9785,
+        "rotZ": -7.25740165E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Warrior",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/z2IASFSouE-R5IALB2cbatZw6DiA5jgtHCTdBw6MhC4=w136-h128-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "ba5c86"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -12.921628,
+        "posY": 1.19881058,
+        "posZ": -1.82882178,
+        "rotX": 3.905242E-07,
+        "rotY": 358.388031,
+        "rotZ": -2.22533771E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Druide",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/TNrt26WEjXya2hbZRnFi_Z9sbWqGjPeVm8L6HgeR0Lw=w200-h258-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "a71438"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -10.3874578,
+        "posY": 1.19881058,
+        "posZ": -1.82055438,
+        "rotX": -4.42596416E-07,
+        "rotY": 2.70588613,
+        "rotZ": -1.11201885E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Ranger",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/BS4Yb26Pn2ncnF1aGeqEdRp45MokAngvFAdp53vXbAM=w200-h282-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "e5bad9"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -7.75699043,
+        "posY": 1.19881046,
+        "posZ": -1.94246185,
+        "rotX": -2.33704878E-08,
+        "rotY": 359.979431,
+        "rotZ": 3.19287352E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Barde",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/6K5g__MVJE_ggT9hqok_EzXoF_zZsW9bLVfnj9YQfVA=w200-h358-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "f329ee"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -5.032083,
+        "posY": 1.19881058,
+        "posZ": -2.02312231,
+        "rotX": -2.37521726E-06,
+        "rotY": 0.000387130363,
+        "rotZ": 5.12263432E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Démoniste",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/z2_CFiT-qOf0OzfeIQZhqB-ksSnrPA2grXEreUkaYkQ=w200-h266-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "7633b9"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -2.41947651,
+        "posY": 1.19881058,
+        "posZ": -1.96217239,
+        "rotX": 2.80275685E-07,
+        "rotY": 359.987823,
+        "rotZ": 8.542343E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Mage",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/KfqxO6ALtFfz6q0hoMgjfTWj3AWfZzCrDkUOJn0tSTE=w200-h252-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "6760f3"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 0.29856354,
+        "posY": 1.1988107,
+        "posZ": -2.256613,
+        "rotX": 3.45114586E-06,
+        "rotY": 359.980042,
+        "rotZ": 2.12807933E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Ensorceleur",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": true,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/ZR1zck6ZnNwqFwcYkS-O3gfXwpbPHAZo2T8b_yDLZLQ=w237-h499-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "6a1244"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 3.03695345,
+        "posY": 1.19881058,
+        "posZ": -2.27461529,
+        "rotX": -1.53435778E-07,
+        "rotY": 359.975922,
+        "rotZ": -4.373578E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Warrior",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/Qntp2We18x4wBxXEcztC1AIsaCb8BqWRIEpM2R2do4E=w200-h291-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "c8c43a"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 5.71762753,
+        "posY": 1.19881058,
+        "posZ": -2.55113482,
+        "rotX": 5.38428E-07,
+        "rotY": 0.000825229741,
+        "rotZ": -3.521811E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Bucheron",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/EJvDuqYZrqC52pnEKVIAFEu9e23ysyZDefvlqmjhPq4=w200-h262-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "ca9ff5"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 12.96211,
+        "posY": 1.19881058,
+        "posZ": -0.375700921,
+        "rotX": -3.15549664E-06,
+        "rotY": 359.963226,
+        "rotZ": 3.416001E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Alchimiste",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/z659eCDkxjEMKI3prktWn5R2d2Y7T_YqNZqrB3Q25-c=w200-h303-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "4268a7"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 15.9719419,
+        "posY": 1.19881058,
+        "posZ": -0.2808898,
+        "rotX": -3.139982E-07,
+        "rotY": 359.9748,
+        "rotZ": -1.92123957E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Ranger",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/YIIYZ_9Op8B_vvO2wOjUOH9HWFlvbYugAjTIotO27Lk=w200-h182-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "8b1cf4"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 8.354599,
+        "posY": 1.1988107,
+        "posZ": -2.57284951,
+        "rotX": 4.45340675E-07,
+        "rotY": 359.977325,
+        "rotZ": -1.06544212E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Marchand",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/6dMMfnOUzeKI3-h2XVf7d49GVhwVxUG0GgM_Pcp3owI=w200-h282-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "f957d6"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 11.09525,
+        "posY": 1.19881058,
+        "posZ": -2.85294843,
+        "rotX": -1.38621385E-06,
+        "rotY": 359.9781,
+        "rotZ": 7.684205E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Marchand",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/n29Fmipe1QdAYmZPnwLKRY_fcLSgyHnbxnUbkmVrrqA=w200-h385-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "07e72e"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 5.67120028,
+        "posY": 1.1988107,
+        "posZ": -12.4824476,
+        "rotX": -3.127371E-06,
+        "rotY": 0.0820197,
+        "rotZ": -4.06547224E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Oracle",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/CHYXFTXaI4d_coElp-vboBXqo3Ht19qmbco_4gfzdSk=w200-h352-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "f4f22d"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -9.198549,
+        "posY": 1.19881058,
+        "posZ": -4.172033,
+        "rotX": -1.690736E-07,
+        "rotY": 0.0244018,
+        "rotZ": 2.134616E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Warrior",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/aT53Q0zA_ZHGGU35bYPGCHfb20FHo3BXwBatn5wirwA=w200-h206-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "649c46"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -6.44537067,
+        "posY": 1.19881046,
+        "posZ": -4.193571,
+        "rotX": 2.0576114E-07,
+        "rotY": 359.974152,
+        "rotZ": -4.40768533E-09,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Magus",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/7FhXLhhLlOmL0_YMAD0lIR_FQdVuOMDmY8BYOqan8Zg=w200-h221-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "ed39a2"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -3.83554053,
+        "posY": 1.19881058,
+        "posZ": -4.216405,
+        "rotX": 3.8441176E-06,
+        "rotY": 0.00992474053,
+        "rotZ": 6.406655E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Ranger",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/39d5EbyKRqpIIB_VDTD8UT59Po4zr6ptt9bCbFZO4s0=w200-h295-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "e81e28"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 0.31749925,
+        "posY": 1.1988107,
+        "posZ": -11.9711847,
+        "rotX": -3.32056828E-07,
+        "rotY": 359.670868,
+        "rotZ": 1.08685839E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Prétre",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/QqIui20sIAVOgMeTr2wNeWHk-JJefqgsNZinjiF7rx0=w200-h377-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "e546a3"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 1.60980642,
+        "posY": 1.19881058,
+        "posZ": -4.63448763,
+        "rotX": -4.110324E-07,
+        "rotY": 359.990845,
+        "rotZ": 1.28220654E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Warrior",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/fts88rR8P21akRlk3WnD_6gc9R84C91eO0LbUvVyY2Y=w200-h377-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "34a65b"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 4.339855,
+        "posY": 1.19881046,
+        "posZ": -4.8357687,
+        "rotX": 3.889551E-06,
+        "rotY": 359.97522,
+        "rotZ": -4.3723303E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Ranger",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/BEB5Teg99ENO3d_p6dIeOmeMiDceKOmc65qV7pg0-uk=w200-h280-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "3cb549"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 7.060303,
+        "posY": 1.19881058,
+        "posZ": -5.154834,
+        "rotX": 3.868253E-08,
+        "rotY": 359.850647,
+        "rotZ": 3.19958247E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Barbare",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/ihhGtAk4DXC7Fy4Dib58hWwqIDPiQ3Pnf8UeArYGLB8=w200-h358-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "e029d1"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 9.843409,
+        "posY": 1.19881058,
+        "posZ": -5.2218523,
+        "rotX": -2.61431546E-06,
+        "rotY": 359.976654,
+        "rotZ": 5.55003726E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Barde",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/Duh5Drip0kBIeWg8vuSzV5RFTF7sd8zNqEiWUlH2dig=w200-h365-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "3f0647"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 12.7949991,
+        "posY": 1.19881058,
+        "posZ": -5.20091629,
+        "rotX": -4.49677964E-06,
+        "rotY": 0.8084988,
+        "rotZ": -9.955077E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Warrior",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/6q8DHHSkwud3aJ5_Yc7TZbCGqPUPuVR4NeiMO7rRUv4=w200-h294-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "1e8f47"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -9.10112,
+        "posY": 1.1988107,
+        "posZ": -13.3888493,
+        "rotX": 1.05324207E-05,
+        "rotY": 359.979675,
+        "rotZ": -6.72536635E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Warrior",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/YVMX5EwU0xTPJx6vwT9WN9TOA9mMxXsDCNMVI-6eUB4=w200-h372-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "d5138c"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -9.96851,
+        "posY": 1.19881058,
+        "posZ": -6.66247225,
+        "rotX": 2.48427284E-07,
+        "rotY": 359.97052,
+        "rotZ": 1.06592353E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Assassin",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/i75TwM5qV9aM_AossWmZ1FATa11NY0FmLngDWdsU0Hg=w200-h396-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "27d640"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -7.486168,
+        "posY": 1.19881058,
+        "posZ": -6.67622232,
+        "rotX": -3.61624E-06,
+        "rotY": 359.980835,
+        "rotZ": 1.06780215E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Voleur",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/kE-A1dVTETqF67GJDi3ynP7Rof4Ce-NM_w5SX7Hxv7U=w153-h300-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "f8004a"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -4.857796,
+        "posY": 1.19881082,
+        "posZ": -6.76983738,
+        "rotX": -2.48740918E-07,
+        "rotY": 0.0142313559,
+        "rotZ": -1.06737645E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Briguant",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/mcA9ImWzxKTMZ0eNxphaWX8cwSpZQ71lAj-X4offjcQ=w200-h275-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "d12830"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -2.25312,
+        "posY": 1.19881094,
+        "posZ": -6.86291838,
+        "rotX": 6.77029448E-06,
+        "rotY": 0.168379679,
+        "rotZ": 6.78774654E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Voleur",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/FlPzLYFb5hw0Uz6uBE331cYlN84fuFXFMHcsihKF1bk=w200-h320-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "f4852b"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 0.3850694,
+        "posY": 1.19881058,
+        "posZ": -7.05184746,
+        "rotX": -1.14130887E-06,
+        "rotY": 359.1665,
+        "rotZ": -3.127468E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Knight",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/ESHdFLSH1HM2SQrHGRn3KEk-q81_0XsJbkPuHP_Okn4=w200-h425-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "bf6533"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 3.09254456,
+        "posY": 1.19881058,
+        "posZ": -7.158347,
+        "rotX": -2.9736002E-06,
+        "rotY": 359.9829,
+        "rotZ": 1.49453012E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Warrior",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/1gByzuipHtBpf6Jb4ayqvJ74U0DE5G4dg2FR58d9ccw=w200-h301-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "81ca7c"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 5.9016037,
+        "posY": 1.19881058,
+        "posZ": -7.62834454,
+        "rotX": 1.23199925E-06,
+        "rotY": 1.29803765,
+        "rotZ": -6.23536E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Mage",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/5BU-JDro73vezzj6YdRnY8hSO6tZ_vdiAt9KtnmaM5I=w200-h433-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "2f10df"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 8.774218,
+        "posY": 1.1988107,
+        "posZ": -7.753048,
+        "rotX": -2.75568254E-07,
+        "rotY": 359.978333,
+        "rotZ": 2.941971E-11,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Prétre",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/Zu1wtSXudj8TrcWAfBB_s4mcCqu75LBROpXt3iO-Q6A=w200-h273-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "d8d0d9"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 11.4615812,
+        "posY": 1.1988107,
+        "posZ": -7.927367,
+        "rotX": -2.80360018E-06,
+        "rotY": 0.008406162,
+        "rotZ": 4.69414545E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Warrior",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/p2SJD34ErZ9JLIwh-ZtYU9fJX8Xk7vgtqXn3Q4xds7I=w200-h271-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "0aa388"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -11.5289249,
+        "posY": 1.19881058,
+        "posZ": -8.86293,
+        "rotX": 7.8042433E-07,
+        "rotY": 359.986847,
+        "rotZ": -7.795173E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Monk",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/pg6RDj8BDhpijUNZA8ctLrnxgd_sMMR2FFzv0PwevdQ=w200-h326-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "72c3ca"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -8.818295,
+        "posY": 1.19881058,
+        "posZ": -8.916428,
+        "rotX": 1.50414735E-05,
+        "rotY": 359.979126,
+        "rotZ": 3.8461626E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Barbare",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/4JY2Pu5J7fnnVD7_zBAvxj0WGqAQ2Fl3041kjXI3gTA=w200-h268-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "869f34"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -6.13733244,
+        "posY": 1.1988107,
+        "posZ": -8.948355,
+        "rotX": 3.663613E-07,
+        "rotY": 359.9735,
+        "rotZ": 1.24207872E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Magus",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/FW0cnXt3Y8Jx30IbOET_OCXQze5OUC6g3R2AVcgKSiY=w200-h225-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "3d99d7"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -3.4162457,
+        "posY": 1.1988107,
+        "posZ": -8.992011,
+        "rotX": -3.205007E-06,
+        "rotY": 359.6319,
+        "rotZ": -3.92295533E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Aventurier",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/XfDugEPbQ6rePh6G5I3O4bPNz8k3cRG3GsEwApjuxSk=w200-h248-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "94e066"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -0.9032578,
+        "posY": 1.1988107,
+        "posZ": -9.490826,
+        "rotX": -7.32526132E-06,
+        "rotY": 0.609259844,
+        "rotZ": -4.402702E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Warrior",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/ZpKkI4A8QSbdWWIlZSBTQZ6Na_1MRNH7aRA3K_QlpCI=w200-h227-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "d71293"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 1.89890873,
+        "posY": 1.1988107,
+        "posZ": -9.475721,
+        "rotX": 2.473297E-06,
+        "rotY": 359.9763,
+        "rotZ": 1.38684572E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Ranger",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/KrCTNz9Uz3OdtGKvqSCUCUXgGU0H2FPL0CKVhukYJiA=w200-h340-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "50ea68"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 4.59738874,
+        "posY": 1.19881058,
+        "posZ": -10.1124935,
+        "rotX": -6.347762E-06,
+        "rotY": 359.3254,
+        "rotZ": -4.76589776E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Magus",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/_2VTSVxb895qo2tr5XgG81NCGK0HfaT9-zdy9s3t0VE=w180-h297-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "d91fc8"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 7.16059542,
+        "posY": 1.19881058,
+        "posZ": -9.998907,
+        "rotX": -6.78906736E-06,
+        "rotY": 359.97522,
+        "rotZ": 1.07803344E-05,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Barbare",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/nHZh2_URAuZIMOfrQqn-_FLz-Ss8GU64yiNJtN_c2jw=w200-h272-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "20c879"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 9.822696,
+        "posY": 1.19881046,
+        "posZ": -10.1221657,
+        "rotX": -1.387087E-06,
+        "rotY": 359.978333,
+        "rotZ": -2.13203492E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Noble",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/prot0xJogxvlx5HGQXxGqHztltsiG1iqefiINS41OmM=w200-h404-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "65cebe"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -10.3884468,
+        "posY": 1.19881058,
+        "posZ": -11.0688391,
+        "rotX": 5.10658037E-06,
+        "rotY": 359.985565,
+        "rotZ": -5.342676E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Warrior",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/g41zvcK6FiPmEuvyL2zGX9YgXe_abx-Kzm6BwePsCZg=w200-h202-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "fd5351"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -7.726828,
+        "posY": 1.1988107,
+        "posZ": -11.1873579,
+        "rotX": -1.17741974E-05,
+        "rotY": 359.975677,
+        "rotZ": -9.389015E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Démoniste",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/Be1L2dRtc5Mll7vACsknU2qWLHWL9tIgXTGNrRu07i0=w200-h284-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "3d1c47"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -5.0063467,
+        "posY": 1.1988107,
+        "posZ": -11.271616,
+        "rotX": 1.69239729E-06,
+        "rotY": -0.000961295271,
+        "rotZ": -1.067232E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Assassin",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/lCv8ky-z8jtjgJRQFz2iL_TBahibrHFQMFBZn5DEIGI=w200-h232-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "cf277b"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -2.34560943,
+        "posY": 1.19881058,
+        "posZ": -11.6247253,
+        "rotX": 1.1312226E-05,
+        "rotY": 0.355808049,
+        "rotZ": 6.86574776E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Noble",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/VdXwdYx4CE0XEuwv2C0biv10GqC9HRpzYA6tmGU6JRY=w200-h282-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "98426a"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 3.00538564,
+        "posY": 1.1988107,
+        "posZ": -12.2354012,
+        "rotX": -6.88490047E-08,
+        "rotY": 1.247148,
+        "rotZ": -1.06549543E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Warrior",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/8kKuj_GmFi2CStl39NaTrh_P0Wn1P0BkiEIimQsXAqI=w200-h399-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "cca5fd"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -1.23240232,
+        "posY": 1.19881058,
+        "posZ": -4.62524652,
+        "rotX": 2.6760627E-09,
+        "rotY": 359.976227,
+        "rotZ": -2.55646684E-11,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Ranger",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/-oUqKJoexJCZNfEuX6jvJFHGj0FomwfohGZMHzkdrcc=w200-h267-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "85e9f2"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -12.8234491,
+        "posY": 1.1988107,
+        "posZ": -6.50255728,
+        "rotX": 1.36696121E-06,
+        "rotY": 359.9768,
+        "rotZ": -8.00443E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Démonist",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/ys_4PQXYwVDNmc5JFUBz-vcXSBZ1L4b0_gpax1Qn3yU=w200-h282-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "293db5"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 14.0480452,
+        "posY": 1.19881082,
+        "posZ": -2.930079,
+        "rotX": -3.472685E-06,
+        "rotY": 359.845856,
+        "rotZ": 5.02045032E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Monk",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/6GQ-QoywxzpEw8jLfsDofoe8dbAiUyYJapXdVAYRS3w=w200-h248-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "42b75f"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 8.244806,
+        "posY": 1.19881058,
+        "posZ": -12.6345367,
+        "rotX": 1.18015487E-05,
+        "rotY": 0.104798146,
+        "rotZ": 9.715872E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Prétre",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/Rfe9PMqP2M5hIOt2AeiYAWPlxrpOJvOEfzFkuZ16Ki8=w200-h333-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "525ff7"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 6.55639648,
+        "posY": 1.19881058,
+        "posZ": -14.6981716,
+        "rotX": -4.25997041E-06,
+        "rotY": 5.466301,
+        "rotZ": -9.969483E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Mage",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/jXrDO5KnomStKIIKbhZlktfoDWWlPHfXXY-6Kzx_5Ek=w200-h372-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "36f488"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -6.47755051,
+        "posY": 1.19881058,
+        "posZ": -13.4177914,
+        "rotX": -1.36863046E-05,
+        "rotY": 359.9794,
+        "rotZ": -4.90675848E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Barbare",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/xazcqDDOYkmNJFW4Ms60nVKCyySKQODsI4LSAcUgZXE=w200-h288-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "64942e"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -4.01167965,
+        "posY": 1.19881058,
+        "posZ": -13.7908134,
+        "rotX": 6.35560355E-07,
+        "rotY": 0.000964868057,
+        "rotZ": -4.05509672E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Warrior",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/jBWkoplKcKw-6u04QdxHosjohQTVpbKJ0EMQk_wyXxM=w200-h257-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "4524f7"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -1.36961353,
+        "posY": 1.19881058,
+        "posZ": -14.1697187,
+        "rotX": 5.7535517E-06,
+        "rotY": 359.403839,
+        "rotZ": 3.491033E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Warrior",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/rg48P7vxAu-txe_rs7mAS1TLGOQTXn3LAHZ25GtJrgY=w200-h371-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "eb477c"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 1.26909983,
+        "posY": 1.19881058,
+        "posZ": -14.406456,
+        "rotX": 7.96333268E-07,
+        "rotY": 4.86301542E-05,
+        "rotZ": -6.403298E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Voleur",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/DxVFwcfxLHQUTURHVj-qnMvJk_APAOvGUA7eo0xbrE8=w200-h244-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "9fe277"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 3.922158,
+        "posY": 1.19881058,
+        "posZ": -14.5560474,
+        "rotX": 3.49567131E-06,
+        "rotY": 4.394502,
+        "rotZ": 1.41332265E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Citadin",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/HESd9GvwCVFsGHk8FB6zFrOAR9dYWC0rnWqHsM-AgVA=w200-h396-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "737104"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -3.057397,
+        "posY": 1.1988107,
+        "posZ": -16.2935829,
+        "rotX": -2.64367031E-07,
+        "rotY": 1.2333014,
+        "rotZ": 2.67246321E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Noble",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/-YrHCJglzdjU6EjXP3TCfSrZgZX_NlV0X1Bi2h0Gf38=w200-h325-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "33f817"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -0.278009057,
+        "posY": 1.19881058,
+        "posZ": -16.5626259,
+        "rotX": 4.52549074E-07,
+        "rotY": 359.979828,
+        "rotZ": 3.36748457E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Warrior",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/Mv4d5RypNqALz2P-qgwZHJm3t6QYT_pVNoPE8Vvrap0=w244-h473-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "1eac04"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 2.262504,
+        "posY": 1.19881058,
+        "posZ": -16.6841011,
+        "rotX": -3.63617823E-06,
+        "rotY": 0.179382309,
+        "rotZ": -2.139841E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Warrior",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/drRCcRplHpIXS5U5spXOTJewzt5IsuUcVBiQhnKaT1k=w254-h497-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "6ffe3e"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 4.83521175,
+        "posY": 1.19881046,
+        "posZ": -16.75182,
+        "rotX": -9.45091756E-08,
+        "rotY": 1.3573103,
+        "rotZ": 2.17956057E-07,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Citadin",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/Y-o7IYB0Ght2a26bmhbli-eJItZEZHFHEZBCZUK_U8w=w66-h156-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "d9117f"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -5.77285576,
+        "posY": 1.19881058,
+        "posZ": -16.0316219,
+        "rotX": 2.25525469E-06,
+        "rotY": 359.98172,
+        "rotZ": 4.92718846E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Milicien",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/AWzqQRHZYffCWXJzHmsk79lNrpfICe0vJIf3GZ2w25I=w174-h428-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "a0f2ac"
+    },
+    {
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -8.598531,
+        "posY": 1.19881058,
+        "posZ": -15.9525137,
+        "rotX": -1.14715431E-06,
+        "rotY": 330.000854,
+        "rotZ": -3.8956623E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Barbare",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomImage": {
+        "ImageURL": "https://lh3.googleusercontent.com/DLfDMfvm6qodokI8pTdaB4PmtX5MQWJR1gnLVyrs-Z0=w177-h422-no",
+        "WidthScale": 0.0
+      },
+      "GUID": "a1a929"
+    }
+  ]
+}

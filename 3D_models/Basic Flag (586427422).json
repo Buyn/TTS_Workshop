@@ -1,0 +1,572 @@
+{
+  "SaveName": "Basic Flag",
+  "GameMode": "None",
+  "Date": "12/28/2015 12:35:20 PM",
+  "Table": "Table_Circular",
+  "Sky": "Sky_Sunset",
+  "Note": "",
+  "Rules": "",
+  "PlayerTurn": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hidding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -15.2383471,
+          "posY": 3.543982,
+          "posZ": -15.4108429,
+          "rotX": -9.425129E-06,
+          "rotY": 45.0000076,
+          "rotZ": -2.61531227E-06,
+          "scaleX": 11.6554251,
+          "scaleY": 9.174503,
+          "scaleZ": 6.767236
+        },
+        "GameMaster": false
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -15.3520527,
+          "posY": 3.54398823,
+          "posZ": 15.1043968,
+          "rotX": 4.3472337E-06,
+          "rotY": 135.000015,
+          "rotZ": -9.380482E-06,
+          "scaleX": 11.6554222,
+          "scaleY": 9.174503,
+          "scaleZ": 6.76723576
+        },
+        "GameMaster": false
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 21.53081,
+          "posY": 3.5442667,
+          "posZ": 0.05563321,
+          "rotX": 4.80660447E-06,
+          "rotY": 270.0,
+          "rotZ": 9.189242E-06,
+          "scaleX": 11.6554155,
+          "scaleY": 9.174503,
+          "scaleZ": 6.76722956
+        },
+        "GameMaster": false
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 15.3141928,
+          "posY": 3.544128,
+          "posZ": 15.14285,
+          "rotX": 1.41626169E-05,
+          "rotY": 225.000031,
+          "rotZ": 3.55441784E-06,
+          "scaleX": 11.6554146,
+          "scaleY": 9.174503,
+          "scaleZ": 6.76722956
+        },
+        "GameMaster": false
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": -0.0001288265,
+          "posY": 3.54405355,
+          "posZ": -21.475914,
+          "rotX": -8.999832E-06,
+          "rotY": 7.104376E-06,
+          "rotZ": 4.258804E-06,
+          "scaleX": 11.6554108,
+          "scaleY": 9.174504,
+          "scaleZ": 6.76723051
+        },
+        "GameMaster": false
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": 0.000122359619,
+          "posY": 3.54406548,
+          "posZ": 21.2939816,
+          "rotX": 8.999834E-06,
+          "rotY": 180.000031,
+          "rotZ": -4.258802E-06,
+          "scaleX": 11.6554108,
+          "scaleY": 9.174503,
+          "scaleZ": 6.767229
+        },
+        "GameMaster": false
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 15.314002,
+          "posY": 3.54418039,
+          "posZ": -15.0315409,
+          "rotX": -4.34723734E-06,
+          "rotY": 315.000031,
+          "rotZ": 9.380479E-06,
+          "scaleX": 11.655405,
+          "scaleY": 9.174503,
+          "scaleZ": 6.767227
+        },
+        "GameMaster": false
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -21.5687122,
+          "posY": 3.543911,
+          "posZ": -0.209713146,
+          "rotX": -4.80660265E-06,
+          "rotY": 90.00002,
+          "rotZ": -9.189242E-06,
+          "scaleX": 11.6554289,
+          "scaleY": 9.174503,
+          "scaleZ": 6.767237
+        },
+        "GameMaster": false
+      }
+    ]
+  },
+  "DrawImage": "iVBORw0KGgoAAAANSUhEUgAAAWAAAADQCAYAAAA53LuNAAAFFElEQVR4Ae3QgQAAAADDoPlTH+SFUGHAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgy8DQx5DAABHyNK3wAAAABJRU5ErkJggg==",
+  "VectorLines": [],
+  "ObjectStates": [
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -2.93016958,
+        "posY": 2.196444,
+        "posZ": -3.8429718,
+        "rotX": 5.008709E-06,
+        "rotY": 135.009628,
+        "rotZ": -2.02605133E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.149035633,
+        "g": 0.164722353,
+        "b": 0.9299897
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/51jczyvmr2bhrvj/Flag2.obj?dl=1",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1
+      },
+      "GUID": "d8a62f"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 1.40964985E-05,
+        "posY": 2.19644356,
+        "posZ": -6.685004,
+        "rotX": -1.07157748E-05,
+        "rotY": 164.992508,
+        "rotZ": -8.287323E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0508793443,
+        "g": 0.6951006,
+        "b": 0.0392156877
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/51jczyvmr2bhrvj/Flag2.obj?dl=1",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1
+      },
+      "GUID": "d0fe1f"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.430461973,
+        "posY": 2.19644356,
+        "posZ": -2.01622772,
+        "rotX": -5.44584373E-06,
+        "rotY": 45.39864,
+        "rotZ": 3.24933967E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.829233,
+        "g": 0.00292687258,
+        "b": 0.03512247
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/51jczyvmr2bhrvj/Flag2.obj?dl=1",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1
+      },
+      "GUID": "90f1b8"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 3.86209655,
+        "posY": 2.19644475,
+        "posZ": -2.611792,
+        "rotX": 2.331369E-07,
+        "rotY": 75.00054,
+        "rotZ": -2.40323538E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.933125257,
+        "b": 0.188240975
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/51jczyvmr2bhrvj/Flag2.obj?dl=1",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1
+      },
+      "GUID": "0a944f"
+    },
+    {
+      "Name": "Go_Board",
+      "Transform": {
+        "posX": 0.06,
+        "posY": 2.12,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.8897076,
+        "g": 0.8732852,
+        "b": 0.80466336
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "GUID": "b676b6"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -5.7300005,
+        "posY": 2.196444,
+        "posZ": 5.72999954,
+        "rotX": 4.761822E-06,
+        "rotY": 164.99144,
+        "rotZ": -2.94333563E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.00026571675
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/51jczyvmr2bhrvj/Flag2.obj?dl=1",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1
+      },
+      "GUID": "5c8bfe"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -1.90948844,
+        "posY": 2.196444,
+        "posZ": 5.73049641,
+        "rotX": -8.3924715E-05,
+        "rotY": 164.982361,
+        "rotZ": -2.86824579E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.95243907,
+        "g": 0.0802101,
+        "b": 0.97758
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/51jczyvmr2bhrvj/Flag2.obj?dl=1",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1
+      },
+      "GUID": "522405"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 5.730199,
+        "posY": 2.19644451,
+        "posZ": 5.730026,
+        "rotX": -1.0039992E-05,
+        "rotY": 164.987,
+        "rotZ": -1.18327653E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.996078551,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/51jczyvmr2bhrvj/Flag2.obj?dl=1",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1
+      },
+      "GUID": "5e2e2d"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 1.91016757,
+        "posY": 2.19644332,
+        "posZ": 5.730022,
+        "rotX": -1.20391423E-05,
+        "rotY": 164.981277,
+        "rotZ": -6.823166E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.149024963,
+        "g": 0.8117674,
+        "b": 0.8292782
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/51jczyvmr2bhrvj/Flag2.obj?dl=1",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1
+      },
+      "GUID": "788938"
+    }
+  ],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Red",
+      "body": "",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Orange",
+      "body": "",
+      "visibleColor": {
+        "r": 0.882,
+        "g": 0.517,
+        "b": 0.219
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Yellow",
+      "body": "",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Green",
+      "body": "",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Blue",
+      "body": "",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Purple",
+      "body": "",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Pink",
+      "body": "",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Black",
+      "body": "",
+      "visibleColor": {
+        "r": 0.1,
+        "g": 0.1,
+        "b": 0.1
+      },
+      "id": 9
+    }
+  }
+}

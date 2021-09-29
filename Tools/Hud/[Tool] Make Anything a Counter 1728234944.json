@@ -1,0 +1,1007 @@
+{
+  "SaveName": "[Tool] Make Anything a Counter",
+  "GameMode": "Make anything a counter",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "7/22/2019 9:58:37 PM",
+  "Table": "Table_Hexagon",
+  "Sky": "Sky_Museum",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
+  "LuaScript": "--[[ Lua code. See documentation: https://api.tabletopsimulator.com/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate()\n    --[[ print('onUpdate loop!') --]]\nend",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": true,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 1.0,
+    "ySize": 1.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.5,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -13.6427641,
+          "posY": 3.56040287,
+          "posZ": -7.48816872,
+          "rotX": 0.0,
+          "rotY": 60.0000038,
+          "rotZ": 0.0,
+          "scaleX": 10.2686453,
+          "scaleY": 6.63423538,
+          "scaleZ": 4.89354372
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -13.3166161,
+          "posY": 3.560411,
+          "posZ": 8.302231,
+          "rotX": 0.0,
+          "rotY": 119.999992,
+          "rotZ": 0.0,
+          "scaleX": 10.2703037,
+          "scaleY": 6.63423538,
+          "scaleZ": 4.89397526
+        }
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 13.572897,
+          "posY": 3.56080532,
+          "posZ": 7.7491436,
+          "rotX": 1.25000986E-06,
+          "rotY": 240.000031,
+          "rotZ": 4.66510573E-06,
+          "scaleX": 10.2694454,
+          "scaleY": 6.63423538,
+          "scaleZ": 4.89387751
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": -0.000174999237,
+          "posY": 3.56059742,
+          "posZ": -15.5335579,
+          "rotX": 2.5444431E-14,
+          "rotY": 1.70754709E-06,
+          "rotZ": -1.70754709E-06,
+          "scaleX": 10.2680635,
+          "scaleY": 6.63423538,
+          "scaleZ": 4.89352846
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": 0.00154972076,
+          "posY": 3.56060123,
+          "posZ": 15.5949659,
+          "rotX": 0.0,
+          "rotY": 180.0,
+          "rotZ": 0.0,
+          "scaleX": 10.2692089,
+          "scaleY": 6.63423538,
+          "scaleZ": 4.89406347
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 13.6821365,
+          "posY": 3.56082773,
+          "posZ": -7.40788937,
+          "rotX": -1.07028254E-05,
+          "rotY": 299.999969,
+          "rotZ": -2.536801E-05,
+          "scaleX": 10.2687359,
+          "scaleY": 6.63423538,
+          "scaleZ": 4.893264
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "ObjectStates": [
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -10.4918928,
+        "posY": 1.01000082,
+        "posZ": -0.7900309,
+        "rotX": 1.53632354E-05,
+        "rotY": 180.0021,
+        "rotZ": 1.07225751E-05,
+        "scaleX": 1.25705588,
+        "scaleY": 1.0,
+        "scaleZ": 1.25705588
+      },
+      "Nickname": "Make anything a Counter",
+      "Description": "Use the options to set what kind of counter. Works best on custom tokens, but will work on anything.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.928988457,
+        "g": 0.932055652,
+        "b": 0.9044512
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/958597478463166917/CB8B55C270BA45C4EABB6041B00C3AC196946342/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 5.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "function onload(saved_data)\r\n    f_size = 260\r\n    light_mode = false\r\n    center_mode = false\r\n    tooltip_show = true\r\n\r\n    if saved_data ~= \"\" then\r\n        local loaded_data = JSON.decode(saved_data)\r\n        light_mode = loaded_data[1]\r\n        center_mode = loaded_data[2]\r\n        tooltip_show = loaded_data[3]\r\n    end\r\n\r\n    createAll()\r\nend\r\n\r\nfunction updateSave()\r\n    local data_to_save = {light_mode, center_mode, tooltip_show}\r\n    saved_data = JSON.encode(data_to_save)\r\n    self.script_state = saved_data\r\nend\r\n\r\nfunction createAll()\r\n    s_color = {0.5, 0.5, 0.5, 95}\r\n\r\n    if light_mode then\r\n        f_color = {1,1,1,95}\r\n    else\r\n        f_color = {0,0,0,95}\r\n    end\r\n\r\n    if center_mode then\r\n        f_align = 3\r\n    else\r\n        f_align = 1\r\n    end\r\n\r\n    if tooltip_show then\r\n        ttText = self.getName() .. \"\\n----------\\n\" .. self.getDescription()\r\n    else\r\n        ttText = \"\"\r\n    end\r\n\r\n    self.createInput({\r\n        value = self.getName(), \r\n        input_function = \"editName\", \r\n        label = \"Notecard\",\r\n        function_owner = self, \r\n        alignment = 3,\r\n        position = {0,0.05,-1}, \r\n        width = 1800, \r\n        height = 300, \r\n        font_size = 160, \r\n        scale={x=1, y=1, z=1},\r\n        font_color= f_color,\r\n        color = {0,0,0,0},\r\n        tooltip = ttText\r\n        })\r\n\r\n    self.createInput({\r\n        value = self.getDescription(), \r\n        label = \"\\nClick and type here\\n\\nFlip for settings\",\r\n        input_function = \"editDesc\", \r\n        function_owner = self, \r\n        alignment = f_align,\r\n        position = {0,0.05,0.28}, \r\n        width = 1800, \r\n        height = 1000, \r\n        font_size = 120, \r\n        scale={x=1, y=1, z=1},\r\n        font_color=f_color,\r\n        color = {0,0,0,0},\r\n        tooltip = ttText\r\n        })\r\n\r\n    self.createButton({\r\n        label=\"- Notecard Settings -\",\r\n        tooltip=\"- Notecard Settings -\",\r\n        click_function=\"null\",\r\n        function_owner=self,\r\n        position={0,-0.05,-1.1},\r\n        rotation={180,180,0},\r\n        height=300,\r\n        width=800,\r\n        scale={x=1, y=1, z=1},\r\n        font_size=140,\r\n        font_color=s_color,\r\n        color={0,0,0,0}\r\n        })\r\n\r\n    if light_mode then\r\n        lightButtonText = \"[ Set dark text ]\"\r\n    else\r\n        lightButtonText = \"[ Set light text ]\"\r\n    end\r\n    self.createButton({\r\n        label=lightButtonText,\r\n        tooltip=lightButtonText,\r\n        click_function=\"swap_fcolor\",\r\n        function_owner=self,\r\n        position={0,-0.05,-0.5},\r\n        rotation={180,180,0},\r\n        height=250,\r\n        width=800,\r\n        scale={x=1, y=1, z=1},\r\n        font_size=100,\r\n        font_color=s_color,\r\n        color={0,0,0,0}\r\n        })\r\n\r\n    if center_mode then\r\n        centerButtonText = \"[ Set left align ]\"\r\n    else\r\n        centerButtonText = \"[ Set center align ]\"\r\n    end\r\n    self.createButton({\r\n        label=centerButtonText,\r\n        tooltip=centerButtonText,\r\n        click_function=\"swap_align\",\r\n        function_owner=self,\r\n        position={0,-0.05,0},\r\n        rotation={180,180,0},\r\n        height=250,\r\n        width=800,\r\n        scale={x=1, y=1, z=1},\r\n        font_size=100,\r\n        font_color=s_color,\r\n        color={0,0,0,0}\r\n        })\r\n\r\n    if tooltip_show then\r\n        tooltipShowText = \"[ Hide description in tooltip ]\"\r\n    else\r\n        tooltipShowText = \"[ Show description in tooltip ]\"\r\n    end\r\n    self.createButton({\r\n        label=tooltipShowText,\r\n        tooltip=tooltipShowText,\r\n        click_function=\"swap_tooltip\",\r\n        function_owner=self,\r\n        position={0,-0.05,0.5},\r\n        rotation={180,180,0},\r\n        height=250,\r\n        width=800,\r\n        scale={x=1, y=1, z=1},\r\n        font_size=100,\r\n        font_color=s_color,\r\n        color={0,0,0,0}\r\n        })\r\n\r\n    self.createInput({\r\n        value = \"Sample Text\",\r\n        label = \"...\",\r\n        input_function = \"keepSample\", \r\n        function_owner = self, \r\n        alignment = f_align,\r\n        position={0,-0.05,1.1},\r\n        rotation={180,180,0},\r\n        width = 1800, \r\n        height = 250, \r\n        font_size = 120, \r\n        scale={x=1, y=1, z=1},\r\n        font_color=f_color,\r\n        color = {0,0,0,0}\r\n        })\r\n\r\n    setTooltips()\r\nend\r\n\r\nfunction removeAll()\r\n    self.removeInput(0)\r\n    self.removeInput(1)\r\n    self.removeInput(2)\r\n    self.removeButton(0)\r\n    self.removeButton(1)\r\n    self.removeButton(2)\r\n    self.removeButton(3)\r\nend\r\n\r\nfunction reloadAll()\r\n    removeAll()\r\n    createAll()\r\n    setTooltips()\r\n    updateSave()\r\nend\r\n\r\nfunction update_fcolor()\r\nend\r\n\r\nfunction swap_fcolor(_obj, _color, alt_click)\r\n    light_mode = not light_mode\r\n    reloadAll()\r\nend\r\n\r\nfunction swap_align(_obj, _color, alt_click)\r\n    center_mode = not center_mode\r\n    reloadAll()\r\nend\r\n\r\nfunction swap_tooltip(_obj, _color, alt_click)\r\n    tooltip_show = not tooltip_show\r\n    reloadAll()\r\n    setTooltips()\r\nend\r\n\r\nfunction editName(_obj, _string, value) \r\n    self.setName(value)\r\n    setTooltips()\r\nend\r\n\r\nfunction editDesc(_obj, _string, value) \r\n    self.setDescription(value)\r\n    setTooltips()\r\nend\r\n\r\nfunction setTooltips()\r\n    title = self.getName()\r\n    if title == \"\" then\r\n        title = \"Notecard\"\r\n    end\r\n    desc = self.getDescription()\r\n\r\n    if tooltip_show then\r\n        ttText = title .. \"\\n----------\\n\" .. desc\r\n    else\r\n        ttText = \"\"\r\n    end\r\n\r\n    self.editInput({\r\n        index = 0,\r\n        value = self.getName(),\r\n        tooltip = ttText\r\n        })\r\n    self.editInput({\r\n        index = 1,\r\n        value = self.getDescription(),\r\n        tooltip = ttText\r\n        })\r\nend\r\n\r\nfunction null()\r\nend\r\n\r\nfunction keepSample(_obj, _string, value) \r\n    reloadAll()\r\nend",
+      "LuaScriptState": "[false,true,false]",
+      "GUID": "56a44e"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 9.77508,
+        "posY": 1.01000035,
+        "posZ": 3.59842825,
+        "rotX": 0.000218604517,
+        "rotY": 180.003311,
+        "rotZ": 4.5769757E-05,
+        "scaleX": 0.306216359,
+        "scaleY": 1.0,
+        "scaleZ": 0.306216359
+      },
+      "Nickname": "Food",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/840394510886298289/6EDE7FF004226F37AF8D6B88051D07A2C9954DDF/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0,
+          "Stackable": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "d9cc6e"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.0001132155,
+        "posY": 0.960000038,
+        "posZ": 3.56920937E-05,
+        "rotX": 2.09309037E-05,
+        "rotY": 359.97406,
+        "rotZ": -7.0406345E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Counter Injector",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/utility/hud_tool.obj",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/809996090231354048/A76665736E14C511CCBE72464612446450ECF73D/",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.7372549,
+            "g": 0.7372549,
+            "b": 0.7372549
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "CustomUIAssets": [
+        {
+          "Name": "ui_plus",
+          "URL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/plus.png"
+        },
+        {
+          "Name": "ui_power",
+          "URL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/power.png"
+        },
+        {
+          "Name": "ui_minus",
+          "URL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/minus.png"
+        },
+        {
+          "Name": "ui_drop",
+          "URL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/drop.png"
+        },
+        {
+          "Name": "ui_checkon",
+          "URL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/checkbox_on.png"
+        },
+        {
+          "Name": "ui_checkoff",
+          "URL": "https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/checkbox_off.png"
+        }
+      ],
+      "LuaScript": "CONFIG = {\r\n    MIN_VALUE = -99,\r\n    MAX_VALUE = 999,\r\n    TOOLTIP_SHOW = true,\r\n    VALUE = 0,\r\n    FONT_SIZE = 600\r\n}\r\nFONT_COLOR = \"#000000\"\r\nALPHA = 95\r\nrebound=false\r\nNAME = \"Counter\"\r\n\r\nfunction onLoad(save)\r\n    local assetRoot = 'https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/';\r\n    local assets = {\r\n        {name='ui_plus', url=assetRoot..'plus.png'},\r\n        {name='ui_power', url=assetRoot..'power.png'},\r\n        {name='ui_minus', url=assetRoot..'minus.png'},\r\n        {name='ui_drop', url=assetRoot..'drop.png'},\r\n        {name='ui_checkon', url=assetRoot..'checkbox_on.png'},\r\n        {name='ui_checkoff', url=assetRoot..'checkbox_off.png'},\r\n    }\r\n    self.UI.setCustomAssets(assets)\r\n    Wait.frames(rebuildUI, 5)\r\n    ui_mode = '0'\r\nend\r\n\r\nfunction extract(obj)\r\n    LC = obj.getTable('CONFIG')\r\n    CONFIG.MIN_VALUE = LC.MIN_VALUE or CONFIG.MIN_VALUE\r\n    CONFIG.MAX_VALUE = LC.MAX_VALUE or CONFIG.MAX_VALUE\r\n    COLOR = LC.FONT_COLOR or {0, 0, 0, 95}\r\n    ALPHA = COLOR[4]\r\n    FONT_COLOR = LC.COLOR_HEX or FONT_COLOR\r\n    CONFIG.TOOLTIP_SHOW =  LC.TOOLTIP_SHOW or CONFIG.TOOLTIP_SHOW\r\n    NAME = obj.getName()\r\n    CONFIG.FONTS_SIZE = LC.FONT_SIZE or CONFIG.FONT_SIZE\r\n    rebuildUI()\r\nend\r\n\r\nfunction inject(obj)\r\n    function f()\r\n        obj.script_state = \"\"\r\n        obj.setName(NAME)\r\n        CONFIG.FONT_COLOR = colorAsRGBA()\r\n        CONFIG.COLOR_HEX = FONT_COLOR\r\n        obj.setTable('CONFIG', CONFIG)\r\n        obj.call('updateSave')\r\n        obj.reload()\r\n    end\r\n    local req = WebRequest.get(\"https://raw.githubusercontent.com/Eldinnie/ttsluastuff/master/counterv2.ttslua\", function(res)\r\n        if (not(res.is_error)) then\r\n            Wait.condition(f, function() return obj.setLuaScript(res.text) end)\r\n        else\r\n            error(res)\r\n        end\r\n    end)\r\nend\r\n\r\nfunction ui_setmode(player, value, id)\r\n    ui_mode = value\r\n    rebuildUI()\r\nend\r\n\r\nfunction setMinVal(player, value, id)\r\n    CONFIG.MIN_VALUE = tonumber(value)\r\n    rebuildUI()\r\nend\r\n\r\nfunction setName(player, value, id)\r\n    NAME = value\r\n    rebuildUI()\r\nend\r\n\r\nfunction setMaxVal(player, value, id)\r\n    CONFIG.MAX_VALUE = tonumber(value)\r\n    rebuildUI()\r\nend\r\n\r\nfunction setFontSize(player, value, id)\r\n    CONFIG.FONT_SIZE = tonumber(value)\r\n    rebuildUI()\r\nend\r\n\r\n\r\nfunction toggleToolip(player, value, id)\r\n    CONFIG.TOOLTIP_SHOW = not CONFIG.TOOLTIP_SHOW\r\n    rebuildUI()\r\nend\r\n\r\nfunction setColor(player, value, id)\r\n    FONT_COLOR = value\r\n    rebuildUI()\r\nend\r\n\r\nfunction setOpacity(player, value, id)\r\n    ALPHA = tonumber(value)\r\n    if not rebound then\r\n        rebuildUI()\r\n        rebound=true\r\n        Wait.time(function() rebound=false end, 0.1)\r\n    end\r\nend\r\n\r\nfunction colorAsRGBA()\r\n    return_color = {tonumber(FONT_COLOR:sub(2,3), 16)/255, tonumber(FONT_COLOR:sub(4,5), 16)/255, tonumber(FONT_COLOR:sub(6,7), 16)/255, ALPHA}\r\n    return return_color\r\nend\r\n\r\nfunction colorAsString()\r\n    color = colorAsRGBA()\r\n    color[4] = math.floor(color[4])/100\r\n    return \"rgba(\"..color[1]..\",\"..color[2]..\",\"..color[3]..\",\"..color[4]..\")\"\r\nend\r\n\r\nfunction ui_inject(player, value, id)\r\n    local pos = self.getPosition()\r\n    local size = self.getBoundsNormalized().size\r\n    for i,hit in pairs( Physics.cast({ origin = {x=pos.x, y=pos.y + 0, z=pos.z}, direction = {x=0, y=1, z=0}, max_distance = 1})) do\r\n        if (hit.hit_object ~= self and hit.hit_object.tag ~= \"Surface\") then\r\n            if (hit.hit_object.getLuaScript() ~= \"\") then\r\n                broadcastToAll(\"Skip GUID: \".. hit.hit_object.getGUID() ..\" already has a script.\\nremove script before trying again\", \"Red\")\r\n            else\r\n                inject(hit.hit_object)\r\n            end\r\n        end\r\n    end\r\nend\r\n\r\n\r\n\r\nfunction ui_clearmini(player)\r\n    local pos = self.getPosition()\r\n    for i,hit in pairs( Physics.cast({ origin = {x=pos.x, y=pos.y + 0, z=pos.z}, direction = {x=0, y=1, z=0}, max_distance = 1 })) do\r\n        if (hit.hit_object ~= self) then\r\n            if hit.hit_object.getVar('INJECTED_COUNTER') then\r\n                hit.hit_object.setLuaScript(\"\")\r\n                hit.hit_object.script_state = \"\"\r\n                hit.hit_object.clearInputs()\r\n                hit.hit_object.clearButtons()\r\n                hit.hit_object.reload()\r\n            end\r\n        end\r\n    end\r\nend\r\n\r\nfunction takeFrom(player)\r\n    local pos = self.getPosition()\r\n    for i,hit in pairs(Physics.cast({ origin = {x=pos.x, y=pos.y + 0, z=pos.z}, direction = {x=0, y=1, z=0}, max_distance = 1 })) do\r\n        if (hit.hit_object ~= self) then\r\n            if hit.hit_object.getVar('INJECTED_COUNTER') then\r\n                extract(hit.hit_object)\r\n            end\r\n        end\r\n    end\r\nend\r\n\r\nfunction rebuildUI()\r\n    local ui = {\r\n        {tag='Defaults', children={\r\n            {tag='Text', attributes={color='#cccccc', fontSize='18', alignment='MiddleLeft'}},\r\n            {tag='InputField', attributes={fontSize='24', preferredHeight='40'}},\r\n            {tag='ToggleButton', attributes={fontSize='18', preferredHeight='40', colors='#ffcc33|#ffffff|#808080|#606060', selectedBackgroundColor='#dddddd', deselectedBackgroundColor='#999999'}},\r\n            {tag='Button', attributes={fontSize='18', preferredHeight='40', colors='#dddddd|#ffffff|#808080|#606060'}},\r\n            {tag='Toggle', attributes={textColor='#cccccc'}},\r\n        }}\r\n    }\r\n    table.insert(ui, {tag='button', attributes={onClick=(ui_mode == '0' and 'ui_setmode(MAIN)' or 'ui_setmode(0)'), image='ui_power', colors='#ccccccff|#ffffffff|#404040ff|#808080ff', width='80', height='80', position='0 -320 -60'}\r\n    })\r\n    if (ui_mode == 'MAIN') then\r\n\r\n        local options = {}\r\n\r\n        options = {tag='VerticalLayout', attributes={color='#404040', padding='10 10 10 10', spacing='5', childForceExpandHeight=false}, children={\r\n            {tag='HorizontalLayout', attributes={spacing='5'}, children={\r\n                {tag='VerticalLayout', attributes={ flexibleWidth=0, preferredWidth=300}, children={\r\n                    {tag='Text', attributes={text='Name'}},\r\n                    {tag='InputField', attributes={id='minVal', text=NAME, onEndEdit='setName'}},\r\n                }},\r\n                {tag='VerticalLayout', attributes={ flexibleWidth=0, preferredWidth=300}, children={\r\n                    {tag='Text', attributes={text='Minimum'}},\r\n                    {tag='InputField', attributes={id='minVal', text=tostring(CONFIG.MIN_VALUE), onEndEdit='setMinVal', characterValidation='Integer'}},\r\n                }},\r\n                {tag='VerticalLayout', attributes={ flexibleWidth=0, preferredWidth=300}, children={\r\n                    {tag='Text', attributes={text='Maximum'}},\r\n                    {tag='InputField', attributes={id='maxVal', text=tostring(CONFIG.MAX_VALUE), onEndEdit='setMaxVal', characterValidation='Integer'}},\r\n                }},\r\n                {tag='VerticalLayout', attributes={ flexibleWidth=0, preferredWidth=300}, children={\r\n                    {tag='Text', attributes={text='Font size'}},\r\n                    {tag='InputField', attributes={id='fontSize', text=tostring(CONFIG.FONT_SIZE), onEndEdit='setFontSize', characterValidation='Integer'}},\r\n                }},\r\n            }},\r\n            {tag='HorizontalLayout', attributes={preferredHeight=30}, children={\r\n                {tag='Text', attributes={preferredWidth = 1000, alignment='UpperLeft', fontSize='24', text='Show number on tooltip', onClick='toggleToolip()'}},\r\n                {tag='Button', attributes={minWidth=30, preferredWidth=30, image=(CONFIG.TOOLTIP_SHOW and 'ui_checkon' or 'ui_checkoff'), onClick='toggleToolip()', id='ToggleTooltip'}},\r\n            }},\r\n            {tag='VerticalLayout', attributes={ flexibleWidth=0, preferredWidth=400}, children={\r\n                {tag='Text', attributes={text='Font Color'}},\r\n                {tag='HorizontalLayout', attributes={flexibleWidth=0, preferredHeight='40', spacing=5, childForceExpandWidth = false}, children={\r\n                    {tag='InputField', attributes={id='fontColor', color=colorAsString(), text=FONT_COLOR, flexibleWidth='1', onEndEdit='setColor'}},\r\n                    {tag='Button', attributes={image='ui_drop', preferredWidth='40', colors='White|White|#808080|#40404040', onClick='setColor(#FFFFFF)'}},\r\n                    {tag='Button', attributes={image='ui_drop', preferredWidth='40', colors='Brown|Brown|#808080|#40404040', onClick='setColor(#703A16)'}},\r\n                    {tag='Button', attributes={image='ui_drop', preferredWidth='40', colors='Red|Red|#808080|#40404040', onClick='setColor(#DA1917)'}},\r\n                    {tag='Button', attributes={image='ui_drop', preferredWidth='40', colors='Orange|Orange|#808080|#40404040', onClick='setColor(#F3631C)'}},\r\n                    {tag='Button', attributes={image='ui_drop', preferredWidth='40', colors='Yellow|Yellow|#808080|#40404040', onClick='setColor(#E6E42B)'}},\r\n                    {tag='Button', attributes={image='ui_drop', preferredWidth='40', colors='Green|Green|#808080|#40404040', onClick='setColor(#30B22A)'}},\r\n                    {tag='Button', attributes={image='ui_drop', preferredWidth='40', colors='Teal|Teal|#808080|#40404040', onClick='setColor(#20B09A)'}},\r\n                    {tag='Button', attributes={image='ui_drop', preferredWidth='40', colors='Blue|Blue|#808080|#40404040', onClick='setColor(#1E87FF)'}},\r\n                    {tag='Button', attributes={image='ui_drop', preferredWidth='40', colors='Purple|Purple|#808080|#40404040', onClick='setColor(#9F1FEF)'}},\r\n                    {tag='Button', attributes={image='ui_drop', preferredWidth='40', colors='Pink|Pink|#808080|#40404040', onClick='setColor(#F46FCD)'}},\r\n                    {tag='Button', attributes={image='ui_drop', preferredWidth='40', colors='Black|Black|#808080|#40404040', onClick='setColor(#3F3F3F)'}},\r\n                    {tag='Button', attributes={image='ui_drop', preferredWidth='40', colors='Grey|Grey|#808080|#40404040', onClick='setColor(#7F7F7F)'}},\r\n                }},\r\n                {tag='Text', attributes={text='Opacity: '..tostring(ALPHA)}},\r\n                {tag='Slider', attributes={onValueChanged='setOpacity', minValue='0', maxValue=\"100\", value=tostring(ALPHA), wholeNumbers=true, preferredHeight='40'}},\r\n\r\n\r\n            }},\r\n        }}\r\n\r\n\r\n        panel = {tag='VerticalLayout', attributes={spacing='5', flexibleHeight=0, padding='5 5 5 5', color='black'}, children={\r\n            {tag='HorizontalLayout', attributes={preferredHeight=30}, children={\r\n                {tag='Text', attributes={preferredWidth = 1000, alignment='UpperLeft', fontSize='24', text='Options', preferredHeight='40'}},\r\n            }},\r\n            options\r\n        }}\r\n\r\n        table.insert(ui, {\r\n            tag='Panel', attributes={position='0 -400 -60', height='10000', width='800', rectAlignment='UpperCenter'}, children={\r\n                {tag='VerticalLayout', attributes={childForceExpandHeight=false, minHeight='0', spacing=5, rectAlignment='UpperCenter'}, children={\r\n                    {tag='HorizontalLayout', attributes={preferredHeight=80, childForceExpandWidth=false, flexibleHeight=0, spacing=20, padding='10 10 10 10'}, children={\r\n                        {tag='Button', attributes={fontSize='22', text='Load From Item', onClick='takeFrom', flexibleWidth=1}},\r\n                        {tag='Button', attributes={fontSize='22', text='Add', onClick='ui_inject', flexibleWidth=1}},\r\n                        {tag='Button', attributes={fontSize='22', color=\"Red\", text='Remove\\n(all scripts)', onClick='ui_clearmini', flexibleWidth=1}}\r\n                    }},\r\n                    panel\r\n                }}\r\n            }\r\n        })\r\n    end\r\n    self.UI.setXmlTable(ui)\r\nend\r\n",
+      "LuaScriptState": "{\"config\":{\"ARCS\":{\"BRACKETS\":[],\"COLOR\":\"inherit\",\"MAX\":16,\"MESH\":\"\",\"MODE\":1,\"SCALE\":1,\"SHAPE\":4,\"ZERO\":0},\"BARS\":[],\"BASE_LENGTH\":2,\"BASE_WIDTH\":2,\"FLAG\":{\"COLOR\":\"#ffffff\"},\"GEOMETRY\":{\"COLOR\":\"inherit\",\"MATERIAL\":0,\"MESH\":\"\",\"NORMAL\":\"\",\"TEXTURE\":\"\"},\"LOCK_FLAG\":false,\"LOCK_GEOMETRY\":false,\"META\":{\"AUTOUPDATE\":false,\"UPDATECHECK\":true},\"MODULE_ARC\":false,\"MODULE_BARS\":false,\"MODULE_FLAG\":false,\"MODULE_GEOMETRY\":false,\"MODULE_MARKERS\":false,\"MODULE_MOVEMENT\":false,\"MOVEMENT\":{\"COLOR\":\"inherit\",\"DEFINITIONS\":[[\"Standstill\",\"https://raw.githubusercontent.com/RobMayer/TTSLibrary/master/ui/move/standstill.png\",0,0,0,2,0,\"#0088ff\"]],\"LANDSHOW\":true,\"LANDTEST\":false,\"MODE\":1,\"ORIGIN\":\"EDGE\",\"SEGMENTS\":[[0,[]]],\"SPEEDDISTANCE\":1,\"SPEEDMAX\":4,\"SPEEDMIN\":0,\"TURNMAX\":3,\"TURNNOTCH\":22.5,\"UIHEIGHT\":0.25},\"OVERHEAD_HEIGHT\":2,\"OVERHEAD_OFFSET\":0,\"OVERHEAD_ORIENT\":\"VERTICAL\",\"OVERHEAD_WIDTH\":3,\"PERMEDIT\":10,\"PERMVIEW\":524287,\"REFRESH\":3,\"UI_SCALE\":1},\"metaconfig\":{\"AUTOUPDATE\":false,\"UPDATECHECK\":true},\"presets\":[]}",
+      "GUID": "3d8083",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": -0.0571668446,
+            "y": 0.5,
+            "z": -0.017043354
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 7.000013,
+        "posY": 0.9599989,
+        "posZ": 4.00000238,
+        "rotX": 6.69457149E-05,
+        "rotY": 180.000076,
+        "rotZ": -7.09187661E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Counter",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/840394510879561633/FF207C017DE0AB0FF5B9E8FD9ADBED63C5A3D1F4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/840394510879390595/41FE70A7AB24EFE664DEBD2567AE83C08E6CDE0C/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 2,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "c60dbd"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 4.000003,
+        "posY": 1.00999975,
+        "posZ": -5.089678E-07,
+        "rotX": 1.11733461E-05,
+        "rotY": 180.01683,
+        "rotZ": -1.09728135E-05,
+        "scaleX": 0.5,
+        "scaleY": 1.0,
+        "scaleZ": 0.5
+      },
+      "Nickname": "Counter",
+      "Description": "Left click - Increase\nRight click - Decrease",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.07919537,
+        "g": 0.112493984,
+        "b": 0.468640983
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/958597478463059274/DE73B64E1B5C6F272EA3BEE5EF458E73E48FF03D/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 5.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "CONFIG = {\n    MIN_VALUE = -99,\n    MAX_VALUE = 999,\n    FONT_COLOR = {0,0,0,95},\n    FONT_SIZE = 600,\n    COLOR_HEX = \"#000000\",\n    TOOLTIP_SHOW = true,\n    VALUE = 0\n}\nINJECTED_COUNTER = true\n\n\nfunction onload(saved_data)\n    if saved_data ~= \"\" then\n        local loaded_data = JSON.decode(saved_data)\n        CONFIG = loaded_data\n    end\n    createAll()\nend\n\nfunction updateSave()\n    saved_data = JSON.encode(CONFIG)\n    self.script_state = saved_data\nend\n\nfunction createAll()\n    if CONFIG.TOOLTIP_SHOW then\n        ttText = self.getName().. \": \" .. CONFIG.VALUE\n    else\n        ttText = self.getName()\n    end\n    local scale = {x=1.5, y=1.5, z=1.5}\n    local thickness = self.getBoundsNormalized().size.y\n    if self.name == \"Custom_Tile\" then\n        thickness = thickness*2\n        scale = {0.75, 0.75, 0.75}\n    end\n    self.createButton({\n      label=tostring(CONFIG.VALUE),\n      click_function=\"add_subtract\",\n      tooltip=ttText,\n      function_owner=self,\n      position={0, thickness/2, -0.2},\n      height=600,\n      width=1000,\n      alignment = 3,\n      scale=scale,\n      font_size=CONFIG.FONT_SIZE,\n      font_color=CONFIG.FONT_COLOR,\n      color={0,0,0,0}\n      })\n\n    self.createInput({\n        value = self.getName(),\n        input_function = \"editName\",\n        tooltip=ttText,\n        label = \"\",\n        function_owner = self,\n        alignment = 3,\n        position = {0,thickness/2,1.7},\n        width = 1200,\n        height = 1000,\n        font_size = CONFIG.FONT_SIZE/3,\n        scale={x=1, y=1, z=1},\n        font_color= CONFIG.FONT_COLOR,\n        color = {0,0,0,0}\n        })\n\n    setTooltips()\nend\n\nfunction editName(_obj, _string, value)\n    self.setName(value)\n    setTooltips()\nend\n\nfunction add_subtract(_obj, _color, alt_click)\n    mod = alt_click and -1 or 1\n    new_value = math.min(math.max(CONFIG.VALUE + mod, CONFIG.MIN_VALUE), CONFIG.MAX_VALUE)\n    if CONFIG.VALUE ~= new_value then\n        CONFIG.VALUE = new_value\n        updateVal()\n        updateSave()\n    end\nend\n\nfunction updateVal()\n    self.editButton({\n        index = 0,\n        label = tostring(CONFIG.VALUE)\n        })\n    setTooltips()\nend\n\nfunction setTooltips()\n    if CONFIG.TOOLTIP_SHOW then\n        ttText = self.getName().. \": \" .. CONFIG.VALUE\n    else\n        ttText = self.getName()\n    end\n\n    self.editInput({\n        index = 0,\n        value = self.getName(),\n        tooltip = ttText\n        })\n    self.editButton({\n        index = 0,\n        value = tostring(CONFIG.VALUE),\n        tooltip = ttText\n        })\nend\n",
+      "LuaScriptState": "{\"COLOR_HEX\":\"#FFFFFF\",\"FONT_COLOR\":[1,1,1,95],\"FONT_SIZE\":600,\"FONTS_SIZE\":600,\"MAX_VALUE\":5,\"MIN_VALUE\":-5,\"TOOLTIP_SHOW\":true,\"VALUE\":0}",
+      "GUID": "7df799"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 4.000003,
+        "posY": 1.01,
+        "posZ": 2.00000048,
+        "rotX": 1.11838635E-05,
+        "rotY": 180.016754,
+        "rotZ": -7.639873E-06,
+        "scaleX": 0.5,
+        "scaleY": 1.0,
+        "scaleZ": 0.5
+      },
+      "Nickname": "Counter",
+      "Description": "Left click - Increase\nRight click - Decrease",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.256096423,
+        "g": 0.256096423,
+        "b": 0.256096423
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/958597478463059274/DE73B64E1B5C6F272EA3BEE5EF458E73E48FF03D/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 5.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "CONFIG = {\n    MIN_VALUE = -99,\n    MAX_VALUE = 999,\n    FONT_COLOR = {0,0,0,95},\n    FONT_SIZE = 600,\n    COLOR_HEX = \"#000000\",\n    TOOLTIP_SHOW = true,\n    VALUE = 0\n}\nINJECTED_COUNTER = true\n\n\nfunction onload(saved_data)\n    if saved_data ~= \"\" then\n        local loaded_data = JSON.decode(saved_data)\n        CONFIG = loaded_data\n    end\n    createAll()\nend\n\nfunction updateSave()\n    saved_data = JSON.encode(CONFIG)\n    self.script_state = saved_data\nend\n\nfunction createAll()\n    if CONFIG.TOOLTIP_SHOW then\n        ttText = self.getName().. \": \" .. CONFIG.VALUE\n    else\n        ttText = self.getName()\n    end\n    local scale = {x=1.5, y=1.5, z=1.5}\n    local thickness = self.getBoundsNormalized().size.y\n    if self.name == \"Custom_Tile\" then\n        thickness = thickness*2\n        scale = {0.75, 0.75, 0.75}\n    end\n    self.createButton({\n      label=tostring(CONFIG.VALUE),\n      click_function=\"add_subtract\",\n      tooltip=ttText,\n      function_owner=self,\n      position={0, thickness/2, -0.2},\n      height=600,\n      width=1000,\n      alignment = 3,\n      scale=scale,\n      font_size=CONFIG.FONT_SIZE,\n      font_color=CONFIG.FONT_COLOR,\n      color={0,0,0,0}\n      })\n\n    self.createInput({\n        value = self.getName(),\n        input_function = \"editName\",\n        tooltip=ttText,\n        label = \"\",\n        function_owner = self,\n        alignment = 3,\n        position = {0,thickness/2,1.7},\n        width = 1200,\n        height = 1000,\n        font_size = CONFIG.FONT_SIZE/3,\n        scale={x=1, y=1, z=1},\n        font_color= CONFIG.FONT_COLOR,\n        color = {0,0,0,0}\n        })\n\n    setTooltips()\nend\n\nfunction editName(_obj, _string, value)\n    self.setName(value)\n    setTooltips()\nend\n\nfunction add_subtract(_obj, _color, alt_click)\n    mod = alt_click and -1 or 1\n    new_value = math.min(math.max(CONFIG.VALUE + mod, CONFIG.MIN_VALUE), CONFIG.MAX_VALUE)\n    if CONFIG.VALUE ~= new_value then\n        CONFIG.VALUE = new_value\n        updateVal()\n        updateSave()\n    end\nend\n\nfunction updateVal()\n    self.editButton({\n        index = 0,\n        label = tostring(CONFIG.VALUE)\n        })\n    setTooltips()\nend\n\nfunction setTooltips()\n    if CONFIG.TOOLTIP_SHOW then\n        ttText = self.getName().. \": \" .. CONFIG.VALUE\n    else\n        ttText = self.getName()\n    end\n\n    self.editInput({\n        index = 0,\n        value = self.getName(),\n        tooltip = ttText\n        })\n    self.editButton({\n        index = 0,\n        value = tostring(CONFIG.VALUE),\n        tooltip = ttText\n        })\nend\n",
+      "LuaScriptState": "{\"COLOR_HEX\":\"#FFFFFF\",\"FONT_COLOR\":[1,1,1,95],\"FONT_SIZE\":400,\"FONTS_SIZE\":600,\"MAX_VALUE\":5,\"MIN_VALUE\":-5,\"TOOLTIP_SHOW\":true,\"VALUE\":0}",
+      "GUID": "5e8a1a"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 4.000005,
+        "posY": 1.01,
+        "posZ": -2.00000143,
+        "rotX": -1.79466533E-05,
+        "rotY": 180.016815,
+        "rotZ": 3.49288939E-06,
+        "scaleX": 0.5,
+        "scaleY": 1.0,
+        "scaleZ": 0.5
+      },
+      "Nickname": "Counter",
+      "Description": "Left click - Increase\nRight click - Decrease",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0805368647,
+        "g": 0.742733,
+        "b": 0.7578399
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/958597478463059274/DE73B64E1B5C6F272EA3BEE5EF458E73E48FF03D/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 5.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "CONFIG = {\n    MIN_VALUE = -99,\n    MAX_VALUE = 999,\n    FONT_COLOR = {0,0,0,95},\n    FONT_SIZE = 600,\n    COLOR_HEX = \"#000000\",\n    TOOLTIP_SHOW = true,\n    VALUE = 0\n}\nINJECTED_COUNTER = true\n\n\nfunction onload(saved_data)\n    if saved_data ~= \"\" then\n        local loaded_data = JSON.decode(saved_data)\n        CONFIG = loaded_data\n    end\n    createAll()\nend\n\nfunction updateSave()\n    saved_data = JSON.encode(CONFIG)\n    self.script_state = saved_data\nend\n\nfunction createAll()\n    if CONFIG.TOOLTIP_SHOW then\n        ttText = self.getName().. \": \" .. CONFIG.VALUE\n    else\n        ttText = self.getName()\n    end\n    local scale = {x=1.5, y=1.5, z=1.5}\n    local thickness = self.getBoundsNormalized().size.y\n    if self.name == \"Custom_Tile\" then\n        thickness = thickness*2\n        scale = {0.75, 0.75, 0.75}\n    end\n    self.createButton({\n      label=tostring(CONFIG.VALUE),\n      click_function=\"add_subtract\",\n      tooltip=ttText,\n      function_owner=self,\n      position={0, thickness/2, -0.2},\n      height=600,\n      width=1000,\n      alignment = 3,\n      scale=scale,\n      font_size=CONFIG.FONT_SIZE,\n      font_color=CONFIG.FONT_COLOR,\n      color={0,0,0,0}\n      })\n\n    self.createInput({\n        value = self.getName(),\n        input_function = \"editName\",\n        tooltip=ttText,\n        label = \"\",\n        function_owner = self,\n        alignment = 3,\n        position = {0,thickness/2,1.7},\n        width = 1200,\n        height = 1000,\n        font_size = CONFIG.FONT_SIZE/3,\n        scale={x=1, y=1, z=1},\n        font_color= CONFIG.FONT_COLOR,\n        color = {0,0,0,0}\n        })\n\n    setTooltips()\nend\n\nfunction editName(_obj, _string, value)\n    self.setName(value)\n    setTooltips()\nend\n\nfunction add_subtract(_obj, _color, alt_click)\n    mod = alt_click and -1 or 1\n    new_value = math.min(math.max(CONFIG.VALUE + mod, CONFIG.MIN_VALUE), CONFIG.MAX_VALUE)\n    if CONFIG.VALUE ~= new_value then\n        CONFIG.VALUE = new_value\n        updateVal()\n        updateSave()\n    end\nend\n\nfunction updateVal()\n    self.editButton({\n        index = 0,\n        label = tostring(CONFIG.VALUE)\n        })\n    setTooltips()\nend\n\nfunction setTooltips()\n    if CONFIG.TOOLTIP_SHOW then\n        ttText = self.getName().. \": \" .. CONFIG.VALUE\n    else\n        ttText = self.getName()\n    end\n\n    self.editInput({\n        index = 0,\n        value = self.getName(),\n        tooltip = ttText\n        })\n    self.editButton({\n        index = 0,\n        value = tostring(CONFIG.VALUE),\n        tooltip = ttText\n        })\nend\n",
+      "LuaScriptState": "{\"COLOR_HEX\":\"#9F1FEF\",\"FONT_COLOR\":[0.623529411764706,0.12156862745098,0.937254901960784,75],\"FONT_SIZE\":800,\"FONTS_SIZE\":800,\"MAX_VALUE\":5,\"MIN_VALUE\":-5,\"TOOLTIP_SHOW\":true,\"VALUE\":0}",
+      "GUID": "578845"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 7.00001049,
+        "posY": 0.9599991,
+        "posZ": 0.9999993,
+        "rotX": 3.81337377E-05,
+        "rotY": 180.000015,
+        "rotZ": -3.45810477E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Counter",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/840394510879561633/FF207C017DE0AB0FF5B9E8FD9ADBED63C5A3D1F4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/840394510879390595/41FE70A7AB24EFE664DEBD2567AE83C08E6CDE0C/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 2,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "CONFIG = {\n    MIN_VALUE = -99,\n    MAX_VALUE = 999,\n    FONT_COLOR = {0,0,0,95},\n    FONT_SIZE = 600,\n    COLOR_HEX = \"#000000\",\n    TOOLTIP_SHOW = true,\n    VALUE = 0\n}\nINJECTED_COUNTER = true\n\n\nfunction onload(saved_data)\n    if saved_data ~= \"\" then\n        local loaded_data = JSON.decode(saved_data)\n        CONFIG = loaded_data\n    end\n    createAll()\nend\n\nfunction updateSave()\n    saved_data = JSON.encode(CONFIG)\n    self.script_state = saved_data\nend\n\nfunction createAll()\n    if CONFIG.TOOLTIP_SHOW then\n        ttText = self.getName().. \": \" .. CONFIG.VALUE\n    else\n        ttText = self.getName()\n    end\n    local scale = {x=1.5, y=1.5, z=1.5}\n    local thickness = self.getBoundsNormalized().size.y\n    if self.name == \"Custom_Tile\" then\n        thickness = thickness*2\n        scale = {0.75, 0.75, 0.75}\n    end\n    self.createButton({\n      label=tostring(CONFIG.VALUE),\n      click_function=\"add_subtract\",\n      tooltip=ttText,\n      function_owner=self,\n      position={0, thickness/2, -0.2},\n      height=600,\n      width=1000,\n      alignment = 3,\n      scale=scale,\n      font_size=CONFIG.FONT_SIZE,\n      font_color=CONFIG.FONT_COLOR,\n      color={0,0,0,0}\n      })\n\n    self.createInput({\n        value = self.getName(),\n        input_function = \"editName\",\n        tooltip=ttText,\n        label = \"\",\n        function_owner = self,\n        alignment = 3,\n        position = {0,thickness/2,1.7},\n        width = 1200,\n        height = 1000,\n        font_size = CONFIG.FONT_SIZE/3,\n        scale={x=1, y=1, z=1},\n        font_color= CONFIG.FONT_COLOR,\n        color = {0,0,0,0}\n        })\n\n    setTooltips()\nend\n\nfunction editName(_obj, _string, value)\n    self.setName(value)\n    setTooltips()\nend\n\nfunction add_subtract(_obj, _color, alt_click)\n    mod = alt_click and -1 or 1\n    new_value = math.min(math.max(CONFIG.VALUE + mod, CONFIG.MIN_VALUE), CONFIG.MAX_VALUE)\n    if CONFIG.VALUE ~= new_value then\n        CONFIG.VALUE = new_value\n        updateVal()\n        updateSave()\n    end\nend\n\nfunction updateVal()\n    self.editButton({\n        index = 0,\n        label = tostring(CONFIG.VALUE)\n        })\n    setTooltips()\nend\n\nfunction setTooltips()\n    if CONFIG.TOOLTIP_SHOW then\n        ttText = self.getName().. \": \" .. CONFIG.VALUE\n    else\n        ttText = self.getName()\n    end\n\n    self.editInput({\n        index = 0,\n        value = self.getName(),\n        tooltip = ttText\n        })\n    self.editButton({\n        index = 0,\n        value = tostring(CONFIG.VALUE),\n        tooltip = ttText\n        })\nend\n",
+      "LuaScriptState": "{\"COLOR_HEX\":\"#000000\",\"FONT_COLOR\":[0,0,0,100],\"FONT_SIZE\":800,\"FONTS_SIZE\":600,\"MAX_VALUE\":99,\"MIN_VALUE\":0,\"TOOLTIP_SHOW\":true,\"VALUE\":0}",
+      "GUID": "8bfdbd"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 7.00083351,
+        "posY": 0.9599998,
+        "posZ": -1.99973464,
+        "rotX": 1.10376186E-05,
+        "rotY": 179.977631,
+        "rotZ": -4.279718E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Counter",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/840394510879561633/FF207C017DE0AB0FF5B9E8FD9ADBED63C5A3D1F4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/840394510879390595/41FE70A7AB24EFE664DEBD2567AE83C08E6CDE0C/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 2,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "CONFIG = {\n    MIN_VALUE = -99,\n    MAX_VALUE = 999,\n    FONT_COLOR = {0,0,0,95},\n    FONT_SIZE = 600,\n    COLOR_HEX = \"#000000\",\n    TOOLTIP_SHOW = true,\n    VALUE = 0\n}\nINJECTED_COUNTER = true\n\n\nfunction onload(saved_data)\n    if saved_data ~= \"\" then\n        local loaded_data = JSON.decode(saved_data)\n        CONFIG = loaded_data\n    end\n    createAll()\nend\n\nfunction updateSave()\n    saved_data = JSON.encode(CONFIG)\n    self.script_state = saved_data\nend\n\nfunction createAll()\n    if CONFIG.TOOLTIP_SHOW then\n        ttText = self.getName().. \": \" .. CONFIG.VALUE\n    else\n        ttText = self.getName()\n    end\n    local scale = {x=1.5, y=1.5, z=1.5}\n    local thickness = self.getBoundsNormalized().size.y\n    if self.name == \"Custom_Tile\" then\n        thickness = thickness*2\n        scale = {0.75, 0.75, 0.75}\n    end\n    self.createButton({\n      label=tostring(CONFIG.VALUE),\n      click_function=\"add_subtract\",\n      tooltip=ttText,\n      function_owner=self,\n      position={0, thickness/2, -0.2},\n      height=600,\n      width=1000,\n      alignment = 3,\n      scale=scale,\n      font_size=CONFIG.FONT_SIZE,\n      font_color=CONFIG.FONT_COLOR,\n      color={0,0,0,0}\n      })\n\n    self.createInput({\n        value = self.getName(),\n        input_function = \"editName\",\n        tooltip=ttText,\n        label = \"\",\n        function_owner = self,\n        alignment = 3,\n        position = {0,thickness/2,1.7},\n        width = 1200,\n        height = 1000,\n        font_size = CONFIG.FONT_SIZE/3,\n        scale={x=1, y=1, z=1},\n        font_color= CONFIG.FONT_COLOR,\n        color = {0,0,0,0}\n        })\n\n    setTooltips()\nend\n\nfunction editName(_obj, _string, value)\n    self.setName(value)\n    setTooltips()\nend\n\nfunction add_subtract(_obj, _color, alt_click)\n    mod = alt_click and -1 or 1\n    new_value = math.min(math.max(CONFIG.VALUE + mod, CONFIG.MIN_VALUE), CONFIG.MAX_VALUE)\n    if CONFIG.VALUE ~= new_value then\n        CONFIG.VALUE = new_value\n        updateVal()\n        updateSave()\n    end\nend\n\nfunction updateVal()\n    self.editButton({\n        index = 0,\n        label = tostring(CONFIG.VALUE)\n        })\n    setTooltips()\nend\n\nfunction setTooltips()\n    if CONFIG.TOOLTIP_SHOW then\n        ttText = self.getName().. \": \" .. CONFIG.VALUE\n    else\n        ttText = self.getName()\n    end\n\n    self.editInput({\n        index = 0,\n        value = self.getName(),\n        tooltip = ttText\n        })\n    self.editButton({\n        index = 0,\n        value = tostring(CONFIG.VALUE),\n        tooltip = ttText\n        })\nend\n",
+      "LuaScriptState": "{\"COLOR_HEX\":\"#000000\",\"FONT_COLOR\":[0,0,0,100],\"FONT_SIZE\":600,\"FONTS_SIZE\":600,\"MAX_VALUE\":99,\"MIN_VALUE\":0,\"TOOLTIP_SHOW\":true,\"VALUE\":0}",
+      "GUID": "3b24d0"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 9.821038,
+        "posY": 1.00999939,
+        "posZ": 0.665495932,
+        "rotX": -6.70452937E-05,
+        "rotY": 180.003372,
+        "rotZ": 9.969794E-05,
+        "scaleX": 0.306216359,
+        "scaleY": 1.0,
+        "scaleZ": 0.306216359
+      },
+      "Nickname": "Food",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/840394510886298289/6EDE7FF004226F37AF8D6B88051D07A2C9954DDF/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0,
+          "Stackable": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "CONFIG = {\n    MIN_VALUE = -99,\n    MAX_VALUE = 999,\n    FONT_COLOR = {0,0,0,95},\n    FONT_SIZE = 600,\n    COLOR_HEX = \"#000000\",\n    TOOLTIP_SHOW = true,\n    VALUE = 0\n}\nINJECTED_COUNTER = true\n\n\nfunction onload(saved_data)\n    if saved_data ~= \"\" then\n        local loaded_data = JSON.decode(saved_data)\n        CONFIG = loaded_data\n    end\n    createAll()\nend\n\nfunction updateSave()\n    saved_data = JSON.encode(CONFIG)\n    self.script_state = saved_data\nend\n\nfunction createAll()\n    if CONFIG.TOOLTIP_SHOW then\n        ttText = self.getName().. \": \" .. CONFIG.VALUE\n    else\n        ttText = self.getName()\n    end\n    local scale = {x=1.5, y=1.5, z=1.5}\n    local thickness = self.getBoundsNormalized().size.y\n    if self.name == \"Custom_Tile\" then\n        thickness = thickness*2\n        scale = {0.75, 0.75, 0.75}\n    end\n    self.createButton({\n      label=tostring(CONFIG.VALUE),\n      click_function=\"add_subtract\",\n      tooltip=ttText,\n      function_owner=self,\n      position={0, thickness/2, -0.2},\n      height=600,\n      width=1000,\n      alignment = 3,\n      scale=scale,\n      font_size=CONFIG.FONT_SIZE,\n      font_color=CONFIG.FONT_COLOR,\n      color={0,0,0,0}\n      })\n\n    self.createInput({\n        value = self.getName(),\n        input_function = \"editName\",\n        tooltip=ttText,\n        label = \"\",\n        function_owner = self,\n        alignment = 3,\n        position = {0,thickness/2,1.7},\n        width = 1200,\n        height = 1000,\n        font_size = CONFIG.FONT_SIZE/3,\n        scale={x=1, y=1, z=1},\n        font_color= CONFIG.FONT_COLOR,\n        color = {0,0,0,0}\n        })\n\n    setTooltips()\nend\n\nfunction editName(_obj, _string, value)\n    self.setName(value)\n    setTooltips()\nend\n\nfunction add_subtract(_obj, _color, alt_click)\n    mod = alt_click and -1 or 1\n    new_value = math.min(math.max(CONFIG.VALUE + mod, CONFIG.MIN_VALUE), CONFIG.MAX_VALUE)\n    if CONFIG.VALUE ~= new_value then\n        CONFIG.VALUE = new_value\n        updateVal()\n        updateSave()\n    end\nend\n\nfunction updateVal()\n    self.editButton({\n        index = 0,\n        label = tostring(CONFIG.VALUE)\n        })\n    setTooltips()\nend\n\nfunction setTooltips()\n    if CONFIG.TOOLTIP_SHOW then\n        ttText = self.getName().. \": \" .. CONFIG.VALUE\n    else\n        ttText = self.getName()\n    end\n\n    self.editInput({\n        index = 0,\n        value = self.getName(),\n        tooltip = ttText\n        })\n    self.editButton({\n        index = 0,\n        value = tostring(CONFIG.VALUE),\n        tooltip = ttText\n        })\nend\n",
+      "LuaScriptState": "{\"COLOR_HEX\":\"#000000\",\"FONT_COLOR\":[0,0,0,100],\"FONT_SIZE\":800,\"FONTS_SIZE\":600,\"MAX_VALUE\":99,\"MIN_VALUE\":0,\"TOOLTIP_SHOW\":true,\"VALUE\":0}",
+      "GUID": "ed4044"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 10.0000105,
+        "posY": 0.9599995,
+        "posZ": -2.00000262,
+        "rotX": 2.17638135E-05,
+        "rotY": 179.987228,
+        "rotZ": -3.14973045E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Money",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/BM9lve1.png",
+        "ImageSecondaryURL": "http://i.imgur.com/BM9lve1.png",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 2,
+          "Thickness": 0.1,
+          "Stackable": true,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "CONFIG = {\n    MIN_VALUE = -99,\n    MAX_VALUE = 999,\n    FONT_COLOR = {0,0,0,95},\n    FONT_SIZE = 600,\n    COLOR_HEX = \"#000000\",\n    TOOLTIP_SHOW = true,\n    VALUE = 0\n}\nINJECTED_COUNTER = true\n\n\nfunction onload(saved_data)\n    if saved_data ~= \"\" then\n        local loaded_data = JSON.decode(saved_data)\n        CONFIG = loaded_data\n    end\n    createAll()\nend\n\nfunction updateSave()\n    saved_data = JSON.encode(CONFIG)\n    self.script_state = saved_data\nend\n\nfunction createAll()\n    if CONFIG.TOOLTIP_SHOW then\n        ttText = self.getName().. \": \" .. CONFIG.VALUE\n    else\n        ttText = self.getName()\n    end\n    local scale = {x=1.5, y=1.5, z=1.5}\n    local thickness = self.getBoundsNormalized().size.y\n    if self.name == \"Custom_Tile\" then\n        thickness = thickness*2\n        scale = {0.75, 0.75, 0.75}\n    end\n    self.createButton({\n      label=tostring(CONFIG.VALUE),\n      click_function=\"add_subtract\",\n      tooltip=ttText,\n      function_owner=self,\n      position={0, thickness/2, -0.2},\n      height=600,\n      width=1000,\n      alignment = 3,\n      scale=scale,\n      font_size=CONFIG.FONT_SIZE,\n      font_color=CONFIG.FONT_COLOR,\n      color={0,0,0,0}\n      })\n\n    self.createInput({\n        value = self.getName(),\n        input_function = \"editName\",\n        tooltip=ttText,\n        label = \"\",\n        function_owner = self,\n        alignment = 3,\n        position = {0,thickness/2,1.7},\n        width = 1200,\n        height = 1000,\n        font_size = CONFIG.FONT_SIZE/3,\n        scale={x=1, y=1, z=1},\n        font_color= CONFIG.FONT_COLOR,\n        color = {0,0,0,0}\n        })\n\n    setTooltips()\nend\n\nfunction editName(_obj, _string, value)\n    self.setName(value)\n    setTooltips()\nend\n\nfunction add_subtract(_obj, _color, alt_click)\n    mod = alt_click and -1 or 1\n    new_value = math.min(math.max(CONFIG.VALUE + mod, CONFIG.MIN_VALUE), CONFIG.MAX_VALUE)\n    if CONFIG.VALUE ~= new_value then\n        CONFIG.VALUE = new_value\n        updateVal()\n        updateSave()\n    end\nend\n\nfunction updateVal()\n    self.editButton({\n        index = 0,\n        label = tostring(CONFIG.VALUE)\n        })\n    setTooltips()\nend\n\nfunction setTooltips()\n    if CONFIG.TOOLTIP_SHOW then\n        ttText = self.getName().. \": \" .. CONFIG.VALUE\n    else\n        ttText = self.getName()\n    end\n\n    self.editInput({\n        index = 0,\n        value = self.getName(),\n        tooltip = ttText\n        })\n    self.editButton({\n        index = 0,\n        value = tostring(CONFIG.VALUE),\n        tooltip = ttText\n        })\nend\n",
+      "LuaScriptState": "{\"COLOR_HEX\":\"#000000\",\"FONT_COLOR\":[0,0,0,100],\"FONT_SIZE\":500,\"FONTS_SIZE\":600,\"MAX_VALUE\":99,\"MIN_VALUE\":-10,\"TOOLTIP_SHOW\":true,\"VALUE\":0}",
+      "GUID": "52f403"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 10.0000086,
+        "posY": 0.9600006,
+        "posZ": 6.00000143,
+        "rotX": 6.534019E-06,
+        "rotY": 179.987259,
+        "rotZ": 1.03747E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Money",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/BM9lve1.png",
+        "ImageSecondaryURL": "http://i.imgur.com/BM9lve1.png",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 2,
+          "Thickness": 0.1,
+          "Stackable": true,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "b7c994"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 11.9862328,
+        "posY": 1.2250967,
+        "posZ": 4.00584364,
+        "rotX": 0.00531063043,
+        "rotY": 180.038834,
+        "rotZ": 355.4447,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.856,
+        "g": 0.09999851,
+        "b": 0.0939985
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/838143386118252465/3A4DB2E3E9928EFFAA4EABA1B507BCD643182923/",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "5942c3"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 12.0000381,
+        "posY": 1.15999973,
+        "posZ": 0.999995351,
+        "rotX": 5.80306141E-06,
+        "rotY": 180.000488,
+        "rotZ": -8.47477E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Health",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.856,
+        "g": 0.09999851,
+        "b": 0.0939985
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/838143386118252465/3A4DB2E3E9928EFFAA4EABA1B507BCD643182923/",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "CONFIG = {\n    MIN_VALUE = -99,\n    MAX_VALUE = 999,\n    FONT_COLOR = {0,0,0,95},\n    FONT_SIZE = 600,\n    COLOR_HEX = \"#000000\",\n    TOOLTIP_SHOW = true,\n    VALUE = 0\n}\nINJECTED_COUNTER = true\n\n\nfunction onload(saved_data)\n    if saved_data ~= \"\" then\n        local loaded_data = JSON.decode(saved_data)\n        CONFIG = loaded_data\n    end\n    createAll()\nend\n\nfunction updateSave()\n    saved_data = JSON.encode(CONFIG)\n    self.script_state = saved_data\nend\n\nfunction createAll()\n    if CONFIG.TOOLTIP_SHOW then\n        ttText = self.getName().. \": \" .. CONFIG.VALUE\n    else\n        ttText = self.getName()\n    end\n    local scale = {x=1.5, y=1.5, z=1.5}\n    local thickness = self.getBoundsNormalized().size.y\n    if self.name == \"Custom_Tile\" then\n        thickness = thickness*2\n        scale = {0.75, 0.75, 0.75}\n    end\n    self.createButton({\n      label=tostring(CONFIG.VALUE),\n      click_function=\"add_subtract\",\n      tooltip=ttText,\n      function_owner=self,\n      position={0, thickness/2, -0.2},\n      height=600,\n      width=1000,\n      alignment = 3,\n      scale=scale,\n      font_size=CONFIG.FONT_SIZE,\n      font_color=CONFIG.FONT_COLOR,\n      color={0,0,0,0}\n      })\n\n    self.createInput({\n        value = self.getName(),\n        input_function = \"editName\",\n        tooltip=ttText,\n        label = \"\",\n        function_owner = self,\n        alignment = 3,\n        position = {0,thickness/2,1.7},\n        width = 1200,\n        height = 1000,\n        font_size = CONFIG.FONT_SIZE/3,\n        scale={x=1, y=1, z=1},\n        font_color= CONFIG.FONT_COLOR,\n        color = {0,0,0,0}\n        })\n\n    setTooltips()\nend\n\nfunction editName(_obj, _string, value)\n    self.setName(value)\n    setTooltips()\nend\n\nfunction add_subtract(_obj, _color, alt_click)\n    mod = alt_click and -1 or 1\n    new_value = math.min(math.max(CONFIG.VALUE + mod, CONFIG.MIN_VALUE), CONFIG.MAX_VALUE)\n    if CONFIG.VALUE ~= new_value then\n        CONFIG.VALUE = new_value\n        updateVal()\n        updateSave()\n    end\nend\n\nfunction updateVal()\n    self.editButton({\n        index = 0,\n        label = tostring(CONFIG.VALUE)\n        })\n    setTooltips()\nend\n\nfunction setTooltips()\n    if CONFIG.TOOLTIP_SHOW then\n        ttText = self.getName().. \": \" .. CONFIG.VALUE\n    else\n        ttText = self.getName()\n    end\n\n    self.editInput({\n        index = 0,\n        value = self.getName(),\n        tooltip = ttText\n        })\n    self.editButton({\n        index = 0,\n        value = tostring(CONFIG.VALUE),\n        tooltip = ttText\n        })\nend\n",
+      "LuaScriptState": "{\"COLOR_HEX\":\"#3F3F3F\",\"FONT_COLOR\":[0.247058823529412,0.247058823529412,0.247058823529412,100],\"FONT_SIZE\":200,\"FONTS_SIZE\":600,\"MAX_VALUE\":12,\"MIN_VALUE\":0,\"TOOLTIP_SHOW\":true,\"VALUE\":0}",
+      "GUID": "77b262"
+    }
+  ],
+  "DecalPallet": [],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": "v12.0.4"
+}

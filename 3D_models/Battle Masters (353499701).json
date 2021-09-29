@@ -1,0 +1,1784 @@
+{
+  "SaveName": "Battle Masters",
+  "GameMode": "None",
+  "Date": "12/10/2014 1:54:24 PM",
+  "Table": "Table_Square",
+  "Sky": "Sky_Tunnel",
+  "Note": "",
+  "Rules": "",
+  "PlayerTurn": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Snapping": false,
+    "Offset": false,
+    "xSize": 0.5,
+    "ySize": 0.5
+  },
+  "DrawImage": "iVBORw0KGgoAAAANSUhEUgAAALAAAABoCAYAAABR2nocAAABV0lEQVR4Ae3QMQEAAADCoPVPbQZ/iEBhwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwICBb2AedwABqCI4UwAAAABJRU5ErkJggg==",
+  "ObjectStates": [
+    {
+      "Name": "Custom_Board",
+      "Transform": {
+        "posX": 0.0198624674,
+        "posY": 1.04287267,
+        "posZ": -0.00274017174,
+        "rotX": 0.00327223679,
+        "rotY": 180.096008,
+        "rotZ": 359.989441,
+        "scaleX": 2.5,
+        "scaleY": 2.5,
+        "scaleZ": 2.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.78686744,
+        "g": 0.78686744,
+        "b": 0.78686744
+      },
+      "Grid": true,
+      "Locked": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/syl9V3J.jpg",
+        "WidthScale": 1.1599654
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 4.19647551,
+        "posY": 2.7397213,
+        "posZ": -4.926092,
+        "rotX": 90.0,
+        "rotY": 299.343079,
+        "rotZ": 0.0,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992164731,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=grKSs5VY",
+        "DiffuseURL": "http://i.imgur.com/wmPuRqr.jpg",
+        "NormalURL": "http://i.imgur.com/wmPuRqr.jpg",
+        "ColliderURL": "http://pastebin.com/raw.php?i=grKSs5VY",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 2
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 3.57625,
+        "posY": 2.73953843,
+        "posZ": -6.130771,
+        "rotX": 90.0,
+        "rotY": 148.32016,
+        "rotZ": 0.0,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992164969,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=grKSs5VY",
+        "DiffuseURL": "http://i.imgur.com/wmPuRqr.jpg",
+        "NormalURL": "http://i.imgur.com/wmPuRqr.jpg",
+        "ColliderURL": "http://pastebin.com/raw.php?i=grKSs5VY",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 2
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 3.87669563,
+        "posY": 2.739696,
+        "posZ": -4.328894,
+        "rotX": -0.00101618352,
+        "rotY": 348.06427,
+        "rotZ": 180.011292,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992164969,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=grKSs5VY",
+        "DiffuseURL": "http://i.imgur.com/wmPuRqr.jpg",
+        "NormalURL": "http://i.imgur.com/wmPuRqr.jpg",
+        "ColliderURL": "http://pastebin.com/raw.php?i=grKSs5VY",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 2
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 4.43556452,
+        "posY": 2.739725,
+        "posZ": -5.63811255,
+        "rotX": 90.0,
+        "rotY": 33.5596237,
+        "rotZ": 0.0,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992164969,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=grKSs5VY",
+        "DiffuseURL": "http://i.imgur.com/wmPuRqr.jpg",
+        "NormalURL": "http://i.imgur.com/wmPuRqr.jpg",
+        "ColliderURL": "http://pastebin.com/raw.php?i=grKSs5VY",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 2
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 3.61982346,
+        "posY": 2.7395792,
+        "posZ": -5.557159,
+        "rotX": 359.988953,
+        "rotY": 60.0430336,
+        "rotZ": 0.00251851557,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992164969,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=grKSs5VY",
+        "DiffuseURL": "http://i.imgur.com/wmPuRqr.jpg",
+        "NormalURL": "http://i.imgur.com/wmPuRqr.jpg",
+        "ColliderURL": "http://pastebin.com/raw.php?i=grKSs5VY",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 2
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 3.72507977,
+        "posY": 2.73963976,
+        "posZ": -4.834205,
+        "rotX": 90.0,
+        "rotY": 207.2728,
+        "rotZ": 0.0,
+        "scaleX": 0.875,
+        "scaleY": 0.875,
+        "scaleZ": 0.875
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992164969,
+        "b": 0.9999999
+      },
+      "Grid": false,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=grKSs5VY",
+        "DiffuseURL": "http://i.imgur.com/wmPuRqr.jpg",
+        "NormalURL": "http://i.imgur.com/wmPuRqr.jpg",
+        "ColliderURL": "http://pastebin.com/raw.php?i=grKSs5VY",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 2
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -16.9435024,
+        "posY": 2.60273552,
+        "posZ": -17.3568382,
+        "rotX": 0.0108472472,
+        "rotY": 266.642761,
+        "rotZ": 0.00263489224,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Zogrod's Orcs",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992163956,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=p4DSwRP2",
+        "DiffuseURL": "http://i.imgur.com/gu3iIO6.jpg",
+        "NormalURL": "http://i.imgur.com/gu3iIO6.jpg",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -13.5803967,
+        "posY": 2.60025716,
+        "posZ": -11.081646,
+        "rotX": 0.00371842063,
+        "rotY": 182.554443,
+        "rotZ": 179.989578,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Ogre Champion Cards",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7133717,
+        "g": 0.7133717,
+        "b": 0.7133717
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        101,
+        100,
+        100,
+        101,
+        100,
+        101
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "http://i.imgur.com/mOn2uSv.jpg",
+          "BackURL": "http://i.imgur.com/jz8R9ND.jpg?1"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -10.20727,
+        "posY": 2.85555959,
+        "posZ": -11.328331,
+        "rotX": 0.00324764242,
+        "rotY": 179.9173,
+        "rotZ": 179.98938,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Army Cards",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713356137,
+        "g": 0.713356137,
+        "b": 0.713356137
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        208,
+        208,
+        208,
+        206,
+        201,
+        207,
+        207,
+        203,
+        203,
+        203,
+        203,
+        203,
+        209,
+        209,
+        209,
+        209,
+        210,
+        211,
+        200,
+        200,
+        200,
+        200,
+        200,
+        205,
+        213,
+        213,
+        213,
+        213,
+        213,
+        214,
+        214,
+        212,
+        212,
+        202,
+        202,
+        216,
+        216,
+        216,
+        216,
+        217,
+        217,
+        218,
+        219,
+        222,
+        222,
+        222,
+        222,
+        220,
+        220,
+        220,
+        220,
+        221,
+        204,
+        204,
+        204,
+        204,
+        204,
+        204,
+        215
+      ],
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "http://i.imgur.com/DEE0bgV.jpg",
+          "BackURL": "http://i.imgur.com/GpQjLIO.jpg?1"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -0.843092859,
+        "posY": 2.56943774,
+        "posZ": -1.37205863,
+        "rotX": 0.147432655,
+        "rotY": 0.157332242,
+        "rotZ": 179.191986,
+        "scaleX": 2.0,
+        "scaleY": 2.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921637,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://hastebin.com/raw/otizuqiceg",
+        "DiffuseURL": "http://i.imgur.com/KJMSImX.jpg",
+        "NormalURL": "http://i.imgur.com/KJMSImX.jpg",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -2.798941,
+        "posY": 2.53761959,
+        "posZ": -4.67513752,
+        "rotX": 0.0160809662,
+        "rotY": 359.49823,
+        "rotZ": 180.0505,
+        "scaleX": 2.0,
+        "scaleY": 2.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921637,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://hastebin.com/raw/esedetexal",
+        "DiffuseURL": "http://i.imgur.com/ZuKnyiJ.jpg",
+        "NormalURL": "http://i.imgur.com/ZuKnyiJ.jpg",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -4.641329,
+        "posY": 2.57062817,
+        "posZ": -1.49139106,
+        "rotX": 0.022760218,
+        "rotY": 300.314026,
+        "rotZ": 178.9651,
+        "scaleX": 2.0,
+        "scaleY": 2.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921637,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://hastebin.com/raw/abefiwubet",
+        "DiffuseURL": "http://i.imgur.com/wtCW6Sn.jpg",
+        "NormalURL": "http://i.imgur.com/wtCW6Sn.jpg",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -6.436614,
+        "posY": 2.5611,
+        "posZ": -4.69308,
+        "rotX": 0.232113257,
+        "rotY": 240.757156,
+        "rotZ": 359.456543,
+        "scaleX": 2.0,
+        "scaleY": 2.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921637,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://hastebin.com/raw/musakivula",
+        "DiffuseURL": "http://i.imgur.com/K0AxX6S.jpg",
+        "NormalURL": "http://i.imgur.com/K0AxX6S.jpg",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -20.61891,
+        "posY": 2.60206175,
+        "posZ": -17.2786884,
+        "rotX": 0.0108499341,
+        "rotY": 265.7691,
+        "rotZ": 0.00248193578,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Gazkull's Orcs",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921637,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://hastebin.com/raw/goxileliwo",
+        "DiffuseURL": "http://i.imgur.com/gu3iIO6.jpg",
+        "NormalURL": "http://i.imgur.com/gu3iIO6.jpg",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -13.5883074,
+        "posY": 2.60335946,
+        "posZ": -17.266304,
+        "rotX": 0.0107769,
+        "rotY": 267.802216,
+        "rotZ": 0.00287556346,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Goblins of Grom",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921637,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://hastebin.com/raw/zeyaqixetu",
+        "DiffuseURL": "http://i.imgur.com/gu3iIO6.jpg",
+        "NormalURL": "http://i.imgur.com/gu3iIO6.jpg",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -9.901936,
+        "posY": 2.604044,
+        "posZ": -17.1932583,
+        "rotX": 0.0107024228,
+        "rotY": 268.848358,
+        "rotZ": 0.00306253624,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Goblins of Uglub",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921637,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://hastebin.com/raw/rawebekife",
+        "DiffuseURL": "http://i.imgur.com/gu3iIO6.jpg",
+        "NormalURL": "http://i.imgur.com/gu3iIO6.jpg",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -14.5305376,
+        "posY": 2.54596353,
+        "posZ": 2.99085355,
+        "rotX": 0.03427157,
+        "rotY": 180.617844,
+        "rotZ": 270.08902,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Hedge",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992163,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://hastebin.com/raw/cicaxocimo",
+        "DiffuseURL": "http://i.imgur.com/4060Ao3.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -14.7080231,
+        "posY": 2.79121637,
+        "posZ": 0.286848038,
+        "rotX": 359.992645,
+        "rotY": 122.316528,
+        "rotZ": 179.987823,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Hedge",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992163241,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://hastebin.com/raw/cicaxocimo",
+        "DiffuseURL": "http://i.imgur.com/4060Ao3.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -13.4925184,
+        "posY": 2.575199,
+        "posZ": 1.5217272,
+        "rotX": 358.473267,
+        "rotY": 296.0037,
+        "rotZ": 269.998566,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Hedge",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992163241,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://hastebin.com/raw/cicaxocimo",
+        "DiffuseURL": "http://i.imgur.com/4060Ao3.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -15.6931639,
+        "posY": 2.79119921,
+        "posZ": 2.085747,
+        "rotX": -0.00367153273,
+        "rotY": 2.32811284,
+        "rotZ": 0.153298914,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Hedge",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992163241,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://hastebin.com/raw/cicaxocimo",
+        "DiffuseURL": "http://i.imgur.com/4060Ao3.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -6.50135565,
+        "posY": 2.557489,
+        "posZ": -10.9573212,
+        "rotX": -0.00319962366,
+        "rotY": 0.000857727835,
+        "rotZ": 0.0105750486,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Cannon Cards",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7133483,
+        "g": 0.7133483,
+        "b": 0.7133483
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        400,
+        301,
+        301,
+        302,
+        302,
+        302,
+        300,
+        300,
+        300,
+        300
+      ],
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "http://i.imgur.com/GSpDXvv.jpg",
+          "BackURL": "http://i.imgur.com/chc84vV.jpg"
+        },
+        "3": {
+          "FaceURL": "http://i.imgur.com/cEwnPEZ.jpg",
+          "BackURL": "http://i.imgur.com/Zhkma41.jpg"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -3.43477821,
+        "posY": 2.62781763,
+        "posZ": -11.3021593,
+        "rotX": 0.004774511,
+        "rotY": 188.428848,
+        "rotZ": 179.98999,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Skull Tokens",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7133405,
+        "g": 0.7133405,
+        "b": 0.7133405
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500
+      ],
+      "CustomDeck": {
+        "5": {
+          "FaceURL": "http://i.imgur.com/poEpe8Q.jpg",
+          "BackURL": "http://i.imgur.com/7s8sKFB.jpg"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -15.6110859,
+        "posY": 2.60496,
+        "posZ": 17.4583778,
+        "rotX": 359.9894,
+        "rotY": 89.06939,
+        "rotZ": -0.003089946,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Imperial Archer of Bogenhaffen",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992162466,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://hastebin.com/raw/alifecegiq",
+        "DiffuseURL": "http://i.imgur.com/gu3iIO6.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -19.2004,
+        "posY": 2.60430217,
+        "posZ": 17.53287,
+        "rotX": 359.9894,
+        "rotY": 88.76559,
+        "rotZ": -0.00307378476,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Imperial Archers of Grunberg",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992162466,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://hastebin.com/raw/igugigakef",
+        "DiffuseURL": "http://i.imgur.com/gu3iIO6.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -6.14977169,
+        "posY": 2.60473,
+        "posZ": -17.29607,
+        "rotX": 0.0106887175,
+        "rotY": 269.319733,
+        "rotZ": 0.00314461673,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Doomguard Chaos Archers",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992162466,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://hastebin.com/raw/semuburaja",
+        "DiffuseURL": "http://i.imgur.com/gu3iIO6.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -2.80767655,
+        "posY": 2.605353,
+        "posZ": -17.160841,
+        "rotX": 0.0106314374,
+        "rotY": 269.96106,
+        "rotZ": 0.00325837126,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Finmar's Chaos Archers",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992162466,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://hastebin.com/raw/fogazonaxo",
+        "DiffuseURL": "http://i.imgur.com/gu3iIO6.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.8919877,
+        "posY": 2.60602427,
+        "posZ": -17.3693256,
+        "rotX": 0.0106237875,
+        "rotY": 269.949158,
+        "rotZ": 0.0032787018,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Ogre Champion of Grimorg",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992162466,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://hastebin.com/raw/ewihuyojir",
+        "DiffuseURL": "http://i.imgur.com/gu3iIO6.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -8.073464,
+        "posY": 2.6063323,
+        "posZ": 17.1645145,
+        "rotX": 359.989441,
+        "rotY": 90.1086044,
+        "rotZ": -0.0032974577,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Melgar's Crossbowmen",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992162466,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://hastebin.com/raw/uwawimozov",
+        "DiffuseURL": "http://i.imgur.com/gu3iIO6.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -4.569127,
+        "posY": 2.60699129,
+        "posZ": 17.3757515,
+        "rotX": 359.989441,
+        "rotY": 89.51062,
+        "rotZ": -0.0032047336,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Men-at-arms of Grunberg",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992162466,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://hastebin.com/raw/idakeqepox",
+        "DiffuseURL": "http://i.imgur.com/gu3iIO6.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -0.873272836,
+        "posY": 2.607674,
+        "posZ": 17.4003067,
+        "rotX": 359.9894,
+        "rotY": 89.74015,
+        "rotZ": -0.003230695,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Men-at-arms of Altdorf",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992162466,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://hastebin.com/raw/cipifafize",
+        "DiffuseURL": "http://i.imgur.com/gu3iIO6.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 2.61480618,
+        "posY": 2.60831237,
+        "posZ": 17.306591,
+        "rotX": 359.989441,
+        "rotY": 89.83456,
+        "rotZ": -0.00324806315,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Men-at-arms of Riekwald",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992162466,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://hastebin.com/raw/ozufiqakez",
+        "DiffuseURL": "http://i.imgur.com/gu3iIO6.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 4.403677,
+        "posY": 2.606678,
+        "posZ": -17.2682514,
+        "rotX": 0.01065473,
+        "rotY": 269.956451,
+        "rotZ": 0.00326366327,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Beastmen of Bale",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992162466,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://hastebin.com/raw/sanikozepu",
+        "DiffuseURL": "http://i.imgur.com/gu3iIO6.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 8.166476,
+        "posY": 2.60735917,
+        "posZ": -17.4991512,
+        "rotX": 0.0106007615,
+        "rotY": 269.970428,
+        "rotZ": 0.0032952365,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Beastmen of Flint",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992162466,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://hastebin.com/raw/ikerutufir",
+        "DiffuseURL": "http://i.imgur.com/gu3iIO6.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 11.95031,
+        "posY": 2.6080637,
+        "posZ": -17.3800583,
+        "rotX": 0.01063981,
+        "rotY": 269.952972,
+        "rotZ": 0.0032622905,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Goreband's Chaos Warriors",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992162466,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://hastebin.com/raw/rihufatiya",
+        "DiffuseURL": "http://i.imgur.com/gu3iIO6.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 15.4020128,
+        "posY": 2.60870576,
+        "posZ": -17.2868938,
+        "rotX": 0.0106930956,
+        "rotY": 269.41333,
+        "rotZ": 0.00317944353,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Finmar's Chaos Warriors",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992162466,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://hastebin.com/raw/avoripiboy",
+        "DiffuseURL": "http://i.imgur.com/gu3iIO6.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -11.9596014,
+        "posY": 2.60562086,
+        "posZ": 17.2534161,
+        "rotX": 359.9894,
+        "rotY": 89.45903,
+        "rotZ": -0.003180002,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "The Mighty Cannon",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992162466,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://hastebin.com/raw/amutuqicid",
+        "DiffuseURL": "http://i.imgur.com/gu3iIO6.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 13.5898724,
+        "posY": 2.61033177,
+        "posZ": 17.220892,
+        "rotX": 359.989319,
+        "rotY": 89.39092,
+        "rotZ": -0.00316517032,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Duke Blitzens Imperial Knights",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921622,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=24zTGC0k",
+        "DiffuseURL": "http://i.imgur.com/gu3iIO6.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 9.87573051,
+        "posY": 2.60964561,
+        "posZ": 17.1967487,
+        "rotX": 359.989471,
+        "rotY": 90.04685,
+        "rotZ": -0.00327456673,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Delborne's Imperial Knights",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921622,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=arFhAR4K",
+        "DiffuseURL": "http://i.imgur.com/gu3iIO6.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 6.300808,
+        "posY": 2.60899568,
+        "posZ": 17.3707924,
+        "rotX": 359.9894,
+        "rotY": 89.94745,
+        "rotZ": -0.00328855845,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Normand's Imperial Knights",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921622,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=GJNjzkpL",
+        "DiffuseURL": "http://i.imgur.com/gu3iIO6.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 17.2663517,
+        "posY": 2.61437368,
+        "posZ": 17.0573044,
+        "rotX": 359.989441,
+        "rotY": 90.20162,
+        "rotZ": -0.00330486661,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Lord Knights of the Empire",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992162,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=Q9sc8NSm",
+        "DiffuseURL": "http://i.imgur.com/gu3iIO6.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 17.2694569,
+        "posY": 2.60922885,
+        "posZ": -14.1415882,
+        "rotX": 0.0106163472,
+        "rotY": 270.017059,
+        "rotZ": 0.00326553918,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Black Fang's Wolf Riders",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921617,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=mB4YTzPk",
+        "DiffuseURL": "http://i.imgur.com/gu3iIO6.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 19.0221424,
+        "posY": 2.609361,
+        "posZ": -17.5125217,
+        "rotX": 0.0107341679,
+        "rotY": 268.4661,
+        "rotZ": 0.00299108215,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Bogrot's Wolf Riders",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921617,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=PHs0pJ5t",
+        "DiffuseURL": "http://i.imgur.com/gu3iIO6.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -19.428669,
+        "posY": 2.60244966,
+        "posZ": -14.3072062,
+        "rotX": 0.0107480651,
+        "rotY": 268.221619,
+        "rotZ": 0.0029437365,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Gorefist's Champions of Chaos",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992161453,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=jtSi30jT",
+        "DiffuseURL": "http://i.imgur.com/gu3iIO6.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -1.49136174,
+        "posY": 2.562357,
+        "posZ": -11.1377668,
+        "rotX": 0.004707125,
+        "rotY": 188.053726,
+        "rotZ": 359.98996,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Elite Tokens",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7132859,
+        "g": 0.7132859,
+        "b": 0.7132859
+      },
+      "Grid": true,
+      "Locked": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600
+      ],
+      "CustomDeck": {
+        "6": {
+          "FaceURL": "http://i.imgur.com/L71YYW6.jpg",
+          "BackURL": "http://i.imgur.com/u3cinB7.jpg"
+        }
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -12.8333511,
+        "posY": 2.526936,
+        "posZ": -5.465492,
+        "rotX": 0.008126957,
+        "rotY": 272.666931,
+        "rotZ": 0.01124452,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "Rubble",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992161,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://hastebin.com/raw/ogaqemehem",
+        "DiffuseURL": "http://i.imgur.com/YN50tKR.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -14.2689705,
+        "posY": 2.51265121,
+        "posZ": -4.326242,
+        "rotX": 0.0106445746,
+        "rotY": 270.147,
+        "rotZ": 0.00331571372,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "Rubble",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992161,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://hastebin.com/raw/uqiqezopot",
+        "DiffuseURL": "http://i.imgur.com/YN50tKR.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -12.901926,
+        "posY": 2.51447749,
+        "posZ": -5.655112,
+        "rotX": 0.010527133,
+        "rotY": 269.7801,
+        "rotZ": 0.00321553973,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "Rubble",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992161,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://hastebin.com/raw/uzukezifuz",
+        "DiffuseURL": "http://i.imgur.com/YN50tKR.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -17.7139664,
+        "posY": 4.11695147,
+        "posZ": -4.543047,
+        "rotX": 0.0105786929,
+        "rotY": 269.971039,
+        "rotZ": 0.00326278363,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.992160439,
+        "b": 0.9999999
+      },
+      "Grid": true,
+      "Locked": false,
+      "CustomMesh": {
+        "MeshURL": "http://hastebin.com/raw/mayimakice",
+        "DiffuseURL": "http://i.imgur.com/nt5RlRg.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0
+      },
+      "GUID": ""
+    }
+  ]
+}

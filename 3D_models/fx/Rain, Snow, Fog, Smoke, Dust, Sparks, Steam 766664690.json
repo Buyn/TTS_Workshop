@@ -1,0 +1,978 @@
+{
+  "SaveName": "Rain, Snow, Fog, Smoke, Dust, Sparks, Steam",
+  "GameMode": "environmental effects",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "9/27/2016 9:15:33 PM",
+  "Table": "Table_Custom",
+  "TableURL": "http://infinitebucket.com/tts/toee/greyfelt.jpg",
+  "Sky": "Sky_Downtown",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "",
+  "LuaScript": "--[[ Lua code. See documentation: http://berserk-games.com/knowledgebase/scripting/ --]]\n\n--[[ The OnLoad function. This is called after everything in the game save finishes loading.\nMost of your script code goes here. --]]\nfunction onload()\nend\n\n--[[ The Update function. This is called once per frame. --]]\nfunction update ()\n    --[[ print('Update loop!') --]]\nend\n",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 0.5,
+    "ySize": 0.5,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 23.6700039,
+          "posY": 3.29337883,
+          "posZ": 34.4527626,
+          "rotX": 0.0,
+          "rotY": 179.8,
+          "rotZ": 0.0,
+          "scaleX": 15.3268776,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014629
+        }
+      },
+      {
+        "Color": "Brown",
+        "Transform": {
+          "posX": 0.0,
+          "posY": 3.29337883,
+          "posZ": -34.42515,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 15.3268919,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014534
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": -23.6700039,
+          "posY": 3.29337883,
+          "posZ": 34.43159,
+          "rotX": 0.0,
+          "rotY": 180.000076,
+          "rotZ": 0.0,
+          "scaleX": 15.3268747,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014534
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -51.6596222,
+          "posY": 3.29337883,
+          "posZ": -11.7324,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 15.1940165,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.40567875
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 51.64263,
+          "posY": 3.29337883,
+          "posZ": -11.7324,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 15.1939974,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.40567875
+        }
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 51.5785675,
+          "posY": 3.29337883,
+          "posZ": 11.7324,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 15.1940022,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.40567875
+        }
+      },
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -23.6700039,
+          "posY": 3.29337883,
+          "posZ": -34.42515,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 15.3268948,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014534
+        }
+      },
+      {
+        "Color": "Teal",
+        "Transform": {
+          "posX": 0.0,
+          "posY": 3.29337883,
+          "posZ": 34.4527626,
+          "rotX": 0.0,
+          "rotY": 179.800049,
+          "rotZ": 0.0,
+          "scaleX": 15.3268814,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014629
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 23.6700039,
+          "posY": 3.29337883,
+          "posZ": -34.2558136,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 15.3268747,
+          "scaleY": 11.8970547,
+          "scaleZ": 6.705048
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -51.6596222,
+          "posY": 3.29337883,
+          "posZ": 11.7324,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 15.1940126,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.40567875
+        }
+      }
+    ]
+  },
+  "VectorLines": [],
+  "ObjectStates": [
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": -0.978557169,
+        "posY": 0.654694438,
+        "posZ": -0.196284026,
+        "rotX": -4.360669E-06,
+        "rotY": 0.003242165,
+        "rotZ": 3.0881356E-06,
+        "scaleX": 1.6499995,
+        "scaleY": 1.6499995,
+        "scaleZ": 1.6499995
+      },
+      "Nickname": "Bag of Effects",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.7058823,
+        "g": 0.366520882,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Assetbundle",
+          "Transform": {
+            "posX": -0.356618464,
+            "posY": 4.17864752,
+            "posZ": -1.14144135,
+            "rotX": 350.800385,
+            "rotY": 0.759431839,
+            "rotZ": 350.686829,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Fog",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CustomAssetbundle": {
+            "AssetbundleURL": "http://infinitebucket.com/tts/scenesystem/fog.unity3d",
+            "AssetbundleSecondaryURL": "",
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "LoopingEffectIndex": 0
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "b5ac7e"
+        },
+        {
+          "Name": "Custom_Assetbundle",
+          "Transform": {
+            "posX": -1.51696074,
+            "posY": 4.44224262,
+            "posZ": -0.2804201,
+            "rotX": 355.470978,
+            "rotY": 359.453033,
+            "rotZ": 11.824913,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Smoke",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CustomAssetbundle": {
+            "AssetbundleURL": "http://infinitebucket.com/tts/scenesystem/smoke.unity3d",
+            "AssetbundleSecondaryURL": "",
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "LoopingEffectIndex": 0
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "6e47a5"
+        },
+        {
+          "Name": "Custom_Assetbundle",
+          "Transform": {
+            "posX": -2.02207756,
+            "posY": 4.163186,
+            "posZ": 0.09220836,
+            "rotX": 9.889689,
+            "rotY": 1.99847984,
+            "rotZ": 9.007826,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Steam",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CustomAssetbundle": {
+            "AssetbundleURL": "http://infinitebucket.com/tts/scenesystem/steam.unity3d",
+            "AssetbundleSecondaryURL": "",
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "LoopingEffectIndex": 0
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "e57a98"
+        },
+        {
+          "Name": "Custom_Assetbundle",
+          "Transform": {
+            "posX": -1.39013219,
+            "posY": 4.39267969,
+            "posZ": 0.383379549,
+            "rotX": 8.386956,
+            "rotY": 0.469379932,
+            "rotZ": 8.619971,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Dust Cloud",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CustomAssetbundle": {
+            "AssetbundleURL": "http://infinitebucket.com/tts/scenesystem/dust.unity3d",
+            "AssetbundleSecondaryURL": "",
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "LoopingEffectIndex": 0
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "008d5b"
+        },
+        {
+          "Name": "Custom_Assetbundle",
+          "Transform": {
+            "posX": -0.6868668,
+            "posY": 4.206546,
+            "posZ": 0.322240323,
+            "rotX": 40.0612221,
+            "rotY": 354.159,
+            "rotZ": 304.9025,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Sparks & Smoke",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CustomAssetbundle": {
+            "AssetbundleURL": "http://infinitebucket.com/tts/scenesystem/spark.unity3d",
+            "AssetbundleSecondaryURL": "",
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "LoopingEffectIndex": 0
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "d8c040"
+        },
+        {
+          "Name": "Custom_Assetbundle",
+          "Transform": {
+            "posX": -0.9773392,
+            "posY": 4.67562151,
+            "posZ": 0.9946391,
+            "rotX": 3.53867674,
+            "rotY": 0.017471401,
+            "rotZ": 359.973816,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Light rain - from above",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CustomAssetbundle": {
+            "AssetbundleURL": "http://infinitebucket.com/tts/scenesystem/rainhi.unity3d",
+            "AssetbundleSecondaryURL": "",
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "LoopingEffectIndex": 0
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "0ed72f",
+          "States": {
+            "4": {
+              "Name": "Custom_Assetbundle",
+              "Transform": {
+                "posX": 34.34958,
+                "posY": 1.45999992,
+                "posZ": -16.5341949,
+                "rotX": 8.167465E-07,
+                "rotY": 3.523325E-05,
+                "rotZ": -1.01740136E-06,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "Heavy rain - from cube",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomAssetbundle": {
+                "AssetbundleURL": "http://infinitebucket.com/tts/scenesystem/rainheavy.unity3d",
+                "AssetbundleSecondaryURL": "",
+                "MaterialIndex": 3,
+                "TypeIndex": 0,
+                "LoopingEffectIndex": 0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "40525b"
+            },
+            "2": {
+              "Name": "Custom_Assetbundle",
+              "Transform": {
+                "posX": 6.953027,
+                "posY": 1.45999992,
+                "posZ": -16.6218243,
+                "rotX": 3.36594724E-07,
+                "rotY": 3.02179051E-05,
+                "rotZ": 1.72008777E-06,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "Heavy rain - from above",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomAssetbundle": {
+                "AssetbundleURL": "http://infinitebucket.com/tts/scenesystem/rainheavyhi.unity3d",
+                "AssetbundleSecondaryURL": "",
+                "MaterialIndex": 3,
+                "TypeIndex": 0,
+                "LoopingEffectIndex": 0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "aa1f70"
+            },
+            "3": {
+              "Name": "Custom_Assetbundle",
+              "Transform": {
+                "posX": 6.953027,
+                "posY": 1.46000016,
+                "posZ": -16.6218243,
+                "rotX": -2.37253516E-06,
+                "rotY": 3.02423123E-05,
+                "rotZ": -8.51728146E-07,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "Light rain - from cube",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomAssetbundle": {
+                "AssetbundleURL": "http://infinitebucket.com/tts/scenesystem/rain.unity3d",
+                "AssetbundleSecondaryURL": "",
+                "MaterialIndex": 3,
+                "TypeIndex": 0,
+                "LoopingEffectIndex": 0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "fd4407"
+            }
+          }
+        },
+        {
+          "Name": "Custom_Assetbundle",
+          "Transform": {
+            "posX": -1.07652152,
+            "posY": 4.738916,
+            "posZ": 0.85619694,
+            "rotX": 3.50624371,
+            "rotY": -0.005229011,
+            "rotZ": 0.689380467,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Light snow - from above",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CustomAssetbundle": {
+            "AssetbundleURL": "http://infinitebucket.com/tts/scenesystem/snowhi.unity3d",
+            "AssetbundleSecondaryURL": "",
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "LoopingEffectIndex": 0
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "b93dc5",
+          "States": {
+            "2": {
+              "Name": "Custom_Assetbundle",
+              "Transform": {
+                "posX": -9.177524,
+                "posY": 1.46000016,
+                "posZ": -16.0989285,
+                "rotX": 1.66977225E-06,
+                "rotY": -3.25945948E-05,
+                "rotZ": -2.76308867E-07,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "Heavy snow - from above",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomAssetbundle": {
+                "AssetbundleURL": "http://infinitebucket.com/tts/scenesystem/snowheavyhi.unity3d",
+                "AssetbundleSecondaryURL": "",
+                "MaterialIndex": 3,
+                "TypeIndex": 0,
+                "LoopingEffectIndex": 0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "6b4eb1"
+            },
+            "3": {
+              "Name": "Custom_Assetbundle",
+              "Transform": {
+                "posX": 4.2070446,
+                "posY": 1.46,
+                "posZ": -16.1744061,
+                "rotX": -3.15001239E-06,
+                "rotY": -0.0002507455,
+                "rotZ": -2.74521949E-06,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "Light snow - from cube",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomAssetbundle": {
+                "AssetbundleURL": "http://infinitebucket.com/tts/scenesystem/snow.unity3d",
+                "AssetbundleSecondaryURL": "",
+                "MaterialIndex": 3,
+                "TypeIndex": 0,
+                "LoopingEffectIndex": 0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "a39992"
+            },
+            "4": {
+              "Name": "Custom_Assetbundle",
+              "Transform": {
+                "posX": 15.3018208,
+                "posY": 1.46000028,
+                "posZ": -16.4621048,
+                "rotX": -1.69233147E-06,
+                "rotY": -1.94965523E-05,
+                "rotZ": -3.63865269E-07,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "Heavy snow - from cube",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomAssetbundle": {
+                "AssetbundleURL": "http://infinitebucket.com/tts/scenesystem/snowheavy.unity3d",
+                "AssetbundleSecondaryURL": "",
+                "MaterialIndex": 3,
+                "TypeIndex": 0,
+                "LoopingEffectIndex": 0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "536879"
+            }
+          }
+        },
+        {
+          "Name": "Custom_Assetbundle",
+          "Transform": {
+            "posX": -0.193357036,
+            "posY": 4.744544,
+            "posZ": -1.16121411,
+            "rotX": 357.690338,
+            "rotY": 0.0126716215,
+            "rotZ": 357.6557,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Lightning Strikes with Sound",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CustomAssetbundle": {
+            "AssetbundleURL": "http://infinitebucket.com/tts/scenesystem/lightning-strikes.unity3d",
+            "AssetbundleSecondaryURL": "",
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "LoopingEffectIndex": 0
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "f9b253"
+        },
+        {
+          "Name": "Custom_Assetbundle",
+          "Transform": {
+            "posX": -8.307588,
+            "posY": 4.720152,
+            "posZ": -1.66646421,
+            "rotX": 1.58377861E-05,
+            "rotY": 0.0004391012,
+            "rotZ": 4.921916E-06,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Ball of Lightning (w/ Sound)",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CustomAssetbundle": {
+            "AssetbundleURL": "http://infinitebucket.com/tts/scenesystem/lightning-ball.unity3d",
+            "AssetbundleSecondaryURL": "",
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "LoopingEffectIndex": 0
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "9c61f9"
+        }
+      ],
+      "GUID": "0d3390"
+    }
+  ],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": ""
+}

@@ -1,0 +1,468 @@
+{
+  "SaveName": "Harrow Deck [Pathfinder]",
+  "GameMode": "Custom",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "11/10/2015 11:38:15 PM",
+  "Table": "Table_RPG",
+  "Sky": "Sky_Cathedral",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "",
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": true,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": true,
+    "xSize": 2.35,
+    "ySize": 3.5,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0
+  },
+  "VectorLines": [],
+  "ObjectStates": [
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -1.175,
+        "posY": 1.01480329,
+        "posZ": -1.75000024,
+        "rotX": 1.428911E-07,
+        "rotY": 179.986526,
+        "rotZ": 4.473101E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Wisdom",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.7132586,
+        "g": 0.7132586,
+        "b": 0.7132586
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        151,
+        147,
+        129,
+        142,
+        153,
+        144,
+        150,
+        122,
+        146
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "http://i.imgur.com/fDiN77y.jpg",
+          "BackURL": "http://i.imgur.com/BCq8Wfd.jpg",
+          "BackIsHidden": false,
+          "UniqueBack": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "427a69"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -3.52500033,
+        "posY": 1.01480329,
+        "posZ": -1.75000048,
+        "rotX": 3.24531925E-07,
+        "rotY": 180.004166,
+        "rotZ": -4.151472E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Intelligence",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.7132586,
+        "g": 0.7132586,
+        "b": 0.7132586
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        132,
+        135,
+        134,
+        100,
+        102,
+        112,
+        136,
+        113,
+        137
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "http://i.imgur.com/fDiN77y.jpg",
+          "BackURL": "http://i.imgur.com/BCq8Wfd.jpg",
+          "BackIsHidden": false,
+          "UniqueBack": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "55282c"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -5.875,
+        "posY": 1.01480329,
+        "posZ": -1.75000012,
+        "rotX": 4.39176858E-07,
+        "rotY": 180.018967,
+        "rotZ": -1.82449344E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Constitution",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.7132586,
+        "g": 0.7132586,
+        "b": 0.7132586
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        121,
+        128,
+        104,
+        107,
+        103,
+        101,
+        145,
+        105,
+        114
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "http://i.imgur.com/fDiN77y.jpg",
+          "BackURL": "http://i.imgur.com/BCq8Wfd.jpg",
+          "BackIsHidden": false,
+          "UniqueBack": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "04dfe0"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": 3.52499962,
+        "posY": 1.01480329,
+        "posZ": -1.75000048,
+        "rotX": 1.34945424E-07,
+        "rotY": 180.008362,
+        "rotZ": -2.52128245E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Charisma",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.7132586,
+        "g": 0.7132586,
+        "b": 0.7132586
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        110,
+        140,
+        108,
+        143,
+        106,
+        130,
+        109,
+        119,
+        123
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "http://i.imgur.com/fDiN77y.jpg",
+          "BackURL": "http://i.imgur.com/BCq8Wfd.jpg",
+          "BackIsHidden": false,
+          "UniqueBack": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "94a2ce"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": 1.17484379,
+        "posY": 1.01480329,
+        "posZ": -1.75018454,
+        "rotX": 1.46627528E-07,
+        "rotY": 179.9993,
+        "rotZ": 7.973136E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Dexterity",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.7132586,
+        "g": 0.7132586,
+        "b": 0.7132586
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        152,
+        127,
+        149,
+        124,
+        116,
+        125,
+        141,
+        138,
+        115
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "http://i.imgur.com/fDiN77y.jpg",
+          "BackURL": "http://i.imgur.com/BCq8Wfd.jpg",
+          "BackIsHidden": false,
+          "UniqueBack": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "c23c67"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": 5.87499952,
+        "posY": 1.01480329,
+        "posZ": -1.75,
+        "rotX": -1.62604479E-07,
+        "rotY": 180.008347,
+        "rotZ": -1.70457088E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Strength",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.7132586,
+        "g": 0.7132586,
+        "b": 0.7132586
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        118,
+        131,
+        111,
+        148,
+        133,
+        139,
+        126,
+        120,
+        117
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "http://i.imgur.com/fDiN77y.jpg",
+          "BackURL": "http://i.imgur.com/BCq8Wfd.jpg",
+          "BackIsHidden": false,
+          "UniqueBack": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "9f8341"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -1.7068578E-07,
+        "posY": 1.26796162,
+        "posZ": 3.49999976,
+        "rotX": 5.44622537E-07,
+        "rotY": 180.007614,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Full Deck",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713262558,
+        "g": 0.713262558,
+        "b": 0.713262558
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        118,
+        117,
+        148,
+        131,
+        126,
+        133,
+        139,
+        111,
+        120,
+        138,
+        141,
+        125,
+        116,
+        115,
+        152,
+        127,
+        149,
+        124,
+        145,
+        107,
+        104,
+        121,
+        103,
+        101,
+        105,
+        114,
+        128,
+        143,
+        119,
+        109,
+        110,
+        140,
+        130,
+        106,
+        123,
+        108,
+        137,
+        132,
+        112,
+        134,
+        113,
+        102,
+        135,
+        100,
+        136,
+        144,
+        151,
+        147,
+        142,
+        150,
+        122,
+        146,
+        129,
+        153
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "http://i.imgur.com/fDiN77y.jpg",
+          "BackURL": "http://i.imgur.com/BCq8Wfd.jpg",
+          "BackIsHidden": false,
+          "UniqueBack": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "91a09d"
+    }
+  ],
+  "TabStates": {},
+  "VersionNumber": ""
+}

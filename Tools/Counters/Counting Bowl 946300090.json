@@ -1,0 +1,1836 @@
+{
+  "SaveName": "Counting Bowl",
+  "GameMode": "Counting Bowl",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "1/1/2018 10:17:50 AM",
+  "Table": "Table_Octagon",
+  "Sky": "Sky_Museum",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "",
+  "LuaScript": "--[[ Lua code. See documentation: http://berserk-games.com/knowledgebase/scripting/ --]]\n\n--[[ The OnLoad function. This is called after everything in the game save finishes loading.\nMost of your script code goes here. --]]\nfunction onload()\n    --[[ print('Onload!') --]]\nend\n\n--[[ The Update function. This is called once per frame. --]]\nfunction update ()\n    --[[ print('Update loop!') --]]\nend",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -12.3078938,
+          "posY": 3.62895536,
+          "posZ": -12.4467239,
+          "rotX": 0.0,
+          "rotY": 45.0000038,
+          "rotZ": 0.0,
+          "scaleX": 9.413995,
+          "scaleY": 8.96114,
+          "scaleZ": 5.465846
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -12.3997517,
+          "posY": 3.62895632,
+          "posZ": 12.1996937,
+          "rotX": 0.0,
+          "rotY": 135.0,
+          "rotZ": 0.0,
+          "scaleX": 9.414506,
+          "scaleY": 8.96114,
+          "scaleZ": 5.466138
+        }
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 17.3902626,
+          "posY": 3.628953,
+          "posZ": 0.0449414253,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 9.414257,
+          "scaleY": 8.96114,
+          "scaleZ": 5.46597528
+        }
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 12.36914,
+          "posY": 3.62895346,
+          "posZ": 12.2303085,
+          "rotX": 0.0,
+          "rotY": 225.000046,
+          "rotZ": 0.0,
+          "scaleX": 9.414507,
+          "scaleY": 8.96114,
+          "scaleZ": 5.466159
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 4.76837158E-06,
+          "posY": 3.62895727,
+          "posZ": -17.3453884,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 9.414002,
+          "scaleY": 8.961143,
+          "scaleZ": 5.46584272
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": 9.536743E-07,
+          "posY": 3.62895346,
+          "posZ": 17.1985073,
+          "rotX": 0.0,
+          "rotY": 179.8,
+          "rotZ": 0.0,
+          "scaleX": 9.414243,
+          "scaleY": 8.96114,
+          "scaleZ": 5.466073
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 12.3691339,
+          "posY": 3.628955,
+          "posZ": -12.1405706,
+          "rotX": -1.30690034E-06,
+          "rotY": 315.0,
+          "rotZ": -3.1551358E-06,
+          "scaleX": 9.413845,
+          "scaleY": 8.96114,
+          "scaleZ": 5.46586752
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -17.4208851,
+          "posY": 3.628955,
+          "posZ": -0.16938591,
+          "rotX": -4.82967334E-06,
+          "rotY": 90.0,
+          "rotZ": 4.829673E-06,
+          "scaleX": 9.414243,
+          "scaleY": 8.96114,
+          "scaleZ": 5.46596956
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "VectorLines": [],
+  "ObjectStates": [
+    {
+      "Name": "Bowl",
+      "Transform": {
+        "posX": -0.00165883638,
+        "posY": 0.905851543,
+        "posZ": -0.00103003532,
+        "rotX": 0.111202605,
+        "rotY": 359.653076,
+        "rotZ": 359.919464,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Counting Bowl",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.5205476,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "--Counting Bowl    by MrStump\r\n\r\n--Table of items which can be counted in this Bowl\r\n--Each entry has 2 things to enter\r\n    --a name (what is in the name field of that object)\r\n    --a value (how much it is worth)\r\n--A number in the items description will override the number entry in this table\r\nvalidCountItemList = {\r\n    [\"Currency\"] = 1,\r\n    --[\"Name2\"] = 5,\r\n    --[\"Name3\"] = 2,\r\n    --[\"Name4\"] = 31,\r\n    --Add more entries as needed\r\n    --Remove the -- from before a line for the script to use it\r\n}\r\n\r\n--END OF CODE TO EDIT\r\n\r\nfunction onLoad()\r\n    timerID = self.getGUID()..math.random(9999999999999)\r\n    --Sets position/color for the button, spawns it\r\n    self.createButton({\r\n        label=\"\", click_function=\"none\", function_owner=self,\r\n        position={0,0.04,-2.5}, rotation={0,180,0}, height=00, width=0,\r\n        font_color={1,1,1}, font_size=500\r\n    })\r\n    --Start timer which repeats forever, running countItems() every second\r\n    Timer.create({\r\n        identifier=timerID,\r\n        function_name=\"countItems\", function_owner=self,\r\n        repetitions=0, delay=1\r\n    })\r\nend\r\n\r\n--Activated once per second, counts items in bowls\r\nfunction countItems()\r\n    local totalValue = 0\r\n    local itemsInBowl = findItemsInSphere()\r\n    --Go through all items found by the cast\r\n    for _, entry in ipairs(itemsInBowl) do\r\n        --Ignore the bowl\r\n        if entry.hit_object ~= self then\r\n            local tableEntry = validCountItemList[entry.hit_object.getName()]\r\n            --Ignore if not in validCountItemList\r\n            if tableEntry ~= nil then\r\n                local descValue = tonumber(entry.hit_object.getDescription())\r\n                local stackMult = math.abs(entry.hit_object.getQuantity())\r\n                --Use value in description if available\r\n                if descValue ~= nil then\r\n                    totalValue = totalValue + descValue * stackMult\r\n                else\r\n                    --Otherwise use the value in validCountItemList\r\n                    totalValue = totalValue + tableEntry * stackMult\r\n                end\r\n            end\r\n        end\r\n    end\r\n    --Updates the number display\r\n    self.editButton({index=0, label=totalValue})\r\nend\r\n\r\n--Gets the items in the bowl for countItems to count\r\nfunction findItemsInSphere()\r\n    --Find scaling factor\r\n    local scale = self.getScale()\r\n    --Set position for the sphere\r\n    local pos = self.getPosition()\r\n    pos.y=pos.y+(1.25*scale.y)\r\n    --Ray trace to get all objects\r\n    return Physics.cast({\r\n        origin=pos, direction={0,1,0}, type=2, max_distance=0,\r\n        size={3.4*scale.x,3.4*scale.y,3.4*scale.z}, --debug=true\r\n    })\r\nend\r\n\r\nfunction onDestroy()\r\n    Timer.destroy(timerID)\r\nend\r\n",
+      "LuaScriptState": "",
+      "GUID": "456c88"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": 0.0259627458,
+        "posY": 1.46,
+        "posZ": -5.38608456,
+        "rotX": -4.148745E-05,
+        "rotY": 15.0308437,
+        "rotZ": 1.47287928E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Currency",
+      "Description": "10",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.182155788,
+        "g": 0.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "6a003a"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -0.0247336216,
+        "posY": 1.449543,
+        "posZ": -0.366417319,
+        "rotX": 26.47103,
+        "rotY": 80.818924,
+        "rotZ": 41.90213,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "05a1b7"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": 0.206363022,
+        "posY": 1.54276526,
+        "posZ": -0.010168531,
+        "rotX": 54.4960938,
+        "rotY": 9.1683445,
+        "rotZ": 200.949524,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "fc15d5"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -0.5602102,
+        "posY": 1.66575336,
+        "posZ": -0.70268,
+        "rotX": 23.7149963,
+        "rotY": 19.033371,
+        "rotZ": 269.882446,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "065bdc"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": 0.604916751,
+        "posY": 1.46923351,
+        "posZ": 0.0835649148,
+        "rotX": 294.160583,
+        "rotY": 266.4159,
+        "rotZ": 211.033066,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "24e0e7"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -0.222196892,
+        "posY": 1.54824328,
+        "posZ": -0.7140254,
+        "rotX": 4.624179,
+        "rotY": 295.330933,
+        "rotZ": 334.2576,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "435fbf"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -0.06331698,
+        "posY": 1.54133487,
+        "posZ": 0.609450638,
+        "rotX": 6.62721252,
+        "rotY": 170.817,
+        "rotZ": 358.3695,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "9ba6f2"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -0.412025869,
+        "posY": 1.44267237,
+        "posZ": -0.09850363,
+        "rotX": 15.1316051,
+        "rotY": 276.218079,
+        "rotZ": 345.9764,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "ce6150"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -0.38334313,
+        "posY": 1.40351915,
+        "posZ": 0.265295565,
+        "rotX": 357.0803,
+        "rotY": 27.0007687,
+        "rotZ": 63.07731,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "a222e6"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": 0.456879675,
+        "posY": 1.44591641,
+        "posZ": -0.3505878,
+        "rotX": 298.740143,
+        "rotY": 321.985352,
+        "rotZ": 339.4518,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "67192d"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -0.432761371,
+        "posY": 1.79449809,
+        "posZ": -0.113979779,
+        "rotX": 283.4394,
+        "rotY": 16.516264,
+        "rotZ": 334.2083,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "f2d19f"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -0.774924934,
+        "posY": 1.54606032,
+        "posZ": 0.035395842,
+        "rotX": 26.2647133,
+        "rotY": 111.338638,
+        "rotZ": 9.87435,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "e58343"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": 0.235220164,
+        "posY": 1.50484467,
+        "posZ": -0.610362649,
+        "rotX": 358.932434,
+        "rotY": 233.836792,
+        "rotZ": 336.02005,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "cbe9c2"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -0.631752968,
+        "posY": 1.55456567,
+        "posZ": 0.4065653,
+        "rotX": 27.07055,
+        "rotY": 125.895935,
+        "rotZ": 350.4245,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "0a109f"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": 0.0113414675,
+        "posY": 1.50575924,
+        "posZ": 0.3195545,
+        "rotX": 353.476,
+        "rotY": 350.531,
+        "rotZ": 18.363308,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "ebbfb6"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": 0.331770062,
+        "posY": 1.53374517,
+        "posZ": 0.5040507,
+        "rotX": 336.082642,
+        "rotY": 58.4848747,
+        "rotZ": 49.7554474,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "5239a8"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -0.46927312,
+        "posY": 1.50388741,
+        "posZ": -0.436344326,
+        "rotX": 349.963867,
+        "rotY": 295.003082,
+        "rotZ": 155.223389,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "924284"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -0.119408667,
+        "posY": 1.62193453,
+        "posZ": -0.0345012136,
+        "rotX": 349.206,
+        "rotY": 84.6273041,
+        "rotZ": 348.0315,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "9a15d9"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -0.7800526,
+        "posY": 1.62097633,
+        "posZ": -0.297232538,
+        "rotX": 349.141846,
+        "rotY": 193.1067,
+        "rotZ": 94.66283,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "68b9eb"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -0.239848644,
+        "posY": 1.791873,
+        "posZ": -0.39392066,
+        "rotX": 356.031433,
+        "rotY": 256.064545,
+        "rotZ": 78.06292,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "028d0e"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -0.435467958,
+        "posY": 1.61419392,
+        "posZ": 0.6470454,
+        "rotX": 354.566864,
+        "rotY": 38.2056961,
+        "rotZ": 358.463165,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "9ea25a"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -0.0279327352,
+        "posY": 1.69519043,
+        "posZ": 0.9529523,
+        "rotX": 72.34067,
+        "rotY": 350.349579,
+        "rotZ": 65.9095154,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "a35cc1"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": 0.5072417,
+        "posY": 1.63113618,
+        "posZ": 0.766584158,
+        "rotX": 295.549225,
+        "rotY": 220.504944,
+        "rotZ": 15.8327732,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "064b36"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": 0.189914584,
+        "posY": 1.83774126,
+        "posZ": 0.159135073,
+        "rotX": 27.8205471,
+        "rotY": 50.70674,
+        "rotZ": 48.641922,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "a991a9"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -0.254425436,
+        "posY": 1.78186631,
+        "posZ": 0.260465264,
+        "rotX": 359.368683,
+        "rotY": 161.037918,
+        "rotZ": 41.048008,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "fda144"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": 0.616389155,
+        "posY": 1.65577626,
+        "posZ": -0.5590483,
+        "rotX": 66.46804,
+        "rotY": 98.77114,
+        "rotZ": 71.54777,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "aa8ca9"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": 0.810902059,
+        "posY": 1.703555,
+        "posZ": -0.208846867,
+        "rotX": 71.2236,
+        "rotY": 1.66679955,
+        "rotZ": 176.417877,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "4df167"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": 0.144999415,
+        "posY": 1.82590616,
+        "posZ": -0.331333131,
+        "rotX": 326.8126,
+        "rotY": 265.5824,
+        "rotZ": 16.4574986,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "109238"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": 0.279725283,
+        "posY": 2.08205342,
+        "posZ": -0.4429882,
+        "rotX": 309.219055,
+        "rotY": 111.618553,
+        "rotZ": 247.521271,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "64214c"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -0.333725959,
+        "posY": 2.091527,
+        "posZ": -0.09869987,
+        "rotX": 1.34250259,
+        "rotY": 101.542023,
+        "rotZ": 13.2480106,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "1cdb63"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": 0.493311882,
+        "posY": 1.78700888,
+        "posZ": 0.3253003,
+        "rotX": 51.97536,
+        "rotY": 322.439,
+        "rotZ": 345.050537,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "491ef6"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": 0.7719145,
+        "posY": 1.683226,
+        "posZ": 0.435613662,
+        "rotX": 4.8893,
+        "rotY": 66.0544052,
+        "rotZ": 67.3314743,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "a5a0ad"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": 0.5148751,
+        "posY": 1.80345106,
+        "posZ": -0.172028407,
+        "rotX": 2.31314945,
+        "rotY": 95.30165,
+        "rotZ": 357.905518,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "fb56d2"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -0.6945263,
+        "posY": 1.92226887,
+        "posZ": -0.332876235,
+        "rotX": 351.9926,
+        "rotY": 168.870728,
+        "rotZ": 8.98715,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "5bde32"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": 0.430885226,
+        "posY": 1.98287392,
+        "posZ": -0.77337265,
+        "rotX": 356.271942,
+        "rotY": 272.833557,
+        "rotZ": 88.1429138,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "b12989"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -0.04478155,
+        "posY": 1.716872,
+        "posZ": -1.025353,
+        "rotX": 307.291443,
+        "rotY": 356.7623,
+        "rotZ": 245.79248,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "316dc4"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": 1.17323208,
+        "posY": 1.82608891,
+        "posZ": -0.10658063,
+        "rotX": 331.207733,
+        "rotY": 271.784332,
+        "rotZ": 185.6815,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "3e46de"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": 0.321422517,
+        "posY": 1.692585,
+        "posZ": -0.9475338,
+        "rotX": 4.844586,
+        "rotY": 315.3257,
+        "rotZ": 345.531128,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "c1b41b"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": 1.01874673,
+        "posY": 1.83871877,
+        "posZ": -0.571310461,
+        "rotX": 345.8779,
+        "rotY": 314.2613,
+        "rotZ": 332.9304,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "4303f2"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": 0.771744,
+        "posY": 1.88121724,
+        "posZ": -0.848512769,
+        "rotX": 11.2099819,
+        "rotY": 282.840454,
+        "rotZ": 321.735168,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "8a55c3"
+    },
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": 0.0661379,
+        "posY": 1.84798169,
+        "posZ": -0.6699352,
+        "rotX": 299.8975,
+        "rotY": 246.614624,
+        "rotZ": 222.34462,
+        "scaleX": 0.300000429,
+        "scaleY": 0.300000429,
+        "scaleZ": 0.300000429
+      },
+      "Nickname": "Currency",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "9ef9ad"
+    },
+    {
+      "Name": "Notecard",
+      "Transform": {
+        "posX": 0.07148542,
+        "posY": 1.02999973,
+        "posZ": 5.907324,
+        "rotX": 1.75724381E-06,
+        "rotY": 1.97733261E-05,
+        "rotZ": 2.56406224E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "[b]How to use it[/b]",
+      "Description": "\nEdit the table at the top the script with the names and values of items you would like the bowl to count.\n\nIt will ignore all other items not in that list.\n\nYou can also add values to the description of items on that list to override the value that is in the table.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "b1a1f5"
+    }
+  ],
+  "DecalPallet": [],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": "v10.2"
+}

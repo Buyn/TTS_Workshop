@@ -1,0 +1,490 @@
+{
+  "SaveName": "Editable Card",
+  "GameMode": "Dice",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "10/14/2018 10:27:27 AM",
+  "Table": "Table_Square",
+  "Sky": "Sky_Tunnel",
+  "SkyURL": "http://www.astralvault.net/games/SA/TTS/Misc/LB9.jpg",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
+  "LuaScript": "--[[ Lua code. See documentation: http://berserk-games.com/knowledgebase/scripting/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate ()\n    --[[ print('onUpdate loop!') --]]\nend",
+  "LuaScriptState": "{\"freshLoad\":false}",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 14.3801212,
+          "posY": 3.02004242,
+          "posZ": 0.141296387,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 9.395147,
+          "scaleY": 6.63429928,
+          "scaleZ": 3.52301812
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 0.03270387,
+          "posY": 3.02001953,
+          "posZ": -14.3715134,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 9.392744,
+          "scaleY": 6.63429928,
+          "scaleZ": 3.52250624
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": 0.03270387,
+          "posY": 3.01993942,
+          "posZ": 14.2781334,
+          "rotX": 0.0,
+          "rotY": 180.0,
+          "rotZ": 0.0,
+          "scaleX": 9.394025,
+          "scaleY": 6.63429928,
+          "scaleZ": 3.52295423
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -14.2912292,
+          "posY": 3.02004242,
+          "posZ": -0.05830002,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 9.395147,
+          "scaleY": 6.63429928,
+          "scaleZ": 3.52301812
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "VectorLines": [
+    {
+      "points3": [
+        {
+          "x": -34.67,
+          "y": 0.99,
+          "z": -1.37
+        },
+        {
+          "x": -34.66,
+          "y": 0.99,
+          "z": -1.36
+        }
+      ],
+      "color": {
+        "r": 0.3372549,
+        "g": 0.0,
+        "b": 0.490196079
+      },
+      "thickness": 0.1
+    }
+  ],
+  "ObjectStates": [
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": -0.167764261,
+        "posY": 1.0317148,
+        "posZ": 0.850523,
+        "rotX": 3.7772412E-07,
+        "rotY": 180.078537,
+        "rotZ": -3.11150984E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Title",
+      "Description": "Description",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 8,
+      "SidewaysCard": false,
+      "XmlUI": "",
+      "LuaScript": "function onLoad(save_state)\r\n  local dataTitle = {click_function = \"updateButtonLabels\", function_owner = self, label = self.getName(), position = {0, 0.2, -1.2}, scale = {0.5, 0.5, 0.5}, width = 2000, height = 600, font_size = 200}\r\n  local dataDescription = {click_function = \"updateButtonLabels\", function_owner = self, label = self.getDescription(), position = {0, 0.2, 0.2}, scale = {0.5, 0.5, 0.5}, width = 2000, height = 2100, font_size = 200}\r\n  self.createButton(dataTitle)\r\n  self.createButton(dataDescription)\r\nend\r\n\r\nfunction updateButtonLabels()\r\n  self.clearButtons()\r\n  local dataTitle = {click_function = \"updateButtonLabels\", function_owner = self, label = self.getName(), position = {0, 0.2, -1.2}, scale = {0.5, 0.5, 0.5}, width = 2000, height = 600, font_size = 200}\r\n  local dataDescription = {click_function = \"updateButtonLabels\", function_owner = self, label = self.getDescription(), position = {0, 0.2, 0.2}, scale = {0.5, 0.5, 0.5}, width = 2000, height = 2100, font_size = 200}\r\n  self.createButton(dataTitle)\r\n  self.createButton(dataDescription)\r\nend",
+      "LuaScriptState": "",
+      "GUID": "91d803"
+    },
+    {
+      "Name": "Notecard",
+      "Transform": {
+        "posX": 0.0517207868,
+        "posY": 1.03000116,
+        "posZ": -3.07640815,
+        "rotX": 6.79921754E-08,
+        "rotY": 0.000681623642,
+        "rotZ": -4.072207E-09,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Editable Card",
+      "Description": "Edit the name and description of the card, then click any of its button to update their labels.\n\nIntended for the prototyping of games.\n\nTip: Colour tinting these cards does not work unfortunately, but you can put decals on the backs of cards to identify which decks they belong to.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "374eb1"
+    },
+    {
+      "Name": "Card",
+      "Transform": {
+        "posX": 3.73461771,
+        "posY": 1.0317148,
+        "posZ": 0.8388896,
+        "rotX": 8.41568237E-07,
+        "rotY": 179.994034,
+        "rotZ": -4.81486836E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Title",
+      "Description": "Description",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 8,
+      "SidewaysCard": false,
+      "XmlUI": "",
+      "LuaScript": "function onLoad(save_state)\r\n  local dataTitle = {click_function = \"updateButtonLabels\", function_owner = self, label = self.getName(), position = {0, 0.2, -1.45}, scale = {0.5, 0.5, 0.5}, width = 2100, height = 300, font_size = 150, color = {0.0975, 0.0975, 0.0975, 1}, font_color = {0.7573, 0.7573, 0.7573, 1}}\r\n  local dataDescription = {click_function = \"updateButtonLabels\", function_owner = self, label = self.getDescription(), position = {0, 0.2, 0.08}, scale = {0.5, 0.5, 0.5}, width = 2100, height = 2650, font_size = 125, color = {0.0975, 0.0975, 0.0975, 1}, font_color = {0.7573, 0.7573, 0.7573, 1}}\r\n  self.createButton(dataTitle)\r\n  self.createButton(dataDescription)\r\nend\r\n\r\nfunction updateButtonLabels()\r\n  self.clearButtons()\r\n  local dataTitle = {click_function = \"updateButtonLabels\", function_owner = self, label = self.getName(), position = {0, 0.2, -1.45}, scale = {0.5, 0.5, 0.5}, width = 2100, height = 300, font_size = 150, color = {0.0975, 0.0975, 0.0975, 1}, font_color = {0.7573, 0.7573, 0.7573, 1}}\r\n  local dataDescription = {click_function = \"updateButtonLabels\", function_owner = self, label = self.getDescription(), position = {0, 0.2, 0.08}, scale = {0.5, 0.5, 0.5}, width = 2100, height = 2650, font_size = 125, color = {0.0975, 0.0975, 0.0975, 1}, font_color = {0.7573, 0.7573, 0.7573, 1}}\r\n  self.createButton(dataTitle)\r\n  self.createButton(dataDescription)\r\nend\r\n",
+      "LuaScriptState": "",
+      "GUID": "99624e"
+    },
+    {
+      "Name": "Notecard",
+      "Transform": {
+        "posX": -6.2573576,
+        "posY": 1.03000128,
+        "posZ": 1.44041014,
+        "rotX": 9.06690261E-08,
+        "rotY": 359.974854,
+        "rotZ": 7.239856E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Description Getter/Setter",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "--\tBetter Notecards\r\n--\tby: Bada\r\n--\tUpdated: 2017-09-15\r\n\r\nNOTECARD = {}\r\n\r\n-- Load and Save data\r\n\r\nfunction onLoad(saved_data)\r\n\r\n\tif saved_data ~= \"\" then\r\n\t\tNOTECARD = JSON.decode(saved_data)\r\n\t\tif NOTECARD.description == nil then\r\n\t\t\tdefaults()\r\n\t\tend\r\n\telse\r\n\t\tdefaults()\r\n\tend\r\n\tcreateFields()\r\n\tloadData()\r\nend\r\n\r\nfunction updateSave()\r\n    saved_data = JSON.encode(NOTECARD)\r\n    self.script_state = saved_data\r\nend\r\n\r\nfunction onSave()\r\n\treturn JSON.encode(NOTECARD)\r\nend\r\n\r\nfunction defaults()\r\n\tNOTECARD = {\r\n\t\tdescription = { \"\" },\r\n\t\tfontsize = { 250 },\r\n\t\tpagenumber = 1,\r\n\t\tmaxpagenumber = 1,\r\n\t\tlocked = false,\r\n\t\tinput_description = 0,\r\n\t\tinput_pagenumber = 1,\r\n\t\tbutton_lock = 0,\r\n\t\tbutton_incfont = 1,\r\n\t\tbutton_decfont = 2,\r\n\t\tbutton_pageup = 3,\r\n\t\tbutton_pagedown = 4\r\n\t}\r\nend\r\n\r\n\r\n-- Populate fields\r\n\r\nfunction createFields()\r\n\tself.createInput({input_function = \"inputDescription\", function_owner = self, label = \" 1. Name field controls the header\\n 2. This text field controls the description\\n 3. Click Arrows to change page number\\n 4. Click [b]+[/b] or [b]-[/b] to change the font size\\n 5. You can Lock or Unlock the Notecard\\n 6. [b]BBCode[/b] also [u]works[/u][FF0000]![-]\\n\\n\\n\\n\", position = {0.032, 2.5, -0.045}, rotation = {0, 180, 0}, scale = {0.1, 0.1, 0.14}, width = 4500, height = 2600, font_size = 250, tooltip = \"Description\", alignment = 2})\r\n\tself.createInput({input_function = \"inputPageNumber\", function_owner = self, label = \"Page Number\", position = {-0.468, 2.5, -0.046}, rotation = {0, 270, 0}, scale = {0.1, 0.1, 0.1}, width = 2720, height = 310, font_size = 287, tooltip = \"Page Number\", alignment = 3, value = \"Page Number\"})\r\n\r\n\tif NOTECARD.locked then lock_label = \"Locked\" end\r\n\tself.createButton({click_function = \"getDesc\", function_owner = self, label = 'Get Desc', position = {0.368, 2.5, -0.461}, rotation = {0, 180, 0}, scale = {0.1, 0.1, 0.1}, width = 1300, height = 390, font_size = 240, tooltip = \"Lock / Unlock\"})\r\n\tself.createButton({click_function = \"setDesc\", function_owner = self, label = 'Set Desc', position = {0.05, 2.5, -0.461}, rotation = {0, 180, 0}, scale = {0.1, 0.1, 0.1}, width = 1300, height = 390, font_size = 240, tooltip = \"Lock / Unlock\"})\r\n\tself.createButton({click_function = \"clickIncreaseFont\", function_owner = self, label = \"+\", position = {-0.24, 2.5, -0.461}, rotation = {0, 180, 0}, scale = {0.1, 0.1, 0.1}, width = 400, height = 390, font_size = 400, tooltip = \"Increase Font Size\"})\r\n\tself.createButton({click_function = \"clickDecreaseFont\", function_owner = self, label = \"-\", position = {-0.155, 2.5, -0.461}, rotation = {0, 180, 0}, scale = {0.1, 0.1, 0.1}, width = 400, height = 390, font_size = 400, tooltip = \"Decrease Font Size\"})\r\n\tself.createButton({click_function = \"clickPageUp\", function_owner = self, label = \"▲\", position = {-0.468, 2.5, 0.286}, rotation = {0, 180, 0}, scale = {0.1, 0.1, 0.1}, width = 340, height = 500, font_size = 300, tooltip = \"Previous Page\"})\r\n\tself.createButton({click_function = \"clickPageDown\", function_owner = self, label = \"▼\", position = {-0.468, 2.5, -0.378}, rotation = {0, 180, 0}, scale = {0.1, 0.1, 0.1}, width = 340, height = 500, font_size = 300, tooltip = \"Next Page\"})\r\nend\r\n\r\nfunction getDesc()\r\n\tlocal selfDesc = self.getDescription()\r\n\tlocal object = getObjectFromGUID(selfDesc)\r\n\tif (object == nil) then\r\n\t\tprint('No object found with that GUI. Please set my description to a valid GUID')\r\n\telse\r\n\t\tlocal objectDesc = object.getDescription()\r\n\t\tlocal pageNum = NOTECARD.pagenumber\r\n\t\tNOTECARD.description[pageNum] = objectDesc\r\n\t\tloadData()\r\n\t\tprint('Get description')\r\n\tend\r\nend\r\n\r\nfunction setDesc()\r\n\tlocal selfDesc = self.getDescription()\r\n\tlocal object = getObjectFromGUID(selfDesc)\r\n\tif (object == nil) then\r\n\t\tprint('No object found with that GUI. Please set my description to a valid GUID')\r\n\telse\r\n\t\tlocal pageNum = NOTECARD.pagenumber\r\n\t\tobject.setDescription(NOTECARD.description[pageNum])\r\n\t\tprint('Set Description')\r\n\tend\r\nend\r\n\r\nfunction loadData()\r\n\tlocal pageNum = NOTECARD.pagenumber\r\n\tif NOTECARD.description[pageNum] ~= nil then\r\n\t\tmodifyInput(NOTECARD.input_description, NOTECARD.description[pageNum])\r\n\t\tmodifyInput(NOTECARD.input_description, NOTECARD.fontsize[pageNum], \"font_size\")\r\n\telse\r\n\t\taddPage()\r\n\t\tloadData(pageNum)\r\n\tend\r\n\tupdatePage()\r\nend\r\n\r\n\r\n-- Helpers\r\n\r\nfunction modifyInput(i, v, n)\r\n\tif n then\r\n\t\tself.editInput({index = i, [n] = v})\r\n\telse\r\n\t\tself.editInput({index = i, value = v})\r\n\tend\r\nend\r\n\r\nfunction modifyButton(i, v, n)\r\n\tif n then\r\n\t\tself.editButton({index = i, [n] = v})\r\n\telse\r\n\t\tself.editButton({index = i, label = v})\r\n\tend\r\nend\r\n\r\n\r\n-- Page Functions\r\n\r\nfunction addPage()\r\n\tNOTECARD.maxpagenumber = NOTECARD.maxpagenumber + 1\r\n\tNOTECARD.description[NOTECARD.maxpagenumber] = \"\"\r\n\tNOTECARD.fontsize[NOTECARD.maxpagenumber] = 250\r\n\tupdateSave()\r\nend\r\n\r\nfunction removePage()\r\n\tNOTECARD.description[NOTECARD.maxpagenumber] = nil\r\n\tNOTECARD.fontsize[NOTECARD.maxpagenumber] = nil\r\n\tNOTECARD.maxpagenumber = NOTECARD.maxpagenumber - 1\r\n\tupdateSave()\r\nend\r\n\r\nfunction getPageNum()\r\n\treturn \"\" .. NOTECARD.pagenumber .. \"    /    \" .. NOTECARD.maxpagenumber .. \"\"\r\nend\r\n\r\nfunction updatePage()\r\n\tmodifyInput(NOTECARD.input_pagenumber, getPageNum())\r\nend\r\n\r\n\r\n-- Click events\r\n\r\nfunction clickLockUnlock(btn, colw)\r\n\tNOTECARD.locked = not NOTECARD.locked\r\n\tif NOTECARD.locked then\r\n\t\tmodifyButton(NOTECARD.button_lock, \"Locked\")\r\n\telse\r\n\t\tmodifyButton(NOTECARD.button_lock, \"Unlocked\")\r\n\tend\r\nend\r\n\r\nfunction clickIncreaseFont(btn, col)\r\n\tif NOTECARD.locked then\r\n\t\talertLocked(col)\r\n\t\treturn\r\n\tend\r\n\tNOTECARD.fontsize[NOTECARD.pagenumber] = NOTECARD.fontsize[NOTECARD.pagenumber] + 10\r\n\tupdateSave()\r\n\tloadData()\r\nend\r\n\r\nfunction clickDecreaseFont(btn, col)\r\n\tif NOTECARD.locked then\r\n\t\talertLocked(col)\r\n\t\treturn\r\n\tend\r\n\tNOTECARD.fontsize[NOTECARD.pagenumber] = NOTECARD.fontsize[NOTECARD.pagenumber] - 10\r\n\tupdateSave()\r\n\tloadData()\r\nend\r\n\r\nfunction clickPageUp(btn, col)\r\n\tif NOTECARD.description[NOTECARD.maxpagenumber] == \"\" and #NOTECARD.description > 1 then\r\n\t\tremovePage()\r\n\tend\r\n\tif NOTECARD.pagenumber > 1 then\r\n\t\tNOTECARD.pagenumber = NOTECARD.pagenumber - 1\r\n\t\tloadData()\r\n\tend\r\nend\r\n\r\nfunction clickPageDown(btn, col)\r\n\tif NOTECARD.pagenumber == NOTECARD.maxpagenumber then\r\n\t\taddPage()\r\n\tend\r\n\tNOTECARD.pagenumber = NOTECARD.pagenumber + 1\r\n\tloadData()\r\nend\r\n\r\n\r\n-- Input events\r\n\r\nfunction inputDescription(btn, col, val, sel)\r\n\tif NOTECARD.locked then\r\n\t\talertLocked(col)\r\n\t\treturn NOTECARD.description[NOTECARD.pagenumber]\r\n\tend\r\n\tNOTECARD.description[NOTECARD.pagenumber] = val\r\n\tupdateSave()\r\nend\r\nfunction inputPageNumber(btn, col, val, sel)\r\n\treturn getPageNum()\r\nend\r\n\r\n\r\n-- Misc\r\n\r\nfunction alertLocked(col)\r\n\tbroadcastToColor(\"Unable to edit. Notecard is locked.\", col, {1,0,0})\r\nend",
+      "LuaScriptState": "{\"button_decfont\":2,\"button_incfont\":1,\"button_lock\":0,\"button_pagedown\":4,\"button_pageup\":3,\"description\":[\"Edit my description to set the GUID of the object you would like to get or set the description of.\\n\\nClick \\\"Get Desc\\\" to get the description of that object on this page.\\n\\nClick \\\"Set Desc\\\" to set the description of that object to the content of this page.\",\"asdad\",\"\",\"fdsfdsf\",\"f\"],\"fontsize\":[190,250,250,250,250],\"input_description\":0,\"input_pagenumber\":1,\"locked\":false,\"maxpagenumber\":5,\"pagenumber\":1}",
+      "GUID": "57cb14"
+    },
+    {
+      "Name": "3DText",
+      "Transform": {
+        "posX": -2.03035641,
+        "posY": 0.9611348,
+        "posZ": 12.3216352,
+        "rotX": 90.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "Text": {
+        "Text": "How to use:\r\n- Each object in TTS has a name field and a description field. These can be accessed by right-clicking on the object (you will see these two fields at the bottom of the contextual menu)\r\n- The quick way to edit these editable cards is to set their title and description to what you want them to display, then click one of the two buttons on the card to have it update itself.\r\n- Now the description field can actually holds more text than what the contextual menu allows you to type. That's where the notecard on the left (the \"Description Getter/Setter\") enters the equation: it allows you to set the description field of an object to whatever you want without the size limitation the contextual menu has.\r\n- To use it, get the GUID of the editable card you want to modify (right-click on the card, hover over the \"Scripting\" option of the contextual menu and click the \"GUID: XXXXXX\" button that will appear to copy the GUID to your clipboard). Edit the description of the Description Getter/Setter to have it be that GUID. Write something in the textbox. Click the \"Set Desc\" buttont to have the description of the editable card whose GIUD you provided be changed to the content of the textbox of the Getter/Setter. And don't forget to click on one of the buttons of the editable card to have it update itself.\r\n- The \"Get Desc\" button gets the current description of the editable card whose GUID you provided and puts it in the textbox so hat you can edit it.\r\n- Note: Each object in TTS has a \"GUID\", which is a unique identifier.",
+        "colorstate": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "fontSize": 52
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "9a3a36"
+    }
+  ],
+  "DecalPallet": [],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": "v10.9.3"
+}

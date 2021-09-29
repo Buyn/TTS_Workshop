@@ -1,0 +1,379 @@
+{
+  "SaveName": "[Tool] Hand Hotkeys",
+  "GameMode": "Hand Hotkeys",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "8/11/2019 2:17:23 AM",
+  "Table": "Table_Custom_Square",
+  "TableURL": "https://i.imgur.com/x0jBFAA.png",
+  "Sky": "Sky_Museum",
+  "SkyURL": "https://i.imgur.com/H7HXE9d.jpg",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "<!-- -->",
+  "LuaScript": "--none",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.28194043,
+      "g": 0.3140761,
+      "b": 0.355852455
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": true,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -9.482677,
+          "posY": 2.897259,
+          "posZ": -28.566576,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 9.482673,
+          "scaleY": 6.6973877,
+          "scaleZ": 3.55600476
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -28.6376839,
+          "posY": 2.897259,
+          "posZ": 9.48268,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 9.484604,
+          "scaleY": 6.6973877,
+          "scaleZ": 3.55698848
+        }
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 28.5665646,
+          "posY": 2.897259,
+          "posZ": 9.48268,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 9.484604,
+          "scaleY": 6.6973877,
+          "scaleZ": 3.55698848
+        }
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 11.8414936,
+          "posY": 2.897259,
+          "posZ": 28.6732559,
+          "rotX": 0.0,
+          "rotY": 179.8,
+          "rotZ": 0.0,
+          "scaleX": 9.485342,
+          "scaleY": 6.6973877,
+          "scaleZ": 3.55691552
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 9.482677,
+          "posY": 2.897259,
+          "posZ": -28.60213,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 9.482673,
+          "scaleY": 6.697391,
+          "scaleZ": 3.55600476
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": -10.3242645,
+          "posY": 2.897259,
+          "posZ": 28.6732559,
+          "rotX": 0.0,
+          "rotY": 180.0,
+          "rotZ": 0.0,
+          "scaleX": 9.482673,
+          "scaleY": 6.6973877,
+          "scaleZ": 3.55600476
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 28.5665646,
+          "posY": 2.897259,
+          "posZ": -9.399705,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 9.484604,
+          "scaleY": 6.6973877,
+          "scaleZ": 3.55698848
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -28.6021252,
+          "posY": 2.897259,
+          "posZ": -9.672333,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 9.484604,
+          "scaleY": 6.6973877,
+          "scaleZ": 3.55698848
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "ObjectStates": [
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -1.50651232E-07,
+        "posY": 1.06000006,
+        "posZ": -2.28062731E-07,
+        "rotX": -6.581745E-07,
+        "rotY": 180.0,
+        "rotZ": -1.54697784E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Hand Hotkeys",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://i.imgur.com/eGe4Lq1.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "function onLoad()\n\thh ={\n\t\t{\"White\",  {1.000, 1.000, 1.000}},\n\t\t{\"Brown\",  {0.443, 0.231, 0.090}},\n\t\t{\"Red\",    {0.856, 0.100, 0.094}},\n\t\t{\"Orange\", {0.956, 0.392, 0.113}},\n\t\t{\"Yellow\", {0.905, 0.898, 0.172}},\n\t\t{\"Green\",  {0.192, 0.701, 0.168}},\n\t\t{\"Teal\",   {0.129, 0.694, 0.607}},\n\t\t{\"Blue\",   {0.118, 0.530, 1.000}},\n\t\t{\"Purple\", {0.627, 0.125, 0.941}},\n\t\t{\"Pink\",   {0.960, 0.439, 0.807}},\n\t}\n\tdrawGui()\nend\n\nfunction onScriptingButtonDown(i, color)\n\ttakeSeat(i, color)\nend\n\nfunction takeSeat(i, color)\n\tlocal target_color = hh[i][1]\n\tif not Player[target_color].seated then\n\t\tPlayer[color].changeColor(target_color)\n\tend\nend\n\nfunction drawGui()\n\tself.clearButtons()\n\tlocal x, z = 1, -0.5\n\tlocal inc = 2/3\n\tfor k,v in ipairs(hh) do\n\t\tif x < -1 then \n\t\t\tx = 1\n\t\t\tz = z + inc\n\t\tend\n\t\tself.createButton({\n\t\t\tclick_function = \"takeSeat_\"..k,\n\t\t\tfunction_owner = self,\n\t\t\tlabel          = k,\n\t\t\tposition       = {x, 0.1, z},\n\t\t\twidth          = 200,\n\t\t\theight         = 200,\n\t\t\tfont_size      = 120,\n\t\t\tcolor          = v[2],\n\t\t\tfont_color     = {0.2, 0.2, 0.2},\n\t\t\ttooltip        = \"Switch to \"..v[1]\n    \t})\n    \tx = x - inc\n\t\t_G['takeSeat_'..k] = function(obj, color) \n        \ttakeSeat(k, color) \n    \tend\n\tend\nend",
+      "LuaScriptState": "",
+      "GUID": "ebb028"
+    }
+  ],
+  "DecalPallet": [],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": "v12.0.4"
+}

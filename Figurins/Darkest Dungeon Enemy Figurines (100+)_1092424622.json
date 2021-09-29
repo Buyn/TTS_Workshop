@@ -1,0 +1,5564 @@
+{
+  "SaveName": "Darkest Dungeon Enemy Figurines (100+)",
+  "GameMode": "None",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "7/27/2017 11:06:04 PM",
+  "Table": "Table_RPG",
+  "Sky": "Sky_Museum",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "",
+  "LuaScript": "--[[ Lua code. See documentation: http://berserk-games.com/knowledgebase/scripting/ --]]\n\n--[[ The OnLoad function. This is called after everything in the game save finishes loading.\nMost of your script code goes here. --]]\nfunction onload()\n    --[[ print('Onload!') --]]\nend\n\n--[[ The Update function. This is called once per frame. --]]\nfunction update ()\n    --[[ print('Update loop!') --]]\nend",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.219999522,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.6377731,
+      "b": 0.426829219
+    },
+    "AmbientIntensity": 1.18400288,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0,
+    "LutURL": ""
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -15.1108065,
+          "posY": 4.81034231,
+          "posZ": -20.1076221,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 11.7721653,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -30.2150211,
+          "posY": 4.81034231,
+          "posZ": 10.17524,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6566648,
+          "scaleY": 9.174497,
+          "scaleZ": 4.92064476
+        }
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 30.25128,
+          "posY": 4.81034231,
+          "posZ": 9.59069252,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6566591,
+          "scaleY": 9.174497,
+          "scaleZ": 4.92064476
+        }
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 15.4749184,
+          "posY": 4.81034231,
+          "posZ": 19.8365288,
+          "rotX": 0.0,
+          "rotY": 179.8,
+          "rotZ": 0.0,
+          "scaleX": 11.7733717,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87195635
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 15.1961479,
+          "posY": 4.81034231,
+          "posZ": -20.1400986,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 11.7721481,
+          "scaleY": 9.17449951,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": -15.1927767,
+          "posY": 4.81034231,
+          "posZ": 19.787817,
+          "rotX": 0.0,
+          "rotY": 180.0,
+          "rotZ": 0.0,
+          "scaleX": 11.7721481,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 30.10358,
+          "posY": 4.81034231,
+          "posZ": -8.449126,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6566553,
+          "scaleY": 9.174497,
+          "scaleZ": 4.92064476
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -30.247818,
+          "posY": 4.81034231,
+          "posZ": -8.822588,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6566687,
+          "scaleY": 9.174497,
+          "scaleZ": 4.92064476
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "VectorLines": [],
+  "ObjectStates": [
+    {
+      "Name": "Custom_Model_Bag",
+      "Transform": {
+        "posX": 2.36992884,
+        "posY": 2.117422,
+        "posZ": -0.363645017,
+        "rotX": -3.41509462E-06,
+        "rotY": 270.196716,
+        "rotZ": 270.0,
+        "scaleX": 4.249997,
+        "scaleY": 4.249997,
+        "scaleZ": 4.249997
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.856,
+        "g": 0.0999994054,
+        "b": 0.09399941
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw/mFbw0N0K",
+        "DiffuseURL": "http://i.imgur.com/zgcnWc9.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 6,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model_Bag",
+          "Transform": {
+            "posX": 28.81347,
+            "posY": 12.812151,
+            "posZ": 10.49714,
+            "rotX": -0.00140439428,
+            "rotY": 269.999725,
+            "rotZ": 359.9795,
+            "scaleX": 3.34999752,
+            "scaleY": 3.34999752,
+            "scaleZ": 3.34999752
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.856,
+            "g": 0.09999997,
+            "b": 0.09399996
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw/gNxHHrRf",
+            "DiffuseURL": "http://i.imgur.com/zgcnWc9.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 6,
+            "CastShadows": true
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -29.1222935,
+                "posY": 1.95732307,
+                "posZ": 2.85613585,
+                "rotX": -0.00111123885,
+                "rotY": 0.0003675914,
+                "rotZ": -0.00210423535,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/0/09/Heart_of_Darkness.png?version=a56622b9b7790fb3fdcb13267a0b8893",
+                "ImageSecondaryURL": "http://i.imgur.com/ulCyqjM.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "05f86e"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -28.49537,
+                "posY": 1.95744157,
+                "posZ": 3.4448173,
+                "rotX": 359.950165,
+                "rotY": 0.00594092347,
+                "rotZ": 0.04722455,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/9/94/Gestating_Heart.png?version=e366cb204958eb03438f91db34d9b8cd",
+                "ImageSecondaryURL": "http://i.imgur.com/eowJqOt.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "c43b73"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -28.33487,
+                "posY": 1.957391,
+                "posZ": 3.591035,
+                "rotX": 359.987457,
+                "rotY": 0.00274331938,
+                "rotZ": -0.00436052261,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/2/20/Absolute_Nothingness.png?version=2129a2078083d2a7aa33b20985a6b74b",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "50ac1f"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -29.1314125,
+                "posY": 1.95734608,
+                "posZ": 3.65253139,
+                "rotX": -0.00380655518,
+                "rotY": 0.000906963251,
+                "rotZ": -0.003531558,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/4/4e/Ancestor_Big.png?version=37bf45d70c6e0e02ee60a161aed68197",
+                "ImageSecondaryURL": "http://i.imgur.com/sOAijDf.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "2efaf9"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -29.2590466,
+                "posY": 1.958397,
+                "posZ": 3.45875287,
+                "rotX": 359.921356,
+                "rotY": 0.0377329662,
+                "rotZ": 359.871216,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/7/70/Imperfect_Reflection.png?version=4913ca428432e7f453d702bada662e86",
+                "ImageSecondaryURL": "http://i.imgur.com/K78bjF9.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "4baefd"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -28.767231,
+                "posY": 1.95794475,
+                "posZ": 2.03185058,
+                "rotX": 359.890656,
+                "rotY": 0.0298801977,
+                "rotZ": 359.9126,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/6/68/Perfect_Reflection.png?version=9d69edac3ba5192ee661d15f93b322ac",
+                "ImageSecondaryURL": "http://i.imgur.com/p0rzfaH.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "08055d"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -28.1176872,
+                "posY": 1.95752025,
+                "posZ": 2.6747396,
+                "rotX": 359.9487,
+                "rotY": 0.0154873328,
+                "rotZ": 359.9851,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/c/c0/Ancestor_Small.png?version=7595a7f9b3c8f3bec79a3e711124ffff",
+                "ImageSecondaryURL": "http://i.imgur.com/ywJNO70.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "9e08b1"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -28.8568859,
+                "posY": 1.95831037,
+                "posZ": 2.699389,
+                "rotX": 359.826324,
+                "rotY": 0.049160663,
+                "rotZ": 359.920166,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/e/ea/Shuffling_Horror.png?version=231d0805a170e6567096485b0c711e9e",
+                "ImageSecondaryURL": "http://i.imgur.com/GNDLkHP.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "140527"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -28.8263073,
+                "posY": 1.95750642,
+                "posZ": 3.11029148,
+                "rotX": 359.976624,
+                "rotY": 0.005621555,
+                "rotZ": 359.982269,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/2/21/Mammoth_Cyst.png?version=fbc82a3c51e7837296f2087df65264b5",
+                "ImageSecondaryURL": "http://i.imgur.com/cMOAxuX.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "bfe2c1"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -28.9320927,
+                "posY": 1.95811224,
+                "posZ": 2.986651,
+                "rotX": 359.9325,
+                "rotY": 0.0316168666,
+                "rotZ": 359.898132,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/3/37/White_Cell_Stalk.png?version=fe6d510d2598221935348f807a718419",
+                "ImageSecondaryURL": "http://i.imgur.com/OiPmP0F.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "805ae9"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -28.65795,
+                "posY": 1.9578681,
+                "posZ": 4.13753366,
+                "rotX": 359.93338,
+                "rotY": 0.0216133669,
+                "rotZ": 359.953918,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/5/51/Antibody.png?version=a3b3b8ef0c2041e020105282f1e0789a",
+                "ImageSecondaryURL": "http://i.imgur.com/LqFiPeG.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "7e4956"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -28.5919132,
+                "posY": 1.95789337,
+                "posZ": 3.07900715,
+                "rotX": 359.901642,
+                "rotY": 0.0298642591,
+                "rotZ": 359.9587,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/d/d7/Templar_Sniper.png?version=759d7263466f4eae33df9c6438c641eb",
+                "ImageSecondaryURL": "http://i.imgur.com/Dsl6IlN.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "8c6303"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -29.3492718,
+                "posY": 1.959022,
+                "posZ": 3.45862842,
+                "rotX": 359.835541,
+                "rotY": 0.04914901,
+                "rotZ": 359.833923,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/7/72/Templar_Gladiator.png?version=c7eeae90d1456f473c89525c2a271868",
+                "ImageSecondaryURL": "http://i.imgur.com/kEa1TgH.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "daa565"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -29.0994816,
+                "posY": 1.95749736,
+                "posZ": 2.85306048,
+                "rotX": 359.9796,
+                "rotY": 0.00486159371,
+                "rotZ": 359.981781,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/4/4e/Templar_Warlord.png?version=1069d71b25dc25d4ea2def2d8d7b1acf",
+                "ImageSecondaryURL": "http://i.imgur.com/pXACjT5.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "c421b7"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -27.8321915,
+                "posY": 1.9579035,
+                "posZ": 3.22102785,
+                "rotX": 0.0016874806,
+                "rotY": 359.971283,
+                "rotZ": 359.975616,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/6/69/Templar_Impaler.png?version=ce9a9caf1e33878f479670b6d7c83e37",
+                "ImageSecondaryURL": "http://i.imgur.com/TFd14e0.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "c476b7"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -28.4427776,
+                "posY": 1.95733559,
+                "posZ": 2.06487322,
+                "rotX": 359.988739,
+                "rotY": 0.0024571484,
+                "rotZ": -0.00273861177,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/9/9f/Polyp.png?version=dcf8525d25f51384bdb76ae06301ade7",
+                "ImageSecondaryURL": "http://i.imgur.com/fYXhQ0z.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "69a741"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -28.979166,
+                "posY": 1.9573133,
+                "posZ": 2.73071837,
+                "rotX": -0.00113007461,
+                "rotY": 0.0002432356,
+                "rotZ": -0.0006206958,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/3/37/Flesh_Hound.png?version=18ce4f2dd28f90d6e1687daf8926d1d6",
+                "ImageSecondaryURL": "http://i.imgur.com/DhLFAsL.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "f18d00"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -28.823782,
+                "posY": 1.95751119,
+                "posZ": 2.23340034,
+                "rotX": 359.98764,
+                "rotY": 0.004341272,
+                "rotZ": 359.9701,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/f/fa/Defensive_Growth.png?version=6b3ea21c0ce8c5351ef3ebeb78db2da9",
+                "ImageSecondaryURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/f/fa/Defensive_Growth.png?version=6b3ea21c0ce8c5351ef3ebeb78db2da9",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "6a8348"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -28.8342113,
+                "posY": 1.95743155,
+                "posZ": 2.49299169,
+                "rotX": 359.97226,
+                "rotY": 0.00559265725,
+                "rotZ": 359.990936,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/6/6a/Malignant_Growth.png?version=225caed5927913c2be6e19a047a500cc",
+                "ImageSecondaryURL": "http://i.imgur.com/UP3ab9i.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "262f7b"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -28.4442844,
+                "posY": 1.9574,
+                "posZ": 2.01869416,
+                "rotX": 359.973846,
+                "rotY": 0.00599181373,
+                "rotZ": 359.988037,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/e/e3/Cultist_Priest.png?version=e13a691e831d78428271ea95c7e42879",
+                "ImageSecondaryURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/e/e3/Cultist_Priest.png?version=e13a691e831d78428271ea95c7e42879",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "faeefb"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -29.0602226,
+                "posY": 1.95733142,
+                "posZ": 2.41336823,
+                "rotX": 359.994171,
+                "rotY": 0.00109184906,
+                "rotZ": -0.0018613888,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/4/4c/Rapturous_Cultist.png?version=35643b119810c501813858b08b8c84fc",
+                "ImageSecondaryURL": "http://i.imgur.com/LUlCJg8.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "05c1d7"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -28.5182629,
+                "posY": 1.95731068,
+                "posZ": 0.266478717,
+                "rotX": 359.988647,
+                "rotY": 0.00168725336,
+                "rotZ": 359.99295,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "http://i.imgur.com/o0KNKjh.png",
+                "ImageSecondaryURL": "http://i.imgur.com/o0KNKjh.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "ef6206"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": 36.793808,
+                "posY": 7.828781,
+                "posZ": 23.5343876,
+                "rotX": 359.886353,
+                "rotY": 0.007933305,
+                "rotZ": 0.000338463869,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/9/99/Ascended_Brawler.png?version=a6cea11ea6d1de429d3b28fc034d88ee",
+                "ImageSecondaryURL": "http://i.imgur.com/o0KNKjh.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "fd8724"
+            }
+          ],
+          "GUID": "bc7e9c"
+        },
+        {
+          "Name": "Custom_Model_Bag",
+          "Transform": {
+            "posX": 29.0244522,
+            "posY": 12.8121281,
+            "posZ": 10.8749952,
+            "rotX": 0.00512638828,
+            "rotY": 269.9991,
+            "rotZ": 359.992279,
+            "scaleX": 3.34999752,
+            "scaleY": 3.34999752,
+            "scaleZ": 3.34999752
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.314666361,
+            "g": 0.372920662,
+            "b": 0.555749238
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw/gNxHHrRf",
+            "DiffuseURL": "http://i.imgur.com/eXLNbKs.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 6,
+            "CastShadows": true
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -28.6742363,
+                "posY": 1.95758963,
+                "posZ": 8.260355,
+                "rotX": 359.966766,
+                "rotY": 0.01456438,
+                "rotZ": 359.9576,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/6/69/Stone_Shield.png?version=715549328a6ab8afe68c8f5a00371955",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "b81094"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -28.8287888,
+                "posY": 1.95739865,
+                "posZ": 8.888235,
+                "rotX": 359.991333,
+                "rotY": 0.002484444,
+                "rotZ": 359.989746,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/2/22/Blood_Fount.png?version=ed7779fcdca3eb7b7046853827abdb42",
+                "ImageSecondaryURL": "http://i.imgur.com/0a7z8C7.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "a0e520"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -28.67847,
+                "posY": 1.95732009,
+                "posZ": 8.622178,
+                "rotX": -0.00110441109,
+                "rotY": 0.000385255378,
+                "rotZ": -0.00207520742,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/d/d6/Garden_Guardian.png?version=1969085d71e0c883422d90ff12cbfea5",
+                "ImageSecondaryURL": "http://i.imgur.com/mvyInsM.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "816161"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -28.7597847,
+                "posY": 1.95730555,
+                "posZ": 8.213472,
+                "rotX": 6.42274529E-07,
+                "rotY": 5.72864155E-06,
+                "rotZ": -6.510024E-06,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/d/db/Countess.png?version=12e39a7880b1557f11588220e8e44e4f",
+                "ImageSecondaryURL": "http://i.imgur.com/ySRxXfi.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "d1e7d3"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -29.4487514,
+                "posY": 1.957308,
+                "posZ": 7.854779,
+                "rotX": -0.00108998583,
+                "rotY": 0.000177149312,
+                "rotZ": -7.36524E-06,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/f/f6/Bodybag3.png?version=99f48a05886e3427a7153d2ebb42fd45",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "1c2089"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -29.4293213,
+                "posY": 1.95764828,
+                "posZ": 7.76353359,
+                "rotX": 359.918976,
+                "rotY": 0.0198239647,
+                "rotZ": 359.972229,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/d/db/Bodybag2.png?version=d6c20c9e37d41d01f2c12b7e506fb2c8",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "030999"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -29.0668659,
+                "posY": 1.9577837,
+                "posZ": 7.971954,
+                "rotX": 359.910034,
+                "rotY": 0.0278631579,
+                "rotZ": 359.9542,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/4/41/Bodybag1.png?version=a212df382848180bb37b2322acd2a194",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "a799c1"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -28.55576,
+                "posY": 1.95771074,
+                "posZ": 8.314825,
+                "rotX": 359.937439,
+                "rotY": 0.0213844664,
+                "rotZ": 359.9514,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/b/b4/Viscount.png?version=ca8acbc464dca7260a5bf4187024700d",
+                "ImageSecondaryURL": "http://i.imgur.com/JDaWKAE.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "d9a71c"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -28.2789631,
+                "posY": 1.95736277,
+                "posZ": 6.67835855,
+                "rotX": 359.97995,
+                "rotY": 0.0047014486,
+                "rotZ": 359.9805,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/0/02/Cocoon.png?version=908dfcacf32d9a40f645bd29e9b95788",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "3a128d"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -29.860836,
+                "posY": 1.95791209,
+                "posZ": 8.674255,
+                "rotX": 359.98233,
+                "rotY": 0.02242918,
+                "rotZ": 359.917175,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/4/40/Baron.png?version=c810fd2fb8d700dc78cd246b52327244",
+                "ImageSecondaryURL": "http://i.imgur.com/s97HpKb.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "4f3506"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -28.9230442,
+                "posY": 1.957705,
+                "posZ": 8.965666,
+                "rotX": 359.923645,
+                "rotY": 0.009516737,
+                "rotZ": 0.00117922947,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/0/0b/Cattail.png?version=fb03ccebe14943739fe8d7d77ca07a96",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "e0e224"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -28.6648827,
+                "posY": 1.95775068,
+                "posZ": 8.866046,
+                "rotX": 359.914368,
+                "rotY": 0.013997497,
+                "rotZ": -0.0021121155,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/a/a9/Bulrush.png?version=bca09dc61098766060f610bf91928dcc",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "13c948"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -29.6113434,
+                "posY": 1.95770311,
+                "posZ": 8.464002,
+                "rotX": 359.941254,
+                "rotY": 0.0157536175,
+                "rotZ": 359.971222,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/d/d6/Crocodile.png?version=05fac648b17ac897448edaa901e9a87e",
+                "ImageSecondaryURL": "http://i.imgur.com/hlcwrag.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "eb8e47"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -29.1037045,
+                "posY": 1.95756817,
+                "posZ": 8.797169,
+                "rotX": 359.964233,
+                "rotY": 0.007695629,
+                "rotZ": 359.9829,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/5/59/Courtesan.png?version=c61caabe214fb00f454fbcad9dc98127",
+                "ImageSecondaryURL": "http://i.imgur.com/emKZBwo.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "7b9f65"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -28.85403,
+                "posY": 1.957309,
+                "posZ": 6.397097,
+                "rotX": -0.00181845762,
+                "rotY": 0.000281589455,
+                "rotZ": -0.001122503,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/b/b6/Esquire.png?version=5db8e62eee15d4244ce38561e816db7c",
+                "ImageSecondaryURL": "http://i.imgur.com/w7mEcBA.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "554b50"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -28.7392216,
+                "posY": 1.95732486,
+                "posZ": 6.9714365,
+                "rotX": -0.004691129,
+                "rotY": 0.001089169,
+                "rotZ": -0.003970198,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/8/81/Manservant.png?version=f29d5295aa3b632bd8ef2b63cd6890b5",
+                "ImageSecondaryURL": "http://i.imgur.com/vCoUB2L.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "fd8724"
+            }
+          ],
+          "GUID": "900a2b"
+        },
+        {
+          "Name": "Custom_Model_Bag",
+          "Transform": {
+            "posX": 29.2465153,
+            "posY": 12.81208,
+            "posZ": 11.3285522,
+            "rotX": 7.16932263E-05,
+            "rotY": 269.999817,
+            "rotZ": 359.9911,
+            "scaleX": 3.34999752,
+            "scaleY": 3.34999752,
+            "scaleZ": 3.34999752
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.42334488,
+            "g": 0.310502082,
+            "b": 0.23527351
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw/gNxHHrRf",
+            "DiffuseURL": "http://i.imgur.com/fq1P6ee.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 6,
+            "CastShadows": true
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -34.397377,
+                "posY": 1.95747638,
+                "posZ": 5.910654,
+                "rotX": 359.962921,
+                "rotY": 0.00284370454,
+                "rotZ": 0.00570155,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/d/d1/Nest.png?version=75405b88b23a346f002a4bd38adf1e8c",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "c4bb77"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -34.730217,
+                "posY": 1.9575206,
+                "posZ": 5.627915,
+                "rotX": 359.975983,
+                "rotY": 0.006016269,
+                "rotZ": 359.980042,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/5/5e/Shrieker.png?version=e9dabba67ac1502f524a7b6a0358d5b5",
+                "ImageSecondaryURL": "http://i.imgur.com/aSma6mz.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "6bc565"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -34.4732475,
+                "posY": 1.95730591,
+                "posZ": 3.95282531,
+                "rotX": -0.000436346134,
+                "rotY": 9.072496E-05,
+                "rotZ": -8.548443E-05,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/b/b0/Bomb_Barrel.png?version=8debb60ae6e9faf08491a6d13dfcd9f6",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "5b80c5"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -34.54759,
+                "posY": 1.957308,
+                "posZ": 3.44973159,
+                "rotX": 359.9712,
+                "rotY": 0.005451002,
+                "rotZ": 359.992676,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/9/97/Vvulf.png?version=4c5adc35cf2f0dab2d2ddce2bb01a205",
+                "ImageSecondaryURL": "http://i.imgur.com/lLsn1Tc.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "fd8724"
+            }
+          ],
+          "GUID": "fb0945"
+        },
+        {
+          "Name": "Custom_Model_Bag",
+          "Transform": {
+            "posX": 29.004055,
+            "posY": 12.8120737,
+            "posZ": 10.508544,
+            "rotX": -0.000239276735,
+            "rotY": 269.9995,
+            "rotZ": 359.990417,
+            "scaleX": 3.34999752,
+            "scaleY": 3.34999752,
+            "scaleZ": 3.34999752
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.329829782,
+            "g": 0.649253547,
+            "b": 0.6986062
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw/gNxHHrRf",
+            "DiffuseURL": "http://i.imgur.com/w5LdVI0.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 6,
+            "CastShadows": true
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -38.2170219,
+                "posY": 1.957083,
+                "posZ": 14.9700222,
+                "rotX": 359.978333,
+                "rotY": 359.991669,
+                "rotZ": 0.0610965639,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/5/55/Drowned_Anchorman.png?version=359713f36af33ca398bce818000dc123",
+                "ImageSecondaryURL": "http://i.imgur.com/BaBJJNT.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "e32b4b"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -38.4906273,
+                "posY": 1.95723569,
+                "posZ": 14.5079174,
+                "rotX": 359.96283,
+                "rotY": 0.0114823868,
+                "rotZ": 0.0340802073,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/c/c7/Drowned_Crew.png?version=f247df19d37c7b59fa4cd585586f8ad3",
+                "ImageSecondaryURL": "http://i.imgur.com/xrWwuMy.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "56c5c2"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -38.0585823,
+                "posY": 1.95724833,
+                "posZ": 14.5409813,
+                "rotX": 359.977875,
+                "rotY": -0.00334097422,
+                "rotZ": 0.00632561371,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/0/0a/Siren.png?version=2192a15dfece3aee7953774e5773b449",
+                "ImageSecondaryURL": "http://i.imgur.com/2JHr3jY.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "083c40"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -37.8671532,
+                "posY": 1.95760441,
+                "posZ": 14.901227,
+                "rotX": 0.0646430552,
+                "rotY": 359.948456,
+                "rotZ": 359.934052,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/a/ae/Squiffy_Ghast.png?version=2005cdfea21b022d313be1e98b118050",
+                "ImageSecondaryURL": "http://i.imgur.com/QfZGJVZ.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "455306"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -38.80396,
+                "posY": 1.9589591,
+                "posZ": 15.5397844,
+                "rotX": 0.0255108755,
+                "rotY": 359.937561,
+                "rotZ": 359.913147,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/b/b8/Uca_Crusher.png?version=fd256730fe2b03b72e35c94d47a336e7",
+                "ImageSecondaryURL": "http://i.imgur.com/J0FElxv.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "ca0938"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -38.57227,
+                "posY": 1.95847237,
+                "posZ": 16.035429,
+                "rotX": 359.869415,
+                "rotY": 0.04237167,
+                "rotZ": 359.8971,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/d/d3/Drowned_Thrall.png?version=c7baeb04316c4edef6b487264393f224",
+                "ImageSecondaryURL": "http://i.imgur.com/MmxanFl.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "82b2fb"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -37.19249,
+                "posY": 1.95752251,
+                "posZ": 15.168334,
+                "rotX": 0.00031127673,
+                "rotY": -0.00462216651,
+                "rotZ": 0.0035341836,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/e/ea/Deep_Stinger.png?version=37c9021aa318bf2d62d06247b6636435",
+                "ImageSecondaryURL": "http://i.imgur.com/r7ZDfN2.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "f7d8eb"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -38.4234657,
+                "posY": 1.95740008,
+                "posZ": 14.7036705,
+                "rotX": 359.9888,
+                "rotY": -0.003769988,
+                "rotZ": 359.985474,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/a/a7/Sea_Maggot.png?version=a73883f48354d0c6aa83820027cbed71",
+                "ImageSecondaryURL": "http://i.imgur.com/Eo59a5q.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "db0db3"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -38.41478,
+                "posY": 1.95860481,
+                "posZ": 16.1103954,
+                "rotX": 359.946777,
+                "rotY": 0.224416986,
+                "rotZ": 0.005357895,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/4/4c/Pelagic_Guardian.png?version=f9431546d3167818dc5b636bd6702916",
+                "ImageSecondaryURL": "http://i.imgur.com/Ga5aosY.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "3cfa98"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -38.4773445,
+                "posY": 1.95879638,
+                "posZ": 16.3276539,
+                "rotX": 359.799957,
+                "rotY": 0.0513600521,
+                "rotZ": 359.9231,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/7/70/Pelagic_Shaman.png?version=07531092c7eb769a9167bb2f031efec4",
+                "ImageSecondaryURL": "http://i.imgur.com/A2OY9dY.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "650a69"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -38.87776,
+                "posY": 1.95836067,
+                "posZ": 16.4167652,
+                "rotX": 359.886047,
+                "rotY": 0.03470805,
+                "rotZ": 359.9099,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/0/0b/Pelagic_Grouper.png?version=b6b0ec47a6bc4d8644a379fb79a2eda3",
+                "ImageSecondaryURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/0/0b/Pelagic_Grouper.png?version=b6b0ec47a6bc4d8http://i.imgur.com/TsuzqTS.png644a379fb79a2eda3",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "fd8724"
+            }
+          ],
+          "GUID": "6ed069"
+        },
+        {
+          "Name": "Custom_Model_Bag",
+          "Transform": {
+            "posX": 29.3852882,
+            "posY": 12.8121433,
+            "posZ": 10.7342014,
+            "rotX": 0.00469231745,
+            "rotY": 269.9984,
+            "rotZ": 359.9908,
+            "scaleX": 3.34999752,
+            "scaleY": 3.34999752,
+            "scaleZ": 3.34999752
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.719512165,
+            "g": 0.343125224,
+            "b": 0.24192664
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw/gNxHHrRf",
+            "DiffuseURL": "http://i.imgur.com/8IkKs4i.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 6,
+            "CastShadows": true
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -31.8116875,
+                "posY": 1.95783222,
+                "posZ": 6.874007,
+                "rotX": 359.909973,
+                "rotY": 0.000140944408,
+                "rotZ": 0.0360011868,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/f/fb/Brigand_Fuseman.png?version=98b01411c69974153d5805b3fa39d1f8",
+                "ImageSecondaryURL": "http://i.imgur.com/mdxHsOE.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "58043e"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -32.2229042,
+                "posY": 1.9573524,
+                "posZ": 5.13679361,
+                "rotX": 359.9603,
+                "rotY": 0.00359842088,
+                "rotZ": 0.00880735647,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/d/dc/Brigand_Pounder_SP.png?version=578249491447ef78d6a36da05996f876",
+                "ImageSecondaryURL": "http://i.imgur.com/62TZtYW.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "92178c"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -31.89932,
+                "posY": 1.95793259,
+                "posZ": 6.38822937,
+                "rotX": 359.885162,
+                "rotY": 0.0213632658,
+                "rotZ": -0.002512273,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/0/0a/Cauldron_Full.png?version=1565760881b21e14e37a1e31aa92d40d",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "df9f4c"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -32.0125122,
+                "posY": 1.95746017,
+                "posZ": 5.358613,
+                "rotX": 359.955536,
+                "rotY": 0.0131006865,
+                "rotZ": 359.989319,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/7/72/Hag_Sprite.png?version=ef4a130d8826b4232d1da96e0f7eefaa",
+                "ImageSecondaryURL": "http://i.imgur.com/aoczAdJ.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "03e9b8"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -32.1848526,
+                "posY": 1.95737886,
+                "posZ": 4.65091,
+                "rotX": 359.9709,
+                "rotY": 0.006920624,
+                "rotZ": 359.987335,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/2/2f/Necrotic_Fungus.png?version=7941760ec54f457f3f5723e57422f09c",
+                "ImageSecondaryURL": "http://i.imgur.com/UrFDyZL.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "d7ae1f"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -32.48734,
+                "posY": 1.95800638,
+                "posZ": 6.12318,
+                "rotX": 359.908478,
+                "rotY": 0.0310818776,
+                "rotZ": 359.928528,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/1/17/Hateful_Virago.png?version=b6cb3a7334880bf7094b274a11492dab",
+                "ImageSecondaryURL": "http://i.imgur.com/mVFbJ1o.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "070449"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -32.6064453,
+                "posY": 1.95736921,
+                "posZ": 6.060638,
+                "rotX": 359.992859,
+                "rotY": 0.00185728888,
+                "rotZ": 359.9937,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/a/a6/Unclean_Giant.png?version=61fcbd740f83d53da35232cb0835945a",
+                "ImageSecondaryURL": "http://i.imgur.com/6c6xopl.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "112c60"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -31.990345,
+                "posY": 1.95730627,
+                "posZ": 5.74268866,
+                "rotX": -0.00370896957,
+                "rotY": 0.000622684835,
+                "rotZ": 0.00356726069,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/d/d5/Crone.png?version=6dadef31bd25a565c788b9c0c02674a1",
+                "ImageSecondaryURL": "http://i.imgur.com/hl06kK2.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "81e237"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -32.06491,
+                "posY": 1.95729208,
+                "posZ": 4.042336,
+                "rotX": 359.9895,
+                "rotY": 0.00241208146,
+                "rotZ": 0.00204190053,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/b/bc/Fungal_Artillery.png?version=7b563417cf85e4e785e99089c0d1e06e",
+                "ImageSecondaryURL": "http://i.imgur.com/N5iXxnn.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "08cf94"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -32.3339539,
+                "posY": 1.95735133,
+                "posZ": 5.38079929,
+                "rotX": 359.985077,
+                "rotY": 0.003254935,
+                "rotZ": -0.00150199432,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/8/85/Fungal_Bloat.png?version=8738114182cb0c66e2e6b1478f9862a6",
+                "ImageSecondaryURL": "http://i.imgur.com/bKvTklq.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "a407d5"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -32.1007652,
+                "posY": 1.95730758,
+                "posZ": 4.37488,
+                "rotX": -0.00227716076,
+                "rotY": 0.0005362566,
+                "rotZ": -0.000634257332,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/0/09/Rabid_Gnasher.png?version=6b2ba231d11e3e40b5ac0801d5ee679b",
+                "ImageSecondaryURL": "http://i.imgur.com/EnRLJlz.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "0418ca"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -32.6892,
+                "posY": 1.95734,
+                "posZ": 5.42148161,
+                "rotX": 359.99353,
+                "rotY": 0.00145735021,
+                "rotZ": -0.003166514,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/b/bc/Big_Slime.png?version=9cd15026a7d2e683a5bcd7436f105e3e",
+                "ImageSecondaryURL": "http://i.imgur.com/b8uj6uJ.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "c1ae9b"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -33.6246529,
+                "posY": 1.95766115,
+                "posZ": 6.11967,
+                "rotX": 359.957367,
+                "rotY": 0.0111735864,
+                "rotZ": 359.9716,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/3/38/Slime.png?version=97065b0d91dae9b0ef082b5e1b62b0e5",
+                "ImageSecondaryURL": "http://i.imgur.com/DTNQAWK.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "fd8724"
+            }
+          ],
+          "GUID": "a8e369"
+        },
+        {
+          "Name": "Custom_Model_Bag",
+          "Transform": {
+            "posX": 29.4417839,
+            "posY": 12.8120346,
+            "posZ": 10.61419,
+            "rotX": -6.32392839E-05,
+            "rotY": 269.998871,
+            "rotZ": -0.00211999426,
+            "scaleX": 3.34999752,
+            "scaleY": 3.34999752,
+            "scaleZ": 3.34999752
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.623758256,
+            "g": 0.6637631,
+            "b": 0.174613655
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw/gNxHHrRf",
+            "DiffuseURL": "http://i.imgur.com/yYU047S.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 6,
+            "CastShadows": true
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -27.4988136,
+                "posY": 1.95738566,
+                "posZ": -1.24998009,
+                "rotX": 359.965973,
+                "rotY": -0.00410630461,
+                "rotZ": 0.0201369431,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/4/44/Flesh_Butt.png?version=56eaf4f3d9bf30f0aaea5b0a4cfb0ae1",
+                "ImageSecondaryURL": "http://i.imgur.com/YQCmsWA.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "edd719"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -27.62221,
+                "posY": 1.95748854,
+                "posZ": -0.69129765,
+                "rotX": 359.970947,
+                "rotY": 0.00521194143,
+                "rotZ": -0.004136254,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/4/41/Flesh_Heart.png?version=d438db614ead12bf5f1ea81e1290c0dd",
+                "ImageSecondaryURL": "http://i.imgur.com/97zxTMx.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "b31394"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -28.0255184,
+                "posY": 1.9578476,
+                "posZ": -1.23987842,
+                "rotX": 359.932648,
+                "rotY": 0.0195305962,
+                "rotZ": 359.953033,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/2/2a/Flesh_Head.png?version=d2ad17b421c262256eb21fbe5dd98053",
+                "ImageSecondaryURL": "http://i.imgur.com/6qTAFQb.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "d44c88"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -28.2332039,
+                "posY": 1.95776677,
+                "posZ": -1.20536315,
+                "rotX": 359.964874,
+                "rotY": 0.0216667727,
+                "rotZ": 359.9455,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/f/f2/Flesh_Bone.png?version=68305caeb6254cecd8bff7a40b8883f8",
+                "ImageSecondaryURL": "http://i.imgur.com/rzsm7ql.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "9ebfa6"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -26.3907051,
+                "posY": 1.95734966,
+                "posZ": -0.810862,
+                "rotX": 359.990662,
+                "rotY": -0.004969964,
+                "rotZ": 0.00388539559,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/5/52/Piglet.png?version=e3b6b6931f50b22dd3511556b9f15fcc",
+                "ImageSecondaryURL": "http://i.imgur.com/QzF1qlc.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "1df0fb"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -27.4036274,
+                "posY": 1.95731044,
+                "posZ": -1.558241,
+                "rotX": -0.001406773,
+                "rotY": -0.000591035,
+                "rotZ": 6.222601E-05,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/4/4e/Swine_Prince_Sprite.png?version=7610a0b385f755ac77c678bc7a84b7eb",
+                "ImageSecondaryURL": "http://i.imgur.com/0dSPs4x.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "bb94b0"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -27.827137,
+                "posY": 1.95732141,
+                "posZ": -2.25658512,
+                "rotX": -0.00495667,
+                "rotY": -0.00215077423,
+                "rotZ": -0.00109060179,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/c/ca/Swine_Skiver.png?version=ac9a5771d4b589ced292f9dc39013f38",
+                "ImageSecondaryURL": "http://i.imgur.com/7ImK6Fu.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "190b50"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -27.82643,
+                "posY": 1.9574281,
+                "posZ": -1.04797482,
+                "rotX": 359.9858,
+                "rotY": -0.002835773,
+                "rotZ": 359.9904,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/5/56/Swinetaur.png?version=373773945a5cd2727287073e6bdaf0a0",
+                "ImageSecondaryURL": "http://i.imgur.com/JeGW4lW.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "9f1e26"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -26.7243919,
+                "posY": 1.95761085,
+                "posZ": -1.89775491,
+                "rotX": 359.934052,
+                "rotY": 0.02024096,
+                "rotZ": 359.9584,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/3/35/Carrion_Big.png?version=c6b5794eae97affa19445192a0cd4027",
+                "ImageSecondaryURL": "http://i.imgur.com/zwVs3Ao.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "319e6d"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -27.52099,
+                "posY": 1.9573139,
+                "posZ": -2.06507516,
+                "rotX": 359.987122,
+                "rotY": -0.00214736653,
+                "rotZ": 0.004599096,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/d/d2/Carrion_Eater.png?version=20cef9445a7daac8bab72d62ceb755c1",
+                "ImageSecondaryURL": "http://i.imgur.com/5sbILxr.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "143990"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -27.2690449,
+                "posY": 1.95740771,
+                "posZ": -1.12280667,
+                "rotX": 359.980469,
+                "rotY": 0.0310548861,
+                "rotZ": -0.0009738955,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/a/ad/Swine_Drummer.png?version=4e7fd3f1ddf9156ac8c7682d8b7c370f",
+                "ImageSecondaryURL": "http://i.imgur.com/FwWYxx1.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "07468d"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -28.3585472,
+                "posY": 1.95734131,
+                "posZ": -1.24569213,
+                "rotX": -0.0034493308,
+                "rotY": 359.993164,
+                "rotZ": -0.00314626959,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/b/b2/Swine_Wretch.png?version=9dc03431742ca66646c62fff25fd849c",
+                "ImageSecondaryURL": "http://i.imgur.com/Dx7XUWZ.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "00b05b"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -27.8789635,
+                "posY": 1.95797753,
+                "posZ": -0.60387826,
+                "rotX": 359.921631,
+                "rotY": 0.0250252746,
+                "rotZ": 359.944366,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/4/46/Swine_Slasher.png?version=d7184843f7096c11d5416ccaab801a4c",
+                "ImageSecondaryURL": "http://i.imgur.com/X8zYJAs.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "4d3957"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -27.88656,
+                "posY": 1.95760083,
+                "posZ": -1.3769511,
+                "rotX": 359.967743,
+                "rotY": 0.0120482119,
+                "rotZ": 359.967957,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/b/bf/Swine_Chopper.png?version=34da38802edc6429b7b8c0bf012d2110",
+                "ImageSecondaryURL": "http://i.imgur.com/zAHyFLj.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "d40868"
+            }
+          ],
+          "GUID": "ddba89"
+        },
+        {
+          "Name": "Custom_Model_Bag",
+          "Transform": {
+            "posX": 2.157559,
+            "posY": 6.627202,
+            "posZ": -1.12883461,
+            "rotX": 359.9733,
+            "rotY": 269.998352,
+            "rotZ": 359.8734,
+            "scaleX": 3.34999752,
+            "scaleY": 3.34999752,
+            "scaleZ": 3.34999752
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.5,
+            "g": 0.5,
+            "b": 0.5
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw/gNxHHrRf",
+            "DiffuseURL": "http://i.imgur.com/RtUTLyn.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 6,
+            "CastShadows": true
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -26.2616386,
+                "posY": 1.9582727,
+                "posZ": 6.39817858,
+                "rotX": 359.91626,
+                "rotY": 0.0192428064,
+                "rotZ": 359.8506,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/b/b5/Pew_Large.png?version=f0e23b2b2fbcef1095cc7742ecd7bb48",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "bb809f"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -25.401844,
+                "posY": 1.95748782,
+                "posZ": 7.1241703,
+                "rotX": 359.9548,
+                "rotY": 359.99173,
+                "rotZ": 0.05760247,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/b/bf/Pew_Medium.png?version=e9d8dc5a21da67c014440267f0cca78a",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "b73017"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -25.6445179,
+                "posY": 1.957319,
+                "posZ": 7.75633,
+                "rotX": 359.9456,
+                "rotY": 359.982727,
+                "rotZ": 0.0204196945,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/2/28/Pew_Small.png?version=7bf90b7412276f835e2d94e73718ae60",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "f2baa4"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -25.8384762,
+                "posY": 1.95733881,
+                "posZ": 7.73808765,
+                "rotX": 359.970734,
+                "rotY": 359.9872,
+                "rotZ": 0.00473445561,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/c/c4/Prophet_Sprite.png?version=1e18266936d247a32cdcbeca7dd0fac0",
+                "ImageSecondaryURL": "http://i.imgur.com/XID9Wcg.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "9a0b6a"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -26.59501,
+                "posY": 1.95780528,
+                "posZ": 6.589923,
+                "rotX": 359.933,
+                "rotY": 0.0165640414,
+                "rotZ": 359.958649,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/c/c4/Bone_Necromancer.png?version=4fc047904a9406257007a65c186eeac6",
+                "ImageSecondaryURL": "http://i.imgur.com/w2IO0yP.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "a58529"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -27.9964676,
+                "posY": 1.95736527,
+                "posZ": 8.008199,
+                "rotX": 359.987,
+                "rotY": 0.032229133,
+                "rotZ": -0.0011731101,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/9/92/Bone_Bearer.png?version=76b2f3413079c746f9baffaa53a43350",
+                "ImageSecondaryURL": "http://i.imgur.com/kqqrQNw.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "66a51c"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -26.221611,
+                "posY": 1.95730925,
+                "posZ": 6.013908,
+                "rotX": -0.00046316674,
+                "rotY": -0.00450912723,
+                "rotZ": -0.000447785947,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/e/e5/BoneCaptainAttack1.png?version=a33b4b766d1d35b3f2a006c2c0bd1ebf",
+                "ImageSecondaryURL": "http://i.imgur.com/WahOZuG.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "8593a0"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -25.4392948,
+                "posY": 1.95749426,
+                "posZ": 7.206367,
+                "rotX": 359.965759,
+                "rotY": -0.00234356639,
+                "rotZ": 0.00482644839,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/8/86/Bone_Solider.png?version=d8b4e332dbe49f99b4c6d43f29ade4bc",
+                "ImageSecondaryURL": "http://i.imgur.com/FroCuvf.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "8c1f11"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -26.57785,
+                "posY": 1.957556,
+                "posZ": 7.299903,
+                "rotX": 359.9615,
+                "rotY": -0.00387436152,
+                "rotZ": -0.00497672474,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/b/b4/Bone_Defender.png?version=ec68e8aeb4e2f00b48d0ed8170df7870",
+                "ImageSecondaryURL": "http://i.imgur.com/0qPSyF6.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "18ce2d"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -26.6293964,
+                "posY": 1.95744586,
+                "posZ": 6.846412,
+                "rotX": 359.9808,
+                "rotY": 0.0437621772,
+                "rotZ": 359.9922,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/c/c5/Bone_Arbalist.png?version=9fa7456fd66689b651dcf31d79f3140a",
+                "ImageSecondaryURL": "http://i.imgur.com/4Um7Vh5.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "7f74f0"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -26.6884117,
+                "posY": 1.9576273,
+                "posZ": 7.17273235,
+                "rotX": 359.972656,
+                "rotY": 0.00068628724,
+                "rotZ": 359.968628,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/9/91/Bone_Courtier.png?version=38ed2e6fa0023faf82876b817bd24b1e",
+                "ImageSecondaryURL": "http://i.imgur.com/NQ8y6we.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "d40452"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -26.5888271,
+                "posY": 1.95765972,
+                "posZ": 7.410227,
+                "rotX": 359.9625,
+                "rotY": -0.004738527,
+                "rotZ": 359.965485,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/f/f3/Bone_Militia.png?version=e51502ecd77b604bedc7a3ce04799bfe",
+                "ImageSecondaryURL": "http://i.imgur.com/GA5KtMt.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "41c83c"
+            }
+          ],
+          "GUID": "1a803f"
+        },
+        {
+          "Name": "Custom_Model_Bag",
+          "Transform": {
+            "posX": 2.09563947,
+            "posY": 6.62653828,
+            "posZ": -1.89159191,
+            "rotX": 359.962738,
+            "rotY": 269.996277,
+            "rotZ": 0.00213692221,
+            "scaleX": 3.34999752,
+            "scaleY": 3.34999752,
+            "scaleZ": 3.34999752
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.4512195,
+            "g": 0.362075984,
+            "b": 0.3026471
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw/gNxHHrRf",
+            "DiffuseURL": "http://i.imgur.com/zbpd4vU.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 6,
+            "CastShadows": true
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -33.0566063,
+                "posY": 1.95836639,
+                "posZ": 7.506618,
+                "rotX": 359.976349,
+                "rotY": 0.0170286782,
+                "rotZ": 359.977264,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/9/9a/Pyre_%28empty%29.png?version=593fa4aab314d6b13d65f8c0ac346507",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "165876"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -33.7300758,
+                "posY": 1.95788944,
+                "posZ": 6.36748838,
+                "rotX": 359.900818,
+                "rotY": 0.03542097,
+                "rotZ": 359.965332,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/f/ff/Fanatic.png?version=50ba5a26157379b962dc16050ccac921",
+                "ImageSecondaryURL": "http://i.imgur.com/xhaSa2N.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "030fdd"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -32.85853,
+                "posY": 1.95727861,
+                "posZ": 6.198661,
+                "rotX": 0.00236964668,
+                "rotY": 0.00197090441,
+                "rotZ": 0.0242308825,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/f/fb/Collected_Vestal.png?version=d58158ca3702ad5e52a78b613e1d384c",
+                "ImageSecondaryURL": "http://i.imgur.com/edpzRXX.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "ff283e"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -32.7683334,
+                "posY": 1.95698035,
+                "posZ": 6.234885,
+                "rotX": 0.006108449,
+                "rotY": 0.0496634841,
+                "rotZ": 0.011834776,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/a/ab/Collected_Man-at-Arms.png?version=4f94a14160f969392a4151e2649e7747",
+                "ImageSecondaryURL": "http://i.imgur.com/44IhVAX.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "f3083b"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -32.5185928,
+                "posY": 1.957175,
+                "posZ": 6.756086,
+                "rotX": 359.9939,
+                "rotY": 0.02783555,
+                "rotZ": 0.04856854,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/5/5a/Collected_Highwayman.png?version=250e2e44e6749231159d214f90b1a133",
+                "ImageSecondaryURL": "http://i.imgur.com/05PImGC.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "c30457"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -37.3075752,
+                "posY": 7.829151,
+                "posZ": 5.26509762,
+                "rotX": -0.00131737208,
+                "rotY": -0.000307532,
+                "rotZ": 0.006361577,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/3/37/The_Collector.png?version=44e39f0b65fe06df12c909a5f0d0bfa4",
+                "ImageSecondaryURL": "http://i.imgur.com/UYGER7J.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "d1db58"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -19.4572239,
+                "posY": 1.95730686,
+                "posZ": 6.72110128,
+                "rotX": 0.000888923765,
+                "rotY": 0.008050751,
+                "rotZ": -0.000258097483,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/f/f2/Shambler_Tentacle.png?version=d629b38396eea560d46c22154787865e",
+                "ImageSecondaryURL": "http://i.imgur.com/aTM4W0n.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "92c6e2"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -26.0627251,
+                "posY": 1.95776594,
+                "posZ": 6.608616,
+                "rotX": 359.917847,
+                "rotY": 0.037744727,
+                "rotZ": 359.932,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/6/69/Shambler.png?version=e2ced87e49938ed02cecc1b4b34ce909",
+                "ImageSecondaryURL": "http://i.imgur.com/ra6SMKb.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "b8b6ab"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -25.799099,
+                "posY": 1.95706582,
+                "posZ": 5.35721064,
+                "rotX": 0.07064729,
+                "rotY": 0.017118711,
+                "rotZ": 0.0763270259,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/6/68/Chevalier.png?version=bb5cb2bbb283ef75430295c26edb50fb",
+                "ImageSecondaryURL": "http://i.imgur.com/oGrZgPW.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "de6f6e"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -27.07413,
+                "posY": 1.9579196,
+                "posZ": 6.26013041,
+                "rotX": 359.9363,
+                "rotY": 0.0116134994,
+                "rotZ": 359.924225,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/4/42/Castellan.png?version=53837fb079f4b66218b12266aebe8cdd",
+                "ImageSecondaryURL": "http://i.imgur.com/YMEkEKu.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "b8ddfd"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -24.3501644,
+                "posY": 1.95733523,
+                "posZ": 7.87497663,
+                "rotX": 359.9927,
+                "rotY": 0.0211295914,
+                "rotZ": 0.0410873741,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/e/e8/Sycophant_Monster.png?version=79b8deeb4c27f65139a2802af0dbe116",
+                "ImageSecondaryURL": "http://i.imgur.com/u3eIXP4.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "106b09"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -25.7879848,
+                "posY": 1.957136,
+                "posZ": 6.56454325,
+                "rotX": 359.911133,
+                "rotY": 0.005608351,
+                "rotZ": 0.07133724,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/5/59/Sycophant.png?version=1b6f5d8c363e5016cf3419c8c6b5cedb",
+                "ImageSecondaryURL": "http://i.imgur.com/IWl1TaM.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "31f349"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -25.6605053,
+                "posY": 1.95734608,
+                "posZ": 6.875302,
+                "rotX": 359.912018,
+                "rotY": 0.0840364,
+                "rotZ": 0.0443326049,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/f/fd/Supplicant.png?version=e72a27f4c8f613f84486470706aa0cf3",
+                "ImageSecondaryURL": "http://i.imgur.com/GpHjTXU.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "f1560f"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -26.0040684,
+                "posY": 1.95730376,
+                "posZ": 5.75982428,
+                "rotX": 359.993073,
+                "rotY": 0.0129095055,
+                "rotZ": -0.000223400639,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/f/f4/Gargoyler.png?version=6392c1e0d587f651028ce217d2f42dc7",
+                "ImageSecondaryURL": "http://i.imgur.com/qgeLFF6.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "57edd4"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -26.6089954,
+                "posY": 1.9575758,
+                "posZ": 6.90343571,
+                "rotX": 359.938873,
+                "rotY": 0.0258200746,
+                "rotZ": 359.9799,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/e/e3/Ghoul.png?version=762aedc250e1655e2095154dda5ebe43",
+                "ImageSecondaryURL": "http://i.imgur.com/bAZFi7m.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "f71c6c"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -26.58412,
+                "posY": 1.95773053,
+                "posZ": 6.4003067,
+                "rotX": 359.943054,
+                "rotY": 0.02483366,
+                "rotZ": 359.942047,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/3/3c/Bone_Rabble.png?version=29eb53231423564c3dc0b9e1b66e1b9f",
+                "ImageSecondaryURL": "http://i.imgur.com/WEsgTh4.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "f6210c"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -25.7761879,
+                "posY": 1.95731473,
+                "posZ": 6.125142,
+                "rotX": -0.002327156,
+                "rotY": 0.00244677742,
+                "rotZ": -0.0019792032,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/6/62/Spitter.png?version=7c90605afdfa2e1dc9592aae9a6dc607",
+                "ImageSecondaryURL": "http://i.imgur.com/Wfd4Gaa.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "1dcfde"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -26.1095142,
+                "posY": 1.957343,
+                "posZ": 7.171908,
+                "rotX": -0.004165297,
+                "rotY": 359.973358,
+                "rotZ": -0.004363843,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/c/cc/Webber.png?version=e3aa426c3fe808454588984165df0fc5",
+                "ImageSecondaryURL": "http://i.imgur.com/7zFFHQP.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "90b471"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -25.347496,
+                "posY": 1.95722139,
+                "posZ": 5.91188431,
+                "rotX": 359.982635,
+                "rotY": 0.0114156483,
+                "rotZ": 0.02546623,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/0/08/Maggot.png?version=90fefc47fa2a043759e37d5731baedd6",
+                "ImageSecondaryURL": "http://i.imgur.com/I1eLJYK.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "4c3b59"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -24.6384544,
+                "posY": 1.95738161,
+                "posZ": 7.6364,
+                "rotX": 359.982147,
+                "rotY": 0.0320800133,
+                "rotZ": 0.00554805947,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/2/20/Madman.png?version=18909129bda8fb7230d82f324a5c9bc0",
+                "ImageSecondaryURL": "http://i.imgur.com/slFudHJ.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "4bb3f7"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -25.7310486,
+                "posY": 1.95733631,
+                "posZ": 7.135192,
+                "rotX": 359.9864,
+                "rotY": 0.0181616675,
+                "rotZ": 0.00298787374,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/c/ca/Brigand_Hunter.png?version=b1085e4f405a074bc068358a673ac695",
+                "ImageSecondaryURL": "http://i.imgur.com/jbQmUBX.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "d8161f"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -26.03397,
+                "posY": 1.95734417,
+                "posZ": 7.85060453,
+                "rotX": 359.992676,
+                "rotY": 0.0249089673,
+                "rotZ": -0.0009897025,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/c/cd/Brigand_Raider.png?version=9642e654af5a0dcc702ba8fd058a84f0",
+                "ImageSecondaryURL": "http://i.imgur.com/JNcYXkq.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "16fd74"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -26.2311363,
+                "posY": 1.95734859,
+                "posZ": 5.69070339,
+                "rotX": 359.974121,
+                "rotY": 0.0112953605,
+                "rotZ": 359.9889,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/f/f1/Brigand_Bloodletter.png?version=c3737a28545850e6baba83ec7f2293b5",
+                "ImageSecondaryURL": "http://i.imgur.com/iTl6Klj.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "28a370"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -26.8114243,
+                "posY": 1.95763552,
+                "posZ": 6.404674,
+                "rotX": 359.948029,
+                "rotY": 0.0288014878,
+                "rotZ": 359.960236,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/d/d4/Brigand_Fusilier.png?version=70b1c6d47f099067445b00154422736b",
+                "ImageSecondaryURL": "http://i.imgur.com/TnLZXKw.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "fd60f8"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -27.1837521,
+                "posY": 1.95810366,
+                "posZ": 7.418686,
+                "rotX": 359.915344,
+                "rotY": 0.03176481,
+                "rotZ": 359.925964,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/c/c3/Brigand_Cutthroat.png?version=a42ef04842c42aa514074750058b38cd",
+                "ImageSecondaryURL": "http://i.imgur.com/LHscOso.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "5af46d"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -8.790211,
+                "posY": 7.82914972,
+                "posZ": -8.642812,
+                "rotX": -0.001272732,
+                "rotY": 0.0206123,
+                "rotZ": -0.004538788,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/a/ad/Cultist_Acolyte.png?version=1a5605c3b5b57279b86dd5f86dbf9757",
+                "ImageSecondaryURL": "http://i.imgur.com/AhfSHW9.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "8d3783"
+            },
+            {
+              "Name": "Figurine_Custom",
+              "Transform": {
+                "posX": -7.01821947,
+                "posY": 7.82913637,
+                "posZ": -8.679962,
+                "rotX": 0.00724121975,
+                "rotY": 0.0134983407,
+                "rotZ": 0.00261606718,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "",
+              "Description": "",
+              "GMNotes": "",
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "CustomImage": {
+                "ImageURL": "https://hydra-media.cursecdn.com/darkestdungeon.gamepedia.com/4/47/Cultist_Brawler.png?version=0e063687cb94202a5f4da746adccd56d",
+                "ImageSecondaryURL": "http://i.imgur.com/rrH47EB.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0
+              },
+              "XmlUI": "",
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "GUID": "5d02a4"
+            }
+          ],
+          "GUID": "efa06f"
+        }
+      ],
+      "GUID": "81e206"
+    }
+  ],
+  "DecalPallet": [],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": ""
+}

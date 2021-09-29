@@ -1,0 +1,3244 @@
+{
+  "SaveName": "Tabletop Mini Golf 2",
+  "GameMode": "Tabletop Mini Golf 2",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "12/27/2019 9:25:26 PM",
+  "Table": "Table_None",
+  "Sky": "Sky_Museum",
+  "SkyURL": "http://cloud-3.steamusercontent.com/ugc/790876998116473130/B1FF90E43AC59F4BBEE00B75E09909A9225A810D/",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "<Defaults>\n    <Panel\n        class = \"ScoreBar\"\n\n        image = \"ScoreBar\"\n        width = \"717\"\n        height = \"94\"\n        rectAlignment = \"LowerCenter\"\n        offsetXY = \"0 15\"\n        />\n    <Button\n        class = \"ScoreMinus\"\n\n        onClick = \"scoreBarMinusClicked\"\n        image = \"ScoreBarMinus\"\n        width = \"47\"\n        height = \"47\"\n        rectAlignment = \"LowerRight\"\n        colors = \"#ffffff|#bfbfbf|#666666|#000000\"\n\n        tooltip = \"Reduce stroke count for the current hole.\"\n        tooltipBackgroundImage = \"\"\n        tooltipBorderColor = \"#ffffff00\"\n        tooltipBackgroundColor = \"#000000dd\"\n        tooltipPosition = \"Below\"\n        tooltipOffset = \"-14\"\n        />\n    <Button\n        class = \"ScorePlus\"\n\n        onClick = \"scoreBarPlusClicked\"\n        image = \"ScoreBarPlus\"\n        width = \"47\"\n        height = \"47\"\n        rectAlignment = \"UpperRight\"\n        colors = \"#ffffff|#bfbfbf|#666666|#000000\"\n\n        tooltip = \"Increase stroke count for the current hole.\"\n        tooltipBackgroundImage = \"\"\n        tooltipBorderColor = \"#ffffff00\"\n        tooltipBackgroundColor = \"#000000dd\"\n        tooltipPosition = \"Above\"\n        tooltipOffset = \"-12\"\n        />\n    <Button\n        class = \"ScoreButton\"\n\n        onClick = \"scoreShowClicked\"\n        image = \"ScoreShow\"\n        width = \"60\"\n        height = \"64\"\n        offsetXY = \"1 1\"\n        rectAlignment = \"MiddleLeft\"\n        colors = \"#ffffff|#bfbfbf|#666666|#000000\"\n\n        tooltip = \"Toggle the score card.\"\n        tooltipBackgroundImage = \"\"\n        tooltipBorderColor = \"#ffffff00\"\n        tooltipBackgroundColor = \"#000000dd\"\n        tooltipPosition = \"Above\"\n        tooltipOffset = \"0\"\n        />\n    <Text\n        class = \"ScoreBarHoleValue\"\n\n        text = \"\"\n        width = \"90\"\n        height = \"90\"\n        offsetXY = \"-154 0\"\n        fontSize = \"50\"\n        />\n    <Text\n        class = \"ScoreBarParValue\"\n        text = \"\"\n        width = \"90\"\n        height = \"90\"\n        offsetXY = \"20 0\"\n        fontSize = \"50\"\n        />\n    <Text\n        class = \"ScoreBarStrokesValue\"\n        text = \"\"\n        width = \"90\"\n        height = \"90\"\n        offsetXY = \"282 0\"\n        fontSize = \"50\"\n        />\n    <Text\n        class = \"ScoreCardPlayer\"\n        fontSize = \"19\"\n    />\n    <Cell\n        dontUseTableCellBackground = \"true\"\n    />\n</Defaults>\n\n<Panel\n    class = \"ScoreBar\"\n    >\n\n    <Panel\n        visibility = \"White\"\n        >\n        <Text\n            id = \"White_ScoreBarHoleValue\"\n            class = \"ScoreBarHoleValue\"\n        />\n        <Text\n            id = \"White_ScoreBarParValue\"\n            class = \"ScoreBarParValue\"\n        />\n        <Text\n            id = \"White_ScoreBarStrokesValue\"\n            class = \"ScoreBarStrokesValue\"\n        />\n    </Panel>\n    <Panel\n        visibility = \"Brown\"\n        >\n        <Text\n            id = \"Brown_ScoreBarHoleValue\"\n            class = \"ScoreBarHoleValue\"\n        />\n        <Text\n            id = \"Brown_ScoreBarParValue\"\n            class = \"ScoreBarParValue\"\n        />\n        <Text\n            id = \"Brown_ScoreBarStrokesValue\"\n            class = \"ScoreBarStrokesValue\"\n        />\n    </Panel>\n    <Panel\n        visibility = \"Red\"\n        >\n        <Text\n            id = \"Red_ScoreBarHoleValue\"\n            class = \"ScoreBarHoleValue\"\n        />\n        <Text\n            id = \"Red_ScoreBarParValue\"\n            class = \"ScoreBarParValue\"\n        />\n        <Text\n            id = \"Red_ScoreBarStrokesValue\"\n            class = \"ScoreBarStrokesValue\"\n        />\n    </Panel>\n    <Panel\n        visibility = \"Orange\"\n        >\n        <Text\n            id = \"Orange_ScoreBarHoleValue\"\n            class = \"ScoreBarHoleValue\"\n        />\n        <Text\n            id = \"Orange_ScoreBarParValue\"\n            class = \"ScoreBarParValue\"\n        />\n        <Text\n            id = \"Orange_ScoreBarStrokesValue\"\n            class = \"ScoreBarStrokesValue\"\n        />\n    </Panel>\n    <Panel\n        visibility = \"Yellow\"\n        >\n        <Text\n            id = \"Yellow_ScoreBarHoleValue\"\n            class = \"ScoreBarHoleValue\"\n        />\n        <Text\n            id = \"Yellow_ScoreBarParValue\"\n            class = \"ScoreBarParValue\"\n        />\n        <Text\n            id = \"Yellow_ScoreBarStrokesValue\"\n            class = \"ScoreBarStrokesValue\"\n        />\n    </Panel>\n    <Panel\n        visibility = \"Green\"\n        >\n        <Text\n            id = \"Green_ScoreBarHoleValue\"\n            class = \"ScoreBarHoleValue\"\n        />\n        <Text\n            id = \"Green_ScoreBarParValue\"\n            class = \"ScoreBarParValue\"\n        />\n        <Text\n            id = \"Green_ScoreBarStrokesValue\"\n            class = \"ScoreBarStrokesValue\"\n        />\n    </Panel>\n    <Panel\n        visibility = \"Teal\"\n        >\n        <Text\n            id = \"Teal_ScoreBarHoleValue\"\n            class = \"ScoreBarHoleValue\"\n        />\n        <Text\n            id = \"Teal_ScoreBarParValue\"\n            class = \"ScoreBarParValue\"\n        />\n        <Text\n            id = \"Teal_ScoreBarStrokesValue\"\n            class = \"ScoreBarStrokesValue\"\n        />\n    </Panel>\n    <Panel\n        visibility = \"Blue\"\n        >\n        <Text\n            id = \"Blue_ScoreBarHoleValue\"\n            class = \"ScoreBarHoleValue\"\n        />\n        <Text\n            id = \"Blue_ScoreBarParValue\"\n            class = \"ScoreBarParValue\"\n        />\n        <Text\n            id = \"Blue_ScoreBarStrokesValue\"\n            class = \"ScoreBarStrokesValue\"\n        />\n    </Panel>\n    <Panel\n        visibility = \"Purple\"\n        >\n        <Text\n            id = \"Purple_ScoreBarHoleValue\"\n            class = \"ScoreBarHoleValue\"\n        />\n        <Text\n            id = \"Purple_ScoreBarParValue\"\n            class = \"ScoreBarParValue\"\n        />\n        <Text\n            id = \"Purple_ScoreBarStrokesValue\"\n            class = \"ScoreBarStrokesValue\"\n        />\n    </Panel>\n    <Panel\n        visibility = \"Pink\"\n        >\n        <Text\n            id = \"Pink_ScoreBarHoleValue\"\n            class = \"ScoreBarHoleValue\"\n        />\n        <Text\n            id = \"Pink_ScoreBarParValue\"\n            class = \"ScoreBarParValue\"\n        />\n        <Text\n            id = \"Pink_ScoreBarStrokesValue\"\n            class = \"ScoreBarStrokesValue\"\n        />\n    </Panel>\n    <Button class = \"ScorePlus\"></Button>\n    <Button class = \"ScoreMinus\"></Button>\n    <Button class = \"ScoreButton\"></Button>\n</Panel>\n\n<Panel\n    id = \"ScoreCard\"\n    width = \"1305\"\n    height = \"191\"\n    visibility = \" \"\n    >\n    <Image\n        image = \"ScoreCardCornerUL\"\n        rectAlignment = \"UpperLeft\"\n        width = \"34\"\n        height = \"34\"\n    />\n    <Image\n        image = \"ScoreCardCornerUR\"\n        rectAlignment = \"UpperRight\"\n        width = \"34\"\n        height = \"34\"\n    />\n    <Image\n        image = \"ScoreCardCornerLR\"\n        rectAlignment = \"LowerRight\"\n        width = \"34\"\n        height = \"34\"\n    />\n    <Image\n        image = \"ScoreCardCornerLL\"\n        rectAlignment = \"LowerLeft\"\n        width = \"34\"\n        height = \"34\"\n    />\n    <Image\n        image = \"ScoreCardSideUp\"\n        rectAlignment = \"UpperCenter\"\n        width = \"1243\"\n        height = \"34\"\n    />\n    <Image\n        image = \"ScoreCardSideDown\"\n        rectAlignment = \"LowerCenter\"\n        width = \"1243\"\n        height = \"34\"\n    />\n    <Panel\n        id = \"ScoreCardMiddleFill\"\n        height = \"129\"\n        >\n        <Image\n            image = \"ScoreCardSideLeft\"\n            rectAlignment = \"MiddleLeft\"\n            width = \"34\"\n        />\n        <Image\n            image = \"ScoreCardSideRight\"\n            rectAlignment = \"MiddleRight\"\n            width = \"34\"\n        />\n        <Image\n            image = \"ScoreCardCenter\"\n            rectAlignment = \"MiddleCenter\"\n            width = \"1248\"\n            />\n        />\n    </Panel>\n    <Image\n        image = \"ScoreCardLogo\"\n        rectAlignment = \"UpperLeft\"\n        offsetXY = \"23 -23\"\n        width = \"188\"\n        height = \"87\"\n        >\n    </Image>\n    <Image\n        image = \"ScoreCardHolePar\"\n        width = \"1059\"\n        height = \"48\"\n        rectAlignment = \"UpperRight\"\n        offsetXY = \"-33 -33\"\n        >\n        <TableLayout\n            offsetXY = \"7 0\"\n            columnWidths = \"179 23 40 40 40 40 40 40 40 40 40 23 40 40 40 40 40 40 40 40 40 23 80\"\n            height = \"36\"\n            >\n            <Row>\n                <Cell><Text class = \"ScoreCardPlayer\">Hole</Text></Cell>\n                <Cell></Cell>\n                <Cell><Text class = \"ScoreCardPlayer\">1</Text></Cell>\n                <Cell><Text class = \"ScoreCardPlayer\">2</Text></Cell>\n                <Cell><Text class = \"ScoreCardPlayer\">3</Text></Cell>\n                <Cell><Text class = \"ScoreCardPlayer\">4</Text></Cell>\n                <Cell><Text class = \"ScoreCardPlayer\">5</Text></Cell>\n                <Cell><Text class = \"ScoreCardPlayer\">6</Text></Cell>\n                <Cell><Text class = \"ScoreCardPlayer\">7</Text></Cell>\n                <Cell><Text class = \"ScoreCardPlayer\">8</Text></Cell>\n                <Cell><Text class = \"ScoreCardPlayer\">9</Text></Cell>\n                <Cell></Cell>\n                <Cell><Text class = \"ScoreCardPlayer\">10</Text></Cell>\n                <Cell><Text class = \"ScoreCardPlayer\">11</Text></Cell>\n                <Cell><Text class = \"ScoreCardPlayer\">12</Text></Cell>\n                <Cell><Text class = \"ScoreCardPlayer\">13</Text></Cell>\n                <Cell><Text class = \"ScoreCardPlayer\">14</Text></Cell>\n                <Cell><Text class = \"ScoreCardPlayer\">15</Text></Cell>\n                <Cell><Text class = \"ScoreCardPlayer\">16</Text></Cell>\n                <Cell><Text class = \"ScoreCardPlayer\">17</Text></Cell>\n                <Cell><Text class = \"ScoreCardPlayer\">18</Text></Cell>\n                <Cell></Cell>\n                <Cell><Text class = \"ScoreCardPlayer\">Total</Text></Cell>\n            </Row>\n        </TableLayout>\n    </Image>\n    <Image\n        image = \"ScoreCardHolePar\"\n        width = \"1059\"\n        height = \"48\"\n        rectAlignment = \"UpperRight\"\n        offsetXY = \"-33 -74\"\n        >\n        <TableLayout\n            offsetXY = \"7 0\"\n            columnWidths = \"179 23 40 40 40 40 40 40 40 40 40 23 40 40 40 40 40 40 40 40 40 23 80\"\n            height = \"36\"\n            >\n            <Row>\n                <Cell><Text class = \"ScoreCardPlayer\">Par</Text></Cell>\n                <Cell></Cell>\n                <Cell><Text id = \"ScoreCardPar_1\" class = \"ScoreCardPlayer\"></Text></Cell>\n                <Cell><Text id = \"ScoreCardPar_2\"  class = \"ScoreCardPlayer\"></Text></Cell>\n                <Cell><Text id = \"ScoreCardPar_3\"  class = \"ScoreCardPlayer\"></Text></Cell>\n                <Cell><Text id = \"ScoreCardPar_4\"  class = \"ScoreCardPlayer\"></Text></Cell>\n                <Cell><Text id = \"ScoreCardPar_5\"  class = \"ScoreCardPlayer\"></Text></Cell>\n                <Cell><Text id = \"ScoreCardPar_6\"  class = \"ScoreCardPlayer\"></Text></Cell>\n                <Cell><Text id = \"ScoreCardPar_7\"  class = \"ScoreCardPlayer\"></Text></Cell>\n                <Cell><Text id = \"ScoreCardPar_8\"  class = \"ScoreCardPlayer\"></Text></Cell>\n                <Cell><Text id = \"ScoreCardPar_9\"  class = \"ScoreCardPlayer\"></Text></Cell>\n                <Cell></Cell>\n                <Cell><Text id = \"ScoreCardPar_10\"  class = \"ScoreCardPlayer\"></Text></Cell>\n                <Cell><Text id = \"ScoreCardPar_11\"  class = \"ScoreCardPlayer\"></Text></Cell>\n                <Cell><Text id = \"ScoreCardPar_12\"  class = \"ScoreCardPlayer\"></Text></Cell>\n                <Cell><Text id = \"ScoreCardPar_13\"  class = \"ScoreCardPlayer\"></Text></Cell>\n                <Cell><Text id = \"ScoreCardPar_14\"  class = \"ScoreCardPlayer\"></Text></Cell>\n                <Cell><Text id = \"ScoreCardPar_15\"  class = \"ScoreCardPlayer\"></Text></Cell>\n                <Cell><Text id = \"ScoreCardPar_16\"  class = \"ScoreCardPlayer\"></Text></Cell>\n                <Cell><Text id = \"ScoreCardPar_17\"  class = \"ScoreCardPlayer\"></Text></Cell>\n                <Cell><Text id = \"ScoreCardPar_18\"  class = \"ScoreCardPlayer\"></Text></Cell>\n                <Cell></Cell>\n                <Cell><Text id = \"ScoreCardParTotal\" class = \"ScoreCardPlayer\"></Text></Cell>\n            </Row>\n        </TableLayout>\n    </Image>\n    <VerticalLayout\n        spacing = \"-8\"\n        rectAlignment = \"UpperRight\"\n        width = \"1239\"\n        offsetXY = \"-33 -137\"\n        childForceExpandHeight = \"false\"\n        >\n        <Image\n            id = \"ScoreCard_White\"\n            active = \"false\"\n            image = \"ScoreCardPlayer\"\n            height = \"36\"\n            >\n            <TableLayout\n                offsetXY = \"7 0\"\n                columnWidths = \"36 322 23 40 40 40 40 40 40 40 40 40 23 40 40 40 40 40 40 40 40 40 23 80\"\n                height = \"36\"\n                >\n                <Row>\n                    <Cell><Image image = \"ScoreCardColor\" color = \"White\"></Image></Cell>\n                    <Cell><Text id = \"ScoreCardName_White\" class = \"ScoreCardPlayer\" alignment = \"Middle Left\"></Text></Cell>\n                    <Cell></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_1_White\"  class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_2_White\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_3_White\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_4_White\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_5_White\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_6_White\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_7_White\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_8_White\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_9_White\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_10_White\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_11_White\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_12_White\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_13_White\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_14_White\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_15_White\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_16_White\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_17_White\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_18_White\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell></Cell>\n                    <Cell><Text id = \"ScoreCardTotal_White\" class = \"ScoreCardPlayer\"></Text></Cell>\n                </Row>\n            </TableLayout>\n        </Image>\n        <Image\n            id = \"ScoreCard_Brown\"\n            active = \"false\"\n            image = \"ScoreCardPlayer\"\n            height = \"36\"\n            >\n            <TableLayout\n                offsetXY = \"7 0\"\n                columnWidths = \"36 322 23 40 40 40 40 40 40 40 40 40 23 40 40 40 40 40 40 40 40 40 23 80\"\n                height = \"36\"\n                >\n                <Row>\n                    <Cell><Image image = \"ScoreCardColor\" color = \"Brown\"></Image></Cell>\n                    <Cell><Text id = \"ScoreCardName_Brown\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_1_Brown\"  class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_2_Brown\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_3_Brown\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_4_Brown\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_5_Brown\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_6_Brown\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_7_Brown\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_8_Brown\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_9_Brown\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_10_Brown\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_11_Brown\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_12_Brown\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_13_Brown\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_14_Brown\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_15_Brown\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_16_Brown\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_17_Brown\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_18_Brown\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell></Cell>\n                    <Cell><Text id = \"ScoreCardTotal_Brown\" class = \"ScoreCardPlayer\"></Text></Cell>\n                </Row>\n            </TableLayout>\n        </Image>\n        <Image\n            id = \"ScoreCard_Red\"\n            active = \"false\"\n            image = \"ScoreCardPlayer\"\n            height = \"36\"\n            >\n            <TableLayout\n                offsetXY = \"7 0\"\n                columnWidths = \"36 322 23 40 40 40 40 40 40 40 40 40 23 40 40 40 40 40 40 40 40 40 23 80\"\n                height = \"36\"\n                >\n                <Row>\n                    <Cell><Image image = \"ScoreCardColor\" color = \"Red\"></Image></Cell>\n                    <Cell><Text id = \"ScoreCardName_Red\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_1_Red\"  class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_2_Red\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_3_Red\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_4_Red\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_5_Red\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_6_Red\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_7_Red\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_8_Red\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_9_Red\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_10_Red\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_11_Red\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_12_Red\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_13_Red\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_14_Red\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_15_Red\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_16_Red\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_17_Red\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_18_Red\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell></Cell>\n                    <Cell><Text id = \"ScoreCardTotal_Red\" class = \"ScoreCardPlayer\"></Text></Cell>\n                </Row>\n            </TableLayout>\n        </Image>\n        <Image\n            id = \"ScoreCard_Orange\"\n            active = \"false\"\n            image = \"ScoreCardPlayer\"\n            height = \"36\"\n            >\n            <TableLayout\n                offsetXY = \"7 0\"\n                columnWidths = \"36 322 23 40 40 40 40 40 40 40 40 40 23 40 40 40 40 40 40 40 40 40 23 80\"\n                height = \"36\"\n                >\n                <Row>\n                    <Cell><Image image = \"ScoreCardColor\" color = \"Orange\"></Image></Cell>\n                    <Cell><Text id = \"ScoreCardName_Orange\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_1_Orange\"  class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_2_Orange\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_3_Orange\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_4_Orange\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_5_Orange\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_6_Orange\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_7_Orange\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_8_Orange\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_9_Orange\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_10_Orange\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_11_Orange\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_12_Orange\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_13_Orange\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_14_Orange\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_15_Orange\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_16_Orange\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_17_Orange\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_18_Orange\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell></Cell>\n                    <Cell><Text id = \"ScoreCardTotal_Orange\" class = \"ScoreCardPlayer\"></Text></Cell>\n                </Row>\n            </TableLayout>\n        </Image>\n        <Image\n            id = \"ScoreCard_Yellow\"\n            active = \"false\"\n            image = \"ScoreCardPlayer\"\n            height = \"36\"\n            >\n            <TableLayout\n                offsetXY = \"7 0\"\n                columnWidths = \"36 322 23 40 40 40 40 40 40 40 40 40 23 40 40 40 40 40 40 40 40 40 23 80\"\n                height = \"36\"\n                >\n                <Row>\n                    <Cell><Image image = \"ScoreCardColor\" color = \"Yellow\"></Image></Cell>\n                    <Cell><Text id = \"ScoreCardName_Yellow\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_1_Yellow\"  class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_2_Yellow\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_3_Yellow\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_4_Yellow\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_5_Yellow\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_6_Yellow\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_7_Yellow\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_8_Yellow\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_9_Yellow\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_10_Yellow\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_11_Yellow\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_12_Yellow\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_13_Yellow\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_14_Yellow\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_15_Yellow\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_16_Yellow\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_17_Yellow\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_18_Yellow\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell></Cell>\n                    <Cell><Text id = \"ScoreCardTotal_Yellow\" class = \"ScoreCardPlayer\"></Text></Cell>\n                </Row>\n            </TableLayout>\n        </Image>\n        <Image\n            id = \"ScoreCard_Green\"\n            active = \"false\"\n            image = \"ScoreCardPlayer\"\n            height = \"36\"\n            >\n            <TableLayout\n                offsetXY = \"7 0\"\n                columnWidths = \"36 322 23 40 40 40 40 40 40 40 40 40 23 40 40 40 40 40 40 40 40 40 23 80\"\n                height = \"36\"\n                >\n                <Row>\n                    <Cell><Image image = \"ScoreCardColor\" color = \"Green\"></Image></Cell>\n                    <Cell><Text id = \"ScoreCardName_Green\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_1_Green\"  class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_2_Green\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_3_Green\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_4_Green\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_5_Green\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_6_Green\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_7_Green\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_8_Green\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_9_Green\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_10_Green\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_11_Green\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_12_Green\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_13_Green\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_14_Green\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_15_Green\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_16_Green\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_17_Green\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_18_Green\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell></Cell>\n                    <Cell><Text id = \"ScoreCardTotal_Green\" class = \"ScoreCardPlayer\"></Text></Cell>\n                </Row>\n            </TableLayout>\n        </Image>\n        <Image\n            id = \"ScoreCard_Teal\"\n            active = \"false\"\n            image = \"ScoreCardPlayer\"\n            height = \"36\"\n            >\n            <TableLayout\n                offsetXY = \"7 0\"\n                columnWidths = \"36 322 23 40 40 40 40 40 40 40 40 40 23 40 40 40 40 40 40 40 40 40 23 80\"\n                height = \"36\"\n                >\n                <Row>\n                    <Cell><Image image = \"ScoreCardColor\" color = \"Teal\"></Image></Cell>\n                    <Cell><Text id = \"ScoreCardName_Teal\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_1_Teal\"  class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_2_Teal\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_3_Teal\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_4_Teal\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_5_Teal\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_6_Teal\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_7_Teal\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_8_Teal\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_9_Teal\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_10_Teal\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_11_Teal\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_12_Teal\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_13_Teal\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_14_Teal\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_15_Teal\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_16_Teal\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_17_Teal\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_18_Teal\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell></Cell>\n                    <Cell><Text id = \"ScoreCardTotal_Teal\" class = \"ScoreCardPlayer\"></Text></Cell>\n                </Row>\n            </TableLayout>\n        </Image>\n        <Image\n            id = \"ScoreCard_Blue\"\n            active = \"false\"\n            image = \"ScoreCardPlayer\"\n            height = \"36\"\n            >\n            <TableLayout\n                offsetXY = \"7 0\"\n                columnWidths = \"36 322 23 40 40 40 40 40 40 40 40 40 23 40 40 40 40 40 40 40 40 40 23 80\"\n                height = \"36\"\n                >\n                <Row>\n                    <Cell><Image image = \"ScoreCardColor\" color = \"Blue\"></Image></Cell>\n                    <Cell><Text id = \"ScoreCardName_Blue\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_1_Blue\"  class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_2_Blue\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_3_Blue\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_4_Blue\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_5_Blue\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_6_Blue\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_7_Blue\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_8_Blue\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_9_Blue\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_10_Blue\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_11_Blue\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_12_Blue\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_13_Blue\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_14_Blue\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_15_Blue\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_16_Blue\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_17_Blue\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_18_Blue\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell></Cell>\n                    <Cell><Text id = \"ScoreCardTotal_Blue\" class = \"ScoreCardPlayer\"></Text></Cell>\n                </Row>\n            </TableLayout>\n        </Image>\n        <Image\n            id = \"ScoreCard_Purple\"\n            active = \"false\"\n            image = \"ScoreCardPlayer\"\n            height = \"36\"\n            >\n            <TableLayout\n                offsetXY = \"7 0\"\n                columnWidths = \"36 322 23 40 40 40 40 40 40 40 40 40 23 40 40 40 40 40 40 40 40 40 23 80\"\n                height = \"36\"\n                >\n                <Row>\n                    <Cell><Image image = \"ScoreCardColor\" color = \"Purple\"></Image></Cell>\n                    <Cell><Text id = \"ScoreCardName_Purple\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_1_Purple\"  class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_2_Purple\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_3_Purple\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_4_Purple\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_5_Purple\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_6_Purple\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_7_Purple\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_8_Purple\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_9_Purple\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_10_Purple\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_11_Purple\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_12_Purple\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_13_Purple\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_14_Purple\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_15_Purple\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_16_Purple\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_17_Purple\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_18_Purple\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell></Cell>\n                    <Cell><Text id = \"ScoreCardTotal_Purple\" class = \"ScoreCardPlayer\"></Text></Cell>\n                </Row>\n            </TableLayout>\n        </Image>\n        <Image\n            id = \"ScoreCard_Pink\"\n            active = \"false\"\n            image = \"ScoreCardPlayer\"\n            height = \"36\"\n            >\n            <TableLayout\n                offsetXY = \"7 0\"\n                columnWidths = \"36 322 23 40 40 40 40 40 40 40 40 40 23 40 40 40 40 40 40 40 40 40 23 80\"\n                height = \"36\"\n                >\n                <Row>\n                    <Cell><Image image = \"ScoreCardColor\" color = \"Pink\"></Image></Cell>\n                    <Cell><Text id = \"ScoreCardName_Pink\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_1_Pink\"  class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_2_Pink\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_3_Pink\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_4_Pink\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_5_Pink\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_6_Pink\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_7_Pink\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_8_Pink\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_9_Pink\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_10_Pink\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_11_Pink\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_12_Pink\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_13_Pink\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_14_Pink\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_15_Pink\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_16_Pink\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_17_Pink\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell><Text id = \"ScoreCardStrokes_18_Pink\" class = \"ScoreCardPlayer\"></Text></Cell>\n                    <Cell></Cell>\n                    <Cell><Text id = \"ScoreCardTotal_Pink\" class = \"ScoreCardPlayer\"></Text></Cell>\n                </Row>\n            </TableLayout>\n        </Image>\n    </VerticalLayout>\n</Panel>",
+  "CustomUIAssets": [
+    {
+      "Name": "ScoreBar",
+      "URL": "http://cloud-3.steamusercontent.com/ugc/790877511963448545/E4941DA1CF79029EC572671066DC2EAD4AC329E5/"
+    },
+    {
+      "Name": "ScoreBarPlus",
+      "URL": "http://cloud-3.steamusercontent.com/ugc/790876998116473273/E665B2ACEEA584379481933BB8A5DC60D1A15784/"
+    },
+    {
+      "Name": "ScoreBarMinus",
+      "URL": "http://cloud-3.steamusercontent.com/ugc/790876998116473304/E1E0535B405E7A1CDAD87D843BBAE41C08697C36/"
+    },
+    {
+      "Name": "ScoreCardCenter",
+      "URL": "http://cloud-3.steamusercontent.com/ugc/790876998116473344/EAB867E2D29E93E8146963F80E8F824B1F0F2628/"
+    },
+    {
+      "Name": "ScoreCardSideUp",
+      "URL": "http://cloud-3.steamusercontent.com/ugc/790876998116473379/02B33579DBBFA91EB0998B68C2EAE38406CC6B82/"
+    },
+    {
+      "Name": "ScoreCardCornerUR",
+      "URL": "http://cloud-3.steamusercontent.com/ugc/790876998116473419/09EA1E9BF11BE59318F56E6A5591F6A91B8E0887/"
+    },
+    {
+      "Name": "ScoreCardCornerUL",
+      "URL": "http://cloud-3.steamusercontent.com/ugc/790876998116473454/DD7C497E7B3B9EC34AA72DCC78A96C2EE302978D/"
+    },
+    {
+      "Name": "ScoreCardCornerLL",
+      "URL": "http://cloud-3.steamusercontent.com/ugc/790876998116473483/05B2FDBE81C101F4A5C0F57DE252EB1A478E4C0C/"
+    },
+    {
+      "Name": "ScoreCardCornerLR",
+      "URL": "http://cloud-3.steamusercontent.com/ugc/790876998116473519/D8FBB3359D2B9753AE4836DA3655EA56FEAADA24/"
+    },
+    {
+      "Name": "ScoreCardSideDown",
+      "URL": "http://cloud-3.steamusercontent.com/ugc/790876998116473559/5B481A7ECB19052ADC98E017C22398B4CED8030C/"
+    },
+    {
+      "Name": "ScoreCardSideRight",
+      "URL": "http://cloud-3.steamusercontent.com/ugc/790876998116473592/4ABCCAFAF07A56EACCE7B996A2C648E4F3B50D38/"
+    },
+    {
+      "Name": "ScoreCardSideLeft",
+      "URL": "http://cloud-3.steamusercontent.com/ugc/790876998116473625/51FC2BE73663C6777BAE834ACF766B0D3AE45E1A/"
+    },
+    {
+      "Name": "ScoreCardHolePar",
+      "URL": "http://cloud-3.steamusercontent.com/ugc/790876998116473658/9253643E39720DB3906B6C2A2960A50472F752BA/"
+    },
+    {
+      "Name": "ScoreCardPlayer",
+      "URL": "http://cloud-3.steamusercontent.com/ugc/790876998116473695/844465812C6AD6889B731C6030AAA37A256F2532/"
+    },
+    {
+      "Name": "ScoreCardColor",
+      "URL": "http://cloud-3.steamusercontent.com/ugc/790876998116473731/5569A119576703EF16150091FB6305FE622C501C/"
+    },
+    {
+      "Name": "ScoreCardLogo",
+      "URL": "http://cloud-3.steamusercontent.com/ugc/790876998116473778/4D72CDB33919F5FE584B76B36BD3C3586B2A9515/"
+    },
+    {
+      "Name": "ScoreShow",
+      "URL": "http://cloud-3.steamusercontent.com/ugc/790877511963448594/8242E51B08C25728E84B26B5D7CA4946E2211C10/"
+    }
+  ],
+  "LuaScript": "sand_GUID = \"22d13a\"\ngolf_ball_master_GUID = \"779a0f\"\n\n--Each zone covers all or a portion of a hole_pars\n--They are used to determine which hole the players ball is currently at for automatic stroke calculations\nhole_number_zones = {\n    [\"59ec01\"] = 1,\n    [\"b57941\"] = 2,\n    [\"bba0d8\"] = 3, [\"5a3a14\"] = 3,\n    [\"c90f60\"] = 4,\n    [\"2b6956\"] = 5,\n    [\"de1f38\"] = 6,\n    [\"6ac3da\"] = 7, [\"d235b2\"] = 7,\n    [\"3bfeea\"] = 8, [\"8deca9\"] = 8,\n    [\"721964\"] = 9, [\"8c5b9f\"] = 9,\n    [\"e9cd9b\"] = 10, [\"e91d10\"] = 10, [\"34b3bf\"] = 10,\n    [\"bce6cd\"] = 11, [\"cd3450\"] = 11, [\"407dd4\"] = 11, [\"cf5e12\"] = 11,\n    [\"1a74c9\"] = 12, [\"2f45cf\"] = 12,\n    [\"f4ea31\"] = 13,\n    [\"c7a69e\"] = 14,\n    [\"72543c\"] = 15,\n    [\"7c568d\"] = 16,\n    [\"2efdca\"] = 17,\n    [\"fbdacf\"] = 18,\n}\n\nskee_ball_zones = {\n    [\"933a28\"] = -3,\n    [\"9c4aa8\"] = -3,\n    [\"07f38c\"] = -2,\n    [\"a4cbec\"] = -1,\n    [\"6e287b\"] = 0,\n    [\"f9f5d0\"] = 1,\n    [\"de2485\"] = 2,\n    [\"96c3c4\"] = 3,\n}\n\nguids_to_freeze = {\n    \"8e9d89\", \"22d13a\", \"9a127a\", \"779a0f\"\n}\n\n--The pars for each hole that are to be used to populate the score card and score bar\nhole_pars = {\n    1, 2, 2, 2, 2, 1, 2, 3, 1, 2, 2, 1, 2, 4, 2, 4, 4, \"X\"\n}\n\n--This is a special mechanism for hole 9 that has 3 seperate holes to drop into 3 possible areas\n--This links the zones with the drop positions when needed\nhole_drop_zones = {\n    guid = { \"19caf4\", \"2f85b8\", \"56ff3c\" },\n    output_position = { vector(3.00, 4.60, 46.25), vector(-1.00, 4.60, 46.25), vector(-5.00, 4.60, 46.25) }\n}\n\nscore_card_visible = {}\n\nmessages = {\n    welcome = \"\\nWelcome to [19a36b][b]Tabletop Mini Golf 2[/b][-]!\\n[i]For help type -mghelp in the log or chat window.\\nConfigure custom keyboard commands under Options -> Game Keys[/i]\",\n    help = \"[19a36b][b]Tabletop Minigolf 2 Help[/b][-]\\n[b][i][How to Play][/i][/b]\\n1. Grab a ball from one of the baskets.\\n2. Place the ball at the start of the first hole.\\n3. Use the flick tool to hit the ball towards the hole.\\n4. Continue playing the holes until you finish.\\n5. The player with the lowest score wins!\\n\\n[b][i][Controls][/i][/b]\\nThis mod uses a new feature - Game Keys - found in the top bar under Options -> Game Keys to use certain features. You can customise these controls to best suit you.\\n\"\n}\n\nscore_card_height = 191\nscore_card_middle_height = 129\nscore_card_player_height = 38\n\nfunction onLoad(save_state)\n    local data = JSON.decode(save_state)\n\n    if data ~= nil and data.player_data ~= nil then\n        player_data = data.player_data\n        updateAllScoreBars()\n        updateFullScoreCard()\n    else\n        initPlayerData()\n    end\n\n    Physics.setGravity(vector(0, -60, 0))\n    initScoreCard()\n    initGameObjects()\n\n    addHotkey(\"Show Score Card\", showScoreCardPressed)\n    addHotkey(\"Add stroke\", addStrokePressed)\n    addHotkey(\"Remove stroke\", removeStrokePressed)\n    addHotkey(\"Reset Game (Host Only)\", resetGame)\n\n    displayWelcomeMessageToAll()\n\n    freezeObjects()\nend\n\nfunction onSave()\n    local data = {\n        [\"player_data\"] = player_data\n    }\n\n    return JSON.encode(data)\nend\n\nfunction initPlayerData()\n    local colors = Player.getAvailableColors()\n    player_data = {}\n    for color_index = 1, #colors do\n        local color = colors[color_index]\n        player_data[color] = {\n            [\"current_hole\"] = 0,\n            [\"hole_score\"] = {},\n            [\"total_score\"] = 0\n        }\n        score_card_visible[color] = false\n    end\nend\n\nfunction initScoreCard()\n    initScoreCardPar()\n    local colors = Player.getAvailableColors()\n    local seated_colors = getSeatedPlayers()\n\n    for i = 1, #colors do\n        removePlayerScoreCard(colors[i])\n    end\n\n    Wait.frames(function()\n        for i = 1, #seated_colors do\n            addPlayerScoreCard(seated_colors[i])\n        end\n    end, 1)\nend\n\nfunction freezeObjects()\n    for i = 1, #guids_to_freeze do\n        local object = getObjectFromGUID(guids_to_freeze[i])\n        object.interactable = false\n    end\nend\n\nfunction onPlayerChangeColor(player_color)\n    if player_color == \"Grey\" then\n        local seated = getSeatedPlayers()\n        local colors = Player.getAvailableColors()\n        for i = 1, #colors do\n            if seated[colors[i]] == nil and self.UI.getAttribute(\"ScoreCard_\" .. colors[i], \"active\") == \"true\" then\n                removePlayerScoreCard(colors[i])\n            end\n        end\n    else\n        addPlayerScoreCard(player_color)\n    end\nend\n\nfunction initScoreCardPar()\n    local total_par = 0\n    for i = 1, 17 do\n        self.UI.setAttribute(\"ScoreCardPar_\" .. i, \"text\", hole_pars[i])\n        total_par = total_par + hole_pars[i]\n    end\n    self.UI.setAttribute(\"ScoreCardPar_18\", \"text\", \"X\")\n    self.UI.setAttribute(\"ScoreCardParTotal\", \"text\", total_par)\nend\n\nfunction onObjectEnterScriptingZone(zone, enter_object)\n    if isGolfBall(enter_object) then\n        ballEnterScriptingZone(zone, enter_object)\n    end\nend\n\nfunction onObjectSpawn(object)\n    if isGolfBall(object) then\n        initGolfBall(object)\n    end\nend\n\nfunction onObjectPickUp(player_color,  picked_up_object)\n    if isGolfBall(picked_up_object) then\n        setGolfBallOwner(picked_up_object, player_color)\n    end\nend\n\nfunction onObjectLeaveContainer(container, leave_object)\n    if leave_object.getGMNotes() == \"Golf Ball\" then\n        Wait.frames(|| golfBallLeaveContainer(leave_object), 2)\n    end\nend\n\nfunction golfBallLeaveContainer(ball)\n    ball.setLuaScript(golf_ball_master.getLuaScript())\n    Wait.frames(|| setGolfBallOwner(ball, ball.held_by_color), 2)\nend\n\nfunction setGolfBallOwner(ball, color)\n    ball.setVar(\"owner_color\", color)\nend\n\nfunction ballEnterScriptingZone(zone, enter_object)\n    if hole_number_zones[zone.getGUID()] ~= nil then\n        local hole_number = hole_number_zones[zone.getGUID()]\n        local color = enter_object.getVar(\"owner_color\")\n\n        if color == nil then\n            return false\n        end\n\n        if color ~= nil then\n            setCurrentHole(color, hole_number)\n            updateScoreBar(color)\n        end\n    elseif skee_ball_zones[zone.getGUID()] ~= nil then\n        local color = enter_object.getVar(\"owner_color\")\n        skeeBallScore(color, skee_ball_zones[zone.getGUID()])\n        enter_object.destruct()\n    else\n        ballEnterDropZone(zone, enter_object)\n    end\nend\n\nfunction onPlayerConnect(player)\n    displayWelcomeMessage()\nend\n\nfunction displayWelcomeMessage()\n    printToColor(messages.welcome, player.color)\nend\n\nfunction displayWelcomeMessageToAll()\n    printToAll(messages.welcome)\nend\n\nfunction onChat(message, player)\n    if message == \"-mghelp\" then\n        printToColor(messages.help, player.color, Table)\n    end\nend\n\nfunction skeeBallScore(color, value)\n    modifyStroke(color, value)\n    local total = player_data[color].total_score\n    printToAll(Player[color].steam_name .. \" as \" .. color .. \" scored \" .. value .. \" on hole 18 and finished with a final score of \" .. total .. \"!\")\nend\n\nfunction ballEnterDropZone(zone, enter_object)\n    for i = 1, 3 do\n        if hole_drop_zones.guid[i] == zone.getGUID() then\n            Wait.time(function()\n                enter_object.setPosition(hole_drop_zones.output_position[i])\n                enter_object.setVelocity(vector(0, 0, -3 + math.random(2)))\n            end, 1)\n        end\n    end\nend\n\nfunction showScoreCardPressed(color)\n    score_card_visible[color] = not score_card_visible[color]\n    updateScoreCardVisibility()\nend\n\nfunction scoreShowClicked(player)\n    score_card_visible[player.color] = not score_card_visible[player.color]\n    updateScoreCardVisibility()\nend\n\nfunction addStrokePressed(color)\n    modifyStroke(color, 1)\nend\n\nfunction removeStrokePressed(color)\n    modifyStroke(color, -1)\nend\n\nfunction resetGame(color)\n    if Player[color].host then\n        initPlayerData()\n        initScoreCard()\n        updateAllScoreBars()\n        updateFullScoreCard()\n        broadcastToAll(\"Resetting game.\", { 0.9, 0.1, 0.1})\n    end\nend\n\nfunction updateFullScoreCard()\n    local colors = Player.getAvailableColors()\n    for i = 1, #colors do\n        local color = colors[i]\n        for i = 1, 18 do\n            self.UI.setAttribute(\"ScoreCardStrokes_\" .. i .. \"_\" .. color, \"text\", player_data[color].hole_score[i] or \"\")\n        end\n        self.UI.setAttribute(\"ScoreCardTotal_\" .. color, \"text\", player_data[color].total_score or \"\")\n        self.UI.setAttribute(\"ScoreCardName_\" .. color, \"text\", Player[color].steam_name or \"\")\n    end\nend\n\nfunction updateScoreCardVisibility()\n    local visibility_string = getScoreCardVisibilityString()\n    self.UI.setAttribute(\"ScoreCard\", \"visibility\", visibility_string)\nend\n\nfunction getScoreCardVisibilityString()\n    local colors = Player.getAvailableColors()\n    local visibility_string = \"\"\n    for i = 1, #colors do\n        if score_card_visible[colors[i]] then\n            visibility_string = visibility_string .. colors[i] .. \"|\"\n        end\n    end\n\n    local len = string.len(visibility_string)\n\n    if len > 0 then\n        visibility_string = string.sub(visibility_string, 0, len - 1)\n    else\n        visibility_string = \" \"\n    end\n\n    return visibility_string\nend\n\nfunction initGameObjects()\n    sand = getObjectFromGUID(sand_GUID)\n    golf_ball_master = getObjectFromGUID(golf_ball_master_GUID)\nend\n\nfunction isGolfBall(object)\n    return object.getGMNotes() == \"Golf Ball\"\nend\n\nfunction initGolfBall(ball_object)\n    Wait.frames(||ball_object.registerCollisions(), 2)\nend\n\nfunction ballFlicked(args)\n    local color = args.color\n    local current_hole = player_data[color].current_hole\n    if current_hole ~= 18 then\n        modifyStroke(color, 1)\n    end\nend\n\nfunction scoreBarPlusClicked(args)\n    local color = args.color\n    modifyStroke(color, 1)\nend\n\nfunction scoreBarPlusClicked(player, mouse_button)\n    if mouse_button == \"-1\" then\n        scoreBarClicked(player.color, 1)\n    end\nend\n\nfunction scoreBarMinusClicked(player, mouse_button)\n    if mouse_button == \"-1\" then\n        scoreBarClicked(player.color, -1)\n    end\nend\n\nfunction scoreBarClicked(color, value)\n    local current_hole = getCurrentHole(color)\n\n    if current_hole ~= nil and current_hole > 0 and current_hole ~= 18 then\n        modifyStroke(color, value)\n    end\nend\n\nfunction addPlayerScoreCard(color)\n    local active = self.UI.getAttribute(\"ScoreCard_\" .. color, \"active\")\n    if active == \"false\" then\n        modifyPlayerScoreCard(color, true)\n    end\nend\n\nfunction removePlayerScoreCard(color)\n    local active = self.UI.getAttribute(\"ScoreCard_\" .. color, \"active\")\n    if active == \"true\" then\n        modifyPlayerScoreCard(color, false)\n    end\nend\n\nfunction modifyPlayerScoreCard(color, active)\n    local seated = getSeatedPlayers()\n    local gap_size = score_card_player_height * #seated\n    local score_card_modified = tostring(score_card_height + gap_size)\n    local score_card_middle_modified = tostring(score_card_middle_height + gap_size)\n\n    self.UI.setAttribute(\"ScoreCard_\" .. color, \"active\", tostring(active))\n    self.UI.setAttribute(\"ScoreCardName_\" .. color, \"text\", Player[color].steam_name)\n    self.UI.setAttribute(\"ScoreCard\", \"height\", score_card_modified)\n    self.UI.setAttribute(\"ScoreCardMiddleFill\", \"height\", score_card_middle_modified)\n\nend\n\nfunction modifyStroke(color, value)\n    local data = player_data[color]\n    if data.current_hole == 18 then\n        if data.hole_score[data.current_hole] ~= nil then\n            data.total_score = data.total_score - data.hole_score[data.current_hole]\n        end\n        data.hole_score[data.current_hole] = value\n        data.total_score = data.total_score + value\n        updateScoreBar(color)\n        updateScoreCard(color, data.current_hole, data.hole_score[data.current_hole], data.total_score)\n    elseif data.current_hole > 0 then\n        if data.hole_score[data.current_hole] == nil then\n            data.hole_score[data.current_hole] = 1\n            data.total_score = data.total_score + 1\n        elseif data.hole_score[data.current_hole] + value < 0 then\n            data.hole_score[data.current_hole] = 0\n        else\n            data.hole_score[data.current_hole] = data.hole_score[data.current_hole] + value\n            data.total_score = data.total_score + value\n        end\n        updateScoreBar(color)\n        updateScoreCard(color, data.current_hole, data.hole_score[data.current_hole], data.total_score)\n    end\nend\n\nfunction updateAllScoreBars()\n    local colors = Player.getAvailableColors()\n    local color = nil\n\n    for color_index = 1, #colors do\n        color = colors[color_index]\n        if color ~= \"Black\" and Player[color].seated then\n            updateScoreBar(color)\n        end\n    end\nend\n\nfunction updateScoreCard(color, hole, value, total_score)\n    local id = \"ScoreCardStrokes_\" .. hole .. \"_\" .. color\n    local id2 = \"ScoreCardTotal_\" .. color\n    self.UI.setAttribute(id, \"text\", value)\n    self.UI.setAttribute(id2, \"text\", total_score)\nend\n\nfunction updateScoreBar(color)\n    local id = nil\n    local current_hole = getCurrentHole(color)\n\n    if current_hole == nil or current_hole == 0 then\n        id = color .. \"_ScoreBarHoleValue\"\n        self.UI.setAttribute(id, \"text\", \"\")\n        id = color .. \"_ScoreBarParValue\"\n        self.UI.setAttribute(id, \"text\", \"\")\n        id = color .. \"_ScoreBarStrokesValue\"\n        self.UI.setAttribute(id, \"text\", \"\")\n        return false\n    end\n\n    local hole_score = getHoleScore(color, current_hole)\n\n    local par = getHolePar(current_hole)\n\n    id = color .. \"_ScoreBarHoleValue\"\n    self.UI.setAttribute(id, \"text\", current_hole)\n    id = color .. \"_ScoreBarParValue\"\n    self.UI.setAttribute(id, \"text\", par)\n    id = color .. \"_ScoreBarStrokesValue\"\n    self.UI.setAttribute(id, \"text\", hole_score)\nend\n\nfunction getCurrentHole(color)\n    return player_data[color].current_hole\nend\n\nfunction setCurrentHole(color, value)\n    player_data[color].current_hole = value\nend\n\nfunction getHoleScore(color, hole)\n    return player_data[color].hole_score[hole] or 0\nend\n\nfunction setHoleScore(color, hole, value)\n    player_data[color].hole_score[hole] = value\n    updateScoreCard(color, hole, value)\nend\n\nfunction getHolePar(hole)\n    return hole_pars[hole]\nend\n",
+  "LuaScriptState": "{\"player_data\":{\"Blue\":{\"current_hole\":0,\"hole_score\":[],\"total_score\":0},\"Brown\":{\"current_hole\":0,\"hole_score\":[],\"total_score\":0},\"Green\":{\"current_hole\":0,\"hole_score\":[],\"total_score\":0},\"Orange\":{\"current_hole\":0,\"hole_score\":[],\"total_score\":0},\"Pink\":{\"current_hole\":0,\"hole_score\":[],\"total_score\":0},\"Purple\":{\"current_hole\":0,\"hole_score\":[],\"total_score\":0},\"Red\":{\"current_hole\":0,\"hole_score\":[],\"total_score\":0},\"Teal\":{\"current_hole\":0,\"hole_score\":[],\"total_score\":0},\"White\":{\"current_hole\":0,\"hole_score\":[],\"total_score\":0},\"Yellow\":{\"current_hole\":0,\"hole_score\":[],\"total_score\":0}}}",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.9760069,
+    "LightColor": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0
+    },
+    "AmbientIntensity": 0.8840005,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0,
+    "LutURL": ""
+  },
+  "Hands": {
+    "Enable": false,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 81.0,
+          "posY": 3.99999976,
+          "posZ": 66.0,
+          "rotX": 0.0,
+          "rotY": 180.0,
+          "rotZ": 0.0,
+          "scaleX": 13.150012,
+          "scaleY": 7.002465,
+          "scaleZ": 13.0360069
+        }
+      },
+      {
+        "Color": "Brown",
+        "Transform": {
+          "posX": 63.0000076,
+          "posY": 3.99999976,
+          "posZ": 66.0,
+          "rotX": 0.0,
+          "rotY": 179.9999,
+          "rotZ": 0.0,
+          "scaleX": 13.1500006,
+          "scaleY": 7.002465,
+          "scaleZ": 13.0359983
+        }
+      },
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": 45.0,
+          "posY": 3.99999976,
+          "posZ": 66.0,
+          "rotX": 0.0,
+          "rotY": 180.000122,
+          "rotZ": 0.0,
+          "scaleX": 13.1500006,
+          "scaleY": 7.0,
+          "scaleZ": 13.0359983
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": 27.0000019,
+          "posY": 3.99999976,
+          "posZ": 66.0,
+          "rotX": 0.0,
+          "rotY": 180.000122,
+          "rotZ": 0.0,
+          "scaleX": 13.1500006,
+          "scaleY": 7.0,
+          "scaleZ": 13.0359983
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": 9.0,
+          "posY": 3.99999976,
+          "posZ": 66.0,
+          "rotX": 0.0,
+          "rotY": 180.000122,
+          "rotZ": 0.0,
+          "scaleX": 13.1500006,
+          "scaleY": 7.0,
+          "scaleZ": 13.0359983
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": -9.0,
+          "posY": 3.99999976,
+          "posZ": 66.0,
+          "rotX": 0.0,
+          "rotY": 180.000122,
+          "rotZ": 0.0,
+          "scaleX": 13.1500006,
+          "scaleY": 7.0,
+          "scaleZ": 13.0359983
+        }
+      },
+      {
+        "Color": "Teal",
+        "Transform": {
+          "posX": -27.0000019,
+          "posY": 3.99999976,
+          "posZ": 66.0,
+          "rotX": 0.0,
+          "rotY": 180.000122,
+          "rotZ": 0.0,
+          "scaleX": 13.1500006,
+          "scaleY": 7.0,
+          "scaleZ": 13.0359983
+        }
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": -45.0,
+          "posY": 3.99999976,
+          "posZ": 66.0,
+          "rotX": 0.0,
+          "rotY": 180.000122,
+          "rotZ": 0.0,
+          "scaleX": 13.1500006,
+          "scaleY": 7.0,
+          "scaleZ": 13.0359983
+        }
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": -63.0000076,
+          "posY": 3.99999976,
+          "posZ": 66.0,
+          "rotX": 0.0,
+          "rotY": 180.000122,
+          "rotZ": 0.0,
+          "scaleX": 13.1500006,
+          "scaleY": 7.0,
+          "scaleZ": 13.0359983
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": -81.0,
+          "posY": 3.99999976,
+          "posZ": 66.0,
+          "rotX": 0.0,
+          "rotY": 180.000122,
+          "rotZ": 0.0,
+          "scaleX": 13.1500006,
+          "scaleY": 7.0,
+          "scaleZ": 13.0359983
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "ObjectStates": [
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 2.0,
+        "posZ": 0.0,
+        "rotX": -1.30275521E-11,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.596430063,
+        "g": 0.745283,
+        "b": 0.5941171
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/790877511963095233/1543292C7BF887F316A55789FF77DD4B07C13EC7/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 3,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 1.0,
+        "DynamicFriction": 0.7,
+        "Bounciness": 0.1,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.2,
+        "AngularDrag": 0.6,
+        "UseGravity": true
+      },
+      "GUID": "8e9d89"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 2.0,
+        "posZ": 0.0,
+        "rotX": -8.33763336E-10,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 0.959452569,
+        "b": 0.759434
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474425/B9263BAE12C03EFAB91EFB6C84E3A1442C3AEF40/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 3,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "22d13a"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 72.16044,
+        "posY": 2.30910873,
+        "posZ": 31.9318275,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 4.41429138,
+        "scaleY": 24.0,
+        "scaleZ": 36.9000053
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "59ec01"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 2.0,
+        "posZ": -9.278337E-07,
+        "rotX": -0.0001847365,
+        "rotY": -1.75040616E-17,
+        "rotZ": 1.00010425E-11,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474485/70EF9EF832F1A401E9C2396B5030731D83B11849/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 3,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 1.0,
+        "DynamicFriction": 0.7,
+        "Bounciness": 0.5,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 0.05,
+        "AngularDrag": 0.05,
+        "UseGravity": true
+      },
+      "GUID": "9a127a"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 51.0279274,
+        "posY": 3.58,
+        "posZ": 48.3046875,
+        "rotX": 0.0,
+        "rotY": 180.000015,
+        "rotZ": 0.0,
+        "scaleX": 28.5072727,
+        "scaleY": 24.0,
+        "scaleZ": 5.4754796
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "bba0d8"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 39.56224,
+        "posY": 3.58241677,
+        "posZ": 33.11317,
+        "rotX": 0.0,
+        "rotY": 180.000015,
+        "rotZ": 0.0,
+        "scaleX": 5.719962,
+        "scaleY": 24.0,
+        "scaleZ": 24.7990036
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "5a3a14"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 55.79772,
+        "posY": 4.960314,
+        "posZ": 30.3858643,
+        "rotX": 0.0,
+        "rotY": 179.999985,
+        "rotZ": 0.0,
+        "scaleX": 17.8600216,
+        "scaleY": 24.0,
+        "scaleZ": 20.3126335
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "b57941"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 47.77251,
+        "posY": 4.55182457,
+        "posZ": 5.853504,
+        "rotX": 0.0,
+        "rotY": 179.999985,
+        "rotZ": 0.0,
+        "scaleX": 21.6807919,
+        "scaleY": 24.0,
+        "scaleZ": 20.8157387
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "c90f60"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 65.77705,
+        "posY": 3.58240557,
+        "posZ": -20.8899231,
+        "rotX": 0.0,
+        "rotY": 179.999985,
+        "rotZ": 0.0,
+        "scaleX": 9.9452,
+        "scaleY": 24.0,
+        "scaleZ": 42.36745
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "2b6956"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 45.9472733,
+        "posY": 3.58240485,
+        "posZ": -37.26875,
+        "rotX": 0.0,
+        "rotY": 31.0000019,
+        "rotZ": 0.0,
+        "scaleX": 24.6845837,
+        "scaleY": 24.0,
+        "scaleZ": 8.045536
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "de1f38"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 36.63828,
+        "posY": 4.975347,
+        "posZ": -15.3461323,
+        "rotX": 0.0,
+        "rotY": 179.999985,
+        "rotZ": 0.0,
+        "scaleX": 18.3234978,
+        "scaleY": 24.0,
+        "scaleZ": 18.2895756
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "6ac3da"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 29.8348236,
+        "posY": 4.63122272,
+        "posZ": -3.16439557,
+        "rotX": 0.0,
+        "rotY": 179.999985,
+        "rotZ": 0.0,
+        "scaleX": 5.666712,
+        "scaleY": 24.0,
+        "scaleZ": 5.8703084
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "d235b2"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 26.2041416,
+        "posY": 3.58241367,
+        "posZ": 22.8000355,
+        "rotX": 0.0,
+        "rotY": 179.999985,
+        "rotZ": 0.0,
+        "scaleX": 13.5132132,
+        "scaleY": 24.0,
+        "scaleZ": 37.5258942
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "3bfeea"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 14.40436,
+        "posY": 3.582416,
+        "posZ": 25.13472,
+        "rotX": 0.0,
+        "rotY": 179.999985,
+        "rotZ": 0.0,
+        "scaleX": 9.739869,
+        "scaleY": 24.0,
+        "scaleZ": 18.7695351
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "8deca9"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 6.15333843,
+        "posY": 3.58,
+        "posZ": 48.3988838,
+        "rotX": 0.0,
+        "rotY": 179.999985,
+        "rotZ": 0.0,
+        "scaleX": 37.0294724,
+        "scaleY": 24.0,
+        "scaleZ": 5.430371
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "721964"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": -0.962308168,
+        "posY": 3.58,
+        "posZ": 35.36133,
+        "rotX": 0.0,
+        "rotY": 179.999985,
+        "rotZ": 0.0,
+        "scaleX": 11.00117,
+        "scaleY": 24.0,
+        "scaleZ": 20.1766071
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "8c5b9f"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 15.2790632,
+        "posY": 3.58240938,
+        "posZ": -5.89161253,
+        "rotX": 0.0,
+        "rotY": 179.999985,
+        "rotZ": 0.0,
+        "scaleX": 5.758053,
+        "scaleY": 24.0,
+        "scaleZ": 29.39887
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "34b3bf"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 10.2934237,
+        "posY": 4.61888,
+        "posZ": 4.14987946,
+        "rotX": 0.0,
+        "rotY": 179.999985,
+        "rotZ": 0.0,
+        "scaleX": 3.932331,
+        "scaleY": 24.0,
+        "scaleZ": 17.7423038
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "e91d10"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 1.70315289,
+        "posY": 4.599043,
+        "posZ": 13.559392,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 12.8737049,
+        "scaleY": 24.0,
+        "scaleZ": 16.7124138
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "e9cd9b"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 5.809367,
+        "posY": 3.58241034,
+        "posZ": -24.217968,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 5.545299,
+        "scaleY": 24.0,
+        "scaleZ": 16.7446289
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "bce6cd"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 12.8497276,
+        "posY": 3.582409,
+        "posZ": -35.71631,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 8.317962,
+        "scaleY": 24.0,
+        "scaleZ": 23.9752522
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "cd3450"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 2.05813766,
+        "posY": 3.582406,
+        "posZ": -45.42059,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 12.8302927,
+        "scaleY": 24.0,
+        "scaleZ": 11.4167929
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "407dd4"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": -9.032458,
+        "posY": 4.6878624,
+        "posZ": -41.90794,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 9.24216,
+        "scaleY": 24.0,
+        "scaleZ": 12.341012
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "cf5e12"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": -8.4888,
+        "posY": 3.582407,
+        "posZ": -21.84457,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 20.00656,
+        "scaleY": 24.0,
+        "scaleZ": 25.76932
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "1a74c9"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": -21.438282,
+        "posY": 3.58240962,
+        "posZ": -17.3067112,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 5.82815027,
+        "scaleY": 24.0,
+        "scaleZ": 4.40767145
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "2f45cf"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": -25.3603516,
+        "posY": 3.582411,
+        "posZ": 11.554162,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 5.558159,
+        "scaleY": 24.0,
+        "scaleZ": 45.4460678
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "f4ea31"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": -34.9968758,
+        "posY": 3.58241653,
+        "posZ": 35.50209,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 5.542905,
+        "scaleY": 24.0,
+        "scaleZ": 31.0816917
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "c7a69e"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": -48.4138,
+        "posY": 3.58242226,
+        "posZ": 35.5538864,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 13.5205259,
+        "scaleY": 24.0,
+        "scaleZ": 31.18529
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "72543c"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": -44.9595337,
+        "posY": 3.582416,
+        "posZ": -0.9429531,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 20.8765335,
+        "scaleY": 24.0,
+        "scaleZ": 34.448864
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "7c568d"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": -54.2840462,
+        "posY": 3.582409,
+        "posZ": -25.9431076,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 38.0750656,
+        "scaleY": 24.0,
+        "scaleZ": 12.5154161
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "2efdca"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": -70.13191,
+        "posY": 3.58,
+        "posZ": 6.355608,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 5.646497,
+        "scaleY": 24.0,
+        "scaleZ": 33.05019
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "fbdacf"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 1.85246837,
+        "posY": 5.6,
+        "posZ": 48.3321,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "19caf4"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": -2.14411044,
+        "posY": 5.4,
+        "posZ": 48.32061,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "2f85b8"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": -6.2502594,
+        "posY": 5.3,
+        "posZ": 48.3192635,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "scaleZ": 0.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "56ff3c"
+    },
+    {
+      "Name": "Custom_Assetbundle_Infinite_Bag",
+      "Transform": {
+        "posX": 76.05422,
+        "posY": 1.54790533,
+        "posZ": 40.6394,
+        "rotX": -0.000260166416,
+        "rotY": 89.9672,
+        "rotZ": -7.914295E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474600/34A6789F374117713399272128953D2DB4D86EBF/",
+        "AssetbundleSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474638/ADB1B69FFC3283FD1E40D444DA8A1105F9FC6183/",
+        "MaterialIndex": 0,
+        "TypeIndex": 7,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Assetbundle",
+          "Transform": {
+            "posX": 76.27666,
+            "posY": 2.59874916,
+            "posZ": 40.1999626,
+            "rotX": 348.995178,
+            "rotY": 180.027176,
+            "rotZ": 180.113068,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "Golf Ball",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomAssetbundle": {
+            "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474687/D91085CA7E29DA58D5801B0B44DCF40735959FE0/",
+            "AssetbundleSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474638/ADB1B69FFC3283FD1E40D444DA8A1105F9FC6183/",
+            "MaterialIndex": 0,
+            "TypeIndex": 0,
+            "LoopingEffectIndex": 0
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "PhysicsMaterial": {
+            "StaticFriction": 0.8,
+            "DynamicFriction": 0.35,
+            "Bounciness": 0.5,
+            "FrictionCombine": 0,
+            "BounceCombine": 0
+          },
+          "Rigidbody": {
+            "Mass": 0.75,
+            "Drag": 0.35,
+            "AngularDrag": 0.7,
+            "UseGravity": true
+          },
+          "GUID": "b72581"
+        }
+      ],
+      "PhysicsMaterial": {
+        "StaticFriction": 0.8,
+        "DynamicFriction": 0.35,
+        "Bounciness": 0.5,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 0.75,
+        "Drag": 0.35,
+        "AngularDrag": 0.7,
+        "UseGravity": true
+      },
+      "GUID": "f79dce"
+    },
+    {
+      "Name": "Custom_Assetbundle_Infinite_Bag",
+      "Transform": {
+        "posX": 76.05456,
+        "posY": 1.54790723,
+        "posZ": 42.63995,
+        "rotX": -0.000448165665,
+        "rotY": 89.9635239,
+        "rotZ": 5.659512E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.442994446,
+        "g": 0.230994433,
+        "b": 0.08999548
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474600/34A6789F374117713399272128953D2DB4D86EBF/",
+        "AssetbundleSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474638/ADB1B69FFC3283FD1E40D444DA8A1105F9FC6183/",
+        "MaterialIndex": 0,
+        "TypeIndex": 7,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Assetbundle",
+          "Transform": {
+            "posX": 76.24741,
+            "posY": 2.59874988,
+            "posZ": 42.2237053,
+            "rotX": 348.994659,
+            "rotY": 180.026917,
+            "rotZ": 180.1344,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "Golf Ball",
+          "ColorDiffuse": {
+            "r": 0.44299978,
+            "g": 0.230999768,
+            "b": 0.08999983
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomAssetbundle": {
+            "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474687/D91085CA7E29DA58D5801B0B44DCF40735959FE0/",
+            "AssetbundleSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474638/ADB1B69FFC3283FD1E40D444DA8A1105F9FC6183/",
+            "MaterialIndex": 0,
+            "TypeIndex": 0,
+            "LoopingEffectIndex": 0
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "PhysicsMaterial": {
+            "StaticFriction": 0.8,
+            "DynamicFriction": 0.35,
+            "Bounciness": 0.5,
+            "FrictionCombine": 0,
+            "BounceCombine": 0
+          },
+          "Rigidbody": {
+            "Mass": 0.75,
+            "Drag": 0.35,
+            "AngularDrag": 0.7,
+            "UseGravity": true
+          },
+          "GUID": "da7b2b"
+        }
+      ],
+      "PhysicsMaterial": {
+        "StaticFriction": 0.8,
+        "DynamicFriction": 0.35,
+        "Bounciness": 0.5,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 0.75,
+        "Drag": 0.35,
+        "AngularDrag": 0.7,
+        "UseGravity": true
+      },
+      "GUID": "ac7ca8"
+    },
+    {
+      "Name": "Custom_Assetbundle_Infinite_Bag",
+      "Transform": {
+        "posX": 76.0544739,
+        "posY": 1.54791057,
+        "posZ": 44.639946,
+        "rotX": -0.0003358232,
+        "rotY": 89.96353,
+        "rotZ": -0.000102667829,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.856,
+        "g": 0.09999467,
+        "b": 0.0939946249
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474600/34A6789F374117713399272128953D2DB4D86EBF/",
+        "AssetbundleSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474638/ADB1B69FFC3283FD1E40D444DA8A1105F9FC6183/",
+        "MaterialIndex": 0,
+        "TypeIndex": 7,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Assetbundle",
+          "Transform": {
+            "posX": 76.2745743,
+            "posY": 2.59876156,
+            "posZ": 44.4808922,
+            "rotX": 349.010651,
+            "rotY": 180.026215,
+            "rotZ": 180.136108,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "Golf Ball",
+          "ColorDiffuse": {
+            "r": 0.856,
+            "g": 0.09999997,
+            "b": 0.09399996
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomAssetbundle": {
+            "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474687/D91085CA7E29DA58D5801B0B44DCF40735959FE0/",
+            "AssetbundleSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474638/ADB1B69FFC3283FD1E40D444DA8A1105F9FC6183/",
+            "MaterialIndex": 0,
+            "TypeIndex": 0,
+            "LoopingEffectIndex": 0
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "PhysicsMaterial": {
+            "StaticFriction": 0.8,
+            "DynamicFriction": 0.35,
+            "Bounciness": 0.5,
+            "FrictionCombine": 0,
+            "BounceCombine": 0
+          },
+          "Rigidbody": {
+            "Mass": 0.75,
+            "Drag": 0.35,
+            "AngularDrag": 0.7,
+            "UseGravity": true
+          },
+          "GUID": "94efba"
+        }
+      ],
+      "PhysicsMaterial": {
+        "StaticFriction": 0.8,
+        "DynamicFriction": 0.35,
+        "Bounciness": 0.5,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 0.75,
+        "Drag": 0.35,
+        "AngularDrag": 0.7,
+        "UseGravity": true
+      },
+      "GUID": "3cca9a"
+    },
+    {
+      "Name": "Custom_Assetbundle_Infinite_Bag",
+      "Transform": {
+        "posX": 76.0544739,
+        "posY": 1.54790616,
+        "posZ": 46.6398621,
+        "rotX": -0.000192587133,
+        "rotY": 89.96349,
+        "rotZ": -0.000143483092,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9559999,
+        "g": 0.391994417,
+        "b": 0.112994425
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474600/34A6789F374117713399272128953D2DB4D86EBF/",
+        "AssetbundleSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474638/ADB1B69FFC3283FD1E40D444DA8A1105F9FC6183/",
+        "MaterialIndex": 0,
+        "TypeIndex": 7,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Assetbundle",
+          "Transform": {
+            "posX": 76.24984,
+            "posY": 2.598762,
+            "posZ": 46.7293129,
+            "rotX": 348.999481,
+            "rotY": 180.026947,
+            "rotZ": 180.136,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "Golf Ball",
+          "ColorDiffuse": {
+            "r": 0.9559999,
+            "g": 0.39199996,
+            "b": 0.112999953
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomAssetbundle": {
+            "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474687/D91085CA7E29DA58D5801B0B44DCF40735959FE0/",
+            "AssetbundleSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474638/ADB1B69FFC3283FD1E40D444DA8A1105F9FC6183/",
+            "MaterialIndex": 0,
+            "TypeIndex": 0,
+            "LoopingEffectIndex": 0
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "PhysicsMaterial": {
+            "StaticFriction": 0.8,
+            "DynamicFriction": 0.35,
+            "Bounciness": 0.5,
+            "FrictionCombine": 0,
+            "BounceCombine": 0
+          },
+          "Rigidbody": {
+            "Mass": 0.75,
+            "Drag": 0.35,
+            "AngularDrag": 0.7,
+            "UseGravity": true
+          },
+          "GUID": "11cda2"
+        }
+      ],
+      "PhysicsMaterial": {
+        "StaticFriction": 0.8,
+        "DynamicFriction": 0.35,
+        "Bounciness": 0.5,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 0.75,
+        "Drag": 0.35,
+        "AngularDrag": 0.7,
+        "UseGravity": true
+      },
+      "GUID": "b2b38c"
+    },
+    {
+      "Name": "Custom_Assetbundle_Infinite_Bag",
+      "Transform": {
+        "posX": 76.0545044,
+        "posY": 1.54790688,
+        "posZ": 48.63988,
+        "rotX": 1.74329525E-05,
+        "rotY": 89.96355,
+        "rotZ": 4.608659E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.171994716
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474600/34A6789F374117713399272128953D2DB4D86EBF/",
+        "AssetbundleSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474638/ADB1B69FFC3283FD1E40D444DA8A1105F9FC6183/",
+        "MaterialIndex": 0,
+        "TypeIndex": 7,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Assetbundle",
+          "Transform": {
+            "posX": 76.23105,
+            "posY": 2.5987618,
+            "posZ": 48.7849846,
+            "rotX": 348.996552,
+            "rotY": 180.0265,
+            "rotZ": 180.1361,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "Golf Ball",
+          "ColorDiffuse": {
+            "r": 0.905,
+            "g": 0.898,
+            "b": 0.171999961
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomAssetbundle": {
+            "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474687/D91085CA7E29DA58D5801B0B44DCF40735959FE0/",
+            "AssetbundleSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474638/ADB1B69FFC3283FD1E40D444DA8A1105F9FC6183/",
+            "MaterialIndex": 0,
+            "TypeIndex": 0,
+            "LoopingEffectIndex": 0
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "PhysicsMaterial": {
+            "StaticFriction": 0.8,
+            "DynamicFriction": 0.35,
+            "Bounciness": 0.5,
+            "FrictionCombine": 0,
+            "BounceCombine": 0
+          },
+          "Rigidbody": {
+            "Mass": 0.75,
+            "Drag": 0.35,
+            "AngularDrag": 0.7,
+            "UseGravity": true
+          },
+          "GUID": "ee3cf2"
+        }
+      ],
+      "PhysicsMaterial": {
+        "StaticFriction": 0.8,
+        "DynamicFriction": 0.35,
+        "Bounciness": 0.5,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 0.75,
+        "Drag": 0.35,
+        "AngularDrag": 0.7,
+        "UseGravity": true
+      },
+      "GUID": "79ea98"
+    },
+    {
+      "Name": "Custom_Assetbundle_Infinite_Bag",
+      "Transform": {
+        "posX": 77.91449,
+        "posY": 1.547905,
+        "posZ": 40.6143837,
+        "rotX": 1.1967385E-05,
+        "rotY": 89.96538,
+        "rotZ": -1.23679627E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.191994727,
+        "g": 0.701,
+        "b": 0.167994708
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474600/34A6789F374117713399272128953D2DB4D86EBF/",
+        "AssetbundleSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474638/ADB1B69FFC3283FD1E40D444DA8A1105F9FC6183/",
+        "MaterialIndex": 0,
+        "TypeIndex": 7,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Assetbundle",
+          "Transform": {
+            "posX": 78.04284,
+            "posY": 2.59871483,
+            "posZ": 39.9819336,
+            "rotX": 348.992462,
+            "rotY": 180.0261,
+            "rotZ": 180.12793,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "Golf Ball",
+          "ColorDiffuse": {
+            "r": 0.191999972,
+            "g": 0.701,
+            "b": 0.167999953
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomAssetbundle": {
+            "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474687/D91085CA7E29DA58D5801B0B44DCF40735959FE0/",
+            "AssetbundleSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474638/ADB1B69FFC3283FD1E40D444DA8A1105F9FC6183/",
+            "MaterialIndex": 0,
+            "TypeIndex": 0,
+            "LoopingEffectIndex": 0
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "PhysicsMaterial": {
+            "StaticFriction": 0.8,
+            "DynamicFriction": 0.35,
+            "Bounciness": 0.5,
+            "FrictionCombine": 0,
+            "BounceCombine": 0
+          },
+          "Rigidbody": {
+            "Mass": 0.75,
+            "Drag": 0.35,
+            "AngularDrag": 0.7,
+            "UseGravity": true
+          },
+          "GUID": "272fa5"
+        }
+      ],
+      "PhysicsMaterial": {
+        "StaticFriction": 0.8,
+        "DynamicFriction": 0.35,
+        "Bounciness": 0.5,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 0.75,
+        "Drag": 0.35,
+        "AngularDrag": 0.7,
+        "UseGravity": true
+      },
+      "GUID": "c6dc28"
+    },
+    {
+      "Name": "Custom_Assetbundle_Infinite_Bag",
+      "Transform": {
+        "posX": 77.91461,
+        "posY": 1.54790521,
+        "posZ": 42.6145134,
+        "rotX": 1.33810481E-05,
+        "rotY": 89.96413,
+        "rotZ": 3.71311853E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.1289947,
+        "g": 0.694,
+        "b": 0.606999934
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474600/34A6789F374117713399272128953D2DB4D86EBF/",
+        "AssetbundleSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474638/ADB1B69FFC3283FD1E40D444DA8A1105F9FC6183/",
+        "MaterialIndex": 0,
+        "TypeIndex": 7,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Assetbundle",
+          "Transform": {
+            "posX": 78.27293,
+            "posY": 2.59875727,
+            "posZ": 42.40082,
+            "rotX": 348.9966,
+            "rotY": 180.025772,
+            "rotZ": 180.137222,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "Golf Ball",
+          "ColorDiffuse": {
+            "r": 0.128999949,
+            "g": 0.694,
+            "b": 0.606999934
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomAssetbundle": {
+            "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474687/D91085CA7E29DA58D5801B0B44DCF40735959FE0/",
+            "AssetbundleSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474638/ADB1B69FFC3283FD1E40D444DA8A1105F9FC6183/",
+            "MaterialIndex": 0,
+            "TypeIndex": 0,
+            "LoopingEffectIndex": 0
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "PhysicsMaterial": {
+            "StaticFriction": 0.8,
+            "DynamicFriction": 0.35,
+            "Bounciness": 0.5,
+            "FrictionCombine": 0,
+            "BounceCombine": 0
+          },
+          "Rigidbody": {
+            "Mass": 0.75,
+            "Drag": 0.35,
+            "AngularDrag": 0.7,
+            "UseGravity": true
+          },
+          "GUID": "52a6ff"
+        }
+      ],
+      "PhysicsMaterial": {
+        "StaticFriction": 0.8,
+        "DynamicFriction": 0.35,
+        "Bounciness": 0.5,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 0.75,
+        "Drag": 0.35,
+        "AngularDrag": 0.7,
+        "UseGravity": true
+      },
+      "GUID": "6190bb"
+    },
+    {
+      "Name": "Custom_Assetbundle_Infinite_Bag",
+      "Transform": {
+        "posX": 77.91424,
+        "posY": 1.54790533,
+        "posZ": 44.6145172,
+        "rotX": 2.26365955E-05,
+        "rotY": 89.96491,
+        "rotZ": -7.908383E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.11799445,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474600/34A6789F374117713399272128953D2DB4D86EBF/",
+        "AssetbundleSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474638/ADB1B69FFC3283FD1E40D444DA8A1105F9FC6183/",
+        "MaterialIndex": 0,
+        "TypeIndex": 7,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Assetbundle",
+          "Transform": {
+            "posX": 77.75252,
+            "posY": 2.59876251,
+            "posZ": 44.34434,
+            "rotX": 348.995636,
+            "rotY": 180.025162,
+            "rotZ": 180.135941,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "Golf Ball",
+          "ColorDiffuse": {
+            "r": 0.117999978,
+            "g": 0.53,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomAssetbundle": {
+            "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474687/D91085CA7E29DA58D5801B0B44DCF40735959FE0/",
+            "AssetbundleSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474638/ADB1B69FFC3283FD1E40D444DA8A1105F9FC6183/",
+            "MaterialIndex": 0,
+            "TypeIndex": 0,
+            "LoopingEffectIndex": 0
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "PhysicsMaterial": {
+            "StaticFriction": 0.8,
+            "DynamicFriction": 0.35,
+            "Bounciness": 0.5,
+            "FrictionCombine": 0,
+            "BounceCombine": 0
+          },
+          "Rigidbody": {
+            "Mass": 0.75,
+            "Drag": 0.35,
+            "AngularDrag": 0.7,
+            "UseGravity": true
+          },
+          "GUID": "ecaf0a"
+        }
+      ],
+      "PhysicsMaterial": {
+        "StaticFriction": 0.8,
+        "DynamicFriction": 0.35,
+        "Bounciness": 0.5,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 0.75,
+        "Drag": 0.35,
+        "AngularDrag": 0.7,
+        "UseGravity": true
+      },
+      "GUID": "33cc5c"
+    },
+    {
+      "Name": "Custom_Assetbundle_Infinite_Bag",
+      "Transform": {
+        "posX": 77.91444,
+        "posY": 1.54790676,
+        "posZ": 46.6144524,
+        "rotX": -2.34393519E-06,
+        "rotY": 89.9672,
+        "rotZ": -1.09338762E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.627,
+        "g": 0.124994449,
+        "b": 0.941
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474600/34A6789F374117713399272128953D2DB4D86EBF/",
+        "AssetbundleSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474638/ADB1B69FFC3283FD1E40D444DA8A1105F9FC6183/",
+        "MaterialIndex": 0,
+        "TypeIndex": 7,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Assetbundle",
+          "Transform": {
+            "posX": 77.96612,
+            "posY": 2.59875464,
+            "posZ": 46.669857,
+            "rotX": 348.969666,
+            "rotY": 180.026184,
+            "rotZ": 180.116226,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "Golf Ball",
+          "ColorDiffuse": {
+            "r": 0.627,
+            "g": 0.124999978,
+            "b": 0.941
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomAssetbundle": {
+            "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474687/D91085CA7E29DA58D5801B0B44DCF40735959FE0/",
+            "AssetbundleSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474638/ADB1B69FFC3283FD1E40D444DA8A1105F9FC6183/",
+            "MaterialIndex": 0,
+            "TypeIndex": 0,
+            "LoopingEffectIndex": 0
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "PhysicsMaterial": {
+            "StaticFriction": 0.8,
+            "DynamicFriction": 0.35,
+            "Bounciness": 0.5,
+            "FrictionCombine": 0,
+            "BounceCombine": 0
+          },
+          "Rigidbody": {
+            "Mass": 0.75,
+            "Drag": 0.35,
+            "AngularDrag": 0.7,
+            "UseGravity": true
+          },
+          "GUID": "6e1390"
+        }
+      ],
+      "PhysicsMaterial": {
+        "StaticFriction": 0.8,
+        "DynamicFriction": 0.35,
+        "Bounciness": 0.5,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 0.75,
+        "Drag": 0.35,
+        "AngularDrag": 0.7,
+        "UseGravity": true
+      },
+      "GUID": "528af1"
+    },
+    {
+      "Name": "Custom_Assetbundle_Infinite_Bag",
+      "Transform": {
+        "posX": 77.91477,
+        "posY": 1.54790556,
+        "posZ": 48.6145172,
+        "rotX": 1.14668328E-05,
+        "rotY": 89.96679,
+        "rotZ": -4.28638941E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.96,
+        "g": 0.438994437,
+        "b": 0.807
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474600/34A6789F374117713399272128953D2DB4D86EBF/",
+        "AssetbundleSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474638/ADB1B69FFC3283FD1E40D444DA8A1105F9FC6183/",
+        "MaterialIndex": 0,
+        "TypeIndex": 7,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Assetbundle",
+          "Transform": {
+            "posX": 78.0119553,
+            "posY": 2.59875226,
+            "posZ": 48.5802155,
+            "rotX": 348.977631,
+            "rotY": 180.029129,
+            "rotZ": 180.1062,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "Golf Ball",
+          "ColorDiffuse": {
+            "r": 0.96,
+            "g": 0.438999981,
+            "b": 0.807
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomAssetbundle": {
+            "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474687/D91085CA7E29DA58D5801B0B44DCF40735959FE0/",
+            "AssetbundleSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474638/ADB1B69FFC3283FD1E40D444DA8A1105F9FC6183/",
+            "MaterialIndex": 0,
+            "TypeIndex": 0,
+            "LoopingEffectIndex": 0
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "PhysicsMaterial": {
+            "StaticFriction": 0.8,
+            "DynamicFriction": 0.35,
+            "Bounciness": 0.5,
+            "FrictionCombine": 0,
+            "BounceCombine": 0
+          },
+          "Rigidbody": {
+            "Mass": 0.75,
+            "Drag": 0.35,
+            "AngularDrag": 0.7,
+            "UseGravity": true
+          },
+          "GUID": "9dac06"
+        }
+      ],
+      "PhysicsMaterial": {
+        "StaticFriction": 0.8,
+        "DynamicFriction": 0.35,
+        "Bounciness": 0.5,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 0.75,
+        "Drag": 0.35,
+        "AngularDrag": 0.7,
+        "UseGravity": true
+      },
+      "GUID": "167ee4"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 18.1976852,
+        "posY": 0.7242584,
+        "posZ": 24.5125237,
+        "rotX": 359.920074,
+        "rotY": 270.000427,
+        "rotZ": 180.106018,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Golf Ball Master",
+      "Description": "",
+      "GMNotes": "Golf Ball",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 0.0,
+        "b": 0.8364301
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474687/D91085CA7E29DA58D5801B0B44DCF40735959FE0/",
+        "AssetbundleSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/790876998116474638/ADB1B69FFC3283FD1E40D444DA8A1105F9FC6183/",
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "--Golf Ball\r\nowner_color = nil\r\ndetect_timer = nil\r\ndefault_drag = 0.35\r\ndefault_angular_drag = 0.7\r\nsand_drag = 10\r\nsand_angular_drag = 10\r\n\r\nfunction onLoad(save_state)\r\n    local data = JSON.decode(save_state)\r\n    if save_state ~= \"\" then\r\n        owner_color = data.owner_color\r\n    end\r\n    startDetectTimer()\r\nend\r\n\r\nfunction onSave()\r\n    local data = {\r\n        [\"owner_color\"] = owner_color\r\n    }\r\n\r\n    return JSON.encode(data)\r\nend\r\n\r\nfunction onFlick(color)\r\n    Global.call(\"ballFlicked\", {color = color})\r\n    startDetectTimer()\r\nend\r\n\r\nfunction onDrop()\r\n    startDetectTimer()\r\nend\r\n\r\nfunction startDetectTimer()\r\n    detect_timer = Wait.time(interactWithTerrain, 0.1, 0)\r\nend\r\n\r\nfunction interactWithTerrain()\r\n    if self.resting then\r\n        inSand(false)\r\n        return false\r\n    end\r\n\r\n    local hit = castDown()\r\n    inSand(isHitSandy(hit))\r\n\r\n    Wait.time(interactWithTerrain, 0.1, 0)\r\nend\r\n\r\nfunction isHitSandy(hit)\r\n    local sand = Global.getVar(\"sand\")\r\n    return isObjectInHit(hit, sand)\r\nend\r\n\r\nfunction isObjectInHit(hit, object_to_find)\r\n    for i = 1, #hit do\r\n        if hit[i].hit_object == object_to_find then\r\n            return true\r\n        end\r\n    end\r\n\r\n    return false\r\nend\r\n\r\nfunction castDown()\r\n    return Physics.cast({\r\n        origin     = self.getPosition(),\r\n        direction    = vector(0, -1, 0),\r\n        type         = 1,\r\n        max_distance = 1.3\r\n    })\r\nend\r\n\r\nfunction inSand(in_sand)\r\n    if in_sand then\r\n        self.drag = sand_drag\r\n        self.angular_drag = sand_angular_drag\r\n    else\r\n        self.drag = default_drag\r\n        self.angular_drag = default_angular_drag\r\n    end\r\nend",
+      "LuaScriptState": "[]",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.8,
+        "DynamicFriction": 0.35,
+        "Bounciness": 0.5,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 0.75,
+        "Drag": 0.35,
+        "AngularDrag": 0.7,
+        "UseGravity": true
+      },
+      "GUID": "779a0f"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": -70.15989,
+        "posY": 5.62506,
+        "posZ": 21.101099,
+        "rotX": 45.0000038,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "a4cbec"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": -68.67862,
+        "posY": 6.958845,
+        "posZ": 22.42936,
+        "rotX": 45.0000038,
+        "rotY": 2.87870964E-13,
+        "rotZ": -2.41483667E-06,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "9c4aa8"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": -70.1631851,
+        "posY": 6.67626524,
+        "posZ": 22.1465759,
+        "rotX": 45.0000038,
+        "rotY": 0.0,
+        "rotZ": 4.82967334E-06,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "07f38c"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": -71.65014,
+        "posY": 6.98480034,
+        "posZ": 22.4286671,
+        "rotX": 45.0000038,
+        "rotY": 0.0,
+        "rotZ": -1.20741834E-06,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "933a28"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": -70.16597,
+        "posY": 4.72580147,
+        "posZ": 20.1763477,
+        "rotX": 45.0000038,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "6e287b"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": -70.17331,
+        "posY": 4.08606148,
+        "posZ": 19.5444221,
+        "rotX": 45.0000038,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "f9f5d0"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": -70.16625,
+        "posY": 3.23736358,
+        "posZ": 18.6489258,
+        "rotX": 45.0000038,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "de2485"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": -70.15785,
+        "posY": 2.1047194,
+        "posZ": 17.644762,
+        "rotX": 45.0000038,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 4.484663,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "96c3c4"
+    }
+  ],
+  "DecalPallet": [],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": "v12.2.2"
+}

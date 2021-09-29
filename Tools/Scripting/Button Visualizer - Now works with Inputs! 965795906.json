@@ -1,0 +1,459 @@
+{
+  "SaveName": "Button Visualizer - Now works with Inputs!",
+  "GameMode": "Button Visualizer",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "11/9/2017 7:25:42 PM",
+  "Table": "Table_Glass",
+  "Sky": "Sky_Downtown",
+  "SkyURL": "http://cloud-3.steamusercontent.com/ugc/489020692875038920/6382BAD6F257D42B0A8F39515B1B6B90930FA584/",
+  "Note": "Button Visualizer\n----V2.0---\nNow works with Inputs!\n\nBy GiantDwarf01\n\nHow to use:\n[sup]Step 1: Copy and patse GUID of target object into the GUID box or just drop target object onto panel\nStep 2: Hit Enter/Return or the Edit Object button\nStep 3: Edit the button/input values as needed\nStep 4: Export Data and copy and paste into your script\nStep 5: ???\nStep 6: Profit![/sup]\n\nI spent a lot of time on this mod so I hope you enjoy it! If you'd like, please leave a rating so others can find it easier.\n\nEnjoy!",
+  "Rules": "",
+  "XmlUI": "",
+  "LuaScript": "--[[ Lua code. See documentation: http://berserk-games.com/knowledgebase/scripting/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate ()\n    --[[ print('onUpdate loop!') --]]\nend",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -17.73776,
+          "posY": 3.5444572,
+          "posZ": -17.3959579,
+          "rotX": 0.0,
+          "rotY": 45.0000038,
+          "rotZ": 0.0,
+          "scaleX": 11.655426,
+          "scaleY": 9.174705,
+          "scaleZ": 4.871237
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -17.3967724,
+          "posY": 3.54445815,
+          "posZ": 17.5957546,
+          "rotX": 0.0,
+          "rotY": 135.000015,
+          "rotZ": 0.0,
+          "scaleX": 11.6565371,
+          "scaleY": 9.174705,
+          "scaleZ": 4.87175369
+        }
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 24.918026,
+          "posY": 3.54445815,
+          "posZ": 0.0593071,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6569777,
+          "scaleY": 9.174705,
+          "scaleZ": 4.87195635
+        }
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 17.6923637,
+          "posY": 3.5444572,
+          "posZ": 17.4496212,
+          "rotX": 0.0,
+          "rotY": 224.999985,
+          "rotZ": 0.0,
+          "scaleX": 11.6560745,
+          "scaleY": 9.174705,
+          "scaleZ": 4.871519
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": -0.00646114349,
+          "posY": 3.5444572,
+          "posZ": -24.767767,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6554279,
+          "scaleY": 9.17470551,
+          "scaleZ": 4.87125063
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": -0.00646400452,
+          "posY": 3.5444572,
+          "posZ": 24.8376637,
+          "rotX": 0.0,
+          "rotY": 180.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6554279,
+          "scaleY": 9.174705,
+          "scaleZ": 4.871339
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 17.6436539,
+          "posY": 3.54446483,
+          "posZ": -17.59082,
+          "rotX": 0.0,
+          "rotY": 315.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6558628,
+          "scaleY": 9.174705,
+          "scaleZ": 4.87134457
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -24.8172932,
+          "posY": 3.54445767,
+          "posZ": 0.0105934143,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6568546,
+          "scaleY": 9.174705,
+          "scaleZ": 4.871964
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "VectorLines": [],
+  "ObjectStates": [
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 7.176328E-07,
+        "posY": 1.12973487,
+        "posZ": 3.33837761E-07,
+        "rotX": 1.55997532E-05,
+        "rotY": 180.0,
+        "rotZ": -5.994318E-07,
+        "scaleX": 1.25890076,
+        "scaleY": 1.2480489,
+        "scaleZ": 1.2480489
+      },
+      "Nickname": "Button Visualizer",
+      "Description": "by GiantDwarf01",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/862858215778203752/983B188465741B94503F490ADBD5B45D5713CF08/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/847088265645289992/31E60514D9D9BE22E94586B5FDF6CF4973AFF337/",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "dev = false\r\n\r\nlocal editingObject = nil\r\n\r\nlocal savedButtons = {}\r\nlocal buttonIndex = {}\r\nlocal inputIndex = {}\r\nlocal currentEdit = 0\r\nlocal totalButtons = 0\r\nlocal default_values = {\r\n  type = \"Button\",\r\n  input_function = \"nilFunction\",\r\n  click_function = \"nilFunction\",\r\n  function_owner = self,\r\n  label = \"Ipso Facto\",\r\n  position = {0,0,0},\r\n  rotation = {0,0,0},\r\n  scale = {0.5,0.5,0.5},\r\n  width = 2000,\r\n  height = 400,\r\n  font_size = 400,\r\n  color = {1,1,1,1},\r\n  font_color = {0,0,0,1},\r\n  tooltip = \"\",\r\n  alignment = 1,\r\n  value = \"\",\r\n  validation = 1\r\n}\r\nlocal increment_value = {\r\n  position = 0.1, rotation = 10, scale = 0.1, dimension = 100\r\n}\r\n\r\nfunction onLoad(save_state)\r\n  local button = {click_function = 'devFunction', function_owner = self,\r\n  label = 'Ipso Facto', position = {x = 0, y = 1, z = 4},\r\n  scale = {x = 0.5, y = 1, z = 0.5}, width = 2000, height = 400, font_size = 400}\r\n  self.createButton(button)\r\n\r\n  button = {click_function = 'devFunction2', function_owner = self,\r\n  label = 'Ipso Facto', position = {x = 0, y = 1, z = 5},\r\n  scale = {x = 0.5, y = 1, z = 0.5}, width = 2000, height = 400, font_size = 400}\r\n  self.createButton(button)\r\n\r\n  mainMenu()\r\nend\r\n\r\nfunction newButton()\r\n  totalButtons = totalButtons + 1\r\n  currentEdit = totalButtons\r\n  savedButtons[currentEdit] = table.clone(default_values)\r\n  savedButtons[currentEdit].index = currentEdit - 1\r\nend\r\nfunction onCollisionEnter(collision_info)\r\n  -- collision_info table:\r\n  --   collision_object    Object\r\n  --   contact_points      Table     {Vector, ...}\r\n  --   relative_velocity   Vector\r\n  if collision_info.collision_object == nil\r\n  or collision_info.collision_object == self\r\n  or collision_info.collision_object.getGUID() == nil\r\n  or collision_info.collision_object.tag == \"Surface\"\r\n  or objectLoaded\r\n  then\r\n    return\r\n  end\r\n  local objGuid = collision_info.collision_object.getGUID()\r\n  editInput(\"guid_input\", {value = objGuid})\r\n  GUIDInput(objGuid)\r\nend\r\nfunction copyExistingValues(v)\r\n\r\n  if v.label ~= nil then\r\n    savedButtons[currentEdit].label = v.label\r\n  else\r\n    savedButtons[currentEdit].label = \" \"\r\n  end\r\n\r\n  if v.click_function ~= nil then\r\n    savedButtons[currentEdit].click_function = v.click_function\r\n  end\r\n  if v.input_function ~= nil then\r\n    savedButtons[currentEdit].input_function = v.input_function\r\n  end\r\n\r\n  savedButtons[currentEdit].position[1] = v.position[1]\r\n  savedButtons[currentEdit].position[2] = v.position[2]\r\n  savedButtons[currentEdit].position[3] = v.position[3]\r\n\r\n  savedButtons[currentEdit].rotation[1] = v.rotation[1]\r\n  savedButtons[currentEdit].rotation[2] = v.rotation[2]\r\n  savedButtons[currentEdit].rotation[3] = v.rotation[3]\r\n\r\n  savedButtons[currentEdit].scale[1] = v.scale[1]\r\n  savedButtons[currentEdit].scale[2] = v.scale[2]\r\n  savedButtons[currentEdit].scale[3] = v.scale[3]\r\n\r\n  savedButtons[currentEdit].width = v.width\r\n  savedButtons[currentEdit].height = v.height\r\n  savedButtons[currentEdit].font_size = v.font_size\r\n\r\n  savedButtons[currentEdit].color = v.color\r\n\r\n  savedButtons[currentEdit].font_color = v.font_color\r\n\r\n  savedButtons[currentEdit].tooltip = v.tooltip\r\n  savedButtons[currentEdit].alignment = v.alignment\r\n  if v.validation ~= nil then\r\n    savedButtons[currentEdit].validation = v.validation\r\n  end\r\n  if v.value ~= nil then\r\n    savedButtons[currentEdit].value = v.value\r\n  end\r\nend\r\nfunction loadObject()\r\n  self.clearInputs()\r\n  self.clearButtons()\r\n\r\n  editingObject.highlightOn({1,1,0})\r\n  local buttons = editingObject.getButtons()\r\n  if buttons ~= nil then\r\n    for k,v in pairs(buttons) do\r\n      newButton()\r\n      copyExistingValues(v)\r\n    end\r\n  end\r\n\r\n  local inputs = editingObject.getInputs()\r\n  if inputs ~= nil then\r\n    for k,v in pairs(inputs) do\r\n      newButton()\r\n      copyExistingValues(v)\r\n    end\r\n  end\r\n\r\n  if currentEdit == 0 then\r\n    newButton()\r\n  end\r\n\r\n  createLabelButtons({-6.5,0.15,-2.5})\r\n\r\n  buttonSelection({-6.5,0.15,2.25})\r\n\r\n  createPositionButtons({-5.5,0.15,-0.5})\r\n  createRotationButtons({-5.5+4,0.15,-0.5})\r\n  createScaleButtons({-5.5+8,0.15,-0.5})\r\n\r\n  createDimensionButtons({-3.5,0.15,1})\r\n\r\n  createColorButton({0.5,0.15,1})\r\n  createFontColorButton({3.5,0.15,1})\r\n\r\n  exitButton({7.3,0.15,-2.5})\r\n\r\n  updateValues()\r\n\r\n  updateObject()\r\n  objectLoaded = true\r\nend\r\nfunction updateObject()\r\n  editingObject.clearButtons()\r\n  editingObject.clearInputs()\r\n\r\n  for k,v in pairs(savedButtons) do\r\n    if v.type == \"Button\" then\r\n      editingObject.createButton(v)\r\n    else\r\n      editingObject.createInput(v)\r\n    end\r\n  end\r\nend\r\n\r\nfunction exitButton(pos)\r\n  if not pos.x then pos.x = pos[1] end\r\n  if not pos.y then pos.y = pos[2] end\r\n  if not pos.z then pos.z = pos[3] end\r\n\r\n  createButton(\"exit_label\", \"X\", {pos.x,pos.y,pos.z}, {font_color = {1,0,0}})\r\n\r\n  createButton(\"exit_button\", \"X\", {pos.x,pos.y,pos.z}, {color = {0,0,0,0}, width=400, height=400, tooltip=\"Exit and Clear Object\", click_function = dynamicFunction(\"exitClick\", function()\r\n    exit()\r\n  end)})\r\nend\r\nfunction mainMenu()\r\n  self.clearInputs()\r\n  self.clearButtons()\r\n\r\n  createButton(\"name_label\", \"Button Visualizer\", {0,0.15,-1.2}, {font_size = 1000, scale = {1,1,1}})\r\n  createButton(\"author_label\", \"By GiantDwarf01\", {0,0.15,0}, {scale = {1,1,1}})\r\n\r\n  createInput(\"guid_input\", \"GUID\", {0,0.15,2}, {input_function = dynamicFunction(\"setGUID\", function(obj, player, input_value, sel)\r\n    GUIDInput(input_value)\r\n  end), width = 2000})\r\nend\r\n\r\nfunction GUIDInput(guid)\r\n  if string.sub(guid,-string.len('\\n')) == '\\n' then\r\n    local trueGUID = string.sub(guid,0,6)\r\n    if getObjectFromGUID(trueGUID) ~= nil and getObjectFromGUID(trueGUID) ~= self then\r\n      setObject(trueGUID)\r\n      return\r\n    end\r\n  end\r\n  if getObjectFromGUID(guid) == nil or getObjectFromGUID(guid) == self then\r\n    createButton(\"load_label\", \"Edit Object\", {0,0.15,2.5}, {scale = {0,0,0}})\r\n  else\r\n    createButton(\"load_label\", \"Edit Object\", {0,0.15,2.5}, {font_color = {0,0,0,1}, scale = {0.5,0.5,0.5}, width = 2000, height = 400, click_function = dynamicFunction(\"setObjectGUID\", function()\r\n      setObject(guid)\r\n    end)})\r\n  end\r\nend\r\n\r\nfunction setObject(guid)\r\n  if getObjectFromGUID(guid) == nil then\r\n    return\r\n  end\r\n\r\n  editingObject = getObjectFromGUID(guid)\r\n  loadObject()\r\nend\r\n\r\nfunction exit()\r\n  if editingObject ~= nil then\r\n    editingObject.clearButtons()\r\n    editingObject.clearInputs()\r\n    editingObject.highlightOff()\r\n  end\r\n  editingObject = nil\r\n  savedButtons = {}\r\n  buttonIndex = {}\r\n  inputIndex = {}\r\n  currentEdit = 0\r\n  totalButtons = 0\r\n  if colorItem ~= nil then\r\n    colorItem.destruct()\r\n    colorItem = nil\r\n  end\r\n  if colorFontItem ~= nil then\r\n    colorFontItem.destruct()\r\n    colorFontItem = nil\r\n  end\r\n  objectLoaded = false\r\n  mainMenu()\r\nend\r\n\r\nfunction updateValues()\r\n  local curButton = savedButtons[currentEdit]\r\n  if curButton.label ~= getInputValue('input_label') then\r\n    local fixedString = string.gsub(curButton.label, \"(\\n)\", \" \")\r\n    if string.len(fixedString) > 34 then\r\n      fixedString = string.sub(fixedString, 0, 31) .. \"...\"\r\n    end\r\n    editInput(\"input_label\", {label = fixedString, value = fixedString, position = {-2.5,0.15,-2.5}, height = 380})\r\n  end\r\n  if curButton.tooltip ~= getInputValue('tooltip_input') then\r\n    editInput('tooltip_input',{value = curButton.tooltip})\r\n  end\r\n\r\n  if curButton.position[1] ~= tonumber(getInputValue('position_x_input')) then\r\n    editInput('position_x_input',{value = curButton.position[1]})\r\n  end\r\n  if curButton.position[2] ~= tonumber(getInputValue('position_y_input')) then\r\n    editInput('position_y_input',{value = curButton.position[2]})\r\n  end\r\n  if curButton.position[3] ~= tonumber(getInputValue('position_z_input')) then\r\n    editInput('position_z_input',{value = curButton.position[3]})\r\n  end\r\n\r\n\r\n  if curButton.rotation[1] ~= tonumber(getInputValue('rotation_x_input')) then\r\n    editInput('rotation_x_input',{value = curButton.rotation[1]})\r\n  end\r\n  if curButton.rotation[2] ~= tonumber(getInputValue('rotation_y_input')) then\r\n    editInput('rotation_y_input',{value = curButton.rotation[2]})\r\n  end\r\n  if curButton.rotation[3] ~= tonumber(getInputValue('rotation_z_input')) then\r\n    editInput('rotation_z_input',{value = curButton.rotation[3]})\r\n  end\r\n\r\n\r\n  if curButton.scale[1] ~= tonumber(getInputValue('scale_x_input')) then\r\n    editInput('scale_x_input',{value = curButton.scale[1]})\r\n  end\r\n  if curButton.scale[2] ~= tonumber(getInputValue('scale_y_input')) then\r\n    editInput('scale_y_input',{value = curButton.scale[2]})\r\n  end\r\n  if curButton.scale[3] ~= tonumber(getInputValue('scale_z_input')) then\r\n    editInput('scale_z_input',{value = curButton.scale[3]})\r\n  end\r\n\r\n  if curButton.width ~= tonumber(getInputValue('dimension_x_input')) then\r\n    editInput('dimension_x_input',{value = curButton.width})\r\n  end\r\n  if curButton.height ~= tonumber(getInputValue('dimension_y_input')) then\r\n    editInput('dimension_y_input',{value = curButton.height})\r\n  end\r\n  if curButton.font_size ~= tonumber(getInputValue('dimension_z_input')) then\r\n    editInput('dimension_z_input',{value = curButton.font_size})\r\n  end\r\n\r\n  selectValidation(curButton.validation)\r\n  selectAlignment(curButton.alignment)\r\n  toggleType(curButton.type)\r\n\r\n  local fixedString = string.gsub(savedButtons[currentEdit].label, \"(\\n)\", \" \")\r\n  if string.len(fixedString) > 22 then\r\n    fixedString = string.sub(fixedString, 0, 19) .. \"...\"\r\n  end\r\n  editButton(\"select_button\", {label = currentEdit ..' - '.. fixedString})\r\n  updateObject()\r\nend\r\n\r\nlocal dropPos = nil\r\nfunction buttonSelection(pos)\r\n  if not pos.x then pos.x = pos[1] end\r\n  if not pos.y then pos.y = pos[2] end\r\n  if not pos.z then pos.z = pos[3] end\r\n\r\n  dropPos = pos\r\n\r\n  createButton(\"select_label\", \"Editing:\", {pos.x,pos.y,pos.z})\r\n  createButton(\"select_button\",currentEdit ..' - '..savedButtons[currentEdit].label, {pos.x+3.5,pos.y,pos.z}, {font_color={0,0,0},width=5000, height=400, click_function=dynamicFunction(\"showButton\", function()\r\n    showButtonSelect()\r\n  end)})\r\n\r\n  createButton(\"add_new_button\",\"+\", {pos.x+6.5,pos.y,pos.z}, {tooltip=\"Add New\", font_color={0,0,0},width=400, height=400, click_function=dynamicFunction(\"addButton\", function()\r\n    if selectionShown then\r\n      hideButtonSelect()\r\n    end\r\n    newButton()\r\n    updateValues()\r\n  end)})\r\n  createButton(\"remove_button\",\"Reset\", {pos.x+7.4,pos.y,pos.z}, {tooltip = \"Reset Current Values\", font_color={0,0,0},width=1000, height=400, click_function=dynamicFunction(\"deleteButton\", function()\r\n    savedButtons[currentEdit] = table.clone(default_values)\r\n    savedButtons[currentEdit].index = currentEdit - 1\r\n    updateValues()\r\n  end)})\r\n\r\n  createButton(\"export_button\",\"Export Data\", {pos.x+12.5,pos.y,pos.z+0.2}, {tooltip=\"Export Current Data\", font_color={0,0,0},width=2500, height=400, click_function=dynamicFunction(\"exportButton\", function()\r\n    local pos = self.getPosition()\r\n    pos.x = pos.x+15\r\n    exportData(pos,currentEdit)\r\n  end)})\r\n  createButton(\"export_all_button\",\"Export All\", {pos.x+12.5,pos.y,pos.z-0.2}, {tooltip=\"Export All Data\", font_color={0,0,0},width=2500, height=400, click_function=dynamicFunction(\"exportAllButton\", function()\r\n    local pos = self.getPosition()\r\n    pos.x = pos.x+15\r\n    local center = pos.z\r\n    for k,v in pairs(savedButtons) do\r\n      pos.z = center - (k - math.ceil(totalButtons/2))\r\n      pos.y = pos.y + 0.15\r\n      exportData(pos, k)\r\n    end\r\n  end)})\r\n\r\n  createButton(\"copy_button\",\"Copy Data\", {pos.x+9.5,pos.y,pos.z+0.2}, {font_color={0,0,0},width=2500, height=400, click_function=dynamicFunction(\"copyButton\", function()\r\n    copyData()\r\n  end)})\r\n  createButton(\"paste_button\",\"Paste Data\", {pos.x+9.5,pos.y,pos.z-0.2}, {font_color={0,0,0},width=2500, height=400, click_function=dynamicFunction(\"pasteButton\", function()\r\n    pasteData()\r\n  end)})\r\n\r\n  clipboard = table.clone(default_values)\r\nend\r\n\r\nlocal clipboard = {}\r\nfunction copyData()\r\n clipboard = table.clone(savedButtons[currentEdit])\r\n printToAll(\"Saved to clipboard\", {1,1,0})\r\nend\r\nfunction pasteData()\r\n  savedButtons[currentEdit] = table.clone(clipboard)\r\n  printToAll(\"Pasted from clipboard\", {1,1,0})\r\n  updateValues()\r\nend\r\n\r\nlocal default_data = {\r\n  width=100,\r\n  height=100,\r\n  font_size=100,\r\n  position={0,0,0},\r\n  rotation={0,0,0},\r\n  scale={1,1,1},\r\n  color={1,1,1,1},\r\n  font_color={0,0,0,1},\r\n  tooltip=\"\",\r\n  alignment=1,\r\n  value=\"\",\r\n  validation=1\r\n}\r\nfunction exportData(pos,card)\r\n  local data = savedButtons[card]\r\n  local note = spawnObject({type = 'Notecard'})\r\n  note.setPosition(pos)\r\n  note.setName(\"(\"..data.type..\") \" .. card .. \" - \" .. string.gsub(data.label, \"(\\n)\", \"\\\\n\"))\r\n\r\n  local str = \"local data = {\"\r\n  if data.type == \"Button\" then\r\n    str = str .. \"click_function = \\\"INSERT_FUNCTION\\\"\"\r\n  elseif data.type == \"Input\" then\r\n    str = str .. \"input_function = \\\"INSERT_FUNCTION\\\"\"\r\n  end\r\n  str = str .. \", function_owner = self\"\r\n  str = str .. \", label = \\\"\" .. string.gsub(data.label, \"(\\n)\", \"\\\\n\") .. '\"'\r\n\r\n  if not table.equals(data.position,default_data.position) then\r\n    str = str .. \", position = {\" .. data.position[1]\r\n    str = str .. \", \" .. data.position[2]\r\n    str = str .. \", \" .. data.position[3] .. \"}\"\r\n  end\r\n\r\n  if not table.equals(data.rotation,default_data.rotation) then\r\n    str = str .. \", rotation = {\" .. data.rotation[1]\r\n    str = str .. \", \" .. data.rotation[2]\r\n    str = str .. \", \" .. data.rotation[3] .. \"}\"\r\n  end\r\n\r\n  if not table.equals(data.scale,default_data.scale) then\r\n    str = str .. \", scale = {\" .. data.scale[1]\r\n    str = str .. \", \" .. data.scale[2]\r\n    str = str .. \", \" .. data.scale[3] .. \"}\"\r\n  end\r\n\r\n  if tonumber(data.width) ~= tonumber(default_data.width) then\r\n    str = str .. \", width = \" .. data.width\r\n  end\r\n  if tonumber(data.height) ~= tonumber(default_data.height) then\r\n    str = str .. \", height = \" .. data.height\r\n  end\r\n  if tonumber(data.font_size) ~= tonumber(default_data.font_size) then\r\n    str = str .. \", font_size = \" .. data.font_size\r\n  end\r\n\r\n  if not table.equals(data.color,default_data.color) then\r\n    str = str .. \", color = {\" .. roundValue(data.color[1])\r\n    str = str .. \", \" .. roundValue(data.color[2])\r\n    str = str .. \", \" .. roundValue(data.color[3])\r\n    str = str .. \", \" .. roundValue(data.color[4]) .. \"}\"\r\n  end\r\n\r\n  if not table.equals(data.font_color,default_data.font_color) then\r\n    str = str .. \", font_color = {\" .. roundValue(data.font_color[1])\r\n    str = str .. \", \" .. roundValue(data.font_color[2])\r\n    str = str .. \", \" .. roundValue(data.font_color[3])\r\n    str = str .. \", \" .. roundValue(data.font_color[4]) .. \"}\"\r\n  end\r\n\r\n  if data.tooltip ~= default_data.tooltip then\r\n    str = str .. \", tooltip = \\\"\" .. string.gsub(data.label, \"(\\n)\", \"\\\\n\") .. \"\\\"\"\r\n  end\r\n\r\n  if data.alignment ~= default_data.alignment then\r\n    str = str .. \", alignment = \" .. data.alignment\r\n  end\r\n\r\n  if data.type == \"Input\" then\r\n    if data.value ~= default_data.value then\r\n      str = str .. \", value = \\\"\" .. string.gsub(data.label, \"(\\n)\", \"\\\\n\") .. \"\\\"\"\r\n    end\r\n    if data.validation ~= default_data.validation then\r\n      str = str .. \", validation = \" .. data.validation\r\n    end\r\n  end\r\n\r\n  str = str .. \"}\"\r\n  note.setDescription(str)\r\nend\r\nfunction table.equals(a,b)\r\n  if a[1] ~= b[1] then return false end\r\n  if a[2] ~= b[2] then return false end\r\n  if a[3] ~= b[3] then return false end\r\n  if a[4] ~= b[4] then return false end\r\n  return true\r\nend\r\n\r\n\r\ncolorItem = nil\r\ncolorFontItem = nil\r\nfunction createColorButton(pos)\r\n  if not pos.x then pos.x = pos[1] end\r\n  if not pos.y then pos.y = pos[2] end\r\n  if not pos.z then pos.z = pos[3] end\r\n\r\n  createButton(\"color_label\", \"Color\", {pos.x,pos.y,pos.z})\r\n  createButton(\"color_alpha_label\", \"Alpha\", {pos.x-0.3,pos.y,pos.z+0.3}, {scale = {0.2,0.2,0.2}})\r\n  createInput(\"color_alpha_input\", \"100%\", {pos.x+0.4,pos.y,pos.z+0.3}, {scale = {0.2,0.2,0.2}, validation = 3, input_function = dynamicFunction(\"setAlphaColor\", function(obj, player, input_value)\r\n    if input_value == \"\" then\r\n      input_value = 100\r\n    end\r\n    savedButtons[currentEdit].color[4] = tonumber(input_value)/100\r\n  end)})\r\n\r\n  colorItem = spawnObject({type = 'reversi_chip'})\r\n  colorItem.setName(\"Color\")\r\n  colorItem.setRotation(self.getRotation())\r\n  colorItem.setPosition(self.positionToWorld({pos.x*-1-1.2, pos.y+0.1, pos.z + 0.1}))\r\n  local sca = self.getScale()\r\n  colorItem.setScale({sca.x*0.5,0.1,sca.z*0.5})\r\n\r\n  local button = {}\r\n  button.click_function = \"applyColor\"\r\n  button.function_owner = self\r\n  button.width = 1200\r\n  button.height = 400\r\n  button.font_size = 400\r\n  button.scale = {0.5,0.5,0.5}\r\n  button.font_color = {0,0,0}\r\n  button.label = 'Apply'\r\n  button.position = {0,0.1,0}\r\n  colorItem.createButton(button)\r\nend\r\nfunction applyColor()\r\n  local color = colorItem.getColorTint()\r\n  color.a = savedButtons[currentEdit].color[4]\r\n  savedButtons[currentEdit].color = color\r\n  savedButtons[currentEdit].color[4] = savedButtons[currentEdit].color.a\r\n\r\n  updateObject()\r\nend\r\nfunction createFontColorButton(pos)\r\n  if not pos.x then pos.x = pos[1] end\r\n  if not pos.y then pos.y = pos[2] end\r\n  if not pos.z then pos.z = pos[3] end\r\n\r\n  createButton(\"font_color_label\", \"Font Color\", {pos.x,pos.y,pos.z}, {scale = {0.4,0.4,0.4}})\r\n  createButton(\"font_color_alpha_label\", \"Alpha\", {pos.x-0.3,pos.y,pos.z+0.3}, {scale = {0.2,0.2,0.2}})\r\n  createInput(\"font_color_alpha_input\", \"100%\", {pos.x+0.4,pos.y,pos.z+0.3}, {scale = {0.2,0.2,0.2}, validation = 3, input_function = dynamicFunction(\"setAlphaFontColor\", function(obj, player, input_value)\r\n    if input_value == \"\" then\r\n      input_value = 100\r\n    end\r\n    savedButtons[currentEdit].font_color[4] = tonumber(input_value)/100\r\n  end)})\r\n\r\n  colorFontItem = spawnObject({type = 'reversi_chip'})\r\n  colorFontItem.setName(\"Font Color\")\r\n  colorFontItem.setRotation(self.getRotation())\r\n  colorFontItem.setPosition(self.positionToWorld({pos.x*-1-1.2, pos.y+0.1, pos.z + 0.1}))\r\n  local sca = self.getScale()\r\n  colorFontItem.setScale({sca.x*0.5,0.1,sca.z*0.5})\r\n\r\n  local button = {}\r\n  button.click_function = \"applyFontColor\"\r\n  button.function_owner = self\r\n  button.width = 1200\r\n  button.height = 400\r\n  button.font_size = 400\r\n  button.scale = {0.5,0.5,0.5}\r\n  button.font_color = {0,0,0}\r\n  button.label = 'Apply'\r\n  button.position = {0,0.1,0}\r\n  colorFontItem.createButton(button)\r\nend\r\nfunction applyFontColor()\r\n  local color = colorFontItem.getColorTint()\r\n  color.a = savedButtons[currentEdit].font_color[4]\r\n  savedButtons[currentEdit].font_color = color\r\n  savedButtons[currentEdit].font_color[4] = savedButtons[currentEdit].font_color.a\r\n\r\n  updateObject()\r\nend\r\n\r\nfunction setInput(input_value, pos, selected)\r\n  if input_value == \"\" then\r\n    input_value = \"Ipso Facto\"\r\n  end\r\n\r\n  local count = select(2, string.gsub(input_value,\"(\\n)\",\"%1\"))\r\n  local modZ = 0.18*count\r\n\r\n  if selected then\r\n    editInput(\"input_label\", {label = input_value, value = input_value, position = {pos.x+4, pos.y, pos.z - modZ}, height = 380+350*(count)})\r\n  else\r\n    local fixedString = string.gsub(input_value, \"(\\n)\", \" \")\r\n    if string.len(fixedString) > 34 then\r\n      fixedString = string.sub(fixedString, 0, 31) .. \"...\"\r\n    end\r\n    editInput(\"input_label\", {label = fixedString, position = {pos.x+4, pos.y, pos.z}, height = 380})\r\n  end\r\n  savedButtons[currentEdit].label = input_value\r\n  updateValues()\r\nend\r\nfunction setTooltipInput(input_value, pos, selected)\r\n  if input_value == \"\" then\r\n    input_value = \"\"\r\n  end\r\n\r\n  local count = select(2, string.gsub(input_value,\"(\\n)\",\"%1\"))\r\n  local modZ = 0.18*count\r\n  if selected then\r\n    editInput(\"tooltip_input\", {label = input_value, value = input_value, position = {pos.x+4, pos.y, pos.z+ 0.5 - modZ}, height = 380+350*(count)})\r\n  else\r\n    local fixedString = string.gsub(input_value, \"(\\n)\", \" \")\r\n    if string.len(fixedString) > 34 then\r\n      fixedString = string.sub(fixedString, 0, 31) .. \"...\"\r\n    end\r\n    editInput(\"tooltip_input\", {label = fixedString, position = {pos.x+4, pos.y, pos.z+0.5}, height = 380})\r\n  end\r\n\r\n  savedButtons[currentEdit].tooltip = input_value\r\n\r\n  updateValues()\r\nend\r\nfunction setValueInput(input_value, pos, selected)\r\n  if input_value == \"\" then\r\n    input_value = \"\"\r\n  end\r\n\r\n  local count = select(2, string.gsub(input_value,\"(\\n)\",\"%1\"))\r\n  local modZ = 0.18*count\r\n  if selected then\r\n    editInput(\"value_input\", {label = input_value, value = input_value, position = {pos.x+4, pos.y, pos.z+ 1 - modZ}, height = 380+350*(count)})\r\n  else\r\n    local fixedString = string.gsub(input_value, \"(\\n)\", \" \")\r\n    if string.len(fixedString) > 34 then\r\n      fixedString = string.sub(fixedString, 0, 31) .. \"...\"\r\n    end\r\n    editInput(\"value_input\", {label = fixedString, position = {pos.x+4, pos.y, pos.z+1}, height = 380})\r\n  end\r\n\r\n  savedButtons[currentEdit].value = input_value\r\n\r\n  updateValues()\r\nend\r\n\r\nselectionShown = false\r\nfunction hideButtonSelect()\r\n  editButton(\"select_button\", {color={1,1,1},click_function=dynamicFunction(\"select_main_button_click\", function()\r\n    showButtonSelect()\r\n  end)})\r\n  for k,v in pairs(savedButtons) do\r\n    if v ~= \"NULL\" then\r\n      toggleButton(\"select_button\"..k, false)\r\n    end\r\n  end\r\n\r\n  selectionShown = false\r\nend\r\nfunction showButtonSelect()\r\n  editButton(\"select_button\", {color={0.5,0.5,0.5},click_function=dynamicFunction(\"select_main_button_click\", function()\r\n    hideButtonSelect()\r\n    updateValues()\r\n  end)})\r\n\r\n  local i = 1\r\n  local modZ = 0.5\r\n  for k,v in pairs(savedButtons) do\r\n    if v ~= \"NULL\" then\r\n      local buttName = \"select_button\"..k\r\n      local fixedString = string.gsub(savedButtons[k].label,\"(\\n)\",\" \")\r\n      if string.len(fixedString) > 22 then\r\n        fixedString = string.sub(fixedString, 0, 19) .. \"...\"\r\n      end\r\n\r\n      local label = k ..' - '.. fixedString\r\n      --local count = select(2, string.gsub(savedButtons[k].label,\"(\\n)\",\"%1\"))\r\n      local table = {font_color={0,0,0},\r\n      width=5000,\r\n      height=400,--+400,--*count,\r\n      click_function = dynamicFunction(\"select_button_click\"..k,\r\n      function()\r\n        currentEdit = k\r\n        hideButtonSelect()\r\n        updateValues()\r\n      end)}\r\n      modZ = modZ --+ --0.2 * count\r\n      local posi = {dropPos.x+3.5,dropPos.y+0.3,dropPos.z+modZ}\r\n      createButton(buttName, label, posi, table)\r\n      i = i + 1\r\n      modZ = modZ + 0.5 --+ 0.2*(count)\r\n    end\r\n  end\r\n\r\n  selectionShown = true\r\nend\r\n\r\nfunction createLabelButtons(pos)\r\n  if not pos.x then pos.x = pos[1] end\r\n  if not pos.y then pos.y = pos[2] end\r\n  if not pos.z then pos.z = pos[3] end\r\n\r\n  createButton(\"label_label\", \"Label\", {pos.x,pos.y,pos.z})\r\n  createInput(\"input_label\", default_values.label, {pos.x+4,pos.y,pos.z}, {input_function = dynamicFunction(\"setLabel\", function(obj, player, input_value, selected) setInput(input_value, pos, selected) end), width = 6000})\r\n\r\n  createButton(\"tooltip_label\", \"Tooltip\", {pos.x,pos.y,pos.z+0.5})\r\n  createInput(\"tooltip_input\", \"None\", {pos.x+4,pos.y,pos.z+0.5}, {input_function = dynamicFunction(\"setTooltip\", function(obj, player, input_value, selected) setTooltipInput(input_value, pos, selected) end), width = 6000})\r\n\r\n  createButton(\"value_label\", \"Value\", {pos.x,pos.y,pos.z+1})\r\n  createInput(\"value_input\", \"None\", {pos.x+4,pos.y,pos.z+1}, {input_function = dynamicFunction(\"setValue\", function(obj, player, input_value, selected) setValueInput(input_value, pos, selected) end), width = 6000})\r\n\r\n  --Alignment Selection\r\n  createButton(\"alignment_label\", \"Alignment\", {pos.x+8.5,pos.y,pos.z})\r\n  createButton(\"alignment_auto_select\", \"A\", {pos.x+10,pos.y,pos.z},\r\n    {click_function = dynamicFunction(\"selectAlign_Auto\", function() selectAlignment(\"auto\") end),tooltip=\"Automatic\",width=400,height=400,font_color={0,0,0}})\r\n  createButton(\"alignment_left_select\", \"L\", {pos.x+10.5,pos.y,pos.z},\r\n    {click_function = dynamicFunction(\"selectAlign_Left\", function() selectAlignment(\"left\") end),tooltip=\"Left\",width=400,height=400,font_color={0,0,0}})\r\n  createButton(\"alignment_center_select\", \"C\", {pos.x+11,pos.y,pos.z},\r\n    {click_function = dynamicFunction(\"selectAlign_Center\", function() selectAlignment(\"center\") end),tooltip=\"Center\",width=400,height=400,font_color={0,0,0}})\r\n  createButton(\"alignment_right_select\", \"R\", {pos.x+11.5,pos.y,pos.z},\r\n    {click_function = dynamicFunction(\"selectAlign_Right\", function() selectAlignment(\"right\") end),tooltip=\"Right\",width=400,height=400,font_color={0,0,0}})\r\n  createButton(\"alignment_just_select\", \"J\", {pos.x+12,pos.y,pos.z},\r\n    {click_function = dynamicFunction(\"selectAlign_Just\", function() selectAlignment(\"just\") end),tooltip=\"Justified\",width=400,height=400,font_color={0,0,0}})\r\n\r\n    --Alignment Selection\r\n  createButton(\"validation_label\", \"Validation\", {pos.x+8.5,pos.y,pos.z+1})\r\n  createButton(\"validation_none_select\", \" \", {pos.x+10,pos.y,pos.z+1},\r\n    {click_function = dynamicFunction(\"selectVali_None\", function() selectValidation(\"none\") end),tooltip=\"None\",width=400,height=400,font_color={0,0,0}})\r\n  createButton(\"validation_integer_select\", \"#\", {pos.x+10.5,pos.y,pos.z+1},\r\n    {click_function = dynamicFunction(\"selectVali_Integer\", function() selectValidation(\"integer\") end),tooltip=\"Integer\",width=400,height=400,font_color={0,0,0}})\r\n  createButton(\"validation_float_select\", \"0.1\", {pos.x+11,pos.y,pos.z+1},\r\n    {click_function = dynamicFunction(\"selectVali_Float\", function() selectValidation(\"float\") end),tooltip=\"Float\",width=400,height=400,font_size=300,font_color={0,0,0}})\r\n  createButton(\"validation_alpha_select\", \"A#\", {pos.x+11.5,pos.y,pos.z+1},\r\n    {click_function = dynamicFunction(\"selectVali_Alpha\", function() selectValidation(\"alpha\") end),tooltip=\"Alphanumeric\",width=400,height=400,font_size=300,font_color={0,0,0}})\r\n  createButton(\"validation_user_select\", \"U\", {pos.x+12,pos.y,pos.z+1},\r\n    {click_function = dynamicFunction(\"selectVali_User\", function() selectValidation(\"user\") end),tooltip=\"Username\",width=400,height=400,font_color={0,0,0}})\r\n  createButton(\"validation_name_select\", \"N\", {pos.x+12.5,pos.y,pos.z+1},\r\n    {click_function = dynamicFunction(\"selectVali_Name\", function() selectValidation(\"name\") end),tooltip=\"Name\",width=400,height=400,font_color={0,0,0}})\r\n\r\n  --Type Selection\r\n  createButton(\"type_label\", \"Type\", {pos.x+8.5,pos.y,pos.z+0.5})\r\n  createButton(\"button_label\", \"Button\", {pos.x+10.3,pos.y,pos.z+0.5})\r\n  createButton(\"type_button_label\", \"\\u{25C9}\", {pos.x+9.5,pos.y,pos.z+0.5})\r\n  createButton(\"type_button_click\", \"\\u{25C9}\", {pos.x+9.5,pos.y,pos.z+0.5},\r\n    {click_function = dynamicFunction(\"selectType_Button\", function() toggleType(\"Button\") end), width=400, height=400, color={r=0,g=0,b=0,a=0}})\r\n  createButton(\"input_label\", \"Input\", {pos.x+12,pos.y,pos.z+0.5})\r\n  createButton(\"type_input_label\", \"\\u{25CB}\", {pos.x+11.3,pos.y,pos.z+0.5})\r\n  createButton(\"type_input_click\", \"\\u{25CB}\", {pos.x+11.3,pos.y,pos.z+0.5},\r\n    {click_function = dynamicFunction(\"selectType_Input\", function() toggleType(\"Input\") end), width=400, height=400, color={r=0,g=0,b=0,a=0}})\r\nend\r\nfunction createPositionButtons(pos)\r\n  if not pos.x then pos.x = pos[1] end\r\n  if not pos.y then pos.y = pos[2] end\r\n  if not pos.z then pos.z = pos[3] end\r\n\r\n  createButton(\"position_label\", \"Position\", {pos.x,pos.y,pos.z})\r\n\r\n  createButton(\"position_x_label\", \"X\", {pos.x+1,pos.y,pos.z-0.4}, {font_color = {219/255,26/255,24/255}})\r\n  createButton(\"position_y_label\", \"Y\", {pos.x+1,pos.y,pos.z}, {font_color = {49/255,179/255,43/255}})\r\n  createButton(\"position_z_label\", \"Z\", {pos.x+1,pos.y,pos.z+0.4}, {font_color = {31/255,136/255,255/255}})\r\n\r\n  createInput(\"position_x_input\", \"0.0\", {pos.x+1.9,pos.y,pos.z-0.4}, {validation = 3, input_function = dynamicFunction(\"setXPos\", function(obj, player, input_value) if input_value == \"\" then input_value = 0.0 end savedButtons[currentEdit].position[1] = tonumber(input_value) updateObject() end)})\r\n  createInput(\"position_y_input\", \"0.0\", {pos.x+1.9,pos.y,pos.z}, {validation = 3, input_function = dynamicFunction(\"setYPos\", function(obj, player, input_value) if input_value == \"\" then input_value = 0.0 end savedButtons[currentEdit].position[2] = tonumber(input_value) updateObject() end)})\r\n  createInput(\"position_z_input\", \"0.0\", {pos.x+1.9,pos.y,pos.z+0.4}, {validation = 3, input_function = dynamicFunction(\"setZPos\", function(obj, player, input_value) if input_value == \"\" then input_value = 0.0 end savedButtons[currentEdit].position[3] = tonumber(input_value) updateObject() end)})\r\n\r\n  createButton(\"position_x_add\", \">\", {pos.x+2.82, pos.y, pos.z-0.5}, {rotation = {0,-90,0}})\r\n  createButton(\"position_x_add_button\", \">\", {pos.x+2.82, pos.y, pos.z-0.5}, {rotation = {0,-90,0}, width = 200, height = 400, color = {0,0,0,0}, click_function = dynamicFunction(\"addXPos\", function()\r\n    savedButtons[currentEdit].position[1] = roundValue(savedButtons[currentEdit].position[1]+increment_value.position)\r\n    editInput('position_x_input',{value = savedButtons[currentEdit].position[1]})\r\n    updateObject()\r\n  end)})\r\n  createButton(\"position_x_sub\", \">\", {pos.x+2.79, pos.y, pos.z-0.3}, {rotation = {0,90,0}})\r\n  createButton(\"position_x_sub_button\", \">\", {pos.x+2.79, pos.y, pos.z-0.3}, {rotation = {0,90,0}, width = 200, height = 400, color = {0,0,0,0}, click_function = dynamicFunction(\"subXPos\", function()\r\n    savedButtons[currentEdit].position[1] = roundValue(savedButtons[currentEdit].position[1]-increment_value.position)\r\n    editInput('position_x_input',{value = savedButtons[currentEdit].position[1]})\r\n    updateObject()\r\n  end)})\r\n\r\n  createButton(\"position_y_add\", \">\", {pos.x+2.82, pos.y, pos.z-0.1}, {rotation = {0,-90,0}})\r\n  createButton(\"position_y_add_button\", \">\", {pos.x+2.82, pos.y, pos.z-0.1}, {rotation = {0,-90,0}, width = 200, height = 400, color = {0,0,0,0}, click_function = dynamicFunction(\"addYPos\",\r\n  function()\r\n    savedButtons[currentEdit].position[2] = roundValue(savedButtons[currentEdit].position[2]+increment_value.position)\r\n    editInput('position_y_input',{value = savedButtons[currentEdit].position[2]})\r\n    updateObject()\r\n  end)})\r\n  createButton(\"position_y_sub\", \">\", {pos.x+2.79, pos.y, pos.z+0.1}, {rotation = {0,90,0}})\r\n  createButton(\"position_y_sub_button\", \">\", {pos.x+2.79, pos.y, pos.z+0.1}, {rotation = {0,90,0}, width = 200, height = 400, color = {0,0,0,0}, click_function = dynamicFunction(\"subYPos\",\r\n  function()\r\n    savedButtons[currentEdit].position[2] = roundValue(savedButtons[currentEdit].position[2]-increment_value.position)\r\n    editInput('position_y_input',{value = savedButtons[currentEdit].position[2]})\r\n    updateObject()\r\n  end)})\r\n\r\n  createButton(\"position_z_add\", \">\", {pos.x+2.82, pos.y, pos.z+0.3}, {rotation = {0,-90,0}})\r\n  createButton(\"position_z_add_button\", \">\", {pos.x+2.82, pos.y, pos.z+0.3}, {rotation = {0,-90,0}, width = 200, height = 400, color = {0,0,0,0}, click_function = dynamicFunction(\"addZPos\",\r\n  function()\r\n    savedButtons[currentEdit].position[3] = roundValue(savedButtons[currentEdit].position[3]+increment_value.position)\r\n    editInput('position_z_input',{value = savedButtons[currentEdit].position[3]})\r\n    updateObject()\r\n  end)})\r\n  createButton(\"position_z_sub\", \">\", {pos.x+2.79, pos.y, pos.z+0.5}, {rotation = {0,90,0}})\r\n  createButton(\"position_z_sub_button\", \">\", {pos.x+2.79, pos.y, pos.z+0.5}, {rotation = {0,90,0}, width = 200, height = 400, color = {0,0,0,0}, click_function = dynamicFunction(\"subZPos\",\r\n  function()\r\n    savedButtons[currentEdit].position[3] = roundValue(savedButtons[currentEdit].position[3]-increment_value.position)\r\n    editInput('position_z_input',{value = savedButtons[currentEdit].position[3]})\r\n    updateObject()\r\n  end)})\r\n\r\n  createButton(\"position_increment_label\", \"Increment:\", {pos.x-0.3,pos.y,pos.z+0.3}, {scale = {0.2,0.2,0.2}})\r\n  createInput(\"position_increment_input\", \"0.1\", {pos.x+0.4,pos.y,pos.z+0.3}, {scale = {0.2,0.2,0.2}, validation = 3, input_function = dynamicFunction(\"setPosIncrement\", function(obj, player, input_value)\r\n    if input_value == \"\" then\r\n      input_value = 0.1\r\n    end\r\n    increment_value.position = tonumber(input_value)\r\n  end)})\r\nend\r\nfunction createRotationButtons(pos)\r\n  if not pos.x then pos.x = pos[1] end\r\n  if not pos.y then pos.y = pos[2] end\r\n  if not pos.z then pos.z = pos[3] end\r\n\r\n  createButton(\"rotation_label\", \"Rotation\", {pos.x,pos.y,pos.z})\r\n\r\n  createButton(\"rotation_x_label\", \"X\", {pos.x+1,pos.y,pos.z-0.4}, {font_color = {219/255,26/255,24/255}})\r\n  createButton(\"rotation_y_label\", \"Y\", {pos.x+1,pos.y,pos.z}, {font_color = {49/255,179/255,43/255}})\r\n  createButton(\"rotation_z_label\", \"Z\", {pos.x+1,pos.y,pos.z+0.4}, {font_color = {31/255,136/255,255/255}})\r\n\r\n  createInput(\"rotation_x_input\", \"0.0\", {pos.x+1.9,pos.y,pos.z-0.4}, {validation = 3, input_function = dynamicFunction(\"setXRot\", function(obj, player, input_value) if input_value == \"\" then input_value = 0.0 end savedButtons[currentEdit].rotation[1] = tonumber(input_value) updateObject() end)})\r\n  createInput(\"rotation_y_input\", \"0.0\", {pos.x+1.9,pos.y,pos.z}, {validation = 3, input_function = dynamicFunction(\"setYRot\", function(obj, player, input_value) if input_value == \"\" then input_value = 0.0 end savedButtons[currentEdit].rotation[2] = tonumber(input_value) updateObject() end)})\r\n  createInput(\"rotation_z_input\", \"0.0\", {pos.x+1.9,pos.y,pos.z+0.4}, {validation = 3, input_function = dynamicFunction(\"setZRot\", function(obj, player, input_value) if input_value == \"\" then input_value = 0.0 end savedButtons[currentEdit].rotation[3] = tonumber(input_value) updateObject() end)})\r\n\r\n  createButton(\"rotation_x_add\", \">\", {pos.x+2.82, pos.y, pos.z-0.5}, {rotation = {0,-90,0}})\r\n  createButton(\"rotation_x_add_button\", \">\", {pos.x+2.82, pos.y, pos.z-0.5}, {rotation = {0,-90,0}, width = 200, height = 400, color = {0,0,0,0}, click_function = dynamicFunction(\"addXRot\", function()\r\n    savedButtons[currentEdit].rotation[1] = roundValue(savedButtons[currentEdit].rotation[1]+increment_value.rotation)\r\n    editInput('rotation_x_input',{value = savedButtons[currentEdit].rotation[1]})\r\n    updateObject()\r\n  end)})\r\n  createButton(\"rotation_x_sub\", \">\", {pos.x+2.79, pos.y, pos.z-0.3}, {rotation = {0,90,0}})\r\n  createButton(\"rotation_x_sub_button\", \">\", {pos.x+2.79, pos.y, pos.z-0.3}, {rotation = {0,90,0}, width = 200, height = 400, color = {0,0,0,0}, click_function = dynamicFunction(\"subXRot\", function()\r\n    savedButtons[currentEdit].rotation[1] = roundValue(savedButtons[currentEdit].rotation[1]-increment_value.rotation)\r\n    editInput('rotation_x_input',{value = savedButtons[currentEdit].rotation[1]})\r\n    updateObject()\r\n  end)})\r\n\r\n  createButton(\"rotation_y_add\", \">\", {pos.x+2.82, pos.y, pos.z-0.1}, {rotation = {0,-90,0}})\r\n  createButton(\"rotation_y_add_button\", \">\", {pos.x+2.82, pos.y, pos.z-0.1}, {rotation = {0,-90,0}, width = 200, height = 400, color = {0,0,0,0}, click_function = dynamicFunction(\"addYRot\",\r\n  function()\r\n    savedButtons[currentEdit].rotation[2] = roundValue(savedButtons[currentEdit].rotation[2]+increment_value.rotation)\r\n    editInput('rotation_y_input',{value = savedButtons[currentEdit].rotation[2]})\r\n    updateObject()\r\n  end)})\r\n  createButton(\"rotation_y_sub\", \">\", {pos.x+2.79, pos.y, pos.z+0.1}, {rotation = {0,90,0}})\r\n  createButton(\"rotation_y_sub_button\", \">\", {pos.x+2.79, pos.y, pos.z+0.1}, {rotation = {0,90,0}, width = 200, height = 400, color = {0,0,0,0}, click_function = dynamicFunction(\"subYRot\",\r\n  function()\r\n    savedButtons[currentEdit].rotation[2] = roundValue(savedButtons[currentEdit].rotation[2]-increment_value.rotation)\r\n    editInput('rotation_y_input',{value = savedButtons[currentEdit].rotation[2]})\r\n    updateObject()\r\n  end)})\r\n\r\n  createButton(\"rotation_z_add\", \">\", {pos.x+2.82, pos.y, pos.z+0.3}, {rotation = {0,-90,0}})\r\n  createButton(\"rotation_z_add_button\", \">\", {pos.x+2.82, pos.y, pos.z+0.3}, {rotation = {0,-90,0}, width = 200, height = 400, color = {0,0,0,0}, click_function = dynamicFunction(\"addZRot\",\r\n  function()\r\n    savedButtons[currentEdit].rotation[3] = roundValue(savedButtons[currentEdit].rotation[3]+increment_value.rotation)\r\n    editInput('rotation_z_input',{value = savedButtons[currentEdit].rotation[3]})\r\n    updateObject()\r\n  end)})\r\n  createButton(\"rotation_z_sub\", \">\", {pos.x+2.79, pos.y, pos.z+0.5}, {rotation = {0,90,0}})\r\n  createButton(\"rotation_z_sub_button\", \">\", {pos.x+2.79, pos.y, pos.z+0.5}, {rotation = {0,90,0}, width = 200, height = 400, color = {0,0,0,0}, click_function = dynamicFunction(\"subZRot\",\r\n  function()\r\n    savedButtons[currentEdit].rotation[3] = roundValue(savedButtons[currentEdit].rotation[3]-increment_value.rotation)\r\n    editInput('rotation_z_input',{value = savedButtons[currentEdit].rotation[3]})\r\n    updateObject()\r\n  end)})\r\n\r\n  createButton(\"rotation_increment_label\", \"Increment:\", {pos.x-0.3,pos.y,pos.z+0.3}, {scale = {0.2,0.2,0.2}})\r\n  createInput(\"rotation_increment_input\", \"10\", {pos.x+0.4,pos.y,pos.z+0.3}, {scale = {0.2,0.2,0.2}, validation = 3, input_function = dynamicFunction(\"setRotIncrement\", function(obj, player, input_value)\r\n    if input_value == \"\" then\r\n      input_value = 10\r\n    end\r\n    increment_value.rotation = tonumber(input_value)\r\n  end)})\r\nend\r\nfunction createScaleButtons(pos)\r\n  if not pos.x then pos.x = pos[1] end\r\n  if not pos.y then pos.y = pos[2] end\r\n  if not pos.z then pos.z = pos[3] end\r\n\r\n  createButton(\"scale_label\", \"Scale\", {pos.x,pos.y,pos.z})\r\n\r\n  createButton(\"scale_x_label\", \"X\", {pos.x+1,pos.y,pos.z-0.4}, {font_color = {219/255,26/255,24/255}})\r\n  createButton(\"scale_y_label\", \"Y\", {pos.x+1,pos.y,pos.z}, {font_color = {49/255,179/255,43/255}})\r\n  createButton(\"scale_z_label\", \"Z\", {pos.x+1,pos.y,pos.z+0.4}, {font_color = {31/255,136/255,255/255}})\r\n\r\n  createInput(\"scale_x_input\", \"0.5\", {pos.x+1.9,pos.y,pos.z-0.4}, {validation = 3, input_function = dynamicFunction(\"setXScale\", function(obj, player, input_value) if input_value == \"\" then input_value = 0.0 end savedButtons[currentEdit].scale[1] = tonumber(input_value) updateObject() end)})\r\n  createInput(\"scale_y_input\", \"0.5\", {pos.x+1.9,pos.y,pos.z}, {validation = 3, input_function = dynamicFunction(\"setYScale\", function(obj, player, input_value) if input_value == \"\" then input_value = 0.0 end savedButtons[currentEdit].scale[2] = tonumber(input_value) updateObject() end)})\r\n  createInput(\"scale_z_input\", \"0.5\", {pos.x+1.9,pos.y,pos.z+0.4}, {validation = 3, input_function = dynamicFunction(\"setZScale\", function(obj, player, input_value) if input_value == \"\" then input_value = 0.0 end savedButtons[currentEdit].scale[3] = tonumber(input_value) updateObject() end)})\r\n\r\n  createButton(\"scale_x_add\", \">\", {pos.x+2.82, pos.y, pos.z-0.5}, {rotation = {0,-90,0}})\r\n  createButton(\"scale_x_add_button\", \">\", {pos.x+2.82, pos.y, pos.z-0.5}, {rotation = {0,-90,0}, width = 200, height = 400, color = {0,0,0,0}, click_function = dynamicFunction(\"addXScale\", function()\r\n    savedButtons[currentEdit].scale[1] = roundValue(savedButtons[currentEdit].scale[1]+increment_value.scale)\r\n    editInput('scale_x_input',{value = savedButtons[currentEdit].scale[1]})\r\n    updateObject()\r\n  end)})\r\n  createButton(\"scale_x_sub\", \">\", {pos.x+2.79, pos.y, pos.z-0.3}, {rotation = {0,90,0}})\r\n  createButton(\"scale_x_sub_button\", \">\", {pos.x+2.79, pos.y, pos.z-0.3}, {rotation = {0,90,0}, width = 200, height = 400, color = {0,0,0,0}, click_function = dynamicFunction(\"subXScale\", function()\r\n    savedButtons[currentEdit].scale[1] = roundValue(savedButtons[currentEdit].scale[1]-increment_value.scale)\r\n    editInput('scale_x_input',{value = savedButtons[currentEdit].scale[1]})\r\n    updateObject()\r\n  end)})\r\n\r\n  createButton(\"scale_y_add\", \">\", {pos.x+2.82, pos.y, pos.z-0.1}, {rotation = {0,-90,0}})\r\n  createButton(\"scale_y_add_button\", \">\", {pos.x+2.82, pos.y, pos.z-0.1}, {rotation = {0,-90,0}, width = 200, height = 400, color = {0,0,0,0}, click_function = dynamicFunction(\"addYScale\",\r\n  function()\r\n    savedButtons[currentEdit].scale[2] = roundValue(savedButtons[currentEdit].scale[2]+increment_value.scale)\r\n    editInput('scale_y_input',{value = savedButtons[currentEdit].scale[2]})\r\n    updateObject()\r\n  end)})\r\n  createButton(\"scale_y_sub\", \">\", {pos.x+2.79, pos.y, pos.z+0.1}, {rotation = {0,90,0}})\r\n  createButton(\"scale_y_sub_button\", \">\", {pos.x+2.79, pos.y, pos.z+0.1}, {rotation = {0,90,0}, width = 200, height = 400, color = {0,0,0,0}, click_function = dynamicFunction(\"subYScale\",\r\n  function()\r\n    savedButtons[currentEdit].scale[2] = roundValue(savedButtons[currentEdit].scale[2]-increment_value.scale)\r\n    editInput('scale_y_input',{value = savedButtons[currentEdit].scale[2]})\r\n    updateObject()\r\n  end)})\r\n\r\n  createButton(\"scale_z_add\", \">\", {pos.x+2.82, pos.y, pos.z+0.3}, {rotation = {0,-90,0}})\r\n  createButton(\"scale_z_add_button\", \">\", {pos.x+2.82, pos.y, pos.z+0.3}, {rotation = {0,-90,0}, width = 200, height = 400, color = {0,0,0,0}, click_function = dynamicFunction(\"addZScale\",\r\n  function()\r\n    savedButtons[currentEdit].scale[3] = roundValue(savedButtons[currentEdit].scale[3]+increment_value.scale)\r\n    editInput('scale_z_input',{value = savedButtons[currentEdit].scale[3]})\r\n    updateObject()\r\n  end)})\r\n  createButton(\"scale_z_sub\", \">\", {pos.x+2.79, pos.y, pos.z+0.5}, {rotation = {0,90,0}})\r\n  createButton(\"scale_z_sub_button\", \">\", {pos.x+2.79, pos.y, pos.z+0.5}, {rotation = {0,90,0}, width = 200, height = 400, color = {0,0,0,0}, click_function = dynamicFunction(\"subZScale\",\r\n  function()\r\n    savedButtons[currentEdit].scale[3] = roundValue(savedButtons[currentEdit].scale[3]-increment_value.scale)\r\n    editInput('scale_z_input',{value = savedButtons[currentEdit].scale[3]})\r\n    updateObject()\r\n  end)})\r\n\r\n  createButton(\"scale_increment_label\", \"Increment:\", {pos.x-0.3,pos.y,pos.z+0.3}, {scale = {0.2,0.2,0.2}})\r\n  createInput(\"scale_increment_input\", \"0.1\", {pos.x+0.4,pos.y,pos.z+0.3}, {scale = {0.2,0.2,0.2}, validation = 3, input_function = dynamicFunction(\"setSacIncrement\", function(obj, player, input_value)\r\n    if input_value == \"\" then\r\n      input_value = 0.1\r\n    end\r\n    increment_value.scale = tonumber(input_value)\r\n  end)})\r\nend\r\nfunction createDimensionButtons(pos)\r\n  if not pos.x then pos.x = pos[1] end\r\n  if not pos.y then pos.y = pos[2] end\r\n  if not pos.z then pos.z = pos[3] end\r\n\r\n  createButton(\"dimension_label\", \"Dimensions\", {pos.x-1.3,pos.y,pos.z})\r\n\r\n  createButton(\"dimension_x_label\", \"Width\", {pos.x+0.5,pos.y,pos.z-0.4}, {font_color = {219/255,26/255,24/255}})\r\n  createButton(\"dimension_y_label\", \"Height\", {pos.x+0.5,pos.y,pos.z}, {font_color = {49/255,179/255,43/255}})\r\n  createButton(\"dimension_z_label\", \"Font Size\", {pos.x+0.5,pos.y,pos.z+0.4}, {font_size = 300,font_color = {31/255,136/255,255/255}})\r\n\r\n  createInput(\"dimension_x_input\", \"2000\", {pos.x+1.9,pos.y,pos.z-0.4}, {validation = 3, input_function = dynamicFunction(\"setWidth\", function(obj, player, input_value) if input_value == \"\" then input_value = 0.0 end savedButtons[currentEdit].width = tonumber(input_value) updateObject() end)})\r\n  createInput(\"dimension_y_input\", \"400\", {pos.x+1.9,pos.y,pos.z}, {validation = 3, input_function = dynamicFunction(\"setHeight\", function(obj, player, input_value) if input_value == \"\" then input_value = 0.0 end savedButtons[currentEdit].height = tonumber(input_value) updateObject() end)})\r\n  createInput(\"dimension_z_input\", \"400\", {pos.x+1.9,pos.y,pos.z+0.4}, {validation = 3, input_function = dynamicFunction(\"setFont_Size\", function(obj, player, input_value) if input_value == \"\" then input_value = 0.0 end savedButtons[currentEdit].font_size = tonumber(input_value) updateObject() end)})\r\n\r\n  createButton(\"dimension_x_add\", \">\", {pos.x+2.82, pos.y, pos.z-0.5}, {rotation = {0,-90,0}})\r\n  createButton(\"dimension_x_add_button\", \">\", {pos.x+2.82, pos.y, pos.z-0.5}, {rotation = {0,-90,0}, width = 200, height = 400, color = {0,0,0,0}, click_function = dynamicFunction(\"addWidth\", function()\r\n    savedButtons[currentEdit].width = roundValue(savedButtons[currentEdit].width+increment_value.dimension)\r\n    editInput('dimension_x_input',{value = savedButtons[currentEdit].width})\r\n    updateObject()\r\n  end)})\r\n  createButton(\"dimension_x_sub\", \">\", {pos.x+2.79, pos.y, pos.z-0.3}, {rotation = {0,90,0}})\r\n  createButton(\"dimension_x_sub_button\", \">\", {pos.x+2.79, pos.y, pos.z-0.3}, {rotation = {0,90,0}, width = 200, height = 400, color = {0,0,0,0}, click_function = dynamicFunction(\"subWidth\", function()\r\n    savedButtons[currentEdit].width = roundValue(savedButtons[currentEdit].width-increment_value.dimension)\r\n    editInput('dimension_x_input',{value = savedButtons[currentEdit].width})\r\n    updateObject()\r\n  end)})\r\n\r\n  createButton(\"dimension_y_add\", \">\", {pos.x+2.82, pos.y, pos.z-0.1}, {rotation = {0,-90,0}})\r\n  createButton(\"dimension_y_add_button\", \">\", {pos.x+2.82, pos.y, pos.z-0.1}, {rotation = {0,-90,0}, width = 200, height = 400, color = {0,0,0,0}, click_function = dynamicFunction(\"addHeight\",\r\n  function()\r\n    savedButtons[currentEdit].height = roundValue(savedButtons[currentEdit].height+increment_value.dimension)\r\n    editInput('dimension_y_input',{value = savedButtons[currentEdit].height})\r\n    updateObject()\r\n  end)})\r\n  createButton(\"dimension_y_sub\", \">\", {pos.x+2.79, pos.y, pos.z+0.1}, {rotation = {0,90,0}})\r\n  createButton(\"dimension_y_sub_button\", \">\", {pos.x+2.79, pos.y, pos.z+0.1}, {rotation = {0,90,0}, width = 200, height = 400, color = {0,0,0,0}, click_function = dynamicFunction(\"subHeight\",\r\n  function()\r\n    savedButtons[currentEdit].height = roundValue(savedButtons[currentEdit].height-increment_value.dimension)\r\n    editInput('dimension_y_input',{value = savedButtons[currentEdit].height})\r\n    updateObject()\r\n  end)})\r\n\r\n  createButton(\"dimension_z_add\", \">\", {pos.x+2.82, pos.y, pos.z+0.3}, {rotation = {0,-90,0}})\r\n  createButton(\"dimension_z_add_button\", \">\", {pos.x+2.82, pos.y, pos.z+0.3}, {rotation = {0,-90,0}, width = 200, height = 400, color = {0,0,0,0}, click_function = dynamicFunction(\"addFont_Size\",\r\n  function()\r\n    savedButtons[currentEdit].font_size = roundValue(savedButtons[currentEdit].font_size+increment_value.dimension)\r\n    editInput('dimension_z_input',{value = savedButtons[currentEdit].font_size})\r\n    updateObject()\r\n  end)})\r\n  createButton(\"dimension_z_sub\", \">\", {pos.x+2.79, pos.y, pos.z+0.5}, {rotation = {0,90,0}})\r\n  createButton(\"dimension_z_sub_button\", \">\", {pos.x+2.79, pos.y, pos.z+0.5}, {rotation = {0,90,0}, width = 200, height = 400, color = {0,0,0,0}, click_function = dynamicFunction(\"subFont_Size\",\r\n  function()\r\n    savedButtons[currentEdit].font_size = roundValue(savedButtons[currentEdit].font_size-increment_value.dimension)\r\n    editInput('dimension_z_input',{value = savedButtons[currentEdit].font_size})\r\n    updateObject()\r\n  end)})\r\n\r\n  createButton(\"dimension_increment_label\", \"Increment:\", {pos.x-1.6,pos.y,pos.z+0.3}, {scale = {0.2,0.2,0.2}})\r\n  createInput(\"dimension_increment_input\", \"100\", {pos.x-0.9,pos.y,pos.z+0.3}, {scale = {0.2,0.2,0.2}, validation = 3, input_function = dynamicFunction(\"setDymIncrement\", function(obj, player, input_value)\r\n    if input_value == \"\" then\r\n      input_value = 100\r\n    end\r\n    increment_value.dimension = tonumber(input_value)\r\n  end)})\r\nend\r\n\r\n\r\n\r\n--Value Functions\r\nfunction selectValidation(type)\r\n  local button = {color = {1,1,1,1}}\r\n\r\n  editButton('validation_none_select',button)\r\n  editButton('validation_integer_select',button)\r\n  editButton('validation_float_select',button)\r\n  editButton('validation_alpha_select',button)\r\n  editButton('validation_user_select',button)\r\n  editButton('validation_name_select',button)\r\n\r\n  if type == 1 then type = \"none\"\r\n  elseif type == 2 then type = \"integer\"\r\n  elseif type == 3 then type = \"float\"\r\n  elseif type == 4 then type = \"alpha\"\r\n  elseif type == 5 then type = \"user\"\r\n  elseif type == 6 then type = \"name\" end\r\n\r\n  button = {color = {0.5,0.5,0.5,1}}\r\n  editButton('validation_'..type..'_select',button)\r\n\r\n  if type == \"none\" then type = 1\r\n  elseif type == \"integer\" then type = 2\r\n  elseif type == \"float\" then type = 3\r\n  elseif type == \"alpha\" then type = 4\r\n  elseif type == \"user\" then type = 5\r\n  elseif type == \"name\" then type = 6 end\r\n\r\n  savedButtons[currentEdit].validation = type\r\n  updateObject()\r\nend\r\nfunction selectAlignment(type)\r\n  local button = {color = {1,1,1,1}}\r\n\r\n  editButton('alignment_auto_select',button)\r\n  editButton('alignment_left_select',button)\r\n  editButton('alignment_center_select',button)\r\n  editButton('alignment_right_select',button)\r\n  editButton('alignment_just_select',button)\r\n\r\n  if type == 1 then type = \"auto\"\r\n  elseif type == 2 then type = \"left\"\r\n  elseif type == 3 then type = \"center\"\r\n  elseif type == 4 then type = \"right\"\r\n  elseif type == 5 then type = \"just\" end\r\n\r\n  button = {color = {0.5,0.5,0.5,1}}\r\n  editButton('alignment_'..type..'_select',button)\r\n\r\n  if type == \"auto\" then type = 1\r\n  elseif type == \"left\" then type = 2\r\n  elseif type == \"center\" then type = 3\r\n  elseif type == \"right\" then type = 4\r\n  elseif type == \"just\" then type = 5 end\r\n\r\n  savedButtons[currentEdit].alignment = type\r\n  updateObject()\r\nend\r\nfunction toggleType(type)\r\n  savedButtons[currentEdit].type = type\r\n\r\n  if type == \"Button\" then\r\n    editButton('type_button_label', {label = '\\u{25C9}'})\r\n    editButton('type_input_label', {label = '\\u{25CB}'})\r\n\r\n    toggleButton(\"value_label\", false)\r\n    toggleInput(\"value_input\", false)\r\n\r\n    toggleButton(\"validation_label\", false)\r\n    toggleButton(\"validation_none_select\", false)\r\n    toggleButton(\"validation_integer_select\", false)\r\n    toggleButton(\"validation_float_select\", false)\r\n    toggleButton(\"validation_alpha_select\", false)\r\n    toggleButton(\"validation_user_select\", false)\r\n    toggleButton(\"validation_name_select\", false)\r\n  elseif type == \"Input\" then\r\n    editButton('type_button_label', {label = '\\u{25CB}'})\r\n    editButton('type_input_label', {label = '\\u{25C9}'})\r\n\r\n    toggleButton(\"value_label\", true)\r\n    toggleInput(\"value_input\", true)\r\n\r\n    toggleButton(\"validation_label\", true)\r\n    toggleButton(\"validation_none_select\", true)\r\n    toggleButton(\"validation_integer_select\", true)\r\n    toggleButton(\"validation_float_select\", true)\r\n    toggleButton(\"validation_alpha_select\", true)\r\n    toggleButton(\"validation_user_select\", true)\r\n    toggleButton(\"validation_name_select\", true)\r\n  end\r\n  updateObject()\r\nend\r\n\r\n\r\n--Show and Hide Button/Input\r\nfunction toggleButton(index,show)\r\n  if not buttonIndex[index] then\r\n    print(\"[ff0000]<Error>[ffffff] Can't toggle button [\" .. index .. \"]\")\r\n  end\r\n  self.editButton({index = buttonIndex[index], scale = {show and 0.5 or 0,show and 0.5 or 0,show and 0.5 or 0}})\r\nend\r\nfunction toggleInput(index,show)\r\n  if not inputIndex[index] then\r\n    print(\"[ff0000]<Error>[ffffff] Can't toggle input [\" .. index .. \"]\")\r\n  end\r\n  self.editInput({index = inputIndex[index], scale = {show and 0.5 or 0,show and 0.5 or 0,show and 0.5 or 0}})\r\nend\r\n\r\n-- Create and Edit Button/Input\r\nfunction createInput(index, label, position, overrides)\r\n  local input_parameters = {}\r\n  input_parameters.input_function = \"nilFunction\"\r\n  input_parameters.function_owner = self\r\n  input_parameters.label = label\r\n  input_parameters.position = position\r\n  input_parameters.rotation = {0,0,0}\r\n  input_parameters.scale = {0.5,0.5,0.5}\r\n  input_parameters.width = 1400\r\n  input_parameters.height = 380\r\n  input_parameters.font_size = 350\r\n  input_parameters.color = {1,1,1,1}\r\n  input_parameters.font_color = {0,0,0,1}\r\n  input_parameters.tooltip = \"\"\r\n  input_parameters.alignment = 3\r\n  input_parameters.value = \"\"\r\n  input_parameters.validation = 1\r\n\r\n  if overrides ~= nil then\r\n    for k,v in pairs(overrides) do\r\n      input_parameters[k] = v\r\n    end\r\n  end\r\n\r\n  if not inputIndex[index] then\r\n    self.createInput(input_parameters)\r\n    inputIndex[index] = #self.getInputs() - 1\r\n  else\r\n    input_parameters.index = inputIndex[index]\r\n    self.editInput(input_parameters)\r\n  end\r\nend\r\nfunction createButton(index, label, position, overrides)\r\n  local button_parameters = {}\r\n  button_parameters.click_function = 'nilFunction'\r\n  button_parameters.function_owner = self\r\n  button_parameters.label = label\r\n  button_parameters.position = position\r\n  button_parameters.rotation = {0,0,0}\r\n  button_parameters.scale = {0.5,0.5,0.5}\r\n  button_parameters.width = 0\r\n  button_parameters.height = 0\r\n  button_parameters.font_size = 400\r\n  button_parameters.color = {1,1,1,1}\r\n  button_parameters.font_color = {1,1,1,1}\r\n  button_parameters.tooltip = \"\"\r\n  button_parameters.alignment = 3\r\n\r\n  if overrides ~= nil then\r\n    for k,v in pairs(overrides) do\r\n      button_parameters[k] = v\r\n    end\r\n  end\r\n\r\n  if not buttonIndex[index] then\r\n    self.createButton(button_parameters)\r\n    buttonIndex[index] = #self.getButtons() - 1\r\n  else\r\n    button_parameters.index = buttonIndex[index]\r\n    self.editButton(button_parameters)\r\n  end\r\nend\r\nfunction editInput(index, update)\r\n  if not inputIndex[index] then\r\n    print(\"[ff0000]<Error>[ffffff] Can't edit input - [\" .. index .. \"]\")\r\n  end\r\n\r\n  update.index = inputIndex[index]\r\n  self.editInput(update)\r\n\r\n  if dev then\r\n    print(\"[ffFF00]<LOG>[ffffff] Edited - [\" .. index .. \"]\")\r\n    for k,v in pairs(self.getInputs()[update.index+1]) do\r\n      if type(v) ~= \"table\" and v ~= self then\r\n        --print(\"     \" .. k .. \" - \" .. v)\r\n      end\r\n    end\r\n  end\r\nend\r\nfunction editButton(index, update)\r\n  if not buttonIndex[index] then\r\n    print(\"[ff0000]<Error>[ffffff] Can't edit button [\" .. index .. \"]\")\r\n  end\r\n  update.index = buttonIndex[index]\r\n  self.editButton(update)\r\nend\r\n\r\nfunction getInputValue(index)\r\n  if not inputIndex[index] then\r\n    print(\"[ff0000]<Error>[ffffff] Can't edit input - [\" .. index .. \"]\")\r\n  end\r\n  local value = self.getInputs()[inputIndex[index]+1].value\r\n  if value == \"\" or value == nil then\r\n    value = 0\r\n  end\r\n  return value\r\nend\r\n\r\n\r\n-- Misc Functions\r\nfunction dynamicFunction(funcName, func)\r\n  self.setVar(funcName, func)\r\n  return funcName\r\nend\r\nfunction table.clone(orig)\r\n  local orig_type = type(orig)\r\n  local copy = nil\r\n  if orig_type == 'table' then\r\n    copy = {}\r\n    for orig_key, orig_value in next, orig, nil do\r\n      copy[table.clone(orig_key)] = table.clone(orig_value)\r\n    end\r\n    setmetatable(copy, table.clone(getmetatable(orig)))\r\n  else -- number, string, boolean, etc\r\n    copy = orig\r\n  end\r\n  return copy\r\nend\r\nfunction roundValue(val)\r\n  local tempVal = val * 10000\r\n  tempVal = math.floor(tempVal + 0.1)\r\n  tempVal = tempVal/10000\r\n  if math.abs(tempVal) < 0.00001 then\r\n    tempVal = 0\r\n  end\r\n  return tempVal\r\nend\r\nfunction nilFunction() return end",
+      "LuaScriptState": "",
+      "GUID": "ff707c",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": -1.70000148,
+            "y": 0.136003062,
+            "z": 1.10000062
+          },
+          "Rotation": {
+            "x": -4.99081068E-07,
+            "y": 3.59706279E-16,
+            "z": -8.259039E-08
+          }
+        },
+        {
+          "Position": {
+            "x": -4.700001,
+            "y": 0.136003,
+            "z": 1.10000038
+          },
+          "Rotation": {
+            "x": 2.80811577E-07,
+            "y": -1.78779623E-15,
+            "z": -7.29550948E-07
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 3.02679837E-06,
+        "posY": 1.00999761,
+        "posZ": -6.99999952,
+        "rotX": -7.22356731E-07,
+        "rotY": 179.9806,
+        "rotZ": 7.677543E-06,
+        "scaleX": 0.248571083,
+        "scaleY": 1.0,
+        "scaleZ": 0.248571083
+      },
+      "Nickname": "",
+      "Description": "www.paypal.me/GiantDwarf01\n------------------------------------\nIf you'd like to support the creator of this mod, maybe buy me a coffee or pizza or something - From the bottom of a poor college student's heart, I thank you!\n\nOtherwise, I hope you keep enjoying the mod!",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cdn.edgecast.steamstatic.com/steamcommunity/public/images/avatars/d3/d33b892144154e0f9930ebd3d39b49f751d47d2c_full.jpg",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "37c737"
+    }
+  ],
+  "DecalPallet": [],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": "v9.9"
+}

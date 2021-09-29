@@ -1,0 +1,360 @@
+{
+  "SaveName": "Templated Notebook Statblocks",
+  "GameMode": "Sandbox",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "9/11/2016 2:55:21 PM",
+  "Table": "Table_RPG",
+  "Sky": "Sky_Museum",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "",
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -15.1107731,
+          "posY": 4.81034231,
+          "posZ": -20.1076221,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 11.771986,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -30.2150211,
+          "posY": 4.81034231,
+          "posZ": 10.17524,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6554251,
+          "scaleY": 9.174497,
+          "scaleZ": 4.919951
+        }
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 30.2511711,
+          "posY": 4.81034231,
+          "posZ": 9.59069252,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6554193,
+          "scaleY": 9.174497,
+          "scaleZ": 4.919951
+        }
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 15.4749184,
+          "posY": 4.81034231,
+          "posZ": 19.8365288,
+          "rotX": 0.0,
+          "rotY": 179.8,
+          "rotZ": 0.0,
+          "scaleX": 11.7719727,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87123775
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 15.1961212,
+          "posY": 4.81034231,
+          "posZ": -20.1400986,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 11.7719679,
+          "scaleY": 9.17449951,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": -15.1927719,
+          "posY": 4.81034231,
+          "posZ": 19.787817,
+          "rotX": 0.0,
+          "rotY": 180.000031,
+          "rotZ": 0.0,
+          "scaleX": 11.7719679,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 30.1035728,
+          "posY": 4.81034231,
+          "posZ": -8.449126,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6554174,
+          "scaleY": 9.174497,
+          "scaleZ": 4.919951
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -30.247818,
+          "posY": 4.81034231,
+          "posZ": -8.822588,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 11.65543,
+          "scaleY": 9.174497,
+          "scaleZ": 4.919951
+        }
+      }
+    ]
+  },
+  "VectorLines": [],
+  "ObjectStates": [
+    {
+      "Name": "Checker_red",
+      "Transform": {
+        "posX": 12.336688,
+        "posY": 0.9599998,
+        "posZ": 1.7836287,
+        "rotX": 7.745816E-08,
+        "rotY": 179.978485,
+        "rotZ": 3.65133047E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Scribe",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.24999994,
+        "g": 0.24999994,
+        "b": 0.24999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "function onload()\n\n\t--[add Scribe button]--\n\tlocal buttonParams = {\n\t\tclick_function = 'scribe',\n\t\tfunction_owner = self,\n\t\tlabel = 'SCRIBE',\n\t\tposition = {0, 0.25, 1.1},\n\t\twidth = 500,\n\t\theight = 250\n\t}\n\n\tself.createButton( buttonParams )\n\n\t--[ default to Black]--\n\tonPickedUp(Player.Black.color)\nend\n\nfunction setCurrentColor( color )\n\tself.setVar('currentColor', color)\nend\n\nfunction getCurrentColor()\n\treturn self.getVar('currentColor')\nend\n\nfunction setCurrentNotecardGUID( notecard_guid )\n\tself.setVar('notecard_guid', notecard_guid)\nend\n\nfunction getCurrentNotecard()\n\tlocal notecard_guid = self.getVar('notecard_guid')\n\tif notecard_guid == nil then\n\t\treturn nil\n\telse\n\t\treturn getObjectFromGUID( notecard_guid )\n\tend\nend\n\nfunction onPickedUp(player_color)\n\tsetCurrentColor(player_color)\n\n\tself.setColorTint(stringColorToRGB(getCurrentColor()))\nend\n\nfunction onCollisionEnter(collision_info)\n\tlocal obj = collision_info.collision_object\n\tif obj.tag == 'Notecard' then\n\t\tsetCurrentNotecardGUID( obj.guid )\n\telse\n\t\tsetCurrentNotecardGUID( nil )\n\tend\nend\n\nfunction getCharacterSheetTemplateTab()\n\tfor i,tab in pairs( getNotebookTabs() ) do\n\t\tif isTemplateDef( tab.title ) then\n\t\t\treturn tab\n\t\tend\n\tend\n\tprint('warning: no template found')\n\treturn nil\nend\n\nfunction getPlayerCharacterNotebookTab()\n\tfor i,tab in pairs( getNotebookTabs() ) do\n\t\t\tif tab.color == getCurrentColor() and isCharacterDef(tab.body) then\n\t\t\treturn tab\n\t\tend\n\tend\n\tprint('warning: no character found for ' .. getCurrentColor())\n\treturn nil\nend\n\nfunction scribe()\n\tlocal notecard = getCurrentNotecard()\n\tif notecard == nil then\n\t\tprint('warning: no notecard specified')\n\t\treturn\n\tend\n\n\tlocal characterTab = getPlayerCharacterNotebookTab()\n\tif characterTab == nil then\n\t\tprint('warning: no character tab for ' .. getCurrentColor())\n\t\treturn\n\tend\n\n\tlocal character = parseCharacter( characterTab )\n\tapplyCharacterDetails(character, notecard)\nend\n\n--[ Return true if the value is a Character definition ]--\nfunction isCharacterDef(str)\n\treturn str:find('#character')\nend\n\nfunction isTemplateDef(str)\n\treturn str == 'Template'\nend\n\n--[ Parse the given notebook tab into a character Table ]--\nfunction parseCharacter( notebookTab )\n\tif not isCharacterDef( notebookTab.body ) then\n\t\treturn nil\n\tend\n\n\tlocal character = {\n\t\ttype = 'Scribed Character',\n\t\tcolor = notebookTab.color,\n\t\tname = notebookTab.title\n\t}\n\n\tlines = getLines( notebookTab.body )\n\n\tfor i,line in pairs(lines) do\n\t\t--[parse attributes]--\n\t\tif isAttributeDef(line) then\n\t\t\tparsedAttribute = parseAttribute( line )\n\t\t\tfor k,v in pairs(parsedAttribute) do\n\t\t\t\tapply(character, k, v)\n\t\t\tend\n\t\tend\n\tend\n\n\treturn character\nend\n\n--[ Apply details listed in character to the notecard using our Template ]--\nfunction applyCharacterDetails( character, notecard )\n\tlocal owner = Player[character.color].steam_name\n\tnotecard.setName( character.name .. ' (' .. owner .. ')' )\n\n\tlocal templateTab = getCharacterSheetTemplateTab()\n\tif templateTab == nil then\n\t\tprint('warning: no template found')\n\t\treturn nil\n\tend\n\n\tlocal charvalue = templateTab.body\n\tnotecard.setDescription( charvalue )\n\n\tfor attribute,value in pairs(character) do\n\t\tcharvalue = charvalue:gsub(\"({\" .. attribute .. \"})\", value)\n\tend\n\n\tnotecard.setDescription( charvalue )\nend\n\n--[ Return table of Lines listed in the given param str ]--\nfunction getLines(str)\n\tlocal t = {}\n\tlocal function helper(line) table.insert(t, line) return \"\" end\n\thelper((str:gsub(\"(.-)\\r?\\n\", helper)))\n\treturn t\nend\n\n--[ Apply the given name/value combination to the table param obj ]--\nfunction apply(obj, name, value)\n\tobj[name] = value\nend\n\n--[ Return true if value represents an Attribute assignment ]--\nfunction isAttributeDef(str)\n\treturn str:find('=')\nend\n\n--[Parse str into a key/value table, assuming str is formatted as 'key=value' ]--\nfunction parseAttribute(str)\n\tlocal t = {}\n\n\tlocal function helper(name, value)\n\t\tapply(t, name, value)\n\t\treturn \"\"\n\tend\n\n\thelper((str:gsub(\"(.-)=(.*)\", helper)))\n\n\treturn t\nend",
+      "LuaScriptState": "",
+      "GUID": "17082a"
+    },
+    {
+      "Name": "Notecard",
+      "Transform": {
+        "posX": 7.226425,
+        "posY": 1.03,
+        "posZ": 0.8952634,
+        "rotX": -1.06541066E-07,
+        "rotY": 5.56229825E-05,
+        "rotZ": -6.165468E-09,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Sir Wolfe (White)",
+      "Description": "[b]Parry[/b] 6; [b]Toughness[/b] 6; [b]Pace[/b] 6\n[b]Agility[/b] d6; [b]Smarts[/b] d4; [b]Spirit[/b] d6\n[b]Strength[/b] d6; [b]Vigor[/b] d8\n[b]Fighting[/b] d8; [b]Shooting[/b] d4; [b]Stealth[/b] d6\n\n[b]Edges:[/b] Two-Fisted, Ambidextrous\n[b]Hindrances:[/b] Quirk(silly), Loyal, Code of Honor\n",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "151c76"
+    }
+  ],
+  "TabStates": {
+    "0": {
+      "title": "Template",
+      "body": "[b]Parry[/b] {parry}; [b]Toughness[/b] {toughness}; [b]Pace[/b] {pace}\n[b]Agility[/b] {agility}; [b]Smarts[/b] {smarts}; [b]Spirit[/b] {spirit}\n[b]Strength[/b] {strength}; [b]Vigor[/b] {vigor}\n{skills}\n\n[b]Edges:[/b] {edges}\n[b]Hindrances:[/b] {hindrances}\n",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "Sir Wolfe",
+      "body": "#character\nagility=d6\nsmarts=d4\nspirit=d6\nstrength=d6\nvigor=d8\n\npace=6\ntoughness=6\nparry=6\n\nskills=[b]Fighting[/b] d8; [b]Shooting[/b] d4; [b]Stealth[/b] d6\n\nedges=Two-Fisted, Ambidextrous\nhindrances=Quirk(silly), Loyal, Code of Honor",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Incomplete character",
+      "body": "#character\nstrength=d10",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "GMPC",
+      "body": "#character\nagility=d12\nsmarts=d12\nspirit=d12\nstrength=d12\nvigor=d12\n\npace=6\ntoughness=8\nparry=8\n\nskills=[b]Fighting[/b] d12; [b]Shooting[/b] d12; [b]Stealth[/b] d12\n\nedges=Unkillable, Omnipotent\nhindrances=Power Hungry",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": ""
+}

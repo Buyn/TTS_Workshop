@@ -1,0 +1,507 @@
+{
+  "SaveName": "Camera hover tool",
+  "GameMode": "Sandbox",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "4/10/2018 5:51:52 AM",
+  "Table": "Table_Octagon",
+  "Sky": "Sky_Regal",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "",
+  "LuaScript": "--[[ Lua code. See documentation: http://berserk-games.com/knowledgebase/scripting/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate ()\n    --[[ print('onUpdate loop!') --]]\nend",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -12.3078938,
+          "posY": 3.61168242,
+          "posZ": -12.446723,
+          "rotX": 0.0,
+          "rotY": 45.0000038,
+          "rotZ": 0.0,
+          "scaleX": 9.413998,
+          "scaleY": 8.96114,
+          "scaleZ": 5.465847
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -12.3997507,
+          "posY": 3.61168861,
+          "posZ": 12.1996946,
+          "rotX": 0.0,
+          "rotY": 135.000015,
+          "rotZ": 0.0,
+          "scaleX": 9.414984,
+          "scaleY": 8.96114,
+          "scaleZ": 5.466427
+        }
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 17.3902683,
+          "posY": 3.61168432,
+          "posZ": 0.044939518,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 9.415508,
+          "scaleY": 8.96114,
+          "scaleZ": 5.46662
+        }
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 12.36914,
+          "posY": 3.61168242,
+          "posZ": 12.2303095,
+          "rotX": 0.0,
+          "rotY": 224.999985,
+          "rotZ": 0.0,
+          "scaleX": 9.414892,
+          "scaleY": 8.96114,
+          "scaleZ": 5.46636772
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 4.76837158E-06,
+          "posY": 3.61168432,
+          "posZ": -17.3453884,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 9.414002,
+          "scaleY": 8.96114,
+          "scaleZ": 5.46584272
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": 9.536743E-07,
+          "posY": 3.6116786,
+          "posZ": 17.1985073,
+          "rotX": 0.0,
+          "rotY": 179.8,
+          "rotZ": 0.0,
+          "scaleX": 9.415332,
+          "scaleY": 8.96114,
+          "scaleZ": 5.46711349
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 12.3691339,
+          "posY": 3.61168432,
+          "posZ": -12.1405659,
+          "rotX": 0.0,
+          "rotY": 315.0,
+          "rotZ": 0.0,
+          "scaleX": 9.414021,
+          "scaleY": 8.96114,
+          "scaleZ": 5.46587658
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -17.4208851,
+          "posY": 3.61168575,
+          "posZ": -0.16938591,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 9.415398,
+          "scaleY": 8.96114,
+          "scaleZ": 5.466541
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "VectorLines": [],
+  "ObjectStates": [
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 0.0509344265,
+        "posY": 1.06000054,
+        "posZ": 0.4493389,
+        "rotX": 6.40950066E-06,
+        "rotY": 179.969208,
+        "rotZ": 4.80352071E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "See tooltips to see what values and buttons do",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://cdn.shopify.com/s/files/1/0185/5092/products/objects-0022.png?v=1369543741",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 21.222229,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "local triggerIndex = 1 -- Which scripting button will trigger zoom-in\r\nlocal zoomAmount = 5\r\nlocal pitchAngle = 80\r\nlocal rotate = false\r\nlocal targetGUID = \"000000\"\r\nlocal lockedTargetGUID = \"none\"\r\n\r\nfunction onLoad(save_state)\r\n    self.createInput({\r\n        function_owner = self,\r\n        input_function = \"setShortcutKey\",\r\n        label = \"Shortcut Key\",\r\n        tooltip = \"Shortcut Key\\n(number only)\",\r\n        value = 1,\r\n        position = {0.1, 0.1, 0.3},\r\n        scale = {0.5, 0.5, 0.5},\r\n        width = 800,\r\n        height = 700,\r\n        font_size = 600,\r\n        alignment = 3\r\n    })\r\n\r\n    self.createInput({\r\n        function_owner = self,\r\n        input_function = \"setPitchAngle\",\r\n        label = \"Pitch\",\r\n        tooltip = \"Pitch angle\\n(the higher, the more top-down the angle. Up to 90)\",\r\n        value = 80,\r\n        position = {-0.5, 0.1, -0.8},\r\n        scale = {0.5, 0.5, 0.5},\r\n        width = 800,\r\n        height = 700,\r\n        font_size = 600,\r\n        alignment = 3,\r\n        validation = 3\r\n    })\r\n\r\n    self.createInput({\r\n        function_owner = self,\r\n        input_function = \"setZoom\",\r\n        label = \"Zoom\",\r\n        tooltip = \"Zoom amount\\n(the higher, the further away from the object)\",\r\n        value = 5,\r\n        position = {0.9, 0.1, -0.8},\r\n        scale = {0.5, 0.5, 0.5},\r\n        width = 800,\r\n        height = 700,\r\n        font_size = 600,\r\n        alignment = 3,\r\n        validation = 3\r\n    })\r\n\r\n    self.createButton({\r\n        click_function = \"toggleRotate\",\r\n        function_owner = self,\r\n        label = \"↑\",\r\n        position = {1.4, 0.1, 0.6},\r\n        scale = {0.5, 0.5, 0.5},\r\n        width = 500,\r\n        height = 1000,\r\n        font_size = 800,\r\n        --color = {0.1311, 0.8554, 0.1117, 1},\r\n        tooltip = \"Click to turn camera rotation on/off\"\r\n    })\r\n\r\n    self.createInput({\r\n        input_function = \"typeGUID\",\r\n        function_owner = self,\r\n        label = \"GUID\",\r\n        tooltip = \"Enter the GUID of the object or drop on top of object to get its GUID\",\r\n        position = {-2.3, 0.1, 0.4},\r\n        rotation = {0, 90, 0},\r\n        scale = {0.5, 0.5, 0.5},\r\n        width = 1350,\r\n        height = 500,\r\n        font_size = 400,\r\n        alignment = 3,\r\n        validation = 4\r\n    })\r\n\r\n    self.createButton({\r\n        click_function = \"lockGUID\",\r\n        function_owner = self,\r\n        label = \"↲\",\r\n        tooltip = \"Make camera hover that object, instead of what's under your mouse\",\r\n        position = {-2.3, 0.1, 1.4},\r\n        rotation = {0, 90, 0},\r\n        scale = {0.5, 0.5, 0.5},\r\n        width = 400,\r\n        height = 500,\r\n        font_size = 400,\r\n        alignment = 3\r\n    })\r\nend\r\n\r\nfunction typeGUID(obj, color, guid)\r\n    targetGUID = guid\r\nend\r\n\r\nfunction setShortcutKey(obj, player, value)\r\n    triggerIndex = tonumber(value)\r\nend\r\n\r\nfunction setPitchAngle(obj, player, value)\r\n    pitchAngle = tonumber(value)\r\nend\r\n\r\nfunction setZoom(obj, player, value)\r\n    zoomAmount = tonumber(value)\r\nend\r\n\r\nfunction toggleRotate(obj, player)\r\n    if rotate then\r\n        self.editButton({\r\n            index = 0,\r\n            label = \"↑\"\r\n            --color = {0.8549, 0.1098, 0.1098, 1}\r\n        })\r\n        rotate = false\r\n    else\r\n        self.editButton({\r\n            index = 0,\r\n            label = \"↓\"\r\n            --color = {0.1311, 0.8554, 0.1117, 1}\r\n        })\r\n        rotate = true\r\n    end\r\nend\r\n\r\nfunction onScriptingButtonDown(pressedIndex, playerColor)\r\n    if playerColor == 'Grey' or pressedIndex ~= triggerIndex then\r\n        return -- Return if invalid player or wrong button clicked\r\n    end\r\n\r\n    local obj\r\n    if lockedTargetGUID == \"none\" then --if not aiming at an object\r\n        obj = Player[playerColor].getHoverObject()\r\n    else\r\n        obj = getObjectFromGUID(lockedTargetGUID)\r\n    end\r\n    if not obj then-- Return if no hover object\r\n        return\r\n    end\r\n\r\n    if rotate then\r\n        Player[playerColor].lookAt({-- Focus camera on the hover object\r\n            position = obj.getPosition(),\r\n            yaw = obj.getRotation().y + 180,\r\n            pitch = pitchAngle,\r\n            distance = zoomAmount\r\n        })\r\n    else\r\n        Player[playerColor].lookAt({-- Focus camera on the hover object\r\n            position = obj.getPosition(),\r\n            pitch = pitchAngle,\r\n            yaw = obj.getRotation().y,\r\n            distance = zoomAmount\r\n        })\r\n    end\r\nend\r\n\r\nfunction lockGUID(obj, color)\r\n    --check that it's a GUID\r\n    if string.sub(targetGUID,-string.len('\\n')) ~= '\\n' then\r\n        local trueGUID = string.sub(targetGUID,0,6)\r\n        if getObjectFromGUID(trueGUID) ~= nil and getObjectFromGUID(trueGUID) ~= self then\r\n            self.editButton({\r\n                index = 1,\r\n                label = \"X\",\r\n                color = stringColorToRGB(\"Red\"),\r\n                click_function = \"clearTarget\",\r\n                tooltip = \"Click to go back to looking at what is under your mouse\"\r\n            })\r\n            self.createButton({\r\n                click_function = \"nothing\",\r\n                function_owner = self,\r\n                label = \"Locked\",\r\n                position = {-3, 0.1, 0.6},\r\n                rotation = {0, 90, 0},\r\n                scale = {0.5, 0.5, 0.5},\r\n                width = 0,\r\n                height = 500,\r\n                font_size = 600,\r\n                font_color = {1, 1, 1, 1},\r\n                alignment = 3\r\n            })\r\n            lockedTargetGUID = trueGUID\r\n        else\r\n            broadcastToColor(\"Error: This is not a valid GUID\", color, stringColorToRGB(\"Red\"))\r\n        end\r\n    end\r\nend\r\n\r\nfunction clearTarget(obj, color)\r\n    lockedTargetGUID = \"none\"\r\n    self.editButton({\r\n        index = 1,\r\n        click_function = \"lockGUID\",\r\n        label = \"↲\",\r\n        tooltip = \"Make camera hover that object, instead of what's under your mouse\",\r\n        color = stringColorToRGB(\"White\")\r\n    })\r\n    self.editInput({\r\n        index = 3,\r\n        value = \"\",\r\n    })\r\n    self.removeButton(2)\r\nend\r\n\r\nfunction onCollisionEnter(collision_info)\r\n    -- collision_info table:\r\n    --   collision_object    Object\r\n    --   contact_points      Table     {Vector, ...}\r\n    --   relative_velocity   Vector\r\n    if collision_info.collision_object == nil\r\n    or collision_info.collision_object == self\r\n    or collision_info.collision_object.getGUID() == nil\r\n    or collision_info.collision_object.tag == \"Surface\"\r\n    or objectLoaded\r\n    then\r\n        return\r\n    end\r\n    targetGUID = collision_info.collision_object.getGUID()\r\n    self.editInput({\r\n        index = 3,\r\n        value = targetGUID,\r\n    })\r\nend\r\n\r\nfunction nothing(obj, color)\r\n\r\nend\r\n",
+      "LuaScriptState": "",
+      "GUID": "81ed2d"
+    },
+    {
+      "Name": "Notecard",
+      "Transform": {
+        "posX": -0.21744287,
+        "posY": 1.03000021,
+        "posZ": 8.203481,
+        "rotX": 2.555868E-06,
+        "rotY": 0.00314868568,
+        "rotZ": -2.06433765E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "Text goes this way!",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "928a5d"
+    },
+    {
+      "Name": "Notecard",
+      "Transform": {
+        "posX": -7.93960047,
+        "posY": 1.03000009,
+        "posZ": 0.2350807,
+        "rotX": 1.65112158E-06,
+        "rotY": 269.858948,
+        "rotZ": 3.06259949E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "Text goes this way!",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "2a3f3b"
+    },
+    {
+      "Name": "Notecard",
+      "Transform": {
+        "posX": 8.55847,
+        "posY": 1.03,
+        "posZ": 3.50997734,
+        "rotX": 2.10640337E-06,
+        "rotY": 60.0313454,
+        "rotZ": -6.81942265E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "Text goes this way!",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "d913ca"
+    }
+  ],
+  "DecalPallet": [],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "CameraStates": [
+    null,
+    {
+      "Position": {
+        "x": -4.329248,
+        "y": -2.5,
+        "z": 3.00364614
+      },
+      "Rotation": {
+        "x": 65.0000153,
+        "y": 4.46236E-05,
+        "z": 0.0
+      },
+      "Distance": 20.1724911,
+      "Zoomed": false
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "VersionNumber": "v10.4"
+}

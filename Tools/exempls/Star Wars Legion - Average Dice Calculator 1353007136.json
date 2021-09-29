@@ -1,0 +1,309 @@
+{
+  "SaveName": "Star Wars Legion - Average Dice Calculator",
+  "GameMode": "SW:Legion Average Dice Calculator",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "4/8/2018 5:36:27 PM",
+  "Table": "Table_Square",
+  "Sky": "Sky_Tunnel",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "",
+  "LuaScript": "--[[ Lua code. See documentation: http://berserk-games.com/knowledgebase/scripting/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate ()\n    --[[ print('onUpdate loop!') --]]\nend",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 14.3801212,
+          "posY": 2.98323059,
+          "posZ": 0.141296387,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 9.393115,
+          "scaleY": 6.633936,
+          "scaleZ": 3.52239275
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 0.03270387,
+          "posY": 2.983223,
+          "posZ": -14.3706512,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 9.392744,
+          "scaleY": 6.633936,
+          "scaleZ": 3.52231336
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": 0.03270387,
+          "posY": 2.98321533,
+          "posZ": 14.2774963,
+          "rotX": 0.0,
+          "rotY": 180.0,
+          "rotZ": 0.0,
+          "scaleX": 9.39294,
+          "scaleY": 6.633936,
+          "scaleZ": 3.522383
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -14.2912292,
+          "posY": 2.98323059,
+          "posZ": -0.05830002,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 9.393115,
+          "scaleY": 6.633936,
+          "scaleZ": 3.52239275
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true
+  },
+  "VectorLines": [],
+  "ObjectStates": [
+    {
+      "Name": "Notecard",
+      "Transform": {
+        "posX": -0.136826813,
+        "posY": 1.03000116,
+        "posZ": 0.4817849,
+        "rotX": -8.74432757E-08,
+        "rotY": -0.000907471345,
+        "rotZ": -2.83408639E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Average Dice Calculator",
+      "Description": "White Dice = 0   Black Dice = 0  Red Dice = 0\nSurge Type: Blank\n\nThis is a calculator for checking the average results of a set of dice.\n\nUse the buttons below to add or remove die from the pool.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "function onLoad()\r\n  dicePool = {}\r\n  dicePool.white = 0\r\n  dicePool.black = 0\r\n  dicePool.red = 0\r\n\r\n  surgeType = 'Blank'\r\n\r\n  self.setName('Average Dice Calculator')\r\n  description = 'White Dice = ' .. dicePool.white .. '   Black Dice = ' .. dicePool.black .. '  Red Dice = ' .. dicePool.red\r\n  description = description .. '\\nSurge Type: ' .. surgeType\r\n  description = description .. '\\n\\nThis is a calculator for checking the average results of a set of dice.\\n\\nUse the buttons below to add or remove die from the pool.'\r\n  self.setDescription(description)\r\n\r\n  self.createButton({\r\n      click_function = \"addWhite\",\r\n      function_owner = self,\r\n      label = \"+\",\r\n      position = {0.45, 0, -0.55},\r\n      width = 50,\r\n      height = 50,\r\n      font_size = 50,\r\n      tooltip = \"Add White\",\r\n      color = {1, 1, 1},\r\n      font_color = {0, 0, 0}\r\n  })\r\n\r\n  self.createButton({\r\n      click_function = \"removeWhite\",\r\n      function_owner = self,\r\n      label = \"-\",\r\n      position = {0.35, 0, -0.55},\r\n      width = 50,\r\n      height = 50,\r\n      font_size = 50,\r\n      tooltip = \"Remove White\",\r\n      color = {1, 1, 1},\r\n      font_color = {0, 0, 0}\r\n  })\r\n\r\n  self.createButton({\r\n      click_function = \"addBlack\",\r\n      function_owner = self,\r\n      label = \"+\",\r\n      position = {0.05, 0, -0.55},\r\n      width = 50,\r\n      height = 50,\r\n      font_size = 50,\r\n      tooltip = \"Add Black\",\r\n      color = {0, 0, 0},\r\n      font_color = {1, 1, 1}\r\n  })\r\n\r\n  self.createButton({\r\n      click_function = \"removeBlack\",\r\n      function_owner = self,\r\n      label = \"-\",\r\n      position = {-0.05, 0, -0.55},\r\n      width = 50,\r\n      height = 50,\r\n      font_size = 50,\r\n      tooltip = \"Remove Black\",\r\n      color = {0, 0, 0},\r\n      font_color = {1, 1, 1}\r\n  })\r\n\r\n  self.createButton({\r\n      click_function = \"addRed\",\r\n      function_owner = self,\r\n      label = \"+\",\r\n      position = {-0.35, 0, -0.55},\r\n      width = 50,\r\n      height = 50,\r\n      font_size = 50,\r\n      tooltip = \"Add Red\",\r\n      color = {1, 0, 0},\r\n      font_color = {0, 0, 0}\r\n  })\r\n\r\n  self.createButton({\r\n      click_function = \"removeRed\",\r\n      function_owner = self,\r\n      label = \"-\",\r\n      position = {-0.45, 0, -0.55},\r\n      width = 50,\r\n      height = 50,\r\n      font_size = 50,\r\n      tooltip = \"Remove Red\",\r\n      color = {1, 0, 0},\r\n      font_color = {0, 0, 0}\r\n  })\r\n\r\n  self.createButton({\r\n      click_function = \"surgeTypeBlank\",\r\n      function_owner = self,\r\n      label = \"Blank\",\r\n      position = {0.2, 0, -0.65},\r\n      rotation = {0, 180, 0},\r\n      width = 100,\r\n      height = 50,\r\n      font_size = 35,\r\n      tooltip = \"Surge Blank\",\r\n      color = {1, 1, 1},\r\n      font_color = {0, 0, 0}\r\n  })\r\n\r\n  self.createButton({\r\n      click_function = \"surgeTypeHit\",\r\n      function_owner = self,\r\n      label = \"Hit\",\r\n      position = {0.0, 0, -0.65},\r\n      rotation = {0, 180, 0},\r\n      width = 100,\r\n      height = 50,\r\n      font_size = 35,\r\n      tooltip = \"Surge Hit\",\r\n      color = {1, 1, 1},\r\n      font_color = {0, 0, 0}\r\n  })\r\n\r\n  self.createButton({\r\n      click_function = \"surgeTypeCrit\",\r\n      function_owner = self,\r\n      label = \"Crit\",\r\n      position = {-0.2, 0, -0.65},\r\n      rotation = {0, 180, 0},\r\n      width = 100,\r\n      height = 50,\r\n      font_size = 35,\r\n      tooltip = \"Surge Crit\",\r\n      color = {1, 1, 1},\r\n      font_color = {0, 0, 0}\r\n  })\r\nend\r\n\r\nfunction updateCalculation()\r\n  results = {}\r\n  results.blank = 0\r\n  results.hit = 0\r\n  results.crit = 0\r\n  results.surge = 0\r\n\r\n  diceSides = 8\r\n  resultAttempts = 2000\r\n\r\n  whiteDice = {'crit', 'hit', 'blank', 'blank', 'blank', 'blank', 'blank', 'surge'}\r\n  blackDice = {'crit', 'hit', 'hit', 'hit', 'blank', 'blank', 'blank', 'surge'}\r\n  redDice = {'crit', 'hit', 'hit', 'hit', 'hit', 'hit', 'blank', 'surge'}\r\n\r\n  for i = 0, resultAttempts do\r\n    for x = 1, dicePool.red do\r\n      roll = redDice[math.random(diceSides)]\r\n      results[roll] = results[roll] + 1\r\n    end\r\n    for x = 1, dicePool.black do\r\n      roll = blackDice[math.random(diceSides)]\r\n      results[roll] = results[roll] + 1\r\n    end\r\n    for x = 1, dicePool.white do\r\n      roll = whiteDice[math.random(diceSides)]\r\n      results[roll] = results[roll] + 1\r\n    end\r\n  end\r\n\r\n  if surgeType == 'Hit' then\r\n    results['hit'] = results['hit'] + results['surge']\r\n  elseif surgeType == 'Crit' then\r\n    results['crit'] = results['crit'] + results['surge']\r\n  end\r\n\r\n\r\n  description = 'White Dice = ' .. dicePool.white .. '      Black Dice = ' .. dicePool.black .. '     Red Dice = ' .. dicePool.red\r\n  description = description .. '\\nSurge Type: ' .. surgeType\r\n  description = description .. '\\n\\nHits: ' .. results.hit / resultAttempts .. '\\nCrits: ' .. results.crit / resultAttempts\r\n  self.setDescription(description)\r\nend\r\n\r\nfunction addWhite()\r\n  dicePool.white = dicePool.white + 1\r\n  updateCalculation()\r\nend\r\n\r\nfunction removeWhite()\r\n  if dicePool.white > 0 then\r\n    dicePool.white = dicePool.white - 1\r\n  end\r\n  updateCalculation()\r\nend\r\n\r\nfunction addBlack()\r\n  dicePool.black = dicePool.black + 1\r\n  updateCalculation()\r\nend\r\n\r\nfunction removeBlack()\r\n  if dicePool.black > 0 then\r\n    dicePool.black = dicePool.black - 1\r\n  end\r\n  updateCalculation()\r\nend\r\n\r\nfunction addRed()\r\n  dicePool.red = dicePool.red + 1\r\n  updateCalculation()\r\nend\r\n\r\nfunction removeRed()\r\n  if dicePool.red > 0 then\r\n    dicePool.red = dicePool.red - 1\r\n  end\r\n  updateCalculation()\r\nend\r\n\r\nfunction surgeTypeBlank()\r\n  surgeType = 'Blank'\r\n  updateCalculation()\r\nend\r\n\r\nfunction surgeTypeHit()\r\n  surgeType = 'Hit'\r\n  updateCalculation()\r\nend\r\n\r\nfunction surgeTypeCrit()\r\n  surgeType = 'Crit'\r\n  updateCalculation()\r\nend",
+      "LuaScriptState": "",
+      "GUID": "avgDieRollGUID"
+    }
+  ],
+  "DecalPallet": [],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": "v10.4"
+}

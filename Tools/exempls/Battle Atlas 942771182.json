@@ -1,0 +1,467 @@
+{
+  "SaveName": "Battle Atlas",
+  "GameMode": "BattleAtlas",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "6/10/2017 1:51:36 PM",
+  "Table": "Table_Custom",
+  "TableURL": "https://sites.google.com/site/rolesystemssky/base_wood_sq.jpg",
+  "Sky": "Sky_Forest",
+  "SkyURL": "http://i.imgur.com/VXyWILk.jpg",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "",
+  "LuaScript": "--[[Global]]\r\n",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 0.5,
+    "ySize": 0.5,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 23.6700039,
+          "posY": 3.29337883,
+          "posZ": 34.4527626,
+          "rotX": 0.0,
+          "rotY": 179.8,
+          "rotZ": 0.0,
+          "scaleX": 15.3268776,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014629
+        }
+      },
+      {
+        "Color": "Brown",
+        "Transform": {
+          "posX": 0.0,
+          "posY": 3.29337883,
+          "posZ": -34.42515,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 15.3268919,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014534
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": -23.6700039,
+          "posY": 3.29337883,
+          "posZ": 34.43159,
+          "rotX": 0.0,
+          "rotY": 180.0002,
+          "rotZ": 0.0,
+          "scaleX": 15.3268747,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014534
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -51.6596222,
+          "posY": 3.29337883,
+          "posZ": -11.7324,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 15.1940165,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.40567875
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 51.64263,
+          "posY": 3.29337883,
+          "posZ": -11.7324,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 15.1939974,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.40567875
+        }
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 51.5785675,
+          "posY": 3.29337883,
+          "posZ": 11.7324,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 15.1940022,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.40567875
+        }
+      },
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -23.6700039,
+          "posY": 3.29337883,
+          "posZ": -34.42515,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 15.3268948,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014534
+        }
+      },
+      {
+        "Color": "Teal",
+        "Transform": {
+          "posX": 0.0,
+          "posY": 3.29337883,
+          "posZ": 34.4527626,
+          "rotX": 0.0,
+          "rotY": 179.800049,
+          "rotZ": 0.0,
+          "scaleX": 15.32688,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014629
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 23.6700039,
+          "posY": 3.29337883,
+          "posZ": -34.2558136,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 15.3268747,
+          "scaleY": 11.8970547,
+          "scaleZ": 6.705048
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -51.6596222,
+          "posY": 3.29337883,
+          "posZ": 11.7324,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 15.1940126,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.40567875
+        }
+      }
+    ]
+  },
+  "VectorLines": [],
+  "ObjectStates": [
+    {
+      "Name": "Tablet",
+      "Transform": {
+        "posX": 65.0,
+        "posY": -1.7,
+        "posZ": -3.87444743E-07,
+        "rotX": 15.0000105,
+        "rotY": 90.0,
+        "rotZ": 3.53556643E-05,
+        "scaleX": 2.199999,
+        "scaleY": 2.199999,
+        "scaleZ": 2.199999
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Tablet": {
+        "PageURL": "https://www.battleatlas.com/welcome"
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "dd6ce6"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 49.4314575,
+        "posY": 1.01121771,
+        "posZ": -0.0870448,
+        "rotX": -5.83784718E-08,
+        "rotY": 89.99752,
+        "rotZ": 9.770424E-08,
+        "scaleX": 2.85211778,
+        "scaleY": 1.0,
+        "scaleZ": 2.85211778
+      },
+      "Nickname": "v.170610a",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "CustomImage": {
+        "ImageURL": "https://www.battleatlas.com/cover-img?showtemplate=false&v=170610a&t=wl",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 25.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "--[[\r\nfunction onLoad()  iM0j = true  end\r\nfunction onDestroy()  onPickUp()  end\r\nfunction onPickUp()  lt = 1\r\n  if vI and getObjectFromGUID(Global.getVar(\"bAtL4tT\")) then\r\n    getObjectFromGUID(Global.getVar(\"bAtL4tT\")).setVar(vI, nil)  vI = nil\r\nend  end\r\nfunction onCollisionEnter(a)\r\n  if not getObjectFromGUID(Global.getVar(\"bAtL4tT\")) then  do return end  end\r\n  if a then  if a.collision_object.getVar(\"iM0j\") and vI then  do return end  end  end\r\n  if vI then  getObjectFromGUID(Global.getVar(\"bAtL4tT\")).setVar(vI, nil)  vI = nil  end\r\n  local p = self.getPosition()  self.setScale({1.383, 1, 1.383})\r\n  if math.abs(p[1]) < 44 and math.abs(p[3]) < 26 then\r\n    local u = 5.2  local x = math.modf((p[1]+44)/u)  local y = math.modf((p[3]+26)/u)  vI = string.char(x+65)..y\r\n    if getObjectFromGUID(Global.getVar(\"bAtL4tT\")).getVar(vI) then vI = nil else\r\n      local r = self.getRotation()  local s = self.getCustomObject().image  local d = string.find(s, \"&a=\")\r\n      r[2] = math.modf((r[2]+45)/90)  r[3] = math.modf((r[3]+90)/180)  self.setRotation({0, r[2]*90, r[3]*180})\r\n      if r[3] > 1 then r[3] = r[3]-2 end  if r[3] == 0 then  r[2] = r[2]+2  if r[2] > 3 then r[2] = r[2]-4 end  end\r\n      s = string.sub(s, d+3, d+6)..r[3]*4+r[2]\r\n      p[1] = x*u-(44-u/2.2)  p[3] = y*u-(26-u/2)  self.setPosition({p[1], 0.98, p[3]})\r\n      getObjectFromGUID(Global.getVar(\"bAtL4tT\")).setVar(vI, s)\r\n      if lt then lt = nil  getObjectFromGUID(Global.getVar(\"bAtL4tT\")).setVar(\"lt\", vI)  end\r\n    end\r\n  end\r\nend --EnD\r\nulk = 1\r\nfunction update()\r\n  if ulk then\r\n    if self.getLock() then  ulk = nil  self.clearButtons()\r\n      local btn = {}  btn.function_owner = self  btn.width = 1200  btn.height = 1200\r\n      btn.click_function = \"doIt\"  btn.position = {0, -0.05, 0}  self.createButton(btn)\r\n    end\r\n  end\r\nend\r\nfunction onPickUp() if not self.getLock() then  self.clearButtons()  ulk = 1  end end\r\nfunction doIt()\r\n  if not self.getLock() then  self.clearButtons()  ulk = 1  do return end  end\r\n  local l = self.getLuaScript()\r\n  local d = string.sub(l, string.find(l, string.char(45)..\"DatA\")+6)\r\n  l = string.sub(l, 1, string.find(l, string.char(45)..\"DatA\")+5)\r\n  if getObjectFromGUID(string.sub(d, 1, 6)) then local a = getObjectFromGUID(string.sub(d, 1, 6))\r\n    local p = a.getPosition()  local r = a.getRotation()\r\n    local s = a.getScale()  local c = a.getColorTint()  local u = 0\r\n    if a.getLock() then u = 1 end\r\n    d = \"xguidx@\"  d = d..p[1]..\"@\"..p[2]..\"@\"..p[3]..\"@\"\r\n    d = d..r[1]..\"@\"..r[2]..\"@\"..r[3]..\"@\"\r\n    d = d..s[1]..\"@\"..s[2]..\"@\"..s[3]..\"@\"\r\n    d = d..c[1]..\"@\"..c[2]..\"@\"..c[3]..\"@\"..u..\"@\"\r\n    self.setLuaScript(l..d)  a.destruct()\r\n  else\r\n    local i = self.getCustomObject().image  local p = {}  local v = {}\r\n    p.type = \"Custom_Token\"  p.position = {0, -1, 0}  p.callback_owner = self  p.callback = \"cbTile\"\r\n    local o = spawnObject(p)  v.thickness = 0.1  v.merge_distance = 25  v.image = i  o.setCustomObject(v)\r\n  end\r\nend\r\nfunction cbTile(a)\r\n  local n  local t = self.getPosition()\r\n  local l = self.getLuaScript()  local d = string.sub(l, string.find(l, string.char(45)..\"DatA\")+6)\r\n  l = string.sub(l, 1, string.find(l, string.char(45)..\"DatA\")+5)..a.guid..\"@\"  self.setLuaScript(l)\r\n  if string.len(d) < 8 then\r\n    a.setRotation(self.getRotation())  a.setPosition({t[1], 6, t[3]})  a.setPositionSmooth({t[1], 5.8, t[3]})\r\n  else t[1], d = doSnip(d)\r\n    t[1], d = doSnip(d)  t[2], d = doSnip(d)  t[3], d = doSnip(d)  a.setPosition({t[1], t[2], t[3]})\r\n    t[1], d = doSnip(d)  t[2], d = doSnip(d)  t[3], d = doSnip(d)  a.setRotation({t[1], t[2], t[3]})\r\n    t[1], d = doSnip(d)  t[2], d = doSnip(d)  t[3], d = doSnip(d)  a.setScale({t[1], t[2], t[3]})\r\n    t[1], d = doSnip(d)  t[2], d = doSnip(d)  t[3], d = doSnip(d)  a.setColorTint({t[1], t[2], t[3]})\r\n    n = doSnip(d)  if n == \"0\" then n = false else n = true end  a.setLock(n)\r\n  end\r\nend  function doSnip(a)  local n = string.find(a, \"@\")  return string.sub(a, 1, n-1), string.sub(a, n+1)  end\r\n\r\n--DatA@xguidx@\r\n--EnD2\r\n]]\r\n\r\nba = {}  tl = 0  nt = \"si000\"  sz = nil  cb = nil  cbc = 0  us = nil  usi = \"\"  lt = nil\r\nba[1] = {\"ar\",\"cl\",\"cm\",\"cr\",\"ct\",\"fr\",\"hf\",\"mr\",\"sw\",\"tc\",\"wl\"}\r\nba[2] = {22,14,56,18,47,25,23,12,16,29,50}  tsc = 11\r\n\r\nfunction onLoad()  doButtons()  xLoad()  cb = \"doBump\"  end\r\nfunction update()  if cb then self.call(cb) end  end\r\n\r\nfunction xLoad()\r\n  self.tooltip = false  local n = self.getDescription()  self.setDescription(\"\")\r\n  ts = tonumber(string.sub(n, 2))  rz = tonumber(string.sub(n, 1, 1))\r\n  if not rz then  rz = 3\r\n    broadcastToAll(\"Running Version: \"..self.getName(), {0.943, 0.745, 0.14})\r\n    broadcastToAll(\"www.battleatlas.com\", {0.943, 0.745, 0.14})\r\n  end\r\n  showRez()  Global.setVar(\"bAtL4tT\", self.guid)  local i\r\n  local s = self.getCustomObject().image  local n = string.find(s, \"&t=\")  s = string.sub(s, n+3, n+4)\r\n  if not ts then  for i = 1, tsc do  if s == ba[1][i] then  ts = i  break  end  end  end\r\nend\r\n\r\nfunction doButtons()\r\n  local btn = {}  local x, y  btn.function_owner = self  btn.width = 160  btn.height = 160\r\n  for x = 1, 5 do\r\n    btn.click_function = \"bS\"..5-x  btn.position = {-x*0.385-0.13, -0.05, -0.99}  self.createButton(btn)\r\n    btn.click_function = \"bS\"..4+x  btn.position = {x*0.388+0.13, -0.05, -0.99}  self.createButton(btn)\r\n  end\r\n  for x = 0, 4 do  for y = 0, 5 do\r\n    btn.click_function = \"bT\"..x*12+5-y  btn.position = {-y*0.375-0.19, -0.05, -0.44+x*0.376}  self.createButton(btn)\r\n    btn.click_function = \"bT\"..x*12+6+y  btn.position = {y*0.375+0.19, -0.05, -0.44+x*0.376}  self.createButton(btn)\r\n  end  end\r\n  btn.width = 300  btn.height = 300  btn.click_function = \"allTiles\"  btn.position = {0, -0.05, -0.99}  self.createButton(btn)\r\n  btn.width = 400  btn.height = 150  btn.rotation = {0, 90, 0}  btn.font_size = 90\r\n  btn.click_function = \"doStitch\"  btn.label = \"fuse\"  btn.position = {2.53, -0.04, -1}  self.createButton(btn)\r\n  btn.click_function = \"doKicker\"  btn.label = \"kicker\"  btn.position = {2.53, -0.04, -0.2}  self.createButton(btn)\r\n  btn.width = 240  btn.height = 135  btn.font_size = 110\r\n  btn.click_function = \"setRez\"  btn.label = \"\\u{00ab}\"..\"  \"..\"\\u{00bb}\"  btn.position = {2.54, -0.03, 1.22}  self.createButton(btn)\r\n  btn.width = 0  btn.height = 0  btn.font_size = 54  btn.rotation = {0, 0, 0}\r\n  btn.click_function = \"setRez\"  btn.label = \"\"  btn.position = {2.542, -0.05, 1.234}  self.createButton(btn)\r\nend\r\n\r\nfunction doBump()  cbc = cbc+1  if cbc < 88 then  do return end  end  cb = nil  cbc = 0\r\n  local t = {}  t = getAllObjects()  local ct = 1\r\n  while t[ct] do\r\n    if t[ct].getName() == \"bAtlS4TT\" then sz = t[ct].guid end\r\n    if t[ct].getVar(\"vI\") then t[ct].call(\"onCollisionEnter\")  end  ct = ct+1\r\n  end  if not sz then sz = \"\" end  onCollisionEnter()\r\nend\r\n\r\nfunction bS0() xS(-5) end  function bS1() xS(-4) end  function bS2() xS(-3) end  function bS3() xS(-2) end\r\nfunction bS4() xS(-1) end  function bS5() xS(1) end  function bS6() xS(2) end  function bS7() xS(3) end\r\nfunction bS8() xS(4) end  function bS9() xS(5) end\r\n\r\nfunction xS(a)\r\n  local i  local n = 0  local t = ts+a  local v = \"&v=\"..string.sub(self.getName(), 3)\r\n  if t < 1 then t = tsc+t elseif t > tsc then t = t-tsc end  ts = t\r\n  local sn = \"@Arid@Cave Lava@Cave Mine@Cave River@Cave Tunnels@Fort@Hellfire@Marsh@Snow@Tree City@Woodland@\"\r\n  for i = 1, t do  n = string.find(sn, \"@\", n+1)  end\r\n  broadcastToAll(\"TileSet - \"..string.sub(sn, n+1, string.find(sn, \"@\", n+1)-1), {0.943, 0.745, 0.14})\r\n  local w = {}  w.image = \"https://www.battleatlas.com/cover-img?showtemplate=false\"..v..\"&t=\"..ba[1][ts]\r\n  self.setDescription(rz..ts)  self.setCustomObject(w)  self.reload()\r\nend\r\n\r\nfunction bT0() xT(0) end  function bT1() xT(1) end  function bT2() xT(2) end  function bT3() xT(3) end  function bT4() xT(4) end\r\nfunction bT5() xT(5) end  function bT6() xT(6) end  function bT7() xT(7) end  function bT8() xT(8) end  function bT9() xT(9) end\r\nfunction bT10() xT(10) end  function bT11() xT(11) end  function bT12() xT(12) end  function bT13() xT(13) end  function bT14() xT(14) end\r\nfunction bT15() xT(15) end  function bT16() xT(16) end  function bT17() xT(17) end  function bT18() xT(18) end  function bT19() xT(19) end\r\nfunction bT20() xT(20) end  function bT21() xT(21) end  function bT22() xT(22) end  function bT23() xT(23) end  function bT24() xT(24) end\r\nfunction bT25() xT(25) end  function bT26() xT(26) end  function bT27() xT(27) end  function bT28() xT(28) end  function bT29() xT(29) end\r\nfunction bT30() xT(30) end  function bT31() xT(31) end  function bT32() xT(32) end  function bT33() xT(33) end  function bT34() xT(34) end\r\nfunction bT35() xT(35) end  function bT36() xT(36) end  function bT37() xT(37) end  function bT38() xT(38) end  function bT39() xT(39) end\r\nfunction bT40() xT(40) end  function bT41() xT(41) end  function bT42() xT(42) end  function bT43() xT(43) end  function bT44() xT(44) end\r\nfunction bT45() xT(45) end  function bT46() xT(46) end  function bT47() xT(47) end  function bT48() xT(48) end  function bT49() xT(49) end\r\nfunction bT50() xT(50) end  function bT51() xT(51) end  function bT52() xT(52) end  function bT53() xT(53) end  function bT54() xT(54) end\r\nfunction bT55() xT(55) end  function bT56() xT(56) end  function bT57() xT(57) end  function bT58() xT(58) end  function bT59() xT(59) end\r\n\r\nfunction xT(a)\r\n  if a < ba[2][ts] and cb != \"doBump\" then\r\n    tl = a  getTile(\"200&a=\"..ba[1][ts]..string.sub(\"0\"..tl, string.len(tl))..0)\r\n  end\r\nend\r\n\r\nfunction getTile(a)\r\n  local p = {}  local i = {}  local v = \"&v=\"..string.sub(self.getName(), 3)\r\n  p.type = \"Custom_Token\"  p.position = {0, -1, 0}  p.callback_owner = self  i.stackable = true\r\n  if cbc > 0 then p.callback = \"cbSTile\"\r\n    elseif not string.find(a, \"&c=\") then p.callback = \"cb1Tile\"\r\n    else  i.stackable = false  p.callback = \"cbXTile\"\r\n  end\r\n  local o = spawnObject(p)  i.thickness = 0.1  i.merge_distance = 25\r\n  i.image = \"https://www.battleatlas.com/stitch?showtemplate=false\"..v..\"&x=\"..a  o.setCustomObject(i)\r\nend\r\nfunction cbSTile(a)\r\n  local w = tonumber(string.sub(usi, 5, 5))  usi = string.sub(usi, 6)  local v = math.modf(w/4)*1  w = w+2-v*4\r\n  a.setScale({1.383, 1, 1.383})  a.setRotation({v*180, w*90, 0})  local n = cbc-1  local c = us\r\n  local x = math.modf((17-c)/2)  local r = (string.len(usi)/5+n)/c  local z = math.modf((10-r)/2)\r\n  x = 5.2 * (x - 8 + (n-math.modf(n/c)*c))  z = 5.2 * (z - 4.5 + math.modf(n/c))\r\n  a.setPosition({x, 2.2, -z})  a.setPositionSmooth({x, 2, -z})\r\n  a.use_grid = false  a.use_snap_points = false  cbc = cbc+0.5\r\n  local s = self.getLuaScript()  s = string.sub(s, 7, string.find(s, \"-EnD\")-3)  a.setLuaScript(s)\r\nend\r\nfunction cb1Tile(a)\r\n  local x, z = dropTile()  a.setScale({1.383, 1, 1.383})  a.setRotation({0, 90, 0})\r\n  a.setPosition({x, 2.2, z})  a.setPositionSmooth({x, 2, z})  a.use_grid = false  a.use_snap_points = false\r\n  local s = self.getLuaScript()  s = string.sub(s, 7, string.find(s, \"-EnD\")-3)  a.setLuaScript(s)\r\nend\r\nfunction cbXTile(a)\r\n  a.setScale({1, 1, 1})  a.setRotation({self.getRotation().x, self.getRotation().y+90, self.getRotation().z})\r\n  local x, z = getDZ()  a.setPosition({x, 6, z})  a.setPositionSmooth({x, 5.8, z})\r\n  if cbc == -2 then\r\n    a.setScale({0.35, 1, 0.35})  s = self.getLuaScript()  local n = string.find(s, \"-EnD\")+6\r\n    s = string.sub(s, n, string.find(s, \"-EnD2\", n)-4)  a.setLuaScript(s)  a.setLuaScript(s)\r\n    s = \"This Kicker will recall the position, rotation, scale, tint & lock status of its Stored Token.\"\r\n    a.setName(\"Lock this Token to Create a Button.\")  a.setDescription(s)\r\n  end  cbc = 0\r\nend\r\n\r\nfunction getRez(a)\r\n  local i, n  local s = {200, 300, 400, 800, 1600}\r\n  for i = 1, rz do  if a*s[i] <= 3400 then n = s[i] end  end\r\n  broadcastToAll(\"Fusing Tiles at \"..n..\" Resolution...\", {0.943, 0.745, 0.14})  return n\r\nend\r\nfunction showRez()\r\n  local r = {\"\\u{2776}\",\"\\u{2777}\",\"\\u{2778}\",\"\\u{2779}\",\"\\u{277a}\"}\r\n  local btn = {}  btn.function_owner = self  btn.index = 74  btn.label = r[rz]  self.editButton(btn)\r\nend\r\nfunction setRez(d, c)\r\n  local s = {\"Lowest\", \"Low\", \"Medium\", \"High\", \"Highest\"}\r\n  local x = Player[c].getPointerPosition().x - self.getPosition().x\r\n  local z = Player[c].getPointerPosition().z - self.getPosition().z\r\n  local n = math.sqrt(x^2 + z^2)  local d = math.deg(math.atan(x/z))\r\n  if z < 0 then d = 180+d elseif x < 0 then d = 360+d end\r\n  d = d + 90 - self.getRotation().y  x = math.sin(math.rad(d)) * n\r\n  if x/self.getScale().x > 1.22 then rz = rz-1  if rz < 1 then rz = 1 end\r\n    else rz = rz+1  if rz > 5 then rz = 5 end\r\n  end  showRez()  broadcastToAll(\"Set Resolution: \"..s[rz], {0.7, 0.7, 0.7})\r\nend\r\n\r\nfunction doStitch(d, c)  if us then unStitch() else  cbc = -1  doKicker(1, c)  end  end\r\nfunction doKicker(d, c)\r\n  local x, y, s, f, u  local t = 17  local b = -1  local l = 10  local r = -1\r\n  for y = 9, 0,-1 do  for x = 0, 16 do  s = string.char(x+65)..y\r\n    if self.getVar(s) then  f = \"\"  u = \"\"\r\n      if x < t then t = x end  if x > b then b = x end  if y < l then l = y end  if y > r then r = y end\r\n    end\r\n  end  end  if not f then  noSew()  do return end  end\r\n  for y = r, l,-1 do  for x = t, b do  s = string.char(x+65)..y\r\n    if not self.getVar(s) then s=\"nt\" end\r\n    f = f..u..self.getVar(s)  u = \"_\"\r\n  end  end\r\n  f = f..\"&c=\"..(b-t+1)  x = (r-l+1)  if (b-t+1) > x then x = (b-t+1)  end\r\n  x = getRez(x)  if cbc != -1 then cbc = -2 end  getTile(x..\"&a=\"..f)\r\nend  function noSew()  broadcastToAll(\"No Tiles Found...\", {0.943, 0.745, 0.14})  end\r\n\r\nfunction allTiles()  if cb then do return end  end\r\n  us = math.modf(math.sqrt(ba[2][ts])+1)  local i\r\n  for i = 0, ba[2][ts]-1 do  usi = usi..ba[1][ts]..string.sub(\"0\"..i, string.len(i))..0  end\r\n  cbc = 0.5  cb = \"nxTile\"\r\nend\r\nfunction unStitch()\r\n  local o = getObjectFromGUID(us)  onObjectLeaveScriptingZone(getObjectFromGUID(sz))\r\n  local c  usi = o.getCustomObject().image  usi = string.gsub(usi, \"_\", \"\")  o.destruct()\r\n  local n = string.find(usi, \"&a=\")  local m = string.find(usi, \"&c=\")  us = string.sub(usi, m+3)\r\n  usi = string.sub(usi, n+3, m-1)  cbc = 0.5  cb = \"nxTile\"\r\nend\r\nfunction nxTile()  if cbc == math.modf(cbc) then do return end  end\r\n  while string.sub(usi, 1, 5) == nt do  usi = string.sub(usi, 6)  cbc = cbc+1  end\r\n  if usi == \"\" then  cb = nil  us = nil  cbc = 0  else\r\n    cbc = cbc + 0.5  getTile(\"200&a=\"..string.sub(usi, 1, 4)..0)\r\n  end\r\nend\r\n\r\nfunction onCollisionEnter()  if not sz then  do return end  end\r\n  local a = getObjectFromGUID(sz)\r\n  if not a then  local p = {}\r\n    p.type = \"ScriptingTrigger\"  p.callback_owner = self  p.callback = \"cbSZone\"  spawnObject(p)\r\n  else  cbSZone(a)  end\r\nend\r\nfunction cbSZone(a)  sz = a.guid\r\n  a.setPosition(self.getPosition())  a.setRotation(self.getRotation())\r\n  a.setName(\"bAtlS4TT\")  local s = self.getScale()  a.setScale({s[1]*7, 1.5, s[3]*2.5})\r\nend\r\n\r\nfunction onObjectEnterScriptingZone(z, o)\r\n  if z.guid == sz and o.name == \"Custom_Token\" then\r\n    local i = o.getCustomObject().image\r\n    if string.find(i, \"battleatlas.com\") then\r\n      local n = string.find(i, \"&a=\")  local m = string.find(i, \"&c=\")\r\n      if not n or not m then  do return end  end\r\n      if string.len(string.sub(i, n+3, m-1)) > 5 then  us = o.guid\r\n        local b = {}  b.label = \"slice\"  b.index = 71  self.editButton(b)\r\n  end  end  end  end\r\nfunction onObjectLeaveScriptingZone(z)\r\n  if z.guid == sz then  local b = {}  b.label = \"fuse\"  b.index = 71  self.editButton(b)  us = nil  end\r\nend  function onObjectDestroyed(o)  if o.guid == us then onObjectLeaveScriptingZone(getObjectFromGUID(sz)) end  end\r\n\r\nfunction getDZ(a)\r\n  local d = self.getRotation().y + 90  local n = 3 * (self.getScale().x + 1 )\r\n  local x = math.sin(math.rad(d)) * n  local z = self.getPosition().z - (x / math.tan(math.rad(d)))\r\n  return self.getPosition().x - x, z\r\nend\r\nfunction dropTile()  if not lt then return getDZ() end\r\n  local d = self.getRotation().y+270  local i, v, w\r\n  local x = string.byte(string.sub(lt, 1, 1))-65  local z = tonumber(string.sub(lt, 2, 2))\r\n  for i = 0, 7 do\r\n    v = math.sin(math.rad(d+i*45)) * 1.4  w = do101(v / math.tan(math.rad(d+i*45)))  v = do101(v)\r\n    if x+v > -1 and x+v < 18 and z+w > -1 and z+w < 10 then\r\n      if not self.getVar(string.char(x+v+65)..z+w) then\r\n        local n = (x+v-8)*5.2  local m = (z+w-4.5)*5.2\r\n        if i == 7 then\r\n          v = math.sin(math.rad(d+8*45)) * 1.4  w = do101(v / math.tan(math.rad(d+8*45)))  v = do101(v)\r\n          if x+v > -1 and x+v < 18 and z+w > -1 and z+w < 10 then lt = string.char(x+v+65)..z+w end\r\n        end  return n, m\r\n      end\r\n    end\r\n  end  return getDZ()\r\nend  function do101(a)  if math.abs(a) > 0.5 then return(a/math.abs(a)) else return(0) end  end\r\n\r\nfunction onDestroy()  local a = getObjectFromGUID(sz)  if a then a.destruct() end  end\r\n\r\n\r\n--tt\r\n",
+      "LuaScriptState": "",
+      "GUID": "ab24bf"
+    },
+    {
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 49.4314575,
+        "posY": 1.01121771,
+        "posZ": -0.0870448,
+        "rotX": -5.83784718E-08,
+        "rotY": 89.99752,
+        "rotZ": 9.770424E-08,
+        "scaleX": 19.9648247,
+        "scaleY": 1.5,
+        "scaleZ": 7.13029432
+      },
+      "Nickname": "bAtlS4TT",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "7f118f"
+    }
+  ],
+  "DecalPallet": [],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": ""
+}

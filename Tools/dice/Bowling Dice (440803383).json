@@ -1,0 +1,1736 @@
+{
+  "SaveName": "Bowling Dice",
+  "GameMode": "None",
+  "Date": "5/27/2015 8:37:44 PM",
+  "Table": "Table_RPG",
+  "Sky": "Sky_Downtown",
+  "Note": "",
+  "Rules": "",
+  "PlayerTurn": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Snapping": false,
+    "Offset": false,
+    "xSize": 2.0,
+    "ySize": 2.0
+  },
+  "DrawImage": "iVBORw0KGgoAAAANSUhEUgAAAWAAAADQCAYAAAA53LuNAAAFFElEQVR4Ae3QgQAAAADDoPlTH+SFUGHAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgy8DQx5DAABHyNK3wAAAABJRU5ErkJggg==",
+  "ObjectStates": [
+    {
+      "Name": "Notecard",
+      "Transform": {
+        "posX": -0.202659816,
+        "posY": 1.01358461,
+        "posZ": 7.697123,
+        "rotX": 0.06047178,
+        "rotY": 1.31134307,
+        "rotZ": 0.00644313358,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Player Name:",
+      "Description": "Frame 1 - \nFrame 2 - \nFrame 3 - \nFrame 4 - \nFrame 5 - \nFrame 6 - \nFrame 7 - \nFrame 8 - \nFrame 9 - \nFrame 10 - ",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": "f92ba2"
+    },
+    {
+      "Name": "Notecard",
+      "Transform": {
+        "posX": -0.562317,
+        "posY": 1.14606011,
+        "posZ": 7.79367542,
+        "rotX": 0.061175283,
+        "rotY": 357.736084,
+        "rotZ": 359.9378,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Player Name:",
+      "Description": "Frame 1 - \nFrame 2 - \nFrame 3 - \nFrame 4 - \nFrame 5 - \nFrame 6 - \nFrame 7 - \nFrame 8 - \nFrame 9 - \nFrame 10 - ",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": "3cf4f1"
+    },
+    {
+      "Name": "Notecard",
+      "Transform": {
+        "posX": -0.1971882,
+        "posY": 1.5447464,
+        "posZ": 7.852148,
+        "rotX": 0.117525816,
+        "rotY": 1.35269666,
+        "rotZ": 359.897461,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Player Name:",
+      "Description": "Frame 1 - \nFrame 2 - \nFrame 3 - \nFrame 4 - \nFrame 5 - \nFrame 6 - \nFrame 7 - \nFrame 8 - \nFrame 9 - \nFrame 10 - ",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": "ec1189"
+    },
+    {
+      "Name": "Notecard",
+      "Transform": {
+        "posX": -0.0802091956,
+        "posY": 1.27822447,
+        "posZ": 7.57141542,
+        "rotX": 0.09726869,
+        "rotY": 3.027852,
+        "rotZ": 359.903534,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Player Name:",
+      "Description": "Frame 1 - \nFrame 2 - \nFrame 3 - \nFrame 4 - \nFrame 5 - \nFrame 6 - \nFrame 7 - \nFrame 8 - \nFrame 9 - \nFrame 10 - ",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": "f296a3"
+    },
+    {
+      "Name": "Notecard",
+      "Transform": {
+        "posX": -0.379360169,
+        "posY": 1.41444778,
+        "posZ": 7.70369673,
+        "rotX": 0.09238591,
+        "rotY": 358.4416,
+        "rotZ": 359.859375,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Player Name:",
+      "Description": "Frame 1 - \nFrame 2 - \nFrame 3 - \nFrame 4 - \nFrame 5 - \nFrame 6 - \nFrame 7 - \nFrame 8 - \nFrame 9 - \nFrame 10 - ",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": "976c07"
+    },
+    {
+      "Name": "Notecard",
+      "Transform": {
+        "posX": -0.175440013,
+        "posY": 1.6805824,
+        "posZ": 7.743601,
+        "rotX": 0.122624323,
+        "rotY": 357.280457,
+        "rotZ": 359.889,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Player Name:",
+      "Description": "Frame 1 - \nFrame 2 - \nFrame 3 - \nFrame 4 - \nFrame 5 - \nFrame 6 - \nFrame 7 - \nFrame 8 - \nFrame 9 - \nFrame 10 - ",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": "128e45"
+    },
+    {
+      "Name": "Notecard",
+      "Transform": {
+        "posX": -0.2789141,
+        "posY": 1.81617069,
+        "posZ": 7.8728466,
+        "rotX": 0.153189734,
+        "rotY": 359.144348,
+        "rotZ": 359.887726,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Player Name:",
+      "Description": "Frame 1 - \nFrame 2 - \nFrame 3 - \nFrame 4 - \nFrame 5 - \nFrame 6 - \nFrame 7 - \nFrame 8 - \nFrame 9 - \nFrame 10 - ",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": "acd47f"
+    },
+    {
+      "Name": "Notecard",
+      "Transform": {
+        "posX": -0.169421762,
+        "posY": 1.95277762,
+        "posZ": 7.799191,
+        "rotX": 0.1701487,
+        "rotY": 0.246729434,
+        "rotZ": 359.888733,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Player Name:",
+      "Description": "Frame 1 - \nFrame 2 - \nFrame 3 - \nFrame 4 - \nFrame 5 - \nFrame 6 - \nFrame 7 - \nFrame 8 - \nFrame 9 - \nFrame 10 - ",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "GUID": "6a83fb"
+    },
+    {
+      "Name": "Tablet",
+      "Transform": {
+        "posX": -21.60348,
+        "posY": 1.47619951,
+        "posZ": -5.74929953,
+        "rotX": -1.89324164E-05,
+        "rotY": 179.55838,
+        "rotZ": 1.85066779E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "Tablet": {
+        "PageURL": "http://fl-bsc.sourceforge.net/fl-bsc.html"
+      },
+      "GUID": "278019"
+    },
+    {
+      "Name": "Tablet",
+      "Transform": {
+        "posX": -21.2229633,
+        "posY": 1.47619927,
+        "posZ": 3.4092288,
+        "rotX": -1.54673635E-05,
+        "rotY": 179.984268,
+        "rotZ": -5.789586E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "Tablet": {
+        "PageURL": "http://fl-bsc.sourceforge.net/fl-bsc.html"
+      },
+      "GUID": "775f9c"
+    },
+    {
+      "Name": "Tablet",
+      "Transform": {
+        "posX": -21.0183353,
+        "posY": 1.47619915,
+        "posZ": 13.06169,
+        "rotX": -3.824708E-06,
+        "rotY": 180.003555,
+        "rotZ": -9.830086E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": false,
+      "Tablet": {
+        "PageURL": "http://fl-bsc.sourceforge.net/fl-bsc.html"
+      },
+      "GUID": "416b0a"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": -24.6344,
+        "posY": 0.7632085,
+        "posZ": -12.7556953,
+        "rotX": 9.021233E-06,
+        "rotY": 0.5214956,
+        "rotZ": -4.2464646E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Original Dice",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9411783,
+        "g": 0.4887008,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 1.9528358,
+            "posY": 3.33014584,
+            "posZ": -0.124909408,
+            "rotX": 357.8095,
+            "rotY": 353.90863,
+            "rotZ": 274.4549,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.99216187,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/DieStrike1.jpg",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "8df9e4"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 2.82742286,
+            "posY": 3.480223,
+            "posZ": 0.251259923,
+            "rotX": 72.44311,
+            "rotY": 342.708923,
+            "rotZ": 356.864655,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.99216187,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/DiePins.jpg",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "6da405"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 3.40905118,
+            "posY": 3.136501,
+            "posZ": -0.9629507,
+            "rotX": 45.4020729,
+            "rotY": 52.094265,
+            "rotZ": 54.961628,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921621,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/DieSpare.jpg",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "45435b"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 5.09474325,
+            "posY": 2.565734,
+            "posZ": 0.267124176,
+            "rotX": 33.1845169,
+            "rotY": 295.243347,
+            "rotZ": 62.90239,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921621,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/DiePins.jpg",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "8c7055"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 2.64876533,
+            "posY": 3.461695,
+            "posZ": 0.824678957,
+            "rotX": 82.3424,
+            "rotY": 93.73937,
+            "rotZ": 21.2816849,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921621,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/DieStrike1.jpg",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "3d6ae6"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 4.171284,
+            "posY": 3.38886571,
+            "posZ": 0.502142131,
+            "rotX": 62.1176872,
+            "rotY": 256.3448,
+            "rotZ": 85.77637,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921621,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/DieStrike1.jpg",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "98f9f7"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 3.496035,
+            "posY": 3.65831518,
+            "posZ": 1.170582,
+            "rotX": 3.99844456,
+            "rotY": 205.668182,
+            "rotZ": 231.650238,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921621,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/DiePins.jpg",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "9d4bd1"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 3.535698,
+            "posY": 3.438572,
+            "posZ": -0.489956677,
+            "rotX": 355.0725,
+            "rotY": 3.59823966,
+            "rotZ": 264.415253,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.99216187,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/DieSpare.jpg",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "8a20ff"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 3.22271347,
+            "posY": 3.694345,
+            "posZ": 0.614223838,
+            "rotX": 293.305634,
+            "rotY": 106.7134,
+            "rotZ": 296.962616,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921621,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/DiePins.jpg",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "5d1dcb"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -24.17743,
+            "posY": 3.46991777,
+            "posZ": -12.6980429,
+            "rotX": 358.8055,
+            "rotY": 340.869843,
+            "rotZ": 262.6866,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921628,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/DieSpare.jpg",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "dd8ec2"
+        }
+      ],
+      "GUID": "c785ed"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": -17.7896481,
+        "posY": 0.763209462,
+        "posZ": -12.7426128,
+        "rotX": -1.34996153E-05,
+        "rotY": 359.033966,
+        "rotZ": -2.30289588E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Custom Dice",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9411774,
+        "g": 0.488695085,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -11.6742716,
+            "posY": 3.0029707,
+            "posZ": -12.2714691,
+            "rotX": 9.955254,
+            "rotY": 66.45193,
+            "rotZ": 358.311035,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992160857,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/Dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/Red01.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "8a6d89"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -11.3091488,
+            "posY": 3.1033833,
+            "posZ": -13.4365063,
+            "rotX": 24.8108349,
+            "rotY": 62.97961,
+            "rotZ": 355.492249,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992160857,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/Dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/Red01.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "e73daa"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -12.2877693,
+            "posY": 3.35713363,
+            "posZ": -13.2164841,
+            "rotX": 20.2412148,
+            "rotY": 30.297554,
+            "rotZ": 108.044426,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921606,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/Dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/Red01.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "2e7156"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -11.5936832,
+            "posY": 2.735444,
+            "posZ": -11.9678993,
+            "rotX": 359.54776,
+            "rotY": 317.333923,
+            "rotZ": 336.167084,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992160857,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/Dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/Red01.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "eca99d"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -10.9450235,
+            "posY": 3.4729116,
+            "posZ": -13.3613052,
+            "rotX": 337.979858,
+            "rotY": 317.815033,
+            "rotZ": 262.7529,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992160857,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/Dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/Red01.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "5530f4"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -10.8951454,
+            "posY": 3.667232,
+            "posZ": -13.55054,
+            "rotX": 301.539124,
+            "rotY": 227.460663,
+            "rotZ": 264.7751,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992160857,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/Dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/Red01.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "4c7f3e"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -11.158679,
+            "posY": 3.27775979,
+            "posZ": -11.2696886,
+            "rotX": 342.402954,
+            "rotY": 60.1893539,
+            "rotZ": 247.359482,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992160857,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/Dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/Red01.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "135e13"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -12.1404428,
+            "posY": 3.16205859,
+            "posZ": -13.0536737,
+            "rotX": 321.024628,
+            "rotY": 342.8108,
+            "rotZ": 6.930705,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992160857,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/Dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/Red01.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "83b36e"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -11.0825415,
+            "posY": 3.12005687,
+            "posZ": -11.9896536,
+            "rotX": 35.16875,
+            "rotY": 166.295212,
+            "rotZ": 357.330078,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992160857,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/Dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/Red01.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "443493"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.30385,
+            "posY": 3.499427,
+            "posZ": -12.2354755,
+            "rotX": 355.0851,
+            "rotY": 231.89679,
+            "rotZ": 93.77496,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921611,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/Dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/Red01.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "d85265"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -16.6964321,
+            "posY": 3.96235561,
+            "posZ": -12.95449,
+            "rotX": 304.571869,
+            "rotY": 343.878021,
+            "rotZ": 156.273865,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992160857,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/Dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/Yellow01.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "7694ba"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.4794941,
+            "posY": 3.35020614,
+            "posZ": -13.4286566,
+            "rotX": 327.298859,
+            "rotY": 338.501678,
+            "rotZ": 96.66743,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992160857,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/Dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/Yellow01.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "de7bd7"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -18.1230621,
+            "posY": 3.42182374,
+            "posZ": -12.2758923,
+            "rotX": 324.8683,
+            "rotY": 336.9073,
+            "rotZ": 60.6529961,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992160857,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/Dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/Yellow01.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "b614a0"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -16.634449,
+            "posY": 3.30095029,
+            "posZ": -11.7781668,
+            "rotX": 305.162079,
+            "rotY": 351.396576,
+            "rotZ": 82.08021,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992160857,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/Dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/Yellow01.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "57bb81"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -16.7341,
+            "posY": 2.64051676,
+            "posZ": -13.8641262,
+            "rotX": 33.45134,
+            "rotY": 341.201,
+            "rotZ": 37.1892357,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921606,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/Dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/Yellow01.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "20aa05"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -16.0611477,
+            "posY": 2.15043664,
+            "posZ": -13.0086622,
+            "rotX": 54.3975372,
+            "rotY": 78.56246,
+            "rotZ": 234.876816,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992160857,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/Dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/Yellow01.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "c33fa4"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.8286877,
+            "posY": 3.91566539,
+            "posZ": -12.9847746,
+            "rotX": 40.8051338,
+            "rotY": 337.2606,
+            "rotZ": 132.21962,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992160857,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/Dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/Yellow01.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "7e2846"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -16.43607,
+            "posY": 2.56799555,
+            "posZ": -12.2792778,
+            "rotX": 24.2868271,
+            "rotY": 242.355118,
+            "rotZ": 60.0741043,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992160857,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/Dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/Yellow01.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "28ad8a"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.415472,
+            "posY": 3.01720858,
+            "posZ": -12.8082991,
+            "rotX": 336.369781,
+            "rotY": 4.92628,
+            "rotZ": 315.548035,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992160857,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/Dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/Green01.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "8ee1b6"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -18.4470654,
+            "posY": 3.26169229,
+            "posZ": -12.6818495,
+            "rotX": 7.688424,
+            "rotY": 44.31195,
+            "rotZ": 77.50328,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992160857,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/Dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/Green01.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "7fbe63"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.43615,
+            "posY": 2.53559947,
+            "posZ": -11.4456491,
+            "rotX": 38.3419952,
+            "rotY": 313.154877,
+            "rotZ": 12.5860567,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992160857,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/Dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/Green01.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "72d140"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -16.3514252,
+            "posY": 3.397812,
+            "posZ": -11.5611248,
+            "rotX": 41.2944679,
+            "rotY": 322.890625,
+            "rotZ": 91.58945,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992160857,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/Dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/Green01.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "482178"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.73237,
+            "posY": 3.63415051,
+            "posZ": -13.4883146,
+            "rotX": 329.135223,
+            "rotY": 177.037018,
+            "rotZ": 203.962875,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921606,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/Dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/Green01.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "c79c93"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -18.2246418,
+            "posY": 3.13508821,
+            "posZ": -12.11879,
+            "rotX": 337.478668,
+            "rotY": 82.8540344,
+            "rotZ": 336.184479,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992160857,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/Dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/Green01.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "bba1b5"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.58063,
+            "posY": 3.63469,
+            "posZ": -12.2390738,
+            "rotX": 47.7142525,
+            "rotY": 233.405045,
+            "rotZ": 208.851379,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992160857,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/Dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/YellowBlack.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "267b12"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.1949768,
+            "posY": 2.926116,
+            "posZ": -13.11673,
+            "rotX": 27.0104752,
+            "rotY": 72.1742554,
+            "rotZ": 5.50266743,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992160857,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/Dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/YellowBlack.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "06979c"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.9957256,
+            "posY": 4.21963549,
+            "posZ": -13.1269217,
+            "rotX": 354.688568,
+            "rotY": 165.434,
+            "rotZ": 198.2656,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921606,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/Dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/YellowBlack.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "19e4e7"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -18.2928429,
+            "posY": 2.9442358,
+            "posZ": -12.008152,
+            "rotX": 353.753784,
+            "rotY": 168.85582,
+            "rotZ": 11.55939,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992160857,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/Dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/YellowBlack.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "c1b4f8"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -16.8257751,
+            "posY": 2.42010427,
+            "posZ": -11.966341,
+            "rotX": 31.8045368,
+            "rotY": 272.5242,
+            "rotZ": 276.5831,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992160857,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/Dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/YellowBlack.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "de2b7c"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -15.7835169,
+            "posY": 2.86698985,
+            "posZ": -13.493639,
+            "rotX": 270.0,
+            "rotY": 83.55056,
+            "rotZ": 0.0,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921606,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/Dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/RedBlack.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "5687e4"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -16.275816,
+            "posY": 3.38067031,
+            "posZ": -13.4417191,
+            "rotX": 275.0144,
+            "rotY": 126.3055,
+            "rotZ": 317.064545,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992160857,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/Dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/RedBlack.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "a83a79"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -16.28945,
+            "posY": 3.46114254,
+            "posZ": -13.6566982,
+            "rotX": 293.0591,
+            "rotY": 257.913483,
+            "rotZ": 197.916061,
+            "scaleX": 1.75,
+            "scaleY": 1.75,
+            "scaleZ": 1.75
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.992160857,
+            "b": 0.9999999
+          },
+          "Grid": false,
+          "Locked": false,
+          "CustomMesh": {
+            "MeshURL": "http://icewarm.org/TTS/BowlingDice/Dice.txt",
+            "DiffuseURL": "http://icewarm.org/TTS/BowlingDice/RedBlack.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2
+          },
+          "GUID": "d61d89"
+        }
+      ],
+      "GUID": "c78ee4"
+    }
+  ]
+}

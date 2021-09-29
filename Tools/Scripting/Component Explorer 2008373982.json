@@ -1,0 +1,447 @@
+{
+  "SaveName": "Component Explorer",
+  "GameMode": "Component Exp",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "2/27/2020 4:58:12 PM",
+  "Table": "Table_Square",
+  "Sky": "Sky_Museum",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
+  "LuaScript": "--[[ Lua code. See documentation: https://api.tabletopsimulator.com/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate()\n    --[[ print('onUpdate loop!') --]]\nend",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 14.3801212,
+          "posY": 3.04349518,
+          "posZ": 0.141296387,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 9.39387,
+          "scaleY": 6.634071,
+          "scaleZ": 3.52262545
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 0.03270387,
+          "posY": 3.04350662,
+          "posZ": -14.3709717,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 9.392744,
+          "scaleY": 6.634071,
+          "scaleZ": 3.52238512
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": 0.03270387,
+          "posY": 3.04351425,
+          "posZ": 14.2777328,
+          "rotX": 0.0,
+          "rotY": 180.0,
+          "rotZ": 0.0,
+          "scaleX": 9.393344,
+          "scaleY": 6.634071,
+          "scaleZ": 3.52259564
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -14.2912292,
+          "posY": 3.04349518,
+          "posZ": -0.05830002,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 9.39387,
+          "scaleY": 6.634071,
+          "scaleZ": 3.52262545
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "ObjectStates": [
+    {
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -5.154703,
+        "posY": 1.45999122,
+        "posZ": 4.7342205,
+        "rotX": -9.583637E-05,
+        "rotY": -0.00233909045,
+        "rotZ": -1.1234099E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9264706,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "6583c3"
+    },
+    {
+      "Name": "rpg_TROLL",
+      "Transform": {
+        "posX": -1.23645687,
+        "posY": 1.14224112,
+        "posZ": 6.31228,
+        "rotX": -1.787666E-05,
+        "rotY": 179.999969,
+        "rotZ": 4.56705129E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.2941176,
+        "g": 0.2941176,
+        "b": 0.2941176
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "RPGmode": false,
+      "RPGdead": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "658ccf"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 3.8721807,
+        "posY": 0.959722161,
+        "posZ": 5.00033855,
+        "rotX": 1.25521437E-05,
+        "rotY": 180.014679,
+        "rotZ": -6.38262063E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/792000631856576316/AAA16E339B8BC01933ACD2A9249713F0B956F36D/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 0,
+        "TypeIndex": 0,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "55322b"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -0.09139147,
+        "posY": 1.00999,
+        "posZ": 0.0375551842,
+        "rotX": -7.562737E-07,
+        "rotY": 359.9695,
+        "rotZ": 2.68004464E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Component Explorer",
+      "Description": "Made by Buckwheat",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/792008966795081565/A31339A57B8DB31DA0695FCD7A784BE36909A44D/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/792008966798244334/8697B54B7A9263CF57B0636DDA043F617C1ED2B8/",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "local guid_input_params = {\r\n    input_function = \"guidInputFunc\",\r\n    function_owner = self,\r\n    label = \"GUID\",\r\n    position = {0, 0.1, 0.1},\r\n    rotation = {0, 180, 0},\r\n    scale = {0.5, 0.5, 0.5},\r\n    width = 2200,\r\n    height = 600,\r\n    font_size = 577,\r\n    color = {0.2247, 0.2247, 0.2247, 1},\r\n    font_color = {1, 1, 1, 1},\r\n    alignment = 3,\r\n    validation = 4,\r\n}\r\n\r\nlocal export_input_params = {\r\n    input_function = \"doNothing\",\r\n    function_owner = self,\r\n    label = \"Exported Code\",\r\n    position = {0, 0.1, -1.1},\r\n    rotation = {0, 180, 0},\r\n    scale = {0.5, 0.5, 0.5},\r\n    width = 7400,\r\n    height = 1500,\r\n    font_size = 277,\r\n    color = {0.2247, 0.2247, 0.2247, 1},\r\n    font_color = {1, 1, 1, 1},\r\n    alignment = 2,\r\n}\r\n\r\nlocal button_params = {\r\n    function_owner = self,\r\n    rotation = {0, 180, 0},\r\n    scale = {0.5, 0.5, 0.5},\r\n    width = 2500,\r\n    height = 600,\r\n    font_size = 400,\r\n    color = {0, 90/255, 192/255, 1},\r\n    font_color = {1, 1, 1, 1},\r\n}\r\n\r\nlocal button_params_variable = {\r\n    start_position = Vector(2.7, 0.1, -2.3),\r\n    step_x = -2.7,\r\n    step_z = -0.6,\r\n    color_child = {0, 90/255, 192/255, 1},\r\n    color_component = {0, 192/255, 90/255, 1},\r\n    color_var = {0, 90/255, 90/255, 1},\r\n    font_color_selected = Color(0, 0, 0, 1),\r\n}\r\n\r\n\r\nfunction onLoad()\r\n    self.createInput(guid_input_params)\r\n    self.createInput(export_input_params)\r\nend\r\n\r\nfunction processClick(type, indices, obj)\r\n    if type == \"child\" or type == \"component\" then\r\n        if obj == nil then\r\n            self.clearButtons()\r\n            self.editInput({\r\n                index          = 0,\r\n                value          = \"\",\r\n            })\r\n            print(\"Object lost.\")\r\n            return\r\n        end\r\n        self.clearButtons()\r\n        makeList(obj, indices)\r\n    end\r\nend\r\n\r\nfunction guidInputFunc(_, color, input, stillEditing)\r\n    if stillEditing then\r\n        return\r\n    end\r\n    if input == \"\" then\r\n        self.clearButtons()\r\n    end\r\n    local obj = getObjectFromGUID(input)\r\n    if obj ~= nil and obj ~= self then\r\n        self.clearButtons()\r\n        makeList(obj, {})\r\n    end\r\nend\r\n\r\nfunction makeList(obj, selections)\r\n    local children = obj.getChildren()\r\n    local components = obj.getComponents()\r\n    for childNum, child in ipairs(children) do\r\n        local params = deepCopy(button_params)\r\n        local func_name = \"child_\" .. childNum\r\n        _G[func_name] = function()\r\n            processClick(\"child\", {childNum}, obj)\r\n        end\r\n        params.click_function = func_name\r\n        params.position = button_params_variable.start_position + Vector(0, 0, button_params_variable.step_z * (childNum - 1))\r\n        params.color = button_params_variable.color_child\r\n        params.tooltip = logString(child)\r\n        params.label = string.sub(logString(child), 1, 10)\r\n        if childNum == selections[1] then\r\n            params.font_color = button_params_variable.font_color_selected\r\n        end\r\n        self.createButton(params)\r\n    end\r\n    for componentNum, component in ipairs(components) do\r\n        local params = deepCopy(button_params)\r\n        local func_name = \"component_\" .. componentNum\r\n        _G[func_name] = function()\r\n            processClick(\"component\", {#children + componentNum}, obj)\r\n        end\r\n        params.click_function = func_name\r\n        params.position = button_params_variable.start_position + Vector(0, 0, button_params_variable.step_z * (componentNum + #children - 1))\r\n        params.color = button_params_variable.color_component\r\n        params.tooltip = logString(component)\r\n        params.label = string.sub(logString(component), 1, 10)\r\n        if #children + componentNum == selections[1] then\r\n            params.font_color = button_params_variable.font_color_selected\r\n        end\r\n        self.createButton(params)\r\n    end\r\n    local current_gameObject = obj\r\n    for depth, selection in ipairs(selections) do\r\n        if selection <= #(current_gameObject.getChildren()) then\r\n            current_gameObject = current_gameObject.getChildren()[selection]\r\n            local children = current_gameObject.getChildren()\r\n            local components = current_gameObject.getComponents()\r\n            for childNum, child in ipairs(children) do\r\n                local params = deepCopy(button_params)\r\n                local selection_buffer = {}\r\n                for i = 1, depth do\r\n                    selection_buffer[i] = selections[i]\r\n                end\r\n                selection_buffer[#selection_buffer + 1] = childNum\r\n                local func_name = \"child_\" .. table.concat(selection_buffer, \"_\")\r\n                _G[func_name] = function()\r\n                    processClick(\"child\", selection_buffer, obj)\r\n                end\r\n                params.click_function = func_name\r\n                params.position = button_params_variable.start_position + Vector(button_params_variable.step_x * depth, 0, button_params_variable.step_z * (childNum - 1))\r\n                params.color = button_params_variable.color_child\r\n                params.tooltip = logString(child)\r\n                params.label = string.sub(logString(child), 1, 10)\r\n                if childNum == selections[depth + 1] then\r\n                    params.font_color = button_params_variable.font_color_selected\r\n                end\r\n                self.createButton(params)\r\n            end\r\n            for componentNum, component in ipairs(components) do\r\n                local params = deepCopy(button_params)\r\n                local selection_buffer = {}\r\n                for i = 1, depth do\r\n                    selection_buffer[i] = selections[i]\r\n                end\r\n                selection_buffer[#selection_buffer + 1] = #children + componentNum\r\n                local func_name = \"component_\" .. table.concat(selection_buffer, \"_\")\r\n                _G[func_name] = function()\r\n                    processClick(\"component\", selection_buffer, obj)\r\n                end\r\n                params.click_function = func_name\r\n                params.position = button_params_variable.start_position + Vector(button_params_variable.step_x * depth, 0, button_params_variable.step_z * (componentNum + #children - 1))\r\n                params.color = button_params_variable.color_component\r\n                params.tooltip = logString(component)\r\n                params.label = string.sub(logString(component), 1, 10)\r\n                if #children + componentNum == selections[depth + 1] then\r\n                    params.font_color = button_params_variable.font_color_selected\r\n                end\r\n                self.createButton(params)\r\n            end\r\n        else\r\n            local vars = current_gameObject.getComponents()[selection - #(current_gameObject.getChildren())].getVars()\r\n            local varNum = 0\r\n            for varName, varType in pairs(vars) do\r\n                varNum = varNum + 1\r\n                local params = deepCopy(button_params)\r\n                local selection_buffer = {}\r\n                for i = 1, depth do\r\n                    selection_buffer[i] = selections[i]\r\n                end\r\n                selection_buffer[#selection_buffer + 1] = varNum\r\n                local func_name = \"var_\" .. table.concat(selection_buffer, \"_\")\r\n                _G[func_name] = function()\r\n                    local export_buffer = {\"getObjectFromGUID('\"}\r\n                    export_buffer[#export_buffer + 1] = obj.getGUID()\r\n                    export_buffer[#export_buffer + 1] = \"')\"\r\n                    for export_depth = 1, depth - 1 do\r\n                        export_buffer[#export_buffer + 1] = \".getChildren()[\"\r\n                        export_buffer[#export_buffer + 1] = selection_buffer[export_depth]\r\n                        export_buffer[#export_buffer + 1] = \"]\"\r\n                    end\r\n                    export_buffer[#export_buffer + 1] = \".getComponents()[\"\r\n                    export_buffer[#export_buffer + 1] = selection_buffer[#selection_buffer - 1] - #(current_gameObject.getChildren())\r\n                    export_buffer[#export_buffer + 1] = \"].set('\"\r\n                    export_buffer[#export_buffer + 1] = varName\r\n                    export_buffer[#export_buffer + 1] = \"', <\"\r\n                    export_buffer[#export_buffer + 1] = varType\r\n                    export_buffer[#export_buffer + 1] = \">)    --Current Value: \"\r\n                    if string.find(varType, \"UnityEngine\") then\r\n                        print(\"Cannot get current value of UnityEngine variable.\")\r\n                        export_buffer[#export_buffer + 1] = \"<Unavailable>\"\r\n                    else\r\n                        export_buffer[#export_buffer + 1] = logString(current_gameObject.getComponents()[selection_buffer[#selection_buffer - 1] - #(current_gameObject.getChildren())].get(varName))\r\n                    end\r\n                    self.editInput({\r\n                        index = 1,\r\n                        value = table.concat(export_buffer)\r\n                    })\r\n                end\r\n                params.click_function = func_name\r\n                params.position = button_params_variable.start_position + Vector(button_params_variable.step_x * depth, 0, button_params_variable.step_z * (varNum - 1))\r\n                params.color = button_params_variable.color_var\r\n                params.tooltip = varName\r\n                params.label = string.sub(varName, 1, 10)\r\n                self.createButton(params)\r\n            end\r\n            break\r\n        end\r\n    end\r\nend\r\n\r\nfunction deepCopy(original)\r\n    if type(original) ~= \"table\" then\r\n        return original\r\n    else\r\n        local copy = {}\r\n        for i, v in pairs(original) do\r\n            copy[i] = deepCopy(v)\r\n        end\r\n        return copy\r\n    end\r\nend\r\n\r\nfunction doNothing()\r\n    return nil\r\nend",
+      "LuaScriptState": "",
+      "GUID": "2cec94"
+    }
+  ],
+  "DecalPallet": [],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": "v12.2.2"
+}

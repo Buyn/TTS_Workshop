@@ -1,0 +1,7918 @@
+{
+  "SaveName": "Basic Pathfinder / D&D Setup",
+  "GameMode": "None",
+  "Date": "3/2/2015 9:23:00 PM",
+  "Table": "Table_Custom",
+  "TableURL": "http://i.imgur.com/KsNgRmc.jpg",
+  "Sky": "Sky_Regal",
+  "Note": "",
+  "Rules": "",
+  "PlayerTurn": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": true,
+    "Snapping": true,
+    "Offset": true,
+    "xSize": 2.0,
+    "ySize": 2.0
+  },
+  "DrawImage": "iVBORw0KGgoAAAANSUhEUgAAAWAAAADQCAYAAAA53LuNAAAFFElEQVR4Ae3QgQAAAADDoPlTH+SFUGHAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgy8DQx5DAABHyNK3wAAAABJRU5ErkJggg==",
+  "ObjectStates": [
+    {
+      "Name": "rpg_THIEF",
+      "Transform": {
+        "posX": -6.99925566,
+        "posY": 1.55470419,
+        "posZ": -10.9981432,
+        "rotX": 7.383744E-07,
+        "rotY": 359.873749,
+        "rotZ": 1.02844979E-05,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.294148445,
+        "g": 0.294148445,
+        "b": 0.294148445
+      },
+      "Grid": true,
+      "Locked": false,
+      "RPGmode": true,
+      "RPGdead": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -5.000109,
+        "posY": 0.9940074,
+        "posZ": -10.9993839,
+        "rotX": -3.07991922E-06,
+        "rotY": 0.0537835471,
+        "rotZ": -1.80092172E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.676492,
+        "g": 0.676492,
+        "b": 0.676492
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -3.00010562,
+        "posY": 0.9940071,
+        "posZ": -10.999382,
+        "rotX": 1.02344147E-05,
+        "rotY": 0.0674369261,
+        "rotZ": 4.493358E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.676492,
+        "g": 0.676492,
+        "b": 0.676492
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -3.00010633,
+        "posY": 0.994007647,
+        "posZ": -8.999381,
+        "rotX": -2.966036E-05,
+        "rotY": 0.06457362,
+        "rotZ": 1.37659245E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.676492,
+        "g": 0.676492,
+        "b": 0.676492
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -3.00010586,
+        "posY": 0.994007349,
+        "posZ": -6.999384,
+        "rotX": 3.59710953E-07,
+        "rotY": 0.03719379,
+        "rotZ": -2.54223735E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.676492,
+        "g": 0.676492,
+        "b": 0.676492
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -5.0001893,
+        "posY": 0.994007,
+        "posZ": -8.99905,
+        "rotX": -4.04003949E-05,
+        "rotY": 0.05954857,
+        "rotZ": 1.85029421E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.676492,
+        "g": 0.676492,
+        "b": 0.676492
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -4.99433565,
+        "posY": 0.9939362,
+        "posZ": -6.993502,
+        "rotX": 359.99408,
+        "rotY": 0.31946367,
+        "rotZ": -0.00169860711,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.676492,
+        "g": 0.676492,
+        "b": 0.676492
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -4.997853,
+        "posY": 0.993965745,
+        "posZ": -4.99789429,
+        "rotX": -0.00332618854,
+        "rotY": 0.123735845,
+        "rotZ": -0.000918357458,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.676492,
+        "g": 0.676492,
+        "b": 0.676492
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -3.000105,
+        "posY": 0.9940076,
+        "posZ": -4.999369,
+        "rotX": 2.32989024E-07,
+        "rotY": 0.06113257,
+        "rotZ": 5.90346652E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.676492,
+        "g": 0.676492,
+        "b": 0.676492
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -7.000141,
+        "posY": 0.9940078,
+        "posZ": -5.000436,
+        "rotX": -6.41084171E-07,
+        "rotY": 359.9756,
+        "rotZ": 4.675373E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.676492,
+        "g": 0.676492,
+        "b": 0.676492
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -6.999437,
+        "posY": 0.9940071,
+        "posZ": -6.99956656,
+        "rotX": -4.006665E-06,
+        "rotY": 0.0270306822,
+        "rotZ": 4.446639E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.676492,
+        "g": 0.676492,
+        "b": 0.676492
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -7.00016165,
+        "posY": 0.993996,
+        "posZ": -8.998938,
+        "rotX": -0.000882112246,
+        "rotY": 0.05119791,
+        "rotZ": -0.000169535953,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.676492,
+        "g": 0.676492,
+        "b": 0.676492
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -7.00023365,
+        "posY": 0.994007349,
+        "posZ": -10.999,
+        "rotX": 3.88342215E-07,
+        "rotY": 0.0541627221,
+        "rotZ": 2.84058217E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.676492,
+        "g": 0.676492,
+        "b": 0.676492
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Chest",
+      "Transform": {
+        "posX": -4.99615526,
+        "posY": 1.56817389,
+        "posZ": -4.99787331,
+        "rotX": -0.00413384661,
+        "rotY": 359.924164,
+        "rotZ": 359.994,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.897066653,
+        "g": 0.897066653,
+        "b": 0.897066653
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Chair",
+      "Transform": {
+        "posX": -4.993903,
+        "posY": 1.383052,
+        "posZ": -6.990398,
+        "rotX": 0.223150074,
+        "rotY": 0.134582669,
+        "rotZ": 359.987885,
+        "scaleX": 2.0,
+        "scaleY": 2.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Table",
+      "Transform": {
+        "posX": -5.00013876,
+        "posY": 2.63071346,
+        "posZ": -8.999752,
+        "rotX": -0.000151468819,
+        "rotY": 0.0113210892,
+        "rotZ": 0.0008502147,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7647224,
+        "g": 0.7337016,
+        "b": 0.6522718
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -8.997782,
+        "posY": 0.994007945,
+        "posZ": -4.97924,
+        "rotX": -1.25885335E-05,
+        "rotY": 270.0098,
+        "rotZ": 2.92785853E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -9.000106,
+        "posY": 0.994008,
+        "posZ": -7.000001,
+        "rotX": -3.25729138E-06,
+        "rotY": 269.757355,
+        "rotZ": 8.511498E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -9.004956,
+        "posY": 0.994007468,
+        "posZ": -9.00863552,
+        "rotX": -1.107979E-05,
+        "rotY": 270.251678,
+        "rotZ": -8.245175E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -9.050103,
+        "posY": 0.9940066,
+        "posZ": -11.0057688,
+        "rotX": -1.672999E-06,
+        "rotY": 271.456848,
+        "rotZ": -7.90785452E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Corner",
+      "Transform": {
+        "posX": -8.99906349,
+        "posY": 0.9940073,
+        "posZ": -12.9997416,
+        "rotX": 1.70980775E-06,
+        "rotY": 179.9836,
+        "rotZ": 1.57945669E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 2.999948,
+        "posY": 0.8280077,
+        "posZ": -29.0013828,
+        "rotX": 1.3942572E-05,
+        "rotY": 225.03923,
+        "rotZ": 2.851053E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Player Dice Bag",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.9921575,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "Number": 0,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 9.000037,
+        "posY": 1.01304054,
+        "posZ": -29.00015,
+        "rotX": -1.92293664E-05,
+        "rotY": 90.19315,
+        "rotZ": -3.62267165E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 6.983154,
+        "posY": 1.01304173,
+        "posZ": -29.0042343,
+        "rotX": 2.46772E-05,
+        "rotY": 269.9733,
+        "rotZ": 4.29425127E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Corner",
+      "Transform": {
+        "posX": 7.003372,
+        "posY": 1.01303959,
+        "posZ": -31.0029049,
+        "rotX": -6.146383E-05,
+        "rotY": 180.174072,
+        "rotZ": -5.215971E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Corner",
+      "Transform": {
+        "posX": 9.006535,
+        "posY": 1.01304126,
+        "posZ": -30.98895,
+        "rotX": -1.47661931E-05,
+        "rotY": 91.43623,
+        "rotZ": -2.614662E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Corner",
+      "Transform": {
+        "posX": 6.999634,
+        "posY": 1.01304126,
+        "posZ": -27.0001,
+        "rotX": -1.81152755E-05,
+        "rotY": 270.042053,
+        "rotZ": 1.08601325E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Corner",
+      "Transform": {
+        "posX": 8.999941,
+        "posY": 1.013042,
+        "posZ": -26.9992485,
+        "rotX": 1.537486E-05,
+        "rotY": 0.0599528924,
+        "rotZ": -1.32254545E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_8",
+      "Transform": {
+        "posX": 8.496367,
+        "posY": 1.7310617,
+        "posZ": -29.5051384,
+        "rotX": 326.263855,
+        "rotY": 195.994781,
+        "rotZ": -1.077992E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0749993
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_20",
+      "Transform": {
+        "posX": 6.87888575,
+        "posY": 1.810471,
+        "posZ": -30.4617729,
+        "rotX": 349.187653,
+        "rotY": 162.4124,
+        "rotZ": 234.000015,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0749993
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_4",
+      "Transform": {
+        "posX": 8.42723,
+        "posY": 1.47529817,
+        "posZ": -27.9431076,
+        "rotX": 18.6091881,
+        "rotY": 309.484344,
+        "rotZ": 240.046021,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0749993
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_12",
+      "Transform": {
+        "posX": 6.754504,
+        "posY": 1.847378,
+        "posZ": -28.9514389,
+        "rotX": 44.56575,
+        "rotY": 60.9409752,
+        "rotZ": 215.740845,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0749993
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_10",
+      "Transform": {
+        "posX": 7.87430859,
+        "posY": 1.75049269,
+        "posZ": -28.747345,
+        "rotX": 38.36977,
+        "rotY": 229.7987,
+        "rotZ": 126.676559,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0749993
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": ""
+    },
+    {
+      "Name": "Die_6",
+      "Transform": {
+        "posX": 6.8973875,
+        "posY": 1.72256827,
+        "posZ": -27.4317837,
+        "rotX": -1.8224322E-05,
+        "rotY": 299.735077,
+        "rotZ": 3.068519E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0749993
+      },
+      "Grid": false,
+      "Locked": false,
+      "MaterialIndex": 0,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -41.0000267,
+        "posY": 0.9940089,
+        "posZ": 24.9999237,
+        "rotX": 7.408511E-07,
+        "rotY": 0.00198239461,
+        "rotZ": 3.336339E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691307,
+        "g": 0.6691307,
+        "b": 0.6691307
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -39.0001678,
+        "posY": 0.9940087,
+        "posZ": 25.00005,
+        "rotX": -2.25303029E-05,
+        "rotY": 0.0133311041,
+        "rotZ": 3.15336656E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -37.00016,
+        "posY": 0.994010031,
+        "posZ": 25.0001125,
+        "rotX": -2.68091389E-05,
+        "rotY": 0.0124212373,
+        "rotZ": 3.252059E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -35.0001564,
+        "posY": 0.9940098,
+        "posZ": 25.0001049,
+        "rotX": 9.454989E-07,
+        "rotY": 0.01295646,
+        "rotZ": 2.678737E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -33.0001564,
+        "posY": 0.994007945,
+        "posZ": 25.000042,
+        "rotX": -1.94401127E-05,
+        "rotY": 0.0130383978,
+        "rotZ": 1.17105E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -31.00019,
+        "posY": 0.994008064,
+        "posZ": 25.0001183,
+        "rotX": -4.36318253E-08,
+        "rotY": 0.0119169252,
+        "rotZ": 4.00201969E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -27.0002213,
+        "posY": 0.99400723,
+        "posZ": 25.0000687,
+        "rotX": 2.05609413E-05,
+        "rotY": 0.01201387,
+        "rotZ": 9.70049E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -29.00022,
+        "posY": 0.994008839,
+        "posZ": 25.0001163,
+        "rotX": -4.81922939E-07,
+        "rotY": 0.0114579881,
+        "rotZ": -1.8681132E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -25.0001984,
+        "posY": 0.9940063,
+        "posZ": 25.0001221,
+        "rotX": 8.56012548E-07,
+        "rotY": 0.009277017,
+        "rotZ": -1.46672917E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -23.0001564,
+        "posY": 0.994009137,
+        "posZ": 25.0001144,
+        "rotX": 1.02821541E-05,
+        "rotY": 0.0119711673,
+        "rotZ": 1.27009716E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -21.00015,
+        "posY": 0.9940072,
+        "posZ": 25.0000725,
+        "rotX": -1.33895383E-05,
+        "rotY": 0.01219401,
+        "rotZ": 2.21966875E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -19.0001469,
+        "posY": 0.994008839,
+        "posZ": 25.0000916,
+        "rotX": 2.24857777E-05,
+        "rotY": 0.01044419,
+        "rotZ": 1.14479608E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -17.00015,
+        "posY": 0.9940091,
+        "posZ": 25.000124,
+        "rotX": 3.25749716E-06,
+        "rotY": 0.0117986584,
+        "rotZ": -1.86427812E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -15.0001392,
+        "posY": 0.994006634,
+        "posZ": 25.0000858,
+        "rotX": 3.75387367E-06,
+        "rotY": 0.0122371633,
+        "rotZ": -9.871354E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -13.0001669,
+        "posY": 0.994006038,
+        "posZ": 25.0001259,
+        "rotX": 7.40613E-06,
+        "rotY": 0.008912948,
+        "rotZ": -1.5407355E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -11.000145,
+        "posY": 0.9940072,
+        "posZ": 25.0001259,
+        "rotX": -1.74408979E-06,
+        "rotY": 0.0100256233,
+        "rotZ": -2.93637271E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -9.000133,
+        "posY": 0.9940068,
+        "posZ": 25.0000916,
+        "rotX": -2.08015917E-05,
+        "rotY": 0.0115167508,
+        "rotZ": 5.547437E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -7.00015926,
+        "posY": 0.994006932,
+        "posZ": 25.0001335,
+        "rotX": 1.66712937E-06,
+        "rotY": 0.0100734532,
+        "rotZ": -2.20112015E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -5.000151,
+        "posY": 0.994007468,
+        "posZ": 25.0001354,
+        "rotX": -6.48946752E-07,
+        "rotY": 0.0111757312,
+        "rotZ": -2.13506723E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -3.00014019,
+        "posY": 0.9940079,
+        "posZ": 25.0001,
+        "rotX": 1.07689975E-05,
+        "rotY": 0.01247777,
+        "rotZ": -1.79547624E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -1.00015569,
+        "posY": 0.994008,
+        "posZ": 25.0001335,
+        "rotX": -4.73056753E-06,
+        "rotY": 0.0104639167,
+        "rotZ": 9.857991E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 0.999850333,
+        "posY": 0.9940078,
+        "posZ": 25.0001411,
+        "rotX": -8.224425E-07,
+        "rotY": 0.0110197114,
+        "rotZ": -7.909028E-11,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 2.99985743,
+        "posY": 0.9940075,
+        "posZ": 25.0001144,
+        "rotX": 4.092738E-05,
+        "rotY": 0.0118230684,
+        "rotZ": 1.65840879E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 6.99985075,
+        "posY": 0.994007647,
+        "posZ": 25.0001431,
+        "rotX": -6.51097537E-07,
+        "rotY": 0.0111732762,
+        "rotZ": -2.00166681E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 4.99984,
+        "posY": 0.994007,
+        "posZ": 25.0001469,
+        "rotX": 5.24470761E-06,
+        "rotY": 0.0102403183,
+        "rotZ": -1.98230809E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 8.999848,
+        "posY": 0.994007647,
+        "posZ": 25.0001469,
+        "rotX": -7.407602E-07,
+        "rotY": 0.011079574,
+        "rotZ": -4.00278026E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 10.99985,
+        "posY": 0.994009137,
+        "posZ": 25.0001316,
+        "rotX": 1.25321531E-05,
+        "rotY": 0.0107022338,
+        "rotZ": -1.25519837E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 12.9998512,
+        "posY": 0.994007349,
+        "posZ": 25.00015,
+        "rotX": -1.10265808E-06,
+        "rotY": 0.0106983129,
+        "rotZ": 6.659812E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 14.9998627,
+        "posY": 0.99400723,
+        "posZ": 25.0001526,
+        "rotX": -1.22065012E-06,
+        "rotY": 0.0105750784,
+        "rotZ": -2.00215837E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 16.9998283,
+        "posY": 0.9940054,
+        "posZ": 25.0001659,
+        "rotX": -1.275245E-06,
+        "rotY": 0.0106518092,
+        "rotZ": -1.07256328E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 20.9889011,
+        "posY": 0.9940082,
+        "posZ": 25.0066319,
+        "rotX": -2.460525E-06,
+        "rotY": 359.668671,
+        "rotZ": 1.53857641E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 22.99284,
+        "posY": 1.0040257,
+        "posZ": 25.0836964,
+        "rotX": 359.43692,
+        "rotY": 357.706482,
+        "rotZ": 0.02219974,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 18.9999676,
+        "posY": 0.994007468,
+        "posZ": 24.9999828,
+        "rotX": 8.202441E-07,
+        "rotY": -0.00144654617,
+        "rotZ": -2.863478E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 29.0011826,
+        "posY": 0.9940066,
+        "posZ": 25.0003166,
+        "rotX": -1.49864456E-06,
+        "rotY": 359.95636,
+        "rotZ": -1.943947E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 30.99999,
+        "posY": 0.994006455,
+        "posZ": 25.0,
+        "rotX": 2.18244031E-06,
+        "rotY": 359.96405,
+        "rotZ": 2.92799854E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 36.9998245,
+        "posY": 0.9940082,
+        "posZ": 25.0001469,
+        "rotX": -1.29536477E-06,
+        "rotY": 0.0107530942,
+        "rotZ": -6.057806E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 24.99985,
+        "posY": 0.994008064,
+        "posZ": 25.0001659,
+        "rotX": -6.719901E-07,
+        "rotY": 0.01125809,
+        "rotZ": 1.600166E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 26.9998512,
+        "posY": 0.9940079,
+        "posZ": 25.0001678,
+        "rotX": -8.877636E-07,
+        "rotY": 0.0110312579,
+        "rotZ": 2.80059027E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 32.9998474,
+        "posY": 0.994006932,
+        "posZ": 25.0001736,
+        "rotX": -6.315782E-07,
+        "rotY": 0.01137607,
+        "rotZ": -3.054914E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 34.9998436,
+        "posY": 0.9940078,
+        "posZ": 25.0001736,
+        "rotX": -1.08906056E-06,
+        "rotY": 0.0109717436,
+        "rotZ": -6.140512E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 38.9998474,
+        "posY": 0.9940075,
+        "posZ": 25.0001717,
+        "rotX": -8.74050045E-07,
+        "rotY": 0.0110466937,
+        "rotZ": -2.13527741E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 40.9998474,
+        "posY": 0.9940075,
+        "posZ": 25.0001755,
+        "rotX": -9.678868E-07,
+        "rotY": 0.0109471222,
+        "rotZ": 1.86670519E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -40.9965363,
+        "posY": 0.9940068,
+        "posZ": -24.9768028,
+        "rotX": 2.04577718E-05,
+        "rotY": 179.888733,
+        "rotZ": -3.37772763E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -39.0009346,
+        "posY": 0.9940074,
+        "posZ": -24.96525,
+        "rotX": 3.415065E-06,
+        "rotY": 179.946182,
+        "rotZ": -6.163494E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -36.9983864,
+        "posY": 0.9940072,
+        "posZ": -24.9784756,
+        "rotX": -3.41398231E-06,
+        "rotY": 180.0451,
+        "rotZ": -2.82946849E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -34.9985046,
+        "posY": 0.9940081,
+        "posZ": -24.9641838,
+        "rotX": -3.39806161E-06,
+        "rotY": 179.921417,
+        "rotZ": 2.48418182E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -33.0008965,
+        "posY": 0.994007945,
+        "posZ": -24.96519,
+        "rotX": -1.3639291E-05,
+        "rotY": 179.947632,
+        "rotZ": 4.616339E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -31.002327,
+        "posY": 0.9940074,
+        "posZ": -24.9647751,
+        "rotX": 3.42071849E-06,
+        "rotY": 179.950058,
+        "rotZ": 1.28984966E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -28.9984856,
+        "posY": 0.9940073,
+        "posZ": -24.9642944,
+        "rotX": -2.04770113E-05,
+        "rotY": 179.9252,
+        "rotZ": 2.07774137E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -26.9984779,
+        "posY": 0.994007766,
+        "posZ": -24.9642735,
+        "rotX": 1.70699241E-05,
+        "rotY": 179.925812,
+        "rotZ": -8.588814E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -22.99846,
+        "posY": 0.9940068,
+        "posZ": -24.96431,
+        "rotX": 3.3936783E-06,
+        "rotY": 179.924484,
+        "rotZ": -3.24923276E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -24.9984818,
+        "posY": 0.9940072,
+        "posZ": -24.964283,
+        "rotX": 6.87348E-06,
+        "rotY": 179.9256,
+        "rotZ": 6.66699343E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -21.0022945,
+        "posY": 0.994007468,
+        "posZ": -24.96479,
+        "rotX": -3.419325E-06,
+        "rotY": 179.94928,
+        "rotZ": -9.556753E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -18.9984436,
+        "posY": 0.9940076,
+        "posZ": -24.9642849,
+        "rotX": -3.414808E-06,
+        "rotY": 179.925354,
+        "rotZ": 4.424517E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -16.9984474,
+        "posY": 0.9940072,
+        "posZ": -24.9643,
+        "rotX": -6.40182662E-09,
+        "rotY": 179.925232,
+        "rotZ": -9.811724E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -14.9954338,
+        "posY": 0.9940073,
+        "posZ": -24.9632664,
+        "rotX": -3.68052366E-09,
+        "rotY": 180.201416,
+        "rotZ": 2.09441E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -12.9938974,
+        "posY": 0.994007349,
+        "posZ": -24.9636383,
+        "rotX": 3.4146974E-06,
+        "rotY": 180.2242,
+        "rotZ": 2.0678354E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -10.9962683,
+        "posY": 0.9940078,
+        "posZ": -24.96487,
+        "rotX": 1.98249572E-09,
+        "rotY": 180.105164,
+        "rotZ": -2.16111425E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -8.997271,
+        "posY": 0.9940076,
+        "posZ": -24.9640732,
+        "rotX": -3.41639748E-06,
+        "rotY": 179.931549,
+        "rotZ": -2.17908519E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -6.998477,
+        "posY": 0.994007647,
+        "posZ": -24.9642715,
+        "rotX": -2.04949865E-05,
+        "rotY": 179.924362,
+        "rotZ": -6.669923E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -5.00063372,
+        "posY": 0.994007945,
+        "posZ": -24.965229,
+        "rotX": 8.880089E-05,
+        "rotY": 179.946442,
+        "rotZ": 1.80811785E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -3.00089383,
+        "posY": 0.9940078,
+        "posZ": -24.9652576,
+        "rotX": 1.02386712E-05,
+        "rotY": 179.946671,
+        "rotZ": -1.42120953E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -1.00090384,
+        "posY": 0.9940077,
+        "posZ": -24.96521,
+        "rotX": -3.07344344E-05,
+        "rotY": 179.946655,
+        "rotZ": 3.06922016E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 1.00148129,
+        "posY": 0.994008,
+        "posZ": -24.9642048,
+        "rotX": 9.451424E-10,
+        "rotY": 179.921173,
+        "rotZ": 1.3740422E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 3.00373936,
+        "posY": 0.9940071,
+        "posZ": -24.9649239,
+        "rotX": -1.9482822E-09,
+        "rotY": 180.104324,
+        "rotZ": 2.14110332E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 5.00150442,
+        "posY": 0.994007349,
+        "posZ": -24.9642658,
+        "rotX": 2.41180659E-10,
+        "rotY": 179.924667,
+        "rotZ": 3.66855829E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 6.9990797,
+        "posY": 0.9940078,
+        "posZ": -24.9652443,
+        "rotX": -1.707856E-05,
+        "rotY": 179.94664,
+        "rotZ": -6.61546437E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 9.001494,
+        "posY": 0.9940074,
+        "posZ": -24.9642162,
+        "rotX": -3.41494183E-06,
+        "rotY": 179.921036,
+        "rotZ": 2.2246688E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 11.0038748,
+        "posY": 0.9940079,
+        "posZ": -24.9649525,
+        "rotX": 1.70933145E-05,
+        "rotY": 180.1089,
+        "rotZ": -1.8760129E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 13.0037451,
+        "posY": 0.994007349,
+        "posZ": -24.9648972,
+        "rotX": -3.412833E-06,
+        "rotY": 180.104736,
+        "rotZ": -2.47772869E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 15.0045338,
+        "posY": 0.994007647,
+        "posZ": -24.9632263,
+        "rotX": 1.36856979E-05,
+        "rotY": 180.199448,
+        "rotZ": -1.45370559E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 19.00152,
+        "posY": 0.99400723,
+        "posZ": -24.9643078,
+        "rotX": 1.36399594E-05,
+        "rotY": 179.9253,
+        "rotZ": -3.13250421E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 17.0015163,
+        "posY": 0.9940077,
+        "posZ": -24.9642677,
+        "rotX": 2.04911685E-05,
+        "rotY": 179.924957,
+        "rotZ": 9.00386851E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 20.997694,
+        "posY": 0.994007,
+        "posZ": -24.9648132,
+        "rotX": -3.41551231E-06,
+        "rotY": 179.949081,
+        "rotZ": -9.38967048E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 23.0015335,
+        "posY": 0.9940073,
+        "posZ": -24.9642887,
+        "rotX": 1.030223E-08,
+        "rotY": 179.924759,
+        "rotZ": 1.56880888E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 27.0067425,
+        "posY": 0.994007647,
+        "posZ": -24.9653168,
+        "rotX": -3.40112888E-06,
+        "rotY": 179.8708,
+        "rotZ": 1.23902373E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 25.0014858,
+        "posY": 0.9940075,
+        "posZ": -24.97843,
+        "rotX": 2.731473E-05,
+        "rotY": 180.045731,
+        "rotZ": 1.51253544E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 29.0015373,
+        "posY": 0.9940075,
+        "posZ": -24.9642982,
+        "rotX": 3.40590282E-06,
+        "rotY": 179.9249,
+        "rotZ": -1.40227985E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 31.0015411,
+        "posY": 0.994007468,
+        "posZ": -24.9643,
+        "rotX": -1.0404648E-10,
+        "rotY": 179.925522,
+        "rotZ": -1.60082564E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 32.9991074,
+        "posY": 0.994008362,
+        "posZ": -24.9652729,
+        "rotX": 2.7339549E-05,
+        "rotY": 179.94783,
+        "rotZ": 4.121551E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 34.9990768,
+        "posY": 0.9940077,
+        "posZ": -24.9652767,
+        "rotX": 3.4149557E-06,
+        "rotY": 179.94696,
+        "rotZ": -3.01735668E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 36.99906,
+        "posY": 0.9940081,
+        "posZ": -24.9652538,
+        "rotX": -3.4039067E-06,
+        "rotY": 179.947647,
+        "rotZ": 2.44875228E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 38.99765,
+        "posY": 0.9940073,
+        "posZ": -24.9648132,
+        "rotX": 3.06986476E-05,
+        "rotY": 179.94986,
+        "rotZ": -8.50372962E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 41.0014839,
+        "posY": 0.994007349,
+        "posZ": -24.964241,
+        "rotX": -2.733715E-05,
+        "rotY": 179.920929,
+        "rotZ": -2.37467357E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Corner",
+      "Transform": {
+        "posX": -43.00078,
+        "posY": 1.00664842,
+        "posZ": 24.9996643,
+        "rotX": 359.537659,
+        "rotY": 270.516,
+        "rotZ": 0.00281557045,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691307,
+        "g": 0.6691307,
+        "b": 0.6691307
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Corner",
+      "Transform": {
+        "posX": -43.03073,
+        "posY": 1.0049541,
+        "posZ": -24.95681,
+        "rotX": 359.945831,
+        "rotY": 177.783966,
+        "rotZ": 0.6303491,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Corner",
+      "Transform": {
+        "posX": 43.005127,
+        "posY": 1.01304126,
+        "posZ": -24.9866943,
+        "rotX": -1.56719634E-05,
+        "rotY": 90.7632446,
+        "rotZ": -3.7267198E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Corner",
+      "Transform": {
+        "posX": 42.9993973,
+        "posY": 1.00541008,
+        "posZ": 24.9998569,
+        "rotX": -0.00366914575,
+        "rotY": 0.376103669,
+        "rotZ": 0.667876065,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -43.0003738,
+        "posY": 1.00468838,
+        "posZ": 23.0003128,
+        "rotX": 359.376343,
+        "rotY": 269.957916,
+        "rotZ": 0.0003402223,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691307,
+        "g": 0.6691307,
+        "b": 0.6691307
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -42.9988136,
+        "posY": 1.00467944,
+        "posZ": 20.99966,
+        "rotX": 359.376923,
+        "rotY": 269.980255,
+        "rotZ": 9.41341059E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -42.99886,
+        "posY": 1.00467873,
+        "posZ": 18.99964,
+        "rotX": 359.376831,
+        "rotY": 269.982269,
+        "rotZ": 9.17861E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -42.99888,
+        "posY": 1.00467873,
+        "posZ": 16.9997,
+        "rotX": 359.376923,
+        "rotY": 269.979553,
+        "rotZ": 0.000121189667,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -42.99881,
+        "posY": 1.00467789,
+        "posZ": 14.9996891,
+        "rotX": 359.376923,
+        "rotY": 269.980927,
+        "rotZ": 0.000103766317,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -42.99881,
+        "posY": 1.00467634,
+        "posZ": 12.9997,
+        "rotX": 359.376923,
+        "rotY": 269.981262,
+        "rotZ": 9.344038E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -42.99881,
+        "posY": 1.00467825,
+        "posZ": 10.9996853,
+        "rotX": 359.376923,
+        "rotY": 269.980774,
+        "rotZ": 4.92283E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -42.9988,
+        "posY": 1.00467885,
+        "posZ": 8.999707,
+        "rotX": 359.376984,
+        "rotY": 269.980042,
+        "rotZ": 0.000151206914,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -42.99874,
+        "posY": 1.004676,
+        "posZ": 6.99969864,
+        "rotX": 359.376923,
+        "rotY": 269.981781,
+        "rotZ": 7.72710846E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -42.99881,
+        "posY": 1.004677,
+        "posZ": 4.99969053,
+        "rotX": 359.376923,
+        "rotY": 269.981934,
+        "rotZ": 0.000160679032,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -42.9988136,
+        "posY": 1.00467682,
+        "posZ": 2.99970341,
+        "rotX": 359.376923,
+        "rotY": 269.981537,
+        "rotZ": 8.91445743E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -42.99881,
+        "posY": 1.0046773,
+        "posZ": 0.9997046,
+        "rotX": 359.376923,
+        "rotY": 269.981476,
+        "rotZ": 8.247408E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -42.9988136,
+        "posY": 1.004679,
+        "posZ": -1.00029838,
+        "rotX": 359.376923,
+        "rotY": 269.981232,
+        "rotZ": 8.65831E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -42.99881,
+        "posY": 1.0046773,
+        "posZ": -3.00028682,
+        "rotX": 359.376923,
+        "rotY": 269.981628,
+        "rotZ": 7.807155E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -42.9988136,
+        "posY": 1.00467753,
+        "posZ": -5.000289,
+        "rotX": 359.376862,
+        "rotY": 269.9814,
+        "rotZ": 9.810973E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -42.99886,
+        "posY": 1.00467861,
+        "posZ": -7.00029469,
+        "rotX": 359.376923,
+        "rotY": 269.981659,
+        "rotZ": 8.636965E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -42.9988327,
+        "posY": 1.00467789,
+        "posZ": -9.000271,
+        "rotX": 359.376862,
+        "rotY": 269.9808,
+        "rotZ": 8.855757E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -42.99881,
+        "posY": 1.0046773,
+        "posZ": -11.0002794,
+        "rotX": 359.376923,
+        "rotY": 269.9817,
+        "rotZ": 7.87919562E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -42.99881,
+        "posY": 1.004678,
+        "posZ": -13.0002851,
+        "rotX": 359.376953,
+        "rotY": 269.982,
+        "rotZ": 7.5883625E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -42.9988136,
+        "posY": 1.00467837,
+        "posZ": -15.0002928,
+        "rotX": 359.376923,
+        "rotY": 269.9817,
+        "rotZ": 6.150202E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -42.99881,
+        "posY": 1.00467849,
+        "posZ": -17.00028,
+        "rotX": 359.376923,
+        "rotY": 269.982,
+        "rotZ": 9.392066E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -42.99881,
+        "posY": 1.00467682,
+        "posZ": -19.0002823,
+        "rotX": 359.3769,
+        "rotY": 269.982178,
+        "rotZ": 4.802761E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -42.9966278,
+        "posY": 1.0047009,
+        "posZ": -20.9948044,
+        "rotX": 359.382141,
+        "rotY": 269.5719,
+        "rotZ": -0.00233630044,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -43.0342979,
+        "posY": 1.01815856,
+        "posZ": -22.9668732,
+        "rotX": 0.3372742,
+        "rotY": 269.331635,
+        "rotZ": 359.910126,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 42.99897,
+        "posY": 1.00541747,
+        "posZ": 23.0000858,
+        "rotX": 359.333649,
+        "rotY": 90.0256,
+        "rotZ": -0.0004338798,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.669135034,
+        "g": 0.669135034,
+        "b": 0.669135034
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 42.9990234,
+        "posY": 1.00541806,
+        "posZ": 21.0000935,
+        "rotX": 359.333618,
+        "rotY": 90.0370255,
+        "rotZ": -0.0004907396,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 42.999012,
+        "posY": 1.00541782,
+        "posZ": 19.000103,
+        "rotX": 359.333618,
+        "rotY": 90.0377045,
+        "rotZ": -0.000587089162,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 42.999012,
+        "posY": 1.00541747,
+        "posZ": 17.0000916,
+        "rotX": 359.333557,
+        "rotY": 90.0358353,
+        "rotZ": -0.0004512766,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 42.999012,
+        "posY": 1.00541759,
+        "posZ": 15.0001011,
+        "rotX": 359.333557,
+        "rotY": 90.03629,
+        "rotZ": -0.000471154868,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 42.9990158,
+        "posY": 1.0054183,
+        "posZ": 13.0000992,
+        "rotX": 359.3336,
+        "rotY": 90.0361938,
+        "rotZ": -0.0004790528,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 42.999012,
+        "posY": 1.00541925,
+        "posZ": 11.000103,
+        "rotX": 359.333649,
+        "rotY": 90.04188,
+        "rotZ": -0.000599896652,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 42.9990234,
+        "posY": 1.00541866,
+        "posZ": 9.000094,
+        "rotX": 359.3336,
+        "rotY": 90.04049,
+        "rotZ": -0.0005018127,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 42.99903,
+        "posY": 1.00541711,
+        "posZ": 7.00009966,
+        "rotX": 359.3335,
+        "rotY": 90.04184,
+        "rotZ": -0.0005505612,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 42.999012,
+        "posY": 1.0054183,
+        "posZ": 5.00009727,
+        "rotX": 359.3336,
+        "rotY": 90.0416641,
+        "rotZ": -0.00056483614,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 42.999012,
+        "posY": 1.0054183,
+        "posZ": 3.00009847,
+        "rotX": 359.333618,
+        "rotY": 90.04264,
+        "rotZ": -0.000576256134,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 42.99901,
+        "posY": 1.0054183,
+        "posZ": 1.0001,
+        "rotX": 359.333618,
+        "rotY": 90.04224,
+        "rotZ": -0.000559392967,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 42.9991035,
+        "posY": 1.00541973,
+        "posZ": -0.999892,
+        "rotX": 359.3336,
+        "rotY": 90.0416641,
+        "rotZ": -0.0005403152,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 42.9991074,
+        "posY": 1.00541949,
+        "posZ": -2.99989176,
+        "rotX": 359.3336,
+        "rotY": 90.0417938,
+        "rotZ": -0.0005447711,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 42.99905,
+        "posY": 1.005419,
+        "posZ": -6.999892,
+        "rotX": 359.333649,
+        "rotY": 90.04147,
+        "rotZ": -0.000514887,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 42.9991074,
+        "posY": 1.00541973,
+        "posZ": -4.999889,
+        "rotX": 359.333618,
+        "rotY": 90.04147,
+        "rotZ": -0.000559019449,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 42.9995842,
+        "posY": 1.00542033,
+        "posZ": -8.999245,
+        "rotX": 359.33316,
+        "rotY": 89.9357,
+        "rotZ": 0.000789233833,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 43.0088234,
+        "posY": 1.00546956,
+        "posZ": -10.9781036,
+        "rotX": 359.3291,
+        "rotY": 89.69414,
+        "rotZ": 0.00240980787,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 43.0053978,
+        "posY": 1.00545967,
+        "posZ": -12.9629555,
+        "rotX": 359.330444,
+        "rotY": 89.79964,
+        "rotZ": 0.00224579149,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 43.00466,
+        "posY": 1.00545645,
+        "posZ": -14.96078,
+        "rotX": 359.3313,
+        "rotY": 89.98896,
+        "rotZ": 8.570337E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 43.0043755,
+        "posY": 1.00545478,
+        "posZ": -16.98146,
+        "rotX": 359.331177,
+        "rotY": 89.94384,
+        "rotZ": 0.0004370285,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 43.00604,
+        "posY": 1.00546741,
+        "posZ": -18.9959946,
+        "rotX": 359.330719,
+        "rotY": 90.0053,
+        "rotZ": -0.00023923305,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 43.00075,
+        "posY": 1.00543046,
+        "posZ": -20.9925652,
+        "rotX": 359.3328,
+        "rotY": 89.96808,
+        "rotZ": 0.0002660486,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": 43.00383,
+        "posY": 1.00903523,
+        "posZ": -23.0188179,
+        "rotX": 359.243866,
+        "rotY": 90.79484,
+        "rotZ": 0.317122757,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6691394,
+        "g": 0.6691394,
+        "b": 0.6691394
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -31.0000439,
+        "posY": 0.9940079,
+        "posZ": -0.9999945,
+        "rotX": 1.59601914E-05,
+        "rotY": 90.02954,
+        "rotZ": 1.475652E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.5882506,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -30.9998474,
+        "posY": 0.9940073,
+        "posZ": -2.99988961,
+        "rotX": -3.7868956E-06,
+        "rotY": 90.03633,
+        "rotZ": -1.37369557E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.5882506,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -30.9998589,
+        "posY": 0.994008243,
+        "posZ": -4.99987936,
+        "rotX": 1.3777053E-05,
+        "rotY": 90.03516,
+        "rotZ": -7.07964432E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.5882506,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -30.9998474,
+        "posY": 0.9940075,
+        "posZ": -6.99990034,
+        "rotX": 9.131263E-06,
+        "rotY": 90.03539,
+        "rotZ": -5.254264E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.5882506,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -30.9999943,
+        "posY": 0.9940076,
+        "posZ": -9.000038,
+        "rotX": 7.876982E-06,
+        "rotY": 90.037796,
+        "rotZ": 2.7207243E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.5882506,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -30.9998379,
+        "posY": 0.9940079,
+        "posZ": -10.9998655,
+        "rotX": -4.533901E-07,
+        "rotY": 90.03554,
+        "rotZ": 1.96191445E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.5882506,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -30.9999657,
+        "posY": 0.994007468,
+        "posZ": -13.0000439,
+        "rotX": 2.90990442E-06,
+        "rotY": 90.03757,
+        "rotZ": 4.96184271E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.5882506,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -30.9998283,
+        "posY": 0.994007945,
+        "posZ": -16.9998322,
+        "rotX": -3.13196542E-05,
+        "rotY": 90.03487,
+        "rotZ": 7.31044929E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.5882506,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -30.9997883,
+        "posY": 0.9940076,
+        "posZ": -14.9998693,
+        "rotX": 1.38323485E-05,
+        "rotY": 90.03559,
+        "rotZ": 1.8672119E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.5882506,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -30.999958,
+        "posY": 0.9940079,
+        "posZ": -19.0000916,
+        "rotX": 9.720901E-07,
+        "rotY": 90.03935,
+        "rotZ": -1.44290891E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.5882506,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -30.9999828,
+        "posY": 0.994007766,
+        "posZ": -21.0000172,
+        "rotX": 1.608588E-06,
+        "rotY": 90.03821,
+        "rotZ": -8.059818E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.5882506,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -31.0005112,
+        "posY": 0.993864954,
+        "posZ": -22.9947548,
+        "rotX": 359.985168,
+        "rotY": 90.11553,
+        "rotZ": 0.08256698,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.5882506,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -30.9998875,
+        "posY": 0.994007349,
+        "posZ": 1.00002635,
+        "rotX": 1.85297449E-06,
+        "rotY": 90.0371857,
+        "rotZ": 1.8541773E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.5882506,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -30.99994,
+        "posY": 0.9940075,
+        "posZ": 2.999916,
+        "rotX": -6.7502873E-07,
+        "rotY": 90.0377,
+        "rotZ": 1.7401585E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.5882506,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -30.9998131,
+        "posY": 0.994007945,
+        "posZ": 5.000095,
+        "rotX": 2.12942741E-05,
+        "rotY": 90.0360641,
+        "rotZ": 1.982905E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.5882506,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -30.9998,
+        "posY": 0.9940077,
+        "posZ": 9.000092,
+        "rotX": 1.90412684E-05,
+        "rotY": 90.03605,
+        "rotZ": -2.68711915E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.5882506,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -30.9998,
+        "posY": 0.994007468,
+        "posZ": 7.000105,
+        "rotX": 2.0308833E-05,
+        "rotY": 90.03656,
+        "rotZ": 9.969391E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.5882506,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -30.9998055,
+        "posY": 0.99400723,
+        "posZ": 11.0000916,
+        "rotX": -7.43691E-06,
+        "rotY": 90.0360947,
+        "rotZ": 1.18831822E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.5882506,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -30.9998074,
+        "posY": 0.9940076,
+        "posZ": 13.0000925,
+        "rotX": 2.19718663E-06,
+        "rotY": 90.03607,
+        "rotZ": 2.19857043E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.5882506,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -30.9999561,
+        "posY": 0.9940075,
+        "posZ": 14.9999208,
+        "rotX": -1.65102176E-06,
+        "rotY": 90.03819,
+        "rotZ": 7.635192E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.5882506,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -30.9999352,
+        "posY": 0.9940081,
+        "posZ": 16.9998283,
+        "rotX": 4.77256E-05,
+        "rotY": 90.0393143,
+        "rotZ": -5.36995976E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.5882506,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -30.99985,
+        "posY": 0.9940073,
+        "posZ": 19.00015,
+        "rotX": 1.84476647E-07,
+        "rotY": 90.04018,
+        "rotZ": 3.88355438E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.5882506,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -30.9999256,
+        "posY": 0.9940074,
+        "posZ": 20.9999123,
+        "rotX": 2.6795243E-07,
+        "rotY": 90.03787,
+        "rotZ": 2.68376539E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.5882506,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Wall",
+      "Transform": {
+        "posX": -30.9999313,
+        "posY": 0.9940076,
+        "posZ": 22.99984,
+        "rotX": 4.61845739E-05,
+        "rotY": 90.03914,
+        "rotZ": -5.76573257E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.5882506,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": false,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -40.99979,
+        "posY": 0.994006753,
+        "posZ": 23.0000725,
+        "rotX": 2.36844357E-07,
+        "rotY": 0.007994006,
+        "rotZ": 1.798536E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764834,
+        "g": 0.6764834,
+        "b": 0.6764834
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -39.0009,
+        "posY": 0.9940077,
+        "posZ": 22.9933834,
+        "rotX": 8.88917E-05,
+        "rotY": 359.94342,
+        "rotZ": -2.03633044E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -37.00091,
+        "posY": 0.9940077,
+        "posZ": 22.99349,
+        "rotX": 5.74970363E-05,
+        "rotY": 359.942932,
+        "rotZ": -1.96294477E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -35.00092,
+        "posY": 0.9940076,
+        "posZ": 22.9934845,
+        "rotX": 5.81672248E-05,
+        "rotY": 359.9436,
+        "rotZ": -2.02161609E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -33.0007973,
+        "posY": 0.9940077,
+        "posZ": 22.9933548,
+        "rotX": 0.00011897528,
+        "rotY": 359.942932,
+        "rotZ": 3.750271E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -33.0012436,
+        "posY": 0.9940076,
+        "posZ": 20.9874973,
+        "rotX": 0.0001291914,
+        "rotY": 359.897369,
+        "rotZ": 4.25091057E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -35.00103,
+        "posY": 0.994007647,
+        "posZ": 20.9874039,
+        "rotX": 5.826173E-05,
+        "rotY": 359.871246,
+        "rotZ": -1.97719055E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -37.0021324,
+        "posY": 0.9940076,
+        "posZ": 20.9875355,
+        "rotX": 5.7110683E-05,
+        "rotY": 359.87738,
+        "rotZ": -1.93991509E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -39.00213,
+        "posY": 0.994007766,
+        "posZ": 20.9874058,
+        "rotX": 8.82957756E-05,
+        "rotY": 359.8773,
+        "rotZ": -1.97091958E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -41.0022774,
+        "posY": 0.9940077,
+        "posZ": 20.994339,
+        "rotX": 3.201183E-07,
+        "rotY": 359.9545,
+        "rotZ": 3.166607E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -41.0025444,
+        "posY": 0.9940077,
+        "posZ": 18.9890079,
+        "rotX": 8.337835E-06,
+        "rotY": 359.886017,
+        "rotZ": -3.61469356E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -39.0005455,
+        "posY": 0.9940076,
+        "posZ": 18.984005,
+        "rotX": 0.000115043695,
+        "rotY": 359.78363,
+        "rotZ": -1.41405935E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -37.0005341,
+        "posY": 0.9940074,
+        "posZ": 18.9841557,
+        "rotX": 5.851181E-05,
+        "rotY": 359.783478,
+        "rotZ": -3.3023156E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -35.0004349,
+        "posY": 0.9940076,
+        "posZ": 18.98412,
+        "rotX": 5.843712E-05,
+        "rotY": 359.774353,
+        "rotZ": -3.31382071E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -33.0019722,
+        "posY": 0.9940075,
+        "posZ": 18.9818554,
+        "rotX": 8.969689E-05,
+        "rotY": 359.82193,
+        "rotZ": -2.10509152E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -33.00032,
+        "posY": 0.9940075,
+        "posZ": 16.9797916,
+        "rotX": 7.783586E-05,
+        "rotY": 359.721161,
+        "rotZ": 6.360704E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -34.9994,
+        "posY": 0.994007766,
+        "posZ": 16.9814129,
+        "rotX": 4.52061759E-05,
+        "rotY": 359.6719,
+        "rotZ": 9.849846E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -36.99963,
+        "posY": 0.9940076,
+        "posZ": 16.9813786,
+        "rotX": 8.37922562E-05,
+        "rotY": 359.6824,
+        "rotZ": -5.283689E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -38.9995422,
+        "posY": 0.9940075,
+        "posZ": 16.9811268,
+        "rotX": 0.000113838447,
+        "rotY": 359.67984,
+        "rotZ": -0.000103745384,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -41.0003662,
+        "posY": 0.994007647,
+        "posZ": 16.9849186,
+        "rotX": 3.582382E-07,
+        "rotY": 359.7591,
+        "rotZ": 2.860358E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -40.9980965,
+        "posY": 0.9940075,
+        "posZ": 14.9817038,
+        "rotX": 2.6020183E-07,
+        "rotY": 359.6119,
+        "rotZ": -1.25483254E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -38.99688,
+        "posY": 0.9940076,
+        "posZ": 14.9788847,
+        "rotX": 6.596957E-05,
+        "rotY": 359.5256,
+        "rotZ": -0.000104965169,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -36.9972572,
+        "posY": 0.994007468,
+        "posZ": 14.9786139,
+        "rotX": 2.84186117E-05,
+        "rotY": 359.56546,
+        "rotZ": -6.288307E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -34.9954453,
+        "posY": 0.994007468,
+        "posZ": 14.9775906,
+        "rotX": 2.94687488E-05,
+        "rotY": 359.4672,
+        "rotZ": 9.388954E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -32.9973755,
+        "posY": 0.9940075,
+        "posZ": 14.9769754,
+        "rotX": 2.91503657E-05,
+        "rotY": 359.537628,
+        "rotZ": -1.04391947E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -32.9939575,
+        "posY": 0.994007647,
+        "posZ": 12.97242,
+        "rotX": 3.6946265E-05,
+        "rotY": 359.4219,
+        "rotZ": 5.60043873E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -34.9901543,
+        "posY": 0.9940076,
+        "posZ": 12.97224,
+        "rotX": 2.95090778E-08,
+        "rotY": 359.302856,
+        "rotZ": 5.46742065E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -36.9916458,
+        "posY": 0.994007766,
+        "posZ": 12.9741573,
+        "rotX": 2.94541223E-05,
+        "rotY": 359.2218,
+        "rotZ": 9.370394E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -38.9906578,
+        "posY": 0.9940075,
+        "posZ": 12.9738874,
+        "rotX": -7.403241E-06,
+        "rotY": 359.158966,
+        "rotZ": -3.67532375E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -40.993042,
+        "posY": 0.994007766,
+        "posZ": 12.977704,
+        "rotX": 3.10758224E-07,
+        "rotY": 359.326965,
+        "rotZ": 2.764006E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -40.98973,
+        "posY": 0.9940077,
+        "posZ": 10.9779329,
+        "rotX": 2.17015867E-07,
+        "rotY": 359.231476,
+        "rotZ": -1.23119847E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -38.9916649,
+        "posY": 0.994007766,
+        "posZ": 10.9840059,
+        "rotX": -6.30309842E-06,
+        "rotY": 359.088776,
+        "rotZ": -3.39777471E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -36.9896736,
+        "posY": 0.9940076,
+        "posZ": 10.9845247,
+        "rotX": 2.95160262E-05,
+        "rotY": 359.157837,
+        "rotZ": 9.184234E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -34.9919662,
+        "posY": 0.9940076,
+        "posZ": 10.9813566,
+        "rotX": 4.889196E-07,
+        "rotY": 359.2146,
+        "rotZ": -1.3463054E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -32.9961052,
+        "posY": 0.9940076,
+        "posZ": 10.9825792,
+        "rotX": 2.788025E-07,
+        "rotY": 359.391937,
+        "rotZ": -3.37777344E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -32.9894142,
+        "posY": 0.9940075,
+        "posZ": 8.97891,
+        "rotX": -5.283271E-06,
+        "rotY": 359.058136,
+        "rotZ": 3.470472E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -34.9885063,
+        "posY": 0.9940077,
+        "posZ": 8.977283,
+        "rotX": -1.05059453E-05,
+        "rotY": 359.170135,
+        "rotZ": 3.13355158E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -36.9843864,
+        "posY": 0.994007766,
+        "posZ": 8.982356,
+        "rotX": 3.61071756E-07,
+        "rotY": 359.020752,
+        "rotZ": 3.566769E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -38.98835,
+        "posY": 0.9940074,
+        "posZ": 8.978104,
+        "rotX": -1.05311492E-05,
+        "rotY": 359.111847,
+        "rotZ": 3.186722E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -40.99153,
+        "posY": 0.994007468,
+        "posZ": 8.984088,
+        "rotX": 5.432645E-06,
+        "rotY": 359.176666,
+        "rotZ": 2.80937529E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -40.9827156,
+        "posY": 0.994007647,
+        "posZ": 6.98167658,
+        "rotX": -8.462575E-06,
+        "rotY": 358.97876,
+        "rotZ": 2.178721E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -38.9889,
+        "posY": 0.994007468,
+        "posZ": 6.984744,
+        "rotX": 1.02350405E-05,
+        "rotY": 359.141022,
+        "rotZ": -3.38661557E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -36.990078,
+        "posY": 0.9940076,
+        "posZ": 6.985465,
+        "rotX": 1.17641512E-05,
+        "rotY": 359.031616,
+        "rotZ": -3.16149126E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -34.9898071,
+        "posY": 0.9940076,
+        "posZ": 6.98428869,
+        "rotX": 1.05050816E-07,
+        "rotY": 359.130371,
+        "rotZ": 2.093343E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -32.98792,
+        "posY": 0.99400723,
+        "posZ": 6.98476744,
+        "rotX": 1.15166913E-05,
+        "rotY": 359.059052,
+        "rotZ": -3.2664746E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -32.9840164,
+        "posY": 0.9940074,
+        "posZ": 4.98237038,
+        "rotX": 0.0057836147,
+        "rotY": 359.023651,
+        "rotZ": 6.525023E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -34.984745,
+        "posY": 0.9940074,
+        "posZ": 4.982614,
+        "rotX": 6.326433E-06,
+        "rotY": 359.0314,
+        "rotZ": 5.18651859E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -36.9819641,
+        "posY": 0.994007647,
+        "posZ": 4.98280048,
+        "rotX": 6.084787E-08,
+        "rotY": 359.04834,
+        "rotZ": 8.725302E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -38.98388,
+        "posY": 0.994007468,
+        "posZ": 4.982991,
+        "rotX": 4.89337253E-07,
+        "rotY": 359.054138,
+        "rotZ": -1.357553E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -33.00061,
+        "posY": 0.994003057,
+        "posZ": 3.00020885,
+        "rotX": -0.00330438931,
+        "rotY": 0.0072990586,
+        "rotZ": -0.00407351041,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -40.98207,
+        "posY": 0.994007468,
+        "posZ": 4.98367834,
+        "rotX": -1.11705021E-05,
+        "rotY": 359.0651,
+        "rotZ": -3.17162448E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -34.98354,
+        "posY": 0.994012,
+        "posZ": 2.98199272,
+        "rotX": -0.00222903048,
+        "rotY": 358.987762,
+        "rotZ": 0.00426894845,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -36.9804039,
+        "posY": 0.9940076,
+        "posZ": 2.98108435,
+        "rotX": 2.711231E-07,
+        "rotY": 358.941528,
+        "rotZ": 1.05825507E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -38.9817963,
+        "posY": 0.9940077,
+        "posZ": 2.981524,
+        "rotX": -4.63916734E-07,
+        "rotY": 359.002655,
+        "rotZ": 7.6910367E-10,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -40.9828529,
+        "posY": 0.994007647,
+        "posZ": 2.98201632,
+        "rotX": 3.00428439E-07,
+        "rotY": 359.034332,
+        "rotZ": -3.59381573E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -33.001194,
+        "posY": 0.9940076,
+        "posZ": 0.995204031,
+        "rotX": 5.977882E-07,
+        "rotY": 359.8563,
+        "rotZ": 4.19173851E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -34.982605,
+        "posY": 0.9940074,
+        "posZ": 0.9835034,
+        "rotX": 2.8186102E-07,
+        "rotY": 359.037354,
+        "rotZ": -2.58041865E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -36.98224,
+        "posY": 0.994007349,
+        "posZ": 0.98323375,
+        "rotX": 6.731359E-07,
+        "rotY": 359.022736,
+        "rotZ": 3.25780263E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -38.9820328,
+        "posY": 0.9940076,
+        "posZ": 0.9835196,
+        "rotX": -5.371462E-07,
+        "rotY": 359.061127,
+        "rotZ": -6.85757655E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -40.98485,
+        "posY": 0.9940076,
+        "posZ": 0.9827249,
+        "rotX": 2.80225958E-08,
+        "rotY": 358.992065,
+        "rotZ": -1.39496494E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -33.0001068,
+        "posY": 0.9940076,
+        "posZ": -1.00917315,
+        "rotX": 2.03463628E-06,
+        "rotY": 359.723755,
+        "rotZ": 1.26536577E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -34.9836426,
+        "posY": 0.994006,
+        "posZ": -1.01881158,
+        "rotX": 0.00879328,
+        "rotY": 358.986664,
+        "rotZ": 0.00203472818,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -36.9847145,
+        "posY": 0.9940076,
+        "posZ": -1.01558614,
+        "rotX": 1.16731824E-08,
+        "rotY": 359.107178,
+        "rotZ": 2.229216E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -38.9865074,
+        "posY": 0.994007468,
+        "posZ": -1.01658869,
+        "rotX": 8.10273434E-07,
+        "rotY": 359.117676,
+        "rotZ": -6.289763E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -40.9828949,
+        "posY": 0.994007766,
+        "posZ": -1.01734459,
+        "rotX": 2.53698067E-06,
+        "rotY": 359.035431,
+        "rotZ": -2.35760609E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -40.98512,
+        "posY": 0.994007349,
+        "posZ": -3.01526642,
+        "rotX": 3.4091417E-07,
+        "rotY": 359.10318,
+        "rotZ": 3.21404542E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -38.985218,
+        "posY": 0.9940075,
+        "posZ": -3.01524758,
+        "rotX": 1.73262492E-07,
+        "rotY": 359.103333,
+        "rotZ": 3.32247254E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -36.9856529,
+        "posY": 0.994007647,
+        "posZ": -3.01599121,
+        "rotX": -5.717883E-08,
+        "rotY": 359.0735,
+        "rotZ": 1.18909405E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -32.99777,
+        "posY": 0.9940075,
+        "posZ": -3.01332188,
+        "rotX": 4.75212062E-07,
+        "rotY": 359.555756,
+        "rotZ": -1.54732518E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -35.00131,
+        "posY": 0.9940081,
+        "posZ": -3.00036716,
+        "rotX": 359.9914,
+        "rotY": 359.950928,
+        "rotZ": -0.001907747,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -33.0007668,
+        "posY": 0.994007647,
+        "posZ": -6.999559,
+        "rotX": -4.24853681E-08,
+        "rotY": 0.0559765548,
+        "rotZ": -4.44546657E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -34.9993935,
+        "posY": 0.9940076,
+        "posZ": -5.00534725,
+        "rotX": -3.40721226E-06,
+        "rotY": 359.81015,
+        "rotZ": 2.86702561E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -32.99225,
+        "posY": 0.9940076,
+        "posZ": -5.01694345,
+        "rotX": 2.08794631E-06,
+        "rotY": 359.31955,
+        "rotZ": -3.18985622E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -36.9840927,
+        "posY": 0.9940076,
+        "posZ": -5.01618242,
+        "rotX": 1.1243088E-05,
+        "rotY": 359.1284,
+        "rotZ": -3.24991524E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -38.987236,
+        "posY": 0.9940077,
+        "posZ": -5.01564646,
+        "rotX": 6.78250444E-06,
+        "rotY": 359.1407,
+        "rotZ": -3.588057E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -40.9872322,
+        "posY": 0.9940076,
+        "posZ": -5.01566029,
+        "rotX": 1.12783173E-05,
+        "rotY": 359.13974,
+        "rotZ": -3.30693656E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -40.98532,
+        "posY": 0.994007766,
+        "posZ": -7.015923,
+        "rotX": 4.25239023E-07,
+        "rotY": 359.1074,
+        "rotZ": -1.44596839E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -38.98532,
+        "posY": 0.9940076,
+        "posZ": -7.01593733,
+        "rotX": -3.19255673E-06,
+        "rotY": 359.1073,
+        "rotZ": 2.37397353E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -36.9850769,
+        "posY": 0.994007766,
+        "posZ": -7.01521969,
+        "rotX": 3.440604E-07,
+        "rotY": 359.107147,
+        "rotZ": 1.49365917E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -34.9986153,
+        "posY": 0.9940078,
+        "posZ": -7.010024,
+        "rotX": 1.40539214E-07,
+        "rotY": 359.674561,
+        "rotZ": 5.08195477E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -33.00394,
+        "posY": 0.994007766,
+        "posZ": -9.004282,
+        "rotX": -1.3360097E-05,
+        "rotY": 0.020093102,
+        "rotZ": 3.08349627E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -34.9967537,
+        "posY": 0.994007766,
+        "posZ": -9.014354,
+        "rotX": -5.80022743E-06,
+        "rotY": 359.490479,
+        "rotZ": -3.32816562E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -36.9829369,
+        "posY": 0.994007349,
+        "posZ": -9.017234,
+        "rotX": -7.39741154E-06,
+        "rotY": 359.037659,
+        "rotZ": -3.68404981E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -38.986,
+        "posY": 0.9940077,
+        "posZ": -9.017461,
+        "rotX": -3.517123E-06,
+        "rotY": 359.032349,
+        "rotZ": 2.98903724E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -40.9855957,
+        "posY": 0.99400723,
+        "posZ": -9.017482,
+        "rotX": -1.37798852E-05,
+        "rotY": 359.0324,
+        "rotZ": 2.69130287E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -33.0020638,
+        "posY": 0.9940077,
+        "posZ": -11.0092583,
+        "rotX": 1.15629027E-05,
+        "rotY": 359.974884,
+        "rotZ": 3.19856986E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -34.9885,
+        "posY": 0.9940075,
+        "posZ": -11.0186281,
+        "rotX": 9.174873E-06,
+        "rotY": 359.173553,
+        "rotZ": 9.447259E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -38.9851875,
+        "posY": 0.994007349,
+        "posZ": -11.01761,
+        "rotX": -4.056859E-08,
+        "rotY": 359.006042,
+        "rotZ": -1.39392739E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -40.9830971,
+        "posY": 0.994007468,
+        "posZ": -11.0181293,
+        "rotX": 3.84319463E-07,
+        "rotY": 358.976654,
+        "rotZ": -7.96907855E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -36.9839058,
+        "posY": 0.9940076,
+        "posZ": -11.0175018,
+        "rotX": 8.72192E-06,
+        "rotY": 358.987457,
+        "rotZ": 9.211007E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -33.0028419,
+        "posY": 0.994007647,
+        "posZ": -13.0134592,
+        "rotX": -2.15904183E-08,
+        "rotY": 359.885254,
+        "rotZ": 2.277325E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -34.9854355,
+        "posY": 0.9940076,
+        "posZ": -13.01944,
+        "rotX": -2.06910681E-05,
+        "rotY": 358.9491,
+        "rotZ": 7.702703E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -36.9833069,
+        "posY": 0.994007349,
+        "posZ": -13.0164843,
+        "rotX": -8.037043E-06,
+        "rotY": 359.051941,
+        "rotZ": 9.364454E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -38.9856834,
+        "posY": 0.9940074,
+        "posZ": -13.0167456,
+        "rotX": -2.56829864E-08,
+        "rotY": 359.059479,
+        "rotZ": -1.74255E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -40.9833641,
+        "posY": 0.9940074,
+        "posZ": -13.0173149,
+        "rotX": 4.541646E-07,
+        "rotY": 359.05426,
+        "rotZ": 2.692519E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -33.000618,
+        "posY": 0.994007349,
+        "posZ": -15.0179052,
+        "rotX": 4.57481121E-07,
+        "rotY": 359.731628,
+        "rotZ": 2.34081412E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -34.98277,
+        "posY": 0.994007468,
+        "posZ": -15.016407,
+        "rotX": -1.10606852E-05,
+        "rotY": 359.034241,
+        "rotZ": 2.81195821E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -36.98875,
+        "posY": 0.9940074,
+        "posZ": -15.013936,
+        "rotX": -1.40830991E-08,
+        "rotY": 359.2704,
+        "rotZ": 5.38236344E-09,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -38.981575,
+        "posY": 0.994007349,
+        "posZ": -15.018446,
+        "rotX": -3.877947E-08,
+        "rotY": 358.977325,
+        "rotZ": 2.61542851E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -40.98238,
+        "posY": 0.9940074,
+        "posZ": -15.01764,
+        "rotX": 7.252616E-06,
+        "rotY": 358.984833,
+        "rotZ": -5.854072E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -32.9972649,
+        "posY": 0.994007468,
+        "posZ": -17.021101,
+        "rotX": 2.09277664E-06,
+        "rotY": 359.577026,
+        "rotZ": -2.254548E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -34.98289,
+        "posY": 0.9940074,
+        "posZ": -17.01814,
+        "rotX": 2.14634583E-05,
+        "rotY": 359.023651,
+        "rotZ": -4.273382E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -38.98216,
+        "posY": 0.994007349,
+        "posZ": -17.0162563,
+        "rotX": 2.1265203E-05,
+        "rotY": 359.063629,
+        "rotZ": -5.246741E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -37.0088844,
+        "posY": 0.994007349,
+        "posZ": -17.0277462,
+        "rotX": 0.002951132,
+        "rotY": 359.344849,
+        "rotZ": -9.06457863E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -40.9823532,
+        "posY": 0.99400723,
+        "posZ": -17.0162678,
+        "rotX": -2.19012963E-05,
+        "rotY": 359.0404,
+        "rotZ": 5.94402854E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -32.9908676,
+        "posY": 0.994007349,
+        "posZ": -19.0256882,
+        "rotX": -7.08017251E-06,
+        "rotY": 359.2242,
+        "rotZ": 2.71651625E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -34.98259,
+        "posY": 0.994007468,
+        "posZ": -19.0163555,
+        "rotX": -2.68885833E-05,
+        "rotY": 359.0378,
+        "rotZ": 4.7545378E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -36.9939766,
+        "posY": 0.994007349,
+        "posZ": -18.9965916,
+        "rotX": -0.002840796,
+        "rotY": 359.178467,
+        "rotZ": -1.369909E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -38.9828644,
+        "posY": 0.9940073,
+        "posZ": -19.0179234,
+        "rotX": 1.71858883E-05,
+        "rotY": 359.035583,
+        "rotZ": -1.90014653E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -40.9848251,
+        "posY": 0.994007349,
+        "posZ": -19.0180359,
+        "rotX": 2.599122E-07,
+        "rotY": 359.028778,
+        "rotZ": 3.258243E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -32.9905052,
+        "posY": 0.994016647,
+        "posZ": -21.0165234,
+        "rotX": 0.0124603892,
+        "rotY": 359.0222,
+        "rotZ": 0.00224721315,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -34.986824,
+        "posY": 0.994007468,
+        "posZ": -21.01655,
+        "rotX": 1.620089E-05,
+        "rotY": 359.1191,
+        "rotZ": 1.801439E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -36.9913368,
+        "posY": 0.994007468,
+        "posZ": -21.0081959,
+        "rotX": 2.091024E-07,
+        "rotY": 359.581024,
+        "rotZ": 3.3684853E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -38.9809151,
+        "posY": 0.993984938,
+        "posZ": -21.0179234,
+        "rotX": 0.106528684,
+        "rotY": 358.951752,
+        "rotZ": 359.952972,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -40.98583,
+        "posY": 0.994007349,
+        "posZ": -21.0167656,
+        "rotX": -3.15078523E-08,
+        "rotY": 359.057526,
+        "rotZ": 9.483595E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -33.0054169,
+        "posY": 0.9939922,
+        "posZ": -22.9986324,
+        "rotX": 0.001420122,
+        "rotY": 0.0217403639,
+        "rotZ": 0.0106597366,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -35.0053368,
+        "posY": 0.9940066,
+        "posZ": -22.997797,
+        "rotX": 0.00311630429,
+        "rotY": 359.926849,
+        "rotZ": 0.000275524857,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -36.9841232,
+        "posY": 0.9940218,
+        "posZ": -23.0084763,
+        "rotX": 0.0569909438,
+        "rotY": 359.5746,
+        "rotZ": 359.9636,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -38.99939,
+        "posY": 1.01346576,
+        "posZ": -23.0003548,
+        "rotX": 1.41175747,
+        "rotY": 359.942841,
+        "rotZ": 0.13492997,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -40.99202,
+        "posY": 0.9939959,
+        "posZ": -23.00622,
+        "rotX": 0.0381282233,
+        "rotY": 359.46936,
+        "rotZ": 359.977875,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -30.75027,
+        "posY": 1.37093723,
+        "posZ": -24.748167,
+        "rotX": 359.983246,
+        "rotY": 359.757355,
+        "rotZ": 0.0819634944,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764834,
+        "g": 0.6764834,
+        "b": 0.6764834
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -30.77231,
+        "posY": 1.65210235,
+        "posZ": -24.7883549,
+        "rotX": 359.860443,
+        "rotY": 1.01378322,
+        "rotZ": 0.06444064,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -30.7631264,
+        "posY": 1.93428707,
+        "posZ": -24.7851467,
+        "rotX": 359.8245,
+        "rotY": 1.882782,
+        "rotZ": 0.124231473,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -30.7852764,
+        "posY": 2.217041,
+        "posZ": -24.7936115,
+        "rotX": 359.807556,
+        "rotY": 359.945679,
+        "rotZ": 0.161644116,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -30.77918,
+        "posY": 2.500529,
+        "posZ": -24.7747612,
+        "rotX": 359.808319,
+        "rotY": 359.399323,
+        "rotZ": 0.194484174,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -30.7536011,
+        "posY": 1.371362,
+        "posZ": 24.7549458,
+        "rotX": 359.97,
+        "rotY": 0.192841336,
+        "rotZ": 0.00795242,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -30.74295,
+        "posY": 1.65257955,
+        "posZ": 24.7612648,
+        "rotX": 359.8248,
+        "rotY": 0.5825641,
+        "rotZ": 359.979523,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -30.7799568,
+        "posY": 1.93452859,
+        "posZ": 24.7720661,
+        "rotX": 359.704773,
+        "rotY": 0.262358338,
+        "rotZ": 0.00340951234,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -30.7499065,
+        "posY": 2.21706176,
+        "posZ": 24.7474289,
+        "rotX": 359.6309,
+        "rotY": 0.9724595,
+        "rotZ": 0.0220243651,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "Tileset_Floor",
+      "Transform": {
+        "posX": -30.7505283,
+        "posY": 2.50067186,
+        "posZ": 24.74164,
+        "rotX": 359.605927,
+        "rotY": 0.193858013,
+        "rotZ": 0.0444468,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.6764877,
+        "g": 0.6764877,
+        "b": 0.6764877
+      },
+      "Grid": true,
+      "Locked": true,
+      "GUID": ""
+    },
+    {
+      "Name": "FogOfWarTrigger",
+      "Transform": {
+        "posX": -37.6610756,
+        "posY": 4.75452852,
+        "posZ": 0.6209259,
+        "rotX": 0.0,
+        "rotY": 89.39883,
+        "rotZ": 0.0,
+        "scaleX": 54.1955948,
+        "scaleY": 3.5,
+        "scaleZ": 14.4560461
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": true,
+      "Locked": true,
+      "FogColor": "White",
+      "FogHidePointers": false,
+      "GUID": ""
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": -34.9999657,
+        "posY": 1.09578156,
+        "posZ": 20.9999886,
+        "rotX": 2.00044942E-05,
+        "rotY": 0.00752103468,
+        "rotZ": -9.688268E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "DM Dice Bag",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9411783,
+        "g": 0.4887008,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "Number": 0,
+      "GUID": ""
+    },
+    {
+      "Name": "Digital_Clock",
+      "Transform": {
+        "posX": -39.00127,
+        "posY": 1.01304209,
+        "posZ": 35.00057,
+        "rotX": -1.28823076E-05,
+        "rotY": 359.7026,
+        "rotZ": 9.029275E-06,
+        "scaleX": 1.75,
+        "scaleY": 1.75,
+        "scaleZ": 1.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.779418,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Grid": true,
+      "Locked": true,
+      "Clock": {
+        "ClockState": 0,
+        "SecondsPassed": 0,
+        "Paused": false
+      },
+      "GUID": ""
+    },
+    {
+      "Name": "Tablet",
+      "Transform": {
+        "posX": -12.8184977,
+        "posY": 6.704214,
+        "posZ": 30.7553425,
+        "rotX": 54.2719,
+        "rotY": 181.453415,
+        "rotZ": -0.001343572,
+        "scaleX": 2.0,
+        "scaleY": 2.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "Reference",
+      "Description": "Click top right in browser to make larger",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Grid": false,
+      "Locked": true,
+      "Tablet": {
+        "PageURL": "http://www.d20pfsrd.com/"
+      },
+      "GUID": ""
+    }
+  ]
+}

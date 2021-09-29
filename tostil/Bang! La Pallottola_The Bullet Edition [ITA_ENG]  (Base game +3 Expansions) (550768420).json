@@ -1,0 +1,2341 @@
+{
+  "SaveName": "Bang! La Pallottola/The Bullet Edition [ITA/ENG]  (Base game +3 Expansions)",
+  "GameMode": "Bang! La Pallottola/The Bullet Edition [ITA/ENG]",
+  "Date": "11/19/2015 9:13:29 PM",
+  "Table": "Table_Circular",
+  "Sky": "Sky_Forest",
+  "Note": "",
+  "Rules": "",
+  "PlayerTurn": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 0.5,
+    "ySize": 0.5,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hidding": 0
+  },
+  "DrawImage": "iVBORw0KGgoAAAANSUhEUgAAAWAAAADQCAYAAAA53LuNAAAFFElEQVR4Ae3QgQAAAADDoPlTH+SFUGHAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgy8DQx5DAABHyNK3wAAAABJRU5ErkJggg==",
+  "VectorLines": [],
+  "ObjectStates": [
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -2.24934149,
+        "posY": 1.30480421,
+        "posZ": -3.0763402,
+        "rotX": 1.761765E-05,
+        "rotY": 179.315048,
+        "rotZ": -1.17733853E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Ruoli/Roles",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713270366,
+        "g": 0.713270366,
+        "b": 0.713270366
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        107,
+        106,
+        105,
+        104,
+        103,
+        102,
+        101,
+        100
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "http://i.imgur.com/Fzp1bw7.jpg",
+          "BackURL": "http://i.imgur.com/CBr1o3v.jpg{Unique}"
+        }
+      },
+      "GUID": "4eede7"
+    },
+    {
+      "Name": "DeckCustom",
+      "Transform": {
+        "posX": 6.63959,
+        "posY": 1.46914065,
+        "posZ": 0.0169711951,
+        "rotX": 2.22117815E-05,
+        "rotY": 180.328369,
+        "rotZ": 180.000092,
+        "scaleX": 2.5,
+        "scaleY": 2.5,
+        "scaleZ": 2.5
+      },
+      "Nickname": "Rules",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7132586,
+        "g": 0.7132586,
+        "b": 0.7132586
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        400,
+        401,
+        402,
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409,
+        410,
+        411
+      ],
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "http://i.imgur.com/Bul5XB9.jpg",
+          "BackURL": "http://i.imgur.com/Bul5XB9.jpg{Unique}"
+        }
+      },
+      "GUID": "ddf6ba"
+    },
+    {
+      "Name": "DeckCustom",
+      "Transform": {
+        "posX": 0.5336756,
+        "posY": 1.35443926,
+        "posZ": -5.736018,
+        "rotX": 3.37448114E-06,
+        "rotY": 180.641479,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Mezzogiorno di Fuoco/High Noon",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7132586,
+        "g": 0.7132586,
+        "b": 0.7132586
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        500,
+        501,
+        502,
+        503,
+        504,
+        505,
+        506,
+        507,
+        508,
+        509,
+        510,
+        511,
+        512,
+        513,
+        514
+      ],
+      "CustomDeck": {
+        "5": {
+          "FaceURL": "http://i.imgur.com/uMudwDX.jpg",
+          "BackURL": "http://i.imgur.com/pOYQiDB.jpg{Unique}"
+        }
+      },
+      "GUID": "d8de2f"
+    },
+    {
+      "Name": "DeckCustom",
+      "Transform": {
+        "posX": -5.1497736,
+        "posY": 1.30480468,
+        "posZ": -3.13467526,
+        "rotX": 1.52046223E-05,
+        "rotY": 179.8396,
+        "rotZ": -3.28096539E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Carte Riepilogative/Summary Cards",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7132586,
+        "g": 0.7132586,
+        "b": 0.7132586
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "SidewaysCard": true,
+      "DeckIDs": [
+        600,
+        601,
+        602,
+        603,
+        604,
+        605,
+        606,
+        607
+      ],
+      "CustomDeck": {
+        "6": {
+          "FaceURL": "http://i.imgur.com/jQ0BQf4.jpg",
+          "BackURL": "http://i.imgur.com/W0KZ8QH.jpg{Unique}"
+        }
+      },
+      "GUID": "5e1219"
+    },
+    {
+      "Name": "DeckCustom",
+      "Transform": {
+        "posX": 3.145301,
+        "posY": 1.35444391,
+        "posZ": -5.69036674,
+        "rotX": 1.725121E-05,
+        "rotY": 179.911469,
+        "rotZ": 180.0002,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Per un Pugno di Carte/A Fistful of Cards",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7132586,
+        "g": 0.7132586,
+        "b": 0.7132586
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        700,
+        701,
+        702,
+        703,
+        704,
+        705,
+        706,
+        707,
+        708,
+        709,
+        710,
+        711,
+        712,
+        713,
+        714
+      ],
+      "CustomDeck": {
+        "7": {
+          "FaceURL": "http://i.imgur.com/XnBQqkC.jpg",
+          "BackURL": "http://i.imgur.com/rf963bQ.jpg{Unique}"
+        }
+      },
+      "GUID": "5dd1fe"
+    },
+    {
+      "Name": "DeckCustom",
+      "Transform": {
+        "posX": 2.51430321,
+        "posY": 1.46914244,
+        "posZ": 0.12961261,
+        "rotX": 1.045283E-05,
+        "rotY": 180.017273,
+        "rotZ": 180.0,
+        "scaleX": 2.5,
+        "scaleY": 2.5,
+        "scaleZ": 2.5
+      },
+      "Nickname": "Regolamento",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713262558,
+        "g": 0.713262558,
+        "b": 0.713262558
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311
+      ],
+      "CustomDeck": {
+        "3": {
+          "FaceURL": "http://i.imgur.com/Rs1xxWw.jpg",
+          "BackURL": "http://i.imgur.com/Rs1xxWw.jpg{Unique}"
+        }
+      },
+      "GUID": "f91fff"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -0.9730409,
+        "posY": 1.700856,
+        "posZ": 4.876118,
+        "rotX": -1.22810974E-07,
+        "rotY": 179.9683,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Carte da gioco/Playing cards",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7132586,
+        "g": 0.7132586,
+        "b": 0.7132586
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        940,
+        841,
+        846,
+        945,
+        937,
+        809,
+        916,
+        832,
+        953,
+        904,
+        957,
+        823,
+        960,
+        921,
+        818,
+        844,
+        938,
+        962,
+        827,
+        911,
+        918,
+        903,
+        908,
+        830,
+        933,
+        929,
+        930,
+        917,
+        920,
+        902,
+        802,
+        834,
+        965,
+        907,
+        946,
+        838,
+        819,
+        829,
+        967,
+        814,
+        843,
+        968,
+        912,
+        914,
+        817,
+        926,
+        919,
+        849,
+        900,
+        905,
+        936,
+        825,
+        811,
+        923,
+        824,
+        924,
+        909,
+        840,
+        913,
+        947,
+        952,
+        927,
+        842,
+        836,
+        833,
+        951,
+        922,
+        966,
+        958,
+        835,
+        901,
+        804,
+        956,
+        955,
+        828,
+        948,
+        939,
+        803,
+        850,
+        837
+      ],
+      "CustomDeck": {
+        "9": {
+          "FaceURL": "http://i.imgur.com/HuxZ3Hd.jpg",
+          "BackURL": "http://i.imgur.com/deoyaJh.jpg{Unique}"
+        },
+        "8": {
+          "FaceURL": "http://i.imgur.com/npUF5Yo.jpg",
+          "BackURL": "http://i.imgur.com/enY6DtR.jpg{Unique}"
+        }
+      },
+      "GUID": "ff151b"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -3.815903,
+        "posY": 1.48768139,
+        "posZ": 4.80642939,
+        "rotX": -7.822076E-06,
+        "rotY": 179.6932,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Carte Dodge City/Dodge City's Cards",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7132586,
+        "g": 0.7132586,
+        "b": 0.7132586
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        942,
+        961,
+        928,
+        810,
+        963,
+        820,
+        805,
+        800,
+        944,
+        807,
+        915,
+        910,
+        964,
+        941,
+        932,
+        808,
+        812,
+        839,
+        906,
+        935,
+        931,
+        831,
+        925,
+        848,
+        959,
+        949,
+        943,
+        847,
+        934,
+        815,
+        950,
+        845,
+        826,
+        954,
+        806,
+        816,
+        813,
+        801,
+        822,
+        821
+      ],
+      "CustomDeck": {
+        "9": {
+          "FaceURL": "http://i.imgur.com/HuxZ3Hd.jpg",
+          "BackURL": "http://i.imgur.com/deoyaJh.jpg{Unique}"
+        },
+        "8": {
+          "FaceURL": "http://i.imgur.com/npUF5Yo.jpg",
+          "BackURL": "http://i.imgur.com/enY6DtR.jpg{Unique}"
+        }
+      },
+      "GUID": "78a105"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -3.201088,
+        "posY": 1.33511972,
+        "posZ": 0.873292267,
+        "rotX": 9.450004E-06,
+        "rotY": 179.986359,
+        "rotZ": 1.07355363E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Personaggi di Dodge City/Dodge City's Characters",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713270366,
+        "g": 0.713270366,
+        "b": 0.713270366
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        233,
+        232,
+        230,
+        228,
+        225,
+        224,
+        222,
+        219,
+        217,
+        213,
+        211,
+        208,
+        207,
+        203,
+        200
+      ],
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "http://i.imgur.com/gIJXU4L.jpg",
+          "BackURL": "http://i.imgur.com/V3fq2zF.jpg{Unique}"
+        }
+      },
+      "GUID": "b4390f"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -0.948796451,
+        "posY": 1.33944893,
+        "posZ": 0.87996453,
+        "rotX": -7.29318663E-06,
+        "rotY": 179.665344,
+        "rotZ": -2.82449128E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Personaggi/Characters",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713270366,
+        "g": 0.713270366,
+        "b": 0.713270366
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        231,
+        227,
+        226,
+        223,
+        221,
+        220,
+        216,
+        215,
+        214,
+        212,
+        210,
+        209,
+        206,
+        205,
+        204,
+        201
+      ],
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "http://i.imgur.com/gIJXU4L.jpg",
+          "BackURL": "http://i.imgur.com/V3fq2zF.jpg{Unique}"
+        }
+      },
+      "GUID": "3e36c4"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -5.427845,
+        "posY": 1.32258582,
+        "posZ": 0.8314537,
+        "rotX": 9.214761E-06,
+        "rotY": 179.989883,
+        "rotZ": -2.204992E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Personaggi Speciali/Special Characters",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7132782,
+        "g": 0.7132782,
+        "b": 0.7132782
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        202,
+        229,
+        218
+      ],
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "http://i.imgur.com/gIJXU4L.jpg",
+          "BackURL": "http://i.imgur.com/V3fq2zF.jpg{Unique}"
+        }
+      },
+      "GUID": "814d7c"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -4.8713007,
+        "posY": 1.19024813,
+        "posZ": -8.605963,
+        "rotX": -1.42337894E-05,
+        "rotY": 270.031647,
+        "rotZ": 1.53621677E-05,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "bc3604"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -0.147179246,
+        "posY": 1.06575453,
+        "posZ": 11.3165112,
+        "rotX": -1.44847081E-05,
+        "rotY": 0.00312041934,
+        "rotZ": 9.195204E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Plancia di gioco/Play mat",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/gycjV4B.jpg",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.145000011,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "f5030e"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -2.81239438,
+        "posY": 1.19024849,
+        "posZ": -9.527488,
+        "rotX": 0.000121811783,
+        "rotY": 224.567917,
+        "rotZ": 1.15225475E-05,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "2fdddb"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -1.5793885,
+        "posY": 1.19024885,
+        "posZ": -9.389456,
+        "rotX": 7.708909E-05,
+        "rotY": 225.018585,
+        "rotZ": 8.007204E-06,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "e116c8"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -0.143534869,
+        "posY": 1.19024873,
+        "posZ": -9.483914,
+        "rotX": 9.16794852E-06,
+        "rotY": 225.019226,
+        "rotZ": 1.25981178E-05,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "78c451"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 1.11723948,
+        "posY": 1.19024873,
+        "posZ": -9.399999,
+        "rotX": 1.7874203E-05,
+        "rotY": 225.027313,
+        "rotZ": 5.183912E-06,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "537e7b"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 2.456121,
+        "posY": 1.19024885,
+        "posZ": -9.368954,
+        "rotX": 2.31588219E-05,
+        "rotY": 224.986542,
+        "rotZ": -6.57092642E-07,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "e3879a"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -5.77640772,
+        "posY": 1.19024849,
+        "posZ": -7.55989456,
+        "rotX": -7.917501E-06,
+        "rotY": 269.991577,
+        "rotZ": 1.44807691E-05,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "ab873c"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -6.678798,
+        "posY": 1.19024873,
+        "posZ": -6.60825348,
+        "rotX": 1.62149786E-06,
+        "rotY": 270.0287,
+        "rotZ": 1.59510437E-05,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "52b678"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -7.671226,
+        "posY": 1.19024909,
+        "posZ": -5.733634,
+        "rotX": -7.481415E-06,
+        "rotY": 270.022156,
+        "rotZ": 1.37745665E-05,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "b6e374"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -8.607327,
+        "posY": 1.19024932,
+        "posZ": -4.768886,
+        "rotX": -1.69222164E-06,
+        "rotY": 270.0321,
+        "rotZ": 1.32188679E-05,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "e816f1"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -8.597151,
+        "posY": 1.19025135,
+        "posZ": 4.74425936,
+        "rotX": -2.55565265E-05,
+        "rotY": 359.843536,
+        "rotZ": 1.06132011E-05,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "8f7d7a"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -9.471429,
+        "posY": 1.19024992,
+        "posZ": -2.82138181,
+        "rotX": 3.75745941E-07,
+        "rotY": 315.003632,
+        "rotZ": 9.07585E-06,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "8a667d"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -9.492637,
+        "posY": 1.19025028,
+        "posZ": -1.429335,
+        "rotX": -2.38776875E-06,
+        "rotY": 315.0233,
+        "rotZ": 7.732588E-06,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "0e24ed"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -9.560687,
+        "posY": 1.19025052,
+        "posZ": -0.1705049,
+        "rotX": -6.06471531E-06,
+        "rotY": 315.040833,
+        "rotZ": 8.445054E-06,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "3cf1c3"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -9.4950285,
+        "posY": 1.19025075,
+        "posZ": 1.20491636,
+        "rotX": -1.1819795E-05,
+        "rotY": 314.992554,
+        "rotZ": 6.141489E-06,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "18b243"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -9.489727,
+        "posY": 1.19025087,
+        "posZ": 2.47650456,
+        "rotX": -1.35223281E-05,
+        "rotY": 315.000854,
+        "rotZ": 6.83651763E-07,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "e64735"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -7.60946465,
+        "posY": 1.19025171,
+        "posZ": 5.753712,
+        "rotX": -2.1573409E-05,
+        "rotY": 0.01835688,
+        "rotZ": 5.6804015E-06,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "52f011"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -6.66339254,
+        "posY": 1.19025218,
+        "posZ": 6.590366,
+        "rotX": -2.7220698E-05,
+        "rotY": 0.03270562,
+        "rotZ": 1.40509792E-06,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "493600"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -5.84513664,
+        "posY": 1.19022012,
+        "posZ": 7.591378,
+        "rotX": 0.001505928,
+        "rotY": 0.5306855,
+        "rotZ": -0.004722358,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "426584"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -4.867283,
+        "posY": 1.19025326,
+        "posZ": 8.435958,
+        "rotX": -2.21122737E-05,
+        "rotY": -0.000145941929,
+        "rotZ": 8.058541E-06,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "ad15cc"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -2.84810376,
+        "posY": 1.19025373,
+        "posZ": 9.638867,
+        "rotX": -2.9266921E-05,
+        "rotY": 45.01184,
+        "rotZ": -5.337057E-06,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "18175c"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -1.37304318,
+        "posY": 1.19025385,
+        "posZ": 9.550738,
+        "rotX": -8.634439E-06,
+        "rotY": 45.011837,
+        "rotZ": -8.791777E-06,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "3d68d2"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -0.145588934,
+        "posY": 1.19025409,
+        "posZ": 9.631547,
+        "rotX": -2.270458E-05,
+        "rotY": 45.01184,
+        "rotZ": -9.292039E-06,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "718058"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 1.22770464,
+        "posY": 1.19025433,
+        "posZ": 9.562861,
+        "rotX": -3.38798855E-05,
+        "rotY": 45.01184,
+        "rotZ": -7.31035243E-06,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "9bba9a"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 2.629304,
+        "posY": 1.19025445,
+        "posZ": 9.569395,
+        "rotX": -4.189437E-06,
+        "rotY": 45.01198,
+        "rotZ": -6.50429456E-06,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "dd4366"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 4.817474,
+        "posY": 1.19025433,
+        "posZ": 8.457402,
+        "rotX": 8.976761E-06,
+        "rotY": 89.98494,
+        "rotZ": -1.42761583E-05,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "ad74f6"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 5.744158,
+        "posY": 1.19025409,
+        "posZ": 7.50699,
+        "rotX": -5.39545056E-07,
+        "rotY": 90.01117,
+        "rotZ": -1.86884081E-05,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "3f104b"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 6.62507057,
+        "posY": 1.19025385,
+        "posZ": 6.72156239,
+        "rotX": -6.826997E-06,
+        "rotY": 90.02119,
+        "rotZ": -1.50441729E-05,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "b1f1ee"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 7.459487,
+        "posY": 1.19025362,
+        "posZ": 5.730646,
+        "rotX": -8.763986E-06,
+        "rotY": 90.01836,
+        "rotZ": -2.222023E-05,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "b64a29"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 8.456379,
+        "posY": 1.1902535,
+        "posZ": 4.906263,
+        "rotX": -3.05298249E-06,
+        "rotY": 89.8636,
+        "rotZ": -1.96362653E-05,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "6c46be"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 9.55322552,
+        "posY": 1.19025314,
+        "posZ": 2.76954126,
+        "rotX": -8.30685458E-05,
+        "rotY": 135.123444,
+        "rotZ": -4.6723464E-05,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "fc85db"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 9.5679245,
+        "posY": 1.19025254,
+        "posZ": 1.49132788,
+        "rotX": -1.10836017E-05,
+        "rotY": 135.022278,
+        "rotZ": -1.54232439E-05,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "85ab6a"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 9.552212,
+        "posY": 1.1902523,
+        "posZ": 0.263117731,
+        "rotX": -3.43755819E-05,
+        "rotY": 135.011444,
+        "rotZ": -4.5968377E-06,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "f918d0"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 9.572885,
+        "posY": 1.190252,
+        "posZ": -1.08387578,
+        "rotX": 6.78069455E-07,
+        "rotY": 135.015579,
+        "rotZ": -1.49053594E-05,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "5476ae"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 9.633744,
+        "posY": 1.19015491,
+        "posZ": -2.419307,
+        "rotX": 0.0220424384,
+        "rotY": 135.333832,
+        "rotZ": 359.976379,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "821938"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 8.264064,
+        "posY": 1.19025159,
+        "posZ": -4.86452627,
+        "rotX": 3.33257867E-06,
+        "rotY": 180.0041,
+        "rotZ": -6.45825048E-06,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "43febd"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 7.34112072,
+        "posY": 1.19025135,
+        "posZ": -5.76595068,
+        "rotX": 1.2964535E-05,
+        "rotY": 180.01944,
+        "rotZ": -9.691027E-06,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "1556b2"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 6.52069473,
+        "posY": 1.19025111,
+        "posZ": -6.60648441,
+        "rotX": 4.829766E-06,
+        "rotY": 179.994781,
+        "rotZ": -3.88061244E-06,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "5206bd"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 5.68945,
+        "posY": 1.19025087,
+        "posZ": -7.50090933,
+        "rotX": 8.6300015E-06,
+        "rotY": 179.986069,
+        "rotZ": -1.24131739E-05,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "174483"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 4.81434536,
+        "posY": 1.19025064,
+        "posZ": -8.461976,
+        "rotX": 2.52655427E-05,
+        "rotY": 179.990936,
+        "rotZ": -6.7900537E-06,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Proiettile/Bullet",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/D1FNOgv.png",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "b98e53"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 0.013910667,
+        "posY": 1.06574821,
+        "posZ": -11.2521372,
+        "rotX": 1.27370586E-05,
+        "rotY": 180.02861,
+        "rotZ": -3.39503754E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Plancia di gioco/Play mat",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/BgNWXJO.jpg",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.145000011,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "fafeec"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 7.94978952,
+        "posY": 1.06575084,
+        "posZ": -7.9267993,
+        "rotX": 7.15869373E-06,
+        "rotY": 135.008423,
+        "rotZ": -9.65161053E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Plancia di gioco/Play mat",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/lMAJHgg.jpg",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.145000011,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "5f410f"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -7.8740406,
+        "posY": 1.06574833,
+        "posZ": -8.043576,
+        "rotX": 1.06263269E-05,
+        "rotY": 225.013931,
+        "rotZ": 1.07629858E-05,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Plancia di gioco/Play mat",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/q8oUhuh.jpg",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.145000011,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "43ba12"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 11.3346949,
+        "posY": 1.06575239,
+        "posZ": 0.161595568,
+        "rotX": -5.085367E-06,
+        "rotY": 90.00907,
+        "rotZ": -1.25669812E-05,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Plancia di gioco/Play mat",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/ElphIUK.jpg",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.145000011,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "cbce5c"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -11.3078775,
+        "posY": 1.06575024,
+        "posZ": -0.224670187,
+        "rotX": 2.72272382E-06,
+        "rotY": 269.980743,
+        "rotZ": 1.10838619E-05,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Plancia di gioco/Play mat",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/KVjrwPF.jpg",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.145000011,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "9d6e24"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 7.82709,
+        "posY": 1.06575429,
+        "posZ": 8.114607,
+        "rotX": -1.45718313E-05,
+        "rotY": 44.998436,
+        "rotZ": -9.232435E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Plancia di gioco/Play mat",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/ILUs5CN.jpg",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.145000011,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "863cb7"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -8.105959,
+        "posY": 1.06575239,
+        "posZ": 7.82197142,
+        "rotX": -9.053674E-06,
+        "rotY": 315.006958,
+        "rotZ": 2.34166837E-05,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Plancia di gioco/Play mat",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.99999994,
+        "g": 0.99999994,
+        "b": 0.99999994
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "CustomImage": {
+        "ImageURL": "http://i.imgur.com/VALtM0Q.jpg",
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.145000011,
+          "MergeDistancePixels": 15.0
+        }
+      },
+      "GUID": "6b37ea"
+    }
+  ]
+}

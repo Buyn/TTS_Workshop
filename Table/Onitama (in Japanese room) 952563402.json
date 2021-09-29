@@ -1,0 +1,3458 @@
+{
+  "SaveName": "Onitama (in Japanese room)",
+  "GameMode": "3D Room",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "1/27/2019 6:19:12 PM",
+  "Table": "Table_None",
+  "Sky": "Sky_Regal",
+  "SkyURL": "chry.me/up/transparent.png",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
+  "LuaScript": "deck_GUID = \"348179\"\nfunction onload()\r\n    deck = getObjectFromGUID(deck_GUID)\n    deck.shuffle()\r\nend\n",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": false,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -0.412702084,
+          "posY": 4.461135,
+          "posZ": 59.3563461,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 30.9147339,
+          "scaleY": 7.0,
+          "scaleZ": 26.4889717
+        }
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": -0.434236556,
+          "posY": 4.461135,
+          "posZ": -59.2069969,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 31.2635765,
+          "scaleY": 7.0,
+          "scaleZ": 20.3879585
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "ObjectStates": [
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 2.12014584E-05,
+        "posY": -12.7,
+        "posZ": -2.155065E-05,
+        "rotX": 3.39166354E-06,
+        "rotY": 1.25635524E-05,
+        "rotZ": 3.33670937E-06,
+        "scaleX": 60.0,
+        "scaleY": 60.0,
+        "scaleZ": 60.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9044118,
+        "g": 0.8257117,
+        "b": 0.6849589
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/room_enclosure.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 0,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "3aebd2"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 154.0,
+        "posY": 57.0,
+        "posZ": 3.02531052,
+        "rotX": 270.0,
+        "rotY": 90.0,
+        "rotZ": 0.0,
+        "scaleX": 44.0,
+        "scaleY": 44.0,
+        "scaleZ": 44.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.161760241,
+        "g": 0.07767909,
+        "b": 0.01308391
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/door_dogprint_2.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "8b7c66"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 154.0,
+        "posY": 57.0,
+        "posZ": 91.0,
+        "rotX": 270.0,
+        "rotY": 90.0,
+        "rotZ": 0.0,
+        "scaleX": 44.0,
+        "scaleY": 44.0,
+        "scaleZ": 44.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.161760241,
+        "g": 0.07767909,
+        "b": 0.01308391
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/door_dogprint_1.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "f52add"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 91.0,
+        "posY": 55.0,
+        "posZ": 150.0,
+        "rotX": 90.0,
+        "rotY": 179.892,
+        "rotZ": 0.0,
+        "scaleX": 43.0,
+        "scaleY": 43.0,
+        "scaleZ": 43.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.161760241,
+        "g": 0.07767909,
+        "b": 0.01308391
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/door_windowed.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "3a459a"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": -91.5,
+        "posY": 55.0,
+        "posZ": 150.057648,
+        "rotX": 90.0,
+        "rotY": 179.892,
+        "rotZ": 0.0,
+        "scaleX": 43.0,
+        "scaleY": 43.0,
+        "scaleZ": 43.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.161760181,
+        "g": 0.07767903,
+        "b": 0.01308391
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/door_windowed.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "da3a3b"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 155.634872,
+        "posY": 57.372467,
+        "posZ": -88.98492,
+        "rotX": 90.0,
+        "rotY": 270.0,
+        "rotZ": 0.0,
+        "scaleX": 48.0,
+        "scaleY": 44.0,
+        "scaleZ": 45.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.161760181,
+        "g": 0.07767903,
+        "b": 0.01308391
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/door_windowed.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "257e54"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 90.0,
+        "posY": 57.0,
+        "posZ": -157.0,
+        "rotX": 270.0,
+        "rotY": 180.000778,
+        "rotZ": 0.0,
+        "scaleX": 45.0,
+        "scaleY": 45.0,
+        "scaleZ": 45.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.161760241,
+        "g": 0.07767909,
+        "b": 0.01308391
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/door_swan1.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "3e7fba"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": -7.158007E-07,
+        "posY": 57.0,
+        "posZ": -157.0,
+        "rotX": 270.0,
+        "rotY": 180.000778,
+        "rotZ": 0.0,
+        "scaleX": 45.0,
+        "scaleY": 45.0,
+        "scaleZ": 45.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.161760241,
+        "g": 0.07767909,
+        "b": 0.01308391
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/door_swan2.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "4f1bcf"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": -90.0,
+        "posY": 57.0,
+        "posZ": -157.0,
+        "rotX": 270.0,
+        "rotY": 180.000778,
+        "rotZ": 0.0,
+        "scaleX": 45.0,
+        "scaleY": 45.0,
+        "scaleZ": 45.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.161760241,
+        "g": 0.07767909,
+        "b": 0.01308391
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/door_swan3.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "6fbc57"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": -154.933838,
+        "posY": -13.150589,
+        "posZ": -13.6516047,
+        "rotX": 2.15006821E-07,
+        "rotY": 269.9944,
+        "rotZ": -4.42799376E-07,
+        "scaleX": 26.0,
+        "scaleY": 12.0,
+        "scaleZ": 12.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.1617603,
+        "g": 0.0869817361,
+        "b": 0.059468843
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/shelf.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "d7dc81"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": -188.151123,
+        "posY": 107.631706,
+        "posZ": 2.10710859,
+        "rotX": 2.15006821E-07,
+        "rotY": 269.9944,
+        "rotZ": -4.42799376E-07,
+        "scaleX": 26.0,
+        "scaleY": 12.0,
+        "scaleZ": 26.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.161760241,
+        "g": 0.08698169,
+        "b": 0.0594688
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/shelf.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "cafe6c"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 178.0,
+        "posZ": -140.0,
+        "rotX": 2.15006821E-07,
+        "rotY": 0.0,
+        "rotZ": -4.42799376E-07,
+        "scaleX": 28.0,
+        "scaleY": 12.0,
+        "scaleZ": 12.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.161760241,
+        "g": 0.08698169,
+        "b": 0.0594688
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/shelf.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "4621a0"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 178.0,
+        "posZ": 140.0,
+        "rotX": 2.15006821E-07,
+        "rotY": 0.0,
+        "rotZ": -4.42799376E-07,
+        "scaleX": 28.0,
+        "scaleY": 12.0,
+        "scaleZ": 12.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.161760241,
+        "g": 0.08698169,
+        "b": 0.0594688
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/shelf.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "09dbb2"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 3.972558E-08,
+        "posY": -12.6,
+        "posZ": -3.1997434E-08,
+        "rotX": 2.624765E-06,
+        "rotY": 90.0,
+        "rotZ": 3.25806582E-06,
+        "scaleX": 7.0,
+        "scaleY": 7.0,
+        "scaleZ": 7.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.09558385,
+        "g": 0.0138437934,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/tatami_tile.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "cb1610"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": -70.0,
+        "posY": -12.6,
+        "posZ": -0.0115691693,
+        "rotX": 2.624764E-06,
+        "rotY": 0.0,
+        "rotZ": 3.25806514E-06,
+        "scaleX": 7.0,
+        "scaleY": 7.0,
+        "scaleZ": 7.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.09558379,
+        "g": 0.0138437934,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/tatami_tile.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "0010a0"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 70.0,
+        "posY": -12.5,
+        "posZ": 0.0,
+        "rotX": 2.624764E-06,
+        "rotY": 0.0,
+        "rotZ": 3.25806514E-06,
+        "scaleX": 7.0,
+        "scaleY": 7.0,
+        "scaleZ": 7.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.09558373,
+        "g": 0.0138437934,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/tatami_tile.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "3ebfc0"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -12.5,
+        "posZ": 70.0,
+        "rotX": 2.624764E-06,
+        "rotY": 0.0,
+        "rotZ": 3.25806514E-06,
+        "scaleX": 7.0,
+        "scaleY": 7.0,
+        "scaleZ": 7.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.09558373,
+        "g": 0.0138437934,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/tatami_tile.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "eff1dd"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 70.0,
+        "posY": -12.5,
+        "posZ": 70.0,
+        "rotX": 2.624765E-06,
+        "rotY": 90.0,
+        "rotZ": 3.25806582E-06,
+        "scaleX": 7.0,
+        "scaleY": 7.0,
+        "scaleZ": 7.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0955836549,
+        "g": 0.0138437934,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/tatami_tile.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "91f93c"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": -70.0,
+        "posY": -12.5,
+        "posZ": 70.0,
+        "rotX": 2.624765E-06,
+        "rotY": 90.0,
+        "rotZ": 3.25806582E-06,
+        "scaleX": 7.0,
+        "scaleY": 7.0,
+        "scaleZ": 7.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0955835953,
+        "g": 0.0138437934,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/tatami_tile.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "e4f88e"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 70.0,
+        "posY": -12.5,
+        "posZ": -70.0,
+        "rotX": 2.624765E-06,
+        "rotY": 90.0,
+        "rotZ": 3.25806582E-06,
+        "scaleX": 7.0,
+        "scaleY": 7.0,
+        "scaleZ": 7.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.09558373,
+        "g": 0.0138437934,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/tatami_tile.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "581a77"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -12.5,
+        "posZ": -70.0,
+        "rotX": 2.624764E-06,
+        "rotY": -0.005515636,
+        "rotZ": 3.25806514E-06,
+        "scaleX": 7.0,
+        "scaleY": 7.0,
+        "scaleZ": 7.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0955836549,
+        "g": 0.0138437934,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/tatami_tile.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "56b563"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": -70.0,
+        "posY": -12.5,
+        "posZ": -70.0,
+        "rotX": 0.0,
+        "rotY": 90.0,
+        "rotZ": 0.0,
+        "scaleX": 7.0,
+        "scaleY": 7.0,
+        "scaleZ": 7.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0955835953,
+        "g": 0.0138437934,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/tatami_tile.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "09f428"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -12.4068985,
+        "posZ": -65.0,
+        "rotX": 2.655702E-06,
+        "rotY": 0.0,
+        "rotZ": 3.70369526E-06,
+        "scaleX": 6.0,
+        "scaleY": 6.0,
+        "scaleZ": 6.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.16176042,
+        "g": 0.0869818255,
+        "b": 0.05946894
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/floorpad.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "6631e7"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -12.41,
+        "posZ": 65.0,
+        "rotX": 2.65570225E-06,
+        "rotY": 0.0,
+        "rotZ": 3.70369526E-06,
+        "scaleX": 6.0,
+        "scaleY": 6.0,
+        "scaleZ": 6.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.16176036,
+        "g": 0.0869817957,
+        "b": 0.0594688877
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/floorpad.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "ab9ebd"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -9.561194,
+        "posZ": -65.0,
+        "rotX": 2.5874067E-06,
+        "rotY": 359.987244,
+        "rotZ": 3.546732E-06,
+        "scaleX": 15.0,
+        "scaleY": 15.0,
+        "scaleZ": 15.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.147054583,
+        "g": 0.129828781,
+        "b": 0.111370973
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/cushion_1.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 0,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "b306f8"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -9.550059,
+        "posZ": 65.0,
+        "rotX": 2.587446E-06,
+        "rotY": 90.0,
+        "rotZ": 0.0,
+        "scaleX": 15.0,
+        "scaleY": 15.0,
+        "scaleZ": 15.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.147054523,
+        "g": 0.129828691,
+        "b": 0.111370914
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/cushion_1.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 0,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "344ce6"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": -5.54134445E-08,
+        "posY": -14.8859177,
+        "posZ": 177.160919,
+        "rotX": 2.15006821E-07,
+        "rotY": 0.0,
+        "rotZ": -4.42799376E-07,
+        "scaleX": 26.0,
+        "scaleY": 12.0,
+        "scaleZ": 20.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.161760241,
+        "g": 0.08698169,
+        "b": 0.0594688
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/shelf.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "7ce5e7"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": -180.0,
+        "posY": 58.0,
+        "posZ": -105.0,
+        "rotX": -4.05058654E-06,
+        "rotY": 0.0215736385,
+        "rotZ": -5.77288574E-06,
+        "scaleX": 1.3,
+        "scaleY": 1.3,
+        "scaleZ": 1.3
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.161760539,
+        "g": 0.0869819447,
+        "b": 0.05946903
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/lamp_square.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "603b20"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": -180.0,
+        "posY": 58.0,
+        "posZ": 105.0,
+        "rotX": -4.05058654E-06,
+        "rotY": 0.0215736385,
+        "rotZ": -5.772886E-06,
+        "scaleX": 1.3,
+        "scaleY": 1.3,
+        "scaleZ": 1.3
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.161760479,
+        "g": 0.0869818851,
+        "b": 0.0594689846
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/lamp_square.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "306e42"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 55.7081261,
+        "posY": 28.5340786,
+        "posZ": 21.6613464,
+        "rotX": -1.93561264E-05,
+        "rotY": 29.9870777,
+        "rotZ": -6.1734313E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.1617609,
+        "g": 0.08698221,
+        "b": 0.0594693124
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://chry.me/tts/3droom/lamp_small.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "4d8c96"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": -1.46100538E-05,
+        "posY": 183.21048,
+        "posZ": -0.00282319123,
+        "rotX": -0.0009679123,
+        "rotY": 0.0,
+        "rotZ": 180.000778,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.1617609,
+        "g": 0.08698221,
+        "b": 0.0594693124
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/ceiling_lamp_noshadows.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "399e92"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": -55.98859,
+        "posY": 16.9474964,
+        "posZ": 21.6496086,
+        "rotX": 3.855617E-07,
+        "rotY": 314.9728,
+        "rotZ": -4.657446E-06,
+        "scaleX": 2.249999,
+        "scaleY": 2.249999,
+        "scaleZ": 2.249999
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0441151559,
+        "g": 0.0441151559,
+        "b": 0.0441151559
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/pot_tray.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 2,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "132e08"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": -54.8061066,
+        "posY": 17.5838356,
+        "posZ": 20.0841789,
+        "rotX": -2.03179388E-06,
+        "rotY": 45.0280266,
+        "rotZ": -1.76293111E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0441151559,
+        "g": 0.0441151559,
+        "b": 0.0441151559
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/teapot.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 2,
+        "TypeIndex": 1,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "968e99"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": -44.5502853,
+        "posY": 15.947279,
+        "posZ": 12.7165108,
+        "rotX": 4.878203E-06,
+        "rotY": 0.00117295654,
+        "rotZ": 1.05323634E-05,
+        "scaleX": 0.7000003,
+        "scaleY": 0.7000003,
+        "scaleZ": 0.7000003
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0441151559,
+        "g": 0.0441151559,
+        "b": 0.0441151559
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/teacup.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 2,
+        "TypeIndex": 1,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "f34973"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": -58.53583,
+        "posY": 15.9472809,
+        "posZ": 8.727349,
+        "rotX": -2.42406531E-06,
+        "rotY": -0.00536700059,
+        "rotZ": 3.056164E-06,
+        "scaleX": 0.7000003,
+        "scaleY": 0.7000003,
+        "scaleZ": 0.7000003
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.04411514,
+        "g": 0.04411514,
+        "b": 0.04411514
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/teacup.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 2,
+        "TypeIndex": 1,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "5cf306"
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": -41.681118,
+        "posY": 15.9472809,
+        "posZ": 21.7201748,
+        "rotX": -6.36544928E-06,
+        "rotY": 359.9772,
+        "rotZ": -5.50670529E-06,
+        "scaleX": 0.7000003,
+        "scaleY": 0.7000003,
+        "scaleZ": 0.7000003
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.04411514,
+        "g": 0.04411514,
+        "b": 0.04411514
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/teacup.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 2,
+        "TypeIndex": 1,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "5fc959"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -13.0,
+        "posY": 16.196682,
+        "posZ": 6.0,
+        "rotX": 5.013204E-06,
+        "rotY": 0.0012340236,
+        "rotZ": 8.973899E-07,
+        "scaleX": 2.449999,
+        "scaleY": 2.449999,
+        "scaleZ": 2.449999
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "chry.me/tts/3droom/card_plate.obj",
+        "DiffuseURL": "chry.me/up/transparent.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 4,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "fa44e7"
+    },
+    {
+      "Name": "Custom_Assetbundle_Bag",
+      "Transform": {
+        "posX": -185.74234,
+        "posY": 28.9648075,
+        "posZ": -15.5398836,
+        "rotX": 1.04598166E-06,
+        "rotY": -3.959403E-14,
+        "rotZ": -4.33768764E-06,
+        "scaleX": 22.0,
+        "scaleY": 22.0,
+        "scaleZ": 22.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0441164225,
+        "g": 0.0441164225,
+        "b": 0.0441164225
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "Number": 0,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/gembox.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 2,
+        "TypeIndex": 6,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "f3889e"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 6.63396025,
+        "posY": 18.9027634,
+        "posZ": -8.039632,
+        "rotX": -5.31773621E-05,
+        "rotY": 0.103449591,
+        "rotZ": 2.232564E-05,
+        "scaleX": 2.89999819,
+        "scaleY": 2.89999819,
+        "scaleZ": 2.89999819
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=6vsbaDpW",
+        "DiffuseURL": "https://www.dropbox.com/s/0e6er93p0lxtmtb/pEON%20copia.jpg?dl=1",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "13b99c"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 6.60178852,
+        "posY": 18.9027653,
+        "posZ": 5.83592129,
+        "rotX": -7.07308645E-05,
+        "rotY": 179.999939,
+        "rotZ": 4.72227248E-06,
+        "scaleX": 2.89999819,
+        "scaleY": 2.89999819,
+        "scaleZ": 2.89999819
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.933333337,
+        "g": 0.282351851,
+        "b": 0.18823424
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=6vsbaDpW",
+        "DiffuseURL": "https://www.dropbox.com/s/0e6er93p0lxtmtb/pEON%20copia.jpg?dl=1",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "f0410e"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -0.3624537,
+        "posY": 18.2098522,
+        "posZ": -8.144606,
+        "rotX": 1.15915636E-05,
+        "rotY": 0.000339665741,
+        "rotZ": -3.60701124E-05,
+        "scaleX": 1.54999959,
+        "scaleY": 1.54999959,
+        "scaleZ": 1.54999959
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=WS2ZHnMD",
+        "DiffuseURL": "https://www.dropbox.com/s/c73db9y2opbccsj/meeple%20liso%20K2.JPG?dl=1",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "a093e4"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 3.102508,
+        "posY": 18.2098522,
+        "posZ": -7.975072,
+        "rotX": -3.00967986E-05,
+        "rotY": 179.999954,
+        "rotZ": 1.47667306E-05,
+        "scaleX": 1.54999959,
+        "scaleY": 1.54999959,
+        "scaleZ": 1.54999959
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=WS2ZHnMD",
+        "DiffuseURL": "https://www.dropbox.com/s/c73db9y2opbccsj/meeple%20liso%20K2.JPG?dl=1",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "eedb76"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 13.4006062,
+        "posY": 18.2098522,
+        "posZ": -8.140331,
+        "rotX": -7.562562E-05,
+        "rotY": 0.0006921215,
+        "rotZ": 4.21566438E-05,
+        "scaleX": 1.54999959,
+        "scaleY": 1.54999959,
+        "scaleZ": 1.54999959
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=WS2ZHnMD",
+        "DiffuseURL": "https://www.dropbox.com/s/c73db9y2opbccsj/meeple%20liso%20K2.JPG?dl=1",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "3430d6"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 10.242157,
+        "posY": 18.2098522,
+        "posZ": -8.112621,
+        "rotX": 1.0267795E-05,
+        "rotY": 179.999268,
+        "rotZ": -1.07697415E-05,
+        "scaleX": 1.54999959,
+        "scaleY": 1.54999959,
+        "scaleZ": 1.54999959
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=WS2ZHnMD",
+        "DiffuseURL": "https://www.dropbox.com/s/c73db9y2opbccsj/meeple%20liso%20K2.JPG?dl=1",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "3d11e1"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 14.1266441,
+        "posY": 18.2098522,
+        "posZ": 5.886997,
+        "rotX": -4.32694469E-05,
+        "rotY": 179.971146,
+        "rotZ": -2.05793876E-05,
+        "scaleX": 1.54999959,
+        "scaleY": 1.54999959,
+        "scaleZ": 1.54999959
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.933333337,
+        "g": 0.282351851,
+        "b": 0.18823424
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=WS2ZHnMD",
+        "DiffuseURL": "https://www.dropbox.com/s/c73db9y2opbccsj/meeple%20liso%20K2.JPG?dl=1",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "021878"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -0.314505816,
+        "posY": 18.2098522,
+        "posZ": 5.92680836,
+        "rotX": 1.50990636E-05,
+        "rotY": 180.0,
+        "rotZ": 5.26661233E-06,
+        "scaleX": 1.54999959,
+        "scaleY": 1.54999959,
+        "scaleZ": 1.54999959
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.933333337,
+        "g": 0.282351851,
+        "b": 0.18823424
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=WS2ZHnMD",
+        "DiffuseURL": "https://www.dropbox.com/s/c73db9y2opbccsj/meeple%20liso%20K2.JPG?dl=1",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "10b302"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 3.22756076,
+        "posY": 18.2098541,
+        "posZ": 5.93037128,
+        "rotX": -1.49126108E-05,
+        "rotY": 179.999939,
+        "rotZ": -3.76706521E-05,
+        "scaleX": 1.54999959,
+        "scaleY": 1.54999959,
+        "scaleZ": 1.54999959
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.933333337,
+        "g": 0.282351851,
+        "b": 0.18823424
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=WS2ZHnMD",
+        "DiffuseURL": "https://www.dropbox.com/s/c73db9y2opbccsj/meeple%20liso%20K2.JPG?dl=1",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "e94c0e"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 10.3495255,
+        "posY": 18.2098522,
+        "posZ": 5.78716373,
+        "rotX": 9.462987E-06,
+        "rotY": 180.0,
+        "rotZ": -7.91744151E-06,
+        "scaleX": 1.54999959,
+        "scaleY": 1.54999959,
+        "scaleZ": 1.54999959
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.933333337,
+        "g": 0.282351851,
+        "b": 0.18823424
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=WS2ZHnMD",
+        "DiffuseURL": "https://www.dropbox.com/s/c73db9y2opbccsj/meeple%20liso%20K2.JPG?dl=1",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "f26bd8"
+    },
+    {
+      "Name": "DeckCustom",
+      "Transform": {
+        "posX": 39.7825851,
+        "posY": 16.0866356,
+        "posZ": -1.26606715,
+        "rotX": 8.182711E-06,
+        "rotY": 269.96933,
+        "rotZ": 180.0,
+        "scaleX": 3.05673075,
+        "scaleY": 1.0,
+        "scaleZ": 3.05673075
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        109,
+        111,
+        113,
+        102,
+        100,
+        103,
+        114,
+        108,
+        115,
+        104,
+        107,
+        106,
+        101,
+        112,
+        105,
+        110
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/856096476630887449/853E22BC25619604D7CE0736277FC57C5F6A7608/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/856096476630889676/14BB0A084055F06F40CC2CB8F1D2D07EEAC0420D/",
+          "NumWidth": 10,
+          "NumHeight": 2,
+          "BackIsHidden": true,
+          "UniqueBack": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 37.2124367,
+            "posY": 16.4396286,
+            "posZ": -1.46845186,
+            "rotX": 3.27826047,
+            "rotY": 269.8083,
+            "rotZ": 179.988449,
+            "scaleX": 3.05673075,
+            "scaleY": 1.0,
+            "scaleZ": 3.05673075
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 109,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/856096476630887449/853E22BC25619604D7CE0736277FC57C5F6A7608/",
+              "BackURL": "http://cloud-3.steamusercontent.com/ugc/856096476630889676/14BB0A084055F06F40CC2CB8F1D2D07EEAC0420D/",
+              "NumWidth": 10,
+              "NumHeight": 2,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "de91c6"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 38.55254,
+            "posY": 16.2313442,
+            "posZ": 0.441696078,
+            "rotX": 359.978821,
+            "rotY": 269.999939,
+            "rotZ": 179.958237,
+            "scaleX": 3.05673075,
+            "scaleY": 1.0,
+            "scaleZ": 3.05673075
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 111,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/856096476630887449/853E22BC25619604D7CE0736277FC57C5F6A7608/",
+              "BackURL": "http://cloud-3.steamusercontent.com/ugc/856096476630889676/14BB0A084055F06F40CC2CB8F1D2D07EEAC0420D/",
+              "NumWidth": 10,
+              "NumHeight": 2,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "a9318a"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 40.2721176,
+            "posY": 16.24145,
+            "posZ": -0.9468264,
+            "rotX": 0.001516583,
+            "rotY": 269.986,
+            "rotZ": 180.0107,
+            "scaleX": 3.05673075,
+            "scaleY": 1.0,
+            "scaleZ": 3.05673075
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 113,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/856096476630887449/853E22BC25619604D7CE0736277FC57C5F6A7608/",
+              "BackURL": "http://cloud-3.steamusercontent.com/ugc/856096476630889676/14BB0A084055F06F40CC2CB8F1D2D07EEAC0420D/",
+              "NumWidth": 10,
+              "NumHeight": 2,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "63a7f1"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 26.7314339,
+            "posY": 14.4467821,
+            "posZ": 1.57582688,
+            "rotX": 0.0132508548,
+            "rotY": 180.0005,
+            "rotZ": 179.9561,
+            "scaleX": 3.05673075,
+            "scaleY": 1.0,
+            "scaleZ": 3.05673075
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 102,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/856096476630887449/853E22BC25619604D7CE0736277FC57C5F6A7608/",
+              "BackURL": "http://cloud-3.steamusercontent.com/ugc/856096476630889676/14BB0A084055F06F40CC2CB8F1D2D07EEAC0420D/",
+              "NumWidth": 10,
+              "NumHeight": 2,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "f6aa0e"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 38.16565,
+            "posY": 16.3371258,
+            "posZ": -0.817715645,
+            "rotX": 0.005684366,
+            "rotY": 89.99139,
+            "rotZ": 180.0042,
+            "scaleX": 3.05673075,
+            "scaleY": 1.0,
+            "scaleZ": 3.05673075
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 100,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/856096476630887449/853E22BC25619604D7CE0736277FC57C5F6A7608/",
+              "BackURL": "http://cloud-3.steamusercontent.com/ugc/856096476630889676/14BB0A084055F06F40CC2CB8F1D2D07EEAC0420D/",
+              "NumWidth": 10,
+              "NumHeight": 2,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "dcf59d"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 37.8875427,
+            "posY": 16.3081512,
+            "posZ": -1.03080118,
+            "rotX": 0.0009769539,
+            "rotY": 269.999542,
+            "rotZ": 179.9987,
+            "scaleX": 3.05673075,
+            "scaleY": 1.0,
+            "scaleZ": 3.05673075
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 103,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/856096476630887449/853E22BC25619604D7CE0736277FC57C5F6A7608/",
+              "BackURL": "http://cloud-3.steamusercontent.com/ugc/856096476630889676/14BB0A084055F06F40CC2CB8F1D2D07EEAC0420D/",
+              "NumWidth": 10,
+              "NumHeight": 2,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "2c0e4e"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 7.660492E-08,
+            "posY": -12.4219694,
+            "posZ": 7.60366E-08,
+            "rotX": -1.59814454E-06,
+            "rotY": 180.0,
+            "rotZ": 180.000015,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 114,
+          "SidewaysCard": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "63a7f1"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 37.50335,
+            "posY": 16.3178234,
+            "posZ": -0.3091398,
+            "rotX": -0.000772962056,
+            "rotY": 89.99457,
+            "rotZ": 180.00206,
+            "scaleX": 3.05673075,
+            "scaleY": 1.0,
+            "scaleZ": 3.05673075
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 108,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/856096476630887449/853E22BC25619604D7CE0736277FC57C5F6A7608/",
+              "BackURL": "http://cloud-3.steamusercontent.com/ugc/856096476630889676/14BB0A084055F06F40CC2CB8F1D2D07EEAC0420D/",
+              "NumWidth": 10,
+              "NumHeight": 2,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "1d9959"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 7.660492E-08,
+            "posY": -12.4219694,
+            "posZ": 7.60366E-08,
+            "rotX": -1.59814454E-06,
+            "rotY": 180.0,
+            "rotZ": 180.000015,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 115,
+          "SidewaysCard": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "63a7f1"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 37.89814,
+            "posY": 16.35646,
+            "posZ": 0.824539959,
+            "rotX": 0.0007523575,
+            "rotY": 270.001343,
+            "rotZ": 179.999817,
+            "scaleX": 3.05673075,
+            "scaleY": 1.0,
+            "scaleZ": 3.05673075
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 104,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/856096476630887449/853E22BC25619604D7CE0736277FC57C5F6A7608/",
+              "BackURL": "http://cloud-3.steamusercontent.com/ugc/856096476630889676/14BB0A084055F06F40CC2CB8F1D2D07EEAC0420D/",
+              "NumWidth": 10,
+              "NumHeight": 2,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "9113eb"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 7.660492E-08,
+            "posY": -12.4219694,
+            "posZ": 7.60366E-08,
+            "rotX": -1.59814454E-06,
+            "rotY": 180.0,
+            "rotZ": 180.000015,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 107,
+          "SidewaysCard": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "63a7f1"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 44.51711,
+            "posY": 16.28518,
+            "posZ": 1.40928113,
+            "rotX": 0.0319948,
+            "rotY": 269.991638,
+            "rotZ": 179.990921,
+            "scaleX": 3.05673075,
+            "scaleY": 1.0,
+            "scaleZ": 3.05673075
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 106,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/856096476630887449/853E22BC25619604D7CE0736277FC57C5F6A7608/",
+              "BackURL": "http://cloud-3.steamusercontent.com/ugc/856096476630889676/14BB0A084055F06F40CC2CB8F1D2D07EEAC0420D/",
+              "NumWidth": 10,
+              "NumHeight": 2,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "63a7f1"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 28.2039165,
+            "posY": 14.4318075,
+            "posZ": 1.50154841,
+            "rotX": 0.140515357,
+            "rotY": 180.001358,
+            "rotZ": 180.241272,
+            "scaleX": 3.05673075,
+            "scaleY": 1.0,
+            "scaleZ": 3.05673075
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 101,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/856096476630887449/853E22BC25619604D7CE0736277FC57C5F6A7608/",
+              "BackURL": "http://cloud-3.steamusercontent.com/ugc/856096476630889676/14BB0A084055F06F40CC2CB8F1D2D07EEAC0420D/",
+              "NumWidth": 10,
+              "NumHeight": 2,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "efd3f6"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 39.8804169,
+            "posY": 16.2414513,
+            "posZ": -1.06670558,
+            "rotX": -0.00100070657,
+            "rotY": 269.992554,
+            "rotZ": 180.013092,
+            "scaleX": 3.05673075,
+            "scaleY": 1.0,
+            "scaleZ": 3.05673075
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 112,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/856096476630887449/853E22BC25619604D7CE0736277FC57C5F6A7608/",
+              "BackURL": "http://cloud-3.steamusercontent.com/ugc/856096476630889676/14BB0A084055F06F40CC2CB8F1D2D07EEAC0420D/",
+              "NumWidth": 10,
+              "NumHeight": 2,
+              "BackIsHidden": true,
+              "UniqueBack": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "32e66b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 7.660492E-08,
+            "posY": -12.4219694,
+            "posZ": 7.60366E-08,
+            "rotX": -1.59814454E-06,
+            "rotY": 180.0,
+            "rotZ": 180.000015,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 105,
+          "SidewaysCard": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "63a7f1"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 7.660492E-08,
+            "posY": -12.4219694,
+            "posZ": 7.60366E-08,
+            "rotX": -1.59814454E-06,
+            "rotY": 180.0,
+            "rotZ": 180.000015,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 110,
+          "SidewaysCard": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "63a7f1"
+        }
+      ],
+      "GUID": "348179"
+    },
+    {
+      "Name": "Custom_Board",
+      "Transform": {
+        "posX": 6.676449,
+        "posY": 16.07485,
+        "posZ": -1.08564818,
+        "rotX": -3.36121184E-06,
+        "rotY": 179.998154,
+        "rotZ": 4.07320749E-06,
+        "scaleX": 2.299999,
+        "scaleY": 2.299999,
+        "scaleZ": 2.299999
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.7867647,
+        "g": 0.7867647,
+        "b": 0.7867647
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/856096476630893047/64E3FF7F9562D57A92609C260924C6E198F87F00/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.538433135
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "07d06d",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 4.15670252,
+            "y": 0.5922428,
+            "z": 5.74486065
+          },
+          "Rotation": {
+            "x": -8.789976E-06,
+            "y": 270.001831,
+            "z": 1.09640714E-05
+          }
+        },
+        {
+          "Position": {
+            "x": -3.892207,
+            "y": 0.5922433,
+            "z": 5.73891926
+          },
+          "Rotation": {
+            "x": -4.43576573E-06,
+            "y": 270.004517,
+            "z": 2.54367787E-05
+          }
+        },
+        {
+          "Position": {
+            "x": 3.950554,
+            "y": 0.592243135,
+            "z": -5.81822348
+          },
+          "Rotation": {
+            "x": -1.75938749E-05,
+            "y": 90.00118,
+            "z": -8.251814E-07
+          }
+        },
+        {
+          "Position": {
+            "x": -4.209442,
+            "y": 0.5922428,
+            "z": -5.826483
+          },
+          "Rotation": {
+            "x": -1.724938E-05,
+            "y": 90.00118,
+            "z": -1.65211422E-05
+          }
+        }
+      ],
+      "AttachedDecals": [
+        {
+          "Transform": {
+            "posX": 4.151596,
+            "posY": 0.5965907,
+            "posZ": 5.767799,
+            "rotX": 89.98022,
+            "rotY": 180.001846,
+            "rotZ": 0.0,
+            "scaleX": 8.487051,
+            "scaleY": 3.00000119,
+            "scaleZ": 3.00000119
+          },
+          "CustomDecal": {
+            "Name": "card placeholder",
+            "ImageURL": "http://cloud-3.steamusercontent.com/ugc/939466072510027753/F6AABCD6028C411777B72C8C825C4CDB7C7069AE/",
+            "Size": 6.9
+          }
+        },
+        {
+          "Transform": {
+            "posX": -3.89975739,
+            "posY": 0.596591234,
+            "posZ": 5.78142071,
+            "rotX": 89.98022,
+            "rotY": 180.001846,
+            "rotZ": 0.0,
+            "scaleX": 8.487051,
+            "scaleY": 3.000001,
+            "scaleZ": 3.000001
+          },
+          "CustomDecal": {
+            "Name": "card placeholder",
+            "ImageURL": "http://cloud-3.steamusercontent.com/ugc/939466072510027753/F6AABCD6028C411777B72C8C825C4CDB7C7069AE/",
+            "Size": 6.9
+          }
+        },
+        {
+          "Transform": {
+            "posX": -4.05556965,
+            "posY": 0.596591532,
+            "posZ": -5.79299068,
+            "rotX": 90.0,
+            "rotY": 180.334946,
+            "rotZ": 0.0,
+            "scaleX": 8.4869175,
+            "scaleY": 3.00009012,
+            "scaleZ": 3.00000286
+          },
+          "CustomDecal": {
+            "Name": "card placeholder",
+            "ImageURL": "http://cloud-3.steamusercontent.com/ugc/939466072510027753/F6AABCD6028C411777B72C8C825C4CDB7C7069AE/",
+            "Size": 6.9
+          }
+        },
+        {
+          "Transform": {
+            "posX": 3.99593019,
+            "posY": 0.596591055,
+            "posZ": -5.81834269,
+            "rotX": 90.0,
+            "rotY": 180.334946,
+            "rotZ": 0.0,
+            "scaleX": 8.487034,
+            "scaleY": 3.000133,
+            "scaleZ": 3.00000644
+          },
+          "CustomDecal": {
+            "Name": "card placeholder",
+            "ImageURL": "http://cloud-3.steamusercontent.com/ugc/939466072510027753/F6AABCD6028C411777B72C8C825C4CDB7C7069AE/",
+            "Size": 6.9
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 0.000282617169,
+        "posY": 13.49895,
+        "posZ": -0.00027188388,
+        "rotX": -5.482352E-07,
+        "rotY": 90.00017,
+        "rotZ": -2.19892513E-06,
+        "scaleX": 8.000011,
+        "scaleY": 8.000011,
+        "scaleZ": 8.000011
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.6102941,
+        "g": 0.4044896,
+        "b": 0.385920823
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "chry.me/tts/3droom/hardwood_table.unity3d",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "844127"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 25.4566879,
+        "posY": 15.9781952,
+        "posZ": -1.18000019,
+        "rotX": 5.233806E-06,
+        "rotY": 180.009079,
+        "rotZ": -3.35827735E-06,
+        "scaleX": 3.446003,
+        "scaleY": 1.0,
+        "scaleZ": 3.446003
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/939466072510027753/F6AABCD6028C411777B72C8C825C4CDB7C7069AE/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "0e08c4",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": -0.0106186569,
+            "y": 0.199998856,
+            "z": -0.00105432677
+          },
+          "Rotation": {
+            "x": -1.90139667E-06,
+            "y": 89.99094,
+            "z": -1.0393469E-06
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -12.2857084,
+        "posY": 15.9781923,
+        "posZ": -1.1808964,
+        "rotX": 7.576879E-06,
+        "rotY": 179.991623,
+        "rotZ": 0.0,
+        "scaleX": 3.45,
+        "scaleY": 1.0,
+        "scaleZ": 3.45
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/939466072510027753/F6AABCD6028C411777B72C8C825C4CDB7C7069AE/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "60c2b4",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": -0.003750956,
+            "y": 0.1999998,
+            "z": -0.02533496
+          },
+          "Rotation": {
+            "x": 2.74576541E-06,
+            "y": 270.0084,
+            "z": 7.577282E-06
+          }
+        }
+      ]
+    }
+  ],
+  "DecalPallet": [
+    {
+      "Name": "card placeholder",
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/939466072510027753/F6AABCD6028C411777B72C8C825C4CDB7C7069AE/",
+      "Size": 6.9
+    }
+  ],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": "v11.0.1"
+}

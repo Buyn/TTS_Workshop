@@ -1,0 +1,1928 @@
+{
+  "SaveName": "Hovels of the Future",
+  "GameMode": "Hovels of the Future",
+  "Gravity": 0.5,
+  "PlayArea": 1.0,
+  "Date": "11/2/2019 9:37:45 PM",
+  "Table": "Table_Custom",
+  "TableURL": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0a67e4e4-e898-4a34-8c7c-4cbee7870724/d8slqvg-c62e83b2-0a9e-4d95-af50-47cbd15fc26e.png/v1/fill/w_1024,h_1024,q_75,strp/spaceship_texture_hull_02_by_tiagocomicart-d8slqvg.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi8wYTY3ZTRlNC1lODk4LTRhMzQtOGM3Yy00Y2JlZTc4NzA3MjQvZDhzbHF2Zy1jNjJlODNiMi0wYTllLTRkOTUtYWY1MC00N2NiZDE1ZmMyNmUucG5nIiwid2lkdGgiOiI8PTEwMjQiLCJoZWlnaHQiOiI8PTEwMjQifV1dfQ.BQT2yrHF268zGVyNqzKiEdF5wS1ALE_eqVX-eNvdMO8",
+  "Sky": "Sky_Forest",
+  "SkyURL": "https://i.imgur.com/8fYXCui.jpg",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
+  "LuaScript": "--[[ Lua code. See documentation: https://api.tabletopsimulator.com/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate()\n    --[[ print('onUpdate loop!') --]]\nend",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": true,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": true,
+    "BothSnapping": false,
+    "xSize": 4.0,
+    "ySize": 4.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 23.6700039,
+          "posY": 3.23855448,
+          "posZ": 34.4527626,
+          "rotX": 0.0,
+          "rotY": 179.8,
+          "rotZ": 0.0,
+          "scaleX": 15.33295,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35315847
+        }
+      },
+      {
+        "Color": "Brown",
+        "Transform": {
+          "posX": 0.0,
+          "posY": 3.23855448,
+          "posZ": -34.42515,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 15.3268919,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014534
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": -23.6700039,
+          "posY": 3.23855448,
+          "posZ": 34.43159,
+          "rotX": 0.0,
+          "rotY": 180.0,
+          "rotZ": 0.0,
+          "scaleX": 15.3268747,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014534
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -51.6596222,
+          "posY": 3.23855448,
+          "posZ": -11.7324,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 15.1994505,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.408598
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 51.64263,
+          "posY": 3.23855448,
+          "posZ": -11.7324,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 15.1994352,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.408598
+        }
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 51.5785675,
+          "posY": 3.23855448,
+          "posZ": 11.7324,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 15.1994362,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.408598
+        }
+      },
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -23.6700039,
+          "posY": 3.23855448,
+          "posZ": -34.42515,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 15.3268948,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014534
+        }
+      },
+      {
+        "Color": "Teal",
+        "Transform": {
+          "posX": 0.0,
+          "posY": 3.23855448,
+          "posZ": 34.4527626,
+          "rotX": 0.0,
+          "rotY": 179.800049,
+          "rotZ": 0.0,
+          "scaleX": 15.3329525,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35315847
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 23.6700039,
+          "posY": 3.23855448,
+          "posZ": -34.2558136,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 15.3268747,
+          "scaleY": 11.8970547,
+          "scaleZ": 6.705048
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -51.6596222,
+          "posY": 3.23855448,
+          "posZ": 11.7324,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 15.1994486,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.408598
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "ObjectStates": [
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -34.0000038,
+        "posY": 1.30670619,
+        "posZ": 30.0,
+        "rotX": -2.93793018E-05,
+        "rotY": 180.0037,
+        "rotZ": 0.0146063715,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/769480514681723112/53152065D043079691EB3988B3053BFEABD8FD02/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/769480514681723955/3A773A7157FA8401B12320A556E2BAE4EB95946C/",
+        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/769480514681724742/790F6FDFC48AE4A7034B88C4E71F4B911794648F/",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/769480514681724976/0722DFD64541395C583B5119BB1CAB74EB4825CB/",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.1,
+          "SpecularSharpness": 2.70000148,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "013a28"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -46.0,
+        "posY": 1.30976462,
+        "posZ": 30.0,
+        "rotX": 2.45601E-05,
+        "rotY": -0.00070881244,
+        "rotZ": 359.985382,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/769480514681700414/2A85738C4D9BDDED9962E635C26FFDD2BAEDC0D8/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/769480514681701110/2BCF98FA0831622CFBE669C853B55E7C24F3422B/",
+        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/769480514681705714/6C275E8DEB52F596B624C5DA6A9D7BA1916A10DF/",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/769480514681702105/0FFECC95AB2337A9CA7E03FD3DF87B00A356B423/",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.1,
+          "SpecularSharpness": 2.70000148,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "813198"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -49.9990921,
+        "posY": 1.5613699,
+        "posZ": 14.0005236,
+        "rotX": 359.7718,
+        "rotY": 210.004044,
+        "rotZ": 359.985474,
+        "scaleX": 0.250000417,
+        "scaleY": 0.250000417,
+        "scaleZ": 0.250000417
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/769480514681709961/545F48EF69ACB76503DB204FCB82961852C7D4C5/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/769480514681710625/B15C33F3E8BD2F83B9FE2657289291E3F605BC2D/",
+        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/769480514681711105/1C353097F3C4167F348A38616FB00ADFA604C38C/",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/769480514681710317/C8CCC5598609F06FB517CE97239B4E1B64350CEE/",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.1,
+          "SpecularSharpness": 2.70000148,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "15ce78"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 42.0004959,
+        "posY": 1.08911717,
+        "posZ": 1.99709964,
+        "rotX": -0.000124870465,
+        "rotY": 179.994873,
+        "rotZ": 179.997513,
+        "scaleX": 14.0000381,
+        "scaleY": 14.0000381,
+        "scaleZ": 14.0000381
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.496515632,
+        "g": 0.496515632,
+        "b": 0.496515632
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": true,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://gist.githubusercontent.com/anonymous/2c89c53f43dca7ad8d67f3ee45049f0a/raw/2814f977fbd2fc74eae8c75298ee88addd5adc7f/gistfile1.txt",
+        "DiffuseURL": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0a67e4e4-e898-4a34-8c7c-4cbee7870724/d8slqvg-c62e83b2-0a9e-4d95-af50-47cbd15fc26e.png/v1/fill/w_1024,h_1024,q_75,strp/spaceship_texture_hull_02_by_tiagocomicart-d8slqvg.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi8wYTY3ZTRlNC1lODk4LTRhMzQtOGM3Yy00Y2JlZTc4NzA3MjQvZDhzbHF2Zy1jNjJlODNiMi0wYTllLTRkOTUtYWY1MC00N2NiZDE1ZmMyNmUucG5nIiwid2lkdGgiOiI8PTEwMjQiLCJoZWlnaHQiOiI8PTEwMjQifV1dfQ.BQT2yrHF268zGVyNqzKiEdF5wS1ALE_eqVX-eNvdMO8",
+        "NormalURL": "",
+        "ColliderURL": "https://gist.githubusercontent.com/anonymous/90c71337b0c80ad2db5fa29bb4818a01/raw/76fbc223e3663c9c572d971bfc899ddfc4c704b7/gistfile1.txt",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "600ae9"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 42.0,
+        "posY": 1.08921933,
+        "posZ": -26.0000057,
+        "rotX": 2.48396255E-08,
+        "rotY": 179.989792,
+        "rotZ": 180.0,
+        "scaleX": 14.0000381,
+        "scaleY": 14.0000381,
+        "scaleZ": 14.0000381
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.496515632,
+        "g": 0.496515632,
+        "b": 0.496515632
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": true,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://gist.githubusercontent.com/anonymous/2c89c53f43dca7ad8d67f3ee45049f0a/raw/2814f977fbd2fc74eae8c75298ee88addd5adc7f/gistfile1.txt",
+        "DiffuseURL": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0a67e4e4-e898-4a34-8c7c-4cbee7870724/d8slqvg-c62e83b2-0a9e-4d95-af50-47cbd15fc26e.png/v1/fill/w_1024,h_1024,q_75,strp/spaceship_texture_hull_02_by_tiagocomicart-d8slqvg.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi8wYTY3ZTRlNC1lODk4LTRhMzQtOGM3Yy00Y2JlZTc4NzA3MjQvZDhzbHF2Zy1jNjJlODNiMi0wYTllLTRkOTUtYWY1MC00N2NiZDE1ZmMyNmUucG5nIiwid2lkdGgiOiI8PTEwMjQiLCJoZWlnaHQiOiI8PTEwMjQifV1dfQ.BQT2yrHF268zGVyNqzKiEdF5wS1ALE_eqVX-eNvdMO8",
+        "NormalURL": "",
+        "ColliderURL": "https://gist.githubusercontent.com/anonymous/90c71337b0c80ad2db5fa29bb4818a01/raw/76fbc223e3663c9c572d971bfc899ddfc4c704b7/gistfile1.txt",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "9b32f0"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 13.9999981,
+        "posY": 1.08921981,
+        "posZ": -25.9999981,
+        "rotX": -0.0004981577,
+        "rotY": 179.985153,
+        "rotZ": 180.0,
+        "scaleX": 14.0000381,
+        "scaleY": 14.0000381,
+        "scaleZ": 14.0000381
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.496515632,
+        "g": 0.496515632,
+        "b": 0.496515632
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": true,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://gist.githubusercontent.com/anonymous/2c89c53f43dca7ad8d67f3ee45049f0a/raw/2814f977fbd2fc74eae8c75298ee88addd5adc7f/gistfile1.txt",
+        "DiffuseURL": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0a67e4e4-e898-4a34-8c7c-4cbee7870724/d8slqvg-c62e83b2-0a9e-4d95-af50-47cbd15fc26e.png/v1/fill/w_1024,h_1024,q_75,strp/spaceship_texture_hull_02_by_tiagocomicart-d8slqvg.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi8wYTY3ZTRlNC1lODk4LTRhMzQtOGM3Yy00Y2JlZTc4NzA3MjQvZDhzbHF2Zy1jNjJlODNiMi0wYTllLTRkOTUtYWY1MC00N2NiZDE1ZmMyNmUucG5nIiwid2lkdGgiOiI8PTEwMjQiLCJoZWlnaHQiOiI8PTEwMjQifV1dfQ.BQT2yrHF268zGVyNqzKiEdF5wS1ALE_eqVX-eNvdMO8",
+        "NormalURL": "",
+        "ColliderURL": "https://gist.githubusercontent.com/anonymous/90c71337b0c80ad2db5fa29bb4818a01/raw/76fbc223e3663c9c572d971bfc899ddfc4c704b7/gistfile1.txt",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "af85c0"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 42.0,
+        "posY": 1.08921945,
+        "posZ": 30.0,
+        "rotX": 1.49792044E-07,
+        "rotY": 179.988235,
+        "rotZ": 180.0,
+        "scaleX": 14.0000381,
+        "scaleY": 14.0000381,
+        "scaleZ": 14.0000381
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.496515632,
+        "g": 0.496515632,
+        "b": 0.496515632
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": true,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://gist.githubusercontent.com/anonymous/2c89c53f43dca7ad8d67f3ee45049f0a/raw/2814f977fbd2fc74eae8c75298ee88addd5adc7f/gistfile1.txt",
+        "DiffuseURL": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0a67e4e4-e898-4a34-8c7c-4cbee7870724/d8slqvg-c62e83b2-0a9e-4d95-af50-47cbd15fc26e.png/v1/fill/w_1024,h_1024,q_75,strp/spaceship_texture_hull_02_by_tiagocomicart-d8slqvg.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi8wYTY3ZTRlNC1lODk4LTRhMzQtOGM3Yy00Y2JlZTc4NzA3MjQvZDhzbHF2Zy1jNjJlODNiMi0wYTllLTRkOTUtYWY1MC00N2NiZDE1ZmMyNmUucG5nIiwid2lkdGgiOiI8PTEwMjQiLCJoZWlnaHQiOiI8PTEwMjQifV1dfQ.BQT2yrHF268zGVyNqzKiEdF5wS1ALE_eqVX-eNvdMO8",
+        "NormalURL": "",
+        "ColliderURL": "https://gist.githubusercontent.com/anonymous/90c71337b0c80ad2db5fa29bb4818a01/raw/76fbc223e3663c9c572d971bfc899ddfc4c704b7/gistfile1.txt",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "805ae7"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 14.000001,
+        "posY": 1.08800244,
+        "posZ": 1.99999964,
+        "rotX": 4.76789438E-07,
+        "rotY": 179.9938,
+        "rotZ": 180.0,
+        "scaleX": 14.0000381,
+        "scaleY": 14.0000381,
+        "scaleZ": 14.0000381
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.496515632,
+        "g": 0.496515632,
+        "b": 0.496515632
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": true,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://gist.githubusercontent.com/anonymous/2c89c53f43dca7ad8d67f3ee45049f0a/raw/2814f977fbd2fc74eae8c75298ee88addd5adc7f/gistfile1.txt",
+        "DiffuseURL": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0a67e4e4-e898-4a34-8c7c-4cbee7870724/d8slqvg-c62e83b2-0a9e-4d95-af50-47cbd15fc26e.png/v1/fill/w_1024,h_1024,q_75,strp/spaceship_texture_hull_02_by_tiagocomicart-d8slqvg.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi8wYTY3ZTRlNC1lODk4LTRhMzQtOGM3Yy00Y2JlZTc4NzA3MjQvZDhzbHF2Zy1jNjJlODNiMi0wYTllLTRkOTUtYWY1MC00N2NiZDE1ZmMyNmUucG5nIiwid2lkdGgiOiI8PTEwMjQiLCJoZWlnaHQiOiI8PTEwMjQifV1dfQ.BQT2yrHF268zGVyNqzKiEdF5wS1ALE_eqVX-eNvdMO8",
+        "NormalURL": "",
+        "ColliderURL": "https://gist.githubusercontent.com/anonymous/90c71337b0c80ad2db5fa29bb4818a01/raw/76fbc223e3663c9c572d971bfc899ddfc4c704b7/gistfile1.txt",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "ae269c"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 13.9999971,
+        "posY": 1.089191,
+        "posZ": 29.9999847,
+        "rotX": 0.006318296,
+        "rotY": 179.985214,
+        "rotZ": 179.998062,
+        "scaleX": 14.0000381,
+        "scaleY": 14.0000381,
+        "scaleZ": 14.0000381
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.496515632,
+        "g": 0.496515632,
+        "b": 0.496515632
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": true,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://gist.githubusercontent.com/anonymous/2c89c53f43dca7ad8d67f3ee45049f0a/raw/2814f977fbd2fc74eae8c75298ee88addd5adc7f/gistfile1.txt",
+        "DiffuseURL": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0a67e4e4-e898-4a34-8c7c-4cbee7870724/d8slqvg-c62e83b2-0a9e-4d95-af50-47cbd15fc26e.png/v1/fill/w_1024,h_1024,q_75,strp/spaceship_texture_hull_02_by_tiagocomicart-d8slqvg.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi8wYTY3ZTRlNC1lODk4LTRhMzQtOGM3Yy00Y2JlZTc4NzA3MjQvZDhzbHF2Zy1jNjJlODNiMi0wYTllLTRkOTUtYWY1MC00N2NiZDE1ZmMyNmUucG5nIiwid2lkdGgiOiI8PTEwMjQiLCJoZWlnaHQiOiI8PTEwMjQifV1dfQ.BQT2yrHF268zGVyNqzKiEdF5wS1ALE_eqVX-eNvdMO8",
+        "NormalURL": "",
+        "ColliderURL": "https://gist.githubusercontent.com/anonymous/90c71337b0c80ad2db5fa29bb4818a01/raw/76fbc223e3663c9c572d971bfc899ddfc4c704b7/gistfile1.txt",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "697b06"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -13.9999952,
+        "posY": 1.08921123,
+        "posZ": 29.9999847,
+        "rotX": 0.00623847032,
+        "rotY": 179.985168,
+        "rotZ": 180.0025,
+        "scaleX": 14.0000381,
+        "scaleY": 14.0000381,
+        "scaleZ": 14.0000381
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.496515632,
+        "g": 0.496515632,
+        "b": 0.496515632
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": true,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://gist.githubusercontent.com/anonymous/2c89c53f43dca7ad8d67f3ee45049f0a/raw/2814f977fbd2fc74eae8c75298ee88addd5adc7f/gistfile1.txt",
+        "DiffuseURL": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0a67e4e4-e898-4a34-8c7c-4cbee7870724/d8slqvg-c62e83b2-0a9e-4d95-af50-47cbd15fc26e.png/v1/fill/w_1024,h_1024,q_75,strp/spaceship_texture_hull_02_by_tiagocomicart-d8slqvg.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi8wYTY3ZTRlNC1lODk4LTRhMzQtOGM3Yy00Y2JlZTc4NzA3MjQvZDhzbHF2Zy1jNjJlODNiMi0wYTllLTRkOTUtYWY1MC00N2NiZDE1ZmMyNmUucG5nIiwid2lkdGgiOiI8PTEwMjQiLCJoZWlnaHQiOiI8PTEwMjQifV1dfQ.BQT2yrHF268zGVyNqzKiEdF5wS1ALE_eqVX-eNvdMO8",
+        "NormalURL": "",
+        "ColliderURL": "https://gist.githubusercontent.com/anonymous/90c71337b0c80ad2db5fa29bb4818a01/raw/76fbc223e3663c9c572d971bfc899ddfc4c704b7/gistfile1.txt",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "543485"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -14.0,
+        "posY": 1.08800244,
+        "posZ": 2.00000024,
+        "rotX": -9.719044E-08,
+        "rotY": 179.977188,
+        "rotZ": 180.0,
+        "scaleX": 14.0000381,
+        "scaleY": 14.0000381,
+        "scaleZ": 14.0000381
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.496515632,
+        "g": 0.496515632,
+        "b": 0.496515632
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": true,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://gist.githubusercontent.com/anonymous/2c89c53f43dca7ad8d67f3ee45049f0a/raw/2814f977fbd2fc74eae8c75298ee88addd5adc7f/gistfile1.txt",
+        "DiffuseURL": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0a67e4e4-e898-4a34-8c7c-4cbee7870724/d8slqvg-c62e83b2-0a9e-4d95-af50-47cbd15fc26e.png/v1/fill/w_1024,h_1024,q_75,strp/spaceship_texture_hull_02_by_tiagocomicart-d8slqvg.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi8wYTY3ZTRlNC1lODk4LTRhMzQtOGM3Yy00Y2JlZTc4NzA3MjQvZDhzbHF2Zy1jNjJlODNiMi0wYTllLTRkOTUtYWY1MC00N2NiZDE1ZmMyNmUucG5nIiwid2lkdGgiOiI8PTEwMjQiLCJoZWlnaHQiOiI8PTEwMjQifV1dfQ.BQT2yrHF268zGVyNqzKiEdF5wS1ALE_eqVX-eNvdMO8",
+        "NormalURL": "",
+        "ColliderURL": "https://gist.githubusercontent.com/anonymous/90c71337b0c80ad2db5fa29bb4818a01/raw/76fbc223e3663c9c572d971bfc899ddfc4c704b7/gistfile1.txt",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "63df09"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -14.0,
+        "posY": 1.08921981,
+        "posZ": -26.0,
+        "rotX": -0.0004985733,
+        "rotY": 179.982666,
+        "rotZ": 180.0,
+        "scaleX": 14.0000381,
+        "scaleY": 14.0000381,
+        "scaleZ": 14.0000381
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.496515632,
+        "g": 0.496515632,
+        "b": 0.496515632
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": true,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://gist.githubusercontent.com/anonymous/2c89c53f43dca7ad8d67f3ee45049f0a/raw/2814f977fbd2fc74eae8c75298ee88addd5adc7f/gistfile1.txt",
+        "DiffuseURL": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0a67e4e4-e898-4a34-8c7c-4cbee7870724/d8slqvg-c62e83b2-0a9e-4d95-af50-47cbd15fc26e.png/v1/fill/w_1024,h_1024,q_75,strp/spaceship_texture_hull_02_by_tiagocomicart-d8slqvg.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi8wYTY3ZTRlNC1lODk4LTRhMzQtOGM3Yy00Y2JlZTc4NzA3MjQvZDhzbHF2Zy1jNjJlODNiMi0wYTllLTRkOTUtYWY1MC00N2NiZDE1ZmMyNmUucG5nIiwid2lkdGgiOiI8PTEwMjQiLCJoZWlnaHQiOiI8PTEwMjQifV1dfQ.BQT2yrHF268zGVyNqzKiEdF5wS1ALE_eqVX-eNvdMO8",
+        "NormalURL": "",
+        "ColliderURL": "https://gist.githubusercontent.com/anonymous/90c71337b0c80ad2db5fa29bb4818a01/raw/76fbc223e3663c9c572d971bfc899ddfc4c704b7/gistfile1.txt",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "cceb11"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -42.0000038,
+        "posY": 1.09275925,
+        "posZ": 30.0,
+        "rotX": 3.96339965E-06,
+        "rotY": 179.985168,
+        "rotZ": 180.0146,
+        "scaleX": 14.0000381,
+        "scaleY": 14.0000381,
+        "scaleZ": 14.0000381
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.496515632,
+        "g": 0.496515632,
+        "b": 0.496515632
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": true,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://gist.githubusercontent.com/anonymous/2c89c53f43dca7ad8d67f3ee45049f0a/raw/2814f977fbd2fc74eae8c75298ee88addd5adc7f/gistfile1.txt",
+        "DiffuseURL": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0a67e4e4-e898-4a34-8c7c-4cbee7870724/d8slqvg-c62e83b2-0a9e-4d95-af50-47cbd15fc26e.png/v1/fill/w_1024,h_1024,q_75,strp/spaceship_texture_hull_02_by_tiagocomicart-d8slqvg.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi8wYTY3ZTRlNC1lODk4LTRhMzQtOGM3Yy00Y2JlZTc4NzA3MjQvZDhzbHF2Zy1jNjJlODNiMi0wYTllLTRkOTUtYWY1MC00N2NiZDE1ZmMyNmUucG5nIiwid2lkdGgiOiI8PTEwMjQiLCJoZWlnaHQiOiI8PTEwMjQifV1dfQ.BQT2yrHF268zGVyNqzKiEdF5wS1ALE_eqVX-eNvdMO8",
+        "NormalURL": "",
+        "ColliderURL": "https://gist.githubusercontent.com/anonymous/90c71337b0c80ad2db5fa29bb4818a01/raw/76fbc223e3663c9c572d971bfc899ddfc4c704b7/gistfile1.txt",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "316e26"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -42.0,
+        "posY": 1.09261775,
+        "posZ": 2.0,
+        "rotX": 7.91972468E-07,
+        "rotY": 179.985046,
+        "rotZ": 180.019043,
+        "scaleX": 14.0000381,
+        "scaleY": 14.0000381,
+        "scaleZ": 14.0000381
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.496515632,
+        "g": 0.496515632,
+        "b": 0.496515632
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": true,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://gist.githubusercontent.com/anonymous/2c89c53f43dca7ad8d67f3ee45049f0a/raw/2814f977fbd2fc74eae8c75298ee88addd5adc7f/gistfile1.txt",
+        "DiffuseURL": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0a67e4e4-e898-4a34-8c7c-4cbee7870724/d8slqvg-c62e83b2-0a9e-4d95-af50-47cbd15fc26e.png/v1/fill/w_1024,h_1024,q_75,strp/spaceship_texture_hull_02_by_tiagocomicart-d8slqvg.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi8wYTY3ZTRlNC1lODk4LTRhMzQtOGM3Yy00Y2JlZTc4NzA3MjQvZDhzbHF2Zy1jNjJlODNiMi0wYTllLTRkOTUtYWY1MC00N2NiZDE1ZmMyNmUucG5nIiwid2lkdGgiOiI8PTEwMjQiLCJoZWlnaHQiOiI8PTEwMjQifV1dfQ.BQT2yrHF268zGVyNqzKiEdF5wS1ALE_eqVX-eNvdMO8",
+        "NormalURL": "",
+        "ColliderURL": "https://gist.githubusercontent.com/anonymous/90c71337b0c80ad2db5fa29bb4818a01/raw/76fbc223e3663c9c572d971bfc899ddfc4c704b7/gistfile1.txt",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "38c511"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -42.0,
+        "posY": 1.09275949,
+        "posZ": -26.0,
+        "rotX": 3.57488966E-06,
+        "rotY": 179.985168,
+        "rotZ": 180.0146,
+        "scaleX": 14.0000381,
+        "scaleY": 14.0000381,
+        "scaleZ": 14.0000381
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.496515632,
+        "g": 0.496515632,
+        "b": 0.496515632
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": true,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://gist.githubusercontent.com/anonymous/2c89c53f43dca7ad8d67f3ee45049f0a/raw/2814f977fbd2fc74eae8c75298ee88addd5adc7f/gistfile1.txt",
+        "DiffuseURL": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0a67e4e4-e898-4a34-8c7c-4cbee7870724/d8slqvg-c62e83b2-0a9e-4d95-af50-47cbd15fc26e.png/v1/fill/w_1024,h_1024,q_75,strp/spaceship_texture_hull_02_by_tiagocomicart-d8slqvg.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi8wYTY3ZTRlNC1lODk4LTRhMzQtOGM3Yy00Y2JlZTc4NzA3MjQvZDhzbHF2Zy1jNjJlODNiMi0wYTllLTRkOTUtYWY1MC00N2NiZDE1ZmMyNmUucG5nIiwid2lkdGgiOiI8PTEwMjQiLCJoZWlnaHQiOiI8PTEwMjQifV1dfQ.BQT2yrHF268zGVyNqzKiEdF5wS1ALE_eqVX-eNvdMO8",
+        "NormalURL": "",
+        "ColliderURL": "https://gist.githubusercontent.com/anonymous/90c71337b0c80ad2db5fa29bb4818a01/raw/76fbc223e3663c9c572d971bfc899ddfc4c704b7/gistfile1.txt",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "6a9734"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -26.4195576,
+        "posY": 1.569452,
+        "posZ": 30.0001945,
+        "rotX": 0.00627917843,
+        "rotY": 180.023056,
+        "rotZ": 0.00296476227,
+        "scaleX": 2.799999,
+        "scaleY": 2.799999,
+        "scaleZ": 2.799999
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/769480514681755551/20AFC72DB5C958DF7A89431A0DA42EA6033019D0/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/769480514681755844/4DF4B63231D3C969FF5D72D4018057CBFBB2A7AD/",
+        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/769480514681756076/EDFE327FF99890D509ACC1BFF67B33BD8D4D706A/",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/769480514681756353/A5D2C69648C1E01DF533A71DF9B0EAC896CF4348/",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.1,
+          "SpecularSharpness": 2.70000148,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "612a4e"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -18.0000019,
+        "posY": 1.305372,
+        "posZ": 30.0,
+        "rotX": 0.00622128462,
+        "rotY": 180.004028,
+        "rotZ": 0.00250856532,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/769480514681764555/D14B768EAB96B8DA41F85CD0E28470E630538933/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/769480514681765094/CD41C69102104FEA9583DF3886A6B9A706982753/",
+        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/769480514681766124/DB3FA5D727D4D0C1726E7427CF1A96C05EC27E57/",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/769480514681766302/1ABC4DD09084E9C8C094A1AB74155658790DB522/",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.1,
+          "SpecularSharpness": 2.70000148,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "297843"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -9.999998,
+        "posY": 1.30502176,
+        "posZ": 30.0,
+        "rotX": 0.00622898247,
+        "rotY": 180.004,
+        "rotZ": 0.00251418445,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/769480514681774430/8E92B71E779BA2EFAC1E0AF5886B97278B61DE97/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/769480514681775643/827B1B5C3A5D37E2F2B8296C8A7EAFA65FFC808E/",
+        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/769480514681776758/14D3F51E77072A2E16BBC2419EECA5F52E992C74/",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/769480514681777765/FDD914808864C4EF3805FB465F52F75EF1E84BC2/",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.1,
+          "SpecularSharpness": 2.70000148,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "6d465e"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -41.9999771,
+        "posY": 1.40874481,
+        "posZ": 30.0000114,
+        "rotX": -2.37710028E-05,
+        "rotY": 180.004089,
+        "rotZ": 0.014606243,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/769480514681784696/FD67B2714EB6E98C56E17E67553836CF90D32615/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/769480514681785100/06352EF46B6748C5322F7DF6066E0F9F0B8B9453/",
+        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/769480514681786023/100445FE16AB57C995AA09802C4E140D50FAC749/",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.1,
+          "SpecularSharpness": 2.70000148,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "e0f0c3"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -5.99999475,
+        "posY": 1.30484653,
+        "posZ": 30.0000038,
+        "rotX": 0.00622678,
+        "rotY": 180.004044,
+        "rotZ": 0.00251294556,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/769480514681794221/A1A1AFCC4EF7101D891241D960B7EEE76F7CEF15/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/769480514681794771/54FA6283DB4AD434AAF6CB12F6CBAAE0308051AC/",
+        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/769480514681795788/9460A15E5B428976BDED11E67DD568E09C6D4E57/",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/769480514681796123/9DB764D63DBBE8AADFEE88B6C065CD65DC3D8E3D/",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.1,
+          "SpecularSharpness": 2.70000148,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "6e84b2"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -1.99999523,
+        "posY": 1.30467176,
+        "posZ": 30.0,
+        "rotX": 0.00620920258,
+        "rotY": 179.999741,
+        "rotZ": 0.00250797835,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/769480514681802179/044A5DE629BBEFFE55264BFA9B5D50C362431BBE/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/769480514681802659/7C8244C655E480F37249AF5AA26A63FE303E98D3/",
+        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/769480514681803095/ED4B9E3106DC18BEDEBE65782C8D80A937D064EE/",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/769480514681803486/E235527DF524798FD8CF2CE2374E3BDD8B8D94D8/",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.1,
+          "SpecularSharpness": 2.70000148,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "f6dc01"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 42.0,
+        "posY": 1.30520535,
+        "posZ": 30.0,
+        "rotX": -2.572489E-05,
+        "rotY": 180.0038,
+        "rotZ": 5.93363E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/769480514681819046/D96B999C118353F4243714C7F4DD93AC0898D773/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/769480514681820998/CC6628CF75A8A6A6B6EA1968BCFE9DC7BE5F1CE3/",
+        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/769480514681821689/55B2632C5FE941E0BF471253E35F1611E2639962/",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/769480514681820670/ADAE019F39430442FC062C2653729FEBBC6DECD2/",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.1,
+          "SpecularSharpness": 2.70000148,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "8b6318"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 2.00000167,
+        "posY": 1.30477107,
+        "posZ": 30.0,
+        "rotX": 0.006302002,
+        "rotY": 179.999924,
+        "rotZ": -0.00193865213,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/769480514681833204/D12D35C1CBE006F9356346DB74C711B68DD18F62/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/769480514681840506/7F40B206E380AC1EE3D2795DCFF04854A26F454F/",
+        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/769480514681841667/AC591447F3FD6EF650821CB0BE3C4FC0CB54A6BC/",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/769480514681841827/CB78485EEEB083DEECAC7991026A1A856D441B63/",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.1,
+          "SpecularSharpness": 2.70000148,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "a53c11"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 6.00000858,
+        "posY": 1.30490613,
+        "posZ": 30.0000038,
+        "rotX": 0.00629520277,
+        "rotY": 179.999847,
+        "rotZ": -0.00193776772,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/769480514681848414/C089C2A1CA1464BC5199B818D25FDA64E20E3B9A/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/769480514681848926/F0AA9CDF16D4A5D858779168DD9A050DC9418827/",
+        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/769480514681849919/9ABC9626A46F1530DAEE613517DACE91AEC2D842/",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/769480514681850089/12D8B066536F346325DF50B425A5B4642839E05D/",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.1,
+          "SpecularSharpness": 2.70000148,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "ecd482"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 14.000001,
+        "posY": 1.3051765,
+        "posZ": 30.0,
+        "rotX": 359.9937,
+        "rotY": 0.0146998744,
+        "rotZ": 0.00193634781,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/769480514681862734/9721ECAB77F4DEE82BAD6FD1518FCC2A67E46ED7/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/769480514681865487/DAC9D847E06E295288B27C5526049B243B52A164/",
+        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/769480514681863325/2290324B3ECDD1E0A5576ACA248EA1A505EE7458/",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/769480514681864449/3BFE2FFE320908B9D0624EFC1A3B64FFB3F01C9F/",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.1,
+          "SpecularSharpness": 2.70000148,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "9203b0"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 25.9999962,
+        "posY": 1.305582,
+        "posZ": 30.0,
+        "rotX": 359.9937,
+        "rotY": 0.0147170322,
+        "rotZ": 0.001935602,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/769480514681883314/C54FD1F67BF6293AFF581CBBB458498B6579A611/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/769480514681883835/ECCF403828F3A5557EBEBD6ED120E7C1C241D758/",
+        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/769480514681884995/2FB21589B732913F0CCB11768BFF8FBE35AFFAB0/",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/769480514681850089/12D8B066536F346325DF50B425A5B4642839E05D/",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.1,
+          "SpecularSharpness": 2.70000148,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "0db48b"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 33.9999924,
+        "posY": 1.30520511,
+        "posZ": 30.0,
+        "rotX": 2.88830433E-05,
+        "rotY": 0.014568178,
+        "rotZ": 4.41581562E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/769480514681905967/AB1289E5F99B182108B6A96A329B93F10EBB8D85/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/769480514681906784/97F7FB2F2A8B0240FAC8FD55E699BA8CB0A462C3/",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/769480514681907353/2EF614837892C883245BE3DA7C5D57F675E28D6D/",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.1,
+          "SpecularSharpness": 2.70000148,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "22ac1d"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 29.9999847,
+        "posY": 1.30521178,
+        "posZ": 30.0,
+        "rotX": 1.9021596E-05,
+        "rotY": 180.00502,
+        "rotZ": -0.00145196612,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/769480514681922125/FF9C2013FF12E54DAD6D51E0949A4917A9CDA05B/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/769480514681922650/D5609E88FA20D756532987287EDF12EA0F3BC0A0/",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/769480514681924123/E0C7FC629BD261948B1CC8624D9809B2E5B00C94/",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.1,
+          "SpecularSharpness": 2.70000148,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "9c0afa"
+    }
+  ],
+  "DecalPallet": [],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": "v12.1.6"
+}
